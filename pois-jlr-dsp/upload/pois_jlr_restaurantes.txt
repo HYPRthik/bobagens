@@ -1,0 +1,199 @@
+Rua Irma 158 Sao Paulo SP 03656040 Brazil
+Rua Joaquim Antunes 210 Sao Paulo SP 05415000 Brazil
+Rua Araujo 126 Sao Paulo SP 01247090 Brazil
+Rua Padre Joao Manuel 950 Sao Paulo SP 01411001 Brazil
+Rua General Jardim 173 Sao Paulo SP 01223011 Brazil
+Rua Augusta 2985 Sao Paulo SP 01412100 Brazil
+Rua Fradique Coutinho 1897 Sao Paulo SP 05416012 Brazil
+Rua Mourato Coelho 1404 Sao Paulo SP 05417002 Brazil
+Rua Augusta 1291 Sao Paulo SP 01304001 Brazil
+Rua Vitorio Fasano 88 Sao Paulo SP 01414020 Brazil
+Avenida Magalhaes de Castro 12000 Sao Paulo SP 05676030 Brazil
+Rua dos Pinheiros 1269 Sao Paulo SP 05422012 Brazil
+Rua Bela Cintra 2062 Sao Paulo SP 01415007 Brazil
+Rua Natingui 1545 Sao Paulo SP 05429040 Brazil
+Rua Haddock Lobo 1663 Sao Paulo SP 01414001 Brazil
+Rua Tabapua 1480 Sao Paulo SP 04533005 Brazil
+Rua Augusta Jardim Paulista Sao Paulo SP 01412000 Brazil
+Rua Doutor Mario Ferraz 529 Sao Paulo SP 01453011 Brazil
+Rua Joaquim Antunes Pinheiros Sao Paulo SP 05415001 Brazil
+Rua Oscar Freire 155 Sao Paulo SP 01426001 Brazil
+Rua Diogo Jacome 618 Sao Paulo SP 04512001 Brazil
+Rua Oscar Freire 1631 Sao Paulo SP 05409010 Brazil
+Rua Estados Unidos 1812 Sao Paulo SP 01427001 Brazil
+Rua dos Pinheiros 1629 Sao Paulo SP 05422012 Brazil
+Rua dos Pinheiros 227 Sao Paulo SP 05422010 Brazil
+Rua dos Pinheiros 262 Sao Paulo SP 05422000 Brazil
+Rua Bela Cintra 2047 Sao Paulo SP 01415002 Brazil
+Rua Estados Unidos 2085 Sao Paulo SP 01427002 Brazil
+Rua Bela Cintra 2209 Sao Paulo SP 01415009 Brazil
+Rua dos Pinheiros 1106 Sao Paulo SP 05422001 Brazil
+Rua Joaquim Antunes 183 Sao Paulo SP 05415010 Brazil
+Rua dos Pinheiros 209 Sao Paulo SP 05422010 Brazil
+Avenida Sao Luis Republica Sao Paulo SP 01046000 Brazil
+Rua Oscar Freire Jardim Paulista Sao Paulo SP 01426003 Brazil
+Rua Dias Ferreira 166 Rio de Janeiro RJ 22431050 Brazil
+Avenida Atlantica 4240 Rio de Janeiro RJ 22070002 Brazil
+Rua Dias Ferreira 147 Rio de Janeiro RJ 22431050 Brazil
+Rua Luis Coelho Consolacao Sao Paulo SP 01309000 Brazil
+Rua Iaia 107 Sao Paulo SP 04537010 Brazil
+Rua Joaquim Antunes 116 Sao Paulo SP 05415000 Brazil
+Rua Conego Eugenio Leite 220 Sao Paulo SP 05414011 Brazil
+Rua Itapura 1473 Sao Paulo SP 03310000 Brazil
+Rua Haddock Lobo 1415 Sao Paulo SP 01414003 Brazil
+Rua dos Pinheiros 344 Sao Paulo SP 05422000 Brazil
+Rua Avanhandava 908 Sao Paulo SP 01306000 Brazil
+Alameda Ministro Rocha Azevedo 726 Sao Paulo SP 01410000 Brazil
+Rua Padre Joao Manuel 955 Sao Paulo SP 01411001 Brazil
+Alameda Casa Branca 1008 Sao Paulo SP 01408001 Brazil
+Rua Oscar Freire 390 Sao Paulo SP 01426000 Brazil
+Rua Bela Cintra 1569 Sao Paulo SP 01415009 Brazil
+Rua Oscar Freire 282 Sao Paulo SP 01426000 Brazil
+Rua Sarandi 30 Sao Paulo SP 01414010 Brazil
+Rua Dias Ferreira 155 Rio de Janeiro RJ 22431050 Brazil
+Rua Dias Ferreira 233 Rio de Janeiro RJ 22431050 Brazil
+Rua dos Pinheiros 358 Sao Paulo SP 05422000 Brazil
+Avenida Santo Amaro 884 Sao Paulo SP 04506000 Brazil
+Rua Padre Joao Manuel 1126 Sao Paulo SP 01411001 Brazil
+Rua Maria Antonia 216 Sao Paulo SP 01222010 Brazil
+Rua Capitao Pinto Ferreira 15 Sao Paulo SP 01423020 Brazil
+Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05426100 Brazil
+Rua Joaquim Floriano 563 Sao Paulo SP 04534011 Brazil
+Rua dos Pinheiros 230 Sao Paulo SP 05422000 Brazil
+Rua Campos Bicudo 129 Sao Paulo SP 04536010 Brazil
+Power2Go Rua Oscar Freire 281 Sao Paulo SP 01426000 Brazil
+Rua General Severiano Botafogo Rio de Janeiro RJ 22290040 Brazil
+Rua Visconde de Piraja 338 Rio de Janeiro RJ 22410003 Brazil
+Rua Figueiredo de Magalhaes Copacabana Rio de Janeiro RJ 22031011 Brazil
+Rua Conde de Ipanema 40 Sao Paulo SP 04611020 Brazil
+Rua Bela Cintra 2183 Sao Paulo SP 01415009 Brazil
+Rua Haddock Lobo 1091 Sao Paulo SP 01414003 Brazil
+Rua Augusta 2705 Sao Paulo SP 01413100 Brazil
+Alameda Rio Claro 28 Sao Paulo SP 01332010 Brazil
+Rua Santa Clara 84 Rio de Janeiro RJ 22041011 Brazil
+Rua Dias Ferreira 320 Rio de Janeiro RJ 22431050 Brazil
+Rua Dias Ferreira 175 Rio de Janeiro RJ 22431050 Brazil
+Rua Dias Ferreira 189 Rio de Janeiro RJ 22431050 Brazil
+Rua Dias Ferreira 242 Rio de Janeiro RJ 22431050 Brazil
+Rua Sergipe 410 Sao Paulo SP 01243001 Brazil
+Rua Djalma Ulrich 4 Rio de Janeiro RJ 22071020 Brazil
+Alameda Tiete 665 Sao Paulo SP 01417020 Brazil
+Rua Voluntarios da Patria 368 Rio de Janeiro RJ 22270010 Brazil
+Rua Conde Bernadotte 44 Rio de Janeiro RJ 22430200 Brazil
+Rua Uruguaiana 110 Rio de Janeiro RJ 20050092 Brazil
+Rua Doutor Mario Ferraz 538 Sao Paulo SP 01453011 Brazil
+Rua Levindo Lopes 241 Belo Horizonte MG 30140170 Brazil
+Spp Asa Norte Brasilia DF 70150000 Brazil
+Rua Colombia 84 Sao Paulo SP 01438000 Brazil
+Alameda Jau 1580 Sao Paulo SP 01420006 Brazil
+Rua da Consolacao 3675 Sao Paulo SP 01416000 Brazil
+Alameda Gabriel Monteiro da Silva 1678 Sao Paulo SP 01441001 Brazil
+Rua Doutor Mario Ferraz 510 Sao Paulo SP 01453011 Brazil
+Rua Guatemala 75 Sao Paulo SP 01437050 Brazil
+Rua Amauri 282 Sao Paulo SP 01448000 Brazil
+Rua Professor Artur Ramos 404 Sao Paulo SP 01454011 Brazil
+Rua Estados Unidos 1862 Sao Paulo SP 01427001 Brazil
+Rua Maria Rosa 119 Sao Paulo SP 01453080 Brazil
+Rua Colombia 217 Sao Paulo SP 01438000 Brazil
+Avenida Brigadeiro Faria Lima 2232 Sao Paulo SP 01452001 Brazil
+Avenida Reboucas 3454 Sao Paulo SP 05402300 Brazil
+Rua Barao de Jaguaripe 289 Rio de Janeiro RJ 22421000 Brazil
+Rua Barao de Jaguaripe 242 Rio de Janeiro RJ 22421000 Brazil
+Rua General Venancio Flores 157 Rio de Janeiro RJ 22441090 Brazil
+Estrada da Barra da Tijuca 1636 Rio de Janeiro RJ 22641010 Brazil
+Rua Barao de Jaguaripe 94 Rio de Janeiro RJ 22421000 Brazil
+Rua Humberto de Campos 105 Rio de Janeiro RJ 22430190 Brazil
+Avenida Ataulfo de Paiva 355 Rio de Janeiro RJ 22440032 Brazil
+Rua Visconde de Piraja 559 Rio de Janeiro RJ 22410002 Brazil
+Rua Gutemberg 216 Curitiba PR 80420030 Brazil
+Alameda Presidente Taunay 335 Curitiba PR 80420180 Brazil
+Avenida Afonso Pena Savassi Belo Horizonte MG 30130012 Brazil
+Rua Comendador Araujo 777 Curitiba PR 80420063 Brazil
+Shis Ql 8 Lago Sul DF 71620215 Brazil
+SQS 315 Bloco B Asa Sul Brasilia DF 70384020 Brazil
+Avenida Assis Chateaubriand 554 Belo Horizonte MG 30150101 Brazil
+Rua Inconfidentes 619 Belo Horizonte MG 30140124 Brazil
+Avenida Lageado 991 Porto Alegre RS 90460110 Brazil
+Avenida Teixeira Mendes 882 Porto Alegre RS 91330391 Brazil
+Rua Andrelino Natividade da Costa 97 Florianopolis SC 88090390 Brazil
+Rua Pereira Cardoso 588 Morungaba SP 13260000 Brazil
+Shell Bairro da Ponte Itatiba SP Brazil
+Rodovia Raposo Tavares Mairinque SP 18120000 Brazil
+Avenida Gilson Sa 263 Mangaratiba RJ 23860000 Brazil
+Rodovia Dom Pedro I Mato Dentro Atibaia SP Brazil
+Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22620172 Brazil
+Rua Tenente Francisco Antonio 295 Paraty RJ 23970000 Brazil
+Rua E 40 Armacao dos Buzios RJ 28950000 Brazil
+Avenida Princesa Isabel 1457 Ilhabela SP 11630000 Brazil
+Shis Qi 13 Lago Sul DF 71635060 Brazil
+Rua da Ferradura Ferradura Armacao dos Buzios RJ 28950000 Brazil
+Rua Almirante Alexandrino 5 Rio de Janeiro RJ 20241260 Brazil
+Ciclovia da Niemeyer Leblon Rio de Janeiro RJ Brazil
+Rua Cais Pharoux Centro Rio de Janeiro RJ 20010070 Brazil
+Rodovia Jornalista Manoel de Menezes 773 Florianopolis SC 88061700 Brazil
+Avenida Atlantica 1702 Rio de Janeiro RJ 22021001 Brazil
+Avenida Queiroz Filho 830 Sao Paulo SP 05319000 Brazil
+Edificio Rivergardens Batel Curitiba PR 80420090 Brazil
+Setor de Mansoes do Lago Lago Norte DF 71540121 Brazil
+Estrada do Vinho Sao Roque SP 18145002 Brazil
+Rua Bom Pastor 800 Sao Paulo SP 04203000 Brazil
+Estrada General Eurico Gaspar Dutra Jurujuba Niteroi RJ 24370375 Brazil
+Avenida Manoel Viera 603 Aracoiaba da Serra SP 18190000 Brazil
+Rua General Polidoro 101 Rio de Janeiro RJ 22280002 Brazil
+Estrada da Canoa Sao Conrado Rio de Janeiro RJ 22610210 Brazil
+Avenida Doutor Arnaldo 1828 Sao Paulo SP 01255000 Brazil
+Rua da Amendoeira 3 Rio de Janeiro RJ 22641004 Brazil
+Monumento a Tiradentes BR 356 Centro Ouro Preto MG 35400000 Brazil
+Rua Principal Santa Maria Madalena RJ 28770000 Brazil
+Via N1 Oeste Asa Norte Brasilia DF 70705130 Brazil
+Largo da Pedreira Chacara Fatima Paraty RJ 23970000 Brazil
+BR 381 Sao Goncalo do Rio Abaixo MG 35935000 Brazil
+Avenida Antunes Ribas 1325 Sao Miguel das Missoes RS 98865000 Brazil
+Rua Franklin Ferreira da Costa 1275 Sao Miguel das Missoes RS 98865000 Brazil
+Rua Luciano Notagiacomo 510 Sao Luiz Gonzaga RS 97800000 Brazil
+Rua Dalila Lorenzoni 139 Entre Ijuis RS 98855000 Brazil
+Rua Menna Barreto 1425 Jaguarao RS 96300000 Brazil
+Rua dos Pinheiros 324 Sao Paulo SP 05422000 Brazil
+Rua dos Pinheiros 266 Sao Paulo SP 05422000 Brazil
+Rua Barao de Capanema 551 Sao Paulo SP 01411011 Brazil
+Rua Augusta 15 Sao Paulo SP 01305000 Brazil
+Rua Augusta Republica Sao Paulo SP 01034000 Brazil
+Rua Oscar Freire 384 Sao Paulo SP 01426000 Brazil
+Rua Doutor Renato Paes de Barros 465 Sao Paulo SP 04530000 Brazil
+Rua Melo Alves 767 Sao Paulo SP 01417010 Brazil
+Rua Nilza Medeiros Martins 21 Sao Paulo SP 05628010 Brazil
+Rua Coronel Oscar Porto 638 Sao Paulo SP 04003002 Brazil
+Avenida Indianopolis 1401 Sao Paulo SP 04063002 Brazil
+Rua Coronel Xavier de Toledo Republica Sao Paulo SP 01048000 Brazil
+Avenida Paulista 1578 Sao Paulo SP 01310000 Brazil
+Rua Barao de Capanema 456 Sao Paulo SP 01411010 Brazil
+Rua Bandeira Paulista 520 Sao Paulo SP 04532001 Brazil
+Rua Haddock Lobo 1738 Sao Paulo SP 01414002 Brazil
+Avenida Presidente Juscelino Kubitschek 816 Sao Paulo SP 04543000 Brazil
+Rua Joaquim Antunes 110 Sao Paulo SP 05415000 Brazil
+Rua da Consolacao 3545 Sao Paulo SP 01416001 Brazil
+Avenida Marginal Pinheiros Morumbi Sao Paulo SP 05676030 Brazil
+Rua Bela Cintra 2230 Sao Paulo SP 01415002 Brazil
+Rua Oscar Freire 523 Sao Paulo SP 01426001 Brazil
+Rua Oscar Freire 216 Sao Paulo SP 01426000 Brazil
+Rua Iguatemi 276 Sao Paulo SP 01451011 Brazil
+Rua Medeiros de Albuquerque Pinheiros Sao Paulo SP 05436060 Brazil
+Rua Peixoto Gomide 1901 Sao Paulo SP 01409002 Brazil
+Rua Treze de Maio 596 Sao Paulo SP 01327000 Brazil
+Avenida Mauro Ramos 80 Florianopolis SC 88020300 Brazil
+Rua Manuel da Nobrega 66 Sao Paulo SP 04001000 Brazil
+Rua Padre Joao Manuel 708 Sao Paulo SP 01411001 Brazil
+Rua Pontins 52 Sao Paulo SP 02404010 Brazil
+Rua Harmonia 521 Sao Paulo SP 05435000 Brazil
+Alameda Campinas 1333 Sao Paulo SP 01404002 Brazil
+Rua Amaral Gurgel 352 Sao Paulo SP 01221001 Brazil
+Rua Sergipe 753 Sao Paulo SP 01243001 Brazil
+Rua Artur de Azevedo 546 Sao Paulo SP 05404001 Brazil
+Alameda Tiete 638 Sao Paulo SP 01417020 Brazil
+Rua Benjamin Egas 275 Sao Paulo SP 05418030 Brazil
+Rua Medeiros de Albuquerque 254 Sao Paulo SP 05436060 Brazil
+Rua Padre Carvalho 149 Sao Paulo SP 05427020 Brazil
+Rua Cotoxo 110 Sao Paulo SP 05021000 Brazil
+Alameda Franca 1151 Sao Paulo SP 01422005 Brazil
+Rua Pedroso Alvarenga 677 Sao Paulo SP 04531011 Brazil
+Rua Virajuba 1099 Sao Paulo SP 02847085 Brazil

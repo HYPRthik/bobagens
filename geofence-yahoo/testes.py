@@ -99,6 +99,43 @@ L = linhas(f"{TMP}/t4c/f.txt") if rc == 0 else []
 check("cidade ambígua: NÃO apaga a cidade", L and "Macae" in L[0], L)
 check("cidade ambígua: avisa no risco", "cidade nao identificada" in out, out[-300:])
 
+print("\n=== T4b nome do estabelecimento antes do logradouro ===")
+p = entrada("venue.csv", 'endereco\n'
+    '"Churrascaria Ponteio Mogi das Cruzes, Avenida Francisco Ferreira Lopes, 460, Centro, Mogi das Cruzes - SP, 08710-000, Brasil"\n'
+    '"AUDI, Rua Padre Germano Mayer, 1629, Hugo Lange, Curitiba - PR, 80040-170, Brasil"\n'
+    '"Terminal Asa Sul, Asa Sul, Brasília - DF, 70610-200, Brasil"\n')
+rc, out = run([p, "-o", f"{TMP}/t4e", "--nome", "v"])
+L = linhas(f"{TMP}/t4e/v.txt") if rc == 0 else []
+check("corta 'Churrascaria Ponteio Mogi das Cruzes'",
+      L[:1] == ["Avenida Francisco Ferreira Lopes 460 Mogi das Cruzes SP 08710000 Brazil"], L[:1] or out[-300:])
+check("corta 'AUDI'",
+      len(L) > 1 and L[1] == "Rua Padre Germano Mayer 1629 Curitiba PR 80040170 Brazil", L[1:2])
+check("sem tipo de logradouro: mantém o nome",
+      len(L) > 2 and "Terminal Asa Sul" in L[2], L[2:3])
+
+print("\n=== T4b2 corte de nome NUNCA apaga rua com número ===")
+p = entrada("blvd.csv", 'endereco\n'
+    '"Boulevard Vinte e Oito de Setembro, 271, Vila Isabel, Rio de Janeiro - RJ, 20551-030, Brasil"\n'
+    '"Loja X, Rua das Flores, 88, Vila Nova, Curitiba - PR, 80000-000, Brasil"\n')
+rc, out = run([p, "-o", f"{TMP}/t4g", "--nome", "bv"])
+L = linhas(f"{TMP}/t4g/bv.txt") if rc == 0 else []
+check("preserva 'Boulevard ... 271'",
+      L[:1] == ["Boulevard Vinte e Oito de Setembro 271 Rio de Janeiro RJ 20551030 Brazil"],
+      L[:1] or out[-300:])
+check("ainda corta nome quando é seguro",
+      len(L) > 1 and L[1] == "Rua das Flores 88 Curitiba PR 80000000 Brazil", L[1:2])
+
+print("\n=== T4c número da porta com letra e bairro iniciado por conectivo ===")
+p = entrada("numalpha.csv", 'endereco\n'
+    '"Rua Olegario Mariano, 40A, Centro, São João de Meriti - RJ, 25510-350, Brasil"\n'
+    '"Avenida do Estado, 1155, Dos Pioneiros, Balneário Camboriú - SC, 88331-110, Brasil"\n')
+rc, out = run([p, "-o", f"{TMP}/t4f", "--nome", "na"])
+L = linhas(f"{TMP}/t4f/na.txt") if rc == 0 else []
+check("'40A' é número de porta",
+      L[:1] == ["Rua Olegario Mariano 40A Sao Joao de Meriti RJ 25510350 Brazil"], L[:1] or out[-300:])
+check("'Dos Pioneiros' é bairro, não conectivo",
+      len(L) > 1 and L[1] == "Avenida do Estado 1155 Balneario Camboriu SC 88331110 Brazil", L[1:2])
+
 print("\n=== T5 número da porta não confunde com número no nome da rua ===")
 p = entrada("num.csv", "endereco;cidade;uf;cep\n"
             "Avenida 2 de Agosto 352 Asa Norte;Irece;BA;44864130\n"

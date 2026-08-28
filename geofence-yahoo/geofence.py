@@ -103,6 +103,10 @@ def ascii_puro(s):
     return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9 ]", " ", sem_acento(s))).strip()
 
 
+def slug(s):
+    return re.sub(r"[^a-z0-9]+", "_", sem_acento(s).lower()).strip("_")
+
+
 def uf_do_cep(c):
     for uf, a, b in CEPFX:
         if a <= c <= b:
@@ -258,6 +262,19 @@ def partir_endereco(txt):
         else:
             if len(segs) > 1:
                 cidade = segs.pop()       # sem UF: ultimo segmento e a cidade
+        # "Churrascaria Ponteio, Avenida Francisco Ferreira Lopes, 460, ..." —
+        # o nome do estabelecimento vem antes do logradouro e e ruido puro.
+        # So corta quando ha um segmento seguinte que comeca com tipo de logradouro.
+        for i, seg in enumerate(segs):
+            if not INICIO_LOGRADOURO.match(seg.strip()):
+                continue
+            # so corta se o que vem antes nao tiver digito: um numero ali significa
+            # que aquilo ja e o endereco, e nao o nome do estabelecimento
+            # ("Boulevard Vinte e Oito de Setembro, 271, Vila Isabel" — "Vila"
+            # casa como tipo, mas cortar apagaria a rua e o numero).
+            if i and i <= 2 and not any(re.search(r"\d", x) for x in segs[:i]):
+                segs = segs[i:]
+            break
         return " ".join(segs).strip(" ,-"), cidade, uf, cep
 
     ufs = [x for x in re.finditer(r"\b([A-Z]{2})\b", t) if x.group(1) in UFBOX]
@@ -282,7 +299,13 @@ TIPOS_EXP = {
  "pca": "Praca", "al": "Alameda", "tv": "Travessa", "trav": "Travessa",
  "lgo": "Largo", "vl": "Vila", "cj": "Conjunto", "q": "Quadra",
 }
-CONECTIVOS = {"de", "da", "do", "dos", "das", "e"}
+CONECTIVOS = {"de", "da", "do", "dos", "das", "e"}   # so em minuscula: "Dos Pioneiros" e bairro
+INICIO_LOGRADOURO = re.compile(
+    r"^(rua|r|avenida|av|avd|rodovia|rod|estrada|est|estr|praca|pca|pc|alameda|al|"
+    r"travessa|tv|trav|largo|lgo|via|viela|ladeira|marginal|passeio|conjunto|cj|"
+    r"quadra|q|qi|qe|qn|qs|sqn|sqs|scs|shis|shin|sgas|cln|cls|sia|st|setor|"
+    r"bloco|bl|nucleo|vila|vl|parque|pq|boulevard|blvd|eixo|esplanada|elevado|"
+    r"acesso|servidao|beco|anel|contorno|linha|chacara|sitio|fazenda)\b", re.I)
 SIGLAS_UF = set(UFBOX)
 RUIDO = [
  r"\bkm\.?\s*\d+[\d,.]*\b",       # Km 56, KM 04 — nao e numero de porta
@@ -312,11 +335,12 @@ def partir_numero(miolo):
     """
     tk = miolo.split()
     for i, t in enumerate(tk):
-        if i < 2 or not t.isdigit():
+        # aceita 40A, 1029D — Google devolve numero com letra
+        if i < 2 or not re.fullmatch(r"\d{1,6}[A-Za-z]?", t):
             continue
-        prox = tk[i + 1].lower() if i + 1 < len(tk) else ""
-        if prox in CONECTIVOS:
-            continue
+        prox = tk[i + 1] if i + 1 < len(tk) else ""
+        if prox in CONECTIVOS:      # minuscula: "Avenida 2 de Agosto".
+            continue                # "Dos Pioneiros" e bairro, nao conectivo
         if tk[i - 1].upper() in SIGLAS_UF or tk[i - 1].upper() == "BR":
             continue
         return " ".join(tk[:i + 1]), " ".join(tk[i + 1:])
@@ -362,6 +386,10 @@ def main():
                          "funcionou, sem reescrever; a forma essencial so e aplicada ao "
                          "que falhou. Evita regredir o que ja estava bom.")
     ap.add_argument("--split", type=int, default=LIMITE_DSP, help=f"maximo de enderecos por arquivo (padrao {LIMITE_DSP})")
+    ap.add_argument("--separar-por", default=None, metavar="COLUNA",
+                    help="gera um arquivo por valor desta coluna (ex: POI, Estado). "
+                         "Cada line item da DSP recebe uma lista, entao normalmente "
+                         "se quer um arquivo por audiencia.")
     a = ap.parse_args()
 
     aprovados = set()
@@ -396,11 +424,24 @@ def main():
     base = a.nome or re.sub(r"[^A-Za-z0-9]+", "_", os.path.splitext(os.path.basename(a.entrada))[0]).strip("_").lower()
     os.makedirs(a.saida, exist_ok=True)
 
+    def grupo_de(row):
+        return str(row[cols_grupo]).strip() if len(row) > cols_grupo else ""
+
     def campo(row, papel):
         i = cols.get(papel)
         return str(row[i]).strip() if i is not None and len(row) > i else ""
 
-    saidas, descartes, confer = [], [], []
+    cols_grupo = None
+    if a.separar_por:
+        alvo = sem_acento(a.separar_por).lower().strip()
+        for i, h in enumerate(header):
+            if sem_acento(h).lower().strip() == alvo:
+                cols_grupo = i
+                break
+        if cols_grupo is None:
+            sys.exit(f"coluna {a.separar_por!r} nao encontrada. Colunas: {', '.join(map(str, header))}")
+
+    saidas, descartes, confer, grupos = [], [], [], {}
     for n, row in enumerate(corpo, start=2):
         nome = campo(row, "nome")
         categoria = campo(row, "categoria")
@@ -462,8 +503,11 @@ def main():
                                "lat_corrigida": "" if lat is None else f"{lat:.6f}".rstrip("0").rstrip("."),
                                "lon_corrigida": "" if lon is None else f"{lon:.6f}".rstrip("0").rstrip("."),
                                "bairro_descartado": "", "severidade": "", "risco": ""})
+                if cols_grupo is not None:
+                    grupos.setdefault(grupo_de(row), []).append(completa)
                 continue
-            numero = rua_num.split()[-1] if rua_num.split() and rua_num.split()[-1].isdigit() else ""
+            ult = rua_num.split()[-1] if rua_num.split() else ""
+            numero = ult if re.fullmatch(r"\d{1,6}[A-Za-z]?", ult) else ""
             sev, risco = classificar_risco(rua_num, numero, cep or "")
             if cidade_ambigua:
                 risco.append("cidade nao identificada, bairro mantido (informe coluna "
@@ -476,6 +520,8 @@ def main():
             descartes.append((n, nome or f"linha {n}", "endereco curto demais", bruto or "(vazio)"))
             continue
         saidas.append(linha)
+        if cols_grupo is not None:
+            grupos.setdefault(grupo_de(row), []).append(linha)
         confer.append({"linha": n, "nome": nome, "categoria": categoria, "origem": origem,
                        "endereco_original": bruto, "endereco_dsp": linha,
                        "cidade": cidade or "", "uf": uf or "", "cep": cep or "",
@@ -514,12 +560,25 @@ def main():
         print(f"\ndetalhe linha a linha em {pdesc}")
         return 2
 
-    lotes = [unicos[i:i + a.split] for i in range(0, len(unicos), a.split)]
+    conjuntos = [(base, unicos)]
+    if cols_grupo is not None:
+        for g in sorted(grupos):
+            vistos_g, uniq_g = set(), []
+            for x in grupos[g]:
+                if x in vistos_g:
+                    continue
+                vistos_g.add(x)
+                uniq_g.append(x)
+            rot = slug(g) or "sem_valor"
+            conjuntos.append((f"{base}_{rot}", uniq_g))
+
     gerados = []
-    for k, lote in enumerate(lotes, 1):
-        sufixo = "" if len(lotes) == 1 else f"_parte{k}"
+    for nome_base, conj in conjuntos:
+      lotes = [conj[i:i + a.split] for i in range(0, len(conj), a.split)] or [[]]
+      for k, lote in enumerate(lotes, 1):
+        base_i, sufixo = nome_base, ("" if len(lotes) == 1 else f"_parte{k}")
         for ext in ("txt", "csv"):
-            p = os.path.join(a.saida, f"{base}{sufixo}.{ext}")
+            p = os.path.join(a.saida, f"{base_i}{sufixo}.{ext}")
             with open(p, "w", newline="", encoding="ascii") as f:
                 if ext == "txt":
                     f.write("\r\n".join(lote) + ("\r\n" if lote else ""))
@@ -581,6 +640,8 @@ def main():
             print(f"                {c:5d}  {m}")
     print(f"\narquivos gerados em {a.saida}/:")
     for p, n in gerados:
+        if p.endswith(".csv"):
+            continue                      # o .csv espelha o .txt, nao polui o relatorio
         print(f"  {os.path.basename(p):42} {n:6d} enderecos")
     print(f"  {os.path.basename(pconf):42}   conferencia")
     if riscosos:

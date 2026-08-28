@@ -76,6 +76,8 @@ Marca o que a DSP historicamente rejeita, com percentuais medidos no retorno rea
 | Colunas | Acha `endereco`, `nome`, `cidade`, `uf`, `cep`, `lat`, `lon`, `categoria`, em português ou inglês |
 | Sem cabeçalho | Detecta e não come a primeira linha |
 | Formato Google | `Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200` — com ou sem aspas |
+| Nome do estabelecimento | `Churrascaria Ponteio, Avenida Francisco Ferreira Lopes, 460, ...` → corta o nome. Nunca corta se o trecho anterior tiver número (`Boulevard Vinte e Oito de Setembro, 271`) |
+| Número com letra | `40A`, `1029D` são número de porta |
 | Abreviações | `Av` → `Avenida`, `Rod` → `Rodovia` |
 | Ruído | Remove `Km 56`, `S N` — não são endereçáveis |
 | Número da porta | Não confunde com número no nome (`Avenida 2 de Agosto 352`) nem com sigla de rodovia (`Rodovia BR 470 7150`) |
@@ -102,6 +104,7 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 | `--pais` | `Brazil` | País no fim do endereço. Vazio para omitir |
 | `--aprovados` | — | Retorno da DSP de um upload anterior |
 | `--manter-bairro` | — | Não descarta o bairro |
+| `--separar-por` | — | Gera um arquivo por valor da coluna (ex: `POI`, `Estado`) — cada line item recebe uma lista |
 | `--split` | `10000` | Máximo de endereços por arquivo |
 
 ## Testes
@@ -110,8 +113,9 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 python3 testes.py
 ```
 
-26 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
+31 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
 recusa de lista só com coordenadas, remoção do bairro nas três formas em que a
 cidade é identificável, proteção contra apagar a cidade quando não é, número da
 porta, expansão de abreviação, encoding, sem cabeçalho, categoria isenta,
-limite de 10.000, duplicatas e ASCII em toda a saída.
+limite de 10.000, duplicatas, corte de nome de estabelecimento com a trava que
+impede apagar rua com número, e ASCII em toda a saída.
