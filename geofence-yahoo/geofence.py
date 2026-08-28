@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
 """
 geofence.py — prepara qualquer lista de POIs para o upload de geofencing da Yahoo DSP.
 
     python3 geofence.py entrada.csv
-    python3 geofence.py entrada.csv -o saida/ --nome campanha_x --raio 0.19
+    python3 geofence.py entrada.csv -o saida/ --nome campanha_x
 
 Regras da DSP implementadas aqui
 --------------------------------
@@ -14,17 +13,27 @@ Regras da DSP implementadas aqui
     apenas letras, digitos e espaco.
   * So Airports, Arena/Stadiums e Universities/Colleges podem ir com o NOME do POI
     em vez do endereco. Qualquer outra categoria exige endereco completo.
-  * O raio e em MILHAS (radiusUnit: MILES). 0.3 milha = 483 m; 300 m = 0.19 milha.
 
-O que o script resolve sozinho
-------------------------------
-  * Encoding (UTF-8 com/sem BOM, cp1252, latin-1) e separador (, ; tab |).
-  * Descobre as colunas pelo cabecalho (endereco, nome, cidade, UF, CEP, lat, lon)
-    em portugues ou ingles; se nao houver cabecalho util, inspeciona o conteudo.
-  * Remonta o endereco em ordem convencional quando ele vem quebrado em colunas.
-  * Conserta coordenada destruida por locale de virgula decimal
-    (-229.753.965 -> -22.9753965), validando contra a bounding box da UF.
-  * Remove duplicatas e reporta tudo que ficou de fora e por que.
+Forma essencial
+---------------
+A mensagem de erro da propria DSP diz o que ela procura: "Check street address,
+city & postal code are correct". Sao esses tres campos, mais UF e pais. Tudo o
+mais e ruido, entao a saida e:
+
+    <logradouro> <numero> <cidade> <UF> <CEP> Brazil
+
+O BAIRRO e descartado. Ele nao e pedido pela DSP e colide com nome de cidade:
+"Av Lacerda Agostinho 300 Botafogo Macae RJ" faz o geocodificador ancorar em
+Botafogo/Rio em vez de Macae; "Praca Sao Conrado 20 Sao Conrado Rio de Janeiro"
+repete o mesmo termo duas vezes. Nos 202 enderecos Nissan que a DSP processou,
+20% falharam, e o bairro colidente aparece em boa parte deles.
+
+Abreviacao de logradouro e expandida (Av -> Avenida, Rod -> Rodovia) e ruido
+nao enderecavel e removido (Km 56, S N).
+
+Endereco de rodovia e o caso mais fragil: 57% a 67% deles falharam na DSP,
+contra 11% a 17% das ruas normais. O script marca esses no relatorio de risco
+para conferencia manual antes do upload.
 """
 import argparse
 import collections
@@ -214,13 +223,43 @@ def candidatos(tok, faixa):
 
 
 def partir_endereco(txt):
-    """Separa CEP / miolo / UF / cidade de um endereco brasileiro em texto corrido."""
+    """Separa CEP / miolo / UF / cidade de um endereco brasileiro.
+
+    Entende as duas formas comuns:
+      "Av. Paulista, 1578 - Bela Vista, Sao Paulo - SP, 01310-200"  (Google)
+      "01310200 Av Paulista 1578 Bela Vista SP Sao Paulo"           (flat)
+
+    Devolve cidade=None quando ela NAO e identificavel com seguranca — nesse caso
+    quem chama nao pode descartar o bairro, porque a cidade estaria escondida
+    dentro dele ("... 300 Botafogo Macae RJ": Macae e a cidade, nao o bairro).
+    """
     t = " ".join(str(txt).split())
     cep = uf = cidade = None
     m = re.search(r"\b(\d{5})-?(\d{3})\b", t)
     if m:
         cep = m.group(1) + m.group(2)
-        t = (t[:m.start()] + " " + t[m.end():]).strip()
+        t = (t[:m.start()] + " " + t[m.end():]).strip(" ,-")
+    t = re.sub(r",?\s*(brasil|brazil)\s*$", "", t, flags=re.I).strip(" ,-")
+
+    if "," in t:                       # forma com virgulas: estrutura confiavel
+        segs = [x.strip(" -") for x in t.split(",") if x.strip(" -")]
+        for i in range(len(segs) - 1, -1, -1):
+            mm = [x for x in re.finditer(r"\b([A-Z]{2})\b", segs[i]) if x.group(1) in UFBOX]
+            if not mm:
+                continue
+            uf = mm[-1].group(1)
+            resto = (segs[i][:mm[-1].start()] + " " + segs[i][mm[-1].end():]).strip(" -")
+            segs.pop(i)
+            if resto:
+                cidade = resto            # "Sao Paulo - SP" no mesmo segmento
+            elif i > 0:
+                cidade = segs.pop(i - 1)  # UF sozinha, cidade no segmento anterior
+            break
+        else:
+            if len(segs) > 1:
+                cidade = segs.pop()       # sem UF: ultimo segmento e a cidade
+        return " ".join(segs).strip(" ,-"), cidade, uf, cep
+
     ufs = [x for x in re.finditer(r"\b([A-Z]{2})\b", t) if x.group(1) in UFBOX]
     if ufs:
         u = ufs[-1]
@@ -228,10 +267,85 @@ def partir_endereco(txt):
         depois = t[u.end():].strip(" ,-")
         antes = t[:u.start()].strip(" ,-")
         if depois and len(depois.split()) <= 6:
-            cidade, t = depois, antes
+            cidade, t = depois, antes     # "... SP Ourinhos": cidade vem depois da UF
         else:
+            # UF fecha a string: o que sobra tem bairro E cidade grudados, sem
+            # como separar com seguranca. cidade fica None de proposito.
             t = (antes + " " + depois).strip()
     return t.strip(" ,-"), cidade, uf, cep
+
+
+# ---- forma essencial do endereco -----------------------------------------
+TIPOS_EXP = {
+ "av": "Avenida", "avn": "Avenida", "avd": "Avenida", "r": "Rua",
+ "rod": "Rodovia", "est": "Estrada", "estr": "Estrada", "pc": "Praca",
+ "pca": "Praca", "al": "Alameda", "tv": "Travessa", "trav": "Travessa",
+ "lgo": "Largo", "vl": "Vila", "cj": "Conjunto", "q": "Quadra",
+}
+CONECTIVOS = {"de", "da", "do", "dos", "das", "e"}
+SIGLAS_UF = set(UFBOX)
+RUIDO = [
+ r"\bkm\.?\s*\d+[\d,.]*\b",       # Km 56, KM 04 — nao e numero de porta
+ r"\bs\s*/?\s*n\b",                # S N, S/N (sem numero)
+ r"\bsn\b",
+]
+
+
+def expandir_tipo(txt):
+    """Av -> Avenida, Rod -> Rodovia. Forma canonica geocodifica melhor."""
+    tk = txt.split()
+    if not tk:
+        return txt
+    chave = tk[0].lower().strip(".")
+    if chave in TIPOS_EXP:
+        tk[0] = TIPOS_EXP[chave]
+    return " ".join(tk)
+
+
+def partir_numero(miolo):
+    """Separa '<logradouro> <numero>' do BAIRRO que vem depois.
+
+    O numero da porta e o primeiro inteiro puro que:
+      - nao esta nas duas primeiras posicoes (senao 'Avenida 2 de Agosto' quebra),
+      - nao e seguido de conectivo ('Avenida 2 de Agosto'),
+      - nao vem logo depois de sigla de rodovia ('Rodovia BR 470' -> 470 nao e porta).
+    """
+    tk = miolo.split()
+    for i, t in enumerate(tk):
+        if i < 2 or not t.isdigit():
+            continue
+        prox = tk[i + 1].lower() if i + 1 < len(tk) else ""
+        if prox in CONECTIVOS:
+            continue
+        if tk[i - 1].upper() in SIGLAS_UF or tk[i - 1].upper() == "BR":
+            continue
+        return " ".join(tk[:i + 1]), " ".join(tk[i + 1:])
+    return miolo, ""
+
+
+def limpar_ruido(txt):
+    for r in RUIDO:
+        txt = re.sub(r, " ", txt, flags=re.I)
+    return re.sub(r"\s+", " ", txt).strip()
+
+
+def classificar_risco(logradouro, numero, cep):
+    """Marca o que a DSP historicamente rejeita. ALTO vale conferencia manual;
+    MEDIO e sinal fraco, so pesa junto com outro. Percentuais medidos nos 202
+    enderecos Nissan que a DSP processou."""
+    alto, medio = [], []
+    if re.search(r"\b(Rodovia|Estrada|Via)\b", logradouro, re.I) or \
+       re.search(r"\b(BR|" + "|".join(SIGLAS_UF) + r")\s+\d{3}\b", logradouro):
+        alto.append("endereco de rodovia (57-67% falharam)")
+    if not numero:
+        alto.append("sem numero de porta")
+    nome = " ".join(logradouro.split()[1:])
+    if not nome or nome.isdigit():
+        alto.append("logradouro sem nome")
+    if cep and cep.endswith("000"):
+        medio.append("CEP generico de cidade, nao de rua (2,4x mais falha)")
+    # sinal fraco sozinho so vira aviso se acompanhar um forte
+    return ("ALTO", alto + medio) if alto else (("MEDIO", medio) if medio else ("", []))
 
 
 def main():
@@ -240,14 +354,35 @@ def main():
     ap.add_argument("-o", "--saida", default="saida_dsp", help="diretorio de saida")
     ap.add_argument("--nome", default=None, help="nome base dos arquivos gerados")
     ap.add_argument("--pais", default="Brazil", help="pais anexado ao fim do endereco (vazio para omitir)")
-    ap.add_argument("--raio", default=None, help="raio EM MILHAS, so para registro na conferencia (0.19 = ~300 m)")
+    ap.add_argument("--manter-bairro", action="store_true",
+                    help="mantem o bairro no endereco (padrao: descarta, ver docstring)")
+    ap.add_argument("--aprovados", default=None, metavar="RETORNO.CSV",
+                    help="arquivo de retorno da DSP de um upload anterior. Todo endereco "
+                         "que voltou 'successful' e reenviado com a string EXATA que "
+                         "funcionou, sem reescrever; a forma essencial so e aplicada ao "
+                         "que falhou. Evita regredir o que ja estava bom.")
     ap.add_argument("--split", type=int, default=LIMITE_DSP, help=f"maximo de enderecos por arquivo (padrao {LIMITE_DSP})")
     a = ap.parse_args()
+
+    aprovados = set()
+    if a.aprovados:
+        for r in csv.reader(io.StringIO(open(a.aprovados, encoding="utf-8-sig",
+                                             errors="replace").read())):
+            if len(r) >= 2 and r[1].strip().lower() == "successful" and r[0].strip():
+                aprovados.add(" ".join(r[0].split()))
+        print(f"aprovados     : {len(aprovados)} enderecos ja validados pela DSP serao "
+              f"reenviados sem alteracao\n")
 
     linhas, delim, enc = ler(a.entrada)
     linhas = [l for l in linhas if any(str(c).strip() for c in l)]
     if not linhas:
         sys.exit("arquivo vazio")
+    # endereco com virgula que veio SEM aspas se espalha em colunas extras.
+    # Junta de volta o excedente na ultima coluna prevista pelo cabecalho.
+    ncols = len(linhas[0])
+    if ncols > 0 and any(len(l) > ncols for l in linhas[1:]):
+        linhas = [l if len(l) <= ncols else l[:ncols - 1] + [", ".join(l[ncols - 1:])]
+                  for l in linhas]
     if parece_cabecalho(linhas[0]):
         header, corpo = linhas[0], linhas[1:]
         cols = mapear(header, corpo)
@@ -291,19 +426,52 @@ def main():
         lat = cla[0] if len(cla) == 1 else None
         lon = clo[0] if len(clo) == 1 else None
 
+        bairro_fora, risco, sev, cidade_ambigua = "", [], "", False
         if isenta and nome:
             linha = ascii_puro(nome)
             origem = "nome (categoria isenta)"
         else:
-            partes = [p for p in (miolo, cidade, uf, cep, a.pais) if p]
-            linha = ascii_puro(" ".join(partes))
-            origem = "endereco"
             # endereco util precisa de rua e de pelo menos cidade ou CEP
             if not miolo or not (cidade or cep):
                 motivo = ("so tem coordenada, sem endereco" if (cla or clo) and not bruto
                           else "endereco incompleto")
                 descartes.append((n, nome or f"linha {n}", motivo, bruto or "(vazio)"))
                 continue
+            # forma essencial: logradouro + numero + cidade + UF + CEP + pais.
+            # O bairro sai: a DSP pede "street address, city & postal code", e o
+            # bairro colide com nome de cidade ("Botafogo Macae", "Sao Conrado
+            # 20 Sao Conrado"), ancorando o geocodificador no lugar errado.
+            rua_num, bairro_fora = partir_numero(limpar_ruido(expandir_tipo(miolo)))
+            if (a.manter_bairro or not cidade) and bairro_fora:
+                # sem cidade identificada, o que parece bairro pode conter a propria
+                # cidade — descartar apagaria ela. Mantem tudo e avisa no risco.
+                rua_num = f"{rua_num} {bairro_fora}"
+                bairro_fora = ""
+                if not cidade and not a.manter_bairro:
+                    cidade_ambigua = True
+            # se a forma COM bairro ja passou pela DSP num upload anterior, ela vai
+            # de volta identica: nao se reescreve o que ja funciona
+            completa = ascii_puro(" ".join(p for p in (miolo, cidade, uf, cep, a.pais) if p))
+            if completa in aprovados:
+                saidas.append(completa)
+                confer.append({"linha": n, "nome": nome, "categoria": categoria,
+                               "origem": "reenviado (ja aprovado pela DSP)",
+                               "endereco_original": bruto, "endereco_dsp": completa,
+                               "cidade": cidade or "", "uf": uf or "", "cep": cep or "",
+                               "lat_original": campo(row, "lat"), "lon_original": campo(row, "lon"),
+                               "lat_corrigida": "" if lat is None else f"{lat:.6f}".rstrip("0").rstrip("."),
+                               "lon_corrigida": "" if lon is None else f"{lon:.6f}".rstrip("0").rstrip("."),
+                               "bairro_descartado": "", "severidade": "", "risco": ""})
+                continue
+            numero = rua_num.split()[-1] if rua_num.split() and rua_num.split()[-1].isdigit() else ""
+            sev, risco = classificar_risco(rua_num, numero, cep or "")
+            if cidade_ambigua:
+                risco.append("cidade nao identificada, bairro mantido (informe coluna "
+                             "'cidade' ou use endereco com virgulas)")
+                sev = sev or "MEDIO"
+            partes = [p for p in (rua_num, cidade, uf, cep, a.pais) if p]
+            linha = ascii_puro(" ".join(partes))
+            origem = "endereco"
         if len(linha) < 8:
             descartes.append((n, nome or f"linha {n}", "endereco curto demais", bruto or "(vazio)"))
             continue
@@ -314,7 +482,8 @@ def main():
                        "lat_original": campo(row, "lat"), "lon_original": campo(row, "lon"),
                        "lat_corrigida": "" if lat is None else f"{lat:.6f}".rstrip("0").rstrip("."),
                        "lon_corrigida": "" if lon is None else f"{lon:.6f}".rstrip("0").rstrip("."),
-                       "raio_milhas": a.raio or ""})
+                       "bairro_descartado": bairro_fora,
+                       "severidade": sev, "risco": "; ".join(risco)})
 
     vistos, unicos, dup = set(), [], 0
     for s in saidas:
@@ -361,11 +530,20 @@ def main():
     pconf = os.path.join(a.saida, f"{base}_conferencia.csv")
     campos = ["linha", "nome", "categoria", "origem", "endereco_original", "endereco_dsp",
               "cidade", "uf", "cep", "lat_original", "lon_original",
-              "lat_corrigida", "lon_corrigida", "raio_milhas"]
+              "lat_corrigida", "lon_corrigida", "bairro_descartado", "severidade", "risco"]
     with open(pconf, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=campos, delimiter=";")
         w.writeheader()
         w.writerows(confer)
+    riscosos = [c for c in confer if c["risco"]]
+    if riscosos:
+        prisco = os.path.join(a.saida, f"{base}_risco.csv")
+        with open(prisco, "w", newline="", encoding="utf-8-sig") as f:
+            w = csv.writer(f, delimiter=";")
+            w.writerow(["severidade", "linha", "nome", "endereco_dsp", "risco"])
+            for c in sorted(riscosos, key=lambda x: x["severidade"] != "ALTO"):
+                w.writerow([c["severidade"], c["linha"], c["nome"], c["endereco_dsp"], c["risco"]])
+
     if descartes:
         pdesc = os.path.join(a.saida, f"{base}_descartados.csv")
         with open(pdesc, "w", newline="", encoding="utf-8-sig") as f:
@@ -405,13 +583,25 @@ def main():
     for p, n in gerados:
         print(f"  {os.path.basename(p):42} {n:6d} enderecos")
     print(f"  {os.path.basename(pconf):42}   conferencia")
+    if riscosos:
+        n_alto = sum(1 for c in riscosos if c["severidade"] == "ALTO")
+        print(f"  {base}_risco.csv{'':<{max(0, 42-len(base)-11)}}   {n_alto} ALTO + {len(riscosos)-n_alto} MEDIO")
     if descartes:
         print(f"  {base}_descartados.csv{'':<{max(0, 42-len(base)-18)}}   o que ficou de fora e por que")
-    if a.raio:
-        try:
-            print(f"\nraio informado: {a.raio} milha(s) = {float(a.raio)*1609.34:.0f} m")
-        except ValueError:
-            pass
+    n_reenv = sum(1 for c in confer if c["origem"].startswith("reenviado"))
+    if n_reenv:
+        print(f"\nreenviados sem alteracao (ja aprovados): {n_reenv}")
+        print(f"reescritos na forma essencial          : {len(confer) - n_reenv}")
+    n_bairro = sum(1 for c in confer if c["bairro_descartado"])
+    if n_bairro:
+        print(f"\nbairro descartado em {n_bairro} enderecos (use --manter-bairro para nao descartar)")
+    for nivel in ("ALTO", "MEDIO"):
+        grupo = [r for r in riscosos if r["severidade"] == nivel]
+        if grupo:
+            rot = "conferir a mao antes de subir" if nivel == "ALTO" else "sinal fraco, so informativo"
+            print(f"risco {nivel} em {len(grupo)} enderecos ({rot}):")
+            for m, c in collections.Counter(m for r in grupo for m in r["risco"].split("; ")).most_common():
+                print(f"  {c:5d}  {m}")
     print("\nvalidacao     : " + ("TUDO OK" if not falhas else "FALHAS:\n  " + "\n  ".join(falhas)))
     return 1 if falhas else 0
 

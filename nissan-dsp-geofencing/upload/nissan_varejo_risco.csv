@@ -1,0 +1,21 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;30;CARRERA ACELERA COTIA;Rodovia Raposo Tavares Granja Viana Cotia SP 06707000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;57;DRSUL ARARANGUÁ;477 Ararangua SC 88900000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;64;DRSUL RIO DO SUL;Rodovia BR 470 7150 Rio do Sul SC 89163020 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;65;DRSUL SANTA CRUZ DO SUL;Rodovia BR 471 3510 Santa Cruz do Sul RS 96845545 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;91;IESA ERECHIM;BR 153 15 Fatima Erechim RS 99709200 Brazil;sem numero de porta
+ALTO;93;IESA GRAVATAÍ;Rodovia RS 020 110 Gravatai RS 94090720 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;94;IESA NOVO HAMBURGO;Estrada BR 116 496 Novo Hamburgo RS 93334300 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;95;IESA OSORIO;Rodovia BR 101 1100 Osorio RS 95520000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;98;ITAIMBE PASSO FUNDO;Rodovia RS 153 391 Passo Fundo RS 99034600 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;108;JAPAN PARNAIBA;Rodovia BR 343 Parnaiba PI 64205190 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;122;KOBE CACHOEIRO DO ITAPEMIRIM;Rodovia Engenheiro Fabiano Vivacqua 223 Cachoeiro de Itapemirim ES 29313656 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;127;KOBE MANHUAÇU;Rodovia BR 262 30 Manhuacu MG 36900000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;138;NIKAI ARAPIRACA;Rodovia AL 220 SENADOR ARNON DE MELO Arapiraca AL 57300000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;143;NISCAR PATOS;Rua Prefeito Biroca Firmino Sete Casas Patos PB 58705280 Brazil;sem numero de porta
+ALTO;187;TROPICAL ANANINDEUA;Rodovia BR 316 3530 Ananindeua PA 67020000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;192;TROPICAL PARAUAPEBAS;Rodovia PA 275 0 Parauapebas PA 68515000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+MEDIO;72;EUROVIA LAURO DE FREITAS;Avenida Santos Dumont 2376 Lauro de Freitas BA 42700000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;109;JAPAN TERESINA;Avenida Joao XXIII 3480 Teresina PI 64045000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;152;RAVIERA CAMPO GRANDE;Rua Ceara 242 Campo Grande MS 79040000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;159;SAGA TAGUATINGA;Quadra QS 03 Brasilia DF 71953000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
