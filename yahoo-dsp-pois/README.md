@@ -1,65 +1,55 @@
-# POIs Unificados HYPR/JLR — arquivos de geofencing para a Yahoo DSP
+# POIs Unificados HYPR/JLR — status: BLOQUEADO, faltam os endereços
 
-## O que aconteceu no upload original
+> **Correção.** A primeira versão deste diretório dizia para subir os CSVs de
+> coordenadas no "campo de latitude/longitude" da DSP. **Esse campo não existe.**
+> Os arquivos em `upload/`, `por_estado/` e `por_poi/` **não funcionam** no
+> geofencing da Yahoo DSP e estão mantidos aqui só como base de dados limpa.
 
-O arquivo `HYPR_JLR_POIs_Unificados_2.xlsx` foi enviado no campo de upload por
-**endereço** da DSP (o relatório de retorno se chama `line4353189geofencing`**`addresslist`**`.csv`).
-Esse campo geocodifica texto — ele nunca leu as coordenadas.
+## O formato real do geofencing da Yahoo DSP
 
-Das 2.686 linhas: **3 foram aceitas**, 2.170 falharam e **513 sumiram sem aparecer no relatório**.
+- Arquivo **TXT ou CSV**, com **um endereço por linha ou célula**. A DSP lê a
+  linha inteira como um endereço de texto livre — não é uma planilha de colunas.
+- Máximo de **10.000 endereços** por line item e por arquivo.
+- **Caracteres especiais podem dar erro**: `é`, `à`, `ç`, `#`, `-`.
+- Só estas categorias de POI podem ser enviadas **pelo nome, sem endereço**:
+  Airports, Arena / Stadiums, Universities / Colleges. Todas as outras exigem
+  **endereço completo**.
+- O raio é medido em **MILHAS** (`radiusUnit: MILES` na API). O valor 0,3 que
+  estava na planilha equivale a **483 m**, não a 300 m.
 
-Duas evidências de que o problema é o campo de upload, não os dados:
+## Por que os dois uploads falharam
 
-1. A própria linha de **cabeçalho** (`Latitude,Longitude,Radius Distance,Estado,POI`)
-   voltou marcada como `successful` — a DSP geocodificou o texto do cabeçalho como
-   se fosse um endereço.
-2. O motivo do erro acompanha exatamente a coluna `Estado`, que a DSP leu como o
-   campo "state" de um endereço:
+| Upload | Resultado | Motivo |
+|---|---|---|
+| Planilha original (5 colunas) | 3 de 2.686 | Cada linha virou uma string de endereço. As que continham `SP` — UF válida — davam `Incomplete address`; com `Demais Praças`, nem estado era reconhecido, daí `Unknown error`. Os 3 "successful" foram coincidência de geocodificação. |
+| CSV de coordenadas (3 colunas) | 0 de 2.424 | Sem nenhum texto de endereço, a string `-23.568083,-46.673556,0.3` não geocodifica em nada. Daí `All 2424 addresses failed`. |
 
-   | Estado          | Erro retornado                | Linhas |
-   |-----------------|-------------------------------|-------:|
-   | `SP` (UF válida)| `Incomplete address`          | 1.030 |
-   | `Demais Praças` | `Unknown error`               | 1.021 |
-   | `Demais Praças` | `Cannot match full address`   |   119 |
+A linha de **cabeçalho** do arquivo original voltou marcada como `successful` —
+a DSP geocodificou o texto `Latitude,Longitude,Radius Distance,Estado,POI` como
+se fosse um endereço. É a prova mais direta de que o campo é de texto livre.
 
-Os 3 "successful" foram coincidência de geocodificação, não acerto de coordenada.
+## O que falta
 
-**As coordenadas estão corretas.** As 2.686 são válidas e caem dentro do Brasil.
+As 2.424 coordenadas estão corretas e validadas, mas **coordenada não é endereço**.
+Nenhuma das 11 categorias da lista (Bancos, Concessionárias, Joalherias, Marinas,
+Restaurantes, Shoppings, Clubes, Helipontos, Decor, Resorts, Golf Clubs) está na
+lista de exceções que aceitam só o nome.
 
-## O que fazer
+Dois caminhos:
 
-Subir os arquivos abaixo no campo de **latitude/longitude** da DSP, não no de endereço.
+1. **Recuperar o export original dos POIs com endereço.** É o caminho limpo — a
+   lista veio de alguma fonte (Google Places ou similar) que quase certamente
+   trazia `formatted_address`. Com isso o arquivo sai pronto na hora.
+2. **Geocodificação reversa das 2.424 coordenadas.** Funciona, mas é aproximada:
+   devolve o endereço mais próximo, que nem sempre é o do estabelecimento.
 
-| Arquivo | Geofences |
-|---|---:|
-| `upload/pois_unificados_TODOS.csv` | 2.424 |
-| `por_estado/sp.csv` | 1.016 |
-| `por_estado/demais_pracas.csv` | 1.408 |
-| `por_poi/*.csv` (11 categorias) | 2.436 |
+## Conteúdo
 
-Os arquivos por POI somam 2.436 porque 12 coordenadas pertencem a duas categorias
-(ex.: um clube que também é golf club). Cada lista de targeting é independente, então
-elas aparecem nas duas — mas só uma vez no arquivo único, que não aceita geofence repetido.
+- `HYPR_JLR_POIs_Unificados_LIMPO.xlsx` — base limpa: 2.686 → 2.424 coordenadas
+  distintas, validadas dentro do Brasil, com Estado e categoria. Serve como
+  insumo para qualquer um dos dois caminhos acima.
+- `upload/`, `por_estado/`, `por_poi/` — CSVs de coordenadas. **Não são
+  uploadáveis** no formato atual da DSP.
+- `build.py` — regenera tudo a partir de `origem_pois_unificados.csv`.
 
-## Limpeza aplicada
-
-1. **Cabeçalho removido** — a DSP lê a primeira linha como dado.
-2. **Colunas `Estado` e `POI` retiradas** do upload — viravam campos de endereço.
-   A segmentação foi preservada nos arquivos separados por estado e por categoria.
-3. **Duplicatas removidas** — 2.686 → 2.424 coordenadas distintas.
-4. **Coordenadas arredondadas para 6 casas** (~11 cm), eliminando ruído de float
-   (`-46,72234770000001` → `-46,722348`).
-5. **Formato**: 3 colunas, ASCII, quebra de linha CRLF.
-
-## Atenção: unidade do raio
-
-O valor `0,3` foi mantido como estava. Confirme a unidade no painel da DSP — se ela
-interpretar em **milhas**, 0,3 vira **483 m** em vez dos 300 m pretendidos.
-
-## Arquivos
-
-- `HYPR_JLR_POIs_Unificados_LIMPO.xlsx` — planilha de referência (LEIA-ME, base completa
-  com Estado/POI, e resumo por categoria). **Não é o arquivo de upload.**
-- `build.py` — regenera tudo a partir da planilha de origem, com validação.
-  `python3 build.py origem_pois_unificados.csv`
-- `origem_pois_unificados.csv` — export original, para rastreabilidade.
+Veja `../nissan-dsp-geofencing/` para um exemplo já no formato correto.

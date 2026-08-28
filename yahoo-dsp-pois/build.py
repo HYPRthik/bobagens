@@ -123,45 +123,37 @@ ws.title = "LEIA-ME"
 ws.column_dimensions["A"].width = 22
 ws.column_dimensions["B"].width = 98
 LEIA = [
- ("HYPR / JLR — POIs Unificados · versão corrigida para Yahoo DSP", ""), ("", ""),
- ("PROBLEMA", "O arquivo foi enviado no campo de upload por ENDEREÇO (geofencing address list)."),
- ("", "A DSP tentou geocodificar as colunas como endereço, em vez de ler as coordenadas."),
- ("", "Prova 1: a própria linha de CABEÇALHO ('Latitude,Longitude,...') voltou como 'successful'"),
- ("", "— a DSP geocodificou o texto do cabeçalho como se fosse um endereço."),
- ("", "Prova 2: o motivo do erro acompanha exatamente a coluna Estado:"),
- ("", "        Estado = 'SP' (UF válida)  ->  'Incomplete address'            1.030 linhas"),
- ("", "        Estado = 'Demais Praças'   ->  'Unknown error'                 1.021 linhas"),
- ("", "        Estado = 'Demais Praças'   ->  'Cannot match full address'       119 linhas"),
- ("", "Os 3 'successful' foram coincidência de geocodificação, não acerto de coordenada."),
- ("", "Outras 513 linhas foram descartadas em silêncio, sem nem aparecer no relatório."), ("", ""),
- ("SOLUÇÃO", "Subir os arquivos da pasta /upload no campo de LATITUDE/LONGITUDE da DSP."),
- ("", "Formato: 3 colunas (lat, lon, raio), SEM cabeçalho, sem acento, quebra de linha CRLF."), ("", ""),
- ("LIMPEZA APLICADA", "1. Cabeçalho removido — a DSP lê a 1a linha como dado."),
- ("", "2. Colunas 'Estado' e 'POI' retiradas do upload — viravam campos de endereço."),
- ("", f"3. Duplicatas removidas: {len(body):,} linhas originais -> {n_todos:,} geofences únicos."),
- ("", f"4. Coordenadas arredondadas para {DECIMALS} casas (~11 cm), eliminando ruído de float"),
- ("", "        ex.: -46,72234770000001  ->  -46,722348"),
- ("", "5. Validação: 100% das coordenadas são válidas e caem dentro do Brasil."), ("", ""),
- ("ATENÇÃO — RAIO", "O valor 0,3 foi mantido como estava. Confirme a UNIDADE no painel da DSP:"),
- ("", "se a DSP interpretar em MILHAS, 0,3 = 483 m em vez dos 300 m pretendidos."), ("", ""),
- (f"{len(records):,} x {n_todos:,}".replace(",", "."),
-  f"A aba 'POIs_Limpos' tem {len(records):,} linhas e o arquivo único de upload tem {n_todos:,}.".replace(",", ".")),
- ("", f"A diferença são {len(records)-n_todos} coordenadas que pertencem a DUAS categorias (ex.: um clube"),
- ("", "que também é golf club). Elas aparecem nos dois arquivos por POI — correto, são listas"),
- ("", "de targeting separadas — mas só uma vez no arquivo único, que não aceita geofence repetido."), ("", ""),
- ("NESTE ARQUIVO", "'POIs_Limpos' = base completa com Estado e POI (referência, não é o arquivo de upload)."),
- ("", "'Resumo' = geofences por Estado e por categoria de POI."),
- ("", "Arquivos de upload prontos: /upload, /por_estado e /por_poi (CSV)."),
+ ("HYPR / JLR — POIs Unificados · base limpa (NÃO é arquivo de upload)", ""), ("", ""),
+ ("SITUAÇÃO", "Os CSVs de coordenadas deste pacote NÃO funcionam no geofencing da Yahoo DSP."),
+ ("", "A DSP exige ENDEREÇO em texto, não coordenada. Faltam os endereços dos POIs."), ("", ""),
+ ("FORMATO DA DSP", "· Arquivo TXT ou CSV, UM ENDEREÇO POR LINHA (texto livre, não é planilha)."),
+ ("", "· Máximo 10.000 endereços por line item e por arquivo."),
+ ("", "· Caracteres especiais podem dar erro: é, à, ç, #, -"),
+ ("", "· Só Airports, Arena/Stadiums e Universities/Colleges podem ir só com o nome."),
+ ("", "  Todas as 11 categorias desta lista exigem endereço completo."),
+ ("", "· O raio é em MILHAS. O 0,3 da planilha = 483 m, não 300 m."), ("", ""),
+ ("POR QUE FALHOU", "Upload 1 (5 colunas):  3 de 2.686 aceitos."),
+ ("", "  Cada linha virou uma string de endereço. Com 'SP' (UF válida) -> 'Incomplete"),
+ ("", "  address'; com 'Demais Praças' -> 'Unknown error'. Os 3 aceitos foram coincidência."),
+ ("", "Upload 2 (3 colunas de coordenada):  0 de 2.424 aceitos."),
+ ("", "  Sem texto de endereço, '-23.568083,-46.673556,0.3' não geocodifica em nada."),
+ ("", "Prova: a linha de CABEÇALHO do arquivo original voltou como 'successful' — a DSP"),
+ ("", "geocodificou o texto do cabeçalho como se fosse endereço."), ("", ""),
+ ("O QUE FALTA", "1. Recuperar o export original dos POIs COM endereço (caminho limpo), ou"),
+ ("", "2. Geocodificação reversa das 2.424 coordenadas (aproximado)."), ("", ""),
+ ("ESTA PLANILHA", f"'POIs_Limpos' = {len(records):,} pares POI x coordenada, já deduplicados e validados".replace(",", ".")),
+ ("", f"dentro do Brasil. {n_todos:,} coordenadas distintas. Insumo para os dois caminhos acima.".replace(",", ".")),
+ ("", "'Resumo' = contagem por Estado e por categoria."),
 ]
 for i, (a, b) in enumerate(LEIA, 1):
     ws.cell(i, 1, a).font = A(bold=True, size=10)
     c = ws.cell(i, 2, b)
     c.font = A(size=10)
     c.alignment = Alignment(vertical="top")
-ws["A1"].font = A(bold=True, size=13, color="1F3864")
-for r in (3, 14, 17, 24, 27, 32):
+ws["A1"].font = A(bold=True, size=13, color="C00000")
+for r in (3, 6, 13, 21, 24):
     ws.cell(r, 1).font = AZUL
-for r in (24, 25):
+for r in (3, 4):
     ws.cell(r, 2).font = A(size=10, bold=True, color="C00000")
 
 # --- aba POIs_Limpos ---
