@@ -158,11 +158,11 @@ ALTO;536;;Avenida Iguacu Agua Verde Curitiba PR 80240031 Brazil;sem numero de po
 ALTO;537;;Avenida Rodrigo Fernando Grillo Jardim dos Manacas Araraquara SP 14801534 Brazil;sem numero de porta
 ALTO;542;;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01452001 Brazil;sem numero de porta
 ALTO;561;;Cronix Security Anhangabau Jundiai SP 13208703 Brazil;sem numero de porta
-ALTO;569;;Avenida Sete de Setembro Reboucas 80230 010 Curitiba PR 40033001 Brazil;sem numero de porta
+ALTO;569;;Avenida Sete de Setembro Reboucas 80230 010 Curitiba PR 80230010 Brazil;sem numero de porta
 ALTO;571;;Rua Jose Fernandes Maldonado Bairro Alto Curitiba PR 82840020 Brazil;sem numero de porta
 ALTO;579;;Rodovia Professor Alfredo Rolim de Moura 1001 Mogi das Cruzes SP 08880000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;587;;Rua Raimundo Correa Vila Marina Dias Sorocaba SP 18035265 Brazil;sem numero de porta
-ALTO;588;;10 Andar Torre Maggiore Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil;sem numero de porta
+ALTO;588;;Torre Maggiore Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil;sem numero de porta
 ALTO;613;;Avenida Sete de Setembro Centro Passo Fundo RS 99010121 Brazil;sem numero de porta
 ALTO;627;;Rua Gra Nicco Mossungue Curitiba PR 81200200 Brazil;sem numero de porta
 ALTO;628;;Avenida Brigadeiro Faria Lima Itaim Bibi Sao Paulo SP 04538133 Brazil;sem numero de porta
@@ -318,7 +318,7 @@ ALTO;1516;;Pousada Brilho do Sol Serra Negra SP 13930000 Brazil;"sem numero de p
 ALTO;1517;;Estrada Bougainville 442 Rio de Janeiro RJ 22753210 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1518;;Avenida Heraclito Fontoura Sobral Pinto Ribeirao Preto SP 14022020 Brazil;sem numero de porta
 ALTO;1523;;Rodovia ARA 227 Ararangua SC 88900000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1525;;Quiosque 5 Aruja SP 07400000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1525;;Aruja SP 07400000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1528;;Estrada das Arcas Proximo ao 2525 Petropolis RJ 25745430 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1532;;Rua Durval de Oliveira Sao Carlos SP 13571783 Brazil;sem numero de porta
 ALTO;1533;;Estrada da Ilha 4830 Joinville SC 89239250 Brazil;endereco de rodovia (57-67% falharam)

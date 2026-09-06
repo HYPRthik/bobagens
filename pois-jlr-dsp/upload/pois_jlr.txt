@@ -526,7 +526,7 @@ Avenida dos Imigrantes 415A Vinhedo SP 13280000 Brazil
 Rua Maria Monteiro 830 Campinas SP 13025151 Brazil
 Avenida Pedro Botesi 2149 Mogi Mirim SP 13806019 Brazil
 Rua Tamekichi Takano 595 Registro SP 11900000 Brazil
-Avenida Sete de Setembro Reboucas 80230 010 Curitiba PR 40033001 Brazil
+Avenida Sete de Setembro Reboucas 80230 010 Curitiba PR 80230010 Brazil
 Rua Capitao Tobias Pereira da Cruz 52 Sao Jose dos Pinhais PR 83005050 Brazil
 Rua Jose Fernandes Maldonado Bairro Alto Curitiba PR 82840020 Brazil
 Avenida Sete de Setembro 4690 Curitiba PR 80240000 Brazil
@@ -545,7 +545,7 @@ Rua Amazonas 439 Sao Caetano do Sul SP 09520060 Brazil
 Avenida Frei Pacifico Wagner 163 Caraguatatuba SP 11660280 Brazil
 Avenida Adolfo Pinheiro 1029 Sao Paulo SP 04734002 Brazil
 Rua Raimundo Correa Vila Marina Dias Sorocaba SP 18035265 Brazil
-10 Andar Torre Maggiore Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil
+Torre Maggiore Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil
 Rua Claudionor Sandoval 741 Presidente Prudente SP 19023200 Brazil
 Avenida Ayrton Senna da Silva 600 Londrina PR 86050460 Brazil
 Rua Leoberto Leal 440 Papanduva SC 89370000 Brazil
@@ -1456,7 +1456,7 @@ Rua Pio X II 580 Ivatuba PR 87130000 Brazil
 Rua Jose Cota 60 Rio de Janeiro RJ 23020590 Brazil
 Rodovia ARA 227 Ararangua SC 88900000 Brazil
 Rua Jose A Moreira 95 Queluz SP 12800000 Brazil
-Quiosque 5 Aruja SP 07400000 Brazil
+Aruja SP 07400000 Brazil
 Rua Chile 82 Niteroi RJ 24322000 Brazil
 Rua Fioravante Druda 256 Uba MG 36500000 Brazil
 Estrada das Arcas Proximo ao 2525 Petropolis RJ 25745430 Brazil

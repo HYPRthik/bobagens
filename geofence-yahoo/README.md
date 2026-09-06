@@ -76,6 +76,10 @@ Marca o que a DSP historicamente rejeita, com percentuais medidos no retorno rea
 | Colunas | Acha `endereco`, `nome`, `cidade`, `uf`, `cep`, `lat`, `lon`, `categoria`, em português ou inglês |
 | Sem cabeçalho | Detecta e não come a primeira linha |
 | Formato Google | `Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200` — com ou sem aspas |
+| Espaço duplo | `AV. PROF. CARLOS CUNHA␣␣1000 - JARACATY␣␣SÃO LUÍS - MA␣␣65076-907` — mesmo formato, outro delimitador |
+| `LOGRADOURO - CIDADE, UF, CEP` | Separa no último hífen em vez de perder a rua |
+| Coluna vs texto | Coluna `cidade` ganha: no slot de cidade do endereço costuma vir bairro (`PIRITUBA - SP` é São Paulo) |
+| Loja em shopping | Remove `LOJA 3004`, `PISO 2`, `SALA 15` — o geofence é por raio na rua |
 | Nome do estabelecimento | `Churrascaria Ponteio, Avenida Francisco Ferreira Lopes, 460, ...` → corta o nome. Nunca corta se o trecho anterior tiver número (`Boulevard Vinte e Oito de Setembro, 271`) |
 | Número com letra | `40A`, `1029D` são número de porta |
 | Abreviações | `Av` → `Avenida`, `Rod` → `Rodovia` |
@@ -113,9 +117,11 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 python3 testes.py
 ```
 
-31 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
+38 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
 recusa de lista só com coordenadas, remoção do bairro nas três formas em que a
 cidade é identificável, proteção contra apagar a cidade quando não é, número da
 porta, expansão de abreviação, encoding, sem cabeçalho, categoria isenta,
 limite de 10.000, duplicatas, corte de nome de estabelecimento com a trava que
-impede apagar rua com número, e ASCII em toda a saída.
+impede apagar rua com número, normalização de espaço duplo, precedência da
+coluna de cidade sobre o bairro que aparece no texto, colisão de nome em
+`--separar-por` e ASCII em toda a saída.

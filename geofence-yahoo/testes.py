@@ -136,6 +136,36 @@ check("'40A' é número de porta",
 check("'Dos Pioneiros' é bairro, não conectivo",
       len(L) > 1 and L[1] == "Avenida do Estado 1155 Balneario Camboriu SC 88331110 Brazil", L[1:2])
 
+print("\n=== T4d0 'LOGRADOURO - CIDADE, UF, CEP' não perde a rua ===")
+p = entrada("hifen.csv", "endereco\n"
+    '"R.FICA COMIGO - VÁRZEA DA PALMA, MG, 39260-000"\n'
+    '"PRAÇA TEIXEIRA DE FREITAS - CACHOEIRA, BA, 44300-000"\n')
+rc, out = run([p, "-o", f"{TMP}/t4j", "--nome", "hf"])
+L = linhas(f"{TMP}/t4j/hf.txt") if rc == 0 else []
+check("preserva 'R.FICA COMIGO' e a cidade",
+      L[:1] == ["R FICA COMIGO VARZEA DA PALMA MG 39260000 Brazil"], L[:1] or out[-300:])
+check("preserva 'PRACA TEIXEIRA DE FREITAS'",
+      len(L) > 1 and L[1] == "PRACA TEIXEIRA DE FREITAS CACHOEIRA BA 44300000 Brazil", L[1:2])
+
+print("\n=== T4d2 coluna cidade ganha do bairro que aparece no texto ===")
+p = entrada("bairro_como_cidade.csv", "endereco,cidade,uf,cep\n"
+    '"AV. INTERLAGOS  2255 - LOJA 157 A - VILA INGLESA  INTERLAGOS - SP  04661-100  BRASIL",São Paulo,SP,04661-100\n')
+rc, out = run([p, "-o", f"{TMP}/t4i", "--nome", "bc"])
+check("usa 'Sao Paulo' da coluna, não 'INTERLAGOS' do texto",
+      rc == 0 and linhas(f"{TMP}/t4i/bc.txt") == ["Avenida INTERLAGOS 2255 Sao Paulo SP 04661100 Brazil"],
+      linhas(f"{TMP}/t4i/bc.txt") if rc == 0 else out[-300:])
+
+print("\n=== T4d formato de espaço duplo e loja dentro de shopping ===")
+p = entrada("dupespaco.csv", "endereco,cidade,uf,cep\n"
+    '"AV. PROF. CARLOS CUNHA  1000 - JARACATY  SÃO LUÍS - MA  65076-907  BRASIL",São Luís,MA,65076-907\n'
+    '"PARK SHOPPING CANOAS  AV. FARROUPILHA  4545 - LOJA 3004 - MAL. RONDON  CANOAS - RS  92020-475  BRASIL",Canoas,RS,92020-475\n')
+rc, out = run([p, "-o", f"{TMP}/t4h", "--nome", "de"])
+L = linhas(f"{TMP}/t4h/de.txt") if rc == 0 else []
+check("espaço duplo vira vírgula, bairro sai",
+      L[:1] == ["Avenida PROF CARLOS CUNHA 1000 Sao Luis MA 65076907 Brazil"], L[:1] or out[-300:])
+check("corta nome do shopping e 'LOJA 3004'",
+      len(L) > 1 and L[1] == "Avenida FARROUPILHA 4545 Canoas RS 92020475 Brazil", L[1:2])
+
 print("\n=== T5 número da porta não confunde com número no nome da rua ===")
 p = entrada("num.csv", "endereco;cidade;uf;cep\n"
             "Avenida 2 de Agosto 352 Asa Norte;Irece;BA;44864130\n"
@@ -189,6 +219,20 @@ p = entrada("dup.csv", "endereco;cidade;uf;cep\nRua A 1 Centro;Santos;SP;1101000
             "Rua A 1 Centro;Santos;SP;11010000\nRua B 2 Centro;Santos;SP;11010001\n")
 rc, out = run([p, "-o", f"{TMP}/t9d", "--nome", "d"])
 check("dedupe para 2", rc == 0 and len(linhas(f"{TMP}/t9d/d.txt")) == 2, out[-300:])
+
+print("\n=== T9b --separar-por não perde linha em colisão de nome ===")
+p = entrada("colisao.csv", "endereco;cidade;uf;cep;rede\n"
+    "Rua A 1 Centro;Santos;SP;11010000;Cinépolis\n"
+    "Rua B 2 Centro;Santos;SP;11010001;Cinepolis\n"
+    "Rua C 3 Centro;Santos;SP;11010002;UCI\n")
+rc, out = run([p, "-o", f"{TMP}/t9b", "--nome", "cl", "--separar-por", "rede"])
+check("validação passa (sem sobrescrita)", rc == 0 and "TUDO OK" in out, out[-400:])
+check("Cinépolis + Cinepolis unidos em 1 arquivo com 2 linhas",
+      os.path.exists(f"{TMP}/t9b/cl_cinepolis.txt") and len(linhas(f"{TMP}/t9b/cl_cinepolis.txt")) == 2,
+      linhas(f"{TMP}/t9b/cl_cinepolis.txt") if os.path.exists(f"{TMP}/t9b/cl_cinepolis.txt") else "ausente")
+check("avisa que uniu", "unidos por normalizacao" in out)
+soma = sum(len(linhas(f"{TMP}/t9b/cl_{x}.txt")) for x in ("cinepolis", "uci"))
+check("soma das partes = total", soma == len(linhas(f"{TMP}/t9b/cl.txt")), soma)
 
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []

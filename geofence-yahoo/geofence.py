@@ -237,7 +237,14 @@ def partir_endereco(txt):
     quem chama nao pode descartar o bairro, porque a cidade estaria escondida
     dentro dele ("... 300 Botafogo Macae RJ": Macae e a cidade, nao o bairro).
     """
-    t = " ".join(str(txt).split())
+    t = str(txt).replace("\t", "  ")
+    # Alguns exports separam os componentes por ESPACO DUPLO em vez de virgula:
+    #   "AV. PROF. CARLOS CUNHA  1000 - JARACATY  SAO LUIS - MA  65076-907  BRASIL"
+    # E o mesmo formato, so com outro delimitador — converte para virgula e cai
+    # no caminho ja testado.
+    if "," not in t and re.search(r"\S {2,}\S", t):
+        t = re.sub(r" {2,}", ", ", t)
+    t = " ".join(t.split())
     cep = uf = cidade = None
     m = re.search(r"\b(\d{5})-?(\d{3})\b", t)
     if m:
@@ -257,7 +264,17 @@ def partir_endereco(txt):
             if resto:
                 cidade = resto            # "Sao Paulo - SP" no mesmo segmento
             elif i > 0:
-                cidade = segs.pop(i - 1)  # UF sozinha, cidade no segmento anterior
+                # UF sozinha no segmento: a cidade esta no anterior. Mas esse
+                # anterior costuma trazer "LOGRADOURO - CIDADE" grudado por hifen
+                # ("R.FICA COMIGO - VARZEA DA PALMA"); separa no ultimo hifen para
+                # nao perder a rua.
+                ant = segs.pop(i - 1)
+                esq, sep, dir_ = ant.rpartition(" - ")
+                if sep and esq.strip() and dir_.strip():
+                    cidade = dir_.strip()
+                    segs.insert(i - 1, esq.strip())
+                else:
+                    cidade = ant
             break
         else:
             if len(segs) > 1:
@@ -311,6 +328,10 @@ RUIDO = [
  r"\bkm\.?\s*\d+[\d,.]*\b",       # Km 56, KM 04 — nao e numero de porta
  r"\bs\s*/?\s*n\b",                # S N, S/N (sem numero)
  r"\bsn\b",
+ # localizacao DENTRO do imovel: para um geofence por raio o que importa e o
+ # endereco na rua, nao a loja no shopping
+ r"\b(loja|lj|sala|sl|piso|andar|bloco|torre|quiosque|box)\.?\s*\d+\w*\b",
+ r"\b\d+\s*[oº°]?\s*andar\b",
 ]
 
 
@@ -424,8 +445,13 @@ def main():
     base = a.nome or re.sub(r"[^A-Za-z0-9]+", "_", os.path.splitext(os.path.basename(a.entrada))[0]).strip("_").lower()
     os.makedirs(a.saida, exist_ok=True)
 
+    rotulos = {}
+
     def grupo_de(row):
-        return str(row[cols_grupo]).strip() if len(row) > cols_grupo else ""
+        bruto = str(row[cols_grupo]).strip() if len(row) > cols_grupo else ""
+        ch = slug(bruto) or "sem_valor"
+        rotulos.setdefault(ch, set()).add(bruto)
+        return ch
 
     def campo(row, papel):
         i = cols.get(papel)
@@ -449,9 +475,12 @@ def main():
 
         bruto = campo(row, "endereco")
         miolo, cidade, uf, cep = partir_endereco(bruto) if bruto else ("", None, None, None)
-        cidade = cidade or campo(row, "cidade") or None
-        uf = uf or (campo(row, "uf").upper() if campo(row, "uf").upper() in UFBOX else None)
-        cep = cep or (re.sub(r"\D", "", campo(row, "cep")) or None)
+        # Coluna explicita ganha do que foi extraido do texto: no slot de cidade
+        # do endereco costuma vir BAIRRO ("BELA VISTA - SP", "PIRITUBA - SP" sao
+        # todos Sao Paulo) ou abreviacao ("PRES. PRUDENTE").
+        cidade = campo(row, "cidade") or cidade or None
+        uf = (campo(row, "uf").upper() if campo(row, "uf").upper() in UFBOX else None) or uf
+        cep = (re.sub(r"\D", "", campo(row, "cep")) or None) or cep
         if campo(row, "numero") and campo(row, "numero") not in miolo:
             miolo = f"{miolo} {campo(row, 'numero')}".strip()
         if campo(row, "bairro") and sem_acento(campo(row, "bairro")).lower() not in sem_acento(miolo).lower():
@@ -569,8 +598,12 @@ def main():
                     continue
                 vistos_g.add(x)
                 uniq_g.append(x)
-            rot = slug(g) or "sem_valor"
-            conjuntos.append((f"{base}_{rot}", uniq_g))
+            conjuntos.append((f"{base}_{g}", uniq_g))
+        juntados = {k: v for k, v in rotulos.items() if len(v) > 1}
+        if juntados:
+            print(f"\nvalores unidos por normalizacao ({len(juntados)}):")
+            for k, v in sorted(juntados.items())[:10]:
+                print(f"  {k}: {' + '.join(sorted(v))}")
 
     gerados = []
     for nome_base, conj in conjuntos:
