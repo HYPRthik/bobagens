@@ -1,0 +1,283 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;4;;Estrada do Portela 222 Rio de Janeiro RJ 21351050 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;5;;Estrada da Gavea 899 Rio de Janeiro RJ 22610001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;27;;Estrada dos Tres Rios 243 Rio de Janeiro RJ 22745004 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;36;;Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420008 Brazil;sem numero de porta
+ALTO;50;;Avenida Augusto Severo Gloria Rio de Janeiro RJ 20021040 Brazil;sem numero de porta
+ALTO;52;;Rua Fonte da Saudade Lagoa Rio de Janeiro RJ 22471210 Brazil;sem numero de porta
+ALTO;67;;Rua Juquia Leblon L O AO N Rio de Janeiro RJ 22441080 Brazil;sem numero de porta
+ALTO;79;;Rua Governador Irineu Bornhausen Flamengo Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;83;;Rua Araujo Porto Alegre Centro Rio de Janeiro RJ 20030015 Brazil;sem numero de porta
+ALTO;88;;Avenida Presidente Antonio Carlos Centro Rio de Janeiro RJ 20020010 Brazil;sem numero de porta
+ALTO;91;;Avenida Oswaldo Cruz Botafogo Rio de Janeiro RJ 22250040 Brazil;sem numero de porta
+ALTO;97;;Avenida Beira Mar Gloria Rio de Janeiro RJ 20021060 Brazil;sem numero de porta
+ALTO;101;;Avenida das Nacoes Unidas Botafogo Rio de Janeiro RJ 22250150 Brazil;sem numero de porta
+ALTO;103;;Avenida Presidente Vargas Centro Rio de Janeiro RJ 20071002 Brazil;sem numero de porta
+ALTO;111;;Avenida Visconde de Albuquerque Gavea Rio de Janeiro RJ 22450002 Brazil;sem numero de porta
+ALTO;112;;Avenida AUTOMOVEL CLUBE Rio de Janeiro RJ 21220300 Brazil;sem numero de porta
+ALTO;116;;Avenida RADIAL OESTE Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;120;;Avenida Pastor Martin Luther King Junior Pavuna Rio de Janeiro RJ 21520002 Brazil;sem numero de porta
+ALTO;121;;Avenida Pastor Martin Luther King Jr Rio de Janeiro RJ 20760005 Brazil;sem numero de porta
+ALTO;123;;Avenida PRESIDENTE CASTELO BRANCO Rio de Janeiro RJ 20271130 Brazil;sem numero de porta
+ALTO;125;;Avenida Armando Lombardi Barra da Tijuca Rio de Janeiro RJ 22640020 Brazil;sem numero de porta
+ALTO;130;;Rua Ulysses Guimaraes Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;139;;Avenida Ataulfo de Paiva Leblon Rio de Janeiro RJ 22440035 Brazil;sem numero de porta
+ALTO;147;;Rua Helios Seelinger Barra da Tijuca Rio de Janeiro RJ 22640040 Brazil;sem numero de porta
+ALTO;148;;Avenida Afonso de Taunay Barra da Tijuca Rio de Janeiro RJ 22621310 Brazil;sem numero de porta
+ALTO;153;;Avenida Ayrton Senna Barra da Tijuca Rio de Janeiro RJ 22775003 Brazil;sem numero de porta
+ALTO;156;;Praca Antero de Quental Leblon Rio de Janeiro RJ 22440034 Brazil;sem numero de porta
+ALTO;158;;Rua Gilberto Cardoso Leblon Rio de Janeiro RJ 22430070 Brazil;sem numero de porta
+ALTO;160;;Avenida Alfredo Balthazar da Silveira Recreio dos Bandeirantes Rio de Janeiro RJ 22790710 Brazil;sem numero de porta
+ALTO;161;;Rua Alceu Amoroso Lima Barra da Tijuca Rio de Janeiro RJ 22631010 Brazil;sem numero de porta
+ALTO;162;;Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640101 Brazil;sem numero de porta
+ALTO;163;;Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22793081 Brazil;sem numero de porta
+ALTO;164;;Avenida das Americas Proximo ao 3120 3198 Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640101 Brazil;sem numero de porta
+ALTO;165;;Avenida Das Americas Rio de Janeiro RJ 22631003 Brazil;sem numero de porta
+ALTO;166;;Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640102 Brazil;sem numero de porta
+ALTO;167;;Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22790701 Brazil;sem numero de porta
+ALTO;169;;Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22790703 Brazil;sem numero de porta
+ALTO;171;;Rua Amilcar de Castro Barra Olimpica Rio de Janeiro RJ 22775045 Brazil;sem numero de porta
+ALTO;177;;Avenida Henrique Dodsworth Lagoa Rio de Janeiro RJ 22061030 Brazil;sem numero de porta
+ALTO;178;;Avenida Henrique Dodsworth Lagoa Rio de Janeiro RJ 22061030 Brazil;sem numero de porta
+ALTO;179;;Avenida Ayrton Senna Barra da Tijuca Rio de Janeiro RJ 22775003 Brazil;sem numero de porta
+ALTO;180;;Avenida Lauro Sodre Rio de Janeiro RJ 22290070 Brazil;sem numero de porta
+ALTO;181;;Avenida Maracana Maracana Rio de Janeiro RJ 20271111 Brazil;sem numero de porta
+ALTO;182;;Rua Baltazar Lisboa Vila Isabel Rio de Janeiro RJ 20540130 Brazil;sem numero de porta
+ALTO;187;;Estrada Da Gavea Rio de Janeiro RJ 22610170 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;188;;Rua das Laranjeiras Catete Rio de Janeiro RJ 22221020 Brazil;sem numero de porta
+ALTO;191;;Brs 3 I Visconde de Ouro Preto I Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil;sem numero de porta
+ALTO;202;;Praca Nossa Senhora Auxiliadora Leblon Rio de Janeiro RJ 22431000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;205;;Rua Marechal Francisco de Moura Botafogo Rio de Janeiro RJ 22260140 Brazil;sem numero de porta
+ALTO;210;;Rodovia dos Bandeirantes Caieiras SP 07700000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;211;;Avenida Gastao Senges Barra da Tijuca Rio de Janeiro RJ 22631002 Brazil;sem numero de porta
+ALTO;212;;AVENIDA SALVADOR ALLENDE Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;215;;Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22793080 Brazil;sem numero de porta
+ALTO;222;;Estrada do Monteiro 1200 Rio de Janeiro RJ 23036430 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;225;;ESTRADA DE JACAREPAGUA Rio de Janeiro RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;227;;Estrada de Jacarepagua 3602 Rio de Janeiro RJ 22753212 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;231;;Rua Jose Ortiz Meier Rio de Janeiro RJ 20725070 Brazil;sem numero de porta
+ALTO;232;;Avenida Meriti Vila da Penha Rio de Janeiro RJ 21211800 Brazil;sem numero de porta
+ALTO;236;;ESTRADA DO TINDIBA 1763 Rio de Janeiro RJ 22740362 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;238;;Avenida Maracana Tijuca Rio de Janeiro RJ 20511001 Brazil;sem numero de porta
+ALTO;239;;Rua Igreja Nossa Senhora do Libano Tijuca Rio de Janeiro RJ 20530720 Brazil;sem numero de porta
+ALTO;241;;Rua Projetada B Campo Grande Rio de Janeiro RJ 21235635 Brazil;sem numero de porta
+ALTO;243;;Avenida Dom Helder Camara Cachambi Rio de Janeiro RJ 20771004 Brazil;sem numero de porta
+ALTO;245;;Estrada da Pedra 5131 Rio de Janeiro RJ 23030380 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;247;;Estrada do Portela 222 Rio de Janeiro RJ 21351050 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;249;;Estrada do Monteiro 318 Rio de Janeiro RJ 23045830 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;250;;Rua Luis Beltrao Vila Valqueire Rio de Janeiro RJ 21321230 Brazil;sem numero de porta
+ALTO;251;;Estrada Rodrigues Caldas 127 Rio de Janeiro RJ 22713372 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;254;;Jardim Sulacap Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;256;;Avenida Brasil Sao Cristovao Rio de Janeiro RJ 20940070 Brazil;sem numero de porta
+ALTO;263;;Estrada dos Tres Rios 1049 Rio de Janeiro RJ 22745004 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;266;;Rua Henrique Lahmeyer de Mello Barra Olimpica Rio de Janeiro RJ 22775032 Brazil;sem numero de porta
+ALTO;269;;Residencial Villa Carioca Rua Barao de Mesquita Andarai Rio de Janeiro RJ 20540003 Brazil;sem numero de porta
+ALTO;276;;Estrada Rodrigues Caldas 127 Rio de Janeiro RJ 22713372 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;278;;Estrada do Portela 99 Rio de Janeiro RJ 21351050 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;280;;Rua Professor Alfredo Gomes Botafogo Rio de Janeiro RJ 22251080 Brazil;sem numero de porta
+ALTO;281;;Estrada DO MENDANHA Rio de Janeiro RJ 23092001 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;285;;Estrada Rodrigues Caldas 48 Rio de Janeiro RJ 22713373 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;290;;Estrada da Gavea 899 Rio de Janeiro RJ 22610001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;293;;Avenida Maracana Tijuca Rio de Janeiro RJ 20511000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;294;;Avenida Adalgisa Colombo Barra Olimpica Rio de Janeiro RJ 22775040 Brazil;sem numero de porta
+ALTO;297;;Rua Barao de Sao Francisco Andarai Rio de Janeiro RJ 20560032 Brazil;sem numero de porta
+ALTO;299;;Estrada Adhemar Bebiano Del Castilho Rio de Janeiro RJ 20765000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;302;;Avenida Albert Sabin Barra da Tijuca Rio de Janeiro RJ 22793082 Brazil;sem numero de porta
+ALTO;312;;Rua Orlando Madeira de Ley Recreio dos Bandeirantes Rio de Janeiro RJ 22790365 Brazil;sem numero de porta
+ALTO;316;;AVENIDA DAS AMERICAS Rio de Janeiro RJ 22640102 Brazil;sem numero de porta
+ALTO;323;;Rua Ministro Tavares de Lira Catete Rio de Janeiro RJ 22221060 Brazil;sem numero de porta
+ALTO;324;;Rua Garcia d Avila Ipanema Rio de Janeiro RJ 22421010 Brazil;sem numero de porta
+ALTO;326;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22795006 Brazil;sem numero de porta
+ALTO;327;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22795006 Brazil;sem numero de porta
+ALTO;328;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;331;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;332;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;333;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;334;;Rua Afonso Cavalcanti Cidade Nova Rio de Janeiro RJ 20211110 Brazil;sem numero de porta
+ALTO;340;;Avenida Rio Branco Centro Rio de Janeiro RJ 20040004 Brazil;sem numero de porta
+ALTO;343;;Avenida RODRIGUES ALVES Rio de Janeiro RJ 20220361 Brazil;sem numero de porta
+ALTO;345;;Rua Rivadavia Correa Gamboa Rio de Janeiro RJ 20220290 Brazil;sem numero de porta
+ALTO;346;;Alameda dos Palmeirais Barra da Tijuca Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;347;;Alameda dos Palmeirais Barra da Tijuca Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;348;;Praia do Flamengo Flamengo Rio de Janeiro RJ 22210065 Brazil;sem numero de porta
+ALTO;350;;Praca Senador Salgado Filho Centro Rio de Janeiro RJ 20021340 Brazil;sem numero de porta
+ALTO;353;;Rua Frei Caneca Cidade Nova Rio de Janeiro RJ 20211005 Brazil;sem numero de porta
+ALTO;355;;Praca Antero de Quental Leblon Rio de Janeiro RJ 22440034 Brazil;sem numero de porta
+ALTO;357;;Avenida General Justo Centro Rio de Janeiro RJ 20021130 Brazil;sem numero de porta
+ALTO;362;;Avenida Presidente Antonio Carlos Centro Rio de Janeiro RJ 20020010 Brazil;sem numero de porta
+ALTO;378;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;379;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;381;;Rua Adalberto Ferreira Leblon Rio de Janeiro RJ 22430140 Brazil;sem numero de porta
+ALTO;384;;Rua General Polidoro Botafogo Rio de Janeiro RJ 22280003 Brazil;sem numero de porta
+ALTO;385;;Avenida Rodrigo Otavio Gavea Rio de Janeiro RJ 22450060 Brazil;sem numero de porta
+ALTO;395;;Praca Tiradentes Centro Rio de Janeiro RJ 20060070 Brazil;sem numero de porta
+ALTO;405;;Rua Lauro Muller Botafogo Rio de Janeiro RJ 22290160 Brazil;sem numero de porta
+ALTO;406;;Avenida Republica do Chile Centro Rio de Janeiro RJ 20031170 Brazil;sem numero de porta
+ALTO;408;;Avenida Republica do Chile Centro Rio de Janeiro RJ 20031170 Brazil;sem numero de porta
+ALTO;409;;Avenida Republica do Chile Centro Rio de Janeiro RJ 20031170 Brazil;sem numero de porta
+ALTO;410;;Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470004 Brazil;sem numero de porta
+ALTO;411;;Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470004 Brazil;sem numero de porta
+ALTO;416;;Avenida Olegario Maciel Barra da Tijuca Rio de Janeiro RJ 22621200 Brazil;sem numero de porta
+ALTO;417;;Rua Marques de Abrantes Flamengo Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;419;;Praca Procopio Ferreira Centro Rio de Janeiro RJ 20221030 Brazil;sem numero de porta
+ALTO;420;;Praca Procopio Ferreira Centro Rio de Janeiro RJ 20221030 Brazil;sem numero de porta
+ALTO;421;;Avenida Prado Junior Copacabana Rio de Janeiro RJ 22011040 Brazil;sem numero de porta
+ALTO;428;;Avenida Augusto Severo Gloria Rio de Janeiro RJ 20021040 Brazil;sem numero de porta
+ALTO;429;;Rua Professor Alvaro Rodrigues Botafogo Rio de Janeiro RJ 22280040 Brazil;sem numero de porta
+ALTO;434;;Rua da Passagem Botafogo Rio de Janeiro RJ 22290030 Brazil;sem numero de porta
+ALTO;437;;Rua Anchieta Leme Rio de Janeiro RJ 22010000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;439;;Rua General Severiano Botafogo Rio de Janeiro RJ 22290040 Brazil;sem numero de porta
+ALTO;447;;Rua Visconde de Piraja Ipanema Rio de Janeiro RJ 22410000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;448;;Avenida Francisco Bhering Ipanema Rio de Janeiro RJ 22080050 Brazil;sem numero de porta
+ALTO;449;;Rua Jardim Botanico Jardim Botanico Rio de Janeiro RJ 23030480 Brazil;sem numero de porta
+ALTO;461;;Avenida Delfim Moreira Leblon Rio de Janeiro RJ 22441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;462;;Avenida Delfim Moreira Leblon Rio de Janeiro RJ 22441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;464;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630011 Brazil;sem numero de porta
+ALTO;466;;Praia do Flamengo Flamengo Rio de Janeiro RJ 22210030 Brazil;sem numero de porta
+ALTO;467;;Rua Mario Ribeiro Leblon Rio de Janeiro RJ 22441060 Brazil;sem numero de porta
+ALTO;468;;Avenida do Pepe Barra da Tijuca Rio de Janeiro RJ 22620170 Brazil;sem numero de porta
+ALTO;469;;Rua Mario Ribeiro Leblon Rio de Janeiro RJ 22441060 Brazil;sem numero de porta
+ALTO;470;;Avenida Niemeyer Vidigal Rio de Janeiro RJ 22450220 Brazil;sem numero de porta
+ALTO;474;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630011 Brazil;sem numero de porta
+ALTO;475;;Praca Sao Perpetuo Barra da Tijuca Rio de Janeiro RJ 22620280 Brazil;sem numero de porta
+ALTO;476;;Praca Sao Perpetuo Barra da Tijuca Rio de Janeiro RJ 22620280 Brazil;sem numero de porta
+ALTO;480;;Avenida Professor Pereira Reis Santo Cristo Rio de Janeiro RJ 20220800 Brazil;sem numero de porta
+ALTO;482;;Avenida Francisco Bicalho Santo Cristo Rio de Janeiro RJ 20220310 Brazil;sem numero de porta
+ALTO;485;;Avenida Afonso de Taunay Barra da Tijuca Rio de Janeiro RJ 22621310 Brazil;sem numero de porta
+ALTO;486;;Rua Adao Pereira Nunes Barra da Tijuca Rio de Janeiro RJ 22793076 Brazil;sem numero de porta
+ALTO;490;;Avenida Armando Lombardi Barra da Tijuca Rio de Janeiro RJ 22640020 Brazil;sem numero de porta
+ALTO;493;;AVENIDA EPITACIO PESSOA Rio de Janeiro RJ 22411071 Brazil;sem numero de porta
+ALTO;494;;AVENIDA EPITACIO PESSOA Rio de Janeiro RJ 22411071 Brazil;sem numero de porta
+ALTO;495;;Rua Belfort Roxo Copacabana Rio de Janeiro RJ 22020010 Brazil;sem numero de porta
+ALTO;497;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22471003 Brazil;sem numero de porta
+ALTO;498;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22471003 Brazil;sem numero de porta
+ALTO;503;;Rua Governador Irineu Bornhausen Flamengo Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;504;;Rua Governador Irineu Bornhausen Flamengo Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;511;;Praia do Flamengo Flamengo Rio de Janeiro RJ 22210030 Brazil;sem numero de porta
+ALTO;512;;Praia do Flamengo Flamengo Rio de Janeiro RJ 22210030 Brazil;sem numero de porta
+ALTO;513;;Avenida das Nacoes Unidas Botafogo Rio de Janeiro RJ 22250150 Brazil;sem numero de porta
+ALTO;514;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;515;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22010000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;516;;Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470001 Brazil;sem numero de porta
+ALTO;517;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22021001 Brazil;sem numero de porta
+ALTO;518;;Avenida Atlantica Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;519;;Parque do Cantagalo Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22471003 Brazil;sem numero de porta
+ALTO;520;;Avenida Maracana Maracana Rio de Janeiro RJ 20271111 Brazil;sem numero de porta
+ALTO;521;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22070000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;522;;Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420008 Brazil;sem numero de porta
+ALTO;523;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;525;;Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420008 Brazil;sem numero de porta
+ALTO;526;;Praia de Ipanema Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420002 Brazil;sem numero de porta
+ALTO;527;;Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470001 Brazil;sem numero de porta
+ALTO;528;;Avenida Professor Manoel de Abreu Proximo ao Avenida Professor Manoel de Abreu Maracana Rio de Janeiro RJ 20550170 Brazil;sem numero de porta
+ALTO;529;;Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420008 Brazil;sem numero de porta
+ALTO;530;;Praca General Tiburcio Urca Rio de Janeiro RJ 22290270 Brazil;sem numero de porta
+ALTO;533;;Praca General Tiburcio Rio de Janeiro RJ 22290270 Brazil;sem numero de porta
+ALTO;535;;Avenida Delfim Moreira Leblon Rio de Janeiro RJ 22441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;536;;Avenida Delfim Moreira Leblon Rio de Janeiro RJ 22441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;537;;Sup Arpoador Ipanema Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;538;;Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil;sem numero de porta
+ALTO;539;;Avenida Delfim Moreira Leblon Rio de Janeiro RJ 22441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;541;;Avenida Delfim Moreira Leblon Rio de Janeiro RJ 22441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;542;;Avenida Prefeito Mendes de Moraes Sao Conrado Rio de Janeiro RJ 22610095 Brazil;sem numero de porta
+ALTO;543;;Avenida Niemeyer Vidigal Rio de Janeiro RJ 22450221 Brazil;sem numero de porta
+ALTO;544;;Avenida do Pepe Barra da Tijuca Rio de Janeiro RJ 22620170 Brazil;sem numero de porta
+ALTO;545;;Praca do O Rio de Janeiro RJ 22620280 Brazil;sem numero de porta
+ALTO;548;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22620172 Brazil;sem numero de porta
+ALTO;551;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630010 Brazil;sem numero de porta
+ALTO;552;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630011 Brazil;sem numero de porta
+ALTO;553;;Avenida Lucio Costa Rio de Janeiro RJ 22795008 Brazil;sem numero de porta
+ALTO;554;;Posto 11 Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795006 Brazil;sem numero de porta
+ALTO;555;;Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795006 Brazil;sem numero de porta
+ALTO;556;;Avenida General San Martin Leblon Rio de Janeiro RJ 22441015 Brazil;sem numero de porta
+ALTO;557;;Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470001 Brazil;sem numero de porta
+ALTO;559;;Avenida Rodrigo Otavio Gavea Rio de Janeiro RJ 22450060 Brazil;sem numero de porta
+ALTO;561;;Praca Cardeal Arcoverde Rio de Janeiro RJ 22030001 Brazil;sem numero de porta
+ALTO;563;;Avenida Escritor Joao Cabral de Melo Neto Barra da Tijuca Rio de Janeiro RJ 22775057 Brazil;sem numero de porta
+ALTO;564;;Avenida Luis Carlos Prestes Barra da Tijuca Rio de Janeiro RJ 22775055 Brazil;sem numero de porta
+ALTO;565;;Avenida Ruy Frazao Soares Barra da Tijuca Rio de Janeiro RJ 22793074 Brazil;sem numero de porta
+ALTO;567;;Rua Hercilio Goncalves Barra da Tijuca Rio de Janeiro RJ 22630230 Brazil;sem numero de porta
+ALTO;568;;Praca Professor Jose Bernardino Barra da Tijuca Rio de Janeiro RJ 22621120 Brazil;sem numero de porta
+ALTO;569;;Estrada da Barra da Tijuca Barra da Tijuca Rio de Janeiro RJ 22611201 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;570;;Avenida Augusto Severo Gloria Rio de Janeiro RJ 20021040 Brazil;sem numero de porta
+ALTO;571;;Praca Varnhagen Praca Varnhagem Tijuca Rio de Janeiro RJ 20540088 Brazil;sem numero de porta
+ALTO;574;;Rua Sao Clemente Botafogo Rio de Janeiro RJ 22260001 Brazil;sem numero de porta
+ALTO;575;;Avenida Ayrton Senna Barra da Tijuca Rio de Janeiro RJ 22775003 Brazil;sem numero de porta
+ALTO;576;;Rua Francisco de Paula Barra Olimpica Rio de Janeiro RJ 22775120 Brazil;sem numero de porta
+ALTO;577;;Avenida Salvador Allende Barra Olimpica Rio de Janeiro RJ 22780160 Brazil;sem numero de porta
+ALTO;578;;Avenida Salvador Allende Barra Olimpica Rio de Janeiro RJ 22780160 Brazil;sem numero de porta
+ALTO;579;;Avenida Alfredo Balthazar da Silveira Barra da Tijuca Rio de Janeiro RJ 22790710 Brazil;sem numero de porta
+ALTO;580;;Avenida Alfredo Balthazar da Silveira Barra da Tijuca Rio de Janeiro RJ 22790710 Brazil;sem numero de porta
+ALTO;581;;Rua Sao Clemente Botafogo Rio de Janeiro RJ 22260000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;582;;Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795009 Brazil;sem numero de porta
+ALTO;584;;Avenida das Acacias Barra da Tijuca Rio de Janeiro RJ 22776000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;585;;Avenida Visconde de Albuquerque Leblon Rio de Janeiro RJ 22450000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;586;;Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795006 Brazil;sem numero de porta
+ALTO;587;;Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795008 Brazil;sem numero de porta
+ALTO;588;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630012 Brazil;sem numero de porta
+ALTO;589;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630010 Brazil;sem numero de porta
+ALTO;590;;Rua Professor Abelardo Lobo Lagoa Rio de Janeiro RJ 22470240 Brazil;sem numero de porta
+ALTO;591;;Praca Professor Sousa Araujo Barra da Tijuca Rio de Janeiro RJ 22620340 Brazil;sem numero de porta
+ALTO;596;;Estrada da Barra da Tijuca 90 Rio de Janeiro RJ 22641040 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;597;;Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470003 Brazil;sem numero de porta
+ALTO;598;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;599;;Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil;sem numero de porta
+ALTO;600;;Rua Geisa Firmo Goncalves Sao Conrado Rio de Janeiro RJ 22451355 Brazil;sem numero de porta
+ALTO;601;;Avenida Salvador Allende Jacarepagua Rio de Janeiro RJ 22780160 Brazil;sem numero de porta
+ALTO;602;;Avenida Ayrton Senna Barra Olimpica Rio de Janeiro RJ 22775005 Brazil;sem numero de porta
+ALTO;603;;Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420012 Brazil;sem numero de porta
+ALTO;604;;Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420002 Brazil;sem numero de porta
+ALTO;607;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22010000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;608;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22010000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;609;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22010000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;610;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22011010 Brazil;sem numero de porta
+ALTO;612;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22021001 Brazil;sem numero de porta
+ALTO;614;;Avenida Atlantica Copacabana Rio de Janeiro RJ 22070000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;615;;Praca Chaim Weizmann Botafogo Rio de Janeiro RJ 22231030 Brazil;sem numero de porta
+ALTO;617;;Rua Doutor Otavio Kelly Tijuca Rio de Janeiro RJ 20511280 Brazil;sem numero de porta
+ALTO;618;;Avenida Maracana Tijuca Rio de Janeiro RJ 20511001 Brazil;sem numero de porta
+ALTO;619;;Avenida Almirante Silvio de Noronha Centro Rio de Janeiro RJ 20021010 Brazil;sem numero de porta
+ALTO;620;;Rua Teixeira Soares Proximo ao 71 191 Praca da Bandeira Praca da Bandeira Rio de Janeiro RJ 20270150 Brazil;sem numero de porta
+ALTO;622;;Praca Saenz Pena Tijuca Rio de Janeiro RJ 20520090 Brazil;sem numero de porta
+ALTO;627;;Avenida Augusto Severo Gloria Rio de Janeiro RJ 20021040 Brazil;sem numero de porta
+ALTO;628;;Avenida das Nacoes Unidas Botafogo Rio de Janeiro RJ 22250150 Brazil;sem numero de porta
+ALTO;629;;Rua Visconde de Itamarati Maracana Rio de Janeiro RJ 20550140 Brazil;sem numero de porta
+ALTO;630;;Avenida Rei Pele Maracana Rio de Janeiro RJ 20271130 Brazil;sem numero de porta
+ALTO;631;;Avenida das Nacoes Unidas Botafogo Rio de Janeiro RJ 22250150 Brazil;sem numero de porta
+ALTO;632;;Rua Brigadeiro Eduardo Gomes Flamengo Rio de Janeiro RJ Brazil;sem numero de porta
+ALTO;633;;Jardim Guanabara Rio de Janeiro RJ 21940460 Brazil;sem numero de porta
+MEDIO;2;;Avenida Pastor Martin Luther King Junior Del Castilho 126 Rio de Janeiro RJ 20765000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;22;;Rua Visconde de Piraja 3 Rio de Janeiro RJ 22410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;25;;Rua Miguel Lemos 25A Rio de Janeiro RJ 22071000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;33;;Rua Visconde de Piraja 220 Rio de Janeiro RJ 22410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;42;;Avenida Delfim Moreira Leblon 180 Rio de Janeiro RJ 22441000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;55;;Avenida Atlantica Copacabana 956 Rio de Janeiro RJ 22010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;56;;Avenida Atlantica 2964 Rio de Janeiro RJ 22070000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;82;;Rua Voluntarios da Patria 24 Rio de Janeiro RJ 22270000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;86;;Avenida Rio Branco 18 Rio de Janeiro RJ 20090000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;124;;Largo do Machado Largo do Machado 21 Rio de Janeiro RJ 22240000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;128;;Rua do Catete Gloria 366 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;134;;Rua do Catete 154 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;159;;Avenida das Americas 1699A Rio de Janeiro RJ 22631000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;224;;Rua Pompeu Loureiro 35 Rio de Janeiro RJ 22061000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;246;;Rua Candido Benicio 3936 Rio de Janeiro RJ 22733000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;248;;Avenida Cesario de Melo 6271 Rio de Janeiro RJ 23056000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;268;;Rua Pompeu Loureiro 41 Rio de Janeiro RJ 22061000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;270;;Rua Gonzaga Bastos 401 Rio de Janeiro RJ 20541000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;271;;Rua Visconde de Piraja 228 Rio de Janeiro RJ 22410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;307;;Rua Voluntarios da Patria 468 Rio de Janeiro RJ 22270000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;311;;Rua das Laranjeiras 20 Rio de Janeiro RJ 22240000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;364;;PRAcA XV 20 Rio de Janeiro RJ 20021000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;371;;AVENIDA PADRE LEONEL FRANCA 182 Rio de Janeiro RJ 22451000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;382;;Rua Jardim Botanico 568 Rio de Janeiro RJ 22461000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;383;;Rua Cardoso Junior 5 Rio de Janeiro RJ 22245000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;402;;Rua Visconde de Piraja 174 Rio de Janeiro RJ 22410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;418;;Rua do Catete 195 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;424;;Rua do Catete 68 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;425;;Rua do Catete 68 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;430;;Rua Voluntarios da Patria 146 Rio de Janeiro RJ 22270000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;443;;Rua Francisco Otaviano 23 Rio de Janeiro RJ 22081000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;501;;Avenida Delfim Moreira 1114 Rio de Janeiro RJ 22441000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;540;;Barraca do Joao 151 Rio de Janeiro RJ 22441000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;605;;Avenida Padre Leonel Franca 182 Rio de Janeiro RJ 22451000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;611;;Avenida Atlantica 1020 Rio de Janeiro RJ 22021000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

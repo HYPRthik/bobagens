@@ -234,6 +234,42 @@ check("avisa que uniu", "unidos por normalizacao" in out)
 soma = sum(len(linhas(f"{TMP}/t9b/cl_{x}.txt")) for x in ("cinepolis", "uci"))
 check("soma das partes = total", soma == len(linhas(f"{TMP}/t9b/cl.txt")), soma)
 
+print("\n=== T9c coluna alternativa de logradouro e de número ===")
+p = entrada("alt.csv", 'endereco,cidade,uf,cep,Endereço,Nº\n'
+    '"Shopping Jardim Guadalupe, Guadalupe, Rio de Janeiro - RJ, 21515-001, Brasil",Rio de Janeiro,RJ,21515-001,Av. Brasil,22155\n'
+    '"Praia do Flamengo, 402, Flamengo, Rio de Janeiro - RJ, 22210-065, Brasil",Rio de Janeiro,RJ,22210-065,AV OSWALDO CRUZ OPOSTO AO No 400,\n')
+rc, out = run([p, "-o", f"{TMP}/t9c", "--nome", "al"])
+L = linhas(f"{TMP}/t9c/al.txt") if rc == 0 else []
+check("sem logradouro na principal, usa a coluna Endereço + Nº",
+      L[:1] == ["Avenida Brasil 22155 Rio de Janeiro RJ 21515001 Brazil"], L[:1] or out[-300:])
+check("principal boa NÃO é trocada pela alternativa",
+      len(L) > 1 and L[1] == "Praia do Flamengo 402 Rio de Janeiro RJ 22210065 Brazil", L[1:2])
+
+print("\n=== T9c2 coluna alternativa de inventário OOH ===")
+p = entrada("ooh.csv", 'endereco,cidade,uf,cep,Endereço\n'
+    '"MetrôRio-Vicente de Carvalho, Vicente de Carvalho, Rio de Janeiro - RJ, 21220-300",Rio de Janeiro,RJ,21220-300,AV AUTOMOVEL CLUBE EM FRENTE AO SUPERMERCADO CARREFOUR\n'
+    '"SuperVia-São Cristóvão, São Cristóvão, Rio de Janeiro - RJ, 20940-200",Rio de Janeiro,RJ,20940-200,AV RADIAL OESTE ENTRONCAMENTO COM AV OSWALDO ARANHA\n'
+    '"Ponto X, Centro, Rio de Janeiro - RJ, 20040-002",Rio de Janeiro,RJ,20040-002,"RUA BARÃO DA TORRE, E/F Nº 623, ESQUINA COM RUA X"\n')
+rc, out = run([p, "-o", f"{TMP}/t9c2", "--nome", "oh"])
+L = linhas(f"{TMP}/t9c2/oh.txt") if rc == 0 else []
+check("corta 'EM FRENTE AO SUPERMERCADO'",
+      L[:1] == ["Avenida AUTOMOVEL CLUBE Rio de Janeiro RJ 21220300 Brazil"], L[:1] or out[-300:])
+check("corta 'ENTRONCAMENTO COM'",
+      len(L) > 1 and L[1] == "Avenida RADIAL OESTE Rio de Janeiro RJ 20940200 Brazil", L[1:2])
+check("extrai o número de 'E/F Nº 623'",
+      len(L) > 2 and L[2] == "RUA BARAO DA TORRE 623 Rio de Janeiro RJ 20040002 Brazil", L[2:3])
+
+print("\n=== T9d 'Torre'/'Loja' em nome de rua não é apagado ===")
+p = entrada("torre.csv", "endereco,cidade,uf,cep\n"
+    '"Rua Barão da Torre, 623, Ipanema, Rio de Janeiro - RJ, 22411-002",Rio de Janeiro,RJ,22411-002\n'
+    '"Av. Farroupilha, 4545, Loja 3004, Mal. Rondon, Canoas - RS, 92020-475",Canoas,RS,92020-475\n')
+rc, out = run([p, "-o", f"{TMP}/t9d", "--nome", "tr"])
+L = linhas(f"{TMP}/t9d/tr.txt") if rc == 0 else []
+check("'Barao da Torre 623' preservado",
+      L[:1] == ["Rua Barao da Torre 623 Rio de Janeiro RJ 22411002 Brazil"], L[:1] or out[-300:])
+check("'Loja 3004' ainda removido",
+      len(L) > 1 and L[1] == "Avenida Farroupilha 4545 Canoas RS 92020475 Brazil", L[1:2])
+
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []
 for q in glob.glob(f"{TMP}/**/*.txt", recursive=True) + glob.glob(f"{TMP}/**/*.csv", recursive=True):

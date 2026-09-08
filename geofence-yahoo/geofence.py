@@ -92,6 +92,9 @@ PISTAS = {
  "nome":     ["nome", "name", "poi", "title", "estabelecimento", "razao social"],
  "categoria":["categoria", "category", "tipo", "type", "segmento"],
 }
+# tokens curtos: so casamento exato, nunca parcial ("no" casaria dentro de "nome").
+# NFKD transforma "Nº" em "No", entao a coluna "Nº" cai aqui.
+PISTAS_EXATAS = {"numero": ["no", "n", "nro", "num"], "uf": ["uf"], "cep": ["cep"]}
 
 
 def sem_acento(s):
@@ -170,7 +173,8 @@ def mapear(header, linhas):
         for i, h in enumerate(norm):
             if i in usados or not h:
                 continue
-            if h in pistas or any(re.fullmatch(rf"{re.escape(p)}s?", h) for p in pistas):
+            todas = pistas + PISTAS_EXATAS.get(papel, [])
+            if h in todas or any(re.fullmatch(rf"{re.escape(p)}s?", h) for p in todas):
                 cols[papel] = i
                 usados.add(i)
                 break
@@ -198,6 +202,9 @@ def mapear(header, linhas):
                 cols["endereco"] = i
                 usados.add(i)
                 break
+    alt = [i for i, h in enumerate(norm)
+           if i not in usados and h and any(p in h for p in PISTAS["endereco"])]
+    cols["_alt_endereco"] = alt
     return cols
 
 
@@ -322,7 +329,9 @@ INICIO_LOGRADOURO = re.compile(
     r"travessa|tv|trav|largo|lgo|via|viela|ladeira|marginal|passeio|conjunto|cj|"
     r"quadra|q|qi|qe|qn|qs|sqn|sqs|scs|shis|shin|sgas|cln|cls|sia|st|setor|"
     r"bloco|bl|nucleo|vila|vl|parque|pq|boulevard|blvd|eixo|esplanada|elevado|"
-    r"acesso|servidao|beco|anel|contorno|linha|chacara|sitio|fazenda)\b", re.I)
+    r"acesso|servidao|beco|anel|contorno|linha|chacara|sitio|fazenda|praia|"
+    r"viaduto|rotula|rotatoria|trevo|passarela|calcada|galeria|patio|terminal|"
+    r"estacao|aeroporto|balneario|colonia|distrito|jardim|residencial)\b", re.I)
 SIGLAS_UF = set(UFBOX)
 RUIDO = [
  r"\bkm\.?\s*\d+[\d,.]*\b",       # Km 56, KM 04 — nao e numero de porta
@@ -330,8 +339,11 @@ RUIDO = [
  r"\bsn\b",
  # localizacao DENTRO do imovel: para um geofence por raio o que importa e o
  # endereco na rua, nao a loja no shopping
- r"\b(loja|lj|sala|sl|piso|andar|bloco|torre|quiosque|box)\.?\s*\d+\w*\b",
+ r"(?<!\bda )(?<!\bde )(?<!\bdo )(?<!\bDa )(?<!\bDe )(?<!\bDo )"
+ r"\b(loja|lj|sala|sl|piso|quiosque|box)\.?\s*\d+\w*\b",
  r"\b\d+\s*[oº°]?\s*andar\b",
+ # descricao de ponto de midia OOH: e referencia visual, nao endereco
+ r"\b(em\s+frente\s+a[oe]?|esquina\s+com|proximo\s+a[oe]?|ao\s+lado\s+d[eoa]s?)\b.*$",
 ]
 
 
@@ -372,6 +384,25 @@ def limpar_ruido(txt):
     for r in RUIDO:
         txt = re.sub(r, " ", txt, flags=re.I)
     return re.sub(r"\s+", " ", txt).strip()
+
+
+DESCRITOR_OOH = re.compile(
+    r"\b(e\s*/\s*f|em\s+frente|lado\s+oposto|oposto|defronte|entroncamento|"
+    r"cruzamento|esquina|proximo|ao\s+lado|junto\s+a|no\s+canteiro|na\s+ilha|"
+    r"na\s+calcada|sentido|altura\s+d|antes\s+d|apos\b|com\s+medidor)\b.*$", re.I)
+
+
+def limpar_ponto_ooh(txt):
+    """Coluna de endereco de inventario OOH: logradouro seguido de referencia
+    visual — "RUA BARAO DA TORRE, E/F Nº 623, ESQUINA COM ...". Fica o
+    logradouro e o numero de referencia, que e do mesmo quarteirao e serve de
+    ancora para um geofence por raio."""
+    plano = sem_acento(txt)
+    m = re.search(r"\bn[o°º]?\.?\s*(\d{1,6})\b", plano, re.I)
+    numero = m.group(1) if m else ""
+    rua = txt.split(",")[0].strip()
+    rua = DESCRITOR_OOH.sub(" ", rua).strip(" ,-.")
+    return re.sub(r"\s+", " ", f"{rua} {numero}").strip()
 
 
 def classificar_risco(logradouro, numero, cep):
@@ -435,12 +466,14 @@ def main():
     if parece_cabecalho(linhas[0]):
         header, corpo = linhas[0], linhas[1:]
         cols = mapear(header, corpo)
+        alt_end = cols.pop("_alt_endereco", [])
     else:
         # linha 0 e dado. O inverso disso — tratar dado como cabecalho — foi
         # exatamente o que a DSP fez ao geocodificar "Latitude,Longitude,..."
         header = [f"col{i+1}" for i in range(len(linhas[0]))]
         corpo = linhas
         cols = mapear([""] * len(linhas[0]), linhas)
+        alt_end = cols.pop("_alt_endereco", [])
 
     base = a.nome or re.sub(r"[^A-Za-z0-9]+", "_", os.path.splitext(os.path.basename(a.entrada))[0]).strip("_").lower()
     os.makedirs(a.saida, exist_ok=True)
@@ -469,6 +502,7 @@ def main():
 
     saidas, descartes, confer, grupos = [], [], [], {}
     for n, row in enumerate(corpo, start=2):
+        origem_alt = origem_num = False
         nome = campo(row, "nome")
         categoria = campo(row, "categoria")
         isenta = sem_acento(categoria).lower().strip() in CATEGORIAS_SEM_ENDERECO
@@ -481,8 +515,22 @@ def main():
         cidade = campo(row, "cidade") or cidade or None
         uf = (campo(row, "uf").upper() if campo(row, "uf").upper() in UFBOX else None) or uf
         cep = (re.sub(r"\D", "", campo(row, "cep")) or None) or cep
+        # A coluna principal pode nao trazer logradouro nenhum ("Shopping Jardim
+        # Guadalupe, Guadalupe, Rio de Janeiro - RJ"). Se uma coluna de endereco
+        # alternativa trouxer, ela assume. Tem de ser decidido AQUI, antes de
+        # anexar o numero de coluna: com o numero ja colado, o endereco parece
+        # completo e o fallback nunca dispara.
+        tem_num = any(re.fullmatch(r"\d{1,6}[A-Za-z]?", t) for t in miolo.split()[1:])
+        if miolo and not INICIO_LOGRADOURO.match(sem_acento(miolo).strip()) and not tem_num:
+            for j in alt_end:
+                cand = str(row[j]).strip() if len(row) > j else ""
+                if cand and INICIO_LOGRADOURO.match(sem_acento(cand).strip()):
+                    miolo, origem_alt = limpar_ponto_ooh(cand), True
+                    break
+
         if campo(row, "numero") and campo(row, "numero") not in miolo:
             miolo = f"{miolo} {campo(row, 'numero')}".strip()
+            origem_num = True
         if campo(row, "bairro") and sem_acento(campo(row, "bairro")).lower() not in sem_acento(miolo).lower():
             miolo = f"{miolo} {campo(row, 'bairro')}".strip()
 
@@ -545,6 +593,10 @@ def main():
             partes = [p for p in (rua_num, cidade, uf, cep, a.pais) if p]
             linha = ascii_puro(" ".join(partes))
             origem = "endereco"
+            if origem_alt:
+                origem += " (logradouro de coluna alternativa)"
+            if origem_num:
+                origem += " (numero de coluna propria)"
         if len(linha) < 8:
             descartes.append((n, nome or f"linha {n}", "endereco curto demais", bruto or "(vazio)"))
             continue

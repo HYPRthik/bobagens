@@ -1,0 +1,96 @@
+Avenida das Nacoes Unidas Botafogo Rio de Janeiro RJ 22250150 Brazil
+Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22410090 Brazil
+Avenida Atlantica Copacabana Rio de Janeiro RJ 22010000 Brazil
+Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470001 Brazil
+Avenida Atlantica Copacabana Rio de Janeiro RJ 22021001 Brazil
+Avenida Atlantica Rio de Janeiro RJ Brazil
+Parque do Cantagalo Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22471003 Brazil
+Avenida Maracana Maracana Rio de Janeiro RJ 20271111 Brazil
+Avenida Atlantica Copacabana Rio de Janeiro RJ 22070000 Brazil
+Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420008 Brazil
+Rua Afonso Cavalcanti 10 Rio de Janeiro RJ 20211110 Brazil
+Praia de Ipanema Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420002 Brazil
+Avenida Professor Manoel de Abreu Proximo ao Avenida Professor Manoel de Abreu Maracana Rio de Janeiro RJ 20550170 Brazil
+Praca General Tiburcio Urca Rio de Janeiro RJ 22290270 Brazil
+Avenida Borges de Medeiros 1 Rio de Janeiro RJ 22470003 Brazil
+Rua Afonso Cavalcanti 100 Rio de Janeiro RJ 20211110 Brazil
+Praca General Tiburcio Rio de Janeiro RJ 22290270 Brazil
+Avenida Borges de Medeiros 1000 Rio de Janeiro RJ 22430042 Brazil
+Avenida Delfim Moreira Leblon Rio de Janeiro RJ 22441000 Brazil
+Sup Arpoador Ipanema Rio de Janeiro RJ Brazil
+Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil
+Barraca do Joao 151 Rio de Janeiro RJ 22441000 Brazil
+Avenida Prefeito Mendes de Moraes Sao Conrado Rio de Janeiro RJ 22610095 Brazil
+Avenida Niemeyer Vidigal Rio de Janeiro RJ 22450221 Brazil
+Avenida do Pepe Barra da Tijuca Rio de Janeiro RJ 22620170 Brazil
+Praca do O Rio de Janeiro RJ 22620280 Brazil
+Barraca da Baiana Praca Jornalista Mario Filho 780 Rio de Janeiro RJ 22620170 Brazil
+Avenida do Pepe 930 Rio de Janeiro RJ 22620171 Brazil
+Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22620172 Brazil
+Avenida Lucio Costa 1030 Rio de Janeiro RJ 22620172 Brazil
+Avenida do Pepe 1312 Rio de Janeiro RJ 22620171 Brazil
+Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630010 Brazil
+Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630011 Brazil
+Avenida Lucio Costa Rio de Janeiro RJ 22795008 Brazil
+Posto 11 Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795006 Brazil
+Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795006 Brazil
+Avenida General San Martin Leblon Rio de Janeiro RJ 22441015 Brazil
+Rua Professor Abelardo Lobo 38 Rio de Janeiro RJ 22470240 Brazil
+Avenida Rodrigo Otavio Gavea Rio de Janeiro RJ 22450060 Brazil
+Avenida Princesa Isabel 334 Rio de Janeiro RJ 22011010 Brazil
+Praca Cardeal Arcoverde Rio de Janeiro RJ 22030001 Brazil
+Praca Vereador Rocha Leao 212 Rio de Janeiro RJ 22031060 Brazil
+Avenida Escritor Joao Cabral de Melo Neto Barra da Tijuca Rio de Janeiro RJ 22775057 Brazil
+Avenida Luis Carlos Prestes Barra da Tijuca Rio de Janeiro RJ 22775055 Brazil
+Avenida Ruy Frazao Soares Barra da Tijuca Rio de Janeiro RJ 22793074 Brazil
+Avenida Lucio Costa 6318 Rio de Janeiro RJ 22630012 Brazil
+Rua Hercilio Goncalves Barra da Tijuca Rio de Janeiro RJ 22630230 Brazil
+Praca Professor Jose Bernardino Barra da Tijuca Rio de Janeiro RJ 22621120 Brazil
+Estrada da Barra da Tijuca Barra da Tijuca Rio de Janeiro RJ 22611201 Brazil
+Avenida Augusto Severo Gloria Rio de Janeiro RJ 20021040 Brazil
+Praca Varnhagen Praca Varnhagem Tijuca Rio de Janeiro RJ 20540088 Brazil
+Praia do Flamengo 144 Rio de Janeiro RJ 22210030 Brazil
+Arena de Futebol 7 Rio de Janeiro RJ 20021060 Brazil
+Rua Sao Clemente Botafogo Rio de Janeiro RJ 22260001 Brazil
+Avenida Ayrton Senna Barra da Tijuca Rio de Janeiro RJ 22775003 Brazil
+Rua Francisco de Paula Barra Olimpica Rio de Janeiro RJ 22775120 Brazil
+Avenida Salvador Allende Barra Olimpica Rio de Janeiro RJ 22780160 Brazil
+Avenida Alfredo Balthazar da Silveira Barra da Tijuca Rio de Janeiro RJ 22790710 Brazil
+Rua Sao Clemente Botafogo Rio de Janeiro RJ 22260000 Brazil
+Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795009 Brazil
+Rua Visconde de Piraja 385 Rio de Janeiro RJ 22410003 Brazil
+Avenida das Acacias Barra da Tijuca Rio de Janeiro RJ 22776000 Brazil
+Avenida Visconde de Albuquerque Leblon Rio de Janeiro RJ 22450000 Brazil
+Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795008 Brazil
+Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630012 Brazil
+Rua Professor Abelardo Lobo Lagoa Rio de Janeiro RJ 22470240 Brazil
+Praca Professor Sousa Araujo Barra da Tijuca Rio de Janeiro RJ 22620340 Brazil
+Avenida Lucio Costa 102 Rio de Janeiro RJ 22795008 Brazil
+Avenida Lucio Costa 118 Rio de Janeiro RJ 22795009 Brazil
+Avenida Bartolomeu Mitre 770 Rio de Janeiro RJ 22431003 Brazil
+Avenida Almirante Silvio de Noronha 300 Rio de Janeiro RJ 20021010 Brazil
+Estrada da Barra da Tijuca 90 Rio de Janeiro RJ 22641040 Brazil
+Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470003 Brazil
+Rua Geisa Firmo Goncalves Sao Conrado Rio de Janeiro RJ 22451355 Brazil
+Avenida Salvador Allende Jacarepagua Rio de Janeiro RJ 22780160 Brazil
+Avenida Ayrton Senna Barra Olimpica Rio de Janeiro RJ 22775005 Brazil
+Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420012 Brazil
+Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420002 Brazil
+Avenida Padre Leonel Franca 182 Rio de Janeiro RJ 22451000 Brazil
+Rua Adalberto Ferreira 177 Rio de Janeiro RJ 22441040 Brazil
+Avenida Atlantica Copacabana Rio de Janeiro RJ 22011010 Brazil
+Avenida Atlantica 1020 Rio de Janeiro RJ 22021000 Brazil
+Posto 3 Botequim Avenida Atlantica 318 Rio de Janeiro RJ 22021001 Brazil
+Praca Chaim Weizmann Botafogo Rio de Janeiro RJ 22231030 Brazil
+Rua Muniz Barreto 448 Rio de Janeiro RJ 22251090 Brazil
+Rua Doutor Otavio Kelly Tijuca Rio de Janeiro RJ 20511280 Brazil
+Avenida Maracana Tijuca Rio de Janeiro RJ 20511001 Brazil
+Avenida Almirante Silvio de Noronha Centro Rio de Janeiro RJ 20021010 Brazil
+Rua Teixeira Soares Proximo ao 71 191 Praca da Bandeira Praca da Bandeira Rio de Janeiro RJ 20270150 Brazil
+Avenida Maracana 51 Rio de Janeiro RJ 20271110 Brazil
+Praca Saenz Pena Tijuca Rio de Janeiro RJ 20520090 Brazil
+Avenida Epitacio Pessoa 3000 Rio de Janeiro RJ 22471003 Brazil
+Rua Visconde de Itamarati Maracana Rio de Janeiro RJ 20550140 Brazil
+Avenida Rei Pele Maracana Rio de Janeiro RJ 20271130 Brazil
+Rua Brigadeiro Eduardo Gomes Flamengo Rio de Janeiro RJ Brazil
+Jardim Guanabara Rio de Janeiro RJ 21940460 Brazil

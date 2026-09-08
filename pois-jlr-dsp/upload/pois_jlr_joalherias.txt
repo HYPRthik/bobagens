@@ -245,7 +245,7 @@ Avenida Brasil 3545 Cascavel PR 85816010 Brazil
 Rodovia Presidente Dutra Itapegica Guarulhos SP 07025000 Brazil
 Avenida Gov Mario Covas Junior Maua SP 09390040 Brazil
 Rua Rosario Jardim Oriente Sao Jose dos Campos SP 12235420 Brazil
-Cia Food Jardim Madalena Campinas SP 13091605 Brazil
+Jardim Madalena Campinas SP 13091605 Brazil
 Avenida do Contorno 6047 Belo Horizonte MG 30110042 Brazil
 Avenida Interlagos 2240 Sao Paulo SP 04660004 Brazil
 Rua Sete de Setembro 1327 Blumenau SC 89010207 Brazil

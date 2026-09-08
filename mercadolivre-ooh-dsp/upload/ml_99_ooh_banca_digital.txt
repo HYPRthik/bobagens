@@ -1,0 +1,63 @@
+Avenida Afranio de Melo Franco 131 Rio de Janeiro RJ 22430060 Brazil
+Avenida Armando Lombardi 385 Rio de Janeiro RJ 22640020 Brazil
+Rua Helios Seelinger Barra da Tijuca Rio de Janeiro RJ 22640040 Brazil
+Avenida Afonso de Taunay Barra da Tijuca Rio de Janeiro RJ 22621310 Brazil
+Avenida Ataulfo de Paiva 50 Rio de Janeiro RJ 22440033 Brazil
+Avenida Ataulfo de Paiva 802 Rio de Janeiro RJ 22440033 Brazil
+Avenida Ayrton Senna 2138 Rio de Janeiro RJ 22775003 Brazil
+Avenida Ayrton Senna 2001 Rio de Janeiro RJ 22775002 Brazil
+Avenida Ayrton Senna Barra da Tijuca Rio de Janeiro RJ 22775003 Brazil
+Avenida Ayrton Senna 2550 Rio de Janeiro RJ 22775003 Brazil
+Avenida Ayrton Senna 9401 Rio de Janeiro RJ 22775004 Brazil
+Praca Antero de Quental Leblon Rio de Janeiro RJ 22440034 Brazil
+Avenida General San Martin 663 Rio de Janeiro RJ 22441012 Brazil
+Rua Gilberto Cardoso Leblon Rio de Janeiro RJ 22430070 Brazil
+Avenida das Americas 1699A Rio de Janeiro RJ 22631000 Brazil
+Avenida Alfredo Balthazar da Silveira Recreio dos Bandeirantes Rio de Janeiro RJ 22790710 Brazil
+Rua Alceu Amoroso Lima Barra da Tijuca Rio de Janeiro RJ 22631010 Brazil
+Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640101 Brazil
+Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22793081 Brazil
+Avenida das Americas Proximo ao 3120 3198 Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640101 Brazil
+Avenida Das Americas Rio de Janeiro RJ 22631003 Brazil
+Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640102 Brazil
+Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22790701 Brazil
+Avenida das Americas 3941 Rio de Janeiro RJ 22631003 Brazil
+Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22790703 Brazil
+Avenida das Americas 946 Rio de Janeiro RJ 22640100 Brazil
+Rua Amilcar de Castro Barra Olimpica Rio de Janeiro RJ 22775045 Brazil
+Avenida Embaixador Abelardo Bueno 2660 Rio de Janeiro RJ 22775023 Brazil
+Avenida Embaixador Abelardo Bueno 2906 Rio de Janeiro RJ 22775040 Brazil
+Avenida Embaixador Abelardo Bueno 3250 Rio de Janeiro RJ 22775040 Brazil
+Avenida Embaixador Abelardo Bueno 1018 Rio de Janeiro RJ 22775040 Brazil
+Avenida Almirante Barroso 91 Rio de Janeiro RJ 20031004 Brazil
+Avenida Henrique Dodsworth Lagoa Rio de Janeiro RJ 22061030 Brazil
+Avenida Lauro Sodre Rio de Janeiro RJ 22290070 Brazil
+Avenida Maracana Maracana Rio de Janeiro RJ 20271111 Brazil
+Rua Baltazar Lisboa Vila Isabel Rio de Janeiro RJ 20540130 Brazil
+Avenida Ministro Ivan Lins 270 Rio de Janeiro RJ 22620110 Brazil
+Avenida Olegario Maciel 263 Rio de Janeiro RJ 22621200 Brazil
+Avenida Olegario Maciel 600 Rio de Janeiro RJ 22621200 Brazil
+Avenida Rodolfo Amoedo 10 Rio de Janeiro RJ 22620350 Brazil
+Estrada Da Gavea Rio de Janeiro RJ 22610170 Brazil
+Rua das Laranjeiras Catete Rio de Janeiro RJ 22221020 Brazil
+Rua Barata Ribeiro 204 Rio de Janeiro RJ 22011001 Brazil
+Praca Professora Camisao 41 Rio de Janeiro RJ 22760151 Brazil
+Brs 3 I Visconde de Ouro Preto I Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil
+Praia do Flamengo 176 Rio de Janeiro RJ 22210030 Brazil
+Rua Real Grandeza 254 Rio de Janeiro RJ 22281034 Brazil
+Rua Voluntarios da Patria 95 Rio de Janeiro RJ 22270010 Brazil
+Rua Adalberto Ferreira 18 Rio de Janeiro RJ 22441040 Brazil
+Rua Barao de Mesquita 349 Rio de Janeiro RJ 20540003 Brazil
+Rua Bolivar 135 Rio de Janeiro RJ 22061020 Brazil
+Rua das Laranjeiras 445 Rio de Janeiro RJ 22240005 Brazil
+Rua Fonte da Saudade 129 Rio de Janeiro RJ Brazil
+Rua Humaita 104 Rio de Janeiro RJ 22261001 Brazil
+Rua Maria Quiteria 107 Rio de Janeiro RJ 22410040 Brazil
+Praca Nossa Senhora Auxiliadora Leblon Rio de Janeiro RJ 22431000 Brazil
+Avenida Visconde de Albuquerque 1302 Rio de Janeiro RJ 22450001 Brazil
+Rua Santo Afonso 320 Rio de Janeiro RJ 20511170 Brazil
+Rua Marechal Francisco de Moura Botafogo Rio de Janeiro RJ 22260140 Brazil
+Rua Sao Francisco Xavier 321 Rio de Janeiro RJ 20550010 Brazil
+Rua Visconde de Piraja 339 Rio de Janeiro RJ 22410001 Brazil
+Rua Voluntarios da Patria 213 Rio de Janeiro RJ 22270001 Brazil
+Rua Sao Clemente 145A Rio de Janeiro RJ 22260001 Brazil
