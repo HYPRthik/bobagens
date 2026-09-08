@@ -1,11 +1,11 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
 ALTO;4;;Estrada do Portela 222 Rio de Janeiro RJ 21351050 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;5;;Estrada da Gavea 899 Rio de Janeiro RJ 22610001 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;27;;Estrada dos Tres Rios 243 Rio de Janeiro RJ 22745004 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;27;;Estrada dos Tres Rios 271 Rio de Janeiro RJ 22745004 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;36;;Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420008 Brazil;sem numero de porta
 ALTO;50;;Avenida Augusto Severo Gloria Rio de Janeiro RJ 20021040 Brazil;sem numero de porta
 ALTO;52;;Rua Fonte da Saudade Lagoa Rio de Janeiro RJ 22471210 Brazil;sem numero de porta
-ALTO;67;;Rua Juquia Leblon L O AO N Rio de Janeiro RJ 22441080 Brazil;sem numero de porta
+ALTO;67;;Rua Juquia L O AO N Leblon Rio de Janeiro RJ 22441080 Brazil;sem numero de porta
 ALTO;79;;Rua Governador Irineu Bornhausen Flamengo Rio de Janeiro RJ Brazil;sem numero de porta
 ALTO;83;;Rua Araujo Porto Alegre Centro Rio de Janeiro RJ 20030015 Brazil;sem numero de porta
 ALTO;88;;Avenida Presidente Antonio Carlos Centro Rio de Janeiro RJ 20020010 Brazil;sem numero de porta
@@ -246,18 +246,18 @@ ALTO;630;;Avenida Rei Pele Maracana Rio de Janeiro RJ 20271130 Brazil;sem numero
 ALTO;631;;Avenida das Nacoes Unidas Botafogo Rio de Janeiro RJ 22250150 Brazil;sem numero de porta
 ALTO;632;;Rua Brigadeiro Eduardo Gomes Flamengo Rio de Janeiro RJ Brazil;sem numero de porta
 ALTO;633;;Jardim Guanabara Rio de Janeiro RJ 21940460 Brazil;sem numero de porta
-MEDIO;2;;Avenida Pastor Martin Luther King Junior Del Castilho 126 Rio de Janeiro RJ 20765000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;22;;Rua Visconde de Piraja 3 Rio de Janeiro RJ 22410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;25;;Rua Miguel Lemos 25A Rio de Janeiro RJ 22071000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;2;;Avenida Pastor Martin Luther King Junior 126 Rio de Janeiro RJ 20765000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;22;;Rua Visconde de Piraja 12 Rio de Janeiro RJ 22410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;25;;Rua Miguel Lemos 41D Rio de Janeiro RJ 22071000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;33;;Rua Visconde de Piraja 220 Rio de Janeiro RJ 22410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;42;;Avenida Delfim Moreira Leblon 180 Rio de Janeiro RJ 22441000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;55;;Avenida Atlantica Copacabana 956 Rio de Janeiro RJ 22010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;56;;Avenida Atlantica 2964 Rio de Janeiro RJ 22070000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;82;;Rua Voluntarios da Patria 24 Rio de Janeiro RJ 22270000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;42;;Avenida Delfim Moreira 180 Rio de Janeiro RJ 22441000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;55;;Avenida Atlantica 956 Rio de Janeiro RJ 22010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;56;;Avenida Atlantica 131 Rio de Janeiro RJ 22070000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;82;;Rua Voluntarios da Patria 20 Rio de Janeiro RJ 22270000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;86;;Avenida Rio Branco 18 Rio de Janeiro RJ 20090000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;124;;Largo do Machado Largo do Machado 21 Rio de Janeiro RJ 22240000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;128;;Rua do Catete Gloria 366 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;134;;Rua do Catete 154 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;124;;Largo do Machado 21 Rio de Janeiro RJ 22240000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;128;;Rua do Catete 366 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;134;;Rua do Catete 156 Rio de Janeiro RJ 22220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;159;;Avenida das Americas 1699A Rio de Janeiro RJ 22631000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;224;;Rua Pompeu Loureiro 35 Rio de Janeiro RJ 22061000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;246;;Rua Candido Benicio 3936 Rio de Janeiro RJ 22733000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

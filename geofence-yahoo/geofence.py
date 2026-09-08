@@ -288,18 +288,25 @@ def partir_endereco(txt):
                 cidade = segs.pop()       # sem UF: ultimo segmento e a cidade
         # "Churrascaria Ponteio, Avenida Francisco Ferreira Lopes, 460, ..." —
         # o nome do estabelecimento vem antes do logradouro e e ruido puro.
-        # So corta quando ha um segmento seguinte que comeca com tipo de logradouro.
-        for i, seg in enumerate(segs):
-            if not INICIO_LOGRADOURO.match(seg.strip()):
-                continue
-            # so corta se o que vem antes nao tiver digito: um numero ali significa
-            # que aquilo ja e o endereco, e nao o nome do estabelecimento
-            # ("Boulevard Vinte e Oito de Setembro, 271, Vila Isabel" — "Vila"
-            # casa como tipo, mas cortar apagaria a rua e o numero).
-            if i and i <= 2 and not any(re.search(r"\d", x) for x in segs[:i]):
-                segs = segs[i:]
-            break
-        return " ".join(segs).strip(" ,-"), cidade, uf, cep
+        # Sinal mais forte que o tipo de logradouro: um segmento que e SO numero.
+        # O logradouro e o segmento imediatamente anterior a ele, valendo mesmo
+        # quando o tipo vem com erro de digitacao ("Avendia Abilio Augusto").
+        k = next((i for i, x in enumerate(segs)
+                  if re.fullmatch(r"\d{1,6}[A-Za-z]?", x.strip())), None)
+        if k is not None and k >= 1:
+            segs = segs[k - 1:]
+        else:
+            # sem segmento so-numero: cai na regra do tipo de logradouro. So corta
+            # se o que vem antes nao tiver digito — um numero ali significa que
+            # aquilo ja e o endereco ("Boulevard Vinte e Oito de Setembro, 271,
+            # Vila Isabel": "Vila" casa como tipo, mas cortar apagaria a rua).
+            for i, seg in enumerate(segs):
+                if not INICIO_LOGRADOURO.match(seg.strip()):
+                    continue
+                if i and i <= 2 and not any(re.search(r"\d", x) for x in segs[:i]):
+                    segs = segs[i:]
+                break
+        return " ".join(segs).strip(" ,-"), cidade, uf, cep, segs
 
     ufs = [x for x in re.finditer(r"\b([A-Z]{2})\b", t) if x.group(1) in UFBOX]
     if ufs:
@@ -313,7 +320,7 @@ def partir_endereco(txt):
             # UF fecha a string: o que sobra tem bairro E cidade grudados, sem
             # como separar com seguranca. cidade fica None de proposito.
             t = (antes + " " + depois).strip()
-    return t.strip(" ,-"), cidade, uf, cep
+    return t.strip(" ,-"), cidade, uf, cep, []
 
 
 # ---- forma essencial do endereco -----------------------------------------
@@ -508,7 +515,8 @@ def main():
         isenta = sem_acento(categoria).lower().strip() in CATEGORIAS_SEM_ENDERECO
 
         bruto = campo(row, "endereco")
-        miolo, cidade, uf, cep = partir_endereco(bruto) if bruto else ("", None, None, None)
+        miolo, cidade, uf, cep, segs_end = (partir_endereco(bruto) if bruto
+                                            else ("", None, None, None, []))
         # Coluna explicita ganha do que foi extraido do texto: no slot de cidade
         # do endereco costuma vir BAIRRO ("BELA VISTA - SP", "PIRITUBA - SP" sao
         # todos Sao Paulo) ou abreviacao ("PRES. PRUDENTE").
@@ -528,8 +536,14 @@ def main():
                     miolo, origem_alt = limpar_ponto_ooh(cand), True
                     break
 
-        if campo(row, "numero") and campo(row, "numero") not in miolo:
-            miolo = f"{miolo} {campo(row, 'numero')}".strip()
+        n_col = campo(row, "numero")
+        if n_col and n_col not in miolo.split():
+            if segs_end and not origem_alt:
+                # insere logo apos o logradouro (1o segmento), para o bairro que
+                # vem depois continuar separavel e ser descartado
+                miolo = " ".join([segs_end[0], n_col] + segs_end[1:]).strip()
+            else:
+                miolo = f"{miolo} {n_col}".strip()
             origem_num = True
         if campo(row, "bairro") and sem_acento(campo(row, "bairro")).lower() not in sem_acento(miolo).lower():
             miolo = f"{miolo} {campo(row, 'bairro')}".strip()

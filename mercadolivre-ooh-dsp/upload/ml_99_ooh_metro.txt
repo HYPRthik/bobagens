@@ -10,19 +10,19 @@ Avenida Pastor Martin Luther King Junior Pavuna Rio de Janeiro RJ 21520002 Brazi
 Avenida Pastor Martin Luther King Jr Rio de Janeiro RJ 20760005 Brazil
 Rua Joana Angelica 159 Rio de Janeiro RJ 22420030 Brazil
 Avenida PRESIDENTE CASTELO BRANCO Rio de Janeiro RJ 20271130 Brazil
-Largo do Machado Largo do Machado 21 Rio de Janeiro RJ 22240000 Brazil
+Largo do Machado 21 Rio de Janeiro RJ 22240000 Brazil
 Avenida Armando Lombardi Barra da Tijuca Rio de Janeiro RJ 22640020 Brazil
 Avenida Ataulfo de Paiva 50 Rio de Janeiro RJ 22440033 Brazil
 Rua Antonio Parreiras 160 Rio de Janeiro RJ 22411020 Brazil
-Rua do Catete Gloria 366 Rio de Janeiro RJ 22220000 Brazil
-Rua Marques de Abrantes Flamengo 118 Rio de Janeiro RJ Brazil
+Rua do Catete 366 Rio de Janeiro RJ 22220000 Brazil
+Rua Marques de Abrantes 118 Rio de Janeiro RJ Brazil
 Rua Ulysses Guimaraes Rio de Janeiro RJ Brazil
 Praca Floriano 19 Rio de Janeiro RJ 20031050 Brazil
 Avenida Presidente Vargas 2700 Rio de Janeiro RJ 20091060 Brazil
-Avenida Presidente Vargas Centro 2727 Rio de Janeiro RJ 20210031 Brazil
-Rua do Catete 154 Rio de Janeiro RJ 22220000 Brazil
+Avenida Presidente Vargas 2727 Rio de Janeiro RJ 20210031 Brazil
+Rua do Catete 156 Rio de Janeiro RJ 22220000 Brazil
 Avenida Rio Branco 156 Rio de Janeiro RJ 20040007 Brazil
-Rua Assis Brasil Copacabana 181 Rio de Janeiro RJ 22030010 Brazil
+Rua Assis Brasil 181 Rio de Janeiro RJ 22030010 Brazil
 Praca Eugenio Jardim 26 Rio de Janeiro RJ 22061040 Brazil
-Rua Nelson Mandela Botafogo 72 Rio de Janeiro RJ 22260005 Brazil
+Rua Nelson Mandela 72 Rio de Janeiro RJ 22260005 Brazil
 Avenida Ataulfo de Paiva Leblon Rio de Janeiro RJ 22440035 Brazil

@@ -1,99 +1,99 @@
-Rua Conde de Bonfim 18 Rio de Janeiro RJ 20520053 Brazil
-Rua Equador 680 Rio de Janeiro RJ 20220410 Brazil
-Rua Equador 65 Rio de Janeiro RJ 20220410 Brazil
-Avenida Beira Mar Gloria 436 Rio de Janeiro RJ 20021060 Brazil
-Avenida Almirante Barroso Centro 156 Rio de Janeiro RJ 20031003 Brazil
-Rua Uniao 28 Rio de Janeiro RJ 20250340 Brazil
+Rua Conde de Bonfim 25 Rio de Janeiro RJ 20520053 Brazil
+Rua Equador 23 Rio de Janeiro RJ 20220410 Brazil
+Rua Equador 0 Rio de Janeiro RJ 20220410 Brazil
+Avenida Beira Mar 436 Rio de Janeiro RJ 20021060 Brazil
+Avenida Almirante Barroso 156 Rio de Janeiro RJ 20031003 Brazil
+Rua Uniao 0 Rio de Janeiro RJ 20250340 Brazil
 Avenida Rio Branco 147 Rio de Janeiro RJ 20040006 Brazil
-Rua Artur Araripe Gavea 110 Rio de Janeiro RJ 22451020 Brazil
+Rua Artur Araripe 110 Rio de Janeiro RJ 22451020 Brazil
 Rua Voluntarios da Patria 329 Rio de Janeiro RJ 22270010 Brazil
-Rua Visconde de Piraja 3 Rio de Janeiro RJ 22410000 Brazil
-Rua Paulo Mazzucchelli 35 Rio de Janeiro RJ 22621190 Brazil
-Rua Bolivar 84 Rio de Janeiro RJ 22061020 Brazil
-Rua Miguel Lemos 25A Rio de Janeiro RJ 22071000 Brazil
-Rua Visconde de Piraja 325 Rio de Janeiro RJ 22410001 Brazil
-Estrada dos Tres Rios 243 Rio de Janeiro RJ 22745004 Brazil
-Avenida Ataulfo de Paiva 734 Rio de Janeiro RJ 22440033 Brazil
-Rua Conde de Bonfim 251 Rio de Janeiro RJ 20520051 Brazil
-Rua Visconde de Piraja 306 Rio de Janeiro RJ 22410003 Brazil
-Rua das Laranjeiras 259 Rio de Janeiro RJ 22240003 Brazil
+Rua Visconde de Piraja 12 Rio de Janeiro RJ 22410000 Brazil
+Rua Paulo Mazzucchelli 918 Rio de Janeiro RJ 22621190 Brazil
+Rua Bolivar 80 Rio de Janeiro RJ 22061020 Brazil
+Rua Miguel Lemos 41D Rio de Janeiro RJ 22071000 Brazil
+Rua Visconde de Piraja 70 Rio de Janeiro RJ 22410001 Brazil
+Estrada dos Tres Rios 271 Rio de Janeiro RJ 22745004 Brazil
+Avenida Ataulfo de Paiva 725 Rio de Janeiro RJ 22440033 Brazil
+Rua Conde de Bonfim 240 Rio de Janeiro RJ 20520051 Brazil
+Rua Visconde de Piraja 287 Rio de Janeiro RJ 22410003 Brazil
+Rua das Laranjeiras 251 Rio de Janeiro RJ 22240003 Brazil
 Avenida Rio Branco 26 Rio de Janeiro RJ 20090001 Brazil
 Rua Visconde de Piraja 220 Rio de Janeiro RJ 22410000 Brazil
-Rua Frei Leandro 8 Rio de Janeiro RJ 22470210 Brazil
-Rua Visconde de Piraja 389 Rio de Janeiro RJ 22410003 Brazil
+Rua Frei Leandro 15 Rio de Janeiro RJ 22470210 Brazil
+Rua Visconde de Piraja 381 Rio de Janeiro RJ 22410003 Brazil
 Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420008 Brazil
-Rua Maria Quiteria Ipanema 450 Rio de Janeiro RJ 21850080 Brazil
-Avenida Ataulfo de Paiva 50 Rio de Janeiro RJ 22440033 Brazil
+Rua Maria Quiteria 450 Rio de Janeiro RJ 21850080 Brazil
+Avenida Ataulfo de Paiva 623 Rio de Janeiro RJ 22440033 Brazil
 Avenida Rio Branco 115 Rio de Janeiro RJ 20040004 Brazil
 Rua Visconde de Maranguape 51 Rio de Janeiro RJ 20021390 Brazil
-Rua Teodoro da Silva Andarai 630 Rio de Janeiro RJ 20560005 Brazil
-Avenida Delfim Moreira Leblon 180 Rio de Janeiro RJ 22441000 Brazil
-Avenida Epitacio Pessoa Lagoa 1013 Rio de Janeiro RJ 22471003 Brazil
-Avenida Presidente Vargas Centro 482 Rio de Janeiro RJ 20071003 Brazil
-Avenida Presidente Wilson Centro 1509 Rio de Janeiro RJ 20030021 Brazil
+Rua Teodoro da Silva 630 Rio de Janeiro RJ 20560005 Brazil
+Avenida Delfim Moreira 180 Rio de Janeiro RJ 22441000 Brazil
+Avenida Epitacio Pessoa 1013 Rio de Janeiro RJ 22471003 Brazil
+Avenida Presidente Vargas 482 Rio de Janeiro RJ 20071003 Brazil
+Avenida Presidente Wilson 1509 Rio de Janeiro RJ 20030021 Brazil
 Praca Demetrio Ribeiro 15 Rio de Janeiro RJ 22011020 Brazil
 Avenida Vieira Souto 530 Rio de Janeiro RJ 22420008 Brazil
-Avenida Vieira Souto Ipanema 318 Rio de Janeiro RJ 22420002 Brazil
-Brs 1 2 Rio de Janeiro RJ 22250145 Brazil
+Avenida Vieira Souto 318 Rio de Janeiro RJ 22420002 Brazil
+Brs 1 228 Rio de Janeiro RJ 22250145 Brazil
 Avenida Augusto Severo Gloria Rio de Janeiro RJ 20021040 Brazil
-Rua Barata Ribeiro 354 Rio de Janeiro RJ 22040001 Brazil
+Rua Barata Ribeiro 354 E 354 Rio de Janeiro RJ 22040001 Brazil
 Rua Fonte da Saudade Lagoa Rio de Janeiro RJ 22471210 Brazil
-Rua Mario Ribeiro Leblon 152 Rio de Janeiro RJ 22441060 Brazil
-Avenida Ataulfo de Paiva 910 Rio de Janeiro RJ 22440033 Brazil
-Avenida Atlantica Copacabana 956 Rio de Janeiro RJ 22010000 Brazil
-Avenida Atlantica 2964 Rio de Janeiro RJ 22070000 Brazil
+Rua Mario Ribeiro 152 Rio de Janeiro RJ 22441060 Brazil
+Avenida Ataulfo de Paiva 763 Rio de Janeiro RJ 22440033 Brazil
+Avenida Atlantica 956 Rio de Janeiro RJ 22010000 Brazil
+Avenida Atlantica 131 Rio de Janeiro RJ 22070000 Brazil
 Avenida Atlantica 3484 Rio de Janeiro RJ 22070001 Brazil
 Avenida Atlantica 4160 Rio de Janeiro RJ 22070002 Brazil
-Avenida Lauro Sodre Botafogo 116 Rio de Janeiro RJ 22290070 Brazil
-Brs 1 2 Demetrio Ribeiro Avenida Princesa Isabel Copacabana 320 Rio de Janeiro RJ 22011010 Brazil
+Avenida Lauro Sodre 116 Rio de Janeiro RJ 22290070 Brazil
+Brs 1 320 Rio de Janeiro RJ 22011010 Brazil
 Rua Conde de Bonfim 302 Rio de Janeiro RJ 20520054 Brazil
 Rua Conde de Bonfim 470 Rio de Janeiro RJ 20520054 Brazil
-Rua General Roca Tijuca 661 Rio de Janeiro RJ 20521070 Brazil
-Rua Visconde de Piraja 411 Rio de Janeiro RJ 22410003 Brazil
+Rua General Roca 661 Rio de Janeiro RJ 20521070 Brazil
+Rua Visconde de Piraja 414 Rio de Janeiro RJ 22410003 Brazil
 Avenida Niemeyer 15 Rio de Janeiro RJ 22450220 Brazil
 Rua Gilberto Cardoso 266 Rio de Janeiro RJ 22430070 Brazil
-Rua Juquia Leblon L O AO N Rio de Janeiro RJ 22441080 Brazil
+Rua Juquia L O AO N Leblon Rio de Janeiro RJ 22441080 Brazil
 Avenida Princesa Isabel 245 Rio de Janeiro RJ 22011011 Brazil
-Rua Marechal Mascarenhas de Morais 92 Rio de Janeiro RJ 22030040 Brazil
-Rua Barata Ribeiro 638 Rio de Janeiro RJ 22051001 Brazil
+Rua Marechal Mascarenhas de Morais 236 Rio de Janeiro RJ 22030040 Brazil
+Rua Barata Ribeiro 636 Rio de Janeiro RJ 22051001 Brazil
 Rua Barata Ribeiro 717 Rio de Janeiro RJ 22051001 Brazil
 Rua Barata Ribeiro 752 Rio de Janeiro RJ 22051001 Brazil
 Avenida Nossa Senhora de Copacabana 1334 Rio de Janeiro RJ 22070011 Brazil
-People 9 Comunicacao Avenida Nossa Senhora de Copacabana 122 Rio de Janeiro RJ 22020002 Brazil
+Avenida Nossa Senhora de Copacabana 120 Rio de Janeiro RJ 22020002 Brazil
 Rua Muniz Barreto 701 Rio de Janeiro RJ 22251090 Brazil
 Rua Sao Clemente 67 Rio de Janeiro RJ 22260001 Brazil
 Rua Marques de Abrantes 91 Rio de Janeiro RJ 22230061 Brazil
-Rua Pinheiro Guimaraes 10 Rio de Janeiro RJ 22281080 Brazil
+Rua Pinheiro Guimaraes 8a Rio de Janeiro RJ 22281080 Brazil
 Rua Governador Irineu Bornhausen Flamengo Rio de Janeiro RJ Brazil
 Rua Voluntarios da Patria 450 Rio de Janeiro RJ 22271042 Brazil
 Rua General Roca 815 Rio de Janeiro RJ 20521070 Brazil
-Rua Voluntarios da Patria 24 Rio de Janeiro RJ 22270000 Brazil
+Rua Voluntarios da Patria 20 Rio de Janeiro RJ 22270000 Brazil
 Rua Araujo Porto Alegre Centro Rio de Janeiro RJ 20030015 Brazil
 Rua Uruguaiana 55 Rio de Janeiro RJ 20050094 Brazil
-Avenida Calogeras 6 Rio de Janeiro RJ 20030070 Brazil
+Avenida Calogeras 164 Rio de Janeiro RJ 20030070 Brazil
 Avenida Rio Branco 18 Rio de Janeiro RJ 20090000 Brazil
 Avenida Republica do Paraguai 520D Rio de Janeiro RJ 20031180 Brazil
 Avenida Presidente Antonio Carlos Centro Rio de Janeiro RJ 20020010 Brazil
-Avenida Vieira Souto 140 Rio de Janeiro RJ 22420002 Brazil
-Avenida Epitacio Pessoa Lagoa 732 Rio de Janeiro RJ 22410090 Brazil
+Avenida Vieira Souto 130 Rio de Janeiro RJ 22420002 Brazil
+Avenida Epitacio Pessoa 732 Rio de Janeiro RJ 22410090 Brazil
 Avenida Oswaldo Cruz Botafogo Rio de Janeiro RJ 22250040 Brazil
-Avenida Epitacio Pessoa 1482 Rio de Janeiro RJ 22410090 Brazil
-Avenida Epitacio Pessoa 1010 Rio de Janeiro RJ 22410090 Brazil
-Rua Aristides Espinola 64 Rio de Janeiro RJ 22440050 Brazil
-Avenida Presidente Vargas Centro 1343 Rio de Janeiro RJ 20071004 Brazil
+Avenida Epitacio Pessoa 1460 Rio de Janeiro RJ 22410090 Brazil
+Avenida Epitacio Pessoa 1024 Rio de Janeiro RJ 22410090 Brazil
+Rua Aristides Espinola 1175 Rio de Janeiro RJ 22440050 Brazil
+Avenida Presidente Vargas 1343 Rio de Janeiro RJ 20071004 Brazil
 Avenida Presidente Vargas 463 Rio de Janeiro RJ 20070030 Brazil
 Avenida Beira Mar Gloria Rio de Janeiro RJ 20021060 Brazil
-Rua Professor Alvaro Rodrigues Botafogo 1128 Rio de Janeiro RJ 22280040 Brazil
-Rua Visconde de Piraja 462 Rio de Janeiro RJ 22410002 Brazil
-Rua Santana 11 Rio de Janeiro RJ 21831453 Brazil
+Rua Professor Alvaro Rodrigues 1128 Rio de Janeiro RJ 22280040 Brazil
+Rua Visconde de Piraja 452 Rio de Janeiro RJ 22410002 Brazil
+Rua Santana 66 Rio de Janeiro RJ 21831453 Brazil
 Avenida das Nacoes Unidas Botafogo Rio de Janeiro RJ 22250150 Brazil
 Rua Sao Francisco Xavier 537 Rio de Janeiro RJ 20550011 Brazil
 Avenida Presidente Vargas Centro Rio de Janeiro RJ 20071002 Brazil
 Rua Visconde de Piraja 207 Rio de Janeiro RJ 22410001 Brazil
 Rua Anibal de Mendonca 124 Rio de Janeiro RJ 22410050 Brazil
-Rua Visconde de Piraja 550 Rio de Janeiro RJ 22410002 Brazil
-Avenida Nossa Senhora de Copacabana 1072 Rio de Janeiro RJ 22060001 Brazil
+Rua Visconde de Piraja 206 Rio de Janeiro RJ 22410002 Brazil
+Avenida Nossa Senhora de Copacabana 1063 Rio de Janeiro RJ 22060001 Brazil
 Avenida Nossa Senhora de Copacabana 1138 Rio de Janeiro RJ 22060002 Brazil
-Avenida Nossa Senhora de Copacabana 1219 Rio de Janeiro RJ 22070011 Brazil
-Avenida Rainha Elisabeth 188 Rio de Janeiro RJ 22081032 Brazil
+Avenida Nossa Senhora de Copacabana 1213 Rio de Janeiro RJ 22070011 Brazil
+Avenida Rainha Elisabeth 186 Rio de Janeiro RJ 22081032 Brazil
 Avenida Visconde de Albuquerque Gavea Rio de Janeiro RJ 22450002 Brazil

@@ -1,13 +1,13 @@
 Avenida Gastao Senges Barra da Tijuca Rio de Janeiro RJ 22631002 Brazil
 AVENIDA SALVADOR ALLENDE Rio de Janeiro RJ Brazil
 Avenida Olegario Maciel 600 Rio de Janeiro RJ 22621200 Brazil
-Quadra Tapa Barbearia Cortes Por Assinatura Barbearia Em Barra da Tijuca RJ Corte de Cabelo Mascul Avenida das Americas 7380 Rio de Janeiro RJ 22793081 Brazil
+Avenida das Americas 7380 Rio de Janeiro RJ 22793081 Brazil
 Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22793080 Brazil
 Avenida das Americas 900 Rio de Janeiro RJ 22640100 Brazil
 Avenida Ernani Cardoso 350 Rio de Janeiro RJ 21310310 Brazil
 Avenida Dom Helder Camara 9783 Rio de Janeiro RJ 21380003 Brazil
 Rua da Carioca 49 Rio de Janeiro RJ 20050008 Brazil
-PD7 Tech Rua Riachuelo 130 Rio de Janeiro RJ 20230014 Brazil
+Rua Riachuelo 130 Rio de Janeiro RJ 20230014 Brazil
 Praca Monte Castelo 20 Rio de Janeiro RJ 20051030 Brazil
 Estrada do Monteiro 1200 Rio de Janeiro RJ 23036430 Brazil
 Rua Tonelero 51 Rio de Janeiro RJ 22030001 Brazil

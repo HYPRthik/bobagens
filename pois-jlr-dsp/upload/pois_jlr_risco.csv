@@ -275,6 +275,7 @@ ALTO;1266;;Rua Rio Branco 23 34 Vila Nova Santa Clara Bauru SP 17014037 Brazil;s
 ALTO;1269;;Catedral de Nossa Senhora das Dores Praca Doutor Luciano Esteves Centro Limeira SP 13480211 Brazil;sem numero de porta
 ALTO;1273;;Rua Redentora Imperial Sao Jose do Rio Preto SP 15015780 Brazil;sem numero de porta
 ALTO;1275;;Avenida Republica do Libano 1A 15 Aeroporto Goiania GO 74070045 Brazil;sem numero de porta
+ALTO;1277;;Srtvs 12 Asa Sul Brasilia DF 70340901 Brazil;sem numero de porta
 ALTO;1282;;Avenida Presidente Kennedy Indaiatuba SP 13334170 Brazil;sem numero de porta
 ALTO;1299;;Rua Rio Branco 24 65 Vila Samaritana Bauru SP 17016190 Brazil;sem numero de porta
 ALTO;1310;;Rua Treze de Maio Bela Vista Sao Paulo SP 04849529 Brazil;sem numero de porta
@@ -1143,7 +1144,7 @@ MEDIO;1703;;Rua dos Pinheiros 358 Sao Paulo SP 05422000 Brazil;CEP generico de c
 MEDIO;1704;;Avenida Santo Amaro 884 Sao Paulo SP 04506000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1710;;Rua dos Pinheiros 230 Sao Paulo SP 05422000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1711;;Rua dos Pinheiros 358 Sao Paulo SP 05422000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;1713;;Power2Go Rua Oscar Freire 281 Sao Paulo SP 01426000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1713;;Rua Oscar Freire 281 Sao Paulo SP 01426000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1722;;Rua Joaquim Antunes 116 Sao Paulo SP 05415000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1723;;Alameda Ministro Rocha Azevedo 726 Sao Paulo SP 01410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1733;;Rua Joaquim Antunes 116 Sao Paulo SP 05415000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
@@ -1159,7 +1160,7 @@ MEDIO;1782;;Avenida Gilson Sa 263 Mangaratiba RJ 23860000 Brazil;CEP generico de
 MEDIO;1785;;Rua Tenente Francisco Antonio 295 Paraty RJ 23970000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1786;;Rua E 40 Armacao dos Buzios RJ 28950000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1787;;Avenida Princesa Isabel 1457 Ilhabela SP 11630000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;1791;;Power2Go Rua Oscar Freire 281 Sao Paulo SP 01426000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1791;;Rua Oscar Freire 281 Sao Paulo SP 01426000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1796;;Avenida Queiroz Filho 830 Sao Paulo SP 05319000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1799;;Avenida Princesa Isabel 1457 Ilhabela SP 11630000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1801;;Rua Bom Pastor 800 Sao Paulo SP 04203000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
@@ -1207,7 +1208,7 @@ MEDIO;2278;;Rua Jean Anastace Rovelli 123 Cajamar SP 07750000 Brazil;CEP generic
 MEDIO;2287;;Avenida Maracana 972 Rio de Janeiro RJ 20511000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2310;;Avenida Presidente Kennedy 411 Sao Goncalo RJ 24445000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2327;;Avenida das Nacoes Unidas 22360 Sao Paulo SP 04795000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;2328;;5aSec Avenida Raimundo Pereira de Magalhaes 1720 Sao Paulo SP 05145000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;2328;;Avenida Raimundo Pereira de Magalhaes 1720 Sao Paulo SP 05145000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2335;;Avenida Manoel Goulart 2622 Presidente Prudente SP 19060000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2352;;Avenida das Nacoes Unidas 22360 Sao Paulo SP 04795000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2353;;Rua Conselheiro Moreira de Barros 3054 Sao Paulo SP 02430000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

@@ -61,7 +61,7 @@ Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05426100 Brazil
 Rua Joaquim Floriano 563 Sao Paulo SP 04534011 Brazil
 Rua dos Pinheiros 230 Sao Paulo SP 05422000 Brazil
 Rua Campos Bicudo 129 Sao Paulo SP 04536010 Brazil
-Power2Go Rua Oscar Freire 281 Sao Paulo SP 01426000 Brazil
+Rua Oscar Freire 281 Sao Paulo SP 01426000 Brazil
 Rua General Severiano Botafogo Rio de Janeiro RJ 22290040 Brazil
 Rua Visconde de Piraja 338 Rio de Janeiro RJ 22410003 Brazil
 Rua Figueiredo de Magalhaes Copacabana Rio de Janeiro RJ 22031011 Brazil

@@ -245,6 +245,17 @@ check("sem logradouro na principal, usa a coluna Endereço + Nº",
 check("principal boa NÃO é trocada pela alternativa",
       len(L) > 1 and L[1] == "Praia do Flamengo 402 Rio de Janeiro RJ 22210065 Brazil", L[1:2])
 
+print("\n=== T9c1 segmento só-número como âncora do logradouro ===")
+p = entrada("ancora.csv", 'endereco,cidade,uf,cep,Nº\n'
+    '"Shopping Nova Iguaçu, Avendia Abílio Augusto Távora, 1111, Luz, Nova Iguaçu - RJ, 26260-045",Nova Iguaçu,RJ,26260-045,\n'
+    '"Evs - Espaço Vida Saudável, Avenida Pastor Martin Luther King Júnior, Del Castilho, Rio de Janeiro - RJ, 20765-000",Rio de Janeiro,RJ,20765-000,126\n')
+rc, out = run([p, "-o", f"{TMP}/t9c1", "--nome", "an"])
+L = linhas(f"{TMP}/t9c1/an.txt") if rc == 0 else []
+check("corta o shopping mesmo com 'Avendia' errado",
+      L[:1] == ["Avendia Abilio Augusto Tavora 1111 Nova Iguacu RJ 26260045 Brazil"], L[:1] or out[-300:])
+check("número de coluna entra após a rua, bairro ainda sai",
+      len(L) > 1 and L[1] == "Avenida Pastor Martin Luther King Junior 126 Rio de Janeiro RJ 20765000 Brazil", L[1:2])
+
 print("\n=== T9c2 coluna alternativa de inventário OOH ===")
 p = entrada("ooh.csv", 'endereco,cidade,uf,cep,Endereço\n'
     '"MetrôRio-Vicente de Carvalho, Vicente de Carvalho, Rio de Janeiro - RJ, 21220-300",Rio de Janeiro,RJ,21220-300,AV AUTOMOVEL CLUBE EM FRENTE AO SUPERMERCADO CARREFOUR\n'

@@ -27,7 +27,6 @@ ALTO;136;BURITI SHOPPING RIO VERDE;BR 060 1044 JARDIM CAMPESTRE Rio Verde GO 759
 ALTO;138;CINEMA CINEMARK;RODOVIA BA 535 PISO L2 INDUSTRIA VIA PARAFUSO PONTO CERTO Camacari BA 42800970 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;148;CINÉPOLIS TRÊS LAGOAS;RODOVIA BR 158 163 Tres Lagoas MS Brazil;endereco de rodovia (57-67% falharam)
 ALTO;154;CINESYSTEM CINEMAS;Avenida ENG FERNANDO GUILHON SANTARENZINHO Santarem PA 68035000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;164;CINÉPOLIS MOXUARA;RODOVIA BR 262 6555 Cariacica ES 29145910 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;167;CINESYSTEM CINEMAS;VIA BRASIL R ITAPERA 500 Rio de Janeiro RJ 21230500 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;172;MULTICINE CINEMAS - CAXIAS SHOPPING CENTER;Rodovia 4 362 CAXIAS SHOPPING CENTER BR 316 BELA VISTA Caxias MA 65605295 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;174;SALADEARTE CINEMAM;Avenida CONTORNO MAM SOLAR DO UNHAO Salvador BA 40060110 Brazil;sem numero de porta
@@ -36,6 +35,7 @@ ALTO;195;CINE LUME;AVENIDA COLARES MOREIRA ED OFFICE TOWER RENASCENCA II Sao Lui
 ALTO;202;CINÉPOLIS;Avenida NOVE DE JULHO JARDIM PAULISTA Sao Paulo SP 01405002 Brazil;sem numero de porta
 ALTO;206;SALVADOR NORTE SHOPPING;BA 526 305 SAO CRISTOVAO Salvador BA 41510000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;218;CINÉPOLIS MANGABEIRA SHOPPING;Avenida HILTON SOUTO MAIOR MANGABEIRA Joao Pessoa PB 58055018 Brazil;sem numero de porta
+ALTO;228;CINESYSTEM CINEMAS;295 BR 101 CENTRO Itaborai RJ 24809266 Brazil;sem numero de porta
 ALTO;236;MUSEU DE CINEMA DE ANIMAÇAO LULA GONZAGA;Rua TOMAS DE OLIVEIRA 2 72 SANTO ANTONIO Gravata PE Brazil;sem numero de porta
 ALTO;240;CINE VIVA;Rua GEN MENDES DE MORAIS 1825 1871 SR DIVINO Coxim MS 79400000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;241;CENTERPLEX;SHOPPING PATIO NORTE ESTRADA DE SAO JOSE DE RIBAMAR MA 201 RUA SARAMANTA 1000 Sao Jose de Ribamar MA 65110000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -106,7 +106,6 @@ ALTO;586;LOCWELL PRODUÇÕES;RUA DO OUVIDOR 480 860 JARDIM CALIFORNIA JARDIM CAL
 ALTO;587;ARCOÍRIS UNICSHOPPING;BR 386 Lajeado RS 95900000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;593;Antigo cinema de Guararapes (Cine Paratodos) - demolido;Guararapes State of Sao Paulo Guararapes SP 16700000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;594;RILIX COASTER REALIDADE AUMENTADA;ALAMEDA IGUATEMI ESPLANADA PARQUE MORUMBI Votorantim SP Brazil;sem numero de porta
-ALTO;596;Sitio de Cinema;Estrada Agua Espraiada 1496 Cotia SP Brazil;endereco de rodovia (57-67% falharam)
 ALTO;599;IINRMA UM;Avenida CONSELHEIRO NEBIAS PAQUETA Santos SP 11013153 Brazil;sem numero de porta
 ALTO;604;CASA DA CULTURA;Avenida DR JOSE SOARES DE AZEVEDO 1024 1070 Astorga PR 86730000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;610;CINE CULTURA;Avenida SAMPAIO VIDAL BARBOSA Marilia SP 17533001 Brazil;sem numero de porta
@@ -188,6 +187,7 @@ ALTO;835;CINEMARK SHOPPING SERRA SUL EM BREVE;QUADRANTE NORDESTE Pouso Alegre MG
 ALTO;838;SEG IMAGENS;Rua JOAO BARBOSA LIMA CENTRO Itaicaba CE 62820000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;845;ALEH PRODUÇÕES;Rua MIGUEL PRISCO Ribeirao Pires SP 09440330 Brazil;sem numero de porta
 ALTO;846;R. JOSE SENA FERREIRA;Rua JOSE SENA FERREIRA MEDIANEIRA Butia RS 96750000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;847;CINE VIA SETE 3D;Cachoeira do Sul RS Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;855;CINEMA SANTOS DUMONT;AERONAUTAS Lagoa Santa MG 33400000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;857;STAGE 9;H6WF RM VILA PERUS Sao Paulo SP Brazil;sem numero de porta
 ALTO;858;CINEART - ALPHAVILLE;UNNAMED ROAD Nova Lima MG 34000000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -778,7 +778,7 @@ MEDIO;443;UNIMART SHOPPING CAMPINAS;Avenida IMPERIO DO SOL NASCENTE 350 Campinas
 MEDIO;456;CINE TEATRO SHOPPING SÃO PEDRO;Rua JOAO TEIXEIRA DA FROTA 1184 Sao Pedro SP 13520000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;457;SHOPPING IBIAPABA;Rua MARIA DE LOURDES ANDRADE DE VASCONCELOS 200 Tiangua CE 62320000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;462;SOROCABA SHOPPING;CONDOMINIO SOROCABA SHOPPING CENTER AV DR AFONSO VERGUEIRO 1700 Sorocaba SP 18040000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;467;JC GAMES  DENTRO DO CINEMA;Quadra 46 LT 13 Caldas Novas GO 75690000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;467;JC GAMES  DENTRO DO CINEMA;Rua B 2 Caldas Novas GO 75690000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;468;CINEMA;Avenida COLOMBO 9161 Maringa PR 87070000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;476;EMPRESA CINEMAS SÃO LUIZ;Rua COMENDADOR ARAUJO 731 Curitiba PR 80420000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;478;CINEMA SEVERIANO RIBEIRO;Rua COMENDADOR ARAUJO 731 Curitiba PR 80420000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
@@ -807,7 +807,7 @@ MEDIO;572;CINE RITZ UBÁ;Avenida RAUL SOARES 314 Uba MG 36500000 Brazil;CEP gene
 MEDIO;578;CINE ARAÚJO RIO PRETO SHOPPING;Avenida BRG FARIA LIMA 6363 Sao Jose do Rio Preto SP 15090000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;579;CINE VIDEO;Rua CEL JOAO PESSOA 64 Sao Miguel RN 59920000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;582;CINEMA E TEATRO MUNICIPAL - BOA ESPERANÇA DO SUL;Rua SETE DE SETEMBRO 564 Boa Esperanca do Sul SP 14930000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;588;FESTIVAL DE CINEMA - CURTA-METRAGEM DOIS MINUTOS.;RUA VEREADOR ALIPIO R CEL ALIPIO FERNANDES CARDOSO 375 Joanopolis SP 12980000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;588;FESTIVAL DE CINEMA - CURTA-METRAGEM DOIS MINUTOS.;Rua CEL ALIPIO FERNANDES CARDOSO 375 Joanopolis SP 12980000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;592;CINEBARÃO;Avenida GETULIO VARGAS 640 Barao de Cocais MG 35970000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;595;TEOREMA CRITICA DE CINEMA;Rua MARQUES DO POMBAL 788 Porto Alegre RS 90540000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;600;EMPRESA CINEMATOGRÁFICA SUL;Avenida DAS NACOES UNIDAS 13947 Sao Paulo SP 04794000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
@@ -1113,7 +1113,7 @@ MEDIO;2016;SHANGRILA;Rua GUARAQUECABA 877 Pontal do Parana PR 83255000 Brazil;CE
 MEDIO;2017;IGREJA AMOR E CUIDADO VALPARAISO;Avenida NOVE DE JULHO 1140 Valparaiso SP 16880000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2025;CINEMASHOW;Rua VENANCIO AIRES 269 Carazinho RS 99500000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2031;CINE TEATRO CAETÉ;PRACA DR JOAO PINHEIRO 160 Caete MG 34800000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;2038;CINE GRACHER ARAPONGAS;AVENIDA MARACANA R CANASTREIRO 5462 Arapongas PR 86703000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;2038;CINE GRACHER ARAPONGAS;Rua CANASTREIRO 5462 Arapongas PR 86703000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2040;CINE DA USINA TANGUÁ;Rua G ANTUNES 101 Tangua RJ 24890000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2043;SALÃO 0 GRAU;Rua PROJETADA 25 Central BA 44940000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;2048;Grupo Cine Delmiro Gouveia;Avenida Pres Castelo Branco 123 Delmiro Gouveia AL 57480000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

@@ -24,7 +24,7 @@ Avenida Prefeito Mendes de Moraes Sao Conrado Rio de Janeiro RJ 22610095 Brazil
 Avenida Niemeyer Vidigal Rio de Janeiro RJ 22450221 Brazil
 Avenida do Pepe Barra da Tijuca Rio de Janeiro RJ 22620170 Brazil
 Praca do O Rio de Janeiro RJ 22620280 Brazil
-Barraca da Baiana Praca Jornalista Mario Filho 780 Rio de Janeiro RJ 22620170 Brazil
+Praca Jornalista Mario Filho 780 Rio de Janeiro RJ 22620170 Brazil
 Avenida do Pepe 930 Rio de Janeiro RJ 22620171 Brazil
 Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22620172 Brazil
 Avenida Lucio Costa 1030 Rio de Janeiro RJ 22620172 Brazil
@@ -80,7 +80,7 @@ Avenida Padre Leonel Franca 182 Rio de Janeiro RJ 22451000 Brazil
 Rua Adalberto Ferreira 177 Rio de Janeiro RJ 22441040 Brazil
 Avenida Atlantica Copacabana Rio de Janeiro RJ 22011010 Brazil
 Avenida Atlantica 1020 Rio de Janeiro RJ 22021000 Brazil
-Posto 3 Botequim Avenida Atlantica 318 Rio de Janeiro RJ 22021001 Brazil
+Avenida Atlantica 318 Rio de Janeiro RJ 22021001 Brazil
 Praca Chaim Weizmann Botafogo Rio de Janeiro RJ 22231030 Brazil
 Rua Muniz Barreto 448 Rio de Janeiro RJ 22251090 Brazil
 Rua Doutor Otavio Kelly Tijuca Rio de Janeiro RJ 20511280 Brazil
