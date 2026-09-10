@@ -1,0 +1,26 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;2;;Estrada Uniao e Acucar Areal RJ 25845000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;5;;Estrada S S das Aguas Claras Sao Sebastiao das Aguas Claras Nova Lima MG 34000000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;6;;Avenida Presidente Roosevelt Golfe Teresopolis RJ Brazil;sem numero de porta
+ALTO;8;;Avenida Juca Batista Belem Novo Porto Alegre RS 91781001 Brazil;sem numero de porta
+ALTO;10;;Alameda dos Pinus Porto Feliz SP 18548100 Brazil;sem numero de porta
+ALTO;15;;VRS 829 Caxias do Sul RS Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;17;;Avenida Benjamin Constant Torres RS 95560000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;22;;Rodovia Raposo Tavares Aracoiaba da Serra SP 18190000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;23;;Shell ERL S Zona Civico Administrativa Brasilia DF Brazil;sem numero de porta
+ALTO;24;;Rua Amazonas Braz I Avare SP 18701180 Brazil;sem numero de porta
+ALTO;25;;Avenida Heraclito Fontoura Sobral Pinto Ribeirao Preto SP 14022020 Brazil;sem numero de porta
+ALTO;31;;Rua Mauro Lopes Aruja SP 07434300 Brazil;sem numero de porta
+ALTO;33;;Praca Kunito Miyasaka Bastos SP 17690000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;34;;Bar da Cocheira Cambe PR Brazil;sem numero de porta
+ALTO;36;;Estrada da Gavea 800 Rio de Janeiro RJ 22610002 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;38;;Avenida Julio de Vasconcelos Nova Veneza Sumare SP 13174405 Brazil;sem numero de porta
+ALTO;39;;Rua Sao Jose Golfe Condominio Terras de Sao Jose Itu SP Brazil;sem numero de porta
+ALTO;40;;Rua 3 Campinho Braganca Paulista SP 12918001 Brazil;sem numero de porta
+ALTO;41;;Estrada Iva 351 Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;42;;Estrada Fazenda Velha 3365 Aruja SP 07400000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;43;;Rua Galenbeck Sao Bernardo do Campo SP Brazil;sem numero de porta
+ALTO;45;;Estrada do Matao I Vargem Grande Paulista SP 06730000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;46;;Estrada da Barra da Tijuca Itanhanga Rio de Janeiro RJ 22611201 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+MEDIO;35;;Rua Fernando Falcao 649 Sao Paulo SP 03180000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;44;;Rua Osvaldo Scartezini 118 Cafelandia PR 85415000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

@@ -1,0 +1,11 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;2;;Vila Ipiranga Porto Alegre RS 91340001 Brazil;sem numero de porta
+ALTO;3;;LE LIS BLANC Sanvitto Caxias do Sul RS 95112360 Brazil;sem numero de porta
+ALTO;6;;Avenida Marginal Pinheiros Morumbi Sao Paulo SP 05676030 Brazil;sem numero de porta
+ALTO;13;;Rua Barao de Sao Francisco Andarai Rio de Janeiro RJ 20560032 Brazil;sem numero de porta
+ALTO;16;;Parque Faber Castell I Sao Carlos SP Brazil;sem numero de porta
+ALTO;18;;Avenida Pres Juscelino Kubitschek Oliveira Sao Jose do Rio Preto SP 15091450 Brazil;sem numero de porta
+ALTO;20;;Avenida Joao Naves de Avila Tibery Uberlandia MG 38405142 Brazil;sem numero de porta
+MEDIO;7;;Avenida Presidente Juscelino Kubitschek 2041 Sao Paulo SP 04543000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;10;;Alameda Xingu 350 Barueri SP 06454000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;19;;Avenida Joao Cesar de Oliveira 1275 Contagem MG 32310000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

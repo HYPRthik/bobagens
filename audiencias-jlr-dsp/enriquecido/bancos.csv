@@ -1,0 +1,943 @@
+lat,lng,formatted_address,city,uf,cep
+-23.20242,-46.89193,"Fagron Technologies, Avenida Nove de Julho, 3575, Bonfiglioli, Jundiaí - SP, 13207-480, Brasil",Jundiaí,SP,13207-480
+-22.7201,-47.34751,"Rua Aurélio Cibim, 109, Morada do Sol, Americana - SP, 13470-241, Brasil",Americana,SP,13470-241
+-23.56476,-46.61961,"Rua da Independência, 165, Cambuci, São Paulo - SP, 01524-000, Brasil",São Paulo,SP,01524-000
+-22.89391,-47.06417,"Rua Tiradentes, 313, Vila Itapura, Campinas - SP, 13023-190, Brasil",Campinas,SP,13023-190
+-22.96968,-47.01227,"Avenida Invernada, 1963, Invernada, Valinhos - SP, 13271-450, Brasil",Valinhos,SP,13271-450
+-22.75337,-47.36101,"Consultório Odontológico Leandra Roberta Gotti, Rua do Chumbo, 741, Jardim Mollon, Santa Bárbara d'Oeste - SP, 13468-600, Brasil",Santa Bárbara d'Oeste,SP,13468-600
+-23.19205,-46.90352,"Cronix Security, Anhangabaú, Jundiaí - SP, 13208-703, Brasil",Jundiaí,SP,13208-703
+-23.18325,-46.89278,"Renata Silva - Clinic & Academy, Avenida Capitão Cassiano Ricardo Toledo, 190, Centro, Jundiaí - SP, 13201-840, Brasil",Jundiaí,SP,13201-840
+-23.18898,-46.90204,"Rua Helena Conci Gaspari, 85, Retiro, Jundiaí - SP, 13209-810, Brasil",Jundiaí,SP,13209-810
+-22.90193,-47.06042,"Petra Medicina do Trabalho, Rua Barão de Jaguara, 1481, Centro, Campinas - SP, 13015-002, Brasil",Campinas,SP,13015-002
+-22.85363,-47.22803,"Avenida Thereza Ana Cecon Breda, 272, Parque Orestes Ongaro, Hortolândia - SP, 13183-255, Brasil",Hortolândia,SP,13183-255
+-22.34243,-49.06801,"Avenida Nossa Senhora de Fátima, 79, Jardim Estoril IV, Bauru - SP, 17017-337, Brasil",Bauru,SP,17017-337
+-23.25566,-47.29846,"Avenida Antônio Gazzola, 1001, Jardim Corazza, Itu - SP, 13301-245, Brasil",Itu,SP,13301-245
+-25.44636,-49.29042,"Rua Carneiro Lobo, 536, Batel, Curitiba - PR, 80240-240, Brasil",Curitiba,PR,80240-240
+-25.42007,-49.28265,"Rua Dom Alberto Gonçalves, 274, Mercês, Curitiba - PR, 80510-340, Brasil",Curitiba,PR,80510-340
+-23.32415,-51.16728,"Avenida Higienópolis, 1601, Higienópolis, Londrina - PR, 86015-010, Brasil",Londrina,PR,86015-010
+-25.41101,-49.25551,"Dr. Sérgio Keinert, Praça São Paulo da Cruz, Juveve, Curitiba - PR, 80030-480, Brasil",Curitiba,PR,80030-480
+-25.44214,-49.28802,"Zletric, Avenida do Batel, 1550, Batel, Curitiba - PR, 80420-090, Brasil",Curitiba,PR,80420-090
+-25.44903,-49.28851,"Luvitae, Avenida Iguaçu, Água Verde, Curitiba - PR, 80240-031, Brasil",Curitiba,PR,80240-031
+-21.78449,-48.19758,"Implaara, Avenida Rodrigo Fernando Grillo, Jardim dos Manacás, Araraquara - SP, 14801-534, Brasil",Araraquara,SP,14801-534
+-23.94074,-46.33599,"Rua Vasco da Gama, 40, Jabaquara, Santos - SP, 11013-590, Brasil",Santos,SP,11013-590
+-23.58329,-46.67114,"Tmg Capital, Rua Joaquim Floriano, 72, Itaim Bibi, São Paulo - SP, 04534-000, Brasil",São Paulo,SP,04534-000
+-23.59665,-46.68691,"Alameda Vicente Pinzon, 144, Itaim Bibi, São Paulo - SP, 04547-130, Brasil",São Paulo,SP,04547-130
+-23.54576,-46.6332,"Rua Boa Vista, 208, Sé, São Paulo - SP, 01014-001, Brasil",São Paulo,SP,01014-001
+-23.57753,-46.68684,"Avenida Brigadeiro Faria Lima, Pinheiros, São Paulo - SP, 01452-001, Brasil",São Paulo,SP,01452-001
+-23.59018,-46.68206,"Condomínio Edificio Pedro Mariz - B.31, Avenida Brigadeiro Faria Lima, 3900, Itaim Bibi, São Paulo - SP, 04538-132, Brasil",São Paulo,SP,04538-132
+-23.56944,-46.69122,"Noronha, Avenida Brigadeiro Faria Lima, 1478, Pinheiros, São Paulo - SP, 01452-002, Brasil",São Paulo,SP,01452-002
+-23.59219,-46.68904,"Avenida Chedid Jafet, 75, Itaim Bibi, São Paulo - SP, 04551-065, Brasil",São Paulo,SP,04551-065
+-23.59304,-46.68672,"Rua Helena, 260, Itaim Bibi, São Paulo - SP, 04552-050, Brasil",São Paulo,SP,04552-050
+-23.58841,-46.68221,"Avenida Brigadeiro Faria Lima, 3600, Itaim Bibi, São Paulo - SP, 04538-132, Brasil",São Paulo,SP,04538-132
+-23.58012,-46.64018,"Rua Domingos de Morais, 336, Vila Mariana, São Paulo - SP, 04010-000, Brasil",São Paulo,SP,04010-000
+-23.6237,-46.70337,"Avenida das Nações Unidas, 14273, Santo Amaro, São Paulo - SP, 04795-100, Brasil",São Paulo,SP,04795-100
+-22.90745,-47.05777,"Avenida Doutor Moraes Salles, 688, Centro, Campinas - SP, 13010-000, Brasil",Campinas,SP,13010-000
+-23.08715,-47.19926,"Avenida dos Trabalhadores, 292, Indaiatuba - SP, 13338-050, Brasil",Indaiatuba,SP,13338-050
+-22.42438,-47.5599,"Rua Nove Cj, 410, Cidade Jardim, Rio Claro - SP, 13501-100, Brasil",Rio Claro,SP,13501-100
+-22.91185,-47.04221,"Rua Alayde Nascimento de Lemos, 803, Jardim Guarani, Campinas - SP, 13100-453, Brasil",Campinas,SP,13100-453
+-22.89215,-47.04998,"Rua Doutor Sampaio Ferraz, 618, Cambuí, Campinas - SP, 13024-431, Brasil",Campinas,SP,13024-431
+-22.89078,-47.05196,"Rua Santo Antônio, 49, Cambuí, Campinas - SP, 13024-440, Brasil",Campinas,SP,13024-440
+-22.82268,-47.08546,"Rua Jerônimo Pattaro, 19, Barão Geraldo, Campinas - SP, 13084-110, Brasil",Campinas,SP,13084-110
+-22.88446,-47.06001,"Rua Doutor Osvaldo Cruz, 405, Jardim Nossa Senhora Auxiliadora, Campinas - SP, 13076-260, Brasil",Campinas,SP,13076-260
+-22.92252,-47.08718,"Rua Antônio José da Silva Martelinho, 426, Parque Industrial, Campinas - SP, 13031-650, Brasil",Campinas,SP,13031-650
+-22.4059,-46.96773,"Rua José Guarnieri, 354, Jardim Silvania, Mogi Mirim - SP, 13806-674, Brasil",Mogi Mirim,SP,13806-674
+-22.72535,-47.65325,"Rua Tiradentes, 1174, Centro, Piracicaba - SP, 13400-765, Brasil",Piracicaba,SP,13400-765
+-22.89034,-47.03545,"Avenida Doutor Jesuíno Marcondes Machado, 2400, Chácara da Barra, Campinas - SP, 13090-723, Brasil",Campinas,SP,13090-723
+-22.90057,-47.06566,"Rua Júlio Frank de Arruda, 227, Botafogo, Campinas - SP, 13020-190, Brasil",Campinas,SP,13020-190
+-22.74129,-47.32872,"Rua Rio Branco, 92, Centro, Americana - SP, 13465-030, Brasil",Americana,SP,13465-030
+-23.03672,-46.98348,"Avenida dos Imigrantes, 415A, Vinhedo - SP, 13280-000, Brasil",Vinhedo,SP,13280-000
+-22.89697,-47.05166,"Rua Maria Monteiro, 830, Cambuí, Campinas - SP, 13025-151, Brasil",Campinas,SP,13025-151
+-22.40585,-46.96767,"Avenida Pedro Botesi, 2149, Jardim Silvania, Mogi Mirim - SP, 13806-019, Brasil",Mogi Mirim,SP,13806-019
+-24.49587,-47.84365,"Rua Tamekichi Takano, 595, Registro - SP, 11900-000, Brasil",Registro,SP,11900-000
+-25.43811,-49.26656,"Bb agência Especializada Mpe, Avenida Sete de Setembro, 40033001, Rebouças, Curitiba - PR, 80230-010, Brasil",Curitiba,PR,80230-010
+-25.54449,-49.19894,"Rua Capitão Tobias Pereira da Cruz, 52, São Pedro, São José dos Pinhais - PR, 83005-050, Brasil",São José dos Pinhais,PR,83005-050
+-25.40847,-49.21599,"Rua José Fernandes Maldonado, Bairro Alto, Curitiba - PR, 82840-020, Brasil",Curitiba,PR,82840-020
+-25.44371,-49.28374,"Avenida Sete de Setembro, 4690, Batel, Curitiba - PR, 80240-000, Brasil",Curitiba,PR,80240-000
+-25.42078,-49.26806,"Rua Heitor Stockler de França, 356, Centro Cívico, Curitiba - PR, 80030-030, Brasil",Curitiba,PR,80030-030
+-25.36856,-49.26384,"Rua Assis Brasil, 415, Barreirinha, Curitiba - PR, 82220-150, Brasil",Curitiba,PR,82220-150
+-25.43814,-49.27541,"Rua Doutor Pedrosa, 151, Centro, Curitiba - PR, 80420-120, Brasil",Curitiba,PR,80420-120
+-25.43278,-49.29919,"Rua Padre Anchieta, 2050, Bigorrilho, Curitiba - PR, 80730-001, Brasil",Curitiba,PR,80730-001
+-25.443,-49.28195,"Avenida Sete de Setembro, 4484, Batel, Curitiba - PR, 80250-085, Brasil",Curitiba,PR,80250-085
+-25.42017,-49.26855,"Espaço Vida Saudável do Renan, Avenida Cândido de Abreu, 526, Centro Cívico, Curitiba - PR, 80030-030, Brasil",Curitiba,PR,80030-030
+-23.51691,-46.17907,"Mix Eletrônicos, Rodovia Professor Alfredo Rolim de Moura, 1001, Mogi das Cruzes - SP, 08880-000, Brasil",Mogi das Cruzes,SP,08880-000
+-23.95937,-46.32986,"Power2Go, Rua Alexandre Herculano, 197, Gonzaga, Santos - SP, 11050-031, Brasil",Santos,SP,11050-031
+-23.66346,-46.5217,"Rua Onze de Junho, 692, Centro, Santo André - SP, 09015-520, Brasil",Santo André,SP,09015-520
+-23.58488,-46.6732,"Rua Doutor Renato Paes de Barros, 717, Itaim Bibi, São Paulo - SP, 04530-001, Brasil",São Paulo,SP,04530-001
+-23.54724,-46.63343,"Viaduto Boa Vista, 47, Sé, São Paulo - SP, 01014-030, Brasil",São Paulo,SP,01014-030
+-23.6146,-46.56912,"Rua Amazonas, 439, Santa Paula, São Caetano do Sul - SP, 09520-060, Brasil",São Caetano do Sul,SP,09520-060
+-23.62175,-45.41447,"C M Serviços Contabeis, Avenida Frei Pacífico Wagner, 163, Centro, Caraguatatuba - SP, 11660-280, Brasil",Caraguatatuba,SP,11660-280
+-23.64444,-46.7005,"Avenida Adolfo Pinheiro, 1029, Santo Amaro, São Paulo - SP, 04734-002, Brasil",São Paulo,SP,04734-002
+-23.50616,-47.45842,"Máxima Automóveis, Rua Raimundo Corrêa, Vila Marina Dias, Sorocaba - SP, 18035-265, Brasil",Sorocaba,SP,18035-265
+-25.10325,-50.15891,"10 Andar Torre Maggiore, Rua Nestor Guimarães, Estrela, Ponta Grossa - PR, 84040-130, Brasil",Ponta Grossa,PR,84040-130
+-22.11526,-51.40016,"Rua Claudionor Sandoval, 741, Jardim Paulista, Presidente Prudente - SP, 19023-200, Brasil",Presidente Prudente,SP,19023-200
+-23.33108,-51.1778,"Avenida Ayrton Senna da Silva, 600, Palhano, Londrina - PR, 86050-460, Brasil",Londrina,PR,86050-460
+-26.40786,-50.13989,"Rua Leoberto Leal, 440, Papanduva - SC, 89370-000, Brasil",Papanduva,SC,89370-000
+-26.2285,-51.08983,"Rua Professora Amazilia, 69, União da Vitória - PR, 84600-285, Brasil",União da Vitória,PR,84600-285
+-25.87483,-50.38517,"Rua David de Paula e Silva, 687, São Mateus do Sul - PR, 83900-126, Brasil",São Mateus do Sul,PR,83900-126
+-25.43186,-49.26971,"Rua Marechal Deodoro, 254, Centro, Curitiba - PR, 80020-320, Brasil",Curitiba,PR,80020-320
+-25.38773,-51.46199,"Avenida Manoel Ribas, 2028, Alto da XV, Guarapuava - PR, 85010-180, Brasil",Guarapuava,PR,85010-180
+-23.58265,-46.68237,"Rua Pedroso Alvarenga, 1254, Itaim Bibi, São Paulo - SP, 04531-012, Brasil",São Paulo,SP,04531-012
+-23.54622,-46.63585,"Chesse Cake, Rua Líbero Badaró, 398, Sé, São Paulo - SP, 01008-000, Brasil",São Paulo,SP,01008-000
+-23.19104,-46.88246,"Rua Barão de Jundiaí, 397, Centro, Jundiaí - SP, 13201-010, Brasil",Jundiaí,SP,13201-010
+-22.95062,-47.30681,"Rua Visconde do Rio Branco, 11A, Monte Mor - SP, 13190-000, Brasil",Monte Mor,SP,13190-000
+-22.73039,-47.64032,"Rua Quinze de Novembro, 1803, Cidade Alta, Piracicaba - SP, 13417-100, Brasil",Piracicaba,SP,13417-100
+-22.56077,-47.41709,"Rua Sebastião Monteiro dos Santos, 354, Jardim Nova Itália, Limeira - SP, 13484-329, Brasil",Limeira,SP,13484-329
+-23.08476,-47.18417,"Avenida Presidente Vargas, 3235, Indaiatuba - SP, 13338-705, Brasil",Indaiatuba,SP,13338-705
+-27.22632,-52.02992,"Gênesis Informática, Rua Romano Anselmo Fontana, 839, Centro, Concórdia - SC, 89700-000, Brasil",Concórdia,SC,89700-000
+-27.63946,-52.26913,"Rua Pedro Álvares Cabral, 574, Centro, Erechim - RS, 99700-248, Brasil",Erechim,RS,99700-248
+-27.23556,-52.03725,"Rua Santa Catarina, 864, Nazaré, Concórdia - SC, 89707-024, Brasil",Concórdia,SC,89707-024
+-28.24775,-52.40644,"Rua Thomaz Gonzaga, 1, Vila Fátima, Passo Fundo - RS, 99020-170, Brasil",Passo Fundo,RS,99020-170
+-28.26272,-52.41248,"Rua Teixeira Soares, 1117, Centro, Passo Fundo - RS, 99010-080, Brasil",Passo Fundo,RS,99010-080
+-28.26384,-52.40775,"Rua Independência, 829, Centro, Passo Fundo - RS, 99010-041, Brasil",Passo Fundo,RS,99010-041
+-27.15885,-52.31592,"Rua Herculano Hércules Zanuzzo, 500, Seara - SC, 89770-000, Brasil",Seara,SC,89770-000
+-28.2645,-52.41589,"Avenida Brasil Oeste, 1261, Centro, Passo Fundo - RS, 99025-003, Brasil",Passo Fundo,RS,99025-003
+-28.25524,-52.39894,"Rua Antônio Araújo, 560, Centro, Passo Fundo - RS, 99010-220, Brasil",Passo Fundo,RS,99010-220
+-27.40274,-51.22881,"Rua Coronel Farrapo, 555, Centro, Campos Novos - SC, 89620-000, Brasil",Campos Novos,SC,89620-000
+-28.26566,-52.4053,"Servilar, Avenida Sete de Setembro, Centro, Passo Fundo - RS, 99010-121, Brasil",Passo Fundo,RS,99010-121
+-28.26394,-52.41481,"Avenida Brasil Oeste, 1111, Centro, Passo Fundo - RS, 99025-003, Brasil",Passo Fundo,RS,99025-003
+-28.26539,-52.40343,"Avenida Sete de Setembro, 1055, Centro, Passo Fundo - RS, 83649-600, Brasil",Passo Fundo,RS,83649-600
+-28.56269,-51.97366,"Rua Barão do Rio Branco, 120, Casca - RS, 99260-000, Brasil",Casca,RS,99260-000
+-29.16874,-51.19336,"Avenida Itália, 433, São Pelegrino, Caxias do Sul - RS, 95010-040, Brasil",Caxias do Sul,RS,95010-040
+-28.26532,-52.40211,"Avenida Sete de Setembro, 185, Centro, Passo Fundo - RS, 99010-121, Brasil",Passo Fundo,RS,99010-121
+-28.5071,-50.93701,"Rua Inácia Vieira, 403, Vacaria - RS, 95200-019, Brasil",Vacaria,RS,95200-019
+-29.1668,-51.18869,"Rua Feijó Júnior, 583, São Pelegrino, Caxias do Sul - RS, 95034-160, Brasil",Caxias do Sul,RS,95034-160
+-25.4303,-49.26626,"Rua Marechal Deodoro, 630, Centro, Curitiba - PR, 80010-010, Brasil",Curitiba,PR,80010-010
+-25.4581,-49.27747,"Rua Otávio Francisco Dias, 542, Água Verde, Curitiba - PR, 80620-310, Brasil",Curitiba,PR,80620-310
+-25.43346,-49.28046,"Alameda Doutor Carlos de Carvalho, 555, Centro, Curitiba - PR, 80430-180, Brasil",Curitiba,PR,80430-180
+-25.4108,-49.25545,"Rua Bom Jesus, 150, Juveve, Curitiba - PR, 80035-010, Brasil",Curitiba,PR,80035-010
+-26.28475,-48.85658,"Rua Orleans, 1005, América, Joinville - SC, 89204-580, Brasil",Joinville,SC,89204-580
+-25.47432,-49.27336,"Avenida Presidente Wenceslau Bráz, 1902, Guaíra, Curitiba - PR, 81010-000, Brasil",Curitiba,PR,81010-000
+-25.43711,-49.3291,"Basesul Empreendimentos, Rua Grã Nicco, Mossungue, Curitiba - PR, 81200-200, Brasil",Curitiba,PR,81200-200
+-23.58598,-46.68299,"Avenida Brigadeiro Faria Lima, Itaim Bibi, São Paulo - SP, 04538-133, Brasil",São Paulo,SP,04538-133
+-23.62986,-46.70488,"Rua Américo Brasiliense, 1922, Santo Amaro, São Paulo - SP, 04715-004, Brasil",São Paulo,SP,04715-004
+-23.60268,-46.66187,"Avenida Ibirapuera, 2120, Moema, São Paulo - SP, 04028-001, Brasil",São Paulo,SP,04028-001
+-23.5923,-46.68218,"Tupinambá, Rua Ministro Jesuíno Cardoso, 454, Itaim Bibi, São Paulo - SP, 04544-050, Brasil",São Paulo,SP,04544-050
+-23.5945,-46.68897,"Alameda Raja Gabaglia, 62, Itaim Bibi, São Paulo - SP, 04551-090, Brasil",São Paulo,SP,04551-090
+-25.38642,-49.22178,"Rua Brasílio Bacellar Filho, 59, Tinguí, Curitiba - PR, 82620-250, Brasil",Curitiba,PR,82620-250
+-26.31295,-48.85745,"Rua Corupá, 100, Anita Garibaldi, Joinville - SC, 89203-620, Brasil",Joinville,SC,89203-620
+-26.28767,-48.84139,"Rua Itaiópolis, 730, Saguaçu, Joinville - SC, 89221-155, Brasil",Joinville,SC,89221-155
+-25.43538,-49.26882,"Rua Lourenço Pinto, 190, Centro, Curitiba - PR, 80010-160, Brasil",Curitiba,PR,80010-160
+-26.2758,-48.85325,"Rua Marcílio Dias, 333, Santo Antônio, Joinville - SC, 89218-005, Brasil",Joinville,SC,89218-005
+-26.2744,-48.84355,"Rua Ismael Carlos Correia, 93, Saguaçu, Joinville - SC, 89221-520, Brasil",Joinville,SC,89221-520
+-25.43558,-49.27781,"Rua Visconde do Rio Branco, 1630, Centro, Curitiba - PR, 80420-210, Brasil",Curitiba,PR,80420-210
+-28.64095,-53.60602,"Rua General Andrade Neves, 435, Centro, Cruz Alta - RS, 98005-239, Brasil",Cruz Alta,RS,98005-239
+-28.62995,-53.09084,"Rua General Osório, 1032, Ibirubá - RS, 98200-000, Brasil",Ibirubá,RS,98200-000
+-28.82677,-52.51179,"Avenida Marechal Floriano Peixoto, 1256, Soledade - RS, 99300-000, Brasil",Soledade,RS,99300-000
+-29.69263,-53.80763,"Projettos Fabrica de Pastas e Bolsas, Rua Marechal Floriano Peixoto, 467, Centro, Santa Maria - RS, 97015-372, Brasil",Santa Maria,RS,97015-372
+-29.69161,-53.80632,"Dr. Diego Chemello, Centro, Santa Maria - RS, Brasil",Santa Maria,RS,
+-29.71846,-52.42595,"Rua Marechal Deodoro, 582, Centro, Santa Cruz do Sul - RS, 96810-102, Brasil",Santa Cruz do Sul,RS,96810-102
+-30.03352,-51.17811,"Avenida Carlos Gomes, 1408, Três Figueiras, Porto Alegre - RS, 90480-001, Brasil",Porto Alegre,RS,90480-001
+-30.02582,-51.20345,"Rua Hilário Ribeiro, 340, Moinhos de Vento, Porto Alegre - RS, 90510-040, Brasil",Porto Alegre,RS,90510-040
+-30.02879,-51.22683,"Rua Marechal Floriano Peixoto, 10, Centro Histórico, Porto Alegre - RS, 90020-060, Brasil",Porto Alegre,RS,90020-060
+-29.46261,-51.96728,"Bergamaschi Advogados Associados, Avenida Benjamin Constant, 1010, Centro, Lajeado - RS, 95906-280, Brasil",Lajeado,RS,95906-280
+-30.03193,-51.1628,"Rua Doutor Barbosa Gonçalves, 368, Chácara das Pedras, Porto Alegre - RS, 91330-320, Brasil",Porto Alegre,RS,91330-320
+-22.53301,-41.96178,"Rua Ayrton Senna da Silva, 126, Nova Aliança, Rio das Ostras - RJ, 28890-407, Brasil",Rio das Ostras,RJ,28890-407
+-25.53835,-49.19732,"Rua Visconde do Rio Branco, 2156, Centro, São José dos Pinhais - PR, 83005-420, Brasil",São José dos Pinhais,PR,83005-420
+-28.67,-49.37693,"Rua Hilário Fernandes Pacheco, 52, Vera Cruz, Criciúma - SC, 88810-040, Brasil",Criciúma,SC,88810-040
+-27.59445,-48.55853,"Santander, Rua Cristovão Nunes Pires, 98, Centro, Florianópolis - SC, 88010-120, Brasil",Florianópolis,SC,88010-120
+-26.92179,-49.06635,"Ed. Donna Guiomar, Rua Sete de Setembro, Centro, Blumenau - SC, 89010-203, Brasil",Blumenau,SC,89010-203
+-25.4291,-49.26355,"Rua Marechal Deodoro, 950, Centro, Curitiba - PR, 80060-010, Brasil",Curitiba,PR,80060-010
+-26.30298,-48.84296,"Rua Jerônimo Coelho, 240, Centro, Joinville - SC, 89201-050, Brasil",Joinville,SC,89201-050
+-23.52119,-47.46408,"Rua José Maria Hannickel, 55, Parque Campolim, Sorocaba - SP, 18047-360, Brasil",Sorocaba,SP,18047-360
+-23.54522,-47.4668,"Avenida Gisele Constantino, 850, Votorantim - SP, 18110-650, Brasil",Votorantim,SP,18110-650
+-23.50051,-47.45512,"Rua Quinze de Novembro, 202, Centro, Sorocaba - SP, 18010-081, Brasil",Sorocaba,SP,18010-081
+-25.41476,-49.25992,"Rua Alberto Bolliger, 826, Juveve, Curitiba - PR, 80030-280, Brasil",Curitiba,PR,80030-280
+-25.44022,-49.28135,"Rua Benjamin Lins, 761, Batel, Curitiba - PR, 80420-100, Brasil",Curitiba,PR,80420-100
+-25.40202,-49.24144,"Avenida Prefeito Erasto Gaertner, 555, Bacacheri, Curitiba - PR, 82510-160, Brasil",Curitiba,PR,82510-160
+-25.44304,-49.29085,"Confidence Câmbio, Avenida do Batel, 1868, Batel, Curitiba - PR, 80420-090, Brasil",Curitiba,PR,80420-090
+-25.43377,-49.30034,"Rua Padre Anchieta, 2206, Bigorrilho, Curitiba - PR, 80730-001, Brasil",Curitiba,PR,80730-001
+-23.62623,-46.68819,"Avenida Roque Petroni Júnior, 75, Santo Amaro, São Paulo - SP, 04707-000, Brasil",São Paulo,SP,04707-000
+-23.19286,-45.89425,"Itaú, Avenida Anchieta, Jardim Nova América, São José dos Campos - SP, 12242-280, Brasil",São José dos Campos,SP,12242-280
+-23.21998,-45.91062,"Igc, Avenida Cassiano Ricardo, Parque Residencial Aquarius, São José dos Campos - SP, 12240-540, Brasil",São José dos Campos,SP,12240-540
+-23.02635,-45.58046,"Avenida Merimar Barbosa, 852, Barranco, Taubaté - SP, 12040-810, Brasil",Taubaté,SP,12040-810
+-23.49322,-46.84967,"Alameda Rio Negro, 1439, Alphaville, Barueri - SP, 06454-000, Brasil",Barueri,SP,06454-000
+-23.52187,-46.18218,"Avenida Capitão Manoel Rudge, 170, Mogi das Cruzes - SP, 08780-290, Brasil",Mogi das Cruzes,SP,08780-290
+-27.58681,-48.54864,"Avenida Trompowsky, 432, Centro, Florianópolis - SC, 88015-300, Brasil",Florianópolis,SC,88015-300
+-22.40298,-41.79572,"Rua Jorge Reid, 15, Cavaleiros, Macaé - RJ, 27920-260, Brasil",Macaé,RJ,27920-260
+-29.68189,-51.1291,"Rua Bento Gonçalves, 2802, Centro, Novo Hamburgo - RS, 93510-138, Brasil",Novo Hamburgo,RS,93510-138
+-30.03329,-51.21497,"Avenida Osvaldo Aranha, 720, Bom Fim, Porto Alegre - RS, 90035-191, Brasil",Porto Alegre,RS,90035-191
+-23.50084,-46.63744,"Rua Macaiá-Mirim, 1368, Santana, São Paulo - SP, 02013-080, Brasil",São Paulo,SP,02013-080
+-23.45298,-46.54332,"Rua São João, 26, Picanço, Guarulhos - SP, 07134-280, Brasil",Guarulhos,SP,07134-280
+-23.51015,-46.19156,"Clínica Dra. Pâmela Costa, Avenida Prefeito Carlos Ferreira Lopes, 703, Mogi das Cruzes - SP, 08773-490, Brasil",Mogi das Cruzes,SP,08773-490
+-23.62405,-46.58067,"Alameda Terracota, Cerâmica, São Caetano do Sul - SP, 09531-190, Brasil",São Caetano do Sul,SP,09531-190
+-23.53714,-46.67318,"Rua Doutor Franco da Rocha, 551, Perdizes, São Paulo - SP, 05015-040, Brasil",São Paulo,SP,05015-040
+-23.57301,-46.65093,"Rua Maria Figueiredo, 595, Vila Mariana, São Paulo - SP, 04007-003, Brasil",São Paulo,SP,04007-003
+-23.57779,-46.64031,"Fair, Rua Vergueiro, 1753, Vila Mariana, São Paulo - SP, 04101-000, Brasil",São Paulo,SP,04101-000
+-25.0995,-50.15758,"Rua Sete de Setembro, 322, Centro, Ponta Grossa - PR, 84010-350, Brasil",Ponta Grossa,PR,84010-350
+-26.9232,-49.06474,"Rua Floriano Peixoto, 300, Centro, Blumenau - SC, 89010-022, Brasil",Blumenau,SC,89010-022
+-26.49623,-49.0904,"Rua João Januário Ayroso, 293, Jaraguá Esquerdo, Jaraguá do Sul - SC, 89253-100, Brasil",Jaraguá do Sul,SC,89253-100
+-26.49914,-49.08312,"Rua Martim Stahl, 507, Vila Nova, Jaraguá do Sul - SC, 89259-310, Brasil",Jaraguá do Sul,SC,89259-310
+-26.9152,-49.07126,"Rua Paulo Zimmermann, 142, Centro, Blumenau - SC, 89010-170, Brasil",Blumenau,SC,89010-170
+-28.30763,-54.25796,"Avenida Venâncio Aires, 758, Santo Ângelo - RS, 98801-660, Brasil",Santo Ângelo,RS,98801-660
+-27.86775,-54.47992,"Avenida Santa Cruz, 654, Centro, Santa Rosa - RS, 98780-744, Brasil",Santa Rosa,RS,98780-744
+-27.77899,-54.23411,"Avenida Uruguai, 620, Três de Maio - RS, 98910-000, Brasil",Três de Maio,RS,98910-000
+-27.77524,-54.23215,"Czech Fit Treinamento Personalizado, Rua Marechal Floriano, Três de Maio - RS, 98910-000, Brasil",Três de Maio,RS,98910-000
+-27.63204,-54.30825,"Rua Dahne de Abreu, 729, Horizontina - RS, 98920-000, Brasil",Horizontina,RS,98920-000
+-28.29541,-54.26569,"Rua Marquês de Tamandaré, 561, Santo Ângelo - RS, 98802-573, Brasil",Santo Ângelo,RS,98802-573
+-27.10658,-52.61566,"Avenida Fernando Machado, 141, Centro, Chapecó - SC, 89802-110, Brasil",Chapecó,SC,89802-110
+-23.58648,-46.67917,"Rua Clodomiro Amazonas, 249, Itaim Bibi, São Paulo - SP, 04537-010, Brasil",São Paulo,SP,04537-010
+-23.59471,-46.68182,"Zletric, Rua Elvira Ferraz, 256, Itaim Bibi, São Paulo - SP, 04552-040, Brasil",São Paulo,SP,04552-040
+-23.63089,-46.71329,"Phix It, Santo Amaro, São Paulo - SP, 04719-002, Brasil",São Paulo,SP,04719-002
+-23.56566,-46.66826,"Rua Augusta, 2898, Jardim Paulista, São Paulo - SP, 01412-100, Brasil",São Paulo,SP,01412-100
+-23.58786,-46.68038,"Zletric, Rua Leopoldo Couto Magalhães Júnior, 758, Itaim Bibi, São Paulo - SP, Brasil",São Paulo,SP,
+-23.56657,-46.66559,"Rua Rio Preto, 38, Jardim Paulista, São Paulo - SP, 01426-010, Brasil",São Paulo,SP,01426-010
+-23.5976,-46.68495,"Edifício Olímpia Trade Center, Rua Lourenço Marques, Itaim Bibi, São Paulo - SP, 04547-100, Brasil",São Paulo,SP,04547-100
+-23.57337,-46.68974,"Avenida Brigadeiro Faria Lima, 1800, Pinheiros, São Paulo - SP, 05477-000, Brasil",São Paulo,SP,05477-000
+-23.6232,-46.68183,"Rua Barão do Triunfo, Campo Belo, São Paulo - SP, 04620-001, Brasil",São Paulo,SP,04620-001
+-23.57525,-46.69598,"Banco Western Union do Brasil, Pinheiros, São Paulo - SP, 05477-000, Brasil",São Paulo,SP,05477-000
+-23.5618,-46.66017,"Ironhack, Alameda Jaú, 1301, Jardim Paulista, São Paulo - SP, 01420-001, Brasil",São Paulo,SP,01420-001
+-27.46214,-51.90944,"Rua Leite, 1, Marcelino Ramos - RS, 99800-000, Brasil",Marcelino Ramos,RS,99800-000
+-29.17153,-51.17567,"Meia Maratona de Caxias do Sul, Rua Alfredo Chaves, Exposição, Caxias do Sul - RS, 95020-460, Brasil",Caxias do Sul,RS,95020-460
+-29.1777,-51.49526,"Rua Aurino Argemiro Zandonai, 1070, Santa Marta, Bento Gonçalves - RS, 95702-190, Brasil",Bento Gonçalves,RS,95702-190
+-28.59436,-51.78377,"Avenida Castelo Branco, 1837, Paraí - RS, 95360-000, Brasil",Paraí,RS,95360-000
+-30.02506,-51.18268,"Avenida Carlos Gomes, 364, Boa Vista, Porto Alegre - RS, 90480-003, Brasil",Porto Alegre,RS,90480-003
+-30.0353,-51.17657,"Zletric, Avenida Carlos Gomes, 1672, Três Figueiras, Porto Alegre - RS, 90470-260, Brasil",Porto Alegre,RS,90470-260
+-30.04325,-51.17609,"Abin RS, Petrópolis, Porto Alegre - RS, Brasil",Porto Alegre,RS,
+-30.02736,-51.18104,"Abf Advogados Associados, Boa Vista, Porto Alegre - RS, 90470-130, Brasil",Porto Alegre,RS,90470-130
+-29.69097,-51.12662,"Hdi Seguros S/A., Rua Bento Gonçalves, 1737, Boa Vista, Novo Hamburgo - RS, 93410-395, Brasil",Novo Hamburgo,RS,93410-395
+-25.54619,-54.58635,"Avenida Brasil, 1345, Centro, Foz do Iguaçu - PR, 85851-000, Brasil",Foz do Iguaçu,PR,85851-000
+-24.94518,-53.46896,"Rua Pio XII, 3669, Claudete, Cascavel - PR, 85811-120, Brasil",Cascavel,PR,85811-120
+-24.95153,-53.44692,"Rua Olavo Bilac, 1021, Centro, Cascavel - PR, 85812-260, Brasil",Cascavel,PR,85812-260
+-25.38442,-49.33417,"Rua Prfa. Sílvia Gonçalves C. Ribas, 379, Santa Felicidade, Curitiba - PR, 82410-190, Brasil",Curitiba,PR,82410-190
+-29.17772,-51.21615,"Rua Alcides Longhi, 137, Sanvitto, Caxias do Sul - RS, 95012-348, Brasil",Caxias do Sul,RS,95012-348
+-25.40758,-49.25407,"Avenida Paraná, 337, Cabral, Curitiba - PR, 80035-130, Brasil",Curitiba,PR,80035-130
+-25.40141,-49.26751,"Rua Coronel Brasilino Moura, 447, São Lourenço, Curitiba - PR, 80540-340, Brasil",Curitiba,PR,80540-340
+-30.0179,-51.19092,"Avenida Cristóvão Colombo, 2967, Auxiliadora, Porto Alegre - RS, 90560-002, Brasil",Porto Alegre,RS,90560-002
+-30.03132,-51.23683,"Rua Sete de Setembro, 370, Centro Histórico, Porto Alegre - RS, 90010-190, Brasil",Porto Alegre,RS,90010-190
+-30.15205,-51.22105,"Rua Mura, 278, Espírito Santo, Porto Alegre - RS, 91770-570, Brasil",Porto Alegre,RS,91770-570
+-30.02277,-51.18822,"Avenida Plínio Brasil Milano, 291, Auxiliadora, Porto Alegre - RS, 90520-002, Brasil",Porto Alegre,RS,90520-002
+-30.04057,-51.12569,"Rua Victorino de Andrade Pinto, 59, Morro Santana, Porto Alegre - RS, 91450-480, Brasil",Porto Alegre,RS,91450-480
+-30.02646,-51.18406,"Rua Anita Garibaldi, 1151, Mont'Serrat, Porto Alegre - RS, 90450-001, Brasil",Porto Alegre,RS,90450-001
+-30.02831,-51.16293,"Avenida Doutor Nilo Peçanha, 2811, Chácara das Pedras, Porto Alegre - RS, 91330-001, Brasil",Porto Alegre,RS,91330-001
+-30.04693,-51.23033,"Avenida Ipiranga, 40, Praia de Belas, Porto Alegre - RS, 90160-090, Brasil",Porto Alegre,RS,90160-090
+-30.02938,-51.17983,"Avenida Doutor Nilo Peçanha, 1201, Três Figueiras, Porto Alegre - RS, 91330-000, Brasil",Porto Alegre,RS,91330-000
+-26.99277,-48.6287,"Avenida Atlântica, 206, Centro, Balneário Camboriú - SC, 88330-018, Brasil",Balneário Camboriú,SC,88330-018
+-26.48955,-49.07977,"Rua João Picolli, 322, Centro, Jaraguá do Sul - SC, 89251-590, Brasil",Jaraguá do Sul,SC,89251-590
+-25.46079,-49.53045,"Rua Rui Barbosa, 1401, Centro, Campo Largo - PR, 83601-140, Brasil",Campo Largo,PR,83601-140
+-27.21178,-49.6342,"Alameda Aristiliano Ramos, 1170, Santana, Rio do Sul - SC, 89160-113, Brasil",Rio do Sul,SC,89160-113
+-25.09729,-50.15689,"Priscila Finger Extensão de Cílios / Lash Terapeuta, Rua Santos Dumont, 480, Centro, Ponta Grossa - PR, 84010-360, Brasil",Ponta Grossa,PR,84010-360
+-26.90415,-48.65775,"Espaço Águia, Rua Doutor José Bonifácio Malburg, Centro, Itajaí - SC, 88301-350, Brasil",Itajaí,SC,88301-350
+-26.31652,-48.84805,"Rua Anita Garibaldi, 264, Anita Garibaldi, Joinville - SC, 89203-300, Brasil",Joinville,SC,89203-300
+-27.58393,-48.54394,"Rua Demétrio Ribeiro, 105, Centro, Florianópolis - SC, 88020-700, Brasil",Florianópolis,SC,88020-700
+-26.29495,-48.84927,"Leila e Gisele, Rua Max Colin, 1440, Centro, Joinville - SC, 89204-040, Brasil",Joinville,SC,89204-040
+-26.23947,-52.67258,"Rua Sete de Setembro, 290, Baixada, Pato Branco - PR, 85506-040, Brasil",Pato Branco,PR,85506-040
+-29.68206,-51.12722,"Rua Joaquim Pedro Soares, 540, Centro, Novo Hamburgo - RS, 93510-320, Brasil",Novo Hamburgo,RS,93510-320
+-29.58801,-51.08623,"Avenida Sapiranga, 30, Centro, Dois Irmãos - RS, 93950-000, Brasil",Dois Irmãos,RS,93950-000
+-27.23135,-52.02383,"Praça Prefeito Dogelo Goss, Centro, Concórdia - SC, 89700-000, Brasil",Concórdia,SC,89700-000
+-28.8462,-51.89263,"Rua Luiz Augusto Puperi, 649, Centro, Guaporé - RS, 99200-000, Brasil",Guaporé,RS,99200-000
+-28.26373,-52.40766,"Rua Independência, 799, Centro, Passo Fundo - RS, 99010-041, Brasil",Passo Fundo,RS,99010-041
+-24.95128,-53.45665,"Rua Antonina, 2781, Centro, Cascavel - PR, 85812-040, Brasil",Cascavel,PR,85812-040
+-30.0282,-51.20373,"Rua Mostardeiro, 366, Moinhos de Vento, Porto Alegre - RS, 90430-001, Brasil",Porto Alegre,RS,90430-001
+-29.16977,-51.17521,"R M Personal, Rua Os Dezoito do Forte, 1356, Exposição, Caxias do Sul - RS, 95020-472, Brasil",Caxias do Sul,RS,95020-472
+-30.03514,-51.17997,"Avenida Lageado, 1212, Petrópolis, Porto Alegre - RS, 90460-110, Brasil",Porto Alegre,RS,90460-110
+-30.01796,-51.19117,"Avenida Cristóvão Colombo, 2939, Auxiliadora, Porto Alegre - RS, 90560-002, Brasil",Porto Alegre,RS,90560-002
+-30.02333,-51.16086,"Talenter Consultoria, Rua Antônio Carlos Berta, Vila Ipiranga, Porto Alegre - RS, 91340-020, Brasil",Porto Alegre,RS,91340-020
+-30.02891,-51.18166,"Avenida Carlos Gomes, 779, Bela Vista, Porto Alegre - RS, 90480-003, Brasil",Porto Alegre,RS,90480-003
+-24.95888,-53.47037,"Rua Manoel Ribas, 2222, Centro, Cascavel - PR, 85802-180, Brasil",Cascavel,PR,85802-180
+-31.76675,-52.34077,"Rua Quinze de Novembro, 657, Centro, Pelotas - RS, 96015-000, Brasil",Pelotas,RS,96015-000
+-24.94861,-53.4458,"Rua Paraná, 1450, Centro, Cascavel - PR, 85812-010, Brasil",Cascavel,PR,85812-010
+-27.10795,-52.61922,"Rua Clevelândia, 557, Jardim Itália, Chapecó - SC, 89802-405, Brasil",Chapecó,SC,89802-405
+-27.81326,-50.33005,"Rua Otacílio Vieira da Costa, 113, Centro, Lages - SC, 88501-050, Brasil",Lages,SC,88501-050
+-28.6814,-49.36441,"Avenida Centenário, 3958, São Cristóvão, Criciúma - SC, 88801-000, Brasil",Criciúma,SC,88801-000
+-28.69141,-49.34538,"Rua Vereador Matias Ricardo Paz, 700, Jardim Maristela, Criciúma - SC, 88815-205, Brasil",Criciúma,SC,88815-205
+-27.58332,-48.54519,"Avenida Mauro Ramos, Agronômica, Florianópolis - SC, Brasil",Florianópolis,SC,
+-27.58968,-48.55214,"Avenida Professor Othon Gama d'Eca, 677, Centro, Florianópolis - SC, 88015-240, Brasil",Florianópolis,SC,88015-240
+-29.11401,-49.63836,"Rua João José Guimarães, 345, Sombrio - SC, 88960-000, Brasil",Sombrio,SC,88960-000
+-29.33977,-49.73004,"Rua José Luiz de Freitas, 46, Torres - RS, 95560-000, Brasil",Torres,RS,95560-000
+-29.3396,-49.72582,"Rua Júlio de Castilhos, 266, Torres - RS, 95560-000, Brasil",Torres,RS,95560-000
+-28.48168,-49.00616,"Avenida Marcolino Martins Cabral, 1197, Centro, Tubarão - SC, 88701-001, Brasil",Tubarão,SC,88701-001
+-29.1133,-49.63519,"Avenida Getúlio Vargas, 219, Sombrio - SC, 88960-000, Brasil",Sombrio,SC,88960-000
+-29.33301,-49.72302,"Avenida Silva Jardim, 929, Torres - RS, 95560-000, Brasil",Torres,RS,95560-000
+-27.58744,-48.54786,"Avenida Trompowsky, 366, Centro, Florianópolis - SC, 88015-300, Brasil",Florianópolis,SC,88015-300
+-27.59242,-48.55449,"Zoo Trindade, Centro, Florianópolis - SC, 88015-200, Brasil",Florianópolis,SC,88015-200
+-27.54529,-48.50133,"WeCharge, Rodovia José Carlos Daux, 4100, Saco Grande, Florianópolis - SC, 88032-005, Brasil",Florianópolis,SC,88032-005
+-27.59394,-48.55121,"Avenida Prefeito Osmar Cunha, 183, Centro, Florianópolis - SC, 88015-100, Brasil",Florianópolis,SC,88015-100
+-27.59083,-48.55302,"Rua Esteves Júnior, Centro, Florianópolis - SC, 88015-130, Brasil",Florianópolis,SC,88015-130
+-26.97563,-48.64712,"Rua Rodésia, 432, Das Nações, Balneário Camboriú - SC, 88338-120, Brasil",Balneário Camboriú,SC,88338-120
+-26.94446,-48.63112,"WeCharge, Rua Delfim Mário Pádua Peixoto, 522, Praia Brava, Itajaí - SC, 88306-700, Brasil",Itajaí,SC,88306-700
+-27.59439,-48.5506,"Rua Presidente Nereu Ramos, 126, Centro, Florianópolis - SC, 88015-010, Brasil",Florianópolis,SC,88015-010
+-27.12016,-48.61313,"Rua Quatrocentos e Seis, 460, Morretes, Itapema - SC, 88220-000, Brasil",Itapema,SC,88220-000
+-27.14901,-48.50867,"Avenida Pavão, 681, Bombas, Bombinhas - SC, 88215-000, Brasil",Bombinhas,SC,88215-000
+-26.99346,-48.63697,"Rua Mil e Quinhentos, 820, Centro, Balneário Camboriú - SC, 88330-526, Brasil",Balneário Camboriú,SC,88330-526
+-26.92782,-48.64597,"Rodovia Osvaldo Reis, 600, Fazenda, Itajaí - SC, 88306-000, Brasil",Itajaí,SC,88306-000
+-26.95232,-48.63975,"Café Cassol, Praia Brava, Itajaí - SC, 88306-002, Brasil",Itajaí,SC,88306-002
+-27.5914,-48.5498,"Avenida Rio Branco, 847, Centro, Florianópolis - SC, 88015-205, Brasil",Florianópolis,SC,88015-205
+-27.58796,-48.54289,"WeCharge, Avenida Mauro Ramos, 1512, Centro, Florianópolis - SC, 88020-302, Brasil",Florianópolis,SC,88020-302
+-27.49445,-48.50547,"Rodovia José Carlos Daux, 10416, Recanto dos Açores, Florianópolis - SC, 88050-001, Brasil",Florianópolis,SC,88050-001
+-27.14814,-48.58711,"Avenida Almirante Fonseca Neves, 520, Porto Belo - SC, 88210-000, Brasil",Porto Belo,SC,88210-000
+-27.45767,-48.40197,"Rua Fernando Bauther da Silva, 327, Capivari, Florianópolis - SC, 88058-408, Brasil",Florianópolis,SC,88058-408
+-27.43968,-48.40372,"Rua Intendente João Nunes Vieira, 718, Ingleses Centro, Florianópolis - SC, 88058-100, Brasil",Florianópolis,SC,88058-100
+-27.12975,-48.60471,"Rua Duzentos e Quarenta e Oito, 338, Meia Praia, Itapema - SC, 88220-000, Brasil",Itapema,SC,88220-000
+-25.43081,-49.27094,"Rua XV de Novembro, 287, Centro, Curitiba - PR, 80020-310, Brasil",Curitiba,PR,80020-310
+-25.43081,-49.29184,"Artbolos Nádia, Avenida Cândido Hartmann, 540, Bigorrilho, Curitiba - PR, 80730-440, Brasil",Curitiba,PR,80730-440
+-26.98408,-48.63409,"Avenida Atlântica, 1613, Centro, Balneário Camboriú - SC, 88330-012, Brasil",Balneário Camboriú,SC,88330-012
+-26.97968,-48.63664,"Avenida Brasil, 590, Centro, Balneário Camboriú - SC, 88330-043, Brasil",Balneário Camboriú,SC,88330-043
+-26.98297,-48.63557,"Avenida Brasil, 995, Centro, Balneário Camboriú - SC, 88330-045, Brasil",Balneário Camboriú,SC,88330-045
+-26.97934,-48.64103,"Rua México, 80, Das Nações, Balneário Camboriú - SC, 88338-220, Brasil",Balneário Camboriú,SC,88338-220
+-27.58817,-48.54245,"Rua Ângelo la Porta, 59, Centro, Florianópolis - SC, 88020-600, Brasil",Florianópolis,SC,88020-600
+-26.9145,-49.08811,"Reevia, Rua Doutor Léo de Carvalho, 1, Velha, Blumenau - SC, 89036-239, Brasil",Blumenau,SC,89036-239
+-26.90554,-48.66133,"Tonia's House, Centro, Itajaí - SC, 88301-350, Brasil",Itajaí,SC,88301-350
+-27.0027,-48.62087,"Rua Três Mil e Setecentos, 160, Centro, Balneário Camboriú - SC, 88330-203, Brasil",Balneário Camboriú,SC,88330-203
+-26.9819,-48.63503,"Rua Mil Cento e Um, 88, Centro, Balneário Camboriú - SC, 88330-774, Brasil",Balneário Camboriú,SC,88330-774
+-26.99253,-48.62914,"Rua Dois Mil e Trezentos, 1, Centro, Balneário Camboriú - SC, 88330-426, Brasil",Balneário Camboriú,SC,88330-426
+-26.9927,-48.62887,"Avenida Atlântica, 2700, Centro, Balneário Camboriú - SC, 88330-018, Brasil",Balneário Camboriú,SC,88330-018
+-26.90423,-48.65765,"Espaço Águia, Rua Doutor José Bonifácio Malburg, Centro, Itajaí - SC, 88301-350, Brasil",Itajaí,SC,88301-350
+-25.10384,-50.15977,"Rua Ricardo Lustosa Ribas, 154, Estrela, Ponta Grossa - PR, 84040-140, Brasil",Ponta Grossa,PR,84040-140
+-26.36808,-48.84844,"Rua Espanha, 192, Santa Catarina, Joinville - SC, 89233-130, Brasil",Joinville,SC,89233-130
+-26.91644,-48.65254,"Fisiomar Centro de Reabilitação e Fisioterapia, Avenida Ministro Victor Konder, 1010, Fazenda, Itajaí - SC, 88301-701, Brasil",Itajaí,SC,88301-701
+-26.91641,-49.07167,"Associacao dos Despachantes de Transito da Região de Blumenau, Rua Sete de Setembro, 1714, Centro, Blumenau - SC, 89010-202, Brasil",Blumenau,SC,89010-202
+-25.43394,-49.30111,"Rua Padre Anchieta, 2285, Bigorrilho, Curitiba - PR, 80730-001, Brasil",Curitiba,PR,80730-001
+-25.43477,-49.27877,"Rua Visconde do Rio Branco, 1488, Centro, Curitiba - PR, 80420-210, Brasil",Curitiba,PR,80420-210
+-26.99861,-48.63965,"Vf Instalações Hidraulicas, Rua 2070, 1050, Centro, Balneário Camboriú - SC, 88330-454, Brasil",Balneário Camboriú,SC,88330-454
+-28.13258,-49.10495,"Drogaria Farmagnus, Rua Jorge Lacerda, Rio Fortuna - SC, 88760-000, Brasil",Rio Fortuna,SC,88760-000
+-28.24432,-48.66364,"Rua Manoel Antônio de Souza, 390, Centro, Imbituba - SC, 88780-000, Brasil",Imbituba,SC,88780-000
+-23.26605,-51.04943,"Rua Dezenove de Dezembro, 530, Ibiporã - PR, 86200-000, Brasil",Ibiporã,PR,86200-000
+-23.34736,-51.14759,"Avenida Inglaterra, 930, Inglaterra, Londrina - PR, 86046-000, Brasil",Londrina,PR,86046-000
+-25.45181,-49.29149,"Rua Cândido Xavier, 602, Água Verde, Curitiba - PR, 80240-280, Brasil",Curitiba,PR,80240-280
+-25.45761,-49.28822,"Avenida República Argentina, 1237, Água Verde, Curitiba - PR, 80620-010, Brasil",Curitiba,PR,80620-010
+-25.45736,-49.28893,"Zarp Studio, Avenida República Argentina, 1236, Vila Izabel, Curitiba - PR, 80620-010, Brasil",Curitiba,PR,80620-010
+-25.45823,-49.33614,"Rua Luiz Tramontin, 1529, Campo Comprido, Curitiba - PR, 81230-161, Brasil",Curitiba,PR,81230-161
+-25.58688,-49.3999,"Jet Oil, Avenida Doutor Victor do Amaral, Centro, Araucária - PR, 83702-040, Brasil",Araucária,PR,83702-040
+-25.4823,-49.23019,"Rua Francisco Timóteo de Simas, 588, Uberaba, Curitiba - PR, 81570-270, Brasil",Curitiba,PR,81570-270
+-22.33913,-49.06678,"Astron Hotel Bauru, Rua Luso-Brasileira, 44, Jardim Estoril IV, Bauru - SP, 17016-190, Brasil",Bauru,SP,17016-190
+-22.33859,-49.05869,"Alameda Doutor Octávio Pinheiro Brisolla, Vila Cidade Universitária, Bauru - SP, 17012-424, Brasil",Bauru,SP,17012-424
+-22.35161,-49.05099,"Avenida Getúlio Vargas, 21-51, Vila Aviação, Bauru - SP, 17017-383, Brasil",Bauru,SP,17017-383
+-21.21966,-47.80689,"Avenida Carlos Consoni, 801, Subsetor Sul-4, Ribeirão Preto - SP, 14024-010, Brasil",Ribeirão Preto,SP,14024-010
+-27.14837,-48.4933,"Avenida Vereador Manoel dos Santos, 966, Centro, Bombinhas - SC, 88215-000, Brasil",Bombinhas,SC,88215-000
+-27.1458,-48.50241,"Avenida Leopoldo Zarling, 2581, Bombas, Bombinhas - SC, 88215-000, Brasil",Bombinhas,SC,88215-000
+-27.14266,-48.50694,"Avenida Leopoldo Zarling, 2072, Bombas, Bombinhas - SC, 88215-000, Brasil",Bombinhas,SC,88215-000
+-27.59219,-48.55383,"Ibbca 2008 Corretora de Seguros, Centro, Florianópolis - SC, 88015-200, Brasil",Florianópolis,SC,88015-200
+-27.13052,-48.60046,"Rua 258, 17, Meia Praia, Itapema - SC, 88220-000, Brasil",Itapema,SC,88220-000
+-27.122,-48.60776,"Rua Duzentos e Quatorze, 139, Meia Praia, Itapema - SC, 88220-000, Brasil",Itapema,SC,88220-000
+-27.64103,-48.68556,"Avenida Atílio Pedro Pagani, 1625, Caminho Novo, Palhoça - SC, 88132-149, Brasil",Palhoça,SC,88132-149
+-27.10662,-48.91515,"Avenida Primeiro de Maio, 100, Centro 2, Brusque - SC, 88353-200, Brasil",Brusque,SC,88353-200
+-27.42451,-48.43768,"Avenida Luiz Boiteux Piazza, 2326, Cachoeira do Bom Jesus, Florianópolis - SC, 88056-000, Brasil",Florianópolis,SC,88056-000
+-26.93261,-49.06317,"Rua Hermann Huscher, 113, Vila Formosa, Blumenau - SC, 89023-000, Brasil",Blumenau,SC,89023-000
+-27.59898,-48.60575,"Avenida Brigadeiro da Silva Paes, 18, Campinas, São José - SC, 88101-201, Brasil",São José,SC,88101-201
+-27.13413,-48.59671,"Rua Duzentos e Sessenta e Nove, 113, Meia Praia, Itapema - SC, 88220-000, Brasil",Itapema,SC,88220-000
+-25.0978,-50.15702,"Rua Santos Dumont, 423, Centro, Ponta Grossa - PR, 84010-360, Brasil",Ponta Grossa,PR,84010-360
+-25.1146,-50.15537,"Pilates e Físioterapia Elvira Azevedo, Rua Padre Nóbrega, Oficinas, Ponta Grossa - PR, 84040-090, Brasil",Ponta Grossa,PR,84040-090
+-27.002,-48.62237,"Rua Três Mil Setecentos e Cem, 204, Centro, Balneário Camboriú - SC, 88330-215, Brasil",Balneário Camboriú,SC,88330-215
+-27.00586,-48.6328,"Rua Armazém, 45, Vila Real, Balneário Camboriú - SC, 88337-500, Brasil",Balneário Camboriú,SC,88337-500
+-26.77733,-48.6365,"Rua Liberdade, 130, Centro Penha, Penha - SC, 88385-000, Brasil",Penha,SC,88385-000
+-26.99631,-48.63487,"Rua Dois Mil e Trezentos, 700, Centro, Balneário Camboriú - SC, 88330-430, Brasil",Balneário Camboriú,SC,88330-430
+-27.02439,-48.653,"Rua José Francisco Bernardes, 83, Centro, Camboriú - SC, 88340-233, Brasil",Camboriú,SC,88340-233
+-26.76607,-48.67176,"Avenida Emanoel Pinto, 818, Balneário Piçarras - SC, 88380-000, Brasil",Balneário Piçarras,SC,88380-000
+-26.98916,-48.63364,"Rua 1000, 46, Centro, Balneário Camboriú - SC, 88330-564, Brasil",Balneário Camboriú,SC,88330-564
+-26.98492,-48.63461,"Avenida da Lagoa, 14, Centro, Balneário Camboriú - SC, 88330-714, Brasil",Balneário Camboriú,SC,88330-714
+-26.73536,-48.68164,"Avenida Nereu Ramos, 4770, Balneário Piçarras - SC, 88380-000, Brasil",Balneário Piçarras,SC,88380-000
+-27.00987,-48.62921,"D Daniel, 620-686, Rua Dom José, Vila Real, Balneário Camboriú - SC, 88337-130, Brasil",Balneário Camboriú,SC,88337-130
+-26.92315,-49.06482,"Rua Floriano Peixoto, 300, Centro, Blumenau - SC, 89010-022, Brasil",Blumenau,SC,89010-022
+-26.9301,-48.64397,"Rua Afonso Orsi, 64, Fazenda, Itajaí - SC, 88306-030, Brasil",Itajaí,SC,88306-030
+-26.47607,-48.99822,"Rua Antônio Zimmermann, 264, Centro, Guaramirim - SC, 89270-000, Brasil",Guaramirim,SC,89270-000
+-22.01172,-47.89701,"Rua Visconde de Inhaúma, 1379, Jardim Paraíso, São Carlos - SP, 13560-190, Brasil",São Carlos,SP,13560-190
+-21.46444,-46.99813,"Solucao Insumos Agrícolas, Avenida João Batista de Lima Figueiredo, 1847, Mocoquinha, Mococa - SP, 13733-045, Brasil",Mococa,SP,13733-045
+-21.21165,-47.80705,"Avenida José Adolfo Bianco Molina, 2094, Subsetor Sul-4, Ribeirão Preto - SP, 14024-210, Brasil",Ribeirão Preto,SP,14024-210
+-21.9681,-46.76065,"Fisioterapeuta Isabella Beraldo, Rua Nagib Miguel, 080, Jardim Recanto do Bosque, São João da Boa Vista - SP, 13874-439, Brasil",São João da Boa Vista,SP,13874-439
+-21.21835,-47.80601,"Avenida Professor João Fiúsa, 2686, Subsetor Sul-4, Ribeirão Preto - SP, 14024-260, Brasil",Ribeirão Preto,SP,14024-260
+-21.20642,-47.81061,"Clínica Rivvé Viver Saúde, Rua Adolfo Serra, Subsetor Sul-4, Ribeirão Preto - SP, 14020-605, Brasil",Ribeirão Preto,SP,14020-605
+-23.31559,-51.16363,"Rua Goiás, 1265, Centro Histórico, Londrina - PR, 86020-410, Brasil",Londrina,PR,86020-410
+-23.41871,-51.92685,"Sparksales, Avenida Bento Munhoz da Rocha Neto, 632, Zona 7, Maringá - PR, 87030-010, Brasil",Maringá,PR,87030-010
+-23.42848,-51.9369,"Avenida Cerro Azul, 123, Zona 2, Maringá - PR, 87010-000, Brasil",Maringá,PR,87010-000
+-23.43066,-51.97258,"Avenida Doutor Luiz Teixeira Mendes, 3224, Zona 5, Maringá - PR, 87015-000, Brasil",Maringá,PR,87015-000
+-23.41572,-51.94882,"Rua Campos Sales, 954, Zona 7, Maringá - PR, 87020-080, Brasil",Maringá,PR,87020-080
+-23.42546,-51.94283,"Avenida Tiradentes, 1008, Zona 1, Maringá - PR, 87013-260, Brasil",Maringá,PR,87013-260
+-25.43293,-49.27888,"Alameda Doutor Carlos de Carvalho, 417, Centro, Curitiba - PR, 80410-180, Brasil",Curitiba,PR,80410-180
+-25.42942,-49.29094,"Produttivo, Rua Alferes Ângelo Sampaio, Mercês, Curitiba - PR, 80730-460, Brasil",Curitiba,PR,80730-460
+-25.45224,-49.28182,"Rua Silveira Peixoto, 86, Água Verde, Curitiba - PR, 80240-120, Brasil",Curitiba,PR,80240-120
+-25.35571,-49.21051,"Rua Rossini, 235, Osasco, Colombo - PR, Brasil",Colombo,PR,
+-25.49725,-49.23786,"Rua Anne Frank, 3631, Boqueirão, Curitiba - PR, 81650-020, Brasil",Curitiba,PR,81650-020
+-25.4246,-49.27344,"Rua Paula Gomes, 394, São Francisco, Curitiba - PR, 80510-070, Brasil",Curitiba,PR,80510-070
+-25.48688,-49.29222,"Avenida Brasília, 4671, Novo Mundo, Curitiba - PR, 81020-010, Brasil",Curitiba,PR,81020-010
+-25.44145,-49.29137,"Rua Carmelo Rangel, 137, Batel, Curitiba - PR, 80440-050, Brasil",Curitiba,PR,80440-050
+-25.38774,-49.25357,"Rua Santo Celestino Coleto, 808, Boa Vista, Curitiba - PR, 82540-250, Brasil",Curitiba,PR,82540-250
+-25.44218,-49.28791,"Farmácia Minerva, Avenida do Batel, 1566, Batel, Curitiba - PR, 80420-090, Brasil",Curitiba,PR,80420-090
+-25.45821,-49.28907,"Latitude-Agência de Viagens e Turismo, Avenida República Argentina, 1334, Vila Izabel, Curitiba - PR, 80620-010, Brasil",Curitiba,PR,80620-010
+-21.21188,-47.81844,"Gsw Interior Paulista, Subsetor Sul-5, Ribeirão Preto - SP, Brasil",Ribeirão Preto,SP,
+-21.20851,-47.79432,"Ponto De Carregamento Para Veículos Elétricos, Rua Milton José Robusti, 75, Subsetor Sul-4, Ribeirão Preto - SP, 14020-670, Brasil",Ribeirão Preto,SP,14020-670
+-21.17679,-47.78678,"Rua Cravinhos, 961, Subsetor Leste-2, Ribeirão Preto - SP, 14090-284, Brasil",Ribeirão Preto,SP,14090-284
+-21.21662,-47.79793,"Rua Paschoal Bardaro, 1906, Subsetor Sul-4, Ribeirão Preto - SP, 14020-340, Brasil",Ribeirão Preto,SP,14020-340
+-21.21761,-47.76613,"Rua Carlos de Gaitani, L-13, Ribeirão Preto - SP, 14098-340, Brasil",Ribeirão Preto,SP,14098-340
+-21.19936,-47.80528,"Rua Adolfo Lutz, 459, Subsetor Sul-2, Ribeirão Preto - SP, 14020-310, Brasil",Ribeirão Preto,SP,14020-310
+-21.1853,-47.81436,"Rua Eliseu Guilherme, 140, Subsetor Sul-1, Ribeirão Preto - SP, 14025-020, Brasil",Ribeirão Preto,SP,14025-020
+-21.77727,-48.17279,"Rua Didimo Vieira da Silva, 385, Vila Ferroviária, Araraquara - SP, 14802-370, Brasil",Araraquara,SP,14802-370
+-20.55644,-47.40682,"Avenida Paulo VI, 410, Parque Francal, Franca - SP, 14403-143, Brasil",Franca,SP,14403-143
+-20.53406,-47.4122,"Rua Diogo Feijó, 1957, Estação, Franca - SP, 14405-212, Brasil",Franca,SP,14405-212
+-22.2937,-48.55484,"Rua General Galvão, 269, Centro, Jaú - SP, 17201-030, Brasil",Jaú,SP,17201-030
+-21.6061,-48.37202,"Sognare Consórcios - Hs Consórcios, Matão - SP, 15990-130, Brasil",Matão,SP,15990-130
+-20.90371,-49.45029,"Rua José Fernandes, 601, Bady Bassitt - SP, 15115-000, Brasil",Bady Bassitt,SP,15115-000
+-25.08749,-50.16844,"Rua Coronel Solano, 227, Nova Rússia, Ponta Grossa - PR, 84010-420, Brasil",Ponta Grossa,PR,84010-420
+-21.13428,-48.97356,"Rua Treze de Maio, 279, Centro, Catanduva - SP, 15800-010, Brasil",Catanduva,SP,15800-010
+-21.13433,-48.97359,"Rua Alagoas, 362, Centro, Catanduva - SP, 15800-010, Brasil",Catanduva,SP,15800-010
+-20.82697,-49.38932,"7bens Consórcios, Rua Jair Martins Mil Homens, 400, Nova Redentora, São José do Rio Preto - SP, 15090-080, Brasil",São José do Rio Preto,SP,15090-080
+-20.82808,-49.38232,"Rua Joaquim Pinheiro Castro, 655, Vila Sinibaldi, São José do Rio Preto - SP, 15084-190, Brasil",São José do Rio Preto,SP,15084-190
+-20.82258,-49.38767,"Rua Doutor Raul Silva, 770, Redentora, São José do Rio Preto - SP, 15015-020, Brasil",São José do Rio Preto,SP,15015-020
+-20.81625,-49.38019,"Avenida Alberto Andaló, 3345, Bom Jesus, São José do Rio Preto - SP, 15015-000, Brasil",São José do Rio Preto,SP,15015-000
+-21.77577,-47.08292,"Rua Duque de Caxias, 409B, Casa Branca - SP, 13700-000, Brasil",Casa Branca,SP,13700-000
+-21.78207,-46.56021,"Avenida Doutor David Benedito Ottoni, 499, Região Urbana Homogênea XIV, Poços de Caldas - MG, 37701-069, Brasil",Poços de Caldas,MG,37701-069
+-22.47456,-46.63296,"Rua Argentina, 41, Águas de Lindóia - SP, 13940-000, Brasil",Águas de Lindóia,SP,13940-000
+-22.179,-47.38702,"Rua Doutor Fernando Costa, 284, Centro, Leme - SP, 13610-160, Brasil",Leme,SP,13610-160
+-22.55085,-47.91447,"Rua Veríssimo Prado, 813, São Pedro - SP, 13520-027, Brasil",São Pedro,SP,13520-027
+-18.93055,-48.28992,"Rondon Empresarial, Avenida dos Municípios, Tabajaras, Uberlândia - MG, 38400-254, Brasil",Uberlândia,MG,38400-254
+-18.93278,-48.27537,"Família Luccine, Vigilato Pereira, Uberlândia - MG, 38408-447, Brasil",Uberlândia,MG,38408-447
+-20.84517,-49.40095,"Georgina Business Park, Avenida Anísio Haddad, Vivendas, São José do Rio Preto - SP, 15093-000, Brasil",São José do Rio Preto,SP,15093-000
+-18.90784,-48.26943,"La Ville, Rua Itumbiara, 942, Nossa Senhora Aparecida, Uberlândia - MG, 38400-624, Brasil",Uberlândia,MG,38400-624
+-23.42396,-51.93434,"Avenida Quinze de Novembro, 171, Zona 1, Maringá - PR, 87013-230, Brasil",Maringá,PR,87013-230
+-23.31935,-51.14752,"Avenida Santos Dumont, 520, Aeroporto, Londrina - PR, 86039-090, Brasil",Londrina,PR,86039-090
+-23.30649,-51.1763,"Rua Ibiporã, 448, Quebec, Londrina - PR, 86060-510, Brasil",Londrina,PR,86060-510
+-23.3341,-51.17508,"Rua João Wyclif, 111, Guanabara, Londrina - PR, 86050-450, Brasil",Londrina,PR,86050-450
+-21.22571,-47.8356,"Elemento Sutil, Avenida Luiz Eduardo Toledo Prado, 900, Ribeirão Preto - SP, Brasil",Ribeirão Preto,SP,
+-21.21044,-47.80211,"Zletric, Avenida Wladimir Meirelles Ferreira, 1660, Subsetor Sul-4, Ribeirão Preto - SP, 14021-683, Brasil",Ribeirão Preto,SP,14021-683
+-20.55259,-47.40413,"McDonald's, Jardim Lima, Franca - SP, 14403-117, Brasil",Franca,SP,14403-117
+-20.91706,-46.99549,"Rua dos Antunes, 873, São Sebastião do Paraíso - MG, 37950-000, Brasil",São Sebastião do Paraíso,MG,37950-000
+-21.21996,-47.81719,"Rua José Saretta, 105, Subsetor Sul-5, Ribeirão Preto - SP, 14026-593, Brasil",Ribeirão Preto,SP,14026-593
+-20.54216,-47.43139,"Rua Alexandre Spereta, 1701, Residencial Itapuã, Franca - SP, 14406-307, Brasil",Franca,SP,14406-307
+-19.76141,-47.94965,"Avenida Santa Beatriz da Silva, 791, Uberaba - MG, 38050-096, Brasil",Uberaba,MG,38050-096
+-19.74686,-47.93911,"Avenida Santos Dumont, 130, Uberaba - MG, 38010-370, Brasil",Uberaba,MG,38010-370
+-19.75238,-47.94998,"Rua Doutor Silvério José Bernardes, 583, Uberaba - MG, 38060-470, Brasil",Uberaba,MG,38060-470
+-20.57271,-48.56165,"Rua Vinte e Quatro, 3011, Ortega, Barretos - SP, 14783-235, Brasil",Barretos,SP,14783-235
+-17.79412,-50.92555,"Rua Abel Pereira de Castro, 1073, Setor Central, Rio Verde - GO, 75901-060, Brasil",Rio Verde,GO,75901-060
+-18.92708,-48.27925,"Rua Johen Carneiro, 395, Lídice, Uberlândia - MG, 38400-072, Brasil",Uberlândia,MG,38400-072
+-22.18877,-46.7467,"Rua Arthur Vergueiro, 142, Espírito Santo do Pinhal - SP, 13990-000, Brasil",Espírito Santo do Pinhal,SP,13990-000
+-21.42691,-45.9538,"Rua Ministro Salgado Filho, 479, Vila Godoy, Alfenas - MG, 37135-026, Brasil",Alfenas,MG,37135-026
+-21.1343,-51.10047,"Hep Imobiliária, Rua Rafael Pereira, 1605, Mirandópolis - SP, 16800-000, Brasil",Mirandópolis,SP,16800-000
+-18.91916,-48.27012,"Rua Eduardo de Oliveira, 501, Lídice, Uberlândia - MG, 38400-068, Brasil",Uberlândia,MG,38400-068
+-18.95624,-48.27637,"FAST SHOP, Gávea, Uberlândia - MG, 38411-106, Brasil",Uberlândia,MG,38411-106
+-18.90819,-48.26132,"Zup It Innovation, Rua Niterói, Tibery, Uberlândia - MG, 38405-178, Brasil",Uberlândia,MG,38405-178
+-22.12119,-51.38588,"Avenida Washington Luiz, 442, Bosque, Presidente Prudente - SP, 19010-090, Brasil",Presidente Prudente,SP,19010-090
+-21.21559,-50.44066,"Rua Duque de Caxias, 1105, Jardim Bandeirantes, Araçatuba - SP, 16015-520, Brasil",Araçatuba,SP,16015-520
+-18.91833,-48.26574,"Avenida Rondon Pacheco, 3380, Cazeca, Uberlândia - MG, 38408-404, Brasil",Uberlândia,MG,38408-404
+-18.91569,-48.23846,"Avenida Salomão Abrahão, 1737, Santa Mônica, Uberlândia - MG, 38408-261, Brasil",Uberlândia,MG,38408-261
+-18.95238,-48.27165,"Condomínio Empresarial Torre Sul, Avenida dos Vinhedos, 71, Jardim Karaíba, Uberlândia - MG, 38411-216, Brasil",Uberlândia,MG,38411-216
+-20.809,-49.35082,"Maya Comunicacao, Avenida Sylvio della Rovere, 1048, Gaivota, São José do Rio Preto - SP, 15061-580, Brasil",São José do Rio Preto,SP,15061-580
+-22.2208,-49.93944,"Psicóloga - Bárbara Maíra da Costa, Avenida das Esmeraldas, 379, Marília - SP, 17516-000, Brasil",Marília,SP,17516-000
+-21.67929,-49.76395,"Rua José Garcia de Carvalho, 220, Lins - SP, 16400-460, Brasil",Lins,SP,16400-460
+-19.59779,-46.94073,"Avenida Imbiara, 476, Centro, Araxá - MG, 38183-244, Brasil",Araxá,MG,38183-244
+-16.70465,-49.2702,"Rua T-55, 741, Bueno, Goiânia - GO, 74215-170, Brasil",Goiânia,GO,74215-170
+-16.66972,-49.23287,"Avenida Independência Quadra M, 8, Bairro Feliz, Goiânia - GO, 74633-355, Brasil",Goiânia,GO,74633-355
+-16.70499,-49.24082,"Andrade Canguçu - Negócios Imobiliários, Avenida Deputado Jamel Cecílio, 2690, Jardim Goiás, Goiânia - GO, 74810-030, Brasil",Goiânia,GO,74810-030
+-17.81122,-50.93152,"Rua Nove, Qd 8-141, Parque dos Buritis II, Rio Verde - GO, 75907-300, Brasil",Rio Verde,GO,75907-300
+-21.3018,-50.3388,"Avenida Euclides Miragaia, 1225, Centro, Birigui - SP, 16200-130, Brasil",Birigui,SP,16200-130
+-20.81514,-49.37428,"Avenida da Saudade, 3766, Santa Cruz, São José do Rio Preto - SP, 15014-020, Brasil",São José do Rio Preto,SP,15014-020
+-18.17891,-47.95561,"Avenida 20 de Agosto, 5, Residencial Vale do Pirapitinga, Catalão - GO, 75701-100, Brasil",Catalão,GO,75701-100
+-23.48715,-46.74802,"Rua Maria S. Romeu, 18, São Domingos, São Paulo - SP, 05159-010, Brasil",São Paulo,SP,05159-010
+-23.46272,-46.42027,"Rua Francisco Pereira da Silva, 145, Pimentas, Guarulhos - SP, 07273-520, Brasil",Guarulhos,SP,07273-520
+-23.36081,-46.74568,"Avenida Quatorze de Dezembro, 167, Centro, Caieiras - SP, 07700-175, Brasil",Caieiras,SP,07700-175
+-23.49449,-46.85155,"Kairós R H, Avenida Cauaxi, 293, Alphaville, Barueri - SP, 06454-010, Brasil",Barueri,SP,06454-010
+-23.5014,-46.84872,"Vlr Infra-Estrutura Urbana, Alameda Rio Negro, 585, Alphaville, Barueri - SP, 06454-000, Brasil",Barueri,SP,06454-000
+-23.45312,-46.89724,"Estrada Municipal Bela Vista, 2500, Ipanema, Santana de Parnaíba - SP, 06539-010, Brasil",Santana de Parnaíba,SP,06539-010
+-23.46416,-46.8712,"Correios, Avenida Yojiro Takaoka, Alphaville, Santana de Parnaíba - SP, 06541-038, Brasil",Santana de Parnaíba,SP,06541-038
+-23.52907,-46.77912,"Banco do Brasil, Rua Tenente Avelar Pires Azevedo, Centro, Osasco - SP, 06016-060, Brasil",Osasco,SP,06016-060
+-23.49966,-46.85495,"Avenida Juruá, 376, Alphaville, Barueri - SP, 06455-010, Brasil",Barueri,SP,06455-010
+-23.50487,-46.84926,"Reachlocal Brasil Serviços Online de Marketing, Alameda Xingu, 350, Alphaville, Barueri - SP, 06455-030, Brasil",Barueri,SP,06455-030
+-16.70499,-49.24105,"Barcia Nunes Arquitetura e Interiores, Avenida Deputado Jamel Cecílio, Jardim Goiás, Goiânia - GO, 74810-100, Brasil",Goiânia,GO,74810-100
+-18.40122,-49.2042,"Avenida Afonso Pena, 2240, Itumbiara - GO, 75516-010, Brasil",Itumbiara,GO,75516-010
+-16.70314,-49.23311,"Rua Quatorze, 16-13, Jardim Goiás, Goiânia - GO, 74810-180, Brasil",Goiânia,GO,74810-180
+-22.74663,-47.63887,"Avenida Comendador Luciano Guidotti, 1070, Verde, Piracicaba - SP, 13425-000, Brasil",Piracicaba,SP,13425-000
+-22.7045,-47.67168,"Rua Ernest Mahle, 281, Nova Piracicaba, Piracicaba - SP, 13405-342, Brasil",Piracicaba,SP,13405-342
+-22.23237,-45.93585,"Rua Adalberto Ferraz, 299, Pouso Alegre - MG, 37550-104, Brasil",Pouso Alegre,MG,37550-104
+-22.22464,-45.92293,"Ceasa, Pouso Alegre - MG, 37550-000, Brasil",Pouso Alegre,MG,37550-000
+-22.80897,-46.28133,"Rodovia Fernão Dias, Extrema - MG, 37640-000, Brasil",Extrema,MG,37640-000
+-22.73393,-45.12444,"Avenida Coronel José Vicente, 262A, Lorena - SP, 12608-000, Brasil",Lorena,SP,12608-000
+-23.51371,-46.65252,"Rua Doutor Mello Nogueira, 106, Casa Verde, São Paulo - SP, 02510-040, Brasil",São Paulo,SP,02510-040
+-23.53412,-46.77095,"Iphone Dreams, Avenida Hilário Pereira de Souza, 406, Industrial Autonomistas, Osasco - SP, 06010-170, Brasil",Osasco,SP,06010-170
+-23.55145,-46.65962,"Rua Coronel José Eusébio, 141, Consolação, São Paulo - SP, 01239-030, Brasil",São Paulo,SP,01239-030
+-23.55972,-46.68803,"Rua Padre João Gonçalves, 137, Pinheiros, São Paulo - SP, 05432-040, Brasil",São Paulo,SP,05432-040
+-23.54003,-46.73425,"Avenida José César de Oliveira, 111, Vila Leopoldina, São Paulo - SP, 05317-000, Brasil",São Paulo,SP,05317-000
+-23.55434,-46.6621,"Ponto De Carregamento Para Veículos Elétricos, Avenida Angélica, 2529, Consolação, São Paulo - SP, 01228-100, Brasil",São Paulo,SP,01228-100
+-23.52145,-46.66039,"Park Station Estacione, Barra Funda, São Paulo - SP, 01139-000, Brasil",São Paulo,SP,01139-000
+-23.44302,-46.5578,"Viela Ouro, Picanço, Guarulhos - SP, 07081-290, Brasil",Guarulhos,SP,07081-290
+-23.49451,-46.85146,"Kairós R H, Avenida Cauaxi, 293, Alphaville, Barueri - SP, 06454-010, Brasil",Barueri,SP,06454-010
+-22.91288,-47.05498,"Rua Walt Disney, 51, Bosque, Campinas - SP, 13026-005, Brasil",Campinas,SP,13026-005
+-23.49627,-46.85289,"Calçada das Hortências, 21, Alphaville, Barueri - SP, 06453-017, Brasil",Barueri,SP,06453-017
+-23.32972,-51.17771,"Monet Odontologia, Rua João Huss, 500, Palhano, Londrina - PR, 86050-490, Brasil",Londrina,PR,86050-490
+-22.39857,-43.13403,"Smilink, Estrada União e Indústria, 10395, Itaipava, Petrópolis - RJ, 25750-226, Brasil",Petrópolis,RJ,25750-226
+-22.53245,-43.19995,"Rua Coronel Veiga, 1801, Petrópolis - RJ, 25655-158, Brasil",Petrópolis,RJ,25655-158
+-21.78121,-43.36137,"Terminal de Carregamento EV, Avenida Independência, 3800, São Mateus, Juiz de Fora - MG, 36025-320, Brasil",Juiz de Fora,MG,36025-320
+-21.76621,-43.34612,"Rua Sampaio, 340, Centro, Juiz de Fora - MG, 36010-359, Brasil",Juiz de Fora,MG,36010-359
+-21.78139,-43.35918,"Espaço Luz de Maria, Rua Ataliba de Barros, São Mateus, Juiz de Fora - MG, 36025-275, Brasil",Juiz de Fora,MG,36025-275
+-22.89851,-43.17799,"Rua Candelária, 106, Centro, Rio de Janeiro - RJ, 20091-020, Brasil",Rio de Janeiro,RJ,20091-020
+-22.8998,-43.17672,"Rua Teófilo Otoni, 15, Centro, Rio de Janeiro - RJ, 20090-070, Brasil",Rio de Janeiro,RJ,20090-070
+-22.90625,-43.17757,"Midas Medicina e Estética, Avenida Nilo Peçanha, 50, Centro, Rio de Janeiro - RJ, 20020-100, Brasil",Rio de Janeiro,RJ,20020-100
+-22.94231,-43.18158,"Bernardo Pl Gomes, Praia de Botafogo, 228, Botafogo, Rio de Janeiro - RJ, Brasil",Rio de Janeiro,RJ,
+-22.90413,-43.17821,"Avenida Rio Branco, 108, Centro, Rio de Janeiro - RJ, 20040-005, Brasil",Rio de Janeiro,RJ,20040-005
+-22.92038,-43.09313,"Avenida Rui Barbosa, 29, São Francisco, Niterói - RJ, 24360-440, Brasil",Niterói,RJ,24360-440
+-22.90375,-43.17789,"Avenida Rio Branco, 123, Centro, Rio de Janeiro - RJ, 20040-001, Brasil",Rio de Janeiro,RJ,20040-001
+-22.98413,-43.21711,"Vet Staff, Rua Almirante Pereira Guimarães, 65, Leblon, Rio de Janeiro - RJ, 22440-005, Brasil",Rio de Janeiro,RJ,22440-005
+-22.984,-43.21745,"Avenida Ataulfo de Paiva, 153, Leblon, Rio de Janeiro - RJ, 22440-033, Brasil",Rio de Janeiro,RJ,22440-033
+-22.90514,-43.17829,"Rua Sete de Setembro, 92, Centro, Rio de Janeiro - RJ, 20050-002, Brasil",Rio de Janeiro,RJ,20050-002
+-22.99812,-43.33724,"Rua Garça, Barra da Tijuca, Rio de Janeiro - RJ, 23064-250, Brasil",Rio de Janeiro,RJ,23064-250
+-22.72602,-47.6542,"Rua Ulhôa Cintra, 88, Centro, Piracicaba - SP, 13400-430, Brasil",Piracicaba,SP,13400-430
+-22.71744,-47.67375,"Rua das Azaléias, 100, Nova Piracicaba, Piracicaba - SP, 13405-083, Brasil",Piracicaba,SP,13405-083
+-22.43177,-45.46426,"Rua Jarbas Guimarães, 246, Avenida, Itajubá - MG, 37504-022, Brasil",Itajubá,MG,37504-022
+-23.49933,-46.63776,"Maria Cristina Lourenço, Alameda Afonso Schmidt, 127, Santana, São Paulo - SP, 02450-001, Brasil",São Paulo,SP,02450-001
+-23.53984,-46.77919,"Avenida Santo Antônio, 1436, Vila Osasco, Osasco - SP, 06083-210, Brasil",Osasco,SP,06083-210
+-23.20524,-45.90306,"Rua José Francisco Alves, 379F, Vila Ema, São José dos Campos - SP, 12243-060, Brasil",São José dos Campos,SP,12243-060
+-23.53536,-46.72459,"Rua São Justiniano, 124, Vila Leopoldina, São Paulo - SP, 05303-110, Brasil",São Paulo,SP,05303-110
+-23.5597,-46.65793,"Kpv Serviços de Apoio Administrativo, Avenida Paulista, 1842, Bela Vista, São Paulo - SP, 01410-000, Brasil",São Paulo,SP,01410-000
+-23.54028,-46.56662,"Rua Platina, 886, Tatuapé, São Paulo - SP, 03308-010, Brasil",São Paulo,SP,03308-010
+-23.56436,-46.65343,"Avenida Paulista, 1159, Jardim Paulista, São Paulo - SP, 01311-200, Brasil",São Paulo,SP,01311-200
+-22.72782,-41.98913,"Rua da Amizade, 30, Maria Joaquina, Cabo Frio - RJ, 28928-724, Brasil",Cabo Frio,RJ,28928-724
+-22.8771,-42.01323,"Rua Barão do Rio Branco, 25, São Bento, Cabo Frio - RJ, 28906-170, Brasil",Cabo Frio,RJ,28906-170
+-22.28897,-42.53492,"Rua José Tessarollo Santos, 14, Nova Friburgo - RJ, 28625-140, Brasil",Nova Friburgo,RJ,28625-140
+-22.83689,-42.02864,"Avenida Ézio Cardoso da Fonseca, 565, Jardim Esperança, Cabo Frio - RJ, 28920-000, Brasil",Cabo Frio,RJ,28920-000
+-22.87189,-42.3342,"Avenida Brasil, 141, Centro, Araruama - RJ, 28970-000, Brasil",Araruama,RJ,28970-000
+-22.88698,-42.04371,"Avenida Victor Rocha, 580, Parque Burle, Cabo Frio - RJ, 28913-000, Brasil",Cabo Frio,RJ,28913-000
+-22.29001,-42.53717,"Empório Brew, Nova Friburgo - RJ, 28623-020, Brasil",Nova Friburgo,RJ,28623-020
+-22.37234,-41.78316,"Rua Alfredo Backer, 353, Centro, Macaé - RJ, 27910-190, Brasil",Macaé,RJ,27910-190
+-22.90606,-43.10592,"Rua Cinco de Julho, 226, Icaraí, Niterói - RJ, 24220-111, Brasil",Niterói,RJ,24220-111
+-22.98548,-43.22606,"Avenida Ataulfo de Paiva, 1079, Leblon, Rio de Janeiro - RJ, 22440-034, Brasil",Rio de Janeiro,RJ,22440-034
+-23.48676,-46.86124,"Banca Alpha Graciosa, Alphaville, Barueri - SP, 06473-000, Brasil",Barueri,SP,06473-000
+-23.52169,-46.66216,"EZvolt, Avenida Marquês de São Vicente, 230, Barra Funda, São Paulo - SP, 01139-001, Brasil",São Paulo,SP,01139-001
+-22.90136,-43.17723,"Rua da Alfândega, 24, Centro, Rio de Janeiro - RJ, 20070-000, Brasil",Rio de Janeiro,RJ,20070-000
+-22.9096,-43.16983,"Editora Cândido, Avenida Franklin Roosevelt, Centro, Rio de Janeiro - RJ, 20021-120, Brasil",Rio de Janeiro,RJ,20021-120
+-22.96479,-43.22035,"Rua Lopes Quintas, 187, Jardim Botânico, Rio de Janeiro - RJ, 22460-010, Brasil",Rio de Janeiro,RJ,22460-010
+-22.98166,-43.21004,"Rua Nascimento Silva, 448, Ipanema, Rio de Janeiro - RJ, 22421-026, Brasil",Rio de Janeiro,RJ,22421-026
+-22.99946,-43.34821,"Thalita Galhardo Nutricionista, Avenida das Américas, 3500, Barra da Tijuca, Rio de Janeiro - RJ, 22640-102, Brasil",Rio de Janeiro,RJ,22640-102
+-22.9649,-43.21779,"EZvolt, Rua Jardim Botânico, 657, Lagoa, Rio de Janeiro - RJ, 22461-000, Brasil",Rio de Janeiro,RJ,22461-000
+-22.52127,-44.10289,"Rua Trinta e Três, 117, Vila Santa Cecília, Volta Redonda - RJ, 27259-350, Brasil",Volta Redonda,RJ,27259-350
+-22.98452,-43.22794,"Rua Rodolfo Albino, 39, Leblon, Rio de Janeiro - RJ, 22450-020, Brasil",Rio de Janeiro,RJ,22450-020
+-22.90553,-43.17828,"Alpha Games, Avenida Rio Branco, 156, Centro, Rio de Janeiro - RJ, 20050-006, Brasil",Rio de Janeiro,RJ,20050-006
+-23.00371,-43.31733,"Downtown-Leste, Barra da Tijuca, Rio de Janeiro - RJ, Brasil",Rio de Janeiro,RJ,
+-22.83185,-43.34393,"Avenida Pastor Martin Luther King Júnior, 10185, Coelho Neto, Rio de Janeiro - RJ, 21530-015, Brasil",Rio de Janeiro,RJ,21530-015
+-23.00151,-43.38809,"Shopping Open Mall, Avenida das Américas, 7907, Barra da Tijuca, Rio de Janeiro - RJ, 22793-700, Brasil",Rio de Janeiro,RJ,22793-700
+-22.9425,-43.18137,"Praia de Botafogo, 228, Botafogo, Rio de Janeiro - RJ, 22250-145, Brasil",Rio de Janeiro,RJ,22250-145
+-22.91613,-42.93127,"Rua Um, 175, Inoã, Maricá - RJ, 24942-545, Brasil",Maricá,RJ,24942-545
+-21.72703,-43.35648,"Batata Bowl Sports Center, Rua Sargento Cunha, 55, Vale dos Bandeirantes, Juiz de Fora - MG, 36047-010, Brasil",Juiz de Fora,MG,36047-010
+-21.77131,-43.3741,"Rua Antônio Rufino, 232, São Pedro, Juiz de Fora - MG, 36037-130, Brasil",Juiz de Fora,MG,36037-130
+-21.27467,-43.18038,"Praça Doutor Último Carvalho, 11, Rio Pomba - MG, 36180-000, Brasil",Rio Pomba,MG,36180-000
+-22.98497,-43.35872,"Agência Corpo, Barra da Tijuca, Rio de Janeiro - RJ, 22775-057, Brasil",Rio de Janeiro,RJ,22775-057
+-22.998,-43.34631,"Essendi Clínica, Barra da Tijuca, Rio de Janeiro - RJ, 22640-100, Brasil",Rio de Janeiro,RJ,22640-100
+-22.90669,-43.17685,"Bob's, Avenida Nilo Peçanha, Centro, Rio de Janeiro - RJ, 20020-100, Brasil",Rio de Janeiro,RJ,20020-100
+-22.98337,-43.21803,"Avenida Ataulfo de Paiva, 204, Leblon, Rio de Janeiro - RJ, 22440-032, Brasil",Rio de Janeiro,RJ,22440-032
+-22.90734,-43.17527,"Avenida Almirante Barroso, 81, Centro, Rio de Janeiro - RJ, 20031-004, Brasil",Rio de Janeiro,RJ,20031-004
+-22.89686,-43.12368,"Pizza Hut, Rua Quinze de Novembro, Centro, Niterói - RJ, 24020-125, Brasil",Niterói,RJ,24020-125
+-22.98463,-43.22523,"Avenida Ataulfo de Paiva, 980, Leblon, Rio de Janeiro - RJ, 22440-033, Brasil",Rio de Janeiro,RJ,22440-033
+-23.00105,-43.39431,"Pet Harmony, Avenida das Américas, 8445, Barra da Tijuca, Rio de Janeiro - RJ, 22793-296, Brasil",Rio de Janeiro,RJ,22793-296
+-22.98497,-43.22625,"Avenida Ataulfo de Paiva, 1098, Leblon, Rio de Janeiro - RJ, 22440-035, Brasil",Rio de Janeiro,RJ,22440-035
+-22.91563,-43.24435,"Boulevard Vinte e Oito de Setembro, 271, Vila Isabel, Rio de Janeiro - RJ, 20551-030, Brasil",Rio de Janeiro,RJ,20551-030
+-22.99945,-43.34773,"Wolff Sociedade de Advogados, Avenida das Américas, Barra da Tijuca, Rio de Janeiro - RJ, 22640-102, Brasil",Rio de Janeiro,RJ,22640-102
+-22.91394,-43.17789,"Rua do Passeio, Centro, Rio de Janeiro - RJ, 20021-290, Brasil",Rio de Janeiro,RJ,20021-290
+-22.95051,-43.18074,"Centro Empresarial Mourisco, Praia de Botafogo, 501, Botafogo, Rio de Janeiro - RJ, 22250-150, Brasil",Rio de Janeiro,RJ,22250-150
+-22.93904,-43.38001,"Rua Porto Vitória, 161, Curicica, Rio de Janeiro - RJ, 22710-033, Brasil",Rio de Janeiro,RJ,22710-033
+-22.92166,-43.24184,"Rua Araújo Lima, 124, Vila Isabel, Rio de Janeiro - RJ, 20541-050, Brasil",Rio de Janeiro,RJ,20541-050
+-22.88861,-42.04594,"Rua Quintino André Senos, 40, Jardim Olinda, Cabo Frio - RJ, 28911-037, Brasil",Cabo Frio,RJ,28911-037
+-22.86377,-41.98818,"Avenida dos Pescadores, 650, Peró, Cabo Frio - RJ, 28922-175, Brasil",Cabo Frio,RJ,28922-175
+-22.94433,-43.18256,"Zletric, Praia de Botafogo, 300, Botafogo, Rio de Janeiro - RJ, 22251-040, Brasil",Rio de Janeiro,RJ,22251-040
+-22.90423,-43.17525,"Oliveira Nunes Advocacia e Consultoria, Rua da Assembléia, 10, Centro, Rio de Janeiro - RJ, 20011-000, Brasil",Rio de Janeiro,RJ,20011-000
+-22.94224,-43.18133,"MITSUBISHI Corporation of Brazil S. A., Praia de Botafogo, 228, Botafogo, Rio de Janeiro - RJ, 22250-145, Brasil",Rio de Janeiro,RJ,22250-145
+-21.21,-41.89501,"Rua Aldo Bussade, 14, Niterói, Itaperuna - RJ, 28300-000, Brasil",Itaperuna,RJ,28300-000
+-21.13034,-42.36915,"Rua Presidente Artur Bernardes, 199, Muriaé - MG, 36880-000, Brasil",Muriaé,MG,36880-000
+-21.76156,-41.33276,"Rua Voluntários da Pátria, 502, Parque Avenida Pelinca, Campos dos Goytacazes - RJ, 28030-260, Brasil",Campos dos Goytacazes,RJ,28030-260
+-21.75714,-41.33977,"Rua Almirante Greenhalgh, 86, Parque Tamandaré, Campos dos Goytacazes - RJ, 28035-025, Brasil",Campos dos Goytacazes,RJ,28035-025
+-21.76194,-41.33283,"Rua Voluntários da Pátria, 514, Parque Avenida Pelinca, Campos dos Goytacazes - RJ, 28030-260, Brasil",Campos dos Goytacazes,RJ,28030-260
+-20.76336,-42.89059,"Avenida Vicentina de Barros, 674, Viçosa - MG, 36572-146, Brasil",Viçosa,MG,36572-146
+-21.20328,-41.89223,"Avenida Cardoso Moreira, 897, Centro, Itaperuna - RJ, 28300-000, Brasil",Itaperuna,RJ,28300-000
+-20.65809,-43.78516,"Egídio da Silva Santana, Avenida Prefeito Telésforo Cândido Rezende, 480, Conselheiro Lafaiete - MG, 36400-076, Brasil",Conselheiro Lafaiete,MG,36400-076
+-19.92736,-43.94298,"Rua dos Aimorés, 2011, Lourdes, Belo Horizonte - MG, 30140-074, Brasil",Belo Horizonte,MG,30140-074
+-19.9292,-43.94454,"Rua Gonçalves Dias, 2122, Lourdes, Belo Horizonte - MG, 30140-092, Brasil",Belo Horizonte,MG,30140-092
+-19.92485,-43.9455,"Avenida Olegário Maciel, 1217, Lourdes, Belo Horizonte - MG, 30180-111, Brasil",Belo Horizonte,MG,30180-111
+-19.93616,-43.93718,"Avenida Cristóvão Colombo, 485, Savassi, Belo Horizonte - MG, 30140-150, Brasil",Belo Horizonte,MG,30140-150
+-19.97626,-43.94448,"Rua Desembargador Jorge Fontana, 498, Belvedere, Belo Horizonte - MG, 30320-670, Brasil",Belo Horizonte,MG,30320-670
+-19.97014,-43.95552,"Rua Roma, 99, Das Mansões, Belo Horizonte - MG, 31550-470, Brasil",Belo Horizonte,MG,31550-470
+-19.93424,-43.94673,"Rua Santa Catarina, 1541A, Lourdes, Belo Horizonte - MG, 30170-088, Brasil",Belo Horizonte,MG,30170-088
+-19.93831,-43.93364,"Rua Antônio de Albuquerque, 344L, Savassi, Belo Horizonte - MG, 30112-010, Brasil",Belo Horizonte,MG,30112-010
+-20.40598,-42.891,"Avenida Nossa Senhora das Graças, 16, Ponte Nova - MG, 35430-214, Brasil",Ponte Nova,MG,35430-214
+-19.44868,-44.24531,"Rua Professor Abeylard, 884, Sete Lagoas - MG, 35700-652, Brasil",Sete Lagoas,MG,35700-652
+-20.13534,-44.89542,"Avenida Divino Espírito Santo, 1161, Divinópolis - MG, 35500-021, Brasil",Divinópolis,MG,35500-021
+-19.96916,-44.19742,"Avenida Governador Valadares, 510, Centro, Betim - MG, 32600-135, Brasil",Betim,MG,32600-135
+-19.80475,-43.97559,"Rua Virgílio da Costa Correa, 90, Letícia, Belo Horizonte - MG, 31570-410, Brasil",Belo Horizonte,MG,31570-410
+-19.93017,-43.94077,"Avenida Bias Fortes, 359, Lourdes, Belo Horizonte - MG, 30170-011, Brasil",Belo Horizonte,MG,30170-011
+-19.93863,-43.93447,"Rua Antônio de Albuquerque, 399, Savassi, Belo Horizonte - MG, 30112-010, Brasil",Belo Horizonte,MG,30112-010
+-19.93854,-43.94146,"Rua da Bahia, 2696, Lourdes, Belo Horizonte - MG, 30160-019, Brasil",Belo Horizonte,MG,30160-019
+-16.72854,-43.88033,"Avenida João Chaves, 546, São Norberto, Montes Claros - MG, 39401-048, Brasil",Montes Claros,MG,39401-048
+-19.93244,-43.92621,"Rua Bernardo Guimarães, 178, Funcionários, Belo Horizonte - MG, 30140-080, Brasil",Belo Horizonte,MG,30140-080
+-19.9286,-43.94992,"Avenida Barbacena, 1205, Santo Agostinho, Belo Horizonte - MG, 30190-131, Brasil",Belo Horizonte,MG,30190-131
+-19.93887,-43.93321,"Rua Antônio de Albuquerque, 263, Savassi, Belo Horizonte - MG, 30112-010, Brasil",Belo Horizonte,MG,30112-010
+-19.93916,-43.94069,"Consulado Honorário Polônia, Avenida do Contorno, 6594, Savassi, Belo Horizonte - MG, 30110-044, Brasil",Belo Horizonte,MG,30110-044
+-19.93898,-43.92766,"Rua Maranhão, 1970, Savassi, Belo Horizonte - MG, 30150-333, Brasil",Belo Horizonte,MG,30150-333
+-19.93799,-43.93738,"Rua Antônio de Albuquerque, 707C, Savassi, Belo Horizonte - MG, 30112-011, Brasil",Belo Horizonte,MG,30112-011
+-19.92864,-43.93969,"Rua Espírito Santo, 1607, Lourdes, Belo Horizonte - MG, 30160-035, Brasil",Belo Horizonte,MG,30160-035
+-19.93114,-43.93482,"Avenida Brasil, 1718, Funcionários, Belo Horizonte - MG, 30140-004, Brasil",Belo Horizonte,MG,30140-004
+-19.93449,-43.92837,"Avenida Getúlio Vargas, 499B, Funcionários, Belo Horizonte - MG, 30112-020, Brasil",Belo Horizonte,MG,30112-020
+-19.93918,-43.93873,"Rua Sergipe, 1430, Savassi, Belo Horizonte - MG, 30130-174, Brasil",Belo Horizonte,MG,30130-174
+-19.98338,-43.94605,"Rua da Paisagem, Nova Lima - MG, 34006-059, Brasil",Nova Lima,MG,34006-059
+-19.50486,-42.57184,"Rua Palmeiras, 477A, Horto, Ipatinga - MG, 35160-311, Brasil",Ipatinga,MG,35160-311
+-18.90638,-41.96235,"Rua Ipanema, 87, Vila do Sol, Governador Valadares - MG, 35041-340, Brasil",Governador Valadares,MG,35041-340
+-19.46733,-42.55853,"Avenida Carlos Chagas, 269, Cidade Nobre, Ipatinga - MG, 35162-359, Brasil",Ipatinga,MG,35162-359
+-19.86422,-43.98112,"Rua Exp. Paulo de Oliveira Santos, 333, Ouro Preto, Belo Horizonte - MG, 31310-080, Brasil",Belo Horizonte,MG,31310-080
+-19.9357,-43.92867,"Avenida Afonso Pena, 2768, Savassi, Belo Horizonte - MG, 30130-012, Brasil",Belo Horizonte,MG,30130-012
+-19.31725,-46.05006,"Avenida Rui Barbosa, 783, São Gotardo - MG, 38800-000, Brasil",São Gotardo,MG,38800-000
+-19.96758,-43.95506,"Avenida Barão Homem de Melo, 4490A, Das Mansões, Belo Horizonte - MG, 30494-270, Brasil",Belo Horizonte,MG,30494-270
+-19.9323,-44.00161,"Rua Barão de Guaxupé, 727, Alto dos Pinheiros, Belo Horizonte - MG, 30530-160, Brasil",Belo Horizonte,MG,30530-160
+-19.9187,-43.93927,"Avenida Afonso Pena, 582, Centro, Belo Horizonte - MG, 30130-001, Brasil",Belo Horizonte,MG,30130-001
+-19.93605,-43.93407,"Rua Inconfidentes, 867, Savassi, Belo Horizonte - MG, 30140-128, Brasil",Belo Horizonte,MG,30140-128
+-19.89943,-44.09524,"Rua Quaresmeira, 226, Colonial, Contagem - MG, 32010-470, Brasil",Contagem,MG,32010-470
+-15.82131,-47.98074,"Qe 7, Guará - DF, 71020-115, Brasil",Guará,DF,71020-115
+-15.7917,-47.91362,"Allegro Cafe, SIG Quadra 6, Sudoeste/Octogonal - DF, 70610-460, Brasil",Sudoeste/Octogonal,DF,70610-460
+-16.70732,-49.2773,"Rua C-237, 540-13, Jardim América, Goiânia - GO, 74290-140, Brasil",Goiânia,GO,74290-140
+-16.68624,-49.27073,"Dermatologia Orion, Oeste, Goiânia - GO, 74150-030, Brasil",Goiânia,GO,74150-030
+-16.69558,-49.29189,"Govesa Corretora de Seguros, Rua C-38, Jardim América, Goiânia - GO, 74265-280, Brasil",Goiânia,GO,74265-280
+-16.74269,-49.29369,"Rua Maria Alice, 63-10, Jardim Atlântico, Goiânia - GO, 74345-290, Brasil",Goiânia,GO,74345-290
+-15.79282,-47.90996,"SIG Quadra 3, Sudoeste/Octogonal - DF, 70610-410, Brasil",Sudoeste/Octogonal,DF,70610-410
+-15.78745,-47.9144,"SIG Quadra 2, Sudoeste/Octogonal - DF, 70610-440, Brasil",Sudoeste/Octogonal,DF,70610-440
+-15.80997,-48.09395,"Habib's, Brasil",,,
+-15.78683,-47.88919,"ATM, Asa Norte, Brasília - DF, 70716-900, Brasil",Brasília,DF,70716-900
+-16.67559,-49.25299,"Rua 20, 405, Central, Goiânia - GO, 74020-170, Brasil",Goiânia,GO,74020-170
+-16.63547,-49.27258,"Rua Lazer, Urias Magalhães, Goiânia - GO, 74013-035, Brasil",Goiânia,GO,74013-035
+-16.71386,-49.27077,"Emporium Mix Sapataria, Avenida T-15, Bueno, Goiânia - GO, 74230-010, Brasil",Goiânia,GO,74230-010
+-15.8513,-47.90098,"Via Hi 4 Sul, Setor de Habitações Individuais Sul, Lago Sul - DF, 71615-110, Brasil",Lago Sul,DF,71615-110
+-16.76619,-47.60813,"Rua Sete de Setembro, 376, Cristalina - GO, 73850-000, Brasil",Cristalina,GO,73850-000
+-17.63427,-47.77733,"Avenida Presidente Costa e Silva, 16, Campo Alegre de Goiás - GO, 75795-000, Brasil",Campo Alegre de Goiás,GO,75795-000
+-15.80346,-47.88074,"Sescoop - Ocb, Asa Sul, Brasília - DF, 70070-936, Brasil",Brasília,DF,70070-936
+-15.7537,-47.88958,"Carlota's Zen, SQN 111, Asa Norte, Brasília - DF, 70754-020, Brasil",Brasília,DF,70754-020
+-15.75702,-47.88363,"SQN 210, Bloco D, Asa Norte, Brasília - DF, 70862-050, Brasil",Brasília,DF,70862-050
+-15.78772,-47.88236,"Scn Quadra 1, QD N1, Asa Norte, Brasília - DF, 70711-000, Brasil",Brasília,DF,70711-000
+-15.84056,-48.02728,"Avenida Pau Brasil, 10, Águas Claras - DF, 71926-000, Brasil",Águas Claras,DF,71926-000
+-15.84178,-48.02953,"WESTERN UNION, Avenida das Araucárias, Águas Claras - DF, 71927-000, Brasil",Águas Claras,DF,71927-000
+-15.79687,-47.89074,"Mrv Engenharia, Asa Sul, Brasília - DF, 70306-000, Brasil",Brasília,DF,70306-000
+-15.78805,-47.87976,"Sbn Bloco B, Asa Norte, Brasília - DF, 70040-020, Brasil",Brasília,DF,70040-020
+-18.1645,-47.93231,"Avenida João Neves Vieira, 1080, Loteamento Santa Cruz, Catalão - GO, 75704-390, Brasil",Catalão,GO,75704-390
+-16.6489,-49.15659,"Rodovia GO - 010, GO-010, Goiânia - GO, Brasil",Goiânia,GO,
+-16.70439,-49.2403,"Saguão Brookfield Tower, Rua Cinquenta e Seis, Jardim Goiás, Goiânia - GO, 74810-240, Brasil",Goiânia,GO,74810-240
+-15.8152,-47.96597,"Rodo Farma, Sia, Guará - DF, 71215-000, Brasil",Guará,DF,71215-000
+-15.79087,-47.88505,"Windsor Brasília Hotel, Shn, Asa Norte, Brasília - DF, 70701-030, Brasil",Brasília,DF,70701-030
+-16.69714,-49.25571,"Avenida Cento e Trinta e Seis Quadra F44, 761, Sul, Goiânia - GO, 74093-250, Brasil",Goiânia,GO,74093-250
+-16.7212,-49.27305,"Rua C-267, 614-17, Nova Suiça, Goiânia - GO, 74280-290, Brasil",Goiânia,GO,74280-290
+-18.92818,-48.27991,"Rua Augusto César, 427, Tabajaras, Uberlândia - MG, 38400-162, Brasil",Uberlândia,MG,38400-162
+-18.89635,-48.25166,"Rua João Guimarães Naves, 1250, Tibery, Uberlândia - MG, 38405-046, Brasil",Uberlândia,MG,38405-046
+-18.92567,-48.22779,"Avenida Ana Godoy de Souza, 2979, Segismundo Pereira, Uberlândia - MG, 38408-271, Brasil",Uberlândia,MG,38408-271
+-18.65424,-48.19667,"Avenida Cel. Teodolino Pereira Araújo, 1895, Centro, Araguari - MG, 38440-062, Brasil",Araguari,MG,38440-062
+-15.78351,-47.87805,"CLN 202 Bloco C, Bloco C, Asa Norte, Brasília - DF, 70832-535, Brasil",Brasília,DF,70832-535
+-16.72056,-49.30196,"Avenida T-63, 2-8, Jardim Europa, Goiânia - GO, 74335-030, Brasil",Goiânia,GO,74335-030
+-16.71305,-49.27716,"Rua C-139, 567-13, Jardim América, Goiânia - GO, 74268-165, Brasil",Goiânia,GO,74268-165
+-16.71315,-49.26677,"Avenida T-4, 67, Bueno, Goiânia - GO, 74230-035, Brasil",Goiânia,GO,74230-035
+-16.76976,-49.33437,"Rua Quatro D, 128-17, Setor Garavelo, Aparecida de Goiânia - GO, 74930-090, Brasil",Aparecida de Goiânia,GO,74930-090
+-16.68222,-50.4641,"Rua José R. Maciel, 431, Aurilândia - GO, 76120-000, Brasil",Aurilândia,GO,76120-000
+-18.91047,-48.32359,"Avenida dos Eucaliptos, 627, Jardim Patrícia, Uberlândia - MG, 38414-006, Brasil",Uberlândia,MG,38414-006
+-16.32418,-48.96637,"Rua Um, 89, Vila Santa Maria, Anápolis - GO, 75044-490, Brasil",Anápolis,GO,75044-490
+-15.83165,-48.04113,"Eliá Spa, Águas Claras - DF, 71931-720, Brasil",Águas Claras,DF,71931-720
+-16.715,-49.26688,"Avenida T-4, 835, Bueno, Goiânia - GO, 74230-035, Brasil",Goiânia,GO,74230-035
+-16.68728,-49.2126,"Rua Serra do Caiapó Quadra 1, 1, Riviera, Goiânia - GO, 74730-520, Brasil",Goiânia,GO,74730-520
+-16.7095,-49.32084,"Du'Cheff Pixzaria, Avenida Milão, Celina Park, Goiânia - GO, 74373-270, Brasil",Goiânia,GO,74373-270
+-16.72053,-49.28535,"Espetinho do Gordinho, Avenida C Cento e Setenta e Um, Jardim América, Goiânia - GO, 74275-010, Brasil",Goiânia,GO,74275-010
+-19.73725,-47.94012,"Avenida do Pau Brasil, 66, Uberaba - MG, 38066-060, Brasil",Uberaba,MG,38066-060
+-26.24955,-49.38486,"Hospital e Maternidade Sagrada Família-PS, Rua Henrique Schwarz, 10, Centro, São Bento do Sul - SC, 89290-000, Brasil",São Bento do Sul,SC,89290-000
+-23.31136,-51.16583,"Avenida Higienópolis, 174, Centro Histórico, Londrina - PR, 86020-080, Brasil",Londrina,PR,86020-080
+-23.31757,-51.14609,"Avenida São João, 140, Brasília, Londrina - PR, 86039-290, Brasil",Londrina,PR,86039-290
+-23.5217,-47.46883,"Rua Montreal, 123, Jardim Elton Ville, Sorocaba - SP, 18046-820, Brasil",Sorocaba,SP,18046-820
+-23.50012,-47.45469,"Mate Mix Sucos, Rua Quinze de Novembro, 219, Centro, Sorocaba - SP, 18010-081, Brasil",Sorocaba,SP,18010-081
+-23.51479,-47.4619,"Rua Dona Maria Josepha de Souza Manente, 448, Jardim Faculdade, Sorocaba - SP, 18030-243, Brasil",Sorocaba,SP,18030-243
+-23.47584,-47.42729,"Imobiliária Wolf, Sorocaba - SP, 18085-850, Brasil",Sorocaba,SP,18085-850
+-23.52691,-47.47047,"Rua Antônio Guitti, 333, Jardim Pires de Melo, Sorocaba - SP, 18046-688, Brasil",Sorocaba,SP,18046-688
+-23.49774,-47.4659,"Rua Rio Grande do Sul, 382, Centro, Sorocaba - SP, 18035-500, Brasil",Sorocaba,SP,18035-500
+-23.5143,-47.46232,"Avenida Washington Luiz, 685, Jardim Faculdade, Sorocaba - SP, Brasil",Sorocaba,SP,
+-23.51208,-47.45892,"Rua Coronel José Pedro de Oliveira, 25, Jardim Faculdade, Sorocaba - SP, 18030-220, Brasil",Sorocaba,SP,18030-220
+-23.50876,-47.47017,"Rua Ipiranga, 40, Jardim do Colégio, Sorocaba - SP, 18040-345, Brasil",Sorocaba,SP,18040-345
+-23.30174,-51.17839,"Avenida Tiradentes, 501, Quebec, Londrina - PR, 86070-545, Brasil",Londrina,PR,86070-545
+-23.5111,-47.43493,"Avenida Coronel Nogueira Padilha, 2036, Vila Colorau, Sorocaba - SP, 18020-003, Brasil",Sorocaba,SP,18020-003
+-23.30864,-51.16652,"Rua Benjamin Constant, 1646, Centro Histórico, Londrina - PR, 86020-320, Brasil",Londrina,PR,86020-320
+-26.07762,-53.0623,"Rua Minas Gerais, 403, Alvorada, Francisco Beltrão - PR, 85601-060, Brasil",Francisco Beltrão,PR,85601-060
+-25.74308,-53.05607,"Rua Sete de Setembro, 313, Dois Vizinhos - PR, 85660-000, Brasil",Dois Vizinhos,PR,85660-000
+-26.76674,-53.17653,"Rua Duque de Caxias, 585, Maravilha - SC, 89874-000, Brasil",Maravilha,SC,89874-000
+-26.95951,-52.53441,"Avenida Plínio Arlindo de Nes, 828, Xaxim - SC, 89825-000, Brasil",Xaxim,SC,89825-000
+-23.20177,-47.29413,"Rua Rio Branco, 873, Centro, Salto - SP, 13320-270, Brasil",Salto,SP,13320-270
+-23.60369,-46.7641,"Praça Miguel Ortega, 392, Taboão da Serra - SP, 06754-160, Brasil",Taboão da Serra,SP,06754-160
+-23.58443,-46.68186,"Rua Tabapuã, 1160, Itaim Bibi, São Paulo - SP, 04533-014, Brasil",São Paulo,SP,04533-014
+-23.57762,-46.67307,"Avenida Nove de Julho, 4927, Itaim Bibi, São Paulo - SP, 01407-200, Brasil",São Paulo,SP,01407-200
+-24.95446,-53.4598,"Rua Paraná, 3035, Centro, Cascavel - PR, 85810-010, Brasil",Cascavel,PR,85810-010
+-24.9506,-53.46375,"Rua Presidente Kennedy, 648, Centro, Cascavel - PR, 85810-040, Brasil",Cascavel,PR,85810-040
+-24.72291,-53.73859,"Rua Barão do Rio Branco, 2305, Centro, Toledo - PR, 85900-005, Brasil",Toledo,PR,85900-005
+-24.95561,-53.47178,"Rua Visconde do Rio Branco, 2633, Centro, Cascavel - PR, 85810-180, Brasil",Cascavel,PR,85810-180
+-25.29693,-54.0967,"Avenida Rio Grande do Sul, 2355, Medianeira - PR, 85884-000, Brasil",Medianeira,PR,85884-000
+-24.96219,-53.48253,"Rua Érico Veríssimo, 717, Alto Alegre, Cascavel - PR, 85805-050, Brasil",Cascavel,PR,85805-050
+-26.227,-52.66982,"Rua Iguaçu, 808, Centro, Pato Branco - PR, 85501-266, Brasil",Pato Branco,PR,85501-266
+-26.08151,-53.0508,"Rua São Paulo, 1290, Centro, Francisco Beltrão - PR, 85601-010, Brasil",Francisco Beltrão,PR,85601-010
+-25.75856,-53.05688,"Avenida Salgado Filho, 854, Dois Vizinhos - PR, 85660-000, Brasil",Dois Vizinhos,PR,85660-000
+-24.2786,-53.84043,"Rua Vinte e Um de Abril, 114, Palotina - PR, 85950-000, Brasil",Palotina,PR,85950-000
+-24.53979,-52.99157,"Rua Floriano Peixoto, 1177, Ubiratã - PR, 85440-000, Brasil",Ubiratã,PR,85440-000
+-25.34879,-51.47395,"Pólo Wear, Primavera, Guarapuava - PR, 85050-030, Brasil",Guarapuava,PR,85050-030
+-25.38918,-51.47092,"Rua Marechal Floriano Peixoto, 2208, Centro, Guarapuava - PR, 85010-250, Brasil",Guarapuava,PR,85010-250
+-23.59301,-46.60179,"Rua Lord Cockrane, 648, Ipiranga, São Paulo - SP, 04213-001, Brasil",São Paulo,SP,04213-001
+-23.71137,-46.41152,"Sucopires Sucos e Lanches Ltda, Rua Doutor Felício Laurito, 54, Centro, Ribeirão Pires - SP, 09400-210, Brasil",Ribeirão Pires,SP,09400-210
+-23.10868,-45.7035,"Avenida Coronel Manoel Inocêncio, 1013, Vila São João, Caçapava - SP, 12281-020, Brasil",Caçapava,SP,12281-020
+-23.2087,-45.90843,"Dra. Rozeny Anute, Avenida São João, 2405, Bosque Imperial, São José dos Campos - SP, 12242-000, Brasil",São José dos Campos,SP,12242-000
+-23.55065,-46.59468,"Av. Cassandoca, 140, Móoca, São Paulo - SP, 03170-050, Brasil",São Paulo,SP,03170-050
+-23.6914,-46.54922,"Robert Half, Rua José Versolato, 101, Centro, São Bernardo do Campo - SP, 09750-730, Brasil",São Bernardo do Campo,SP,09750-730
+-23.56323,-46.46936,"Rua Dominiciano Ribeiro, 325, Parque do Carmo, São Paulo - SP, 08280-260, Brasil",São Paulo,SP,08280-260
+-23.60792,-46.48051,"Avenida Cláudio Augusto Fernandes, 349, São Mateus, São Paulo - SP, 03962-120, Brasil",São Paulo,SP,03962-120
+-23.59422,-46.6097,"Grupo 3corações, Avenida Nazaré, 1139, Ipiranga, São Paulo - SP, 04263-100, Brasil",São Paulo,SP,04263-100
+-23.56405,-46.56232,"Goldpam Locações, Avenida Vereador Abel Ferreira, 1800, Água Rasa, São Paulo - SP, 03348-025, Brasil",São Paulo,SP,03348-025
+-23.54873,-46.63206,"Rua Roberto Simonsen, 120, Sé, São Paulo - SP, 01017-020, Brasil",São Paulo,SP,01017-020
+-23.5575,-46.59988,"Rua Padre Raposo, 47, Móoca, São Paulo - SP, 03118-000, Brasil",São Paulo,SP,03118-000
+-23.54567,-46.63611,"Autoridade Municipal de Limpeza Urbana - AMLURB, Rua Líbero Badaró, 425, Sé, São Paulo - SP, 01009-000, Brasil",São Paulo,SP,01009-000
+-23.54601,-46.63514,"Rua São Bento, 351, Sé, São Paulo - SP, 01010-001, Brasil",São Paulo,SP,01010-001
+-23.51425,-46.19811,"Rua Doutor Renato Granadeiro Guimarães, 11, Mogi das Cruzes - SP, 08773-100, Brasil",Mogi das Cruzes,SP,08773-100
+-23.53359,-46.21445,"Avenida Francisco Ferreira Lopes, 600, Mogi das Cruzes - SP, 08735-200, Brasil",Mogi das Cruzes,SP,08735-200
+-23.71068,-46.41319,"Rua Stella Bruna Cechi Nardelli, 83, Centro, Ribeirão Pires - SP, 09400-150, Brasil",Ribeirão Pires,SP,09400-150
+-23.52649,-46.2005,"Rua Presidente Campos Salles, 950, Mogi das Cruzes - SP, 08730-490, Brasil",Mogi das Cruzes,SP,08730-490
+-23.54269,-46.23769,"Rua José Galdino de Castro, 78, Braz Cubas, Mogi das Cruzes - SP, 08745-340, Brasil",Mogi das Cruzes,SP,08745-340
+-23.39982,-46.39408,"Avenida Carmela Thomeu, 528, Bonsucesso, Guarulhos - SP, 07178-001, Brasil",Guarulhos,SP,07178-001
+-23.56064,-46.46433,"Rua Alderico Alves de Freitas, 59A, Parque do Carmo, São Paulo - SP, 08270-210, Brasil",São Paulo,SP,08270-210
+-22.7056,-46.76344,"Rua Ângelo Lavezzo, 111, Jardim Silvana, Amparo - SP, 13900-370, Brasil",Amparo,SP,13900-370
+-22.70169,-46.75977,"Rua Luís Leite, 161, Centro, Amparo - SP, 13900-240, Brasil",Amparo,SP,13900-240
+-23.59139,-46.63206,"Rua Conde de Irajá, 337, Vila Mariana, São Paulo - SP, 04119-010, Brasil",São Paulo,SP,04119-010
+-23.54028,-46.56584,"Rua Vilela, 665, Tatuapé, São Paulo - SP, 03314-000, Brasil",São Paulo,SP,03314-000
+-23.5955,-46.63627,"EZvolt, Rua Domingos de Morais, 2187, Vila Mariana, São Paulo - SP, 04035-000, Brasil",São Paulo,SP,04035-000
+-23.54175,-46.5593,"Rua Francisco Marengo, 500, Tatuapé, São Paulo - SP, 03313-000, Brasil",São Paulo,SP,03313-000
+-23.54688,-46.63675,"Rua Líbero Badaró, 283, Sé, São Paulo - SP, 01009-000, Brasil",São Paulo,SP,01009-000
+-23.57351,-46.47796,"Rua Moreira Terra, 218, Parque do Carmo, São Paulo - SP, 08275-230, Brasil",São Paulo,SP,08275-230
+-23.69148,-46.54955,"Rua José Versolato, 101, Centro, São Bernardo do Campo - SP, 09750-730, Brasil",São Bernardo do Campo,SP,09750-730
+-23.56314,-46.63792,"Rua Pirapitingui, 80, Liberdade, São Paulo - SP, 01508-020, Brasil",São Paulo,SP,01508-020
+-23.19524,-45.89292,"Avenida Paulo Becker, 210, Vila Adyana, São José dos Campos - SP, 12243-610, Brasil",São José dos Campos,SP,12243-610
+-23.53115,-46.43167,"Travessa Carlos Cordeiro, 12, Itaquera, São Paulo - SP, 08247-020, Brasil",São Paulo,SP,08247-020
+-22.80616,-45.20441,"Rua Monsenhor Aníbal de Melo, 336, Vila Conselheiro Rodrigues Alves, Guaratinguetá - SP, 12511-050, Brasil",Guaratinguetá,SP,12511-050
+-22.11798,-45.05439,"Rua Antônio Junqueira de Souza, 475, São Lourenço - MG, 37470-000, Brasil",São Lourenço,MG,37470-000
+-22.52061,-44.10403,"Rua Vinte e Seis, 36, Vila Santa Cecília, Volta Redonda - RJ, 27259-280, Brasil",Volta Redonda,RJ,27259-280
+-22.98892,-43.35957,"Espaço Vida Saudável - Barra da Tijuca, Avenida José Silva de Azevedo Neto, 200, Barra da Tijuca, Rio de Janeiro - RJ, 22775-057, Brasil",Rio de Janeiro,RJ,22775-057
+-22.50608,-44.08997,"Avenida Sete de Setembro, 300, Aterrado, Volta Redonda - RJ, 27213-310, Brasil",Volta Redonda,RJ,27213-310
+-22.91808,-43.37681,"Caituba, Estrada do Tindiba, Taquara, Rio de Janeiro - RJ, 22730-262, Brasil",Rio de Janeiro,RJ,22730-262
+-22.98428,-43.69355,"Estrada São Tarcísio, 144, Sepetiba, Rio de Janeiro - RJ, 23530-827, Brasil",Rio de Janeiro,RJ,23530-827
+-23.00099,-43.34372,"Rua Rosalina Bravo, Barra da Tijuca, Rio de Janeiro - RJ, 22631-260, Brasil",Rio de Janeiro,RJ,22631-260
+-23.00343,-43.32549,"Avenida das Américas, 1155, Barra da Tijuca, Rio de Janeiro - RJ, 22631-000, Brasil",Rio de Janeiro,RJ,22631-000
+-19.86187,-43.96774,"Avenida Antônio Abrahão Caran, 690, São José, Belo Horizonte - MG, 31275-000, Brasil",Belo Horizonte,MG,31275-000
+-19.62722,-43.89495,"Rua José Salomão Filho, 455, Lagoa Santa - MG, 33230-103, Brasil",Lagoa Santa,MG,33230-103
+-23.00373,-43.32631,"Open Mind, Avenida das Américas, 1155, Barra da Tijuca, Rio de Janeiro - RJ, 22631-470, Brasil",Rio de Janeiro,RJ,22631-470
+-23.00331,-43.32194,"Med Odonto, Avenida das Américas, 700, Barra da Tijuca, Rio de Janeiro - RJ, 22640-100, Brasil",Rio de Janeiro,RJ,22640-100
+-22.98602,-43.22763,"Avenida Ataulfo de Paiva, 1251, Leblon, Rio de Janeiro - RJ, 22440-034, Brasil",Rio de Janeiro,RJ,22440-034
+-22.98509,-43.2265,"Rua Rainha Guilhermina, 116, Leblon, Rio de Janeiro - RJ, 22441-120, Brasil",Rio de Janeiro,RJ,22441-120
+-19.93843,-43.94088,"Rua Fernandes Tourinho, 669, Savassi, Belo Horizonte - MG, 30112-002, Brasil",Belo Horizonte,MG,30112-002
+-19.93308,-43.93573,"Rua Cláudio Manoel, 1125, Savassi, Belo Horizonte - MG, 30140-108, Brasil",Belo Horizonte,MG,30140-108
+-19.92826,-43.95116,"Banco 24horas, Rua Gonçalves Dias, Santo Agostinho, Belo Horizonte - MG, 30140-094, Brasil",Belo Horizonte,MG,30140-094
+-19.4684,-44.24926,"Rua Coronel Augusto de Moura, 233A, Sete Lagoas - MG, 35700-210, Brasil",Sete Lagoas,MG,35700-210
+-19.93169,-43.93611,"Rua Gonçalves Dias, 1197, Savassi, Belo Horizonte - MG, 30140-097, Brasil",Belo Horizonte,MG,30140-097
+-19.92646,-43.92961,"Rua Rio Grande do Norte, 103A, Santa Efigênia, Belo Horizonte - MG, 30130-130, Brasil",Belo Horizonte,MG,30130-130
+-19.91522,-44.08054,"Rua da Terra, 146, Contagem - MG, 32183-612, Brasil",Contagem,MG,32183-612
+-19.93778,-43.94375,"Rua Rio de Janeiro, 2727A, Lourdes, Belo Horizonte - MG, 30160-048, Brasil",Belo Horizonte,MG,30160-048
+-19.88841,-43.9969,"Rua Romualdo Lopes Cançado, 420, Castelo, Belo Horizonte - MG, 30840-460, Brasil",Belo Horizonte,MG,30840-460
+-19.92554,-43.91927,"Rua Tenente Garro, 19, Santa Efigênia, Belo Horizonte - MG, 30240-360, Brasil",Belo Horizonte,MG,30240-360
+-19.9382,-43.9331,"Rua Rio Grande do Norte, 1456, Savassi, Belo Horizonte - MG, 30130-138, Brasil",Belo Horizonte,MG,30130-138
+-19.93085,-43.93236,"Rua Paraíba, 486, Savassi, Belo Horizonte - MG, 30130-141, Brasil",Belo Horizonte,MG,30130-141
+-19.95427,-43.96006,"Rua Cascalho, 181, Alpes, Belo Horizonte - MG, 31610-090, Brasil",Belo Horizonte,MG,31610-090
+-19.84654,-43.98586,"Avenida Portugal, 1080, Jardim Atlântico, Belo Horizonte - MG, 31555-000, Brasil",Belo Horizonte,MG,31555-000
+-19.9344,-43.93192,"Rua Rio Grande do Norte, 1008, Savassi, Belo Horizonte - MG, 30130-135, Brasil",Belo Horizonte,MG,30130-135
+-19.92564,-43.93949,"Rua dos Guajajaras, 577, Lourdes, Belo Horizonte - MG, 30180-101, Brasil",Belo Horizonte,MG,30180-101
+-29.68321,-51.12711,"Rua Joaquim Nabuco, 1019, Centro, Novo Hamburgo - RS, 93310-002, Brasil",Novo Hamburgo,RS,93310-002
+-30.02902,-51.23359,"Rua Siqueira Campos, 832, Centro Histórico, Porto Alegre - RS, 90010-000, Brasil",Porto Alegre,RS,90010-000
+-30.05008,-51.2278,"Avenida Praia de Belas, 1300, Menino Deus, Porto Alegre - RS, 90110-000, Brasil",Porto Alegre,RS,90110-000
+-30.03475,-51.18601,"Carlos Trein Filho AL 1325 Esq. Barao de Ubá, Rua Carlos Trein Filho, Bela Vista, Porto Alegre - RS, 90450-120, Brasil",Porto Alegre,RS,90450-120
+-30.02791,-51.168,"Avenida Doutor Nilo Peçanha, 2410, Passo da Areia, Porto Alegre - RS, 91330-000, Brasil",Porto Alegre,RS,91330-000
+-29.16813,-51.18399,"Rua Marechal Floriano, 610, Centro, Caxias do Sul - RS, 95020-370, Brasil",Caxias do Sul,RS,95020-370
+-21.76016,-41.33174,"Rua Voluntários da Pátria, 383, Parque Avenida Pelinca, Campos dos Goytacazes - RJ, 28035-260, Brasil",Campos dos Goytacazes,RJ,28035-260
+-22.82024,-43.0396,"Avenida Presidente Kennedy, 693, Estrela do Norte, São Gonçalo - RJ, 24445-795, Brasil",São Gonçalo,RJ,24445-795
+-22.90372,-43.11072,"Rua Presidente Backer, 149, Icaraí, Niterói - RJ, 24220-045, Brasil",Niterói,RJ,24220-045
+-22.90339,-43.11688,"Rua Miguel de Frias, 99, Icaraí, Niterói - RJ, 24220-301, Brasil",Niterói,RJ,24220-301
+-27.59597,-48.55203,"Lg Estacionamentos, Rua Jerônimo Coelho, 204, Centro, Florianópolis - SC, 88010-030, Brasil",Florianópolis,SC,88010-030
+-15.78939,-47.88989,"Shn Bloco B, Asa Norte, Brasília - DF, 70704-020, Brasil",Brasília,DF,70704-020
+-18.92084,-48.27764,"Avenida Floriano Peixoto, 224, Centro, Uberlândia - MG, 38400-100, Brasil",Uberlândia,MG,38400-100
+-21.7627,-43.34957,"E-Park Estacionamento, Avenida Barão do Rio Branco, 2356, Centro, Juiz de Fora - MG, 36010-010, Brasil",Juiz de Fora,MG,36010-010
+-19.92654,-43.93634,"Avenida João Pinheiro, 141, Funcionários, Belo Horizonte - MG, 30130-183, Brasil",Belo Horizonte,MG,30130-183
+-22.22479,-49.9324,"Avenida das Esmeraldas, 877, Marília - SP, 17516-000, Brasil",Marília,SP,17516-000
+-22.33614,-49.06841,"Edifício Vila Real, Rua Rio Branco, 23-34, Vila Nova Santa Clara, Bauru - SP, 17014-037, Brasil",Bauru,SP,17014-037
+-22.71447,-47.6377,"Avenida Carlos Botelho, 651, São Dimas, Piracicaba - SP, 13416-145, Brasil",Piracicaba,SP,13416-145
+-22.72473,-47.64959,"Itaú Personnalité, Rua Moraes Barros, 936, Centro, Piracicaba - SP, 13400-353, Brasil",Piracicaba,SP,13400-353
+-22.56193,-47.40229,"Catedral de Nossa Senhora das Dores, Praça Doutor Luciano Esteves, Centro, Limeira - SP, 13480-211, Brasil",Limeira,SP,13480-211
+-22.73955,-47.33209,"Rua Washington Luiz, 400, Centro, Americana - SP, 13465-520, Brasil",Americana,SP,13465-520
+-23.31357,-51.16585,"Rua Piauí, 967, Centro Histórico, Londrina - PR, 86020-390, Brasil",Londrina,PR,86020-390
+-22.11925,-51.39135,"Laboratório Mastellini Prudente, Avenida Washington Luiz, 1009, Centro, Presidente Prudente - SP, 19015-150, Brasil",Presidente Prudente,SP,19015-150
+-20.81594,-49.39257,"São Paulo Tribunal de Justiça, Rua Redentora, Imperial, São José do Rio Preto - SP, 15015-780, Brasil",São José do Rio Preto,SP,15015-780
+-20.81579,-49.3797,"Avenida Alberto Andaló, 3251, Bom Jesus, São José do Rio Preto - SP, 15015-000, Brasil",São José do Rio Preto,SP,15015-000
+-16.67716,-49.26778,"Avenida República do Líbano, 1A-15, Aeroporto, Goiânia - GO, 74070-045, Brasil",Goiânia,GO,74070-045
+-15.80986,-47.9024,"Crs 506 Bloco A, 6, Asa Sul, Brasília - DF, 70350-580, Brasil",Brasília,DF,70350-580
+-15.79723,-47.894,"Handerson da S, Srtvs, 12, Asa Sul, Brasília - DF, 70340-901, Brasil",Brasília,DF,70340-901
+-19.93396,-43.94609,"Rua Marília de Dirceu, 108, Lourdes, Belo Horizonte - MG, 30170-090, Brasil",Belo Horizonte,MG,30170-090
+-19.93538,-43.94202,"Rua Felipe dos Santos, 15, Lourdes, Belo Horizonte - MG, 30180-163, Brasil",Belo Horizonte,MG,30180-163
+-19.93667,-43.93485,"Rua Tomé de Souza, 866, Savassi, Belo Horizonte - MG, 30140-136, Brasil",Belo Horizonte,MG,30140-136
+-21.18845,-47.80713,"Avenida Independência, 1239, Subsetor Sul-1, Ribeirão Preto - SP, 14025-390, Brasil",Ribeirão Preto,SP,14025-390
+-23.08442,-47.20171,"Pizza Hut, Avenida Presidente Kennedy, Indaiatuba - SP, 13334-170, Brasil",Indaiatuba,SP,13334-170
+-22.51013,-43.18383,"Avenida Barão do Amazonas, 72, Petrópolis - RJ, 25685-070, Brasil",Petrópolis,RJ,25685-070
+-16.32548,-48.95636,"Rua Engenheiro Portela, 97, Setor Central, Anápolis - GO, 75024-040, Brasil",Anápolis,GO,75024-040
+-22.89353,-47.06485,"Avenida Barão de Itapura, 1252, Vila Itapura, Campinas - SP, 13020-432, Brasil",Campinas,SP,13020-432
+-22.90385,-47.0606,"Avenida Francisco Glicério, 1249, Centro, Campinas - SP, 13012-000, Brasil",Campinas,SP,13012-000
+-22.88414,-47.05347,"Rua Paula Bueno, 811, Taquaral, Campinas - SP, 13076-061, Brasil",Campinas,SP,13076-061
+-22.97495,-46.99932,"Fernando César Buttignol, Avenida dos Esportes, 538, Centro, Valinhos - SP, 13270-210, Brasil",Valinhos,SP,13270-210
+-22.89988,-47.05452,"Avenida Júlio de Mesquita, 606, Cambuí, Campinas - SP, 13025-061, Brasil",Campinas,SP,13025-061
+-25.43769,-49.28134,"Rua Comendador Araújo, 652, Batel, Curitiba - PR, 80420-063, Brasil",Curitiba,PR,80420-063
+-25.43183,-49.26985,"Rua Marechal Deodoro, 230, Centro, Curitiba - PR, 80020-320, Brasil",Curitiba,PR,80020-320
+-25.11541,-50.17138,"Rua Hermínio Baggio, 39, Estrela, Ponta Grossa - PR, 84050-460, Brasil",Ponta Grossa,PR,84050-460
+-26.92307,-49.0638,"Rua Sete de Setembro, 673, Centro, Blumenau - SC, 89010-201, Brasil",Blumenau,SC,89010-201
+-23.31232,-51.16585,"Avenida Higienópolis, 266, Centro Histórico, Londrina - PR, 86020-080, Brasil",Londrina,PR,86020-080
+-27.09681,-52.61681,"Avenida Getúlio Dorneles Vargas, 905N, Centro, Chapecó - SC, 89801-002, Brasil",Chapecó,SC,89801-002
+-24.9547,-53.45208,"Rua Barão do Cerro Azul, 1246, Centro, Cascavel - PR, 85801-080, Brasil",Cascavel,PR,85801-080
+-27.59546,-48.54882,"Rua Arcipreste Paiva, 187, Centro, Florianópolis - SC, 88010-530, Brasil",Florianópolis,SC,88010-530
+-23.50081,-47.45765,"Integrabike Estaçao 02 - Pça Coronel Fernando Prestes, Rua São Bento, Centro, Sorocaba - SP, 18010-030, Brasil",Sorocaba,SP,18010-030
+-22.33794,-49.06736,"Rua Rio Branco, 24-65, Vila Samaritana, Bauru - SP, 17016-190, Brasil",Bauru,SP,17016-190
+-22.21821,-49.94829,"Avenida Sampaio Vidal, 536, Marília - SP, 17500-020, Brasil",Marília,SP,17500-020
+-23.55801,-46.65982,"Empório Lanches, Rua Augusta, 1343, Consolação, São Paulo - SP, 01304-001, Brasil",São Paulo,SP,01304-001
+-28.68145,-49.36488,"Rua Saldanha da Gama, 3954, Comerciário, Criciúma - SC, 88802-475, Brasil",Criciúma,SC,88802-475
+-23.64296,-46.69962,"Avenida Santo Amaro, 7123, Santo Amaro, São Paulo - SP, 04505-001, Brasil",São Paulo,SP,04505-001
+-29.22369,-51.34533,"Rua Júlio de Castilhos, 1500, Planalto, Farroupilha - RS, 95180-000, Brasil",Farroupilha,RS,95180-000
+-29.68164,-51.1271,"Rua Júlio de Castilhos, 400, Centro, Novo Hamburgo - RS, 93510-130, Brasil",Novo Hamburgo,RS,93510-130
+-30.02833,-51.20425,"Rua Mariante, 86, Moinhos de Vento, Porto Alegre - RS, 90430-180, Brasil",Porto Alegre,RS,90430-180
+-23.49874,-46.62468,"Rua Conselheiro Saraiva, 207, Santana, São Paulo - SP, 02037-020, Brasil",São Paulo,SP,02037-020
+-23.59988,-46.71526,"Ensino Einstein, Avenida Albert Einstein, 627, Morumbi, São Paulo - SP, 05652-090, Brasil",São Paulo,SP,05652-090
+-23.61373,-46.63779,"Rua Carneiro da Cunha, 53, Saúde, São Paulo - SP, 04144-000, Brasil",São Paulo,SP,04144-000
+-23.57106,-46.64355,"Schutz, Rua Treze de Maio, Bela Vista, São Paulo - SP, 04849-529, Brasil",São Paulo,SP,04849-529
+-23.54731,-46.57305,"Rua Cantagalo, 74, Tatuapé, São Paulo - SP, 03319-000, Brasil",São Paulo,SP,03319-000
+-23.57124,-46.6902,"Pierre Perrone Arquitetos, Avenida Brigadeiro Faria Lima, Pinheiros, São Paulo - SP, 05423-150, Brasil",São Paulo,SP,05423-150
+-23.70243,-46.55191,"Travessa São Vicente de Paulo, 3, Centro, São Bernardo do Campo - SP, 09720-070, Brasil",São Bernardo do Campo,SP,09720-070
+-23.49633,-46.84818,"Dental Special, Alameda Rio Negro, 1030, Alphaville, Barueri - SP, 06454-000, Brasil",Barueri,SP,06454-000
+-23.55751,-46.60059,"Avenida Paes de Barros, 242, Móoca, São Paulo - SP, 03114-000, Brasil",São Paulo,SP,03114-000
+-23.58024,-46.68578,"Rua Frei Galvão, 121C, Pinheiros, São Paulo - SP, 01454-060, Brasil",São Paulo,SP,01454-060
+-23.52285,-46.7035,"Safra, Rua Roma, Lapa, São Paulo - SP, 05050-090, Brasil",São Paulo,SP,05050-090
+-23.54418,-46.66619,"Praça Charles Miller, 10, Perdizes, São Paulo - SP, 01236-030, Brasil",São Paulo,SP,01236-030
+-23.58554,-46.67712,"Rua Joaquim Floriano, 737, Itaim Bibi, São Paulo - SP, 04534-003, Brasil",São Paulo,SP,04534-003
+-23.18629,-46.88484,"Rua Rangel Pestana, 305, Centro, Jundiaí - SP, 13201-000, Brasil",Jundiaí,SP,13201-000
+-23.93693,-46.32692,"Rua Martim Afonso, 146, Centro, Santos - SP, 11010-060, Brasil",Santos,SP,11010-060
+-23.61452,-46.57259,"Rua Manoel Coelho, 560, Centro, São Caetano do Sul - SP, 09510-101, Brasil",São Caetano do Sul,SP,09510-101
+-22.90599,-47.05958,"Rua Costa Aguiar, 700, Centro, Campinas - SP, 13010-061, Brasil",Campinas,SP,13010-061
+-23.60414,-46.66314,"Avenida Ibirapuera, 2392, Moema, São Paulo - SP, 04028-002, Brasil",São Paulo,SP,04028-002
+-23.54472,-46.65766,"Avenida Angélica, 1380, Consolação, São Paulo - SP, 01228-100, Brasil",São Paulo,SP,01228-100
+-22.89364,-47.05653,"Rua Olavo Bilac, 267, Cambuí, Campinas - SP, 13024-110, Brasil",Campinas,SP,13024-110
+-23.57857,-46.69374,"Café da Sinagoga, Pinheiros, São Paulo - SP, 01455-000, Brasil",São Paulo,SP,01455-000
+-23.52401,-46.19499,"Avenida Voluntário Fernando Pinheiro Franco, 48, Mogi das Cruzes - SP, 08710-500, Brasil",Mogi das Cruzes,SP,08710-500
+-23.66139,-46.52493,"Rua Senador Flaquer, 304, Centro, Santo André - SP, 09010-160, Brasil",Santo André,SP,09010-160
+-23.46694,-46.53032,"Rua Felício Marcondes, 361, Centro, Guarulhos - SP, 07010-030, Brasil",Guarulhos,SP,07010-030
+-21.20589,-50.43764,"Rua Floriano Peixoto, 53, Centro, Araçatuba - SP, 16010-000, Brasil",Araçatuba,SP,16010-000
+-20.8137,-49.38352,"Rua Bernardino de Campos, 3390, Centro, São José do Rio Preto - SP, 15015-300, Brasil",São José do Rio Preto,SP,15015-300
+-23.02604,-45.58105,"Avenida Charles Schnneider, 1555, Barranco, Taubaté - SP, 12040-001, Brasil",Taubaté,SP,12040-001
+-25.4726,-49.29559,"Rua Carlos Dietzsch, 120, Portão, Curitiba - PR, 80330-000, Brasil",Curitiba,PR,80330-000
+-23.52627,-46.68898,"Rua Coriolano, 369, Lapa, São Paulo - SP, 05047-000, Brasil",São Paulo,SP,05047-000
+-23.58987,-46.68024,"Rua Soares de Barros, 93, Itaim Bibi, São Paulo - SP, 04543-000, Brasil",São Paulo,SP,04543-000
+-19.92723,-43.93641,"Avenida João Pinheiro, 215, Funcionários, Belo Horizonte - MG, 30130-183, Brasil",Belo Horizonte,MG,30130-183
+-22.94868,-43.1827,"EZvolt, Praia de Botafogo, 440, Botafogo, Rio de Janeiro - RJ, 22250-040, Brasil",Rio de Janeiro,RJ,22250-040
+-22.98426,-43.20228,"Rua Visconde de Pirajá, 254, Ipanema, Rio de Janeiro - RJ, 22410-000, Brasil",Rio de Janeiro,RJ,22410-000
+-22.90122,-43.17702,"Rua Candelária, Centro, Rio de Janeiro - RJ, 20091-020, Brasil",Rio de Janeiro,RJ,20091-020
+-22.90612,-43.11221,"Labormed, Rua Ator Paulo Gustavo, 70, Icaraí, Niterói - RJ, 24230-062, Brasil",Niterói,RJ,24230-062
+-21.17423,-47.80903,"Rua Duque de Caxias, 521, Setor Central, Ribeirão Preto - SP, 14015-020, Brasil",Ribeirão Preto,SP,14015-020
+-21.17602,-47.81174,"Rua Américo Brasiliense, 296, Setor Central, Ribeirão Preto - SP, 14015-050, Brasil",Ribeirão Preto,SP,14015-050
+-18.91711,-48.27665,"Avenida Afonso Pena, 778, Centro, Uberlândia - MG, 38400-130, Brasil",Uberlândia,MG,38400-130
+-16.68372,-49.2663,"Netatur, Praça Estado da Palestina, Oeste, Goiânia - GO, 74115-071, Brasil",Goiânia,GO,74115-071
+-16.69588,-49.27242,"Rua T-27, 1072, Bueno, Goiânia - GO, 74210-030, Brasil",Goiânia,GO,74210-030
+-23.63328,-46.73114,"Rua José Ramon Urtiza, 807, Vila Andrade, São Paulo - SP, 05717-270, Brasil",São Paulo,SP,05717-270
+-23.59739,-46.68658,"Avenida Doutor Cardoso de Melo, 1368, Itaim Bibi, São Paulo - SP, 04548-004, Brasil",São Paulo,SP,04548-004
+-23.60475,-46.66291,"Avenida Ibirapuera, 2349, Moema, São Paulo - SP, 04029-200, Brasil",São Paulo,SP,04029-200
+-30.02794,-51.16912,"Avenida Doutor Nilo Peçanha, 2320, Passo da Areia, Porto Alegre - RS, 91330-000, Brasil",Porto Alegre,RS,91330-000
+-23.55309,-46.56619,"Rua Emília Marengo, 100, Vila Formosa, São Paulo - SP, 03336-000, Brasil",São Paulo,SP,03336-000
+-21.18738,-47.80859,"Banco Santander Select, Avenida Nove de Julho, 1088, Subsetor Sul-1, Ribeirão Preto - SP, 14025-000, Brasil",Ribeirão Preto,SP,14025-000
+-23.54963,-46.65941,"Avenida Angélica, 1951, Consolação, São Paulo - SP, 01228-100, Brasil",São Paulo,SP,01228-100
+-22.7251,-47.64963,"Rua Boa Morte, 966, Centro, Piracicaba - SP, 13400-140, Brasil",Piracicaba,SP,13400-140
+-23.56583,-46.66816,"Rua Augusta, 2901, Jardim Paulista, São Paulo - SP, 01412-100, Brasil",São Paulo,SP,01412-100
+-22.90928,-43.17436,"Avenida Graça Aranha, 57A, Centro, Rio de Janeiro - RJ, 20030-002, Brasil",Rio de Janeiro,RJ,20030-002
+-23.59251,-46.60144,"Rua Lord Cockrane, 649, Ipiranga, São Paulo - SP, 04213-001, Brasil",São Paulo,SP,04213-001
+-23.66178,-46.52425,"Rua Senador Flaquer, 391, Centro, Santo André - SP, 09010-160, Brasil",Santo André,SP,09010-160
+-23.61118,-46.69609,"Hilton, Avenida das Nações Unidas, 12901, Itaim Bibi, São Paulo - SP, 04576-080, Brasil",São Paulo,SP,04576-080
+-22.33739,-49.06759,"Rua Rio Branco, 24-25, Vila Samaritana, Bauru - SP, 17016-190, Brasil",Bauru,SP,17016-190
+-21.74507,-43.35296,"Avenida Brasil, Manoel Honório, Juiz de Fora - MG, 36035-030, Brasil",Juiz de Fora,MG,36035-030
+-23.55326,-46.71005,"Cléber Cabola Romano - Flores, Avenida Professor Fonseca Rodrigues, 301, Alto de Pinheiros, São Paulo - SP, 05461-010, Brasil",São Paulo,SP,05461-010
+-29.16769,-51.18208,"Caixa Eletrônico Banco Real Shop Pratavieira, Avenida Júlio de Castilhos, 2025, Centro, Caxias do Sul - RS, 95020-425, Brasil",Caxias do Sul,RS,95020-425
+-23.63603,-46.69461,"Avenida Adolfo Pinheiro, 2115, Santo Amaro, São Paulo - SP, 04734-003, Brasil",São Paulo,SP,04734-003
+-23.59071,-46.68098,"Avenida Brigadeiro Faria Lima, 3935, Itaim Bibi, São Paulo - SP, 04538-133, Brasil",São Paulo,SP,04538-133
+-23.54471,-46.57314,"Praça Sílvio Romero, 133, Tatuapé, São Paulo - SP, 03323-000, Brasil",São Paulo,SP,03323-000
+-25.45276,-49.27877,"Avenida Água Verde, 766, Água Verde, Curitiba - PR, 80620-200, Brasil",Curitiba,PR,80620-200
+-23.49805,-46.85441,"Passagem B, 731, Alphaville, Barueri - SP, 06455-000, Brasil",Barueri,SP,06455-000
+-30.02983,-51.20107,"Avenida Goethe, 20, Rio Branco, Porto Alegre - RS, 90430-100, Brasil",Porto Alegre,RS,90430-100
+-23.58935,-46.61044,"Avenida Nazaré, 597, Ipiranga, São Paulo - SP, 04263-000, Brasil",São Paulo,SP,04263-000
+-23.96769,-46.33202,"Rua Galeão Carvalhal, 47, Gonzaga, Santos - SP, 11055-201, Brasil",Santos,SP,11055-201
+-20.81719,-49.38717,"Rua Bernardino de Campos, 3918, Redentora, São José do Rio Preto - SP, 15015-300, Brasil",São José do Rio Preto,SP,15015-300
+-23.57841,-46.6859,"Valens Serviços Financeiros, Avenida Brigadeiro Faria Lima, Pinheiros, São Paulo - SP, 01452-001, Brasil",São Paulo,SP,01452-001
+-23.56407,-46.59718,"Avenida Paes de Barros, 1030, Móoca, São Paulo - SP, 03114-000, Brasil",São Paulo,SP,03114-000
+-23.58977,-46.66968,"Rua João Lourenço, 580, Moema, São Paulo - SP, 04508-030, Brasil",São Paulo,SP,04508-030
+-23.31071,-51.16583,"W P Persinato Comércio, Rua Tupi, Centro Histórico, Londrina - PR, 86020-350, Brasil",Londrina,PR,86020-350
+-23.54363,-46.66599,"Praça Charles Miller, 108, Perdizes, São Paulo - SP, 01236-060, Brasil",São Paulo,SP,01236-060
+-22.96939,-43.18527,"Avenida Nossa Senhora de Copacabana, 592, Copacabana, Rio de Janeiro - RJ, 22020-001, Brasil",Rio de Janeiro,RJ,22020-001
+-22.89989,-47.05249,"Rua Coronel Quirino, 925, Cambuí, Campinas - SP, 13025-001, Brasil",Campinas,SP,13025-001
+-23.95538,-46.32646,"Avenida Washington Luís, 210, Encruzilhada, Santos - SP, 11050-200, Brasil",Santos,SP,11050-200
+-18.9165,-48.27422,"Avenida Floriano Peixoto, 850, Centro, Uberlândia - MG, 38400-102, Brasil",Uberlândia,MG,38400-102
+-23.18633,-46.88409,"Rua Rangel Pestana, 268, Centro, Jundiaí - SP, 13201-000, Brasil",Jundiaí,SP,13201-000
+-22.91233,-43.20626,"Rua Dom Marcos Barbosa, 2, Cidade Nova, Rio de Janeiro - RJ, 20211-178, Brasil",Rio de Janeiro,RJ,20211-178
+-19.93985,-43.93581,"Avenida do Contorno, 6082, Savassi, Belo Horizonte - MG, 30110-042, Brasil",Belo Horizonte,MG,30110-042
+-23.5472,-46.63432,"Rua Quinze de Novembro, 201, Sé, São Paulo - SP, 01013-001, Brasil",São Paulo,SP,01013-001
+-25.43834,-49.28133,"Rua Comendador Araújo, 689, Batel, Curitiba - PR, 80420-063, Brasil",Curitiba,PR,80420-063
+-23.56394,-46.75315,"Avenida Escola Politécnica, 97A, Rio Pequeno, São Paulo - SP, 05350-000, Brasil",São Paulo,SP,05350-000
+-23.46809,-46.53014,"Rua Felício Marcondes, 237, Centro, Guarulhos - SP, 07010-000, Brasil",Guarulhos,SP,07010-000
+-23.58051,-46.68539,"Avenida Brigadeiro Faria Lima, 2726, Pinheiros, São Paulo - SP, 01452-001, Brasil",São Paulo,SP,01452-001
+-23.58371,-46.63744,"Rua Domingos de Morais, 817, Vila Mariana, São Paulo - SP, 04010-100, Brasil",São Paulo,SP,04010-100
+-24.3318,-50.62653,"Rua XV de Novembro, Telêmaco Borba - PR, 84265-400, Brasil",Telêmaco Borba,PR,84265-400
+-21.75961,-41.33362,"Avenida Pelinca, 154, Parque Avenida Pelinca, Campos dos Goytacazes - RJ, 28035-053, Brasil",Campos dos Goytacazes,RJ,28035-053
+-22.81954,-47.07238,"Rua Roxo Moreira, 910, Barão Geraldo, Campinas - SP, 13083-830, Brasil",Campinas,SP,13083-830
+-23.59727,-46.64248,"Rua Botucatu, 653, Vila Mariana, São Paulo - SP, 04023-062, Brasil",São Paulo,SP,04023-062
+-23.62391,-46.68362,"Rua Joaquim Nabuco, 169, Campo Belo, São Paulo - SP, 04621-001, Brasil",São Paulo,SP,04621-001
+-19.93353,-43.95091,"Avenida Álvares Cabral, 1797, Santo Agostinho, Belo Horizonte - MG, 30170-008, Brasil",Belo Horizonte,MG,30170-008
+-22.92526,-43.2263,"Rua Conde de Bonfim, 149, Tijuca, Rio de Janeiro - RJ, 20520-050, Brasil",Rio de Janeiro,RJ,20520-050
+-30.02882,-51.22887,"Rua Uruguai, 244, Centro Histórico, Porto Alegre - RS, 90010-140, Brasil",Porto Alegre,RS,90010-140
+-27.58867,-48.55734,"Avenida Jornalista Rubens de Arruda Ramos, 1254, Centro, Florianópolis - SC, 88015-700, Brasil",Florianópolis,SC,88015-700
+-22.40234,-41.7966,"Rua Dolores Carvalho Vasconcelos, 332, Glória, Macaé - RJ, 27937-600, Brasil",Macaé,RJ,27937-600
+-22.90562,-43.10832,"Rua Gavião Peixoto, 250, Icaraí, Niterói - RJ, 24230-092, Brasil",Niterói,RJ,24230-092
+-22.89643,-47.06724,"Itaigara, Avenida Barão de Itapura, 390, Vila Itapura, Campinas - SP, 13020-431, Brasil",Campinas,SP,13020-431
+-23.18552,-45.88638,"Avenida Quinze de Novembro, 155, Centro, São José dos Campos - SP, 12210-070, Brasil",São José dos Campos,SP,12210-070
+-23.54876,-46.63369,"Rua Quinze de Novembro, 26, Sé, São Paulo - SP, 01013-001, Brasil",São Paulo,SP,01013-001
+-22.21807,-49.94844,"Avenida Sampaio Vidal, 536, Marília - SP, 17500-020, Brasil",Marília,SP,17500-020
+-19.75034,-47.93325,"Avenida Leopoldino de Oliveira, 3265, Uberaba - MG, 38010-000, Brasil",Uberaba,MG,38010-000
+-19.15393,-45.4523,"Rua Floriano Peixoto, 651, Abaeté - MG, 35620-000, Brasil",Abaeté,MG,35620-000
+-26.29975,-48.84803,"Clínica Femina, Rua Doutor João Colin, Centro, Joinville - SC, 89201-299, Brasil",Joinville,SC,89201-299
+-23.56728,-46.65012,"Avenida Paulista, 687, Jardim Paulista, São Paulo - SP, 01310-100, Brasil",São Paulo,SP,01310-100
+-22.90714,-47.0584,"Avenida Francisco Glicério, 826, Centro, Campinas - SP, 13012-100, Brasil",Campinas,SP,13012-100
+-22.90186,-43.1791,"Avenida Rio Branco, 70, Centro, Rio de Janeiro - RJ, 20040-070, Brasil",Rio de Janeiro,RJ,20040-070
+-22.9528,-43.1885,"Rua Voluntários da Pátria, 198, Botafogo, Rio de Janeiro - RJ, 22270-000, Brasil",Rio de Janeiro,RJ,22270-000
+-23.53903,-46.67532,"Avenida Sumaré, 1130, Perdizes, São Paulo - SP, 05016-110, Brasil",São Paulo,SP,05016-110
+-23.57068,-46.6443,"Centro Odontológico Agami, Rua Treze de Maio, Bela Vista, São Paulo - SP, 04849-529, Brasil",São Paulo,SP,04849-529
+-23.55748,-46.6594,"Rua Augusta, 1611, Consolação, São Paulo - SP, 01304-001, Brasil",São Paulo,SP,01304-001
+-23.57019,-46.68053,"Alameda Gabriel Monteiro da Silva, 1236, Pinheiros, São Paulo - SP, 05477-000, Brasil",São Paulo,SP,05477-000
+-23.61405,-46.57055,"Rua Baraldi, 1070, Centro, São Caetano do Sul - SP, 09510-010, Brasil",São Caetano do Sul,SP,09510-010
+-19.94626,-43.92153,"Avenida Afonso Pena, 4123, Serra, Belo Horizonte - MG, 30130-009, Brasil",Belo Horizonte,MG,30130-009
+-23.00092,-43.34783,"Avenida das Américas, 3333, Barra da Tijuca, Rio de Janeiro - RJ, 22631-003, Brasil",Rio de Janeiro,RJ,22631-003
+-16.6823,-49.26653,"Avenida República do Líbano, 1860, Oeste, Goiânia - GO, 74125-125, Brasil",Goiânia,GO,74125-125
+-22.97866,-49.88087,"Avenida Antônio de Almeida Leite, 1064, Jardim Paulista, Ourinhos - SP, 19907-000, Brasil",Ourinhos,SP,19907-000
+-23.08878,-48.92318,"Avenida Professor Celso Ferreira da Silva, 190, Jardim Europa III, Avaré - SP, 18707-150, Brasil",Avaré,SP,18707-150
+-22.33289,-49.06781,"Shell SELECT, Rua Gustavo Maciel, 25-85, Vila Samaritana, Bauru - SP, 17012-110, Brasil",Bauru,SP,17012-110
+-22.33824,-49.0709,"Rua Virgílio Malta, 22-16, Jardim Estoril, Bauru - SP, 17016-080, Brasil",Bauru,SP,17016-080
+-22.34023,-49.06275,"Avenida Getúlio Vargas, 6, Vila Mariana, Bauru - SP, 17017-000, Brasil",Bauru,SP,17017-000
+-22.66205,-50.41642,"Rua José Vieira da Cunha e Silva, 260, Centro, Assis - SP, 19800-140, Brasil",Assis,SP,19800-140
+-22.29652,-48.55621,"Rua Lourenço Prado, 206, Centro, Jaú - SP, 17201-000, Brasil",Jaú,SP,17201-000
+-22.88917,-48.46316,"Rua José Benedito Nogueira, 9, Jardim Tropical, Botucatu - SP, 18607-289, Brasil",Botucatu,SP,18607-289
+-22.19452,-49.96251,"Rua José Cimino, 42, Marília - SP, 17507-102, Brasil",Marília,SP,17507-102
+-22.72277,-47.64717,"Rua Treze de Maio, 797, Centro, Piracicaba - SP, 13400-300, Brasil",Piracicaba,SP,13400-300
+-22.22019,-49.94379,"Rua Álvares Cabral, 421, Marília - SP, 17501-100, Brasil",Marília,SP,17501-100
+-22.71877,-47.64576,"Travessa Portugal, 164, Cidade Jardim, Piracicaba - SP, 13416-470, Brasil",Piracicaba,SP,13416-470
+-23.53228,-47.46582,"Avenida Professora Izoraida M. Peres, 256, Parque Campolim, Sorocaba - SP, 18048-110, Brasil",Sorocaba,SP,18048-110
+-22.024,-47.89077,"Avenida São Carlos, 1069, Centro, São Carlos - SP, 13560-010, Brasil",São Carlos,SP,13560-010
+-25.43475,-49.27871,"Rua Visconde do Rio Branco, 1488, Centro, Curitiba - PR, 80420-210, Brasil",Curitiba,PR,80420-210
+-22.60825,-48.80472,"Avenida dos Estudantes, 361, Lençóis Paulista - SP, 18682-170, Brasil",Lençóis Paulista,SP,18682-170
+-22.84961,-47.08349,"Rua Fulvio Salvador Pagani, Campinas - SP, 13080-657, Brasil",Campinas,SP,13080-657
+-22.8789,-47.05399,"Avenida Barão de Itapura, 3223, Jardim Nossa Senhora Auxiliadora, Campinas - SP, 13076-269, Brasil",Campinas,SP,13076-269
+-22.8569,-47.05522,"Ruff Distribuidora de Combustíveis, Loteamento Residencial Vila Bella, Campinas - SP, 13087-725, Brasil",Campinas,SP,13087-725
+-22.90501,-47.05978,"Avenida Francisco Glicério, 1101, Centro, Campinas - SP, 13012-000, Brasil",Campinas,SP,13012-000
+-22.35637,-47.38939,"Rua Francisco Leite, 290, Centro, Araras - SP, 13600-180, Brasil",Araras,SP,13600-180
+-23.10804,-47.71305,"Rua Onze de Agosto, 139, Tietê - SP, 18530-000, Brasil",Tietê,SP,18530-000
+-22.72604,-47.63842,"Rua Visconde do Rio Branco, 550, Cidade Alta, Piracicaba - SP, 13419-115, Brasil",Piracicaba,SP,13419-115
+-22.89334,-47.08845,"Rua Doutor César Paranhos de Godoy, Jardim Chapadão, Campinas - SP, 13070-075, Brasil",Campinas,SP,13070-075
+-22.90162,-47.04517,"Rua Engenheiro Carlos Stevenson, 421, Nova Campinas, Campinas - SP, 13092-170, Brasil",Campinas,SP,13092-170
+-22.35424,-47.38383,"Rua Visconde do Rio Branco, 380, Centro, Araras - SP, 13600-140, Brasil",Araras,SP,13600-140
+-22.56899,-47.40315,"Rua Pres. Humberto de A. Castelo Branco, 382, Jardim Mercedes, Limeira - SP, 13480-230, Brasil",Limeira,SP,13480-230
+-22.38519,-46.94302,"Avenida Mogi Mirim, 1249, Mogi Guaçu - SP, 13844-110, Brasil",Mogi Guaçu,SP,13844-110
+-22.35594,-47.38971,"Rua Chico Pinto, 712, Centro, Araras - SP, 13600-061, Brasil",Araras,SP,13600-061
+-22.84748,-47.08579,"Praça Capital, Campinas - SP, Brasil",Campinas,SP,
+-23.21996,-45.9106,"Khouri, Pereira Sociedade de Advogados, Avenida Cassiano Ricardo, 601, Parque Residencial Aquarius, São José dos Campos - SP, 12240-540, Brasil",São José dos Campos,SP,12240-540
+-23.19991,-45.88345,"Rua República do Iraque, 80, Jardim Oswaldo Cruz, São José dos Campos - SP, 12216-540, Brasil",São José dos Campos,SP,12216-540
+-23.22378,-45.88901,"Avenida Perseu, 161, Jardim Satélite, São José dos Campos - SP, 12230-470, Brasil",São José dos Campos,SP,12230-470
+-23.22466,-45.91019,"RN Clínica, Rua Carlos Maria Auricchio, 70, Royal Park, São José dos Campos - SP, 12246-876, Brasil",São José dos Campos,SP,12246-876
+-23.21385,-45.90937,"Olivetti & Silva, Avenida Cassiano Ricardo, 319, Parque Residencial Aquarius, São José dos Campos - SP, 12240-540, Brasil",São José dos Campos,SP,12240-540
+-23.26566,-45.93834,"Avenida das Linhas, 306, Jacareí - SP, 12301-150, Brasil",Jacareí,SP,12301-150
+-23.21573,-45.90954,"Avenida Cassiano Ricardo, 401, Parque Residencial Aquarius, São José dos Campos - SP, 12246-870, Brasil",São José dos Campos,SP,12246-870
+-23.52351,-46.19638,"Rua Princesa Isabel de Bragança, 235, Mogi das Cruzes - SP, 08710-460, Brasil",Mogi das Cruzes,SP,08710-460
+-23.22135,-45.91071,"Espaço Engenheiro Riugi Kojima, Avenida Cassiano Ricardo, Jardim Cassiano Ricardo, São José dos Campos - SP, 12240-540, Brasil",São José dos Campos,SP,12240-540
+-23.97872,-46.309,"Rua Guaiaó, 560, Aparecida, Santos - SP, 11035-260, Brasil",Santos,SP,11035-260
+-23.98093,-46.29886,"Rua Vereador Henrique Soler, 73, Ponta da Praia, Santos - SP, 11030-010, Brasil",Santos,SP,11030-010
+-23.62094,-46.52805,"Rua Olímpia, 375, Vila Camilópolis, Santo André - SP, 09230-500, Brasil",Santo André,SP,09230-500
+-23.56218,-46.65504,"Avenida Paulista, 1450, Bela Vista, São Paulo - SP, 01311-200, Brasil",São Paulo,SP,01311-200
+-23.54727,-46.557,"Rua Azevedo Soares, 2046, Tatuapé, São Paulo - SP, 03322-002, Brasil",São Paulo,SP,03322-002
+-23.56672,-46.65243,"Denardi Advogados, Jardim Paulista, São Paulo - SP, 01419-001, Brasil",São Paulo,SP,01419-001
+-23.56924,-46.64861,"Alameda Santos, 466, Vila Mariana, São Paulo - SP, 01418-000, Brasil",São Paulo,SP,01418-000
+-23.33017,-51.17836,"Rua Aurora Sathler Rosa, 350, Palhano, Londrina - PR, 86050-430, Brasil",Londrina,PR,86050-430
+-23.31713,-51.17983,"Rua José Maria da Silva Paranhos, 446, Presidente, Londrina - PR, 86061-270, Brasil",Londrina,PR,86061-270

@@ -1,0 +1,202 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;2;;Avenida Deputado Jamel Cecilio Jardim Goias Goiania GO 74810100 Brazil;sem numero de porta
+ALTO;6;;Avenida Marginal Pinheiros Morumbi Sao Paulo SP 05502001 Brazil;sem numero de porta
+ALTO;7;;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01456060 Brazil;sem numero de porta
+ALTO;8;;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05426100 Brazil;sem numero de porta
+ALTO;12;;Avenida Perimetral Norte Jardim Balneario Meia Ponte Goiania GO 74573260 Brazil;sem numero de porta
+ALTO;13;;New Time Santo Amaro Sao Paulo SP 04710190 Brazil;sem numero de porta
+ALTO;18;;Avenida Independencia Sao Mateus Juiz de Fora MG 36025320 Brazil;sem numero de porta
+ALTO;19;;Stein Associados Centro Joinville SC 89201420 Brazil;sem numero de porta
+ALTO;22;;Avenida Pompeia Barra Funda Sao Paulo SP 05022000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;26;;JOHN JOHN Mooca Sao Paulo SP 03109000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;27;;Rua Tenente Antonio Joao Zona Industrial Norte Joinville SC 89219720 Brazil;sem numero de porta
+ALTO;28;;Rodovia Presidente Castelo Branco Sao Roque SP 18132851 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;29;;Rua North Shopping Barretos Pereira Barretos SP 14784190 Brazil;sem numero de porta
+ALTO;31;;Rua Henrique Savi Jardim Infante Dom Henrique Bauru SP 17012205 Brazil;sem numero de porta
+ALTO;34;;Rua Frei Rolim Cursino Sao Paulo SP 04151100 Brazil;sem numero de porta
+ALTO;36;;Rodovia Governador Mario Covas Porto Belo SC 85874000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;40;;Rua Fonseca Bangu Rio de Janeiro RJ 21820005 Brazil;sem numero de porta
+ALTO;41;;Avenida Dom Helder Camara Cachambi Rio de Janeiro RJ 20771004 Brazil;sem numero de porta
+ALTO;43;;Avenida Regente Feijo Vila Formosa Sao Paulo SP 03342000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;44;;Rua Professor Antonio Maria Teixeira Leblon Rio de Janeiro RJ 22430050 Brazil;sem numero de porta
+ALTO;48;;Rodovia Marechal Rondon Vila Cardia Bauru SP 17030005 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;49;;Rodovia do Cafe Governador Ney Braga Campo Largo PR Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;50;;Alameda 1 Ribeirao Preto SP Brazil;logradouro sem nome
+ALTO;52;;BRT Transoeste Vargem Grande Rio de Janeiro RJ 22640100 Brazil;sem numero de porta
+ALTO;54;;Praca Oswaldo Cruz Centro Curitiba PR 80250230 Brazil;sem numero de porta
+ALTO;55;;Rua Roma Jardim Excelsior Cabo Frio RJ Brazil;sem numero de porta
+ALTO;56;;Avenida Alberto Benassi Jardim dos Manacas Araraquara SP 14804300 Brazil;sem numero de porta
+ALTO;57;;Avenida Transguarulhense Picanco Guarulhos SP 07082055 Brazil;sem numero de porta
+ALTO;58;;Estrada do Engenho d Agua Anil Rio de Janeiro RJ 22765240 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;61;;Avenida Gov Andre Franco Montoro Taboao da Serra SP 06757000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;64;;Shell ERL S Zona Civico Administrativa Brasilia DF Brazil;sem numero de porta
+ALTO;65;;Rua Domingos Agostim Tatuape Sao Paulo SP 03306010 Brazil;sem numero de porta
+ALTO;66;;SGAS 905 BLOCO A Asa Sul Brasilia DF 70390050 Brazil;sem numero de porta
+ALTO;69;;Rua Engenheiro Camilo Olivetti Itapegica Guarulhos SP 07042040 Brazil;sem numero de porta
+ALTO;70;;Avenida Farroupilha Marechal Rondon Canoas RS Brazil;sem numero de porta
+ALTO;73;;Emporio Body Store Tambore Barueri SP 06455000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;74;;Rua Carlos Gomes Centro Limeira SP 13480013 Brazil;sem numero de porta
+ALTO;75;;Avenida General David Sarnoff Cidade Industrial Contagem MG 32210110 Brazil;sem numero de porta
+ALTO;76;;Avenida Charles Schnneider Barranco Taubate SP 12040001 Brazil;sem numero de porta
+ALTO;78;;Avenida das Cataratas Vila Yolanda Foz do Iguacu PR 85853000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;79;;Emporio dos Controles Pirituba Sao Paulo SP 05145000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;81;;Estrada de Sao Bento 3304 Itaquaquecetuba SP 08598100 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;82;;Avenida Maria Campos Industrial Autonomistas Osasco SP Brazil;sem numero de porta
+ALTO;86;;Avenida Fernando Machado Lider Chapeco SC Brazil;sem numero de porta
+ALTO;87;;Avenida Olegario Maciel Santo Agostinho Belo Horizonte MG 30140085 Brazil;sem numero de porta
+ALTO;89;;Rua Pacifico Mascarenhas Santa Efigenia Belo Horizonte MG 30260010 Brazil;sem numero de porta
+ALTO;91;;Rua Paulo de Faria Tucuruvi Sao Paulo SP 02267000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;92;;Avenida Praia de Belas Praia de Belas Porto Alegre RS 90110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;93;;Fascar Subsetor Sul 5 Ribeirao Preto SP Brazil;sem numero de porta
+ALTO;95;;Rua Lauro Muller Botafogo Rio de Janeiro RJ 22290160 Brazil;sem numero de porta
+ALTO;97;;Avenida Joao Naves de Avila Tibery Uberlandia MG 38405140 Brazil;sem numero de porta
+ALTO;99;;Vila Ipiranga Porto Alegre RS 91340001 Brazil;sem numero de porta
+ALTO;100;;Avenida Rotary Ferrazopolis Sao Bernardo do Campo SP 09721000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;101;;MG 424 Confins MG 33500000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;102;;Rua Maria Soares Sendas Centro Sao Joao de Meriti RJ 25581350 Brazil;sem numero de porta
+ALTO;103;;Rua Domingos de Morais Vila Mariana Sao Paulo SP 04036100 Brazil;sem numero de porta
+ALTO;104;;EPIA Setores Complementares Asa Sul Brasilia DF Brazil;sem numero de porta
+ALTO;105;;Rua Professor Alfredo Gomes Botafogo Rio de Janeiro RJ 22251080 Brazil;sem numero de porta
+ALTO;107;;Rua Sebastiao Fabiano Dias Belvedere Belo Horizonte MG 30320690 Brazil;sem numero de porta
+ALTO;112;;Avenida Severino Ballesteros Rodrigues Cabral Contagem MG 32146003 Brazil;sem numero de porta
+ALTO;116;;Rua Orlando Odilio Koerich Distrito Industrial Sao Jose SC 86905000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;117;;Avenida Jorge Elias de Lucca Nossa Senhora da Salete Criciuma SC 88813390 Brazil;sem numero de porta
+ALTO;118;;Via de Fato Rua Guaiao Aparecida Santos SP 11035260 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;119;;Avenida Presidente Kennedy Portao Curitiba PR 80610010 Brazil;sem numero de porta
+ALTO;120;;Siberian Sanvitto Caxias do Sul RS 95112360 Brazil;sem numero de porta
+ALTO;122;;Avenida Santa Barbara Vila Mollon IV Santa Barbara d Oeste SP 13456625 Brazil;sem numero de porta
+ALTO;123;;Estrada do Campo Limpo 414 Sao Paulo SP 05777000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;125;;Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil;sem numero de porta
+ALTO;127;;Grafica 2ml Uberlandia Shopping Gavea Uberlandia MG 38411106 Brazil;sem numero de porta
+ALTO;128;;Rua Pedro Lessa Santa Monica Florianopolis SC 88035020 Brazil;sem numero de porta
+ALTO;130;;Rodovia Akzo Nobei Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;131;;Rodovia Helio Smidt Varzea do Palacio Guarulhos SP 07190100 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;133;;Avenida Ayrton Senna da Silva Sitio do Campo Praia Grande SP 11726000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;134;;Passeio dos Flamboyants Parque Faber Castell I Sao Carlos SP 13561352 Brazil;sem numero de porta
+ALTO;135;;Rua Coronel Xavier de Toledo Republica Sao Paulo SP 01048000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;136;;Rodovia dos Metalurgicos Sideropolis Volta Redonda RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;137;;BR 470 Fortaleza Blumenau SC Brazil;sem numero de porta
+ALTO;140;;Avenida Del Rey Caicaras Belo Horizonte MG 30775240 Brazil;sem numero de porta
+ALTO;141;;Rua Olimpiadas Itaim Bibi Sao Paulo SP 04547004 Brazil;sem numero de porta
+ALTO;142;;Banco 24 Horas Vila Cloris Belo Horizonte MG 31610070 Brazil;sem numero de porta
+ALTO;147;;Avenida Moaci Moema Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;162;;Estrada Nova Lima 3049 Belo Horizonte MG 30320760 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;163;;Rua Prof Pedro V Parigot de Souza Mossungue Curitiba PR 81200100 Brazil;sem numero de porta
+ALTO;165;;Avenida Ferreira Viana Areal Pelotas RS 96085000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;166;;Avenida Deputado Jacob Salvador Sveibel Butanta Sao Paulo SP 05512390 Brazil;sem numero de porta
+ALTO;167;;Puket Aguas Claras DF 71931720 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;168;;Avenida Aldino Pinotti Centro Sao Bernardo do Campo SP 09750730 Brazil;sem numero de porta
+ALTO;170;;Rodovia Dom Gabriel Paulino Bueno Couto 422 Itu SP 13304350 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;172;;Avenida Giovanni Gronchi Vila Andrade Sao Paulo SP 05724003 Brazil;sem numero de porta
+ALTO;173;;Applebee s Marechal Rondon Canoas RS Brazil;sem numero de porta
+ALTO;176;;Rua Interna Mogi Guacu SP Brazil;sem numero de porta
+ALTO;180;;Estrada da Represa Campo Grande Rio de Janeiro RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;184;;Avenida Piracema Tambore Barueri SP 06460030 Brazil;sem numero de porta
+ALTO;186;;Vila Formosa Sao Paulo SP 03342000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;188;;SUBWAY Tibery Uberlandia MG 38405142 Brazil;sem numero de porta
+ALTO;189;;Estrada do Monteiro 1200 Rio de Janeiro RJ 23045830 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;190;;Avenida Aprigio Bezerra da Silva Taboao da Serra SP 06763040 Brazil;sem numero de porta
+ALTO;192;;Rua Pacifico Mascarenhas Santa Efigenia Belo Horizonte MG 30260010 Brazil;sem numero de porta
+ALTO;193;;Polo Uk Santa Luiza Varginha MG Brazil;sem numero de porta
+ALTO;194;;Rua Domingos de Morais Vila Mariana Sao Paulo SP 04036100 Brazil;sem numero de porta
+ALTO;195;;Avenida T 15 Jardim America Goiania GO 74230010 Brazil;sem numero de porta
+ALTO;200;;Banco 24horas Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil;sem numero de porta
+ALTO;207;;Avenida Toledo Centro Cascavel PR 85810230 Brazil;sem numero de porta
+ALTO;209;;Rua Gustavo Maciel 5 2 Centro Bauru SP 17010040 Brazil;sem numero de porta
+ALTO;211;;Rua Augusta Consolacao Sao Paulo SP 01304001 Brazil;sem numero de porta
+ALTO;212;;Avenida Doutor Afonso Vergueiro Centro Sorocaba SP 18035370 Brazil;sem numero de porta
+ALTO;214;;Estrada Cama Patente 1000 Sao Bernardo do Campo SP 09842100 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;216;;BR 282 Rocado Sao Jose SC 86905000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;217;;Avenida Charles Schnneider Barranco Taubate SP 12040000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;219;;Olha O Churros Cidade Satelite Iris Campinas SP Brazil;sem numero de porta
+ALTO;221;;Rodovia do Cafe Governador Ney Braga Balsa Nova PR 83650000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;223;;Avenida Ramiro Colleoni Vila Gilda Santo Andre SP 09040160 Brazil;sem numero de porta
+ALTO;225;;Avenida Alberto Benassi Jardim dos Manacas Araraquara SP 14804300 Brazil;sem numero de porta
+ALTO;226;;Avenida Antonio de Souza Noschese Jaguare Sao Paulo SP 05328000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;228;;SAMSUNG Avenida Severino Ballesteros Rodrigues Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;232;;Rodovia Raposo Tavares Centro Cotia SP 06708000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;234;;Avenida Quinze de Novembro Alexania GO 72930000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;237;;BURGER KING Lovat Umuarama PR 87520000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;239;;Avenida Joao Paulo I Embu das Artes SP 06817000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;241;;BR 287 2885 Urlandia Santa Maria RS 97070800 Brazil;sem numero de porta
+ALTO;244;;Rua Bocaiuva Centro Florianopolis SC 88015530 Brazil;sem numero de porta
+ALTO;245;;Rodovia Fernao Dias Santo Antonio Betim MG Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;246;;Lopes Cafe Primavera Guarapuava PR 85050030 Brazil;sem numero de porta
+ALTO;247;;Avenida Santa Catarina Dos Estados Balneario Camboriu SC 88339005 Brazil;sem numero de porta
+ALTO;252;;Avenida Engenheiro Caetano Alvares Mandaqui Sao Paulo SP 02413100 Brazil;sem numero de porta
+ALTO;253;;Avenida Santa Catarina Dos Estados Balneario Camboriu SC 88339005 Brazil;sem numero de porta
+ALTO;258;;Rodovia Presidente Dutra Itapegica Guarulhos SP 07025000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;259;;Avenida Gov Mario Covas Junior Maua SP 09390040 Brazil;sem numero de porta
+ALTO;260;;Rua Rosario Jardim Oriente Sao Jose dos Campos SP 12235420 Brazil;sem numero de porta
+ALTO;261;;Jardim Madalena Campinas SP 13091605 Brazil;sem numero de porta
+ALTO;268;;Rua Goncalves Crespo Tatuape Sao Paulo SP 03066030 Brazil;sem numero de porta
+ALTO;270;;Tyrol Sitio do Campo Praia Grande SP 11726000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;271;;Rua Capitao Pacheco e Chaves Mooca Sao Paulo SP 03126001 Brazil;sem numero de porta
+ALTO;272;;Vila Santa Maria Passo Fundo RS 83649600 Brazil;sem numero de porta
+ALTO;273;;Nova Iguacu Food Luz Nova Iguacu RJ Brazil;sem numero de porta
+ALTO;280;;RSC 453 Sanvitto Caxias do Sul RS 95112360 Brazil;sem numero de porta
+ALTO;283;;Vila Ipiranga Porto Alegre RS 91340001 Brazil;sem numero de porta
+ALTO;284;;Rua Vergueiro Steidel Aparecida Santos SP 11040271 Brazil;sem numero de porta
+ALTO;286;;Avenida Presidente Kennedy Subsetor Leste 6 Ribeirao Preto SP 14096350 Brazil;sem numero de porta
+ALTO;288;;Rua Jorge Marcolino de Rezende Pacaembu Londrina PR 86079230 Brazil;sem numero de porta
+ALTO;289;;Rodovia Governador Mario Covas Tijucas SC 88200000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;291;;SUBWAY Usiminas Ipatinga MG 35160290 Brazil;sem numero de porta
+ALTO;294;;Avenida Iguatemi Vila Brandina Campinas SP 13092500 Brazil;sem numero de porta
+ALTO;296;;Botequim Guanabara Monte Verde Florianopolis SC Brazil;sem numero de porta
+ALTO;297;;5 a Sec Industrial Autonomistas Osasco SP Brazil;sem numero de porta
+ALTO;302;;ERS 734 Rio Grande RS 96216400 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;305;;Cacau Noir Ceramica Sao Caetano do Sul SP Brazil;sem numero de porta
+ALTO;306;;BR 101 Distrito Industrial Sao Jose SC 88104810 Brazil;sem numero de porta
+ALTO;312;;Rua Prefeito Antonio Curvelo Benjamim Visconde de Araujo Macae RJ 27971210 Brazil;sem numero de porta
+ALTO;315;;Rua Olavo Barreto Viana Moinhos de Vento Porto Alegre RS 90570070 Brazil;sem numero de porta
+ALTO;318;;Rua Padre Anchieta Centro Sao Vicente SP 11310040 Brazil;sem numero de porta
+ALTO;321;;Avenida das Nacoes Unidas Itaim Bibi Sao Paulo SP 04795100 Brazil;sem numero de porta
+ALTO;328;;Viena Delicatessen Santo Amaro Sao Paulo SP 04710190 Brazil;sem numero de porta
+ALTO;329;;Avenida Maestro Paulo e Silva Jardim Carioca Rio de Janeiro RJ 21920445 Brazil;sem numero de porta
+ALTO;330;;Rua Manuel da Nobrega Centro Diadema SP 09910720 Brazil;sem numero de porta
+ALTO;333;;Scs Bloco B Asa Sul Brasilia DF 70332900 Brazil;sem numero de porta
+ALTO;334;;Multi Money Praca Souza Aranha Barra Funda Sao Paulo SP 05003130 Brazil;sem numero de porta
+ALTO;337;;Fazenda Militar Barueri SP 06440180 Brazil;sem numero de porta
+ALTO;338;;Rua Nova Vista Campo Grande Sao Paulo SP 04455240 Brazil;sem numero de porta
+ALTO;340;;Paris Boulevard Fraternidade Londrina PR 86027750 Brazil;sem numero de porta
+ALTO;342;;Avenida Anisio Haddad Sao Manoel Sao Jose do Rio Preto SP 15093000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;348;;Avenida Brasil Mariano Procopio Juiz de Fora MG 36080060 Brazil;sem numero de porta
+ALTO;349;;Banco do Brasil Barranco Taubate SP 12040000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;350;;Avenida Otto Baumgart Vila Guilherme Sao Paulo SP Brazil;sem numero de porta
+ALTO;351;;Rua Guaiao Aparecida Santos SP 11035260 Brazil;sem numero de porta
+ALTO;354;;Vila Nambi Jundiai SP 13202460 Brazil;sem numero de porta
+ALTO;358;;Via W Cinco Norte Asa Norte Brasilia DF Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;359;;Rodovia dos Metalurgicos 1189 Volta Redonda RJ 27253005 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;360;;Avenida Costa e Silva Jardim Polo Centro Foz do Iguacu PR 85863000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;363;;Rua Dianopolis Mooca Sao Paulo SP 03126007 Brazil;sem numero de porta
+ALTO;365;;SGAN 916 Bloco F Asa Norte Brasilia DF 70770100 Brazil;sem numero de porta
+ALTO;366;;Avenida Doutora Ruth Cardoso Alto de Pinheiros Sao Paulo SP 05477000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;367;;Alameda Rio Negro Alphaville Barueri SP Brazil;sem numero de porta
+ALTO;371;;Uberlandia Shopping Norte Gavea Uberlandia MG Brazil;sem numero de porta
+ALTO;372;;Avenida Rotary Ferrazopolis Sao Bernardo do Campo SP 09790000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;373;;Bb Basico Areal Pelotas RS 96085000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+MEDIO;14;;Avenida Maracana 972 Rio de Janeiro RJ 20511000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;59;;Avenida Manoel Goulart 2622 Presidente Prudente SP 19060000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;63;;Rua Doutor Joao Ribeiro 244 Sao Paulo SP 03634000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;68;;Avenida das Nacoes Unidas 22360 Sao Paulo SP 04795000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;96;;Rua Ermelino de Leao 1243 Ponta Grossa PR 84035000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;114;;Avenida Costa e Silva 185 Foz do Iguacu PR 85863000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;121;;Avenida Higienopolis 683 Sao Paulo SP 01238000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;152;;Avenida Regente Feijo 785 Sao Paulo SP 03342000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;178;;Avenida Raimundo Pereira de Magalhaes 1717 Sao Paulo SP 05145000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;183;;Avenida Doutor Antonio Maria Laet 851A Sao Paulo SP 02240000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;201;;Avenida Candido de Abreu 127 Curitiba PR 80530000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;210;;Avenida Candido de Abreu 127 Curitiba PR 80530000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;230;;Avenida Otto Baumgart 245 Sao Paulo SP 02049000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;242;;Avenida Otto Baumgart 372 Sao Paulo SP 02049000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;250;;Catuai Shopping Maringa Zona 43 Maringa PR 87070000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;295;;Avenida Pastor Martin Luther King Junior 126 Rio de Janeiro RJ 20765000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;300;;Rua Jean Anastace Rovelli 123 Cajamar SP 07750000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;319;;Avenida Presidente Kennedy 411 Sao Goncalo RJ 24445000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;324;;Avenida Raimundo Pereira de Magalhaes 1720 Sao Paulo SP 05145000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;335;;Rua Conselheiro Moreira de Barros 3054 Sao Paulo SP 02430000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;339;;Alameda Rio Negro 111 Barueri SP 06454000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;352;;Avenida Getulio Vargas 268 Jaragua do Sul SC 89251000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;353;;Rua Esmeralda 1025 Cajamar SP 07750000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;370;;Avenida General Furtado do Nascimento 4777 Sao Paulo SP 05477000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;374;;Avenida Santa Beatriz da Silva 1501 Uberaba MG 38050000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

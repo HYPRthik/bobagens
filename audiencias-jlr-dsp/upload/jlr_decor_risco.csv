@@ -1,0 +1,8 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;5;;Rua Doutor Antonio Carlos Assumpcao Pinheiros Sao Paulo SP 01441020 Brazil;sem numero de porta
+ALTO;8;;Avenida das Nacoes Unidas Itaim Bibi Sao Paulo SP 04578000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;12;;Alameda Gabriel Monteiro da Silva Jardim Paulista Sao Paulo SP 01441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;13;;Rodovia Raposo Tavares 27500 Cotia SP 06708000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+MEDIO;2;;Alameda Gabriel Monteiro da Silva 1487 Sao Paulo SP 05477000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;3;;Alameda Gabriel Monteiro da Silva 268 Sao Paulo SP 01442000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;15;;Alameda Araguaia 370 Barueri SP 06455000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

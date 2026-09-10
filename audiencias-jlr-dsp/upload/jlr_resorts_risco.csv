@@ -1,0 +1,9 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;5;;Estrada Ernesto Diedericksen Campos do Jordao SP 12460000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;6;;Rua Harry Bertell Jardim Martinelli Itatiaia RJ 27580000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;9;;Alameda das Siriemas Porto Feliz SP 18540000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;10;;Boa Vista Surf Lodge Porto Feliz SP 18540000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;11;;Residencial Fazenda da Grama Rodovia Miguel Melhado Campos Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+MEDIO;2;;Rua Elipio Goncalves da Silva 4000 Campos do Jordao SP 12460000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;3;;Avenida Doutor Alberto Penteado 35 Sao Paulo SP 05678000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;8;;Rua Francisco Vieira Mota 10 Aquiraz CE 61700000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
