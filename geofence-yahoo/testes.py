@@ -281,6 +281,20 @@ check("'Barao da Torre 623' preservado",
 check("'Loja 3004' ainda removido",
       len(L) > 1 and L[1] == "Avenida Farroupilha 4545 Canoas RS 92020475 Brazil", L[1:2])
 
+print("\n=== T9e número de porta com ponto de milhar e 'nº' ===")
+p = entrada("milhar.csv", "endereco,cidade,uf\n"
+    '"Alameda Franca, 1.151, 1º andar, Jardim Paulista, São Paulo - SP",São Paulo,SP\n'
+    '"Avenida Paulista, 2.584, Bela Vista, São Paulo - SP",São Paulo,SP\n'
+    '"Avenida Braz de Pina, nº 2153, Vista Alegre, Rio de Janeiro - RJ",Rio de Janeiro,RJ\n')
+rc, out = run([p, "-o", f"{TMP}/t9e", "--nome", "ml"])
+L = linhas(f"{TMP}/t9e/ml.txt") if rc == 0 else []
+check("'1.151' vira 1151, não '1 151'",
+      L[:1] == ["Alameda Franca 1151 Sao Paulo SP Brazil"], L[:1] or out[-300:])
+check("'2.584' vira 2584",
+      len(L) > 1 and L[1] == "Avenida Paulista 2584 Sao Paulo SP Brazil", L[1:2])
+check("'nº 2153' vira 2153",
+      len(L) > 2 and L[2] == "Avenida Braz de Pina 2153 Rio de Janeiro RJ Brazil", L[2:3])
+
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []
 for q in glob.glob(f"{TMP}/**/*.txt", recursive=True) + glob.glob(f"{TMP}/**/*.csv", recursive=True):

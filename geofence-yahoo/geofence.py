@@ -101,9 +101,23 @@ def sem_acento(s):
     return unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode()
 
 
+def normalizar_numero(s):
+    """Arruma numero de porta antes de qualquer corte de pontuacao.
+
+    "1.151" -> "1151": tirar o ponto sem juntar os digitos partiria o numero
+    em dois ("Alameda Franca 1 151").
+    "nº 2153" -> "2153": o simbolo some ao virar ASCII e sobra um "n" colado
+    ao numero. Exige o º/° de proposito — um "n" solto pode ser nome de rua.
+    """
+    t = str(s)
+    t = re.sub(r"(?<=\d)\.(?=\d{3}(?!\d))", "", t)
+    t = re.sub(r"\bn\s*[\u00ba\u00b0]\s*\.?\s*(?=\d)", "", t, flags=re.I)
+    return t
+
+
 def ascii_puro(s):
     """Deixa so letras, digitos e espaco — o que a DSP aceita sem risco."""
-    return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9 ]", " ", sem_acento(s))).strip()
+    return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9 ]", " ", sem_acento(normalizar_numero(s)))).strip()
 
 
 def slug(s):
@@ -244,7 +258,7 @@ def partir_endereco(txt):
     quem chama nao pode descartar o bairro, porque a cidade estaria escondida
     dentro dele ("... 300 Botafogo Macae RJ": Macae e a cidade, nao o bairro).
     """
-    t = str(txt).replace("\t", "  ")
+    t = normalizar_numero(str(txt)).replace("\t", "  ")
     # Alguns exports separam os componentes por ESPACO DUPLO em vez de virgula:
     #   "AV. PROF. CARLOS CUNHA  1000 - JARACATY  SAO LUIS - MA  65076-907  BRASIL"
     # E o mesmo formato, so com outro delimitador — converte para virgula e cai

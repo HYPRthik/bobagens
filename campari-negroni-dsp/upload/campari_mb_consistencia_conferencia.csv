@@ -1,0 +1,52 @@
+﻿linha;nome;categoria;origem;endereco_original;endereco_dsp;cidade;uf;cep;lat_original;lon_original;lat_corrigida;lon_corrigida;bairro_descartado;severidade;risco
+2;Tan Tan;;endereco;Rua Fradique Coutinho, 153, Pinheiros, São Paulo - SP;Rua Fradique Coutinho 153 Sao Paulo SP Brazil;São Paulo;SP;;-23.565138;-46.685197;-23.565138;-46.685197;Pinheiros;;
+3;The Liquor Store;;endereco;Alameda Franca, 1.151, 1º andar, Jardim Paulista, São Paulo - SP;Alameda Franca 1151 Sao Paulo SP Brazil;São Paulo;SP;;-23.561563;-46.664127;-23.561563;-46.664127;Jardim Paulista;;
+4;Exímia;;endereco;Rua Dr. Mário Ferraz, 507, Itaim Bibi, São Paulo - SP;Rua Dr Mario Ferraz 507 Sao Paulo SP Brazil;São Paulo;SP;;-23.583681;-46.679031;-23.583681;-46.679031;Itaim Bibi;;
+5;Santana Bar;;endereco;Rua Joaquim Antunes, 1.026, Pinheiros, São Paulo - SP;Rua Joaquim Antunes 1026 Sao Paulo SP Brazil;São Paulo;SP;;-23.565261;-46.680854;-23.565261;-46.680854;Pinheiros;;
+6;Caledonia Whisky & Co.;;endereco;Rua Vupabussu, 309, Pinheiros, São Paulo - SP;Rua Vupabussu 309 Sao Paulo SP Brazil;São Paulo;SP;;-23.559968;-46.699571;-23.559968;-46.699571;Pinheiros;;
+7;Picco;;endereco;Rua Lisboa, 294, Pinheiros, São Paulo - SP;Rua Lisboa 294 Sao Paulo SP Brazil;São Paulo;SP;;-23.561380;-46.678255;-23.56138;-46.678255;Pinheiros;;
+8;Bar dos Arcos;;endereco;Praça Ramos de Azevedo, s/n, subsolo do Theatro Municipal, República, São Paulo - SP;Praca Ramos de Azevedo subsolo do Theatro Municipal Republica Sao Paulo SP Brazil;São Paulo;SP;;-23.545319;-46.638435;-23.545319;-46.638435;;ALTO;sem numero de porta
+9;Guarita;;endereco;Rua Simão Álvares, 952, Pinheiros, São Paulo - SP;Rua Simao Alvares 952 Sao Paulo SP Brazil;São Paulo;SP;;-23.559866;-46.691425;-23.559866;-46.691425;Pinheiros;;
+10;Boca de Ouro;;endereco;Rua Cônego Eugênio Leite, 1121, Pinheiros, São Paulo - SP;Rua Conego Eugenio Leite 1121 Sao Paulo SP Brazil;São Paulo;SP;;-23.559740;-46.683669;-23.55974;-46.683669;Pinheiros;;
+11;Astor;;endereco;Rua Delfina, 163, Vila Madalena, São Paulo - SP (+ 4 unidades);Rua Delfina 163 Sao Paulo 4 unidades SP Brazil;São Paulo -   (+ 4 unidades);SP;;-23.554071;-46.694232;-23.554071;-46.694232;Vila Madalena;;
+12;The Punch Bar;;endereco;Rua Manuel da Nóbrega, 76, loja 17, Paraíso, São Paulo - SP;Rua Manuel da Nobrega 76 Sao Paulo SP Brazil;São Paulo;SP;;-23.568550;-46.649406;-23.56855;-46.649406;Paraíso;;
+13;Trinca Bar e Vermuteria;;endereco;Rua Costa Carvalho, 96, Pinheiros, São Paulo - SP;Rua Costa Carvalho 96 Sao Paulo SP Brazil;São Paulo;SP;;-23.560793;-46.699202;-23.560793;-46.699202;Pinheiros;;
+14;SubAstor;;endereco;Rua Delfina, 163, Vila Madalena, São Paulo - SP (+ 2 unidades);Rua Delfina 163 Sao Paulo 2 unidades SP Brazil;São Paulo -   (+ 2 unidades);SP;;-23.554071;-46.694232;-23.554071;-46.694232;Vila Madalena;;
+15;Rabo di Galo (Rosewood);;endereco;Rua Itapeva, 435, Bela Vista, São Paulo - SP (Hotel Rosewood);Rua Itapeva 435 Sao Paulo Hotel Rosewood SP Brazil;São Paulo -   (Hotel Rosewood);SP;;-23.560170;-46.653246;-23.56017;-46.653246;Bela Vista;;
+16;Fel;;endereco;Avenida Ipiranga, 200, Copan, loja 69, República, São Paulo - SP;Avenida Ipiranga 200 Sao Paulo SP Brazil;São Paulo;SP;;-23.546411;-46.644075;-23.546411;-46.644075;Copan República;;
+17;Bar do Cofre;;endereco;Rua João Brícola, 24, Centro Histórico, São Paulo - SP (Farol Santander);Rua Joao Bricola 24 Sao Paulo Farol Santander SP Brazil;São Paulo -   (Farol Santander);SP;;-23.545799;-46.634043;-23.545799;-46.634043;Centro Histórico;;
+18;Lágrima;;endereco;Rua Major Sertório, 95, Vila Buarque, São Paulo - SP;Rua Major Sertorio 95 Sao Paulo SP Brazil;São Paulo;SP;;-23.545467;-46.645687;-23.545467;-46.645687;Vila Buarque;;
+19;Baretto (Hotel Fasano);;endereco;Rua Vitório Fasano, 88, Jardim Paulista, São Paulo - SP;Rua Vitorio Fasano 88 Sao Paulo SP Brazil;São Paulo;SP;;-23.564534;-46.669448;-23.564534;-46.669448;Jardim Paulista;;
+20;Dentro Bar;;endereco;Largo do Arouche, 77, República, São Paulo - SP;Largo do Arouche 77 Sao Paulo SP Brazil;São Paulo;SP;;-23.541587;-46.645008;-23.541587;-46.645008;República;;
+21;Pina Drinques;;endereco;Rua Brigadeiro Galvão, 177, Barra Funda, São Paulo - SP;Rua Brigadeiro Galvao 177 Sao Paulo SP Brazil;São Paulo;SP;;;;;;Barra Funda;;
+22;Riviera Bar;;endereco;Avenida Paulista, 2.584, Bela Vista, São Paulo - SP;Avenida Paulista 2584 Sao Paulo SP Brazil;São Paulo;SP;;-23.560754;-46.657148;-23.560754;-46.657148;Bela Vista;;
+23;Dōmo;;endereco;Rua Major Sertório, 452, Vila Buarque, São Paulo - SP;Rua Major Sertorio 452 Sao Paulo SP Brazil;São Paulo;SP;;-23.545467;-46.645687;-23.545467;-46.645687;Vila Buarque;;
+24;Caracol;;endereco;Rua Boracéa, 160, Barra Funda, São Paulo - SP;Rua Boracea 160 Sao Paulo SP Brazil;São Paulo;SP;;-22.894998;-45.835666;-22.894998;-45.835666;Barra Funda;;
+25;Guilhotina;;endereco;Rua Inácio Pereira da Rocha, 63, Pinheiros, São Paulo - SP;Rua Inacio Pereira da Rocha 63 Sao Paulo SP Brazil;São Paulo;SP;;-23.561605;-46.692175;-23.561605;-46.692175;Pinheiros;;
+26;Nosso;;endereco;Rua Maria Quitéria, 91, Ipanema, Rio de Janeiro - RJ;Rua Maria Quiteria 91 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.983371;-43.207164;-22.983371;-43.207164;Ipanema;;
+27;Casa Horto / P'Alma;;endereco;Rua Pacheco Leão, 696, Jardim Botânico, Rio de Janeiro - RJ;Rua Pacheco Leao 696 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.965363;-43.226038;-22.965363;-43.226038;Jardim Botânico;;
+28;Elena Horto;;endereco;Rua Pacheco Leão, 758, Jardim Botânico, Rio de Janeiro - RJ;Rua Pacheco Leao 758 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.965358;-43.226397;-22.965358;-43.226397;Jardim Botânico;;
+29;Liz Cocktails & Co;;endereco;Rua Dias Ferreira, 679A, Leblon, Rio de Janeiro - RJ;Rua Dias Ferreira 679A Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.984296;-43.227495;-22.984296;-43.227495;Leblon;;
+30;Vian Cocktail Bar;;endereco;Rua Visconde de Silva, 21, Botafogo, Rio de Janeiro - RJ;Rua Visconde de Silva 21 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.957184;-43.192746;-22.957184;-43.192746;Botafogo;;
+31;Suru Bar;;endereco;Rua da Lapa, 151, Lapa, Rio de Janeiro - RJ;Rua da Lapa 151 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.915589;-43.177732;-22.915589;-43.177732;Lapa;;
+32;Chanchada;;endereco;Rua General Polidoro, 164B, Botafogo, Rio de Janeiro - RJ;Rua General Polidoro 164B Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.956064;-43.185739;-22.956064;-43.185739;Botafogo;;
+33;Botica;;endereco;Rua Fernandes Guimarães, 30, Botafogo, Rio de Janeiro - RJ;Rua Fernandes Guimaraes 30 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.954454;-43.182765;-22.954454;-43.182765;Botafogo;;
+34;Jurubeba;;endereco;Rua Real Grandeza, 196, Botafogo, Rio de Janeiro - RJ;Rua Real Grandeza 196 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.955430;-43.192671;-22.95543;-43.192671;Botafogo;;
+35;Quartinho;;endereco;Rua Arnaldo Quintela, 124, Botafogo, Rio de Janeiro - RJ;Rua Arnaldo Quintela 124 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.955895;-43.184846;-22.955895;-43.184846;Botafogo;;
+36;Balcão 201;;endereco;Rua Dias Ferreira, 113, Leblon, Rio de Janeiro - RJ;Rua Dias Ferreira 113 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.982187;-43.224804;-22.982187;-43.224804;Leblon;;
+37;Blue Blazer;;endereco;Rua Álvaro Ramos, 11, Botafogo, Rio de Janeiro - RJ;Rua Alvaro Ramos 11 Rio de Janeiro RJ Brazil;Rio de Janeiro;RJ;;-22.956052;-43.180420;-22.956052;-43.18042;Botafogo;;
+38;Xerelete;;endereco;Orla Bardot, 514, Centro, Armação dos Búzios - RJ;Orla Bardot 514 Armacao dos Buzios RJ Brazil;Armação dos Búzios;RJ;;;;;;Centro;;
+39;Atlântico (Paraty);;endereco;Rua Dona Geralda, 302, Centro Histórico, Paraty - RJ;Rua Dona Geralda 302 Paraty RJ Brazil;Paraty;RJ;;-23.218901;-44.712563;-23.218901;-44.712563;Centro Histórico;;
+40;Mykola Lab Bar;;endereco;Rua Visconde do Rio Branco, 1087, Centro, Curitiba - PR;Rua Visconde do Rio Branco 1087 Curitiba PR Brazil;Curitiba;PR;;-25.431383;-49.280396;-25.431383;-49.280396;Centro;;
+41;Ginger Bar;;endereco;Rua Saldanha Marinho, 1220 (fundos), Centro, Curitiba - PR;Rua Saldanha Marinho 1220 Curitiba PR Brazil;Curitiba;PR;;-25.432714;-49.283294;-25.432714;-49.283294;(fundos) Centro;;
+42;Cocktails Continental;;endereco;Alameda Dr. Carlos de Carvalho, 943, Batel, Curitiba - PR;Alameda Dr Carlos de Carvalho 943 Curitiba PR Brazil;Curitiba;PR;;-25.434759;-49.283883;-25.434759;-49.283883;Batel;;
+43;Dom Bar;;endereco;Avenida Iguaçu, 4399, Curitiba - PR (+ unidade Av. Vicente Machado);Avenida Iguacu 4399 Curitiba unidade Av Vicente Machado PR Brazil;Curitiba -   (+ unidade Av. Vicente Machado);PR;;-25.454976;-49.302647;-25.454976;-49.302647;;;
+44;La Boca Bar y Cocina;;endereco;Rua Visconde do Rio Branco, 367, Mercês, Curitiba - PR;Rua Visconde do Rio Branco 367 Curitiba PR Brazil;Curitiba;PR;;-25.423893;-49.284105;-25.423893;-49.284105;Mercês;;
+45;Canto Bar de Parrilla;;endereco;Alameda Prudente de Moraes, 1069, Centro, Curitiba - PR;Alameda Prudente de Moraes 1069 Curitiba PR Brazil;Curitiba;PR;;-25.431153;-49.281892;-25.431153;-49.281892;Centro;;
+46;Gards Rooftop;;endereco;Rua Comendador Macedo, 630, 11º andar, Curitiba - PR;Rua Comendador Macedo 630 Curitiba PR Brazil;Curitiba;PR;;-25.429451;-49.258331;-25.429451;-49.258331;;;
+47;La Casita;;endereco;Rua Fernando de Noronha, 770, Londrina - PR;Rua Fernando de Noronha 770 Londrina PR Brazil;Londrina;PR;;-23.307695;-51.174452;-23.307695;-51.174452;;;
+48;Puro Oyster Bar;;endereco;Avenida dos Búzios, 1800, Jurerê, Florianópolis - SC;Avenida dos Buzios 1800 Florianopolis SC Brazil;Florianópolis;SC;;-27.433580;-48.513568;-27.43358;-48.513568;Jurerê;;
+49;Rabo di Galo Floripa;;endereco;Florianópolis - SC (verificar endereço atual);Florianopolis verificar endereco atual SC Brazil;(verificar endereço atual);SC;;;;;;;ALTO;"sem numero de porta; logradouro sem nome"
+50;Duplex 48;;endereco;Região da Rua Bocaiúva, Centro, Florianópolis - SC;Regiao da Rua Bocaiuva Centro Florianopolis SC Brazil;Florianópolis;SC;;-27.586082;-48.547846;-27.586082;-48.547846;;ALTO;sem numero de porta
+52;Depósito Cocktail Bar;;endereco;Rua Uruguai, 456, Nações, Balneário Camboriú - SC;Rua Uruguai 456 Balneario Camboriu SC Brazil;Balneário Camboriú;SC;;-26.973795;-48.644051;-26.973795;-48.644051;Nações;;
+53;Taj Bar;;endereco;Avenida Atlântica, 5710, Centro, Balneário Camboriú - SC;Avenida Atlantica 5710 Balneario Camboriu SC Brazil;Balneário Camboriú;SC;;-27.006199;-48.606324;-27.006199;-48.606324;Centro;;

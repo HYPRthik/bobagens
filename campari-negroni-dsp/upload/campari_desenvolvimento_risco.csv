@@ -1,0 +1,10 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;23;BOTEQUIM FRANCISCA;RUA PROFESSORA FRANCISCA DE QUEIROZ JARDIM AMERICA SOROCABA SP 18046703 Brazil;sem numero de porta
+ALTO;50;SOLEIL RESTAURANTE;Avenida Borges de Medeiros Bairro Belverede GRAMADO RS 95670092 Brazil;sem numero de porta
+MEDIO;10;HOTEL JEQUITIMAR;AVENIDA MARJORY DA SILVA PRADO 1100 GUARUJA SP 11444000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;11;RESTAURANTE LAGO DO HOLANDES;AVENIDA DAS TULIPAS 245 HOLAMBRA SP 13825000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;12;HOSTEL DA VILA;RUA SAO BENEDITO 202 ILHABELA SP 12630000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;17;BTT BURGER;Rua HUDSON 615 RIBEIRAO PRETO SP 14024000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;37;BALCAO SAVASSI;RUA FERNANDES TOURINHO 19 BELO HORIZONTE MG 30112000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;48;ONZACOCKTALIS;Praca DR AVELINO DE QUEIROZ 234 PIUMHI RP MG 37925000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;52;LOCALE PORTO ALEGRE;RUA JOAO WALLIG 1800 PORTO ALEGRE RS 91340000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

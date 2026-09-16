@@ -1,0 +1,20 @@
+﻿linha;nome;categoria;origem;endereco_original;endereco_dsp;cidade;uf;cep;lat_original;lon_original;lat_corrigida;lon_corrigida;bairro_descartado;severidade;risco
+2;Hideout Speakeasy;;endereco;Rua Bahia, 116, Gonzaga, Santos - SP;Rua Bahia 116 Santos SP Brazil;Santos;SP;;-23.962783;-46.333619;-23.962783;-46.333619;Gonzaga;;
+3;Bar Negroni 1265;;endereco;Av. Pres. Vargas, 1265, Jardim São Luiz, Ribeirão Preto - SP;Avenida Pres Vargas 1265 Ribeirao Preto SP Brazil;Ribeirão Preto;SP;;-21.199550;-47.807904;-21.19955;-47.807904;Jardim São Luiz;;
+4;Cena de Campinas (Cambuí);;endereco;Bairro Cambuí, Campinas - SP;Bairro Cambui Campinas SP Brazil;Campinas;SP;;;;;;;ALTO;sem numero de porta
+5;Glouton;;endereco;Rua Bárbara Heliodora, 59, Lourdes, Belo Horizonte - MG;Rua Barbara Heliodora 59 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.931491;-43.944121;-19.931491;-43.944121;Lourdes;;
+6;Pirex;;endereco;Galeria São Vicente, Av. Amazonas, 1.049, loja 54, Centro, Belo Horizonte - MG;Avenida Amazonas 1049 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.922372;-43.944291;-19.922372;-43.944291;Centro;;
+7;Cachaçaria Lamparina;;endereco;Avenida Olegário Maciel, 742, Centro, Belo Horizonte - MG;Avenida Olegario Maciel 742 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.918469;-43.943885;-19.918469;-43.943885;Centro;;
+8;Timbuca;;endereco;Avenida Afonso Pena, 4321, Serra, Belo Horizonte - MG;Avenida Afonso Pena 4321 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.939450;-43.925897;-19.93945;-43.925897;Serra;;
+9;Cabernet Butiquim;;endereco;Rua Levindo Lopes, 12 e 22, Savassi, Belo Horizonte - MG;Rua Levindo Lopes 12 e 22 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.937785;-43.939638;-19.937785;-43.939638;Savassi;;
+10;Okinaki;;endereco;Avenida Álvares Cabral, 1303, Lourdes, Belo Horizonte - MG;Avenida Alvares Cabral 1303 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.929427;-43.944246;-19.929427;-43.944246;Lourdes;;
+11;A Porca Voadora;;endereco;Rua do Ouro, 1709, Serra, Belo Horizonte - MG;Rua do Ouro 1709 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.946081;-43.919027;-19.946081;-43.919027;Serra;;
+12;Juramento 202;;endereco;Rua Juramento, 202, Pompeia, Belo Horizonte - MG;Rua Juramento 202 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.917609;-43.902434;-19.917609;-43.902434;Pompeia;;
+13;Cozinha Tupis;;endereco;Av. Olegário Maciel, 742, loja 2161, Centro, Belo Horizonte - MG;Avenida Olegario Maciel 742 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.920273;-43.944536;-19.920273;-43.944536;Centro;;
+14;Whisper Bar;;endereco;Belo Horizonte - MG (verificar endereço atual);Belo Horizonte verificar endereco atual MG Brazil;(verificar endereço atual);MG;;-19.932109;-43.945969;-19.932109;-43.945969;;ALTO;sem numero de porta
+15;Mercadinho Bicalho – Bar do Nivaldo;;endereco;Rua Mármore, 556, Santa Tereza, Belo Horizonte - MG;Rua Marmore 556 Belo Horizonte MG Brazil;Belo Horizonte;MG;;-19.916295;-43.918282;-19.916295;-43.918282;Santa Tereza;;
+16;Capincho;;endereco;Praça Dr. Maurício Cardoso, 61, 2º andar, Moinhos de Vento, Porto Alegre - RS;Praca Dr Mauricio Cardoso 61 Porto Alegre RS Brazil;Porto Alegre;RS;;-30.022742;-51.203152;-30.022742;-51.203152;Moinhos de Vento;;
+17;Olivos 657;;endereco;Rua da República, 657, Cidade Baixa, Porto Alegre - RS;Rua da Republica 657 Porto Alegre RS Brazil;Porto Alegre;RS;;-30.040075;-51.225792;-30.040075;-51.225792;Cidade Baixa;;
+18;Casa Vivá;;endereco;Rua Barão de Santo Ângelo, 376, Moinhos de Vento, Porto Alegre - RS;Rua Barao de Santo Angelo 376 Porto Alegre RS Brazil;Porto Alegre;RS;;-30.023147;-51.204438;-30.023147;-51.204438;Moinhos de Vento;;
+19;Dry Moments & Drinks;;endereco;Porto Alegre - RS (verificar endereço atual);Porto Alegre verificar endereco atual RS Brazil;(verificar endereço atual);RS;;-30.021810;-51.195174;-30.02181;-51.195174;;ALTO;sem numero de porta
+20;Capone Drinkeria;;endereco;Rua Castro Alves, 449, Independência, Porto Alegre - RS;Rua Castro Alves 449 Porto Alegre RS Brazil;Porto Alegre;RS;;-30.030240;-51.209136;-30.03024;-51.209136;Independência;;
