@@ -111,6 +111,7 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 | `--nome` | nome do arquivo de entrada | Nome base dos arquivos gerados |
 | `--pais` | `Brazil` | País no fim do endereço. Vazio para omitir |
 | `--aprovados` | — | Retorno da DSP de um upload anterior |
+| `--nome-sem-endereco` | — | Último recurso: sem logradouro, monta `<nome> <cidade> <UF>`. Marca tudo ALTO — a DSP só aceita nome em Airports, Arena/Stadiums e Universities/Colleges |
 | `--manter-bairro` | — | Não descarta o bairro |
 | `--separar-por` | — | Gera um arquivo por valor da coluna (ex: `POI`, `Estado`) — cada line item recebe uma lista |
 | `--split` | `10000` | Máximo de endereços por arquivo |
@@ -121,7 +122,7 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 python3 testes.py
 ```
 
-49 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
+53 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
 recusa de lista só com coordenadas, remoção do bairro nas três formas em que a
 cidade é identificável, proteção contra apagar a cidade quando não é, número da
 porta, expansão de abreviação, encoding, sem cabeçalho, categoria isenta,

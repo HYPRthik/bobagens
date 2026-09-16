@@ -295,6 +295,24 @@ check("'2.584' vira 2584",
 check("'nº 2153' vira 2153",
       len(L) > 2 and L[2] == "Avenida Braz de Pina 2153 Rio de Janeiro RJ Brazil", L[2:3])
 
+print("\n=== T9f --nome-sem-endereco como último recurso ===")
+p = entrada("semrua.csv", "nome,cidade,uf,endereco\n"
+    "SUPERMERCADO DELTA MAX,Piracicaba,SP,\n"
+    "Bar X,São Paulo,SP,\"Rua Augusta, 100, Consolação, São Paulo - SP, 01305-100\"\n")
+rc, out = run([p, "-o", f"{TMP}/t9f0", "--nome", "s0"])
+check("sem a opção: descarta o que não tem rua",
+      rc == 0 and linhas(f"{TMP}/t9f0/s0.txt") == ["Rua Augusta 100 Sao Paulo SP 01305100 Brazil"],
+      linhas(f"{TMP}/t9f0/s0.txt") if rc == 0 else out[-300:])
+rc, out = run([p, "-o", f"{TMP}/t9f", "--nome", "s1", "--nome-sem-endereco"])
+L = linhas(f"{TMP}/t9f/s1.txt") if rc == 0 else []
+check("com a opção: usa o nome do POI", "SUPERMERCADO DELTA MAX Piracicaba SP Brazil" in L, L)
+check("endereço bom continua vindo do endereço",
+      "Rua Augusta 100 Sao Paulo SP 01305100 Brazil" in L, L)
+risco = {x["endereco_dsp"]: x["severidade"] for x in csv.DictReader(
+    io.StringIO(open(f"{TMP}/t9f/s1_risco.csv", encoding="utf-8-sig").read()), delimiter=";")}
+check("o que veio pelo nome está marcado ALTO",
+      risco.get("SUPERMERCADO DELTA MAX Piracicaba SP Brazil") == "ALTO", risco)
+
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []
 for q in glob.glob(f"{TMP}/**/*.txt", recursive=True) + glob.glob(f"{TMP}/**/*.csv", recursive=True):

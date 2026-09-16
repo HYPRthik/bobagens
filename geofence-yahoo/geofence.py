@@ -451,6 +451,11 @@ def main():
     ap.add_argument("-o", "--saida", default="saida_dsp", help="diretorio de saida")
     ap.add_argument("--nome", default=None, help="nome base dos arquivos gerados")
     ap.add_argument("--pais", default="Brazil", help="pais anexado ao fim do endereco (vazio para omitir)")
+    ap.add_argument("--nome-sem-endereco", action="store_true",
+                    help="quando NAO ha logradouro, monta '<nome do POI> <cidade> <UF>' "
+                         "em vez de descartar. Ultimo recurso: a DSP so aceita POI pelo "
+                         "nome em Airports, Arena/Stadiums e Universities/Colleges — "
+                         "qualquer outra categoria costuma falhar. Tudo sai marcado ALTO.")
     ap.add_argument("--manter-bairro", action="store_true",
                     help="mantem o bairro no endereco (padrao: descarta, ver docstring)")
     ap.add_argument("--aprovados", default=None, metavar="RETORNO.CSV",
@@ -579,6 +584,28 @@ def main():
         else:
             # endereco util precisa de rua e de pelo menos cidade ou CEP
             if not miolo or not (cidade or cep):
+                # ultimo recurso pedido na linha de comando: identifica o POI pelo
+                # nome + cidade. A DSP so aceita isso em Airports, Arena/Stadiums e
+                # Universities/Colleges, entao vai tudo marcado ALTO.
+                if a.nome_sem_endereco and nome and cidade:
+                    linha = ascii_puro(" ".join(p for p in (nome, cidade, uf, cep, a.pais) if p))
+                    if len(linha) >= 8:
+                        saidas.append(linha)
+                        if cols_grupo is not None:
+                            grupos.setdefault(grupo_de(row), []).append(linha)
+                        confer.append({
+                            "linha": n, "nome": nome, "categoria": categoria,
+                            "origem": "nome do POI (sem logradouro na origem)",
+                            "endereco_original": bruto, "endereco_dsp": linha,
+                            "cidade": cidade or "", "uf": uf or "", "cep": cep or "",
+                            "lat_original": campo(row, "lat"), "lon_original": campo(row, "lon"),
+                            "lat_corrigida": "" if lat is None else f"{lat:.6f}".rstrip("0").rstrip("."),
+                            "lon_corrigida": "" if lon is None else f"{lon:.6f}".rstrip("0").rstrip("."),
+                            "bairro_descartado": "", "severidade": "ALTO",
+                            "risco": "sem logradouro na origem: identificado so pelo nome do POI, "
+                                     "que a DSP so aceita em Airports, Arena/Stadiums e "
+                                     "Universities/Colleges"})
+                        continue
                 motivo = ("so tem coordenada, sem endereco" if (cla or clo) and not bruto
                           else "endereco incompleto")
                 descartes.append((n, nome or f"linha {n}", motivo, bruto or "(vazio)"))

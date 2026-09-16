@@ -39,17 +39,33 @@ corretamente nessas linhas.
 Também trata `nº 2153`, onde o símbolo some ao virar ASCII e deixa um `n` colado
 ao número. A regra exige o `º`/`°` de propósito — um `n` solto pode ser nome de rua.
 
-## O que ficou de fora
+## PDVs — arquivo de última tentativa
 
-**`campari_pdvs_acima_75_notas.xlsx` não dá para subir.** Ele tem CNPJ, Razão
-Social, Município, UF e coordenadas — mas **nenhum endereço de rua**. A DSP lê um
-endereço por linha em texto livre, e PDV não está entre as categorias que podem
-ir só com o nome (só Airports, Arena/Stadiums e Universities/Colleges).
+`campari_pdvs_acima_75_notas.xlsx` não tem **nenhum endereço de rua**: só CNPJ,
+Razão Social, Nome Fantasia, Município, UF e coordenada. Foram tentadas duas
+saídas antes de recorrer ao nome:
 
-`origem/pdvs_SEM_ENDERECO.csv` traz os 70 PDVs (a linha TOTAL foi excluída) com
-uma coluna `ENDERECO_A_PREENCHER`. O caminho limpo é puxar o endereço pelo CNPJ
-na base da Receita — tentei consultar daqui, mas o proxy de saída bloqueia. Com
-o arquivo preenchido, é só rodar o mesmo comando.
+1. Cruzar as coordenadas com as bases de endereço já processadas (JLR, cinemas,
+   Mercado Livre — 5.521 coordenadas). **Zero casaram**: universo de POI diferente.
+2. Puxar o endereço pelo CNPJ na base da Receita. **O proxy de saída bloqueia**
+   as duas APIs públicas testadas.
+
+`campari_pdvs.txt` tem então 66 linhas no formato `<Nome Fantasia> <Município>
+<UF> Brazil`, geradas com `--nome-sem-endereco`:
+
+```
+SUPERMERCADO JVA JUNDIAI SP Brazil
+EMPORIO PAVANELLI PIRACICABA SP Brazil
+```
+
+**Expectativa baixa.** A DSP só aceita POI pelo nome em Airports, Arena/Stadiums
+e Universities/Colleges — supermercado não está na lista. As 70 linhas saem
+marcadas ALTO. A favor: 65 dos 66 são nomes de estabelecimento reais, vários de
+rede conhecida (GOOD BOM, JAU SERVE, TONIN); só um é pessoa física.
+
+O caminho que funciona continua sendo endereço. `origem/pdvs_SEM_ENDERECO.csv`
+traz os 70 PDVs (a linha TOTAL foi excluída) com coluna `ENDERECO_A_PREENCHER`.
+Preenchido, é só rodar o mesmo comando sem a opção.
 
 Três bares também ficaram de fora ou marcados, por limitação da origem:
 
