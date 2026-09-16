@@ -8,7 +8,7 @@ ALTO;52;;Avenida Sete de Setembro Reboucas 80230 010 Curitiba PR 80230010 Brazil
 ALTO;54;;Rua Jose Fernandes Maldonado Bairro Alto Curitiba PR 82840020 Brazil;sem numero de porta
 ALTO;62;;Rodovia Professor Alfredo Rolim de Moura 1001 Mogi das Cruzes SP 08880000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;70;;Rua Raimundo Correa Vila Marina Dias Sorocaba SP 18035265 Brazil;sem numero de porta
-ALTO;71;;Torre Maggiore Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil;sem numero de porta
+ALTO;71;;Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil;sem numero de porta
 ALTO;96;;Avenida Sete de Setembro Centro Passo Fundo RS 99010121 Brazil;sem numero de porta
 ALTO;110;;Rua Gra Nicco Mossungue Curitiba PR 81200200 Brazil;sem numero de porta
 ALTO;111;;Avenida Brigadeiro Faria Lima Itaim Bibi Sao Paulo SP 04538133 Brazil;sem numero de porta
@@ -43,7 +43,7 @@ ALTO;303;;Alameda Doutor Octavio Pinheiro Brisolla Vila Cidade Universitaria Bau
 ALTO;304;;Avenida Getulio Vargas 21 51 Vila Aviacao Bauru SP 17017383 Brazil;sem numero de porta
 ALTO;309;;Ibbca 2008 Corretora de Seguros Centro Florianopolis SC 88015200 Brazil;sem numero de porta
 ALTO;319;;Rua Padre Nobrega Oficinas Ponta Grossa PR 84040090 Brazil;sem numero de porta
-ALTO;329;;D Daniel 620 686 Rua Dom Jose Vila Real Balneario Camboriu SC 88337130 Brazil;sem numero de porta
+ALTO;329;;Rua Dom Jose Vila Real Balneario Camboriu SC 88337130 Brazil;sem numero de porta
 ALTO;338;;Rua Adolfo Serra Subsetor Sul 4 Ribeirao Preto SP 14020605 Brazil;sem numero de porta
 ALTO;346;;Rua Alferes Angelo Sampaio Merces Curitiba PR 80730460 Brazil;sem numero de porta
 ALTO;356;;Gsw Interior Paulista Subsetor Sul 5 Ribeirao Preto SP Brazil;sem numero de porta
@@ -111,8 +111,8 @@ ALTO;659;;Polo Wear Primavera Guarapuava PR 85050030 Brazil;sem numero de porta
 ALTO;699;;Estrada do Tindiba Taquara Rio de Janeiro RJ 22730262 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;700;;Estrada Sao Tarcisio 144 Rio de Janeiro RJ 23530827 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;701;;Rua Rosalina Bravo Barra da Tijuca Rio de Janeiro RJ 22631260 Brazil;sem numero de porta
-ALTO;711;;Banco 24horas Rua Goncalves Dias Santo Agostinho Belo Horizonte MG 30140094 Brazil;sem numero de porta
-ALTO;728;;Carlos Trein Filho AL 1325 Esq Barao de Uba Rua Carlos Trein Filho Bela Vista Porto Alegre RS 90450120 Brazil;sem numero de porta
+ALTO;711;;Rua Goncalves Dias Santo Agostinho Belo Horizonte MG 30140094 Brazil;sem numero de porta
+ALTO;728;;Rua Carlos Trein Filho Bela Vista Porto Alegre RS 90450120 Brazil;sem numero de porta
 ALTO;736;;Shn Bloco B Asa Norte Brasilia DF 70704020 Brazil;sem numero de porta
 ALTO;741;;Rua Rio Branco 23 34 Vila Nova Santa Clara Bauru SP 17014037 Brazil;sem numero de porta
 ALTO;744;;Catedral de Nossa Senhora das Dores Praca Doutor Luciano Esteves Centro Limeira SP 13480211 Brazil;sem numero de porta
@@ -120,6 +120,7 @@ ALTO;748;;Rua Redentora Imperial Sao Jose do Rio Preto SP 15015780 Brazil;sem nu
 ALTO;750;;Avenida Republica do Libano 1A 15 Aeroporto Goiania GO 74070045 Brazil;sem numero de porta
 ALTO;752;;Srtvs 12 Asa Sul Brasilia DF 70340901 Brazil;sem numero de porta
 ALTO;757;;Avenida Presidente Kennedy Indaiatuba SP 13334170 Brazil;sem numero de porta
+ALTO;773;;Rua Sao Bento Centro Sorocaba SP 18010030 Brazil;sem numero de porta
 ALTO;774;;Rua Rio Branco 24 65 Vila Samaritana Bauru SP 17016190 Brazil;sem numero de porta
 ALTO;785;;Rua Treze de Maio Bela Vista Sao Paulo SP 04849529 Brazil;sem numero de porta
 ALTO;787;;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05423150 Brazil;sem numero de porta

@@ -5,7 +5,7 @@ Rua Tonelero 248 Rio de Janeiro RJ 22030001 Brazil
 Avenida RADIAL OESTE Rio de Janeiro RJ Brazil
 Avenida Aquarela do Brasil 6 Rio de Janeiro RJ 22610010 Brazil
 Rua Conde de Bonfim 344 Rio de Janeiro RJ 20520054 Brazil
-Avenida PRESIDENTE VARGAS 160 Rio de Janeiro RJ 20071002 Brazil
+Avenida Presidente Vargas Centro Rio de Janeiro RJ 20071002 Brazil
 Avenida Pastor Martin Luther King Junior Pavuna Rio de Janeiro RJ 21520002 Brazil
 Avenida Pastor Martin Luther King Jr Rio de Janeiro RJ 20760005 Brazil
 Rua Joana Angelica 159 Rio de Janeiro RJ 22420030 Brazil

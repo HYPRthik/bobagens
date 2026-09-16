@@ -1,5 +1,6 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
 ALTO;13;;Avenida Ministro Ivan Lins Barra da Tijuca Rio de Janeiro RJ 22620160 Brazil;sem numero de porta
+ALTO;32;;Setor de Habitacoes Individuais Sul Lago Sul DF 71608900 Brazil;sem numero de porta
 ALTO;34;;Avenida Tiradentes Ciclo II Londrina PR 86072000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;39;;Terminal Asa Sul Asa Sul Brasilia DF 70610200 Brazil;sem numero de porta
 ALTO;40;;Avenida Prefeito Luiz Latorre Chacara Urbana Jundiai SP 13209430 Brazil;sem numero de porta
@@ -8,12 +9,12 @@ ALTO;62;;BR 153 Autodromo Goiania GO Brazil;sem numero de porta
 ALTO;70;;Avenida Jose Correia Machado Jardim Parque Morada do Sol Montes Claros MG 39400116 Brazil;sem numero de porta
 ALTO;75;;Rua Adao Dionisio Neugebauer Bortowiski Centro Eldorado do Sul RS 92990000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;76;;BR 470 Salto do Norte Blumenau SC Brazil;sem numero de porta
-ALTO;85;;Ponto5 Rua Carolina Florence Jardim Nossa Senhora Auxiliadora Campinas SP 13073225 Brazil;sem numero de porta
+ALTO;85;;Rua Carolina Florence Jardim Nossa Senhora Auxiliadora Campinas SP 13073225 Brazil;sem numero de porta
 ALTO;97;;Rua Eugenio Rocha Filho Subsetor Sul 3 Ribeirao Preto SP 14020640 Brazil;sem numero de porta
 ALTO;110;;Rodovia Governador Leonel de Moura Brizola Imigrante Lajeado RS Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;115;;Gdm Seeds Passo Fundo RS 99052840 Brazil;sem numero de porta
 ALTO;116;;BR 470 Navegantes Rio do Sul SC 89160000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;118;;PR 364 Jardim das Americas Guarapuava PR 85030230 Brazil;sem numero de porta
+ALTO;118;;Jardim das Americas Guarapuava PR 85030230 Brazil;sem numero de porta
 ALTO;121;;Viaduto Fernando Osorio Tres Vendas Pelotas RS 96070005 Brazil;sem numero de porta
 ALTO;123;;Saccaro Bal Camboriu Dos Estados Balneario Camboriu SC Brazil;sem numero de porta
 ALTO;125;;PR 323 Cruzeiro do Oeste PR 87400000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -41,7 +42,7 @@ ALTO;179;;Avenida dos Vinhedos Morada da Colina Uberlandia MG 38411159 Brazil;se
 ALTO;180;;Rodovia Washington Luis Portal das Laranjeiras Araraquara SP 14808080 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;181;;Avenida Presidente Juscelino K de Oliveira Moyses Miguel Haddad Sao Jose do Rio Preto SP 15091450 Brazil;sem numero de porta
 ALTO;182;;Rodovia Transbrasiliana Sao Jose do Rio Preto SP 15053750 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;184;;BR 153 Jardim Belo Horizonte Aparecida de Goiania GO Brazil;sem numero de porta
+ALTO;184;;Jardim Belo Horizonte Aparecida de Goiania GO Brazil;sem numero de porta
 ALTO;185;;Alameda das Sibipirunas Ceasa Goiania GO 74681215 Brazil;sem numero de porta
 ALTO;186;;Rodovia Marechal Rondon Alvorada Aracatuba SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;188;;Rodovia Raposo Tavares Regente Feijo SP 19570000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"

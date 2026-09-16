@@ -133,7 +133,7 @@ Alameda Itu 852 Sao Paulo SP 01421000 Brazil
 Rua Oscar Freire 390 Sao Paulo SP 01426000 Brazil
 Rua Cincinato Braga 213 Sao Paulo SP 01333010 Brazil
 Clinica Paulista Terapeutica Cardio Vascular Bela Vista Sao Paulo SP 01323050 Brazil
-1 Batalhao de Policia Militar Rua Frei Caneca Centro Rio de Janeiro RJ 20211005 Brazil
+Rua Frei Caneca Centro Rio de Janeiro RJ 20211005 Brazil
 Avenida Pasteur 501 Rio de Janeiro RJ 22290240 Brazil
 Rua I Brava Armacao dos Buzios RJ 28950000 Brazil
 Travessa Borges 58 Rio de Janeiro RJ 20735140 Brazil
@@ -163,7 +163,7 @@ Avenida Vereador Benedito Adelino 9000 Angra dos Reis RJ Brazil
 Rua Maria Candida 1813 Sao Paulo SP 02071013 Brazil
 BR 251 Cristalina GO 73850000 Brazil
 Sri Hfa Cruzeiro DF 70658700 Brazil
-Instituto Acreditar Ceon Qnc 15 Taguatinga DF 72115650 Brazil
+Setor C Norte Taguatinga DF 72115650 Brazil
 Parquinho Infantil Aguas Claras DF 71904540 Brazil
 Smpw Quadra 12 Park Way DF 71741204 Brazil
 Rua Amazonas 11 Valparaiso de Goias GO 72873009 Brazil
@@ -173,7 +173,7 @@ Alameda das Paineiras Jardim Goias Goiania GO 74810102 Brazil
 Regus Praca XV Centro Rio de Janeiro RJ 20010010 Brazil
 Rua Ferradura 128 Cabo Frio RJ Brazil
 Praia do Iguacu T02 Vila do Abraao Angra dos Reis RJ Brazil
-T02 Vila do Abraao Angra dos Reis RJ Brazil
+Vila do Abraao Angra dos Reis RJ Brazil
 Avenida Gen Euclides de O Figueiredo Itaguai RJ 23826600 Brazil
 Mistura Classica Verolme Angra dos Reis RJ Brazil
 Rua Gleba D Portogalo Angra dos Reis RJ 23917010 Brazil

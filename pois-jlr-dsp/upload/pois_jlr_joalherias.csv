@@ -37,7 +37,7 @@ Avenida Ibirapuera 3103 Sao Paulo SP 04029902 Brazil
 Avenida Gisele Constantino 180 Votorantim SP 18116650 Brazil
 Rua Fonseca Bangu Rio de Janeiro RJ 21820005 Brazil
 Avenida Dom Helder Camara Cachambi Rio de Janeiro RJ 20771004 Brazil
-Praca T 24 Goiania GO 74223060 Brazil
+Avenida T 10 Bueno Goiania GO 74223060 Brazil
 Avenida Regente Feijo Vila Formosa Sao Paulo SP 03342000 Brazil
 Rua Professor Antonio Maria Teixeira Leblon Rio de Janeiro RJ 22430050 Brazil
 Rua Prof Pedro V Parigot de Souza 600 Curitiba PR 81200100 Brazil
@@ -55,7 +55,7 @@ Avenida Alberto Benassi Jardim dos Manacas Araraquara SP 14804300 Brazil
 Avenida Transguarulhense Picanco Guarulhos SP 07082055 Brazil
 Estrada do Engenho d Agua Anil Rio de Janeiro RJ 22765240 Brazil
 Avenida Manoel Goulart 2622 Presidente Prudente SP 19060000 Brazil
-Banca Cultural 108 Brasilia DF 70347040 Brazil
+SQS 108 Asa Sul Brasilia DF 70347040 Brazil
 Avenida Gov Andre Franco Montoro Taboao da Serra SP 06757000 Brazil
 Avenida Sete de Setembro 2587 Curitiba PR 80230010 Brazil
 Rua Doutor Joao Ribeiro 244 Sao Paulo SP 03634000 Brazil
@@ -136,10 +136,10 @@ Rua Bocaiuva 2395 Florianopolis SC 88015530 Brazil
 Avenida das Americas 14840 Rio de Janeiro RJ 22790702 Brazil
 Avenida Del Rey Caicaras Belo Horizonte MG 30775240 Brazil
 Rua Olimpiadas Itaim Bibi Sao Paulo SP 04547004 Brazil
-Banco 24 Horas Vila Cloris Belo Horizonte MG 31610070 Brazil
+Vila Cloris Belo Horizonte MG 31610070 Brazil
 Rua Almirante Barroso 1294 Foz do Iguacu PR 85851010 Brazil
 Alameda Santos 1826 Sao Paulo SP 01418102 Brazil
-Brs 2 Rua Visconde de Piraja Proximo ao 504 Rio de Janeiro RJ 22410003 Brazil
+Rua Visconde de Piraja Ipanema Rio de Janeiro RJ 22410003 Brazil
 Rua Garcia d Avila 105 Rio de Janeiro RJ 22421010 Brazil
 Avenida Moaci Moema Sao Paulo SP 04083000 Brazil
 Alameda dos Arapanes 853 Sao Paulo SP 04524001 Brazil
@@ -189,7 +189,6 @@ Avenida Professor Miguel Franchini Neto 200 Sao Paulo SP 02998050 Brazil
 Avenida Paulista 2064 Sao Paulo SP 01310200 Brazil
 Avenida Pres Juscelino K de Oliveira 5000 Sao Jose do Rio Preto SP 15091450 Brazil
 Avenida Presidente Carlos Luz 3001 Belo Horizonte MG 31250010 Brazil
-Banco 24horas Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil
 Avenida Candido de Abreu 127 Curitiba PR 80530000 Brazil
 Avenida Guilherme Campos 500 Campinas SP Brazil
 Avenida Lauro Sodre 445 Rio de Janeiro RJ 22290070 Brazil
@@ -257,7 +256,7 @@ Tyrol Sitio do Campo Praia Grande SP 11726000 Brazil
 Rua Capitao Pacheco e Chaves Mooca Sao Paulo SP 03126001 Brazil
 Vila Santa Maria Passo Fundo RS 83649600 Brazil
 Nova Iguacu Food Luz Nova Iguacu RJ Brazil
-Brs 1 Praia de Botafogo Proximo ao 308 Rio de Janeiro RJ 22250040 Brazil
+Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil
 Rua Bela Cintra 2149 Sao Paulo SP 01415009 Brazil
 Rua Domingos Agostim 89 Sao Paulo SP 03306010 Brazil
 Avenida C Quadra 32 Goiania GO 74853055 Brazil
@@ -285,7 +284,7 @@ ERS 734 Rio Grande RS 96216400 Brazil
 PR 317 Zona 47 Maringa PR 87070020 Brazil
 Avenida Giovanni Gronchi 5930 Sao Paulo SP 05734150 Brazil
 Cacau Noir Ceramica Sao Caetano do Sul SP Brazil
-BR 101 Distrito Industrial Sao Jose SC 88104810 Brazil
+Distrito Industrial Sao Jose SC 88104810 Brazil
 Rua Marechal Deodoro 165 Petropolis RJ 25620150 Brazil
 Rua Joao Brito Oliveira 233 Betim MG 32655060 Brazil
 Avenida Lauro Sodre 445 Rio de Janeiro RJ 22290160 Brazil

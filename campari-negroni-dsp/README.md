@@ -14,7 +14,8 @@ done
 | Desenvolvimento | 54 | 54 |
 | MB Consistência | 52 | 51 |
 | MB Desenvolvimento | 19 | 18 |
-| **Total (distintos)** | | **273** |
+| PDVs | 70 | 70 |
+| **Total (distintos)** | | **343** |
 
 `campari_todas.txt` junta as quatro, se preferir um line item só.
 
@@ -39,39 +40,23 @@ corretamente nessas linhas.
 Também trata `nº 2153`, onde o símbolo some ao virar ASCII e deixa um `n` colado
 ao número. A regra exige o `º`/`°` de propósito — um `n` solto pode ser nome de rua.
 
-## PDVs — arquivo de última tentativa
+## PDVs — resolvido
 
-`campari_pdvs_acima_75_notas.xlsx` não tem **nenhum endereço de rua**: só CNPJ,
-Razão Social, Nome Fantasia, Município, UF e coordenada. Foram tentadas duas
-saídas antes de recorrer ao nome:
+A base completa (`origem/pdvs_base_completa.csv`) trouxe `formatted_address`, e os
+**70 PDVs saíram**, contra 66 por nome na tentativa anterior.
 
-1. Cruzar as coordenadas com as bases de endereço já processadas (JLR, cinemas,
-   Mercado Livre — 5.521 coordenadas). **Zero casaram**: universo de POI diferente.
-2. Puxar o endereço pelo CNPJ na base da Receita. **O proxy de saída bloqueia**
-   as duas APIs públicas testadas.
+Dois não têm rua na origem (`Barretos, SP, Brasil` e `Ibitinga, SP, Brasil`);
+esses dois usam `--nome-sem-endereco` e vão identificados pela Razão Social,
+marcados ALTO. Os outros 68 têm endereço de verdade.
 
-`campari_pdvs.txt` tem então 66 linhas no formato `<Nome Fantasia> <Município>
-<UF> Brazil`, geradas com `--nome-sem-endereco`:
+O `formatted_address` vinha com POI vizinho errado no início em sete linhas — o
+geocodificador pegou o estabelecimento ao lado. O corte de nome resolve:
 
 ```
-SUPERMERCADO JVA JUNDIAI SP Brazil
-EMPORIO PAVANELLI PIRACICABA SP Brazil
+SUBWAY, Avenida Parada Pinto, 2262, ...       ->  Avenida Parada Pinto 2262 ...
+BURGER KING, Avenida Luis Stamatis, 431, ...  ->  Avenida Luis Stamatis 431 ...
+Banco 24horas, Avenida Presidente Vargas, ... ->  Avenida Presidente Vargas ...
 ```
 
-**Expectativa baixa.** A DSP só aceita POI pelo nome em Airports, Arena/Stadiums
-e Universities/Colleges — supermercado não está na lista. As 70 linhas saem
-marcadas ALTO. A favor: 65 dos 66 são nomes de estabelecimento reais, vários de
-rede conhecida (GOOD BOM, JAU SERVE, TONIN); só um é pessoa física.
+Risco: 28 ALTO, quase todo endereço sem número de porta (25).
 
-O caminho que funciona continua sendo endereço. `origem/pdvs_SEM_ENDERECO.csv`
-traz os 70 PDVs (a linha TOTAL foi excluída) com coluna `ENDERECO_A_PREENCHER`.
-Preenchido, é só rodar o mesmo comando sem a opção.
-
-Três bares também ficaram de fora ou marcados, por limitação da origem:
-
-- `Boteco Rita Maria` — o endereço é só `Florianópolis - SC`, descartado
-- `Florianópolis (verificar endereço atual)` e `Porto Alegre (verificar endereço
-  atual)` — o texto é literalmente esse
-- `Bairro Cambuí, Campinas - SP` e `Região da Rua Bocaiúva` — bairro, não endereço
-
-Fora esses, o risco ALTO é quase todo rodovia (6) e endereço sem número (12).

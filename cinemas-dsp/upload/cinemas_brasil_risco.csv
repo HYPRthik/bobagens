@@ -3,6 +3,7 @@ ALTO;7;CINEMA CINEMARK;RODOVIA FERNAO DIAS 601 Betim MG Brazil;endereco de rodov
 ALTO;8;KINOPLEX MADUREIRA;Estrada DO PORTELA 222 Rio de Janeiro RJ 21351050 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;12;MULTIPLEX VIC CENTER;Avenida SANTA BARBARA JARDIM SAO FRANCISCO Santa Barbara d Oeste SP 13454005 Brazil;sem numero de porta
 ALTO;14;CINEMAXS - PARANA FAMÍLIA;Rodovia BR 158 N90 JARDIM ISABEL Campo Mourao PR 87309160 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;20;CINEMA CINEMARK;Rodovia VIRGILIO VARZEA 587 Florianopolis SC 88032005 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;28;SOBRAL NERD | CINEMA - SÉRIES - QUADRINHOS E GAMES;Rua CORDEIRO DE ANDRADE CENTRO Sobral CE 62010400 Brazil;sem numero de porta
 ALTO;29;CINEMA CINEMARK;RODOVIA BR 282 LAGES GARDEN SHOPPING LUC 120 BAIRRO GUARUJA VILA MARIZA Lages SC 88524900 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;32;CINEMA CINEMARK;RODOVIA ALKINDAR MONTEIRO JUNQUEIRA 01 Braganca Paulista SP 12918900 Brazil;endereco de rodovia (57-67% falharam)
@@ -15,7 +16,6 @@ ALTO;63;CINÉPOLIS CONTINENTE PARK;RODOVIA BR 101 AREA Sao Jose SC 88104801 Braz
 ALTO;72;CONCHA ACÚSTICA DO MUSEU;CAMPOS DO JORDAO Campos do Jordao SP 12460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;73;CINÉPOLIS;RODOVIA BR 470 3000 Blumenau SC 89065800 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;82;CENTERPLEX - SHOPPING CARPINA;PE 041 BAIRRO NOVO Carpina PE 55819900 Brazil;sem numero de porta
-ALTO;85;KINOPLEX VIA PARQUE;VIA PARQUE SHOPPING AV AYRTON SENNA 3000 Rio de Janeiro RJ 22775904 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;104;CINÉPOLIS PLAZA CARAPICUÍBA;ESTRADA ERNESTINA VIEIRA 149 Carapicuiba SP 06382260 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;106;ANTONIO DO CINEMA;RUA PADRE IBIAPINA PREDIO CENTRO Pocinhos PB 58150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;112;CINEMA CINEMARK;ST SHI NORTE QUADRA CA 04 BLOCO A LOTE A PISO SUPERIOR B LAGO NORTE Brasilia DF 71503504 Brazil;sem numero de porta
@@ -37,7 +37,6 @@ ALTO;218;CINÉPOLIS MANGABEIRA SHOPPING;Avenida HILTON SOUTO MAIOR MANGABEIRA Jo
 ALTO;228;CINESYSTEM CINEMAS;295 BR 101 CENTRO Itaborai RJ 24809266 Brazil;sem numero de porta
 ALTO;236;MUSEU DE CINEMA DE ANIMAÇAO LULA GONZAGA;Rua TOMAS DE OLIVEIRA 2 72 SANTO ANTONIO Gravata PE Brazil;sem numero de porta
 ALTO;240;CINE VIVA;Rua GEN MENDES DE MORAIS 1825 1871 SR DIVINO Coxim MS 79400000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;241;CENTERPLEX;SHOPPING PATIO NORTE ESTRADA DE SAO JOSE DE RIBAMAR MA 201 RUA SARAMANTA 1000 Sao Jose de Ribamar MA 65110000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;248;CINE + ARTE SOMBRIO;JANUARIA BR 101 SHOPPING OUTLET JAPONES Sombrio SC 88960000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;249;CINEMA CINEMARK;SP 270 270 RODOVIA RAPOSO TAVARES JARDIM BOA VISTA ZONA OESTE Sao Paulo SP 05577200 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;255;CINEMA CINEMARK;BR 356 3049 BELVEDERE Belo Horizonte MG 30320900 Brazil;sem numero de porta
@@ -46,7 +45,7 @@ ALTO;257;CINÉPOLIS SANTA MARIA;BR 287 2885 PATRONATO Santa Maria RS 97070150 Br
 ALTO;259;GALLERIA SHOPPING;Avenida BAILARINA SELMA PARADA JARDIM NILOPOLIS Campinas SP 13091901 Brazil;sem numero de porta
 ALTO;260;KINOPLEX FASHION MALL;ESTRADA DA GAVEA 899 Rio de Janeiro RJ 22610901 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;280;CINEMA CINEMARK;Avenida AZIZ MARON GOES CALMON Itabuna BA 45605415 Brazil;sem numero de porta
-ALTO;285;SHOPPING PRAÇA NOVA SANTA MARIA;BR 287 2885 Santa Maria RS 97020405 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;285;SHOPPING PRAÇA NOVA SANTA MARIA;Rua IRMA DULCE PATRONATO Santa Maria RS 97020405 Brazil;sem numero de porta
 ALTO;288;UCI - PARK SHOPPING CAMPO GRANDE;Estrada DO MONTEIRO 1200 Rio de Janeiro RJ 23036340 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;296;CM CINEMAS RO XERCA;Rodovia AMARAL PEIXOTO 4961 Rio das Ostras RJ 28893076 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;297;CINE SHOW;SHOPPING PLAZA AV ALUIZIO DA SILVA GOMES CENTRO Macae RJ 27930560 Brazil;sem numero de porta
@@ -54,7 +53,7 @@ ALTO;298;CIRCUITO CINEMAS SHOPPING BONSUCESSO;Estrada PRES JUSCELINO K DE OLIVEI
 ALTO;316;KARAJAS SHOPPING;RODOVIA MUNICIPAL FARUK SALMEN 510 Parauapebas PA 68515000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;330;PICOS PLAZA SHOPPING;Avenida SENADOR HELVIDIO NUNES 14012 14134 JARDIM NATAL Picos PI 14012141 Brazil;sem numero de porta
 ALTO;343;SHOPPING IGARASSU;PE 035 482 CENTRO Igarassu PE 53610050 Brazil;sem numero de porta
-ALTO;347;PIAUÍ SHOPPING CENTER;BAIXIO DE DR MOURA BR 316 COM A AV SEVERO EULALIO Picos PI 64600000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;347;PIAUÍ SHOPPING CENTER;Avenida SEVERO EULALIO Picos PI 64600000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;349;KINOPLEX BOULEVARD;SETOR TERMINAL NORTE T83 SHCN Brasilia DF 70770100 Brazil;sem numero de porta
 ALTO;361;KINOPLEX WEST SHOPPING;Estrada DO MENDANHA 401 Rio de Janeiro RJ 23087284 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;388;CINÉPOLIS PARQUE SHOPPING BAHIA;Rua MARIA ISABEL DOS SANTOS CENTRO Lauro de Freitas BA 42700000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -80,7 +79,7 @@ ALTO;486;Cinesystem Cinemas;Outlet Premium Figueira Duque de Caxias RJ 25265008 
 ALTO;495;DELFIN;VIA BINARIO DO PORTO 6 RIO DE JANEIRO RJ 20220297 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;498;UCI;Estrada de Jacarepagua 6069 Rio de Janeiro RJ 22753033 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;508;BICUDO ESTAPARIA;Rua AUGUSTO BIRCHES TERRAO CENTRO Sarandi PR 87111160 Brazil;sem numero de porta
-ALTO;509;TOP CINE HIPER SHOPPING;1415 2 FLOOR R TERESA ALTO DA SERRA Petropolis RJ 25635530 Brazil;sem numero de porta
+ALTO;509;TOP CINE HIPER SHOPPING;Rua TERESA ALTO DA SERRA Petropolis RJ 25635530 Brazil;sem numero de porta
 ALTO;516;ELDORADO;ESTRADA SAMUEL AIZEMBERG 1400 Sao Bernardo do Campo SP 09851550 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;518;A MAIS BRABA;Rua SAO JANUARIO 132 154 FONSECA Niteroi RJ 24130386 Brazil;sem numero de porta
 ALTO;525;TIGREZZA.DOC;Rua GEN LABATUT PIEDADE Salvador BA 40000000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -117,6 +116,7 @@ ALTO;642;CINE ALHAMBRA;CENTRO Divinopolis MG 35500007 Brazil;"sem numero de port
 ALTO;644;NIOBE;Rua SILVEIRA MARTINS GLORIA Rio de Janeiro RJ 22221000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;646;CIRCUITO CINEMAS PENÁPOLIS;Rodovia SRG LUCIANO ARNALDO COVOLAN 1055 Penapolis SP 16300000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;647;PRAIA DO MANU;ITAPARICA STATE OF BAHIA Itaparica BA 44460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;655;ANTIGO CINE SANTA MARIA;Rua CMTE ARI PARREIRAS PORTO DA MADAMA Sao Goncalo RJ 24430000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;663;JENNY;Rua MOCAMBO TROBOGY Salvador BA 41350300 Brazil;sem numero de porta
 ALTO;666;MARIA ANTONIA TOASSA;Rua MARIA ANTONIA TOASSA 125 237 Lucianopolis SP 17475000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;668;ARCOÍRIS BOURBON ASSIS BRASIL;Avenida ASSIS BRASIL 164 201 SAO JOAO Porto Alegre RS 91010000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -136,7 +136,7 @@ ALTO;707;TILAPIA SAO LUIZ;KALORE STATE OF PARANA Kalore PR 86920000 Brazil;"sem 
 ALTO;712;CINE TABOÃO;Rodovia REGIS BITTENCOURT 2643 Sao Paulo SP 06768200 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;713;ESPAO ITA DE CINEMA - FREI CANECA;BELA VISTA Sao Paulo SP Brazil;sem numero de porta
 ALTO;714;Dezpila;Rua Itajai Imbiribeira Recife PE 51200020 Brazil;sem numero de porta
-ALTO;715;ARACELLI-JAIRO;N 791 AV VICENTE BONITO 833 681 Santa Vitoria MG 38320000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;715;ARACELLI-JAIRO;Avenida VICENTE BONITO 833 681 Santa Vitoria MG 38320000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;721;CINEMA VITORIA-REGINA;Rua DR HEITOR GUEDES DE MELL Valenca BA 45400000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;723;CINE ROXY;Avenida 9 DE ABRIL CENTRO Cubatao SP 11510002 Brazil;sem numero de porta
 ALTO;731;ESTÚDIO BIANCA LOBO;Rua MANOEL PINTO DOS REIS SURUI Mage RJ 25922276 Brazil;sem numero de porta
@@ -168,6 +168,7 @@ ALTO;792;STORY CINE;Rua ARUNTA VILA PERUS Sao Paulo SP 05205360 Brazil;sem numer
 ALTO;798;PRIMEIRA CASA DO LEO DA HORNET;Rua IZOLIRIO CORREIA DE OLIVEIRA PEROBINHA Londrina PR Brazil;sem numero de porta
 ALTO;804;SEDE DA AAVPO;UNNAMED ROAD Colorado RS 99460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;806;ANTIGO CINE COMODORO;CAMPOS ELISEOS Sao Paulo SP 01211100 Brazil;sem numero de porta
+ALTO;808;CINEMA SHOPPING IANDÊ;Avenida EDSON DA MOTA CORREA CENTRO Caucaia CE 61600050 Brazil;sem numero de porta
 ALTO;810;OUTRO MUSIC;PARQUE AVENIDA PELINCA Campos dos Goytacazes RJ 28035260 Brazil;sem numero de porta
 ALTO;817;CULTURAL CENTER JAIRO COSTA E SILVA;Rua RIO GRANDE DO SUL 1 89 Echapora SP 19830000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;819;SWEET HOME ALABAMA;Rua DO BOSQUE 214 274 VILA ANGELA BORELLA Marau RS 99150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -728,6 +729,7 @@ MEDIO;221;UCI - SHOPPING ANÁLIA FRANCO;Avenida REG FEIJO 1739 Sao Paulo SP 0334
 MEDIO;222;CINE SUPER K;Avenida CAP ENE GARCES 1883 Boa Vista RR 69304000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;223;CENTERPLEX GRANDE CIRCULAR;Avenida AUTAZ MIRIM 6250 Manaus AM 69085000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;235;CINEMA CINEMARK;STUDIO 5 SHOPPING AV RODRIGO OTAVIO 555 Manaus AM 69077000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;241;CENTERPLEX;RUA SARAMANTA 1000 Sao Jose de Ribamar MA 65110000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;252;CINEMA CINEMARK;AVENIDA DOM PEDRO I 7181 Taubate SP 12091000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;253;CINE + ARTE TANÓPOLIS;Rua RAMIRO BARCELOS 1756 Montenegro RS 95780000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;258;CINEMARK PRIME;Avenida DAS AMERICAS 3900 Rio de Janeiro RJ 22631000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
@@ -740,7 +742,7 @@ MEDIO;306;CENTERPLEX ITAPEVI CENTER;Avenida RUBENS CARAMEZ 200 Itapevi SP 066830
 MEDIO;320;CINE A SÃO LOURENÇO;Avenida COMENDADOR COSTA 289 Sao Lourenco MG 37470000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;331;Q ATACAREJO - CAÇADOR;Rua ONIO PEDRASSANI 645 Cacador SC 89500000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;333;KINOPLEX VILA OLÍMPIA;Rua OLIMPIADAS 360 Sao Paulo SP 04551000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;337;MARIA CINEMAQUE - DEPÓSITO;2416 LOTEAMENTO ELDOURADO AV ANGELO COLOVINI 2090 Eldorado do Sul RS 92990000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;337;MARIA CINEMAQUE - DEPÓSITO;Avenida ANGELO COLOVINI 2090 Eldorado do Sul RS 92990000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;338;CINEPLEX CINEMAS PAULÍNIA SHOPPING;Avenida JOSE LOZANO ARAUJO 1515 Paulinia SP 13140000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;339;SHOPPING CIDADE CURITIBA;Avenida MAL FLORIANO PEIXOTO 4984 Curitiba PR 81630000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;340;SHOPPING ARARUAMA;Avenida JOHN KENNEDY 292 Araruama RJ 28970000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
@@ -810,7 +812,6 @@ MEDIO;641;CINE ESTAÇÃO;Rua ADEMAR DE BARROS 345 Porto Feliz SP 18540000 Brazil
 MEDIO;643;CINE UNIÃO;36 R VASCONCELOS COSTA 2 Coromandel MG 38550000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;650;JOSUES CINE UNIVERSITÁRIO;Avenida ARNALDO SENNA 311 Formiga MG 35570000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;651;PRIMACOLOR FOTO E VÍDEO;Avenida FRANCISCO SCHMIDT 1117 Santa Albertina SP 15750000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;655;ANTIGO CINE SANTA MARIA;PROXIMO AO NUMERO 1490 Sao Goncalo RJ 24430000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;656;CINE FREI;Rua FREI CANECA 328 Sao Paulo SP 01307000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;657;CENTERPLEX CINE GUARAREMA;Rua 19 DE SETEMBRO 187 Guararema SP 08940000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;659;ESTÚDIO ESCARLATE;Avenida NOVE DE JULHO 3624 Sao Paulo SP 01406000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

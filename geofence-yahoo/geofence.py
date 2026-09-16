@@ -177,6 +177,22 @@ def parece_cabecalho(row):
     return True
 
 
+def coluna_vazia(i, linhas):
+    """True se a coluna nao tem nenhum valor nas linhas de amostra."""
+    return not any(str(l[i]).strip() for l in linhas[:200] if len(l) > i)
+
+
+def cede_para_preenchida(i, norm, linhas, pistas):
+    """True se a coluna i esta vazia e existe outra, preenchida, que serve para o
+    mesmo papel. Sem isso um "name" vazio toma o papel e bloqueia "Nome Fantasia",
+    que e quem tem os dados."""
+    if not coluna_vazia(i, linhas):
+        return False
+    return any(j != i and norm[j] and not coluna_vazia(j, linhas)
+               and any(p in norm[j] for p in pistas)
+               for j in range(len(norm)))
+
+
 def mapear(header, linhas):
     """Casa cada papel com um indice de coluna, pelo cabecalho e depois pelo conteudo.
     Devolve (cols, tem_cabecalho) — tem_cabecalho e False quando nenhum papel foi
@@ -189,6 +205,10 @@ def mapear(header, linhas):
                 continue
             todas = pistas + PISTAS_EXATAS.get(papel, [])
             if h in todas or any(re.fullmatch(rf"{re.escape(p)}s?", h) for p in todas):
+                # uma coluna vazia nao pode tomar o papel de uma preenchida:
+                # "name" vazio bloquearia "Nome Fantasia", que tem os dados
+                if cede_para_preenchida(i, norm, linhas, todas):
+                    continue
                 cols[papel] = i
                 usados.add(i)
                 break
@@ -199,6 +219,9 @@ def mapear(header, linhas):
             if i in usados or not h:
                 continue
             if any(p in h for p in pistas):
+                if cede_para_preenchida(i, norm, linhas,
+                                        pistas + PISTAS_EXATAS.get(papel, [])):
+                    continue
                 cols[papel] = i
                 usados.add(i)
                 break
@@ -317,7 +340,13 @@ def partir_endereco(txt):
             for i, seg in enumerate(segs):
                 if not INICIO_LOGRADOURO.match(seg.strip()):
                     continue
-                if i and i <= 2 and not any(re.search(r"\d", x) for x in segs[:i]):
+                # bloqueia o corte se o que vem antes ja e endereco: um segmento
+                # que e SO numero, ou um primeiro segmento com tipo de logradouro.
+                # Digito solto nao serve de sinal — "Banco 24horas" tem digito e
+                # e nome de estabelecimento.
+                ja_endereco = (any(re.fullmatch(r"\d{1,6}[A-Za-z]?", x.strip()) for x in segs[:i])
+                               or INICIO_LOGRADOURO.match(segs[0].strip()))
+                if i and i <= 2 and not ja_endereco:
                     segs = segs[i:]
                 break
         return " ".join(segs).strip(" ,-"), cidade, uf, cep, segs

@@ -56,7 +56,7 @@ Avenida Atlantica 131 Rio de Janeiro RJ 22070000 Brazil
 Avenida Atlantica 3484 Rio de Janeiro RJ 22070001 Brazil
 Avenida Atlantica 4160 Rio de Janeiro RJ 22070002 Brazil
 Avenida Lauro Sodre 116 Rio de Janeiro RJ 22290070 Brazil
-Brs 1 320 Rio de Janeiro RJ 22011010 Brazil
+Avenida Princesa Isabel 320 Rio de Janeiro RJ 22011010 Brazil
 Rua Conde de Bonfim 302 Rio de Janeiro RJ 20520054 Brazil
 Rua Conde de Bonfim 470 Rio de Janeiro RJ 20520054 Brazil
 Rua General Roca 661 Rio de Janeiro RJ 20521070 Brazil
@@ -92,7 +92,7 @@ Avenida Epitacio Pessoa 1460 Rio de Janeiro RJ 22410090 Brazil
 Avenida Epitacio Pessoa 1024 Rio de Janeiro RJ 22410090 Brazil
 Rua Aristides Espinola 1175 Rio de Janeiro RJ 22440050 Brazil
 Avenida Presidente Vargas 1343 Rio de Janeiro RJ 20071004 Brazil
-Avenida Presidente Vargas 463 Rio de Janeiro RJ 20070030 Brazil
+Rua Miguel Couto 463 Rio de Janeiro RJ 20070030 Brazil
 Avenida Beira Mar Gloria Rio de Janeiro RJ 20021060 Brazil
 Rua Professor Alvaro Rodrigues 1128 Rio de Janeiro RJ 22280040 Brazil
 Rua Visconde de Piraja 452 Rio de Janeiro RJ 22410002 Brazil
@@ -115,7 +115,6 @@ Rua Tonelero 248 Rio de Janeiro RJ 22030001 Brazil
 Avenida RADIAL OESTE Rio de Janeiro RJ Brazil
 Avenida Aquarela do Brasil 6 Rio de Janeiro RJ 22610010 Brazil
 Rua Conde de Bonfim 344 Rio de Janeiro RJ 20520054 Brazil
-Avenida PRESIDENTE VARGAS 160 Rio de Janeiro RJ 20071002 Brazil
 Avenida Pastor Martin Luther King Junior Pavuna Rio de Janeiro RJ 21520002 Brazil
 Avenida Pastor Martin Luther King Jr Rio de Janeiro RJ 20760005 Brazil
 Rua Joana Angelica 159 Rio de Janeiro RJ 22420030 Brazil
@@ -183,7 +182,7 @@ Estrada Da Gavea Rio de Janeiro RJ 22610170 Brazil
 Rua das Laranjeiras Catete Rio de Janeiro RJ 22221020 Brazil
 Rua Barata Ribeiro 204 Rio de Janeiro RJ 22011001 Brazil
 Praca Professora Camisao 41 Rio de Janeiro RJ 22760151 Brazil
-Brs 3 I Visconde de Ouro Preto I Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil
+Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil
 Praia do Flamengo 176 Rio de Janeiro RJ 22210030 Brazil
 Rua Real Grandeza 254 Rio de Janeiro RJ 22281034 Brazil
 Rua Voluntarios da Patria 95 Rio de Janeiro RJ 22270010 Brazil
@@ -317,7 +316,7 @@ Avenida Presidente Vargas 1997 Rio de Janeiro RJ 20210030 Brazil
 Rua Afonso Cavalcanti Cidade Nova Rio de Janeiro RJ 20211110 Brazil
 Rua Sa Ferreira 19 Rio de Janeiro RJ 22071100 Brazil
 Avenida Epitacio Pessoa 4254 Rio de Janeiro RJ 22471003 Brazil
-Bikerio Estacao 248 Rio de Janeiro RJ 22640100 Brazil
+Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640100 Brazil
 Rua Gastao Formenti 54 Rio de Janeiro RJ 22630080 Brazil
 Avenida Rio Branco Centro Rio de Janeiro RJ 20040004 Brazil
 Avenida Belisario Leite de Andrade Neto 36 Rio de Janeiro RJ 22621270 Brazil
@@ -348,9 +347,9 @@ Rua Santa Clara 26 Rio de Janeiro RJ 22041011 Brazil
 AVENIDA PADRE LEONEL FRANCA 182 Rio de Janeiro RJ 22451000 Brazil
 Rua Ipiranga 11 Rio de Janeiro RJ 22231120 Brazil
 Avenida Borges de Medeiros 3381 Rio de Janeiro RJ 22470001 Brazil
-Bikerio Estacao 46 Rio de Janeiro RJ 22470001 Brazil
+Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470001 Brazil
 Avenida Prado Junior 37 Rio de Janeiro RJ 22011040 Brazil
-Brs 2 Avenida Ataulfo de Paiva Proximo ao 50 Rio de Janeiro RJ 22440033 Brazil
+Avenida Ataulfo de Paiva Leblon Rio de Janeiro RJ 22440033 Brazil
 Rua Adalberto Ferreira Leblon Rio de Janeiro RJ 22430140 Brazil
 Rua Jardim Botanico 568 Rio de Janeiro RJ 22461000 Brazil
 Rua Cardoso Junior 5 Rio de Janeiro RJ 22245000 Brazil
@@ -455,7 +454,6 @@ Rua Professor Alfredo Gomes 1 Rio de Janeiro RJ 22251080 Brazil
 Rua Sao Clemente 47 Rio de Janeiro RJ 22260001 Brazil
 Rua Tonelero 211 Rio de Janeiro RJ 22030002 Brazil
 Avenida Atlantica Copacabana Rio de Janeiro RJ 22010000 Brazil
-Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470001 Brazil
 Avenida Atlantica Copacabana Rio de Janeiro RJ 22021001 Brazil
 Avenida Atlantica Rio de Janeiro RJ Brazil
 Parque do Cantagalo Avenida Epitacio Pessoa Lagoa Rio de Janeiro RJ 22471003 Brazil
@@ -469,8 +467,6 @@ Rua Afonso Cavalcanti 100 Rio de Janeiro RJ 20211110 Brazil
 Praca General Tiburcio Rio de Janeiro RJ 22290270 Brazil
 Avenida Borges de Medeiros 1000 Rio de Janeiro RJ 22430042 Brazil
 Sup Arpoador Ipanema Rio de Janeiro RJ Brazil
-Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil
-Barraca do Joao 151 Rio de Janeiro RJ 22441000 Brazil
 Avenida Prefeito Mendes de Moraes Sao Conrado Rio de Janeiro RJ 22610095 Brazil
 Avenida Niemeyer Vidigal Rio de Janeiro RJ 22450221 Brazil
 Praca do O Rio de Janeiro RJ 22620280 Brazil
@@ -481,12 +477,11 @@ Avenida Lucio Costa 1030 Rio de Janeiro RJ 22620172 Brazil
 Avenida do Pepe 1312 Rio de Janeiro RJ 22620171 Brazil
 Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22630010 Brazil
 Avenida Lucio Costa Rio de Janeiro RJ 22795008 Brazil
-Posto 11 Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795006 Brazil
 Avenida Lucio Costa Recreio dos Bandeirantes Rio de Janeiro RJ 22795006 Brazil
 Avenida General San Martin Leblon Rio de Janeiro RJ 22441015 Brazil
 Rua Professor Abelardo Lobo 38 Rio de Janeiro RJ 22470240 Brazil
 Avenida Princesa Isabel 334 Rio de Janeiro RJ 22011010 Brazil
-Praca Cardeal Arcoverde Rio de Janeiro RJ 22030001 Brazil
+Rua Tonelero Copacabana Rio de Janeiro RJ 22030001 Brazil
 Praca Vereador Rocha Leao 212 Rio de Janeiro RJ 22031060 Brazil
 Avenida Escritor Joao Cabral de Melo Neto Barra da Tijuca Rio de Janeiro RJ 22775057 Brazil
 Avenida Luis Carlos Prestes Barra da Tijuca Rio de Janeiro RJ 22775055 Brazil
@@ -497,7 +492,6 @@ Praca Professor Jose Bernardino Barra da Tijuca Rio de Janeiro RJ 22621120 Brazi
 Estrada da Barra da Tijuca Barra da Tijuca Rio de Janeiro RJ 22611201 Brazil
 Praca Varnhagen Praca Varnhagem Tijuca Rio de Janeiro RJ 20540088 Brazil
 Praia do Flamengo 144 Rio de Janeiro RJ 22210030 Brazil
-Arena de Futebol 7 Rio de Janeiro RJ 20021060 Brazil
 Rua Sao Clemente Botafogo Rio de Janeiro RJ 22260001 Brazil
 Rua Francisco de Paula Barra Olimpica Rio de Janeiro RJ 22775120 Brazil
 Avenida Salvador Allende Barra Olimpica Rio de Janeiro RJ 22780160 Brazil

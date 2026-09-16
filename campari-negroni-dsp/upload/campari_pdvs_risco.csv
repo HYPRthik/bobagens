@@ -1,71 +1,42 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
-ALTO;2;MUSEU LOJAS COMERCIO DE ALIMENTOS;MUSEU LOJAS COMERCIO DE ALIMENTOS RIBEIRAO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;3;CANAL 4;CANAL 4 ATIBAIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;4;CLUBE DA PICANHA;CLUBE DA PICANHA CAMPINAS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;5;SUPERMERCADO JVA;SUPERMERCADO JVA JUNDIAI SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;6;ELAINE APARECIDA RODRIGUES FERREIRA;ELAINE APARECIDA RODRIGUES FERREIRA RIFAINA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;7;BARRACAO SUPERMERCADO;BARRACAO SUPERMERCADO BAURU SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;8;EMPORIO PAVANELLI;EMPORIO PAVANELLI PIRACICABA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;9;GIGANTAO SUPERMERCADOS;GIGANTAO SUPERMERCADOS MACATUBA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;10;LEVE FACIL;LEVE FACIL SAO CARLOS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;11;SUPERMERCADOS JAU SERVE;SUPERMERCADOS JAU SERVE RIBEIRAO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;12;IQUEGAMI SUPERMERCADOS 02;IQUEGAMI SUPERMERCADOS 02 BEBEDOURO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;13;EMPORIO E ADEGA SAO CAETANO;EMPORIO E ADEGA SAO CAETANO SAO CAETANO DO SUL SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;14;D.J.D. COMERCIO;D J D COMERCIO BARUERI SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;15;SUPERMERCADO IQUEGAMI;SUPERMERCADO IQUEGAMI OLIMPIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;16;CHIMAR SUPERMERCADOS;CHIMAR SUPERMERCADOS SAO ROQUE SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;17;SUPERMERCADO JDS;SUPERMERCADO JDS JARDINOPOLIS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;18;SUPERMERCADOS AVENIDA LOJA 30;SUPERMERCADOS AVENIDA LOJA 30 PALMITAL SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;19;COMPANHIA BRASILEIRA DE DISTRIBUICAO;COMPANHIA BRASILEIRA DE DISTRIBUICAO OURINHOS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;20;GOOD BOM SUPERMERCADOS;GOOD BOM SUPERMERCADOS SUMARE SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;21;IQUEGAMI SUPERMERCADOS;IQUEGAMI SUPERMERCADOS BEBEDOURO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;22;GOOD BOM;GOOD BOM SUMARE SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;23;VAREJAO E SUPERMERCADO PATROCINIO;VAREJAO E SUPERMERCADO PATROCINIO FRANCA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;24;EMPORIO JOTA;EMPORIO JOTA SAO JOSE DO RIO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;25;SUPERMERCADO JVA II;SUPERMERCADO JVA II ITUPEVA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;26;KALIMERA HORTIFRUTI;KALIMERA HORTIFRUTI JUNDIAI SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;27;SUPER MUFFATO;SUPER MUFFATO OURINHOS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;28;GIGANTAO SUPERMERCADOS;GIGANTAO SUPERMERCADOS MACATUBA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;29;SUPERMERCADO SAO VICENTE;SUPERMERCADO SAO VICENTE AMERICANA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;30;TONIN;TONIN RIBEIRAO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;31;SUPERMERCADOS PAGUE MENOS;SUPERMERCADOS PAGUE MENOS PAULINIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;32;FORMULAEXPRESS COMERCIO DE BEBIDAS;FORMULAEXPRESS COMERCIO DE BEBIDAS FRANCA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;33;SUPERMERCADO SAO JORGE;SUPERMERCADO SAO JORGE RIFAINA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;34;SUPERMERCADO ONO COMPACTO;SUPERMERCADO ONO COMPACTO ATIBAIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;35;DONNA MARIA SUPERMERCADOS;DONNA MARIA SUPERMERCADOS PARANAPANEMA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;36;ANDORINHA SUPERMERCADO;ANDORINHA SUPERMERCADO SAO PAULO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;37;LUIZ TONIN ATACADISTA E SUPERMERCADOS S.A.;LUIZ TONIN ATACADISTA E SUPERMERCADOS S A RIBEIRAO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;38;PONTO DA BEBIDA;PONTO DA BEBIDA SAO JOSE DO RIO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;39;JAU SERVE;JAU SERVE SAO CARLOS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;40;EMPORIO FLAMBOYANT COMERCIO DE ALIMENTOS;EMPORIO FLAMBOYANT COMERCIO DE ALIMENTOS ATIBAIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;41;SUPERMERCADO IQUEGAMI;SUPERMERCADO IQUEGAMI BEBEDOURO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;42;SAVEGNAGO-SUPERMERCADOS;SAVEGNAGO SUPERMERCADOS BARRETOS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;43;SUPERMERCADOS BERGAMINI;SUPERMERCADOS BERGAMINI SAO PAULO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;44;PAULISTAO ATACADISTA;PAULISTAO ATACADISTA RIBEIRAO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;45;SUPERMERCADO PORECATU;SUPERMERCADO PORECATU SAO JOSE DO RIO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;46;DELTA SUPERMERCADOS;DELTA SUPERMERCADOS PIRACICABA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;47;ABACHERLI DISTRIBUIDORA DE BEBIDAS;ABACHERLI DISTRIBUIDORA DE BEBIDAS TAMBAU SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;48;IMIGRANTES BEBIDAS;IMIGRANTES BEBIDAS SAO PAULO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;49;SUPERMERCADO SAO VICENTE;SUPERMERCADO SAO VICENTE NOVA ODESSA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;50;SUPERMERCADO PIERIM;SUPERMERCADO PIERIM TAMBAU SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;51;PAGUE MENOS COMERCIO DE PRODUTOS ALIMENTICIOS;PAGUE MENOS COMERCIO DE PRODUTOS ALIMENTICIOS SANTA BARBARA D OESTE SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;52;SUPERMERCADOS MAMBO;SUPERMERCADOS MAMBO SAO PAULO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;53;SONDA SUPERMERCADOS EXPORTACAO E IMPORTACAO;SONDA SUPERMERCADOS EXPORTACAO E IMPORTACAO SAO BERNARDO DO CAMPO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;54;AMIGAO SUPERMERCADOS;AMIGAO SUPERMERCADOS ASSIS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;55;JAU SERVE;JAU SERVE IBITINGA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;56;SUPERMERCADO IQUEGAMI;SUPERMERCADO IQUEGAMI OLIMPIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;57;IQUEGAMI SUPERMERCADOS;IQUEGAMI SUPERMERCADOS OLIMPIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;58;SETECENTER SUPERMERCADOS;SETECENTER SUPERMERCADOS BADY BASSITT SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;59;COMERCIAL DE PRODUTOS ALIMENTICIOS ROSAFELIPE;COMERCIAL DE PRODUTOS ALIMENTICIOS ROSAFELIPE ARACATUBA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;60;W & W BOULEVARD COMERCIO DE ALIMENTOS;W W BOULEVARD COMERCIO DE ALIMENTOS ATIBAIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;61;PAGUE MENOS COMERCIO DE PRODUTOS ALIMENTICIOS;PAGUE MENOS COMERCIO DE PRODUTOS ALIMENTICIOS AMERICANA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;62;GOOD BOM SUPERMERCADOS;GOOD BOM SUPERMERCADOS SUMARE SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;63;KALIMERA COMERCIO DE HORTIFRUTI;KALIMERA COMERCIO DE HORTIFRUTI INDAIATUBA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;64;SUPERMERCADO FERNANDO;SUPERMERCADO FERNANDO FRANCA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;65;ARMAZEM DA CERVEJA;ARMAZEM DA CERVEJA BARRETOS SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;66;PROENCA SUPERMERCADOS;PROENCA SUPERMERCADOS SAO JOSE DO RIO PRETO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;67;ELAINE APARECIDA RODRIGUES FERREIRA;ELAINE APARECIDA RODRIGUES FERREIRA RIFAINA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;68;BW COMERCIO DE ALIMENTOS;BW COMERCIO DE ALIMENTOS ATIBAIA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;69;SUPERMERCADO DELTA MAX;SUPERMERCADO DELTA MAX PIRACICABA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;70;RETA ALIMENTOS;RETA ALIMENTOS IGARAPAVA SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;71;SUPERMERCADOS MAMBO LTDA;SUPERMERCADOS MAMBO LTDA SAO PAULO SP Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
+ALTO;2;MUSEU LOJAS COMERCIO DE ALIMENTOS LTDA;Via Doutor Luiz Carlos Bianchi Ribeirao Preto SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;4;VALLE FOODS COMERCIO DE PRODUTOS ALIMENTICIOS LTDA;Avenida Baden Powell Parque Prado Campinas SP 13040093 Brazil;sem numero de porta
+ALTO;7;BARRACAO SUPERMERCADO LTDA;Avenida Jose Henrique Ferraz 11 35 Jardim Solange Bauru SP 17054115 Brazil;sem numero de porta
+ALTO;10;LEVE FACIL ATACADO DE ALIMENTOS E BEBIDAS LTDA;Rua Doutor David Pedro Cassinelli Jardim Sao Paulo Sao Carlos SP 13570470 Brazil;sem numero de porta
+ALTO;13;EMPORIO E ADEGA SAO CAETANO LTDA;Avenida Goias Santa Paula Sao Caetano do Sul SP 09521310 Brazil;sem numero de porta
+ALTO;15;SUPERMERCADO IQUEGAMI LTDA;Avenida Aurora Forti Neves Olimpia SP 15405002 Brazil;sem numero de porta
+ALTO;16;REINALDO CHICAROLLI MARTINS SUPERMERCADOS LTDA;Rua Santa Quiteria Sao Roque SP 18132000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;20;GOOD BOM SUPERMERCADOS LTDA;Avenida Reboucas Centro Sumare SP 13170023 Brazil;sem numero de porta
+ALTO;21;SUPERMERCADO IQUEGAMI LTDA;Rua Doutor Brandao Veras Jardim Talarico Bebedouro SP 14700730 Brazil;sem numero de porta
+ALTO;22;GOOD BOM SUPERMERCADOS LTDA;Estrada Sumare 160 Sumare SP Brazil;endereco de rodovia (57-67% falharam)
+ALTO;27;IRMAOS MUFFATO & CIA LTDA;Vila Mano Ourinhos SP Brazil;sem numero de porta
+ALTO;29;SUPERMERCADOS CAVICCHIOLLI LTDA;Rua Tamoio Vila Santa Catarina Americana SP 13465100 Brazil;sem numero de porta
+ALTO;30;LUIZ TONIN ATACADISTA E SUPERMERCADOS S. A.;Avenida Presidente Castelo Branco Subsetor Leste 6 Ribeirao Preto SP 14095000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;34;SUPERMERCADO ONO COMPACTO LTDA;Rodovia Arao Sahm Portao Atibaia SP 12948110 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;38;DISTRIBUIDORA PONTO DA BEBIDA LTDA;Rua Antonia Ferreira do Nascimento Quinta das Paineiras Sao Jose do Rio Preto SP 15080470 Brazil;sem numero de porta
+ALTO;42;SAVEGNAGO-SUPERMERCADOS LTDA;SAVEGNAGO SUPERMERCADOS LTDA Barretos SP 14780070 Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
+ALTO;46;SUPERMERCADO DELTA MAX LTDA;Avenida Dois Corregos Morumbi Piracicaba SP 13420722 Brazil;sem numero de porta
+ALTO;49;SUPERMERCADOS CAVICCHIOLLI LTDA;Avenida Ampelio Gazzeta Nova Odessa SP 13460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;50;SUPERMERCADO PIERIM LTDA;Avenida Jose Gatto Tambau SP 13710000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;54;COMPANHIA SULAMERICANA DE DISTRIBUICAO;Rua Walter Antonio Fontana Jardim Morumbi Assis SP 19815340 Brazil;sem numero de porta
+ALTO;55;SUPERMERCADOS JAU SERVE LTDA;SUPERMERCADOS JAU SERVE LTDA Ibitinga SP 14940124 Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
+ALTO;58;NOGUEIRA SILVA SUPERMERCADO LTDA;Rodovia Mauricio Goulart Bady Bassitt SP 15115000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;62;GOOD BOM SUPERMERCADOS LTDA;Avenida Emilio Bosco Matao Sumare SP 13180325 Brazil;sem numero de porta
+ALTO;63;KALIMERA COMERCIO DE HORTIFRUTI LTDA;Avenida Presidente Vargas Indaiatuba SP 13339125 Brazil;sem numero de porta
+ALTO;65;ARMAZEM BARRETOS COMERCIO DE BEBIDAS E CONEXOS LTDA;Avenida Professor Roberto Frade Monte Ortega Barretos SP 14783218 Brazil;sem numero de porta
+ALTO;66;LOPES SUPERMERCADOS LTDA;Avenida Anisio Haddad Vivendas Sao Jose do Rio Preto SP 15091380 Brazil;sem numero de porta
+ALTO;67;ELAINE APARECIDA RODRIGUES FERREIRA LTDA;Avenida Antonio Floriano Leme Rifaina SP 14490000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;68;BW COMERCIO DE ALIMENTOS LTDA;Rua Presidente Vargas Caetetuba Atibaia SP 12951000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+MEDIO;3;F E SILVA LEITE DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA;Avenida Professor Flavio Pires de Camargo 863 Atibaia SP 12951000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;6;ELAINE APARECIDA RODRIGUES FERREIRA LTDA;Rua Luciana 291 Rifaina SP 14490000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;9;GIGANTAO SUPERMERCADOS LTDA;Rua Duque de Caxias 1031 Macatuba SP 17290000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;17;SUPERMERCADO JDS LTDA;Rua Angelo Nicolau 158 Jardinopolis SP 14680000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;25;SUPERMERCADO E RESTAURANTE JVA LTDA;Rua Alexandria Mathias de Oliveira 118 Itupeva SP 13295000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;28;GIGANTAO SUPERMERCADOS LTDA;Rua Antonio Alves Nunes 650 Macatuba SP 17290000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;33;SUPER SAO JORGE RIFAINA LTDA;Rua Visconde de Ouro Preto 326 Rifaina SP 14490000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;35;DONNA MARIA SUPERMERCADOS LTDA;Avenida das Posses 187 Paranapanema SP 18725000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;43;SUPERMERCADOS BERGAMINI LTDA;Avenida Luis Stamatis 431 Sao Paulo SP 02260000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;47;COMERCIO E DISTRIBUIDORA DE BEBIDAS ABACHERLI LTDA.;Rua Joao Modesto 338 Tambau SP 13710000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;57;SUPERMERCADO IQUEGAMI LTDA;Avenida Alberto Breg 1051 Olimpia SP 15400000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;70;RETA ALIMENTOS LTDA;Avenida Vinte e Dois de Maio 726 Igarapava SP 14540000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;71;SUPERMERCADOS MAMBO LTDA.;Rua Alianca Liberal 315 Sao Paulo SP 05088000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

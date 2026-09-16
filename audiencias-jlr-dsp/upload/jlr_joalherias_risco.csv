@@ -17,6 +17,7 @@ ALTO;34;;Rua Frei Rolim Cursino Sao Paulo SP 04151100 Brazil;sem numero de porta
 ALTO;36;;Rodovia Governador Mario Covas Porto Belo SC 85874000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;40;;Rua Fonseca Bangu Rio de Janeiro RJ 21820005 Brazil;sem numero de porta
 ALTO;41;;Avenida Dom Helder Camara Cachambi Rio de Janeiro RJ 20771004 Brazil;sem numero de porta
+ALTO;42;;Avenida T 10 Bueno Goiania GO 74223060 Brazil;sem numero de porta
 ALTO;43;;Avenida Regente Feijo Vila Formosa Sao Paulo SP 03342000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;44;;Rua Professor Antonio Maria Teixeira Leblon Rio de Janeiro RJ 22430050 Brazil;sem numero de porta
 ALTO;48;;Rodovia Marechal Rondon Vila Cardia Bauru SP 17030005 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
@@ -28,6 +29,7 @@ ALTO;55;;Rua Roma Jardim Excelsior Cabo Frio RJ Brazil;sem numero de porta
 ALTO;56;;Avenida Alberto Benassi Jardim dos Manacas Araraquara SP 14804300 Brazil;sem numero de porta
 ALTO;57;;Avenida Transguarulhense Picanco Guarulhos SP 07082055 Brazil;sem numero de porta
 ALTO;58;;Estrada do Engenho d Agua Anil Rio de Janeiro RJ 22765240 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;60;;SQS 108 Asa Sul Brasilia DF 70347040 Brazil;sem numero de porta
 ALTO;61;;Avenida Gov Andre Franco Montoro Taboao da Serra SP 06757000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;64;;Shell ERL S Zona Civico Administrativa Brasilia DF Brazil;sem numero de porta
 ALTO;65;;Rua Domingos Agostim Tatuape Sao Paulo SP 03306010 Brazil;sem numero de porta
@@ -78,7 +80,8 @@ ALTO;136;;Rodovia dos Metalurgicos Sideropolis Volta Redonda RJ Brazil;"endereco
 ALTO;137;;BR 470 Fortaleza Blumenau SC Brazil;sem numero de porta
 ALTO;140;;Avenida Del Rey Caicaras Belo Horizonte MG 30775240 Brazil;sem numero de porta
 ALTO;141;;Rua Olimpiadas Itaim Bibi Sao Paulo SP 04547004 Brazil;sem numero de porta
-ALTO;142;;Banco 24 Horas Vila Cloris Belo Horizonte MG 31610070 Brazil;sem numero de porta
+ALTO;142;;Vila Cloris Belo Horizonte MG 31610070 Brazil;sem numero de porta
+ALTO;145;;Rua Visconde de Piraja Ipanema Rio de Janeiro RJ 22410003 Brazil;sem numero de porta
 ALTO;147;;Avenida Moaci Moema Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;162;;Estrada Nova Lima 3049 Belo Horizonte MG 30320760 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;163;;Rua Prof Pedro V Parigot de Souza Mossungue Curitiba PR 81200100 Brazil;sem numero de porta
@@ -100,7 +103,7 @@ ALTO;192;;Rua Pacifico Mascarenhas Santa Efigenia Belo Horizonte MG 30260010 Bra
 ALTO;193;;Polo Uk Santa Luiza Varginha MG Brazil;sem numero de porta
 ALTO;194;;Rua Domingos de Morais Vila Mariana Sao Paulo SP 04036100 Brazil;sem numero de porta
 ALTO;195;;Avenida T 15 Jardim America Goiania GO 74230010 Brazil;sem numero de porta
-ALTO;200;;Banco 24horas Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil;sem numero de porta
+ALTO;200;;Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil;sem numero de porta
 ALTO;207;;Avenida Toledo Centro Cascavel PR 85810230 Brazil;sem numero de porta
 ALTO;209;;Rua Gustavo Maciel 5 2 Centro Bauru SP 17010040 Brazil;sem numero de porta
 ALTO;211;;Rua Augusta Consolacao Sao Paulo SP 01304001 Brazil;sem numero de porta
@@ -134,6 +137,7 @@ ALTO;270;;Tyrol Sitio do Campo Praia Grande SP 11726000 Brazil;"sem numero de po
 ALTO;271;;Rua Capitao Pacheco e Chaves Mooca Sao Paulo SP 03126001 Brazil;sem numero de porta
 ALTO;272;;Vila Santa Maria Passo Fundo RS 83649600 Brazil;sem numero de porta
 ALTO;273;;Nova Iguacu Food Luz Nova Iguacu RJ Brazil;sem numero de porta
+ALTO;274;;Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil;sem numero de porta
 ALTO;280;;RSC 453 Sanvitto Caxias do Sul RS 95112360 Brazil;sem numero de porta
 ALTO;283;;Vila Ipiranga Porto Alegre RS 91340001 Brazil;sem numero de porta
 ALTO;284;;Rua Vergueiro Steidel Aparecida Santos SP 11040271 Brazil;sem numero de porta
@@ -146,7 +150,7 @@ ALTO;296;;Botequim Guanabara Monte Verde Florianopolis SC Brazil;sem numero de p
 ALTO;297;;5 a Sec Industrial Autonomistas Osasco SP Brazil;sem numero de porta
 ALTO;302;;ERS 734 Rio Grande RS 96216400 Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;305;;Cacau Noir Ceramica Sao Caetano do Sul SP Brazil;sem numero de porta
-ALTO;306;;BR 101 Distrito Industrial Sao Jose SC 88104810 Brazil;sem numero de porta
+ALTO;306;;Distrito Industrial Sao Jose SC 88104810 Brazil;sem numero de porta
 ALTO;312;;Rua Prefeito Antonio Curvelo Benjamim Visconde de Araujo Macae RJ 27971210 Brazil;sem numero de porta
 ALTO;315;;Rua Olavo Barreto Viana Moinhos de Vento Porto Alegre RS 90570070 Brazil;sem numero de porta
 ALTO;318;;Rua Padre Anchieta Centro Sao Vicente SP 11310040 Brazil;sem numero de porta

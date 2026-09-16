@@ -41,7 +41,7 @@ ALTO;109;;Rua Oitenta e Oito 7 12 Baliza Itaipu Goiania GO 74355466 Brazil;sem n
 ALTO;110;;Avenida Manoel Cabral Jundiai SP 13211224 Brazil;sem numero de porta
 ALTO;119;;Rua Joao Batista Ferreira Leopoldina MG 36700482 Brazil;sem numero de porta
 ALTO;121;;Rua Salvira Marques Carlopolis PR 86420000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;122;;BR 153 Jardim das Acacias Aparecida de Goiania GO 74987300 Brazil;sem numero de porta
+ALTO;122;;Jardim das Acacias Aparecida de Goiania GO 74987300 Brazil;sem numero de porta
 ALTO;123;;Rodovia Santos Dumont Itaobim MG 39625000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;124;;Estrada Iva 351 Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;127;;Avenida Munhoz da Rocha Cabral Curitiba PR 80035000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"

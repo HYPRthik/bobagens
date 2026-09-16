@@ -59,7 +59,7 @@ ALTO;134;;Rua Fidencio Ramos 195 Brazil;sem numero de porta
 ALTO;135;;Avenida Engenheiro Luis Carlos Berrini Itaim Bibi Sao Paulo SP 04571000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;136;;Rua Dois Cidade de Deus Osasco SP Brazil;sem numero de porta
 ALTO;144;;Clinica Paulista Terapeutica Cardio Vascular Bela Vista Sao Paulo SP 01323050 Brazil;sem numero de porta
-ALTO;145;;1 Batalhao de Policia Militar Rua Frei Caneca Centro Rio de Janeiro RJ 20211005 Brazil;sem numero de porta
+ALTO;145;;Rua Frei Caneca Centro Rio de Janeiro RJ 20211005 Brazil;sem numero de porta
 ALTO;147;;Rua I Brava Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;152;;Cia Athletica le Parc Barra da Tijuca Rio de Janeiro RJ 22640102 Brazil;sem numero de porta
 ALTO;153;;Rua Savero Jose Bruno Moqueta Nova Iguacu RJ 26285021 Brazil;sem numero de porta
@@ -80,13 +80,14 @@ ALTO;170;;Autodromo Internacional Nelson Piquet SRPN Autodromo Int Nelson Piquet
 ALTO;171;;Banco do Brasil Monte Castelo Resende RJ Brazil;sem numero de porta
 ALTO;175;;BR 251 Cristalina GO 73850000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;176;;Sri Hfa Cruzeiro DF 70658700 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;177;;Setor C Norte Taguatinga DF 72115650 Brazil;sem numero de porta
 ALTO;178;;Parquinho Infantil Aguas Claras DF 71904540 Brazil;sem numero de porta
 ALTO;181;;BR 251 Brazlandia DF Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;182;;Avenida Central Leste Gama DF Brazil;sem numero de porta
 ALTO;183;;Alameda das Paineiras Jardim Goias Goiania GO 74810102 Brazil;sem numero de porta
 ALTO;184;;Regus Praca XV Centro Rio de Janeiro RJ 20010010 Brazil;sem numero de porta
 ALTO;186;;Praia do Iguacu T02 Vila do Abraao Angra dos Reis RJ Brazil;sem numero de porta
-ALTO;187;;T02 Vila do Abraao Angra dos Reis RJ Brazil;sem numero de porta
+ALTO;187;;Vila do Abraao Angra dos Reis RJ Brazil;sem numero de porta
 ALTO;188;;Avenida Gen Euclides de O Figueiredo Itaguai RJ 23826600 Brazil;sem numero de porta
 ALTO;189;;Mistura Classica Verolme Angra dos Reis RJ Brazil;sem numero de porta
 ALTO;190;;Rua Gleba D Portogalo Angra dos Reis RJ 23917010 Brazil;sem numero de porta

@@ -28,7 +28,7 @@ Avenida Wladimir Meirelles Ferreira 1660 Ribeirao Preto SP 14021683 Brazil
 Rua Coronel Marcos Rovaris 281 Criciuma SC 88801100 Brazil
 Rua Jose Szakall 27 Sao Paulo SP 01140120 Brazil
 Avenida Claricinda Alves de Rezende 197 Uberaba MG 38010000 Brazil
-Internacional de Brasilia Terminal 2 Lago Sul DF 71608900 Brazil
+Setor de Habitacoes Individuais Sul Lago Sul DF 71608900 Brazil
 Avenida Waldemar Haddad 801 Sao Jose do Rio Preto SP 15093300 Brazil
 Avenida Tiradentes Ciclo II Londrina PR 86072000 Brazil
 Avenida Deusdedith Salgado 4900 Juiz de Fora MG 36033007 Brazil
@@ -81,7 +81,7 @@ Avenida Brasil Oeste 3880 Passo Fundo RS 99025000 Brazil
 Rua Desembargador Westphalen 2447 Curitiba PR 80220030 Brazil
 Rua Olegario Mariano 40A Sao Joao de Meriti RJ 25510350 Brazil
 Avenida Carlos Schmidt 205 Apucarana PR 86804350 Brazil
-Ponto5 Rua Carolina Florence Jardim Nossa Senhora Auxiliadora Campinas SP 13073225 Brazil
+Rua Carolina Florence Jardim Nossa Senhora Auxiliadora Campinas SP 13073225 Brazil
 Avenida das Nacoes Unidas 17771 Sao Paulo SP 04795100 Brazil
 Avenida das Nacoes Unidas 6787 Sao Paulo SP 05425070 Brazil
 Avenida Julio de Mesquita 694 Campinas SP 13025061 Brazil
@@ -114,7 +114,7 @@ Avenida Presidente Vargas 1829 Passo Fundo RS 99070970 Brazil
 Gdm Seeds Passo Fundo RS 99052840 Brazil
 BR 470 Navegantes Rio do Sul SC 89160000 Brazil
 Rua Professor Max Humpl 601 Blumenau SC 89065500 Brazil
-PR 364 Jardim das Americas Guarapuava PR 85030230 Brazil
+Jardim das Americas Guarapuava PR 85030230 Brazil
 Rua Jeronimo Durski 925 Curitiba PR 80730270 Brazil
 Avenida Pinheiro Machado 1495 Pelotas RS 96040500 Brazil
 Viaduto Fernando Osorio Tres Vendas Pelotas RS 96070005 Brazil
@@ -180,7 +180,7 @@ Rodovia Washington Luis Portal das Laranjeiras Araraquara SP 14808080 Brazil
 Avenida Presidente Juscelino K de Oliveira Moyses Miguel Haddad Sao Jose do Rio Preto SP 15091450 Brazil
 Rodovia Transbrasiliana Sao Jose do Rio Preto SP 15053750 Brazil
 Avenida Deputado Jamel Cecilio 3235 Goiania GO 74810190 Brazil
-BR 153 Jardim Belo Horizonte Aparecida de Goiania GO Brazil
+Jardim Belo Horizonte Aparecida de Goiania GO Brazil
 Alameda das Sibipirunas Ceasa Goiania GO 74681215 Brazil
 Rodovia Marechal Rondon Alvorada Aracatuba SP Brazil
 Sia Trecho 2 SIA DF 71200020 Brazil
@@ -545,7 +545,7 @@ Rua Amazonas 439 Sao Caetano do Sul SP 09520060 Brazil
 Avenida Frei Pacifico Wagner 163 Caraguatatuba SP 11660280 Brazil
 Avenida Adolfo Pinheiro 1029 Sao Paulo SP 04734002 Brazil
 Rua Raimundo Correa Vila Marina Dias Sorocaba SP 18035265 Brazil
-Torre Maggiore Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil
+Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil
 Rua Claudionor Sandoval 741 Presidente Prudente SP 19023200 Brazil
 Avenida Ayrton Senna da Silva 600 Londrina PR 86050460 Brazil
 Rua Leoberto Leal 440 Papanduva SC 89370000 Brazil
@@ -802,7 +802,7 @@ Avenida Emanoel Pinto 818 Balneario Picarras SC 88380000 Brazil
 Rua 1000 46 Balneario Camboriu SC 88330564 Brazil
 Avenida da Lagoa 14 Balneario Camboriu SC 88330714 Brazil
 Avenida Nereu Ramos 4770 Balneario Picarras SC 88380000 Brazil
-D Daniel 620 686 Rua Dom Jose Vila Real Balneario Camboriu SC 88337130 Brazil
+Rua Dom Jose Vila Real Balneario Camboriu SC 88337130 Brazil
 Rua Afonso Orsi 64 Itajai SC 88306030 Brazil
 Rua Antonio Zimmermann 264 Guaramirim SC 89270000 Brazil
 Rua Visconde de Inhauma 1379 Sao Carlos SP 13560190 Brazil
@@ -1178,7 +1178,7 @@ Avenida Ataulfo de Paiva 1251 Rio de Janeiro RJ 22440034 Brazil
 Rua Rainha Guilhermina 116 Rio de Janeiro RJ 22441120 Brazil
 Rua Fernandes Tourinho 669 Belo Horizonte MG 30112002 Brazil
 Rua Claudio Manoel 1125 Belo Horizonte MG 30140108 Brazil
-Banco 24horas Rua Goncalves Dias Santo Agostinho Belo Horizonte MG 30140094 Brazil
+Rua Goncalves Dias Santo Agostinho Belo Horizonte MG 30140094 Brazil
 Rua Coronel Augusto de Moura 233A Sete Lagoas MG 35700210 Brazil
 Rua Goncalves Dias 1197 Belo Horizonte MG 30140097 Brazil
 Rua Rio Grande do Norte 103A Belo Horizonte MG 30130130 Brazil
@@ -1195,7 +1195,7 @@ Rua dos Guajajaras 577 Belo Horizonte MG 30180101 Brazil
 Rua Joaquim Nabuco 1019 Novo Hamburgo RS 93310002 Brazil
 Rua Siqueira Campos 832 Porto Alegre RS 90010000 Brazil
 Avenida Praia de Belas 1300 Porto Alegre RS 90110000 Brazil
-Carlos Trein Filho AL 1325 Esq Barao de Uba Rua Carlos Trein Filho Bela Vista Porto Alegre RS 90450120 Brazil
+Rua Carlos Trein Filho Bela Vista Porto Alegre RS 90450120 Brazil
 Avenida Doutor Nilo Pecanha 2410 Porto Alegre RS 91330000 Brazil
 Rua Marechal Floriano 610 Caxias do Sul RS 95020370 Brazil
 Rua Voluntarios da Patria 383 Campos dos Goytacazes RJ 28035260 Brazil
@@ -1240,7 +1240,7 @@ Avenida Higienopolis 266 Londrina PR 86020080 Brazil
 Avenida Getulio Dorneles Vargas 905N Chapeco SC 89801002 Brazil
 Rua Barao do Cerro Azul 1246 Cascavel PR 85801080 Brazil
 Rua Arcipreste Paiva 187 Florianopolis SC 88010530 Brazil
-Integrabike Estacao 02 Sorocaba SP 18010030 Brazil
+Rua Sao Bento Centro Sorocaba SP 18010030 Brazil
 Rua Rio Branco 24 65 Vila Samaritana Bauru SP 17016190 Brazil
 Avenida Sampaio Vidal 536 Marilia SP 17500020 Brazil
 Rua Augusta 1343 Sao Paulo SP 01304001 Brazil
@@ -1515,7 +1515,7 @@ Rua Jose Simoes 583 Para de Minas MG 35661258 Brazil
 Rua Joao Batista Ferreira Leopoldina MG 36700482 Brazil
 Avenida Hurlinghan 8 Indaiatuba SP 13337420 Brazil
 Rua Salvira Marques Carlopolis PR 86420000 Brazil
-BR 153 Jardim das Acacias Aparecida de Goiania GO 74987300 Brazil
+Jardim das Acacias Aparecida de Goiania GO 74987300 Brazil
 Rodovia Santos Dumont Itaobim MG 39625000 Brazil
 Avenida Juscelino Kubitschek 94 Lagoa Formosa MG 38720000 Brazil
 Rua Adao de Oliveira 712 Tapira PR 87830000 Brazil
@@ -1785,7 +1785,7 @@ Avenida Ibirapuera 3103 Sao Paulo SP 04029902 Brazil
 Avenida Gisele Constantino 180 Votorantim SP 18116650 Brazil
 Rua Fonseca Bangu Rio de Janeiro RJ 21820005 Brazil
 Avenida Dom Helder Camara Cachambi Rio de Janeiro RJ 20771004 Brazil
-Praca T 24 Goiania GO 74223060 Brazil
+Avenida T 10 Bueno Goiania GO 74223060 Brazil
 Avenida Regente Feijo Vila Formosa Sao Paulo SP 03342000 Brazil
 Rua Professor Antonio Maria Teixeira Leblon Rio de Janeiro RJ 22430050 Brazil
 Rua Prof Pedro V Parigot de Souza 600 Curitiba PR 81200100 Brazil
@@ -1803,7 +1803,7 @@ Avenida Alberto Benassi Jardim dos Manacas Araraquara SP 14804300 Brazil
 Avenida Transguarulhense Picanco Guarulhos SP 07082055 Brazil
 Estrada do Engenho d Agua Anil Rio de Janeiro RJ 22765240 Brazil
 Avenida Manoel Goulart 2622 Presidente Prudente SP 19060000 Brazil
-Banca Cultural 108 Brasilia DF 70347040 Brazil
+SQS 108 Asa Sul Brasilia DF 70347040 Brazil
 Avenida Gov Andre Franco Montoro Taboao da Serra SP 06757000 Brazil
 Avenida Sete de Setembro 2587 Curitiba PR 80230010 Brazil
 Rua Doutor Joao Ribeiro 244 Sao Paulo SP 03634000 Brazil
@@ -1881,10 +1881,10 @@ Rua Bocaiuva 2395 Florianopolis SC 88015530 Brazil
 Avenida das Americas 14840 Rio de Janeiro RJ 22790702 Brazil
 Avenida Del Rey Caicaras Belo Horizonte MG 30775240 Brazil
 Rua Olimpiadas Itaim Bibi Sao Paulo SP 04547004 Brazil
-Banco 24 Horas Vila Cloris Belo Horizonte MG 31610070 Brazil
+Vila Cloris Belo Horizonte MG 31610070 Brazil
 Rua Almirante Barroso 1294 Foz do Iguacu PR 85851010 Brazil
 Alameda Santos 1826 Sao Paulo SP 01418102 Brazil
-Brs 2 Rua Visconde de Piraja Proximo ao 504 Rio de Janeiro RJ 22410003 Brazil
+Rua Visconde de Piraja Ipanema Rio de Janeiro RJ 22410003 Brazil
 Rua Garcia d Avila 105 Rio de Janeiro RJ 22421010 Brazil
 Avenida Moaci Moema Sao Paulo SP 04083000 Brazil
 Alameda dos Arapanes 853 Sao Paulo SP 04524001 Brazil
@@ -1933,7 +1933,6 @@ Avenida Professor Miguel Franchini Neto 200 Sao Paulo SP 02998050 Brazil
 Avenida Paulista 2064 Sao Paulo SP 01310200 Brazil
 Avenida Pres Juscelino K de Oliveira 5000 Sao Jose do Rio Preto SP 15091450 Brazil
 Avenida Presidente Carlos Luz 3001 Belo Horizonte MG 31250010 Brazil
-Banco 24horas Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil
 Avenida Candido de Abreu 127 Curitiba PR 80530000 Brazil
 Avenida Guilherme Campos 500 Campinas SP Brazil
 Avenida Lauro Sodre 445 Rio de Janeiro RJ 22290070 Brazil
@@ -2001,7 +2000,7 @@ Tyrol Sitio do Campo Praia Grande SP 11726000 Brazil
 Rua Capitao Pacheco e Chaves Mooca Sao Paulo SP 03126001 Brazil
 Vila Santa Maria Passo Fundo RS 83649600 Brazil
 Nova Iguacu Food Luz Nova Iguacu RJ Brazil
-Brs 1 Praia de Botafogo Proximo ao 308 Rio de Janeiro RJ 22250040 Brazil
+Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil
 Rua Bela Cintra 2149 Sao Paulo SP 01415009 Brazil
 Rua Domingos Agostim 89 Sao Paulo SP 03306010 Brazil
 Avenida C Quadra 32 Goiania GO 74853055 Brazil
@@ -2028,7 +2027,7 @@ Avenida Aricanduva 4032 Sao Paulo SP 03951220 Brazil
 PR 317 Zona 47 Maringa PR 87070020 Brazil
 Avenida Giovanni Gronchi 5930 Sao Paulo SP 05734150 Brazil
 Cacau Noir Ceramica Sao Caetano do Sul SP Brazil
-BR 101 Distrito Industrial Sao Jose SC 88104810 Brazil
+Distrito Industrial Sao Jose SC 88104810 Brazil
 Rua Marechal Deodoro 165 Petropolis RJ 25620150 Brazil
 Rua Joao Brito Oliveira 233 Betim MG 32655060 Brazil
 Avenida Lauro Sodre 445 Rio de Janeiro RJ 22290160 Brazil
@@ -2240,7 +2239,7 @@ Rua Direita 256 Sao Paulo SP 01002001 Brazil
 Alameda Itu 852 Sao Paulo SP 01421000 Brazil
 Rua Cincinato Braga 213 Sao Paulo SP 01333010 Brazil
 Clinica Paulista Terapeutica Cardio Vascular Bela Vista Sao Paulo SP 01323050 Brazil
-1 Batalhao de Policia Militar Rua Frei Caneca Centro Rio de Janeiro RJ 20211005 Brazil
+Rua Frei Caneca Centro Rio de Janeiro RJ 20211005 Brazil
 Avenida Pasteur 501 Rio de Janeiro RJ 22290240 Brazil
 Rua I Brava Armacao dos Buzios RJ 28950000 Brazil
 Travessa Borges 58 Rio de Janeiro RJ 20735140 Brazil
@@ -2270,7 +2269,7 @@ Avenida Vereador Benedito Adelino 9000 Angra dos Reis RJ Brazil
 Rua Maria Candida 1813 Sao Paulo SP 02071013 Brazil
 BR 251 Cristalina GO 73850000 Brazil
 Sri Hfa Cruzeiro DF 70658700 Brazil
-Instituto Acreditar Ceon Qnc 15 Taguatinga DF 72115650 Brazil
+Setor C Norte Taguatinga DF 72115650 Brazil
 Parquinho Infantil Aguas Claras DF 71904540 Brazil
 Smpw Quadra 12 Park Way DF 71741204 Brazil
 Rua Amazonas 11 Valparaiso de Goias GO 72873009 Brazil
@@ -2280,7 +2279,7 @@ Alameda das Paineiras Jardim Goias Goiania GO 74810102 Brazil
 Regus Praca XV Centro Rio de Janeiro RJ 20010010 Brazil
 Rua Ferradura 128 Cabo Frio RJ Brazil
 Praia do Iguacu T02 Vila do Abraao Angra dos Reis RJ Brazil
-T02 Vila do Abraao Angra dos Reis RJ Brazil
+Vila do Abraao Angra dos Reis RJ Brazil
 Avenida Gen Euclides de O Figueiredo Itaguai RJ 23826600 Brazil
 Mistura Classica Verolme Angra dos Reis RJ Brazil
 Rua Gleba D Portogalo Angra dos Reis RJ 23917010 Brazil

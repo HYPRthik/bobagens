@@ -125,6 +125,17 @@ check("preserva 'Boulevard ... 271'",
 check("ainda corta nome quando é seguro",
       len(L) > 1 and L[1] == "Rua das Flores 88 Curitiba PR 80000000 Brazil", L[1:2])
 
+print("\n=== T4b3 nome de estabelecimento com dígito ainda é cortado ===")
+p = entrada("digito.csv", 'endereco,cidade,uf,cep\n'
+    '"Banco 24horas, Avenida Presidente Vargas, Indaiatuba - SP, 13339-125",Indaiatuba,SP,13339-125\n'
+    '"Boulevard Vinte e Oito de Setembro, 271, Vila Isabel, Rio de Janeiro - RJ, 20551-030",Rio de Janeiro,RJ,20551-030\n')
+rc, out = run([p, "-o", f"{TMP}/t4k", "--nome", "dg"])
+L = linhas(f"{TMP}/t4k/dg.txt") if rc == 0 else []
+check("corta 'Banco 24horas' apesar do dígito",
+      L[:1] == ["Avenida Presidente Vargas Indaiatuba SP 13339125 Brazil"], L[:1] or out[-300:])
+check("continua preservando 'Boulevard ... 271'",
+      len(L) > 1 and L[1] == "Boulevard Vinte e Oito de Setembro 271 Rio de Janeiro RJ 20551030 Brazil", L[1:2])
+
 print("\n=== T4c número da porta com letra e bairro iniciado por conectivo ===")
 p = entrada("numalpha.csv", 'endereco\n'
     '"Rua Olegario Mariano, 40A, Centro, São João de Meriti - RJ, 25510-350, Brasil"\n'
@@ -312,6 +323,15 @@ risco = {x["endereco_dsp"]: x["severidade"] for x in csv.DictReader(
     io.StringIO(open(f"{TMP}/t9f/s1_risco.csv", encoding="utf-8-sig").read()), delimiter=";")}
 check("o que veio pelo nome está marcado ALTO",
       risco.get("SUPERMERCADO DELTA MAX Piracicaba SP Brazil") == "ALTO", risco)
+
+print("\n=== T9g coluna vazia não rouba o papel de uma preenchida ===")
+p = entrada("vazia.csv", "name,Nome Fantasia,cidade,uf,endereco\n"
+    ",SUPERMERCADO JVA,Jundiaí,SP,\n"
+    ",Bar Y,São Paulo,SP,\"Rua Augusta, 100, Consolação, São Paulo - SP, 01305-100\"\n")
+rc, out = run([p, "-o", f"{TMP}/t9g", "--nome", "vz", "--nome-sem-endereco"])
+L = linhas(f"{TMP}/t9g/vz.txt") if rc == 0 else []
+check("usa 'Nome Fantasia', não o 'name' vazio",
+      "SUPERMERCADO JVA Jundiai SP Brazil" in L, L or out[-300:])
 
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []

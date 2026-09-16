@@ -67,7 +67,7 @@ Rua Amazonas 439 Sao Caetano do Sul SP 09520060 Brazil
 Avenida Frei Pacifico Wagner 163 Caraguatatuba SP 11660280 Brazil
 Avenida Adolfo Pinheiro 1029 Sao Paulo SP 04734002 Brazil
 Rua Raimundo Correa Vila Marina Dias Sorocaba SP 18035265 Brazil
-Torre Maggiore Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil
+Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil
 Rua Claudionor Sandoval 741 Presidente Prudente SP 19023200 Brazil
 Avenida Ayrton Senna da Silva 600 Londrina PR 86050460 Brazil
 Rua Leoberto Leal 440 Papanduva SC 89370000 Brazil
@@ -324,7 +324,7 @@ Avenida Emanoel Pinto 818 Balneario Picarras SC 88380000 Brazil
 Rua 1000 46 Balneario Camboriu SC 88330564 Brazil
 Avenida da Lagoa 14 Balneario Camboriu SC 88330714 Brazil
 Avenida Nereu Ramos 4770 Balneario Picarras SC 88380000 Brazil
-D Daniel 620 686 Rua Dom Jose Vila Real Balneario Camboriu SC 88337130 Brazil
+Rua Dom Jose Vila Real Balneario Camboriu SC 88337130 Brazil
 Rua Afonso Orsi 64 Itajai SC 88306030 Brazil
 Rua Antonio Zimmermann 264 Guaramirim SC 89270000 Brazil
 Rua Visconde de Inhauma 1379 Sao Carlos SP 13560190 Brazil
@@ -701,7 +701,7 @@ Avenida Ataulfo de Paiva 1251 Rio de Janeiro RJ 22440034 Brazil
 Rua Rainha Guilhermina 116 Rio de Janeiro RJ 22441120 Brazil
 Rua Fernandes Tourinho 669 Belo Horizonte MG 30112002 Brazil
 Rua Claudio Manoel 1125 Belo Horizonte MG 30140108 Brazil
-Banco 24horas Rua Goncalves Dias Santo Agostinho Belo Horizonte MG 30140094 Brazil
+Rua Goncalves Dias Santo Agostinho Belo Horizonte MG 30140094 Brazil
 Rua Coronel Augusto de Moura 233A Sete Lagoas MG 35700210 Brazil
 Rua Goncalves Dias 1197 Belo Horizonte MG 30140097 Brazil
 Rua Rio Grande do Norte 103A Belo Horizonte MG 30130130 Brazil
@@ -718,7 +718,7 @@ Rua dos Guajajaras 577 Belo Horizonte MG 30180101 Brazil
 Rua Joaquim Nabuco 1019 Novo Hamburgo RS 93310002 Brazil
 Rua Siqueira Campos 832 Porto Alegre RS 90010000 Brazil
 Avenida Praia de Belas 1300 Porto Alegre RS 90110000 Brazil
-Carlos Trein Filho AL 1325 Esq Barao de Uba Rua Carlos Trein Filho Bela Vista Porto Alegre RS 90450120 Brazil
+Rua Carlos Trein Filho Bela Vista Porto Alegre RS 90450120 Brazil
 Avenida Doutor Nilo Pecanha 2410 Porto Alegre RS 91330000 Brazil
 Rua Marechal Floriano 610 Caxias do Sul RS 95020370 Brazil
 Rua Voluntarios da Patria 383 Campos dos Goytacazes RJ 28035260 Brazil
@@ -763,7 +763,7 @@ Avenida Higienopolis 266 Londrina PR 86020080 Brazil
 Avenida Getulio Dorneles Vargas 905N Chapeco SC 89801002 Brazil
 Rua Barao do Cerro Azul 1246 Cascavel PR 85801080 Brazil
 Rua Arcipreste Paiva 187 Florianopolis SC 88010530 Brazil
-Integrabike Estacao 02 Sorocaba SP 18010030 Brazil
+Rua Sao Bento Centro Sorocaba SP 18010030 Brazil
 Rua Rio Branco 24 65 Vila Samaritana Bauru SP 17016190 Brazil
 Avenida Sampaio Vidal 536 Marilia SP 17500020 Brazil
 Rua Augusta 1343 Sao Paulo SP 01304001 Brazil

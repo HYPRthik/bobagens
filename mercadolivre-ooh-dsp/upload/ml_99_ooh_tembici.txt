@@ -8,7 +8,7 @@ Avenida Presidente Vargas 1997 Rio de Janeiro RJ 20210030 Brazil
 Rua Afonso Cavalcanti Cidade Nova Rio de Janeiro RJ 20211110 Brazil
 Rua Sa Ferreira 19 Rio de Janeiro RJ 22071100 Brazil
 Avenida Epitacio Pessoa 4254 Rio de Janeiro RJ 22471003 Brazil
-Bikerio Estacao 248 Rio de Janeiro RJ 22640100 Brazil
+Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640100 Brazil
 Rua Gastao Formenti 54 Rio de Janeiro RJ 22630080 Brazil
 Avenida Rio Branco Centro Rio de Janeiro RJ 20040004 Brazil
 Avenida Belisario Leite de Andrade Neto 36 Rio de Janeiro RJ 22621270 Brazil
@@ -41,9 +41,9 @@ Rua Santa Clara 26 Rio de Janeiro RJ 22041011 Brazil
 AVENIDA PADRE LEONEL FRANCA 182 Rio de Janeiro RJ 22451000 Brazil
 Rua Ipiranga 11 Rio de Janeiro RJ 22231120 Brazil
 Avenida Borges de Medeiros 3381 Rio de Janeiro RJ 22470001 Brazil
-Bikerio Estacao 46 Rio de Janeiro RJ 22470001 Brazil
+Avenida Borges de Medeiros Lagoa Rio de Janeiro RJ 22470001 Brazil
 Avenida Prado Junior 37 Rio de Janeiro RJ 22011040 Brazil
-Brs 2 Avenida Ataulfo de Paiva Proximo ao 50 Rio de Janeiro RJ 22440033 Brazil
+Avenida Ataulfo de Paiva Leblon Rio de Janeiro RJ 22440033 Brazil
 Rua Adalberto Ferreira Leblon Rio de Janeiro RJ 22430140 Brazil
 Rua Jardim Botanico 568 Rio de Janeiro RJ 22461000 Brazil
 Rua Cardoso Junior 5 Rio de Janeiro RJ 22245000 Brazil
