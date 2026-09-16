@@ -110,6 +110,9 @@ def normalizar_numero(s):
     ao numero. Exige o º/° de proposito — um "n" solto pode ser nome de rua.
     """
     t = str(s)
+    # ".0" de inteiro lido como float pelo Excel: "Numero" 1842.0 -> 1842.
+    # Sem isso o ponto vira espaco e o numero se parte ("1842 0").
+    t = re.sub(r"(?<=\d)\.0+\b", "", t)
     t = re.sub(r"(?<=\d)\.(?=\d{3}(?!\d))", "", t)
     t = re.sub(r"\bn\s*[\u00ba\u00b0]\s*\.?\s*(?=\d)", "", t, flags=re.I)
     return t
@@ -584,7 +587,7 @@ def main():
                     miolo, origem_alt = limpar_ponto_ooh(cand), True
                     break
 
-        n_col = campo(row, "numero")
+        n_col = normalizar_numero(campo(row, "numero"))
         if n_col and n_col not in miolo.split():
             if segs_end and not origem_alt:
                 # insere logo apos o logradouro (1o segmento), para o bairro que

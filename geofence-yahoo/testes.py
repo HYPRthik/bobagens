@@ -333,6 +333,17 @@ L = linhas(f"{TMP}/t9g/vz.txt") if rc == 0 else []
 check("usa 'Nome Fantasia', não o 'name' vazio",
       "SUPERMERCADO JVA Jundiai SP Brazil" in L, L or out[-300:])
 
+print("\n=== T9h inteiro lido como float pelo Excel ===")
+p = entrada("float.csv", "endereco,Numero,cidade,uf,cep\n"
+    "Avenida Paulista,1842.0,São Paulo,SP,01311-300\n"
+    "Rua dos Pinheiros,870.00,São Paulo,SP,05422-001\n")
+rc, out = run([p, "-o", f"{TMP}/t9h", "--nome", "fl"])
+L = linhas(f"{TMP}/t9h/fl.txt") if rc == 0 else []
+check("'1842.0' vira 1842, não '1842 0'",
+      L[:1] == ["Avenida Paulista 1842 Sao Paulo SP 01311300 Brazil"], L[:1] or out[-300:])
+check("'870.00' vira 870",
+      len(L) > 1 and L[1] == "Rua dos Pinheiros 870 Sao Paulo SP 05422001 Brazil", L[1:2])
+
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []
 for q in glob.glob(f"{TMP}/**/*.txt", recursive=True) + glob.glob(f"{TMP}/**/*.csv", recursive=True):
