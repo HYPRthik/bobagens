@@ -8,13 +8,13 @@
 8;Bar dos Arcos;;endereco;Praça Ramos de Azevedo, s/n, subsolo do Theatro Municipal, República, São Paulo - SP;Praca Ramos de Azevedo subsolo do Theatro Municipal Republica Sao Paulo SP Brazil;São Paulo;SP;;-23.545319;-46.638435;-23.545319;-46.638435;;ALTO;sem numero de porta
 9;Guarita;;endereco;Rua Simão Álvares, 952, Pinheiros, São Paulo - SP;Rua Simao Alvares 952 Sao Paulo SP Brazil;São Paulo;SP;;-23.559866;-46.691425;-23.559866;-46.691425;Pinheiros;;
 10;Boca de Ouro;;endereco;Rua Cônego Eugênio Leite, 1121, Pinheiros, São Paulo - SP;Rua Conego Eugenio Leite 1121 Sao Paulo SP Brazil;São Paulo;SP;;-23.559740;-46.683669;-23.55974;-46.683669;Pinheiros;;
-11;Astor;;endereco;Rua Delfina, 163, Vila Madalena, São Paulo - SP (+ 4 unidades);Rua Delfina 163 Sao Paulo 4 unidades SP Brazil;São Paulo -   (+ 4 unidades);SP;;-23.554071;-46.694232;-23.554071;-46.694232;Vila Madalena;;
+11;Astor;;endereco;Rua Delfina, 163, Vila Madalena, São Paulo - SP (+ 4 unidades);Rua Delfina 163 Sao Paulo SP Brazil;São Paulo;SP;;-23.554071;-46.694232;-23.554071;-46.694232;Vila Madalena;;
 12;The Punch Bar;;endereco;Rua Manuel da Nóbrega, 76, loja 17, Paraíso, São Paulo - SP;Rua Manuel da Nobrega 76 Sao Paulo SP Brazil;São Paulo;SP;;-23.568550;-46.649406;-23.56855;-46.649406;Paraíso;;
 13;Trinca Bar e Vermuteria;;endereco;Rua Costa Carvalho, 96, Pinheiros, São Paulo - SP;Rua Costa Carvalho 96 Sao Paulo SP Brazil;São Paulo;SP;;-23.560793;-46.699202;-23.560793;-46.699202;Pinheiros;;
-14;SubAstor;;endereco;Rua Delfina, 163, Vila Madalena, São Paulo - SP (+ 2 unidades);Rua Delfina 163 Sao Paulo 2 unidades SP Brazil;São Paulo -   (+ 2 unidades);SP;;-23.554071;-46.694232;-23.554071;-46.694232;Vila Madalena;;
-15;Rabo di Galo (Rosewood);;endereco;Rua Itapeva, 435, Bela Vista, São Paulo - SP (Hotel Rosewood);Rua Itapeva 435 Sao Paulo Hotel Rosewood SP Brazil;São Paulo -   (Hotel Rosewood);SP;;-23.560170;-46.653246;-23.56017;-46.653246;Bela Vista;;
+14;SubAstor;;endereco;Rua Delfina, 163, Vila Madalena, São Paulo - SP (+ 2 unidades);Rua Delfina 163 Sao Paulo SP Brazil;São Paulo;SP;;-23.554071;-46.694232;-23.554071;-46.694232;Vila Madalena;;
+15;Rabo di Galo (Rosewood);;endereco;Rua Itapeva, 435, Bela Vista, São Paulo - SP (Hotel Rosewood);Rua Itapeva 435 Sao Paulo SP Brazil;São Paulo;SP;;-23.560170;-46.653246;-23.56017;-46.653246;Bela Vista;;
 16;Fel;;endereco;Avenida Ipiranga, 200, Copan, loja 69, República, São Paulo - SP;Avenida Ipiranga 200 Sao Paulo SP Brazil;São Paulo;SP;;-23.546411;-46.644075;-23.546411;-46.644075;Copan República;;
-17;Bar do Cofre;;endereco;Rua João Brícola, 24, Centro Histórico, São Paulo - SP (Farol Santander);Rua Joao Bricola 24 Sao Paulo Farol Santander SP Brazil;São Paulo -   (Farol Santander);SP;;-23.545799;-46.634043;-23.545799;-46.634043;Centro Histórico;;
+17;Bar do Cofre;;endereco;Rua João Brícola, 24, Centro Histórico, São Paulo - SP (Farol Santander);Rua Joao Bricola 24 Sao Paulo SP Brazil;São Paulo;SP;;-23.545799;-46.634043;-23.545799;-46.634043;Centro Histórico;;
 18;Lágrima;;endereco;Rua Major Sertório, 95, Vila Buarque, São Paulo - SP;Rua Major Sertorio 95 Sao Paulo SP Brazil;São Paulo;SP;;-23.545467;-46.645687;-23.545467;-46.645687;Vila Buarque;;
 19;Baretto (Hotel Fasano);;endereco;Rua Vitório Fasano, 88, Jardim Paulista, São Paulo - SP;Rua Vitorio Fasano 88 Sao Paulo SP Brazil;São Paulo;SP;;-23.564534;-46.669448;-23.564534;-46.669448;Jardim Paulista;;
 20;Dentro Bar;;endereco;Largo do Arouche, 77, República, São Paulo - SP;Largo do Arouche 77 Sao Paulo SP Brazil;São Paulo;SP;;-23.541587;-46.645008;-23.541587;-46.645008;República;;
@@ -40,7 +40,7 @@
 40;Mykola Lab Bar;;endereco;Rua Visconde do Rio Branco, 1087, Centro, Curitiba - PR;Rua Visconde do Rio Branco 1087 Curitiba PR Brazil;Curitiba;PR;;-25.431383;-49.280396;-25.431383;-49.280396;Centro;;
 41;Ginger Bar;;endereco;Rua Saldanha Marinho, 1220 (fundos), Centro, Curitiba - PR;Rua Saldanha Marinho 1220 Curitiba PR Brazil;Curitiba;PR;;-25.432714;-49.283294;-25.432714;-49.283294;(fundos) Centro;;
 42;Cocktails Continental;;endereco;Alameda Dr. Carlos de Carvalho, 943, Batel, Curitiba - PR;Alameda Dr Carlos de Carvalho 943 Curitiba PR Brazil;Curitiba;PR;;-25.434759;-49.283883;-25.434759;-49.283883;Batel;;
-43;Dom Bar;;endereco;Avenida Iguaçu, 4399, Curitiba - PR (+ unidade Av. Vicente Machado);Avenida Iguacu 4399 Curitiba unidade Av Vicente Machado PR Brazil;Curitiba -   (+ unidade Av. Vicente Machado);PR;;-25.454976;-49.302647;-25.454976;-49.302647;;;
+43;Dom Bar;;endereco;Avenida Iguaçu, 4399, Curitiba - PR (+ unidade Av. Vicente Machado);Avenida Iguacu 4399 Curitiba PR Brazil;Curitiba;PR;;-25.454976;-49.302647;-25.454976;-49.302647;;;
 44;La Boca Bar y Cocina;;endereco;Rua Visconde do Rio Branco, 367, Mercês, Curitiba - PR;Rua Visconde do Rio Branco 367 Curitiba PR Brazil;Curitiba;PR;;-25.423893;-49.284105;-25.423893;-49.284105;Mercês;;
 45;Canto Bar de Parrilla;;endereco;Alameda Prudente de Moraes, 1069, Centro, Curitiba - PR;Alameda Prudente de Moraes 1069 Curitiba PR Brazil;Curitiba;PR;;-25.431153;-49.281892;-25.431153;-49.281892;Centro;;
 46;Gards Rooftop;;endereco;Rua Comendador Macedo, 630, 11º andar, Curitiba - PR;Rua Comendador Macedo 630 Curitiba PR Brazil;Curitiba;PR;;-25.429451;-49.258331;-25.429451;-49.258331;;;

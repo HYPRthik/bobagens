@@ -123,6 +123,78 @@ def ascii_puro(s):
     return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9 ]", " ", sem_acento(normalizar_numero(s)))).strip()
 
 
+# CEP da capital paulista. E onde as divergencias entre coluna e texto se
+# concentram, e o unico caso em que da para arbitrar sem tabela de municipios.
+SP_CAPITAL = ((1000, 5999), (8000, 8499))
+
+
+def cep_e_sp_capital(cep):
+    d = re.sub(r"\D", "", str(cep))[:5]
+    if len(d) < 5:
+        return None
+    n = int(d)
+    return any(a <= n <= b for a, b in SP_CAPITAL)
+
+
+def mesma_cidade(a, b):
+    """True se sao a mesma cidade escrita de outro jeito — igual, ou uma
+    abreviada da outra token a token ("PRES. PRUDENTE" x "Presidente Prudente")."""
+    na = [re.sub(r"[^a-z]", "", t) for t in sem_acento(str(a)).lower().split()]
+    nb = [re.sub(r"[^a-z]", "", t) for t in sem_acento(str(b)).lower().split()]
+    na = [t for t in na if t]
+    nb = [t for t in nb if t]
+    if not na or not nb:
+        return False
+    if na == nb:
+        return True
+    return len(na) == len(nb) and all(x.startswith(y) or y.startswith(x)
+                                      for x, y in zip(na, nb))
+
+
+FRAGMENTO = re.compile(r"\b(s/?n|qd|lt|lote|sl|sala|loja|bl|bloco|tr|trecho|km|"
+                       r"and|andar|apt|apto|casa|fundos|galpao)\b", re.I)
+
+
+def parece_cidade(t):
+    """Descarta o que o extrator pegou mas nao e cidade: 'S/N QD 68 LT 9', 'SL B'."""
+    t = sem_acento(str(t)).strip()
+    if not t or len(t) < 3 or FRAGMENTO.search(t):
+        return False
+    return bool(re.fullmatch(r"[A-Za-z][A-Za-z'\- ]{2,}", t))
+
+
+def escolher_cidade(do_texto, da_coluna, cep, uf):
+    """Decide entre a cidade extraida do endereco e a de uma coluna propria.
+
+    Nenhuma das duas ganha sempre. Nesta base de farmacias a coluna diz "Sao
+    Paulo" para 65 enderecos que o texto e o CEP situam em Osasco e Taboao da
+    Serra; na base de cinemas o texto e que traz BAIRRO ("BELA VISTA - SP") e a
+    coluna e que esta certa. O CEP arbitra onde consegue.
+
+    Devolve (cidade, aviso).
+    """
+    if not do_texto:
+        return da_coluna, ""
+    # "FORTALEZA - STATE OF CEARA": o que vale e o que vem antes do hifen
+    do_texto = str(do_texto).split(" - ")[0].strip()
+    if not parece_cidade(do_texto):
+        # nao da para arbitrar sobre o que nem parece cidade; sem coluna, fica o
+        # que ja estava — devolver vazio apagaria a cauda inteira do endereco
+        return da_coluna or do_texto, ""
+    if not da_coluna or mesma_cidade(do_texto, da_coluna):
+        return da_coluna or do_texto, ""
+    if mesma_cidade(da_coluna, "Sao Paulo"):
+        # a coluna diz a capital paulista: o CEP confirma ou desmente
+        uf_cep = uf_do_cep(int(re.sub(r"\D", "", str(cep))[:5] or 0)) if re.sub(r"\D", "", str(cep)) else None
+        cap = cep_e_sp_capital(cep)
+        if uf_cep and uf_cep != "SP":
+            return do_texto, ""           # CEP nem e de SP: a coluna erra feio
+        if cap is not None:
+            return (da_coluna, "") if cap else (do_texto, "")
+    return da_coluna, (f"cidade divergente: coluna diz {da_coluna!r} e o endereco "
+                       f"diz {do_texto!r}; mantida a da coluna")
+
+
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "_", sem_acento(s).lower()).strip("_")
 
@@ -331,6 +403,16 @@ def partir_endereco(txt):
         # Sinal mais forte que o tipo de logradouro: um segmento que e SO numero.
         # O logradouro e o segmento imediatamente anterior a ele, valendo mesmo
         # quando o tipo vem com erro de digitacao ("Avendia Abilio Augusto").
+        # nome separado do logradouro por hifen DENTRO do segmento:
+        # "FARMACIA - AV. FARIAS BRITO" — corta ate o tipo de logradouro
+        if segs and not INICIO_LOGRADOURO.match(sem_acento(segs[0]).strip()):
+            pedacos = segs[0].split(" - ")
+            for j, pc in enumerate(pedacos):
+                if j and INICIO_LOGRADOURO.match(sem_acento(pc).strip()) \
+                        and not any(re.search(r"\d", x) for x in pedacos[:j]):
+                    segs[0] = " - ".join(pedacos[j:])
+                    break
+
         k = next((i for i, x in enumerate(segs)
                   if re.fullmatch(r"\d{1,6}[A-Za-z]?", x.strip())), None)
         if k is not None and k >= 1:
@@ -571,7 +653,9 @@ def main():
         # Coluna explicita ganha do que foi extraido do texto: no slot de cidade
         # do endereco costuma vir BAIRRO ("BELA VISTA - SP", "PIRITUBA - SP" sao
         # todos Sao Paulo) ou abreviacao ("PRES. PRUDENTE").
-        cidade = campo(row, "cidade") or cidade or None
+        cidade, aviso_cidade = escolher_cidade(cidade, campo(row, "cidade"),
+                                               campo(row, "cep") or cep, campo(row, "uf") or uf)
+        cidade = cidade or None
         uf = (campo(row, "uf").upper() if campo(row, "uf").upper() in UFBOX else None) or uf
         cep = (re.sub(r"\D", "", campo(row, "cep")) or None) or cep
         # A coluna principal pode nao trazer logradouro nenhum ("Shopping Jardim
@@ -673,6 +757,9 @@ def main():
             ult = rua_num.split()[-1] if rua_num.split() else ""
             numero = ult if re.fullmatch(r"\d{1,6}[A-Za-z]?", ult) else ""
             sev, risco = classificar_risco(rua_num, numero, cep or "")
+            if aviso_cidade:
+                risco.append(aviso_cidade)
+                sev = sev or "MEDIO"
             if cidade_ambigua:
                 risco.append("cidade nao identificada, bairro mantido (informe coluna "
                              "'cidade' ou use endereco com virgulas)")

@@ -1,0 +1,635 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;16;DROGASIL;Avenida AUGUSTO MONTENEGRO COQUEIRO Belem PA 66823010 Brazil;sem numero de porta
+ALTO;27;DROGASIL;Estrada BARAO DE AQUIRAZ 1062 Fortaleza CE 60871684 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;28;FARMACIA DO GERALDO;Estrada DO SABAO 905 Sao Paulo SP 02806000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;34;FARMACIA ULTRABRAGA;Rua ITAPAIUNA VILA ANDRADE Sao Paulo SP Brazil;sem numero de porta
+ALTO;46;REDE FARMÁCIA DO TRABALHADOR;Avenida FERNANDO CORREA DA COSTA CHACARA DOS PINHEIROS Cuiaba MT 78085000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;54;VITAL VET CLÍNICA E HOSPITAL VETERINÁRIO;Estrada KIZAEMON TAKEUTI 193 TABOAO DA SERRA SP 06775000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;59;"DR. ODY CLAY MEU DR.PET"" - CLÍNICA VETERINÁRIA""";ESTRADA CANAL DO COCAIA 1327 Sao Paulo SP 04849032 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;62;ULTRAFARMA POPULAR JD COMERCIAL;Estrada DE ITAPECERICA 7083 Sao Paulo SP 05858003 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;69;MIYU FARMA FARMÁCIA DE MANIPULAÇÃO;ESTRADA DO M BOI MIRIM 1042 Sao Paulo SP 04905001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;79;LEDAFARMA | FARMÁCIA ONLINE EM SÃO PAULO - SP;Estrada DAS TAIPAS 2569 Sao Paulo SP 02991000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;98;DROGASIL;BR 316 100 CASTANHEIRA Belem PA 66645000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;110;DROGA MAIS VIDA;Avenida ARCHIMEDES PEREIRA LIMA SANTA CRUZ Cuiaba MT 78075000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;121;DROGASIL;Rodovia REGIS BITTENCOURT 2643 TABOAO DA SERRA SP 06768200 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;127;DROGARIA ULTRA POPULAR;Avenida NOSSA SRA DA CONCEICAO SAO JOAO DO OUTEIRO OUTEIRO Belem PA Brazil;sem numero de porta
+ALTO;133;LOJA DA GRANADO;Rua MANGUALDE JARDIM SAO LUIZ Sao Paulo SP 05851260 Brazil;sem numero de porta
+ALTO;139;TOTALFARMA DROGARIA;Rua DR JOSE AUGUSTO DE SOUZA E SILVA JARDIM PARQUE MORUMBI Sao Paulo SP 05712040 Brazil;sem numero de porta
+ALTO;140;DROGARIA SÃO PAULO;Estrada DE ITAPECERICA 3840 Sao Paulo SP 05835004 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;145;Edificio Drogasil;Rua dos Pinheiros Pinheiros Sao Paulo SP 08142640 Brazil;sem numero de porta
+ALTO;169;Drogasil;Avenida Sapopemba 1097 1087 Vila Reg Feijo Sao Paulo SP 03344050 Brazil;sem numero de porta
+ALTO;176;Drogasil Horto do Ype sp campo limpo 3;Estrada do Campo Limpo 930 Sao Paulo SP 05777000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;192;Ultrafarma Popular Ourives;Avenida dos Ourives Jardim Sao Saverio Sao Paulo SP 04194260 Brazil;sem numero de porta
+ALTO;238;Drogasil;Estrada do Campo Limpo 5900 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;254;DROGA RAIA;RUA HELADE VILA MASCOTE Sao Paulo SP 05582000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;265;FARMÁCIA PAGUE MENOS;Avenida GOV MAGALHAES BARATA 877 885 BRAS Belem PA 66060281 Brazil;sem numero de porta
+ALTO;272;DROGARIA SÃO PAULO;Estrada DO CAMPO LIMPO 434 Sao Paulo SP 05777000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;277;DROGARIA SÃO PAULO;Estrada DE ITAPECERICA 6080 Sao Paulo SP 05858000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;283;DROGARIA MANILHA;VILA CARRAO Sao Paulo SP 03445060 Brazil;sem numero de porta
+ALTO;287;DROGARIA SÃO PAULO;Estrada ESTRADA DO M BOI MIRIM 1293 Sao Paulo SP 04905021 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;305;DROGARIA SÃO PAULO;Avenida ENG HEITOR ANTONIO EIRAS GARCIA 691 695 JARDIM ESMERALDA Sao Paulo SP 05588001 Brazil;sem numero de porta
+ALTO;311;DROGASIL;Estrada DE ITAPECERICA 2801 Sao Paulo SP 05835005 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;312;DROGASIL;Estrada DE ITAPECERICA 498 Sao Paulo SP 05835000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;320;DROGARIA SAO PAULO;AVENIDA MARECHALAMEDA TITO 933SAO MIGUEL PAULISTA Sao Paulo SP 08010090 Brazil;sem numero de porta
+ALTO;326;DROGARIA SÃO PAULO;Estrada DO LAGEADO VELHO 767 Sao Paulo SP 08451055 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;366;DROGASIL;Avenida ISAAC POVOAS GOIABEIRAS Cuiaba MT 78032015 Brazil;sem numero de porta
+ALTO;395;DROGASIL;Estrada DO CAMPO LIMPO 459 Sao Paulo SP 05777001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;397;ULTRAFARMA 24 HORAS;Estrada DO CAMPO LIMPO 4277 Sao Paulo SP Brazil;endereco de rodovia (57-67% falharam)
+ALTO;415;ULTRAFARMA - LAGEADO;Estrada DO LAGEADO VELHO 434 Sao Paulo SP 08451000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;419;ULTRAFARMA POPULAR JARDIM CAPELA;ESTRADA DO M BOI MIRIM 9881 Sao Paulo SP 04960010 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;423;IMIFARMA;Rua GASPAR VIANA 1196 1398 CAMPINA Belem PA 66010060 Brazil;sem numero de porta
+ALTO;425;DROGASIL;ESTRADA DO M BOI MIRIM 4780 Sao Paulo SP 04905010 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;437;DROGARIA BOA ESPERANÇA;AVENIDA BRASIL Cuiaba MT 78055508 Brazil;sem numero de porta
+ALTO;445;DROGARIA SAÚDE;PARQUE CUIABA Cuiaba MT 78095372 Brazil;sem numero de porta
+ALTO;447;FARMÁCIA PAGUE MENOS;Avenida CARMINDO DE CAMPOS JARDIM PETROPOLIS Cuiaba MT 78070000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;501;DROGASIL;Estrada DO CAMPO LIMPO 5083 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;524;DROGASIL;Estrada DO LAGEADO VELHO 760 Sao Paulo SP 08451056 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;538;DROGASIL;Avenida CEL JOSE PHILOMENO GOMES ENG L CAVALCANTE Fortaleza CE 60813820 Brazil;sem numero de porta
+ALTO;562;ULTRAFARMA HELIÓPOLIS;Estrada DAS LAGRIMAS 1930 Sao Paulo SP 04232000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;580;DROGASIL;Estrada DO CAMPO LIMPO 4135 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;628;EXTRAFARMA;AVENIDA MAESTRO LISBOA JOSE DE ALENCAR Fortaleza CE 60830115 Brazil;sem numero de porta
+ALTO;629;DROGARIA SÃO PAULO;Rodovia RAPOSO TAVARES 8450 Sao Paulo SP 05576200 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;632;FARMACIA BARATÃO DO BAIRRO;Avenida VAL PARAISO CONJ PALMEIRAS Fortaleza CE 60870025 Brazil;sem numero de porta
+ALTO;651;DROGASIL;Avenida COMENDADOR SANT ANNA 34 51 CAPAO REDONDO Sao Paulo SP 05866000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;656;DROGARIA SÃO PAULO;Estrada DE ITAPECERICA 4079 Sao Paulo SP 05835005 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;673;FARMÁCIAS PAGUE POUCO;Rodovia PALMIRO PAES DE BARROS 300 Cuiaba MT 78090702 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;707;Ultrafarma - Est.do Alvarenga;Estrada do Alvarenga 3043 Sao Paulo SP 04474340 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;714;DROGASIL;ESTRADA DO M BOI MIRIM 1044 Sao Paulo SP 04905001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;716;DROGARIA FARMAMERICA REDE HIPER POPULAR;Avenida DR MEIRELLES 602 650 TIJUCAL Cuiaba MT 78088010 Brazil;sem numero de porta
+ALTO;717;DROGARIA SÃO PAULO;Estrada DO CAMPO LIMPO 4059 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;734;DROGARIA NOVA ESPERANÇA;Avenida CABO ADAO PEREIRA 82 88 VILA PIRITUBA Sao Paulo SP 02936010 Brazil;sem numero de porta
+ALTO;780;Drogasil;Rua Maraechal Av Mal Fiuza de Castro Jardim Pinheiros Sao Paulo SP 05596000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;790;Drogasil;Avenida Raposo Tavares Carrefour Carrefour Raposo SP 270 Jardim Cambara Sao Paulo SP 05576200 Brazil;sem numero de porta
+ALTO;805;DROGARIAS ULTRA POPULAR;Avenida FRANCISCO SA 4428 4430 ALVARO WEYNE Fortaleza CE 60335198 Brazil;sem numero de porta
+ALTO;832;ULTRAFARMA POPULAR - JARDIM SÃO LUÍS;JARDIM SAO LUIS Sao Paulo SP 05805000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;838;FARMÁCIA PAGUE MENOS;Estrada DO CAMPO LIMPO 4460 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;846;DROGARIA SÃO PAULO;Avenida RIO DAS PEDRAS VILA ANTONIETA Sao Paulo SP 03453100 Brazil;sem numero de porta
+ALTO;852;FARMÁCIA PAGUE MENOS;Avenida AUGUSTO MONTENEGRO PARQUE VERDE Belem PA 66635110 Brazil;sem numero de porta
+ALTO;855;ULTRAFARMA POPULAR - UNIDADE CAMPO LIMPO;Estrada DO CAMPO LIMPO 4329 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;878;EXTRAFARMA;RODOVIA BR 316 CASTANHEIRA SHOPPING SHOPPING CASTANHEIRA CASTANHEIRA Belem PA 66630505 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;879;ESPAÇO SIDNEY OLIVEIRA  ULTRAFARMA SAÚDE;RUA DR ISAIAS SALOMAO VILA DA SAUDE Sao Paulo SP 04055050 Brazil;sem numero de porta
+ALTO;881;ULTRAFARMA POPULAR;Estrada DE ITAPECERICA 1723 Sao Paulo SP 05835005 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;889;DROGARIA SÃO PAULO SHOPPING TABOÃO;Rodovia REGIS BITTENCOURT 2643 TABOAO DA SERRA SP 06768200 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;899;DROGARIA SÃO PAULO;Rua MARIA AMALIA LOPES AZEVEDO JARDIM TREMEMBE Sao Paulo SP 02350001 Brazil;sem numero de porta
+ALTO;921;FARMACIA;Avenida CEL CARVALHO BARRA DO CEARA Fortaleza CE 60330780 Brazil;sem numero de porta
+ALTO;934;FARMACIA;BRAS Sao Paulo SP 03012010 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;946;DROGASIL;Avenida MOZART PINHEIRO DE LUCENA VILA VELHA Fortaleza CE 60352642 Brazil;sem numero de porta
+ALTO;973;DROGASIL;Avenida DOS FLORAIS CONDOMINIO FLORAIS CUIABA RES Cuiaba MT 78049400 Brazil;sem numero de porta
+ALTO;978;DROGARIA ULTRA POPULAR;Avenida ISAAC POVOAS GOIABEIRAS Cuiaba MT Brazil;sem numero de porta
+ALTO;980;DROGASIL;Estrada DE ITAPECERICA 2475 Sao Paulo SP 06823475 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;992;FARMACIA CASA DOS MEDICAMENTOS AVIAÇÃO;Avenida SAO PAULO Sao Paulo SP Brazil;sem numero de porta
+ALTO;994;FARMA & CIA;Estrada SAO FRANCISCO 1881 TABOAO DA SERRA SP 06764290 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1002;RODAN FARMA;Avenida SEN VITORINO FREIRE JARDIM LUSO Sao Paulo SP 04423000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1012;Carrefour Drugstore Raposo Tavares;Rodovia Raposo Tavares Rod Raposo Tavares 7201 Sao Paulo SP 05577901 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1025;LABORZAN DISTRIBUIDORA DE REMEDIO;SE Sao Paulo SP 01001010 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;1026;NOVA RODRIGUES ALVES;VILA MARIANA Sao Paulo SP 04015070 Brazil;sem numero de porta
+ALTO;1029;YA FARMA DROGARIA;Estrada TEN JOSE MARIA DA CUNHA 1297 TABOAO DA SERRA SP 06783230 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1040;Drogasil;Estrada Itaquera Guaianazes 2150 Sao Paulo SP 08420000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1049;DROGARIAS CAMPEÃ;Estrada DO CAMPO LIMPO 3891 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1079;DROGASIL;Estrada DE ITAPECERICA 6822 Sao Paulo SP 05858002 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1084;Drogasil;Avenida Thomes de Arruda Fortes Morada do Ouro Cuiaba MT 78053505 Brazil;sem numero de porta
+ALTO;1120;FARMARHAL;Estrada DO ITAIM 2210 GUARULHOS SP 07262160 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1127;Drogaria São Paulo;Rodovia Regis Bittencourt 5 Taboao da Serra SP 06768200 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1128;LUCAS SILVA MAMEDE ROSÁRIO FARMÁCIA;Estrada TEN JOSE MARIA DA CUNHA 878 TABOAO DA SERRA SP 06783230 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1130;DROGASIL;VILA MARGARIDA Sao Paulo SP 03376090 Brazil;sem numero de porta
+ALTO;1134;GOTA PROST;BELA VISTA Sao Paulo SP 01325050 Brazil;sem numero de porta
+ALTO;1139;DROGARIA FATIMA;Estrada BENEDITO CESARIO DE OLIVEIRA 554 TABOAO DA SERRA SP 06767280 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1161;Drogasil;Avenida Gov Parsifal Barroso Presidente Kennedy Fortaleza CE 60357250 Brazil;sem numero de porta
+ALTO;1166;PENSE FARMA;ESTRADA DO M BOI MIRIM 954 Sao Paulo SP 04905000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1190;CONVIVA;FARIAS BRITO Fortaleza CE 60325105 Brazil;sem numero de porta
+ALTO;1208;LARISSA SOUSA;Rua PROF RAIMUNDA ADELIA ANTONIO BEZERRA Fortaleza CE 60350330 Brazil;sem numero de porta
+ALTO;1218;DROGARIA;Rua ROCA GRANDE JARDIM SANTA CRUZ Sao Paulo SP 02675031 Brazil;sem numero de porta
+ALTO;1231;REFARMA;CERQUEIRA CESAR Sao Paulo SP 01410002 Brazil;sem numero de porta
+ALTO;1238;DROGARIA MIL FARMA;Avenida S4 Cuiaba MT 78088200 Brazil;sem numero de porta
+ALTO;1247;Carrefour Drugstore Peach;Estrada do Pessego 1200 Sao Paulo SP 08260000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1251;COMERCIAL DROGARIA KOHATSU;Estrada DE ITAPECERICA 6800 Sao Paulo SP 05858002 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1255;Z8GAMES;BOSQUE DA SAUDE Sao Paulo SP 04137110 Brazil;sem numero de porta
+ALTO;1275;D'AVÓ FARMA;Estrada KIZAEMON TAKEUTI 1300 TABOAO DA SERRA SP 06775001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1281;PENSE FARMA;Estrada DO JAGUARE 1776 Sao Paulo SP 05525080 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1285;Drogasil;Rua Sinfonia Italiana Grajau Sao Paulo SP 04844610 Brazil;sem numero de porta
+ALTO;1288;DROGARIA VALO;Estrada DE ITAPECERICA 6391 Sao Paulo SP 05858005 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1294;Drogasil;Estrada Kizaemon Takeuti 1349 Taboao da Serra SP 06775001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1320;Farmacia;Bras Sao Paulo SP 03050020 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;1326;PHARMA FORT;Rua PEDRO I CENTRO Fortaleza CE 60035100 Brazil;sem numero de porta
+ALTO;1346;DELPHO;VILA MARIANA Sao Paulo SP 04012060 Brazil;sem numero de porta
+ALTO;1355;DROGUINHA;Estrada STELLA MAZZUCCA 112 FERRAZ DE VASCONCELOS SP 08542000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1364;PROLIFE MATERIAIS HOSPITALARES;Travessa BENJAMIN CONSTANT NAZARE Belem PA 66000000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1367;POPUFARMA;ESTRADA PIRAJUSSARA VALO VELHO 1594 Sao Paulo SP 05790350 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1374;BOM VIZINHO;BELA VISTA Sao Paulo SP 01325000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1383;CLÍNICA;Rua HAVAI SUMARE Sao Paulo SP 01259000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1390;FARMA PAGUE POPULAR;Estrada KIZAEMON TAKEUTI 1475 TABOAO DA SERRA SP 06775001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1398;HIGINOR DISTRIBUIDORA LTDA EPP;Rua SEN MANOEL BARATA REDUTO Belem PA 66010147 Brazil;sem numero de porta
+ALTO;1400;DROGASIL;Estrada SAO FRANCISCO 2131 TABOAO DA SERRA SP 06765001 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1412;ESTÃO BUTATA;PARQUE MONTE ALEGRE Sao Paulo SP 05576100 Brazil;sem numero de porta
+ALTO;1424;PHARMA CLINIC - HOMEOPATHY MANIPULATION;Estrada DAS LAGRIMAS 3620 Sao Paulo SP 04244000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1425;FARMA & CIA TABOÃO DA SERRA;Estrada SAO FRANCISCO 1638 TABOAO DA SERRA SP 06765465 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1429;ANTARES;POMPEIA Sao Paulo SP 05019010 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;1438;HYPERMEMO;RUA SOLON PINHEIRO 950 992 CENTRO Fortaleza CE 60050040 Brazil;sem numero de porta
+ALTO;1440;ULTRAFARMA TABOÃO DA SERRA, JD RECORD.;Estrada TEN JOSE MARIA DA CUNHA 1297 TABOAO DA SERRA SP 06783230 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1448;DROGARIA DROGA LUCY;ESTRADA DO M BOI MIRIM 1044 Sao Paulo SP 04905000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1453;FARMA + LOPES;CONJUNTO CEARA II Fortaleza CE 60533611 Brazil;sem numero de porta
+ALTO;1466;ULTRAFARMA;JARDIM ANGELA Sao Paulo SP 04941175 Brazil;sem numero de porta
+ALTO;1480;DRUGSTORE SAO PAULO;Avenida ROLAND GARROS 1401 1411 1401 1411 VILA MEDEIROS Sao Paulo SP 02235001 Brazil;sem numero de porta
+ALTO;1496;Drogaria São Paulo;Avenida ERICO GONCALVES PREZA FILHO Alphaville Cuiaba MT 78061302 Brazil;sem numero de porta
+ALTO;1498;Drogaria São Paulo;Avenida Francisco Matarazzo Agua Branca Sao Paulo SP 05003100 Brazil;sem numero de porta
+ALTO;1504;DROGARIA MONTEIRO QUEIROZ;ESTRADA DO M BOI MIRIM 8700 Sao Paulo SP 04948030 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1511;Carrefour Drugstore Itaquera;Estrada do Pessego 1200 Sao Paulo SP 08260000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1513;Drogaria São Paulo;Rodovia Regis Bittencourt 239 Taboao da Serra SP 06768000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1514;DROGARIA PLATINA;AVENIDA DAS TORRES Cuiaba MT 78005970 Brazil;sem numero de porta
+ALTO;1549;DR. STEPHANIO GOMES;Avenida PAULISTA 2064 2086 BELA VISTA Sao Paulo SP 01310928 Brazil;sem numero de porta
+ALTO;1550;DR LETICIA QUEICHADA;AVENIDA PAULISTA 2064 2086 21ST FLOOR BELA VISTA Sao Paulo SP 01310928 Brazil;sem numero de porta
+ALTO;1563;SIRLENE;BENFICA Fortaleza CE 60868245 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;1564;Droga Raia;Rodovia dos Imigrantes Distrito Industrial 78098 325 Cuiaba MT 78098325 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1605;DROGASIL;VILA BUENOS AIRES Sao Paulo SP Brazil;sem numero de porta
+ALTO;1607;CENTER MEGA;JARDIM FABIANA EMBU SP 06826160 Brazil;sem numero de porta
+ALTO;1617;DAVI SILVA DE SOUSA;RUA PEIXOTO GOMIDE BELA VISTA Sao Paulo SP 01313001 Brazil;sem numero de porta
+ALTO;1675;DROGARIA SÃO PAULO;Rua ESTADOS UNIDOS JARDIM PAULISTA Sao Paulo SP 01427000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1681;Farmelhor jd Amalia;Estrada de Itapecerica 5860 Sao Paulo SP 05858000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1694;DROGARIA CENTRAL POPULAR;Rodovia Regis Bittencourt 122 Taboao da Serra SP 06768000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1695;VESPER;CERQUEIRA CESAR Sao Paulo SP 01421001 Brazil;sem numero de porta
+ALTO;1703;Drogaria São Paulo Shopping Taboão;Rodovia Regis Bittencourt Lojas 198 199 200 Cidade Intercap Sao Paulo SP 05576100 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1705;FARMACIA;COXIPO DA PONTE Cuiaba MT 78134250 Brazil;sem numero de porta
+ALTO;1715;Carrefour Drogaria Anchieta;Rodovia Anchieta 3398 Sao Paulo SP 04246900 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1730;FARMACIA PALACIO DOS REMEDIOS;CENTRO Fortaleza CE 60055250 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;1733;AVARÉ;SE Sao Paulo SP 01001010 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;1749;Drogaria São Paulo;Estrada Itaquera Guaianazes 2542 Sao Paulo SP 08420000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1753;CAPIS;Rua BARAO DO RIO BRANCO CENTRO Fortaleza CE 60035100 Brazil;sem numero de porta
+ALTO;1770;Revendedora De O Boticario;Rua Duarte Teixeira Chaves Jardim Santo Andre Sao Paulo SP 08390410 Brazil;sem numero de porta
+ALTO;1775;DROGALISA;CASA VERDE Sao Paulo SP 02516020 Brazil;sem numero de porta
+ALTO;1780;DROGARIA MOURA;VISTA ALEGRE Cuiaba MT Brazil;sem numero de porta
+ALTO;1787;FARMA VALO;Estrada DE ITAPECERICA 8680 Sao Paulo SP 05858002 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1789;OTOSPAN;CENTRO Fortaleza CE 60025130 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;1795;XMATHAUS IN PARCERIA HUANDER;PARQUE PINHEIROS TABOAO DA SERRA SP 06767220 Brazil;sem numero de porta
+ALTO;1797;Drogaria São Paulo;Estrada do Alvarenga 1661 Sao Paulo SP 04467000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1800;Drogaria São Paulo;Estrada do Campo Limpo 4350 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1801;DROGARIA NOVA CLEMENTINO LTDA;Estrada KIZAEMON TAKEUTI 676 TABOAO DA SERRA SP 06775000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1804;Condomínio Edifício Drogasil Pinheiros;Condominio Edificio Drogasil Pinheiros Pinheiros Sao Paulo SP 05408000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1812;M & D DROGARIA E PERFUMARIA;Rodovia REGIS BITTENCOURT 4551 TABOAO DA SERRA SP 06780190 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1814;MED SHOP;CENTRO Fortaleza CE 60025001 Brazil;"sem numero de porta; logradouro sem nome"
+ALTO;1817;FARMABRUNA;Estrada DE ITAPECERICA 7083 Sao Paulo SP 05858003 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1828;Drogasil;Avenida Zumkeller 690 692 Parque Mandaqui Sao Paulo SP 02420001 Brazil;sem numero de porta
+ALTO;1838;DROGARIA QUINTAFARMA;Estrada DE ITAPECERICA 4830 Sao Paulo SP 05858000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1848;PARÁ VISION;Rua SEN MANOEL BARATA CAMPINA Belem PA 66010000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1854;FARMALIFE;JARDIM PAULISTA Sao Paulo SP 01307001 Brazil;sem numero de porta
+ALTO;1897;DROGARIA SÃO PAULO;Avenida NOSSA SENHORA DO SABARA JD R Afonso Araujo Almeida 2888 2894 Vila Arriete Sao Paulo SP 04447010 Brazil;sem numero de porta
+ALTO;1898;EDY FARMA COSMÉTICA.;Rua FRANCESCO MARTINI JARDIM ELEDY Sao Paulo SP 05856060 Brazil;sem numero de porta
+ALTO;1910;Drogaria Farto;Terminal Rodoviario do Tiete Vila Guilherme Sao Paulo SP 02030000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1933;Condomínio Edifício Drogasil;Avenida Celso Garcia Tatuape Sao Paulo SP 03081031 Brazil;sem numero de porta
+ALTO;1947;DROGASIL;Rua BARAO DE LADARIO 566 670 BRAS Sao Paulo SP Brazil;sem numero de porta
+ALTO;1953;DROGASMIL;RODOVIA DOS TRABALHADORES PARQUE VERDE Belem PA Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1966;DROGASIL;RODOVIA RAPOSO TAVARES JD BOA VISTA Sao Paulo SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1974;DROGARIA SÃO PAULO;RODOVIA REGIS BITTENCOURT 2643 Sao Paulo SP Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1989;DROGARIA SÃO PAULO;ESTRADA DO CAMPO LIMPO 459 Sao Paulo SP Brazil;endereco de rodovia (57-67% falharam)
+ALTO;1993;DROGARIA SÃO PAULO;Avenida FRANCISCO MATARAZZO S No AGUA BRANCA Sao Paulo SP Brazil;sem numero de porta
+ALTO;2004;DROGASIL;ESTRADA DO CAMPO LIMPO 459 Sao Paulo SP Brazil;endereco de rodovia (57-67% falharam)
+MEDIO;5;DROGARIA TOTAL - SÃO JOSÉ;Rua SAO PAULO 488 Sao Paulo SP 16210000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;13;DROGARIAS MAXI POPULAR;Rua ENG RICARDO FRANCO 220 Cuiaba MT 78005000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;20;DROGASIL;Rua OTELO AUGUSTO RIBEIRO 164 Sao Paulo SP 08412000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;22;FARMACIA POPULAR;Avenida VILA EMA 582 Sao Paulo SP 03156000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;48;MANIPULA FARMA - FARMÁCIA DE MANIPULAÇÃO;Avenida MARIA COELHO AGUIAR 655 Sao Paulo SP 05805000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;52;DROGASIL;Avenida CELSO GARCIA 4076 Sao Paulo SP 03064000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;57;DROGARIA FLORAIS;Avenida REPUBLICA DO LIBANO 130 Cuiaba MT 78048000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;75;CLINIFAR FARMACIA E PERFUMARIA LTDA;Rua TOBIAS BARRETO 803 Sao Paulo SP 03176000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;77;DROGASIL;Avenida ELISIO TEIXEIRA LEITE 2160 Sao Paulo SP 02801000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;83;FARMÁCIA PAGUE MENOS;Avenida MIGUEL SUTIL 4962 Cuiaba MT 78060000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;102;ULTRAFARMA POPULAR BOM RETIRO 24HORAS  SÃO PAULO.;RUA PRATES 531 Sao Paulo SP 01121000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;109;ULTRAFARMA CASA VERDE;Rua ZILDA 713 Sao Paulo SP 02545000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;118;DROGASIL;Avenida DO ORATORIO 1814 Sao Paulo SP 03220000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;122;MANIPULAÇÃO;Rua MACIEL MONTEIRO 238 Sao Paulo SP 03566000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;131;FARMACIA TRASMONTANO;Rua TABATINGUERA 294 Sao Paulo SP 01020000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;132;MT PHARMACY DISTRIBUIDORA DE MEDICAMENTOS;Avenida JOSE RODRIGUES DO PRADO 940 Cuiaba MT 78040000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;135;DROGASIL;Avenida AUGUSTO MONTENEGRO 39 Belem PA 66640000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;136;DROGASIL;Rua PARAPUA 1567 Sao Paulo SP 02831000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;141;FARMÁCIA ULTRAFARMA JD SANTO ELIAS EM PIRITUBA;Avenida MUTINGA 1253 Sao Paulo SP 05110000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;150;Raia Drogasil Dose Certa;Rua Bueno de Andrade 119 Sao Paulo SP 01526000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;153;Ultrafarma;Pca Silvio Romero 237 Sao Paulo SP 03323000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;154;Ultrafarma Popular;Rua Costa Barros 705 Sao Paulo SP 03210000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;155;Ultrafarma - Chácara Mafalda;Avenida Sapopemba 2945 Sao Paulo SP 03345000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;163;Ultrafarma Popular;Rua Cecilia Calovini 469 Sao Paulo SP 02976000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;167;Drogasil;Avenida dos Tajuras 245 Sao Paulo SP 05670000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;174;Drogasil;Rua Alencar Araripe 715 Sao Paulo SP 04253000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;179;Drogasil;Avenida Nova Cantareira 170 Sao Paulo SP 02330000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;180;Drogasil;Avenida Braz Leme 1700 Sao Paulo SP 02511000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;182;Drogasil;Rua Emilia Marengo 537 Sao Paulo SP 03336000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;186;Ultrafarma unidade parque São Jorge;Avenida Celso Garcia 5495 Sao Paulo SP 03063000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;195;Grupo RD Raia Drogasil;Avenida Corifeu de Azevedo Marques 3097 Sao Paulo SP 05339000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;196;Drogasil;Avenida Jorge Joao Saad 214 Sao Paulo SP 05618000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;198;Drogasil;Rua Pedra Azul 674 Sao Paulo SP 04109000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;199;Drogasil;RUA DO ORATORIO 982 Sao Paulo SP 03116000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;204;Drogasil;Rua Teodoro Sampaio 612 Sao Paulo SP 05406000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;205;Drogasil;Rua Aurelia 380 Sao Paulo SP 05046000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;212;Drogasil;RUA VIEIRA DE MORAIS Esquina R Princesa Isabel 240 Sao Paulo SP 04617000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;220;FARMACIA;Avenida MARIA LUIZA AMERICANO 2072 Sao Paulo SP 08275000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;222;DROGA RAIA;ALAMEDA BARROS 562 Sao Paulo SP 01232000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;231;DROGA RAIA;Rua DR GENTIL LEITE MARTINS 128 Sao Paulo SP 04648000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;233;EXTRAFARMA;Avenida SEN LEMOS 175 Belem PA 66050000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;243;DROGASIL;Avenida BENEDITO ANDRADE 80 Sao Paulo SP 02936000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;247;ULTRAFARMA CIDADE JARDIM;Avenida DOS TAJURAS 289 Sao Paulo SP 05670000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;252;DROGA RAIA;1775 1777 Sao Paulo SP 03117000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;255;DROGA RAIA;Avenida ENG CAETANO ALVARES 4906 Sao Paulo SP 02413000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;258;DROGA RAIA;Rua APUCARANA 522 Sao Paulo SP 03311000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;266;DROGASIL;Avenida VISC DE SOUZA FRANCO 863 Belem PA 66053000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;268;CITO FÓRMULA FARMÁCIA COM MANIPULAÇÃO;Avenida PROFESSOR GOMES DE MATOS 442 Fortaleza CE 60410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;270;ULTRAFARMA VILA MAZZEI;RUA MANUEL GAYA 290 Sao Paulo SP 02313000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;273;DROGA RAIA;Avenida ROQUE PETRONI JUNIOR 1089 Sao Paulo SP 04707000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;276;PANVEL FARMÁCIAS;Avenida ROUXINOL 481 Sao Paulo SP 04516000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;280;DROGA RAIA;Avenida DR CANDIDO MOTTA FILHO 648 Sao Paulo SP 05351000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;282;DROGARIA SÃO PAULO;RUA HENRIQUE SAM MINDLIN 60 Sao Paulo SP 05882000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;291;Drogasil;Rua do Arouche 220 Sao Paulo SP 01219000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;292;EXTRAFARMA;Rua ALBERTO MAGNO 513 Fortaleza CE 60425000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;293;ULTRAFARMA POPULAR - UNIDADE MASCOTE;Avenida SANTA CATARINA 1242 Sao Paulo SP 04378000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;297;DROGARIA SÃO PAULO;Avenida CELSO GARCIA 4748 Sao Paulo SP 03064000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;300;DROGASIL;Avenida MUTINGA 2674A Sao Paulo SP 05110000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;301;DROGASIL;Rua PEDRO DOLL 161 Sao Paulo SP 02404000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;303;FARMÁCIA PAGUE MENOS;Avenida PORTUGAL 526 Sao Paulo SP 04559000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;304;ULTRAFARMA NOVA CANTAREIRA;Avenida NOVA CANTAREIRA 296 Sao Paulo SP 02330000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;308;PANVEL FARMÁCIAS;Avenida EUROPA 352 Sao Paulo SP 01449000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;314;ULTRAFARMA POPULAR - UNIDADE SÃO JOÃO CLÍMACO;Rua TITO OLIANI 1020 Sao Paulo SP 04256000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;319;DROGASIL;Rua DOZE DE OUTUBRO 558 Sao Paulo SP 05073000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;321;DROGASIL;Avenida WALDEMAR CARLOS PEREIRA 588 Sao Paulo SP 03533000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;325;ULTRAFARMA CUPECÊ;Avenida CUPECE 1277 Sao Paulo SP 04366000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;327;DROGASIL;Avenida AUGUSTO MONTENEGRO 6955 Belem PA 66833000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;328;DROGA RAIA;Avenida PAES DE BARROS 174 Sao Paulo SP 03114000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;332;DROGASIL;Avenida DOS AUTONOMISTAS 755 OSASCO SP 06020000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;336;DROGASIL;Rua FRIEDRICH VON VOITH 800 Sao Paulo SP 02995000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;340;DROGA RAIA;RUA FREI CANECA 462 Sao Paulo SP 01307000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;344;ULTRAFARMA;Avenida EDU CHAVES 947 Sao Paulo SP 02229000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;346;DROGA RAIA;Rua CAIUBI 1240 Sao Paulo SP 05010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;349;DROGA RAIA;Rua CUBATAO 184 Sao Paulo SP 04013000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;354;DROGA RAIA;Avenida ZELINA 752 Sao Paulo SP 03143000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;359;DROGA RAIA;Avenida ITABERABA 1813 Sao Paulo SP 02734000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;368;DROGASIL;Rua N SRA DA LAPA 171 Sao Paulo SP 05072000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;375;DROGARIA ULTRAFARMA;Avenida INAJAR DE SOUZA 446 Sao Paulo SP 02716000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;378;DROGASIL;Rua DONA MATILDE 391 Sao Paulo SP 03512000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;381;ULTRAFARMA PAES DE BARROS;Avenida PAES DE BARROS 120 Sao Paulo SP 03114000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;385;DROGASIL;Avenida ELISEU DE ALMEIDA 2888 Sao Paulo SP 05533000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;393;DROGA RAIA;Avenida REG FEIJO 428 Sao Paulo SP 03336000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;394;DROGARIA SÃO PAULO;Rua PARAPUA 400 Sao Paulo SP 02831000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;399;DROGASIL;Rua DIREITA 64 Sao Paulo SP 01002000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;404;DROGASIL;Avenida DAS NACOES UNIDAS 16741 Sao Paulo SP 04794000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;405;DROGA RAIA;Avenida BENEDITO ANDRADE 358 Sao Paulo SP 02936000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;406;DROGARIA SÃO PAULO;Avenida CARLOS LACERDA 30 Sao Paulo SP 05789000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;409;FARMÁCIA PAGUE MENOS;Avenida HISTORIADOR RUBENS DE MENDONCA 1603 Cuiaba MT 78050000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;413;DROGASIL;Avenida SEN LEMOS 529 Belem PA 66050000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;414;DROGA RAIA;RUA MUNIZ DE SOUSA 565 Sao Paulo SP 01534000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;420;DROGARIA SÃO PAULO;RUA PEDRO DE TOLEDO 763 Sao Paulo SP 04039000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;424;ULTRAFARMA POPULAR PANAMERICANO;Rua FRIEDRICH VON VOITH 27 Sao Paulo SP 02995000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;431;Drogasil;Rua Tobias Barreto 735 Sao Paulo SP 03176000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;432;DROGARIA SÃO PAULO - SHOPPING VILLA LOBOS;Avenida DAS NACOES UNIDAS 4777 Sao Paulo SP 05310000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;433;DROGA RAIA;PRACA PANAMERICANA 57 Sao Paulo SP 05461000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;435;DROGASIL;Avenida JABAQUARA 586 Sao Paulo SP 04046000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;438;ULTRAFARMA POPULAR;Avenida MANDAQUI 008 Sao Paulo SP 02550000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;440;DROGA RAIA;Avenida CELSO GARCIA 5100 Sao Paulo SP 03064000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;448;DROGA RAIA;Avenida DONA BELMIRA MARIN 1036 Sao Paulo SP 04846000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;451;DROGASIL;Avenida PIRES DO RIO 770 Sao Paulo SP 08020000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;454;DROGASIL;Avenida SAPOPEMBA 11180 Sao Paulo SP 03988000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;455;DROGA RAIA;Rua ELEONORA CINTRA 500 Sao Paulo SP 03337000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;457;DROGASIL;Avenida PARANAGUA 1684 Sao Paulo SP 03806000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;458;DROGARIA SÃO PAULO;Avenida PAES DE BARROS 306 Sao Paulo SP 03114000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;460;DROGA RAIA;Rua DOMINGOS DE MORAIS 2350 Sao Paulo SP 04036000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;464;Droga Raia;Avenida Corifeu de Azevedo Marques 950 Sao Paulo SP 05582000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;465;FARMÁCIA PAGUE MENOS;Avenida PRES GETULIO VARGAS 1039 Cuiaba MT 78032000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;466;DROGARIA SÃO PAULO;Avenida DONA BELMIRA MARIN 800 Sao Paulo SP 04846000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;467;DROGASIL;Avenida FRANCISCO SA 2670 Fortaleza CE 60310000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;468;DROGARIA SÃO PAULO;Avenida RENATA 60 Sao Paulo SP 03377000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;470;ULTRAFARMA VILA GUILHERME;Avenida Joaquina Ramalho 146 Sao Paulo SP 02065000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;473;FARMÁCIA PAGUE MENOS;Avenida VISC DE SOUZA FRANCO 1185 Belem PA 66053000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;477;DROGA RAIA;Rua BONIFACIO CUBAS 18 Sao Paulo SP 02731000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;480;DROGA RAIA;Avenida MASCOTE 427 Sao Paulo SP 04363000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;485;DROGASIL;Rua SANTO ANTONIO 459 Sao Paulo SP 01314000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;488;ULTRAFARMA POPULAR MACIEL MONTEIRO;Rua MACIEL MONTEIRO 417 Sao Paulo SP 03566000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;492;DROGARIA SÃO PAULO;Avenida SAPOPEMBA 3154 Sao Paulo SP 03345000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;493;DROGASIL;Avenida ITAQUERA 1810 Sao Paulo SP 03526000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;495;DROGASIL;AVENIDA RIO DAS PEDRAS Q C 555 Sao Paulo SP 03453000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;503;ULTRAFARMA POPULAR;RUA ITAJUIBE 1274 Sao Paulo SP 08142000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;507;DROGASIL;Rua OSCAR FREIRE 278 Sao Paulo SP 01426000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;512;DROGASIL;Avenida MIN PETRONIO PORTELA 1072 Sao Paulo SP 02959000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;518;DROGASIL;Avenida SEN TEOTONIO VILELA 988 Sao Paulo SP 04801000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;523;DROGA RAIA;Rua AFONSO SARDINHA 13 Sao Paulo SP 05076000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;530;DROGASIL;Avenida PREFEITO FABIO PRADO 32 Sao Paulo SP 04116000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;533;DROGARIAS ULTRA POPULAR;Avenida FERNANDO CORREA DA COSTA 4822 Cuiaba MT 78085000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;535;Drogasil;Avenida Patente 826 Sao Paulo SP 04243000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;539;DROGARIA SÃO PAULO;Avenida CANGAIBA 2316 Sao Paulo SP 03634000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;545;DROGASIL;Avenida CELSO GARCIA 3876 Sao Paulo SP 03064000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;554;DROGASIL;Rua DOZE DE OUTUBRO 316 Sao Paulo SP 05073000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;556;DROGA RAIA;Avenida DO ANASTACIO 655 Sao Paulo SP 05119000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;559;DROGA RAIA;Avenida NOVA CANTAREIRA 3245 Sao Paulo SP 02341000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;561;FARMA POPULAR MORADA DO OURO;Rua DEP MILTON DE FIGUEIREDO 110 Cuiaba MT 78055000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;570;ULTRAFARMA - UNIDADE PAULISTA;Avenida PAULISTA 2125 Sao Paulo SP 01311000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;584;DROGASIL;Avenida JAGUARE 277 Sao Paulo SP 05346000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;586;ANIMACÃO PET SHOP - LOJA 2;Avenida SANTA INES 3879 Sao Paulo SP 02631000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;590;ULTRAFARMA JARDIM PRUDÊNCIA;Avenida CUPECE 3164 Sao Paulo SP 04366000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;591;DROGA RAIA;Avenida SANTO AMARO 407 Sao Paulo SP 04505000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;593;DROGASIL;Avenida HISTORIADOR RUBENS DE MENDONCA 400 Cuiaba MT 78008000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;602;Drogasil;Rua Guaipa 36 Sao Paulo SP 05089000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;617;DROGASIL;Avenida ROQUE PETRONI JUNIOR 1089 Sao Paulo SP 04707000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;618;ULTRAFARMA - VILA AMERICANA;Avenida PIRES DO RIO 742 Sao Paulo SP 08020000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;622;DROGA RAIA;RUA ACURUI 352 Sao Paulo SP 03355000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;623;ULTRAFARMA POPULAR;RUA JOAO JOSE DE QUEIROZ 1125 Sao Paulo SP 03679000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;627;DROGASIL;Rua MACIEL MONTEIRO 357 Sao Paulo SP 03566000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;635;ÓTICA PACHECO;Travessa PADRE EUTIQUIO 1055 Belem PA 66015000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;646;DROGA RAIA;Avenida LUIZ DUMONT VILLARES 522 Sao Paulo SP 02085000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;652;DROGASIL;Avenida CORIFEU DE AZEVEDO MARQUES 3067 Sao Paulo SP 05339000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;654;DROGARIA SÃO PAULO;Avenida PRES JOAO GOULART 1028 Sao Paulo SP 04821000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;661;DROGARIA SÃO PAULO;Avenida CUPECE 1036 Sao Paulo SP 04366000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;669;DROGARIA SÃO PAULO;Avenida ROQUE PETRONI JUNIOR 1089 Sao Paulo SP 04707000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;672;ULTRAFARMA POPULAR - UNIDADE LIBERDADE;Rua DA GLORIA 174 Sao Paulo SP 01510000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;676;DROGA RAIA;Rua CARLOS WEBER 550 Sao Paulo SP 05303000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;683;DROGA RAIA;PRACA SILVIO ROMERO 80 Sao Paulo SP 03323000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;687;DROGA RAIA;Rua DA CONSOLACAO 3064 Sao Paulo SP 01416000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;691;DROGA RAIA;Avenida RENATA 505 Sao Paulo SP 03377000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;693;DROGASIL;AVENIDA MARECHAL TITO 4436 Sao Paulo SP 08115000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;694;DROGA RAIA;Rua OLIMPIADAS 360 Sao Paulo SP 04551000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;702;FARMÁCIA PAGUE MENOS;Rua DR JOAO RIBEIRO 262 Sao Paulo SP 03634000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;706;Drogasil;Avenida Amador Bueno da Veiga 816 Sao Paulo SP 03636000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;708;DROGASIL;Avenida RANGEL PESTANA 1996 Sao Paulo SP 03002000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;719;DROGARIAS ULTRA POPULAR;Avenida TUIUIU 276 Cuiaba MT 78058000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;723;DROGASIL;Avenida CUPECE 2756 Sao Paulo SP 04366000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;724;DROGASIL;Avenida VISC DE SOUZA FRANCO 776 Belem PA 66053000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;727;ULTRAFARMA POPULAR - JARDIM ARICANDUVA;Avenida RIO DAS PEDRAS 35 Sao Paulo SP 03453000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;730;EXTRAFARMA;Avenida SEN LEMOS 1475 Belem PA 66113000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;732;DROGASIL MARAMBAIA;RUA TAVARES BASTOS 1456 Belem PA 66053000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;733;DROGARIAS ULTRA POPULAR;Avenida PRES VARGAS 620 Belem PA 66017000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;741;DROGASIL;Avenida RAIMUNDO PEREIRA DE MAGALHAES 1465 Sao Paulo SP 05145000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;743;Drogasil;Rua Afonso Braz 292 Sao Paulo SP 04511000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;751;Drogasil;Rua Zilda 637 Sao Paulo SP 02545000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;752;Drogasil;Alameda Gabriel Monteiro da Silva 892 Sao Paulo SP 01442000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;755;Drogasil;Avenida Sapopemba 2848 Sao Paulo SP 03345000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;759;Drogasil;Avenida Reg Feijo 1759 Sao Paulo SP 03342000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;774;Drogasil;Rua Serra de Braganca 922 Sao Paulo SP 03318000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;776;Ultrafarma Popular Alto da Mooca;Rua do Oratorio 1312 Sao Paulo SP 03116000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;782;Drogasil;Rua Carneiro da Cunha 337 Sao Paulo SP 04144000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;783;Drogasil;Rua Harmonia 373 Sao Paulo SP 05435000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;786;Drogasil;Avenida Santa Monica 550 Sao Paulo SP 05171000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;791;Drogasil;Avenida Dr Antonio Maria Laet 566 Sao Paulo SP 02240000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;794;FARMÁCIA PAGUE MENOS;AVENIDA AGUA FRIA 772 Sao Paulo SP 02332000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;795;A FÓRMULA | DOCA;Avenida VISC DE SOUZA FRANCO 729 Belem PA 66053000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;796;FARMÁCIA PAGUE MENOS;Avenida ISAAC POVOAS 807 Cuiaba MT 78005000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;801;DROGA RAIA;ALAMEDA LORENA 276 Sao Paulo SP 01424000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;806;DROGARIA SÃO PAULO;Avenida PIRES DO RIO 1856 Sao Paulo SP 08041000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;814;FARMÁCIA PAGUE MENOS;Avenida VITAL BRASIL 602 Sao Paulo SP 05503000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;816;FARMÁCIA PAGUE MENOS;Avenida FERNANDO CORREA DA COSTA 1226 Cuiaba MT 78065000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;817;FARMÁCIA PAGUE MENOS;Avenida DOS AUTONOMISTAS 429 OSASCO SP 06020000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;831;DROGARIA SÃO PAULO;Avenida PAULISTA 266 Sao Paulo SP 01310000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;833;DROGARIA SÃO PAULO;Rua DAS ROSAS N 515 Sao Paulo SP 04029000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;837;FARMÁCIA PAGUE MENOS;Avenida GODOFREDO MACIEL 2371 Fortaleza CE 60710000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;839;FARMÁCIA PAGUE MENOS;Avenida GEN OSORIO DE PAIVA 1854 Fortaleza CE 60720000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;840;FARMÁCIA PAGUE MENOS;Avenida DO RIO PEQUENO 1193 Sao Paulo SP 05379000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;844;FARMAGORA;Avenida SANTO ALBANO 490 Sao Paulo SP 04296000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;847;FARMÁCIA PAGUE MENOS;Rua CLELIA 870 Sao Paulo SP 05042000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;851;DROGARIA SÃO PAULO;Avenida AGENOR COUTO DE MAGALHAES 25 Sao Paulo SP 05174000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;857;LAVOISIER TATUAPÉ - EUCLIDES PACHECO;Rua EUCLIDES PACHECO 424 Sao Paulo SP 03321000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;858;DROGASIL;Avenida HISTORIADOR RUBENS DE MENDONCA 1509 Cuiaba MT 78050000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;880;MEDICAL PRIME DISTRIBUIDORA E IMPORTADORA DE PRODUTOS HOSPITALARES, LABORATORIAIS E MEDICAMENTOS;Rua DO HORTO 235 Sao Paulo SP 02377000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;883;FARMÁCIA PAGUE MENOS;Rua CARDOSO DE ALMEIDA 326 Sao Paulo SP 05013000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;901;DROGASIL;Avenida SEN TEOTONIO VILELA 2926 Sao Paulo SP 04801000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;904;ULTRAFARMA POPULAR;Avenida CELSO GARCIA 406 Sao Paulo SP 03014000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;907;ULTRAFARMA ERMELINO MATARAZZO;Avenida PARANAGUA 1814 Sao Paulo SP 03806000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;909;FARMÁCIA PAGUE MENOS;Rua CONEGO DE CASTRO 3686 Fortaleza CE 60730000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;919;DROGARIA SÃO PAULO;Rua GALVAO BUENO 412 Sao Paulo SP 01506000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;920;ULTRAFARMA POPULAR;Avenida MIN PETRONIO PORTELA 552 Sao Paulo SP 02960000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;922;DROGASIL;Avenida HISTORIADOR RUBENS DE MENDONCA 3300 Cuiaba MT 78050000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;924;FARMÁCIA PAGUE MENOS;Rua ALBERTO MAGNO 1660 Fortaleza CE 60425000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;926;DROGA RAIA;Avenida REG FEIJO 639 Sao Paulo SP 03342000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;928;PERSONALE - FARMÁCIA DE MANIPULAÇÃO;Avenida DUQUE DE CAXIAS 1498 Belem PA 68447000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;931;FARMÁCIA PAGUE MENOS;Avenida FERNANDO CORREA DA COSTA 4440 Cuiaba MT 78080000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;932;DROGA RAIA;Avenida MARQUES DE SAO VICENTE 2219 Sao Paulo SP 01139000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;935;FARMÁCIA PAGUE MENOS;Avenida BEZERRA DE MENEZES 480 Fortaleza CE 60325000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;939;FARMÁCIA PAGUE MENOS;Avenida GODOFREDO MACIEL 918 Fortaleza CE 60710000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;943;DROGASIL;Avenida FERNANDO CORREA DA COSTA 2108 Cuiaba MT 78070000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;944;FARMÁCIA PAGUE MENOS;Avenida RODOLFO CHERMONT 860 Belem PA 66620000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;947;FARMÁCIA PAGUE MENOS;Avenida DR SILAS MUNGUBA 3740 Fortaleza CE 60740000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;949;DROGARIA SÃO PAULO;Rua DOMINGOS DE MORAIS 418 Sao Paulo SP 04010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;952;ULTRAFARMA SOCORRO;Avenida ATLANTICA 500 Sao Paulo SP 04768000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;967;FARMACIA PAGUE MENOS;Rua CEL DIOGO 460 Sao Paulo SP 01545000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;974;FARMÁCIA PAGUE MENOS;Avenida FERNANDO CORREA DA COSTA 43 Cuiaba MT 78070000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;975;ULTRAFARMA POPULAR TUCURUVI;Avenida TUCURUVI 199 Sao Paulo SP 02305000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;982;DROGARIA ULTRA POPULAR;Avenida IPIRANGA 276 Sao Paulo SP 01045000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;984;NEOFARMA MANIPULATION PHARMACY;Rua ITAPURA 1091 Sao Paulo SP 03310000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;989;FARMÁCIAS RED MED E ASSOCIADOS DO CEARÁ;Rua ALBERTO MAGNO 120 Fortaleza CE 60425000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;997;Drogaria Nova Esperança;Avenida Pacaembu 1202 Sao Paulo SP 01234000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;998;Droga Raia;Rua Ferreira de Araujo 101 Sao Paulo SP 05428000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1005;Drugstore Sao Paulo;Rua Carneiro da Cunha 47 Sao Paulo SP 04144000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1009;Drogasil;Rua Pastoril de Itapetinga 585 Sao Paulo SP 03729000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1023;A Fórmula Farmácia de Manipulação - Tatuapé - São Paulo (SP);Rua Emilio Mallet 964 Sao Paulo SP 03320000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1027;Drogaria São Paulo Consil / Alvorada;Avenida Historiador Rubens de Mendonca 1575 Cuiaba MT 78050000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1030;Farmácia| Farmais Farmavan Jardim Peri I;Avenida Peri Ronchetti 787 Sao Paulo SP 02633000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1031;Farmácia Pague Menos;Rua da Mooca 3355 Sao Paulo SP 03176000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1042;NARO-S COMÉRCIO MEDICAMENTOS L;Rua CEL XAVIER DE TOLEDO 48 Sao Paulo SP 01048000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1058;DROGASIL;RUA JOSE GETULIO 284 Sao Paulo SP 01509000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1061;Drogasil;Avenida das Cerejeiras 1185 Sao Paulo SP 02124000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1064;DROGARIA SAO PAULO;Rua CARDOSO DE ALMEIDA 520 Sao Paulo SP 05013000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1068;OTMANPHARMA - FARMÁCIA DE MANIPULAÇÃO EM POMPÉIA SP, HOMEOPATIA, ÓLEOS ESSENCIAIS, REMÉDIO HOMEOPÁTICO, TERAPIA FLORAL;Rua CLELIA 222 Sao Paulo SP 05042000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1071;Carrefour Drogaria Nossa Senhora Da Lapa;Rua Nossa Sra da Lapa 457 Sao Paulo SP 05072000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1073;FARMACIA DE MANIPULAÇAO NACTIVE NATURALLY;Rua AUGUSTO TOLLE 213 Sao Paulo SP 02405000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1074;DROGA RAIA;Avenida PROF ALFONSO BOVERO 531 Sao Paulo SP 01254000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1081;Droga Raia;Avenida Prefeito Fabio Prado 2201 Sao Paulo SP 04116000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1083;FARMACIA;Rua SAO JOAO CLIMACO 656 Sao Paulo SP 04255000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1088;DROGARIAS ULTRA POPULAR;Rua DO AROUCHE 175 Sao Paulo SP 01219000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1097;ERA NOVA IND E COM DE PRODUTOS NATURAIS;RUA VIRGILIO DE LEMOS 392 Sao Paulo SP 04384000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1100;DRUGSTORE ST. JUDAS TADEU;Rua TREZE DE MAIO 27 Sao Paulo SP 01327000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1102;Droga Alvim;Rua Maciel Monteiro 234 Sao Paulo SP 03566000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1104;Farmácia Pague Menos;Avenida Francisco Falconi 326 Sao Paulo SP 03227000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1105;ENERGIA E VIDA;RUA LUIS GOIS 356 Sao Paulo SP 04043000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1108;DROGARIA SANDE;ALAMEDA LORENA 1772 Sao Paulo SP 01424000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1109;Drogasil;Rua Piracema 157 Sao Paulo SP 02460000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1113;Drogasil;Avenida Elisio Teixeira Leite 1118 Sao Paulo SP 02801000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1114;Drogasil;Avenida Conselheiro Carrao 1797 Sao Paulo SP 03402000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1116;Drogaria Singular - Marginal Tiete;Rua Paulo Andrighetti 1476 Sao Paulo SP 03022000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1123;FARMACIA DE DEUS;Avenida GUAPIRA 281 Sao Paulo SP 02265000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1136;FARMACIA;Avenida ITABERABA 66 Sao Paulo SP 02734000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1140;Droga Raia;Rua Dr Alberto da Silveira 245 Sao Paulo SP 05671000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1143;FARMÁCIA PAGUE MENOS;Rua SAO BENTO 308 Sao Paulo SP 01010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1144;Drugstore Sao Paulo;Avenida Conselheiro Carrao 652 Sao Paulo SP 03402000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1149;POUPAFARMA;Rua DOMINGOS DE MORAIS 626 Sao Paulo SP 04010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1152;Drogaria São Paulo;Avenida Celso Garcia 1948 Sao Paulo SP 03014000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1153;PHITOFARMA POMPÉIA - FARMÁCIA DE MANIPULAÇÃO;Avenida POMPEIA 1195 Sao Paulo SP 05023000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1154;DROGARIA AMP;ALAMEDA LORENA 1338 Sao Paulo SP 01424000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1156;DROGASIL;Avenida Julio Buono 662 Sao Paulo SP 02201000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1162;S4Pets Aricanduva;Avenida dos Latinos 470 Sao Paulo SP 03572000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1163;ROSIFARMA HOMEOPATIA;RUA HADDOCK LOBO 60 Sao Paulo SP 01414000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1170;BENTO MURE;RUA DR OLAVO EGIDIO 379 Sao Paulo SP 02037000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1172;Drogaria São Paulo;Avenida Itaquera 2902 Sao Paulo SP 03526000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1173;MANIFARMA BRIGADEIRO;Avenida BRIGADEIRO LUIS ANTONIO 755 Sao Paulo SP 01317000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1177;Carrefour Drogaria Vila Maria;Avenida Morvan Dias de Figueiredo 3177 Sao Paulo SP 02063000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1179;MAIS SAÚDE SÃO PAULO;Avenida RODOLFO PIRANI 15 Sao Paulo SP 08310000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1181;DSP COMERCIAL;Rua ABILIO SOARES 782 Sao Paulo SP 04005000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1186;Drogasil;Rua Heitor Penteado 977 Sao Paulo SP 05437000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1188;Farmácia Pague Menos;Rua Carlos Weber 600 Sao Paulo SP 05303000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1191;Carrefour Drugstore Casa Verde;Rua Marambaia 200 Sao Paulo SP 02513000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1192;DROGARIA CASA DE PEDRA;Avenida JOSINO VIEIRA DE GOES 338 Sao Paulo SP 02319000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1193;Panvel Farmácias;Rua Machado Bitencourt 278 Sao Paulo SP 04044000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1199;FLORENA PHARMACHEMICALS;Rua CONDE LUIZ EDUARDO MATARAZZO 03 Sao Paulo SP 05356000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1205;Drogaria São Paulo;Rua Clelia 1547 Sao Paulo SP 05042000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1206;DAL BEN PHARMA;ALAMEDA SANTOS 211 Sao Paulo SP 01419000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1210;DROGARIA NOVA DANILOFARMA;Rua NATAL PIGASSI 1020 Sao Paulo SP 05527000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1221;Droga Raia;Rua Olimpiadas 360 Sao Paulo SP 04551000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1222;PROGRESSO;Rua SEN POMPEU 834 Fortaleza CE 60025000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1223;DROGARIA ACLIFARMA - REDE ELLOMAIS;RUA TAMANDARE 556 Sao Paulo SP 01525000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1224;Drogaria São Paulo;Rua Alagoas 12 Sao Paulo SP 01242000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1226;DROGARIA DOM BOSCO DA MOOCA;Rua DA MOOCA 333 Sao Paulo SP 03103000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1228;DROGARIA MAIS BRASIL - RIO BRANCO;Avenida RIO BRANCO 373 Sao Paulo SP 01205000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1229;DROGARIA BETO;Avenida CARLOS LACERDA 185 Sao Paulo SP 05789000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1233;ROCHAFARMA FARMÁCIA DE MANIPULAÇÃO;Rua ROCHA 79 Sao Paulo SP 01330000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1236;Droga Raia Shopping Iguatemi;Avenida Brig Faria Lima 2232 Sao Paulo SP 01451000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1245;Farmacia ANP;Avenida Eng Armando de Arruda Pereira 4678 Sao Paulo SP 04325000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1248;FARMAASSIST MANIPULAÇÃO;Rua ITAPEVA 124 Sao Paulo SP 01332000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1249;Josevaldo Bastos dos Santos Drogaria;Rua Arley Gilberto de Araujo 39 Sao Paulo SP 02326000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1259;Drogaria São Paulo;Rua Nova Jerusalem 590 Sao Paulo SP 03410000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1260;Carrefour Drogaria;Avenida Interlagos 5800 Sao Paulo SP 04777000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1273;Diversão Pet Shop | Banho e Tosa | Tatuapé;Avenida Celso Garcia 3553 Sao Paulo SP 03063000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1283;DROGARIA SÃO PAULO;PRACA DA SE 415 Sao Paulo SP 01001000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1286;PHARMACY PRO MANIPULATION;Avenida MAZZEI 210 Sao Paulo SP 02310000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1292;CHAVITA;Avenida PAULISTA 300 Sao Paulo SP 01310000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1293;DROGARIA GALVÃO;Rua GALVAO BUENO 675 Sao Paulo SP 01506000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1302;Drogaria São Paulo;Avenida Fernando Correa da Costa 2510 Cuiaba MT 78070000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1306;Farmácia Pague Menos;Avenida Marechal Tito 2788 Sao Paulo SP 08022000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1308;DROGARIA S GERALDO;Rua CARAIBAS 600 Sao Paulo SP 05020000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1309;FARMAFLORESTA;Rua OLAVO BILAC 93 Fortaleza CE 60320000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1310;DRUGSTORE LOTUS;Rua CAIUBI 1284 Sao Paulo SP 05010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1311;Farmácia Drogasil;Avenida Elisio Teixeira Leite 1118 Sao Paulo SP 02810000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1315;Clinica Veterinária Paiol Penha;Avenida Amador Bueno da Veiga 886 Sao Paulo SP 03636000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1323;Drugstore Sao Paulo;Avenida Prof Alfonso Bovero 566 Sao Paulo SP 01254000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1324;DROGASIL;Rua DOMINGOS DE MORAIS 173 Sao Paulo SP 04009000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1329;Drogaria São Paulo;Avenida Reg Feijo 1739 Sao Paulo SP 03342000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1333;Farmácia Pague Menos;Avenida Brig Faria Lima 2561 Sao Paulo SP 01452000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1335;7 HERVAS DISPENSING PHARMACIES;Rua DR CANDIDO ESPINHEIRA 882 Sao Paulo SP 05004000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1338;Drogaria São Paulo;Avenida Rangel Pestana 2078 Sao Paulo SP 03002000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1342;DRUGSTORE SAO PAULO;Rua BOA VISTA 10 Sao Paulo SP 01011000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1345;CENTER FARMA;RUA GENERAL CARNEIRO 144 Sao Paulo SP 01015000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1348;UNIFAR - UNIÃO FARMACÊUTICA DE SÃO PAULO;Rua DA GLORIA 104 Sao Paulo SP 01510000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1350;DROGARIA NOVO MATO GROSSO;Avenida JORN ALVES DE OLIVEIRA 249 Cuiaba MT 78025000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1360;+NOTVIT PRODUTOS NATURAIS;Avenida RUDGE 346 Sao Paulo SP 01134000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1366;Carrefour Drogaria Tatuape Analia Franco;Avenida Reg Feijo 1759 Sao Paulo SP 03342000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1375;Drugstore Sao Paulo;Avenida Marechal Tito 4150 Sao Paulo SP 08115000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1384;Drogaria São Paulo;Avenida Vila Ema 3680 Sao Paulo SP 03282000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1385;VitaPetCare;Rua Laplace 147 Sao Paulo SP 04622000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1393;DROGA RAIA;Avenida WASHINGTON LUIS 1 Sao Paulo SP 04662000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1395;Drogaria São Paulo;Avenida das Nacoes Unidas 826 Sao Paulo SP 09260000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1399;Drogasil;Avenida Otto Baumgart 245 Sao Paulo SP 02049000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1401;ANANDA - HOMEOPATHY AND MANIPULATION PHARMACY;Avenida CORIFEU DE AZEVEDO MARQUES 971 Sao Paulo SP 05581000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1404;Drogaria São Paulo;Avenida Benedito Andrade 135 Sao Paulo SP 02936000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1406;FLORALLYS FARMACIA - HOMEOPATIA E MEDICINA CHINESA;Avenida AGAMI 169 Sao Paulo SP 04522000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1419;SAÚDE NO ESPORTE | PERFORMANCE E SEGURANÇA PARA ATLETAS SAÚDE NO ESPORTE | PERFORMANCE E SEGURANÇA PARA ATLETAS;RUA SERGIPE 120 Sao Paulo SP 01302000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1434;Drogasil;Rua Costa Barros 795 Sao Paulo SP 03210000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1437;VENTURINI FARMÁCIA MANIPULAÇÃO;Avenida POMPEIA 1045 Sao Paulo SP 05023000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1442;QSP FARMÁCIA DE MANIPULAÇÃO;Rua ITAPEVA 124 Sao Paulo SP 01332000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1444;Drogaria São Paulo;Rua Americo Salvador Novelli 453 Sao Paulo SP 03620000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1450;NUON HEALTH;Rua DIANA 820 Sao Paulo SP 05019000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1455;Drogaria São Paulo;Avenida Maria Coelho Aguiar 920 Sao Paulo SP 05805000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1465;Drogaria São Vito Bras;Rua do Lucas 256 Sao Paulo SP 03005000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1478;Drugstore Sao Paulo;Avenida Sen Teotonio Vilela 1072 Sao Paulo SP 04801000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1482;Drugstore Sao Paulo;Avenida Reg Feijo 1111 Sao Paulo SP 03342000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1487;Farma Conde - Loja 358;Praca da Republica 276 Sao Paulo SP 01045000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1491;DROGA CORDIS;Rua APENINOS 339 Sao Paulo SP 01533000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1492;UNIVITAL PHARMA - FARMÁCIA DE MANIPULAÇÃO | HUMANA E VETERINÁRIA;Avenida DR GUILHERME DUMONT VILARES 323 Sao Paulo SP 05640000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1494;NUTRIPELE;RUA SERGIPE 120 Sao Paulo SP 01302000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1506;Drogaria São Paulo;Avenida Pires do Rio 856 Sao Paulo SP 08020000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1524;DROGASIL;Praca Novo Mundo 177 Sao Paulo SP 02185000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1526;FARMADOCTOR;Rua BRG GAVIAO PEIXOTO 262 Sao Paulo SP 05078000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1528;BELEZA SAÚDE FARMÁCIA DE MANIPULAÇÃO, HOMEOPATIA E VETERINÁRIA - UNIDADE PRAÇA DA ÁRVORE;Rua DAS ROSAS 248 Sao Paulo SP 04048000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1529;Droga Raia;Avenida Henry Ford 644 Sao Paulo SP 03109000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1532;Invitta Farma;Rua Eleonora Cintra 462 Sao Paulo SP 03337000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1539;DROGARIA SÃO PAULO;Avenida HIGIENOPOLIS 618 Sao Paulo SP 01238000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1542;DROGARIA SAÚDE ROSAS;RUA JOAO DA CRUZ E SOUSA 241 Sao Paulo SP 05893000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1546;DROGARIA SANTA CRUZ PAULISTA;ALAMEDA JOAQUIM EUGENIO DE LIMA 198 Sao Paulo SP 01403000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1551;BIOGALENUS FARMÁCIA DE MANIPULAÇÃO;Rua CORIOLANO 634 Sao Paulo SP 05047000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1552;DROGARIA SÃO PAULO;Avenida Ipiranga 855 Sao Paulo SP 01039000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1558;DROGASIL;Rua SETE DE ABRIL 268 Sao Paulo SP 01044000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1565;Drogaria São Paulo;Rua Sao Joao Climaco 552 Sao Paulo SP 04255000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1566;Drogaria São Paulo;Rua Willis Roberto Banks 17 Sao Paulo SP 05128000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1570;Droga Raia;Rua Teodoro Sampaio 548 Sao Paulo SP 05406000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1572;DROGARIA SÃO PAULO;Rua Dr Cesar Castiglioni Junior 225 Sao Paulo SP 02515000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1582;DROGARIA DA CONSOLAÇÃO;Rua DA CONSOLACAO 3680 Sao Paulo SP 01416000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1583;Drogaria São Paulo;Rua Agostinho Gomes 1492 Sao Paulo SP 04206000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1589;Drogaria São Paulo;Avenida Aguia de Haia 4194 Sao Paulo SP 03889000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1590;Farmácia Pague Menos;Avenida Cotovia 273 Sao Paulo SP 04517000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1592;BULARIUM FARMÁCIA MANIPULAÇÃO;Avenida ONZE DE JUNHO 307 Sao Paulo SP 04041000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1599;DRUGSTORE SAO PAULO;Avenida JOSE MARIA WHITAKER 908 Sao Paulo SP 04057000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1603;Carrefour Drogaria Limao;Avenida Otaviano Alves de Lima 1824 Sao Paulo SP 02701000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1611;INTERNATIONAL DRUGS FARMÁCIA;Rua TUIUTI 2920 Sao Paulo SP 03307000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1614;Droga Raia;Rua Gaspar Fernandes 416 Sao Paulo SP 01549000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1616;FARMA HAND COMÉRCIO DE MEDICAMENTOS;Rua ITAPEVA 124 Sao Paulo SP 01332000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1625;Drugstore Sao Paulo;Rua Joao Cachoeira 90 Sao Paulo SP 04535000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1626;PHARMA CARE FARMÁCIA DE MANIPULAÇÃO;Rua DA MOOCA 3238 Sao Paulo SP 03165000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1627;A FÓRMULA FARMÁCIA DE MANIPULAÇÃO PERDIZES - SP;Rua ITAPICURU 515 Sao Paulo SP 05006000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1639;DROGA RAIA;Avenida JOSE MARIA WHITAKER 669 Sao Paulo SP 04057000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1642;DROGASIL;Rua BARAO DE ITAPETININGA 40 Sao Paulo SP 01042000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1649;COSTA & SOUZA;Rua PINTO MADEIRA 563 Fortaleza CE 60150000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1652;Droga raia;Rua Huet Bacelar 407 Sao Paulo SP 04275000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1657;DROGARIA SÃO PAULO;Rua Passo da Patria 1101 Sao Paulo SP 05085000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1659;ESTACIONAMENTO ULTRAFARMA;Rua FAGUNDES DIAS 95 Sao Paulo SP 04055000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1663;CARH RaiaDrogasil S/A;Rua Frei Caneca 466 Sao Paulo SP 01307000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1668;SETHFARMAS DROGARIA;PRACA DA REPUBLICA 276 Sao Paulo SP 01045000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1676;DROGARIA SÃO CARLOS PALMAS;Avenida CEL SEZEFREDO FAGUNDES 2703 Sao Paulo SP 02306000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1688;DROGASIL;Rua CABAXI 30 Sao Paulo SP 05792000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1689;NATUVITA - FARMÁCIA DE MANIPULAÇÃO E HOMEOPATIA;Avenida NOVA INDEPENDENCIA 172 Sao Paulo SP 04570000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1691;Drogasil;Avenida Joao XXIII 790 Sao Paulo SP 03361000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1692;Droga Raia;Rua Cap Pacheco e Chaves 313 Sao Paulo SP 03126000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1696;DROGARIA PREÇO FARMA;RUA TIBURCIO DE SOUSA 209 Sao Paulo SP 08140000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1704;ULTRAFARMA;Avenida DONA BELMIRA MARIN 3964 Sao Paulo SP 04846000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1709;BOTICA BIO | FARMÁCIA DE MANIPULAÇÃO | UNIDADE PIRITUBA;Avenida BENEDITO ANDRADE 400 Sao Paulo SP 02936000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1712;Droga Raia;Rua Cardoso de Almeida 275 Sao Paulo SP 05013000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1726;Drugstore Sao Paulo;Avenida Lins de Vasconcelos 331 Sao Paulo SP 01537000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1732;PHARMÁCIA ARTESANAL;RUA MACHADO BITENCOURT 190 Sao Paulo SP 04044000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1737;Farmácia Pague Menos;Avenida Sapopemba 10920 Sao Paulo SP 03988000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1741;Drogaria Sol - Pedra Branca;Avenida Santa Ines 3881 Sao Paulo SP 02631000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1744;Drogaria São Paulo;Avenida Mutinga 2372 Sao Paulo SP 05110000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1746;Droga Raia;Rua Maranhao 812 Sao Paulo SP 01240000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1748;Drogaria São Paulo;Avenida Dr Candido Motta Filho 670 Sao Paulo SP 05351000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1758;Droga Raia;AVENIDA FAGUNDES FILHO 134 Sao Paulo SP 04304000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1760;Unicpharma - Casa Verde;Rua Dr Cesar Castiglioni Junior 389 Sao Paulo SP 02515000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1763;DROGARIA NOVA ESPERANÇA;Avenida JOSE MARIA WHITAKER 1366 Sao Paulo SP 04057000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1764;DROGASIL;Rua TUTOIA 372 Sao Paulo SP 04007000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1771;CENTERFÓRMULA - FARMÁCIA DE MANIPULAÇÃO;Rua TUIUTI 2920 Sao Paulo SP 03307000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1772;Drogasil;Avenida Eng Caetano Alvares 4112 Sao Paulo SP 02413000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1778;Drogaria São Paulo;Avenida Sao Miguel 20 Sao Paulo SP 03620000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1779;Drogaria São Paulo;Avenida Higienopolis 646 Sao Paulo SP 01238000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1786;Farmácia Pague Menos;Rua Carlos Petit 36 Sao Paulo SP 04110000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1788;Animal Farma Manipulação Veterinária - Tatuapé SP;Rua Tijuco Preto 423 Sao Paulo SP 03316000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1791;DROGASIL;RUA CAYOWAA 489 Sao Paulo SP 05018000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1792;Droga Raia;Rua CONEGO EUGENIO LEITE 720 Sao Paulo SP 05414000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1794;HOMEOPATIA HN CRISTIANO;Rua CRISTIANO VIANA 96 Sao Paulo SP 05411000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1802;Droga Raia;Alameda Irae 533 Sao Paulo SP 04075000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1803;FARMALISÉ - CONSOLAÇÃO;Rua DA CONSOLACAO 835 Sao Paulo SP 01302000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1805;Carrefour Drogaria Penha;Avenida Amador Bueno da Veiga 2521 Sao Paulo SP 03653000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1806;Drogaria São Paulo;Rua Julio de Castilhos 744 Sao Paulo SP 03059000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1807;Droga Raia;Alameda Barros 584 Sao Paulo SP 01232000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1810;ALQUIMIA COMERCIAL - PRODUTOS NATURAIS;Rua MONTE ALEGRE 341 Sao Paulo SP 05014000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1821;PARK FARMA;RUA BRIGADEIRO HENRIQUE FONTENELLE 459 Sao Paulo SP 05125000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1829;DROGA MAIS BRASIL - NOVA VIDA;Avenida NILTON RABELO CASTRO LT 25 Cuiaba MT 78099000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1836;Drugstore Sao Paulo;Avenida Min Laudo Ferreira de Camargo 352 Sao Paulo SP 05537000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1839;ÓRION FARMÁCIA DE MANIPULAÇÃO;Rua FREI CANECA 226 Sao Paulo SP 01307000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1842;DROGARIA SAO PAULO;Rua MAESTRO CARDIM 297 Sao Paulo SP 02313000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1844;SOLIS MAGISTRAL;Avenida PADRE ANTONIO JOSE DOS SANTOS 1096 Sao Paulo SP 04563000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1849;Carrefour Drogaria;Praca Alberto Lion 100 Sao Paulo SP 01515000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1850;ANANDA - HOMEOPATHY AND MANIPULATION PHARMACY;Avenida OTACILIO TOMANIK 1314 Sao Paulo SP 05363000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1852;DROGARIA LECO FARMA;Avenida PROFESSOR HERMOGENES DE FREITAS LEITAO FILHO 1764 Sao Paulo SP 04865000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1855;PHARMACIA;Rua BARAO DO BANANAL 843 Sao Paulo SP 05024000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1860;ARTE ORGÂNICA - FARMÁCIA DE MANIPULAÇÃO;Rua PADRE JOSE DE ANCHIETA 508 Sao Paulo SP 04742000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1862;FARMADOCTOR SÃO MIGUEL - ITAIM PAULISTA;Avenida BARAO DE ALAGOAS 164 Sao Paulo SP 08120000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1863;Farmácia Farma Ponte;Avenida Padre Arlindo Vieira 1557 Sao Paulo SP 04166000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1864;Drogasil;Rua Pio XI 308 Sao Paulo SP 05060000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1865;PRIMA ESSÊNCIA HOMEOPATIA PHARMÁCIA;Rua CANTAGALO 205 Sao Paulo SP 03319000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1868;PHARMAVIDA;Rua MARTIM FRANCISCO 115 Sao Paulo SP 01226000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1872;ALMOFARIZ FARMÁCIA DE MANIPULAÇÃO UNIDADE PERDIZES;Rua TURIASSU 1418 Sao Paulo SP 05005000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1873;Pet Shop Tatuape - Selfie Pet;Rua Emilio Mallet 956 Sao Paulo SP 03320000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1874;DROGARIA SÃO PAULO;Avenida DA ACLIMACAO 712 Sao Paulo SP 01531000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1875;DROGARIA NOVA DM;Rua MARTINS FONTES 166 Sao Paulo SP 01050000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1877;EXTRAFARMA;RUA VERGUEIRO 1759 Sao Paulo SP 04101000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1886;PHYTOCARE PANIZZA - FARMÁCIA DE MANIPULAÇÃO;RUA JOSE JANNARELLI 336 Sao Paulo SP 05615000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1888;DROGARIA SÃO PAULO;Avenida Macuco 115 Sao Paulo SP 04523000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1892;Drogasil;Rua Tiburcio de Sousa 1765 Sao Paulo SP 08140000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1894;Farmais Tiete;Rua Marechal Odylio Denys 98 Sao Paulo SP 02010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1895;DROGARIA SÃO PAULO;ALAMEDA BARAO DE LIMEIRA 668 Sao Paulo SP 01202000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1896;Drogasil;Rua Tiburcio de Sousa 209 Sao Paulo SP 08140000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1899;DROGASIL;Avenida PACAEMBU 1782 Sao Paulo SP 01234000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1906;DROGASIL;Rua Demetrio Ribeiro 818 Sao Paulo SP 03332000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1907;JR FARMA;Rua JOSE BATISTA PESSOA 620 Fortaleza CE 61640300 Brazil;"cidade divergente: coluna diz 'Fortaleza' e o endereco diz 'CAUCAIA'; mantida a da coluna"
+MEDIO;1911;FARMACIA FITOHERBAL PANIZZA HOMEOPATIA LTDA;RUA VERGUEIRO 1913 Sao Paulo SP 04101000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1921;DRUGSTORE SAO PAULO;Avenida POMPEIA 390 Sao Paulo SP 05022000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1925;DROGA RAIA;Avenida POMPEIA 918 Sao Paulo SP 05022000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1927;DROGASIL;Rua PAMPLONA 386 Sao Paulo SP 01405000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1930;SUS - FARMACIA;Rua ITAPEVA 700 Sao Paulo SP 01332000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1931;Drugstore Sao Paulo;Rua Itingucu 800 Sao Paulo SP 03658000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;1935;ONCO EXPRESS;Rua DOMINGOS DE MORAIS 348 Sao Paulo SP 04010000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

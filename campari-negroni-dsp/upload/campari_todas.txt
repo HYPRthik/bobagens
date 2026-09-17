@@ -129,11 +129,11 @@ Rodovia Dr Antonio Luiz Moura Gonzaga 4530 Florianopolis SC 88048301 Brazil
 Rua Esau Pereira da Silva 160 Florianopolis SC 88035060 Brazil
 Rua Vitor Konder 409 Florianopolis SC 88015400 Brazil
 Anitta Hoepcke da Silva 112 Florianopolis SC 88010220 Brazil
-Loft Juarez Machado R Luis Delfino 146 Florianopolis SC 88015360 Brazil
-Espaco UM Rod Jose Carlos Daux 6997 Florianopolis SC 88050000 Brazil
+Rua Luis Delfino 146 Florianopolis SC 88015360 Brazil
+Rodovia Jose Carlos Daux 6997 Florianopolis SC 88050000 Brazil
 Rua Cristovao Nunes Pires 84 Florianopolis SC 88010120 Brazil
 Rua Joao Pinto 198 Florianopolis SC 88410020 Brazil
-Majestic Palace Hotel Av Jorn Rubens de Arruda Ramos 2746 Florianopolis SC 88015702 Brazil
+Avenida Jorn Rubens de Arruda Ramos 2746 Florianopolis SC 88015702 Brazil
 Rua Sen Ivo D Aquino 55 Florianopolis SC 88062050 Brazil
 Rodovia Gilson da Costa Xavier 51 Florianopolis SC 88051000 Brazil
 Rodovia Jose Carlos Daux 4150 Florianopolis SC 88032005 Brazil
@@ -155,7 +155,7 @@ RUA FREI MANOEL DA RESSURREICAO 1115 CAMPINAS SP 13073221 Brazil
 AVENIDA BARAO DE ITAPURA 2947 CAMPINAS SP 13073300 Brazil
 RUA QUIRINO DO AMARAL CAMPOS 21 CAMPINAS SP 13023570 Brazil
 AVENIDA JOAO MENDES JUNIOR 104 CAMPINAS SP 13024030 Brazil
-Avenida MAJOR NICACIO 1871 FRANCA RP SP 14401135 Brazil
+Avenida MAJOR NICACIO 1871 FRANCA SP 14401135 Brazil
 AVENIDA MARJORY DA SILVA PRADO 1100 GUARUJA SP 11444000 Brazil
 AVENIDA DAS TULIPAS 245 HOLAMBRA SP 13825000 Brazil
 RUA SAO BENEDITO 202 ILHABELA SP 12630000 Brazil
@@ -194,7 +194,7 @@ RUA SERGIPE 629 BELO HORIZONTE MG 30130171 Brazil
 RUA RIO GRANDE DO NORTE 311 BELO HORIZONTE MG 30130131 Brazil
 AVENIDA DO CONTORNO 5602 BELO HORIZONTE MG 30110036 Brazil
 RUA SANTA CATARINA 1287 BELO HORIZONTE MG 30170088 Brazil
-Praca DR AVELINO DE QUEIROZ 234 PIUMHI RP MG 37925000 Brazil
+Praca DR AVELINO DE QUEIROZ 234 PIUMHI MG 37925000 Brazil
 Rua Herny Hugo Dreher 273 BENTO GONCALVES RS 95703200 Brazil
 Avenida Borges de Medeiros Bairro Belverede GRAMADO RS 95670092 Brazil
 Rua COMENDADOR CORUJA 373 PORTO ALEGRE RS 90220180 Brazil
@@ -211,13 +211,12 @@ Rua Lisboa 294 Sao Paulo SP Brazil
 Praca Ramos de Azevedo subsolo do Theatro Municipal Republica Sao Paulo SP Brazil
 Rua Simao Alvares 952 Sao Paulo SP Brazil
 Rua Conego Eugenio Leite 1121 Sao Paulo SP Brazil
-Rua Delfina 163 Sao Paulo 4 unidades SP Brazil
+Rua Delfina 163 Sao Paulo SP Brazil
 Rua Manuel da Nobrega 76 Sao Paulo SP Brazil
 Rua Costa Carvalho 96 Sao Paulo SP Brazil
-Rua Delfina 163 Sao Paulo 2 unidades SP Brazil
-Rua Itapeva 435 Sao Paulo Hotel Rosewood SP Brazil
+Rua Itapeva 435 Sao Paulo SP Brazil
 Avenida Ipiranga 200 Sao Paulo SP Brazil
-Rua Joao Bricola 24 Sao Paulo Farol Santander SP Brazil
+Rua Joao Bricola 24 Sao Paulo SP Brazil
 Rua Major Sertorio 95 Sao Paulo SP Brazil
 Rua Vitorio Fasano 88 Sao Paulo SP Brazil
 Largo do Arouche 77 Sao Paulo SP Brazil
@@ -243,7 +242,7 @@ Rua Dona Geralda 302 Paraty RJ Brazil
 Rua Visconde do Rio Branco 1087 Curitiba PR Brazil
 Rua Saldanha Marinho 1220 Curitiba PR Brazil
 Alameda Dr Carlos de Carvalho 943 Curitiba PR Brazil
-Avenida Iguacu 4399 Curitiba unidade Av Vicente Machado PR Brazil
+Avenida Iguacu 4399 Curitiba PR Brazil
 Rua Visconde do Rio Branco 367 Curitiba PR Brazil
 Alameda Prudente de Moraes 1069 Curitiba PR Brazil
 Rua Comendador Macedo 630 Curitiba PR Brazil

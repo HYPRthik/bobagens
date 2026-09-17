@@ -344,6 +344,45 @@ check("'1842.0' vira 1842, não '1842 0'",
 check("'870.00' vira 870",
       len(L) > 1 and L[1] == "Rua dos Pinheiros 870 Sao Paulo SP 05422001 Brazil", L[1:2])
 
+print("\n=== T9h2 nome separado por hífen dentro do segmento ===")
+p = entrada("hifseg.csv", "endereco,city,uf,cep\n"
+    '"FARMÁCIA - AV. FARIAS BRITO  160 - VARJOTA  FORTALEZA - CE  60120-240  BRASIL",Fortaleza,CE,60120-240\n'
+    '"AV. PAULO AYRES  626 - SALÕES 2 E 3 - PARQUE PINHEIROS  TABOÃO DA SERRA - SP  06767-220",Taboão da Serra,SP,06767-220\n')
+rc, out = run([p, "-o", f"{TMP}/t9h2", "--nome", "hs"])
+L = linhas(f"{TMP}/t9h2/hs.txt") if rc == 0 else []
+check("corta 'FARMÁCIA -' antes do logradouro",
+      L[:1] == ["Avenida FARIAS BRITO 160 Fortaleza CE 60120240 Brazil"], L[:1] or out[-300:])
+check("não corta quando já começa com logradouro",
+      len(L) > 1 and L[1].startswith("Avenida PAULO AYRES 626"), L[1:2])
+
+print("\n=== T9i CEP arbitra cidade da coluna x do endereço ===")
+p = entrada("cidade.csv", 'endereco,city,uf,cep\n'
+    '"AV. DOS AUTONOMISTAS  755 - VILA YARA  OSASCO - SP  06020-000  BRASIL",São Paulo,SP,06020-000\n'
+    '"AV. INTERLAGOS  2255 - VILA INGLESA  INTERLAGOS - SP  04661-100  BRASIL",São Paulo,SP,04661-100\n'
+    '"AV. MANOEL GOULART  2400 - JD ROSAS  PRES. PRUDENTE - SP  19060-000  BRASIL",Presidente Prudente,SP,19060-000\n')
+rc, out = run([p, "-o", f"{TMP}/t9i", "--nome", "cd"])
+L = linhas(f"{TMP}/t9i/cd.txt") if rc == 0 else []
+check("CEP fora da capital: vence o texto (Osasco)",
+      L[:1] == ["Avenida DOS AUTONOMISTAS 755 OSASCO SP 06020000 Brazil"], L[:1] or out[-300:])
+check("CEP da capital: vence a coluna (texto era bairro)",
+      len(L) > 1 and L[1] == "Avenida INTERLAGOS 2255 Sao Paulo SP 04661100 Brazil", L[1:2])
+check("abreviação não conta como divergência",
+      len(L) > 2 and L[2] == "Avenida MANOEL GOULART 2400 Presidente Prudente SP 19060000 Brazil", L[2:3])
+
+print("\n=== T9i2 coluna com cidade de outro estado, e ruído do extrator ===")
+p = entrada("cidade2.csv", 'endereco,city,uf,cep\n'
+    '"R. Américo Meinicke, 52 - Cordeiros, Itajaí - SC, 88311-250",São Paulo,SC,88311-250\n'
+    '"AV. TESTE  10 - S/N QD 68 LT 9  CUIABÁ - MT  78000-000  BRASIL",Cuiabá,MT,78000-000\n'
+    '"AV. B  20 - CENTRO  FORTALEZA - STATE OF CEARÁ  60000-000  BRASIL",Fortaleza,CE,60000-000\n')
+rc, out = run([p, "-o", f"{TMP}/t9i2", "--nome", "c2"])
+L = linhas(f"{TMP}/t9i2/c2.txt") if rc == 0 else []
+check("CEP de SC: coluna 'São Paulo' é descartada",
+      any("Itajai SC 88311250" in x for x in L), L or out[-300:])
+check("fragmento 'S/N QD 68 LT 9' não vira cidade",
+      any("Cuiaba MT" in x for x in L), L)
+check("'FORTALEZA - STATE OF CEARÁ' não conta como divergência",
+      "cidade divergente" not in out, out[-400:])
+
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []
 for q in glob.glob(f"{TMP}/**/*.txt", recursive=True) + glob.glob(f"{TMP}/**/*.csv", recursive=True):
