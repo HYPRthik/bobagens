@@ -123,17 +123,29 @@ def ascii_puro(s):
     return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9 ]", " ", sem_acento(normalizar_numero(s)))).strip()
 
 
-# CEP da capital paulista. E onde as divergencias entre coluna e texto se
-# concentram, e o unico caso em que da para arbitrar sem tabela de municipios.
-SP_CAPITAL = ((1000, 5999), (8000, 8499))
+# Faixas de CEP das capitais. O defeito recorrente nestas bases e a coluna de
+# cidade trazer a CAPITAL para enderecos que estao num municipio vizinho da
+# regiao metropolitana — Sao Paulo por Osasco e Taboao da Serra, Belem por
+# Ananindeua. Com a faixa da capital da para desmentir a coluna sem precisar de
+# uma tabela de municipios inteira. So estao aqui as faixas conferidas; capital
+# ausente significa "nao sei arbitrar", nao "a coluna esta certa".
+CAPITAIS = {
+    "sao paulo":  ((1000, 5999), (8000, 8499)),
+    "belem":      ((66000, 66999),),
+    "fortaleza":  ((60000, 60999),),
+    "cuiaba":     ((78000, 78109),),
+}
 
 
-def cep_e_sp_capital(cep):
+def cep_na_capital(cep, cidade):
+    """True/False se o CEP cai na faixa da capital informada; None se nao da
+    para dizer (CEP ausente ou capital fora da tabela)."""
+    faixas = CAPITAIS.get(re.sub(r"\s+", " ", sem_acento(str(cidade)).lower().strip()))
     d = re.sub(r"\D", "", str(cep))[:5]
-    if len(d) < 5:
+    if not faixas or len(d) < 5:
         return None
     n = int(d)
-    return any(a <= n <= b for a, b in SP_CAPITAL)
+    return any(a <= n <= b for a, b in faixas)
 
 
 def mesma_cidade(a, b):
@@ -183,14 +195,14 @@ def escolher_cidade(do_texto, da_coluna, cep, uf):
         return da_coluna or do_texto, ""
     if not da_coluna or mesma_cidade(do_texto, da_coluna):
         return da_coluna or do_texto, ""
-    if mesma_cidade(da_coluna, "Sao Paulo"):
-        # a coluna diz a capital paulista: o CEP confirma ou desmente
-        uf_cep = uf_do_cep(int(re.sub(r"\D", "", str(cep))[:5] or 0)) if re.sub(r"\D", "", str(cep)) else None
-        cap = cep_e_sp_capital(cep)
-        if uf_cep and uf_cep != "SP":
-            return do_texto, ""           # CEP nem e de SP: a coluna erra feio
-        if cap is not None:
-            return (da_coluna, "") if cap else (do_texto, "")
+    # a coluna diz uma capital: o CEP confirma ou desmente
+    cap = cep_na_capital(cep, da_coluna)
+    if cap is not None:
+        d5 = re.sub(r"\D", "", str(cep))[:5]
+        uf_cep = uf_do_cep(int(d5)) if len(d5) == 5 else None
+        if uf_cep and str(uf).upper() and uf_cep != str(uf).upper():
+            return do_texto, ""           # CEP nem e do estado da coluna
+        return (da_coluna, "") if cap else (do_texto, "")
     return da_coluna, (f"cidade divergente: coluna diz {da_coluna!r} e o endereco "
                        f"diz {do_texto!r}; mantida a da coluna")
 

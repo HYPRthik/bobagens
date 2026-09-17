@@ -625,7 +625,6 @@ MEDIO;1895;DROGARIA SÃO PAULO;ALAMEDA BARAO DE LIMEIRA 668 Sao Paulo SP 0120200
 MEDIO;1896;Drogasil;Rua Tiburcio de Sousa 209 Sao Paulo SP 08140000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1899;DROGASIL;Avenida PACAEMBU 1782 Sao Paulo SP 01234000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1906;DROGASIL;Rua Demetrio Ribeiro 818 Sao Paulo SP 03332000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;1907;JR FARMA;Rua JOSE BATISTA PESSOA 620 Fortaleza CE 61640300 Brazil;"cidade divergente: coluna diz 'Fortaleza' e o endereco diz 'CAUCAIA'; mantida a da coluna"
 MEDIO;1911;FARMACIA FITOHERBAL PANIZZA HOMEOPATIA LTDA;RUA VERGUEIRO 1913 Sao Paulo SP 04101000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1921;DRUGSTORE SAO PAULO;Avenida POMPEIA 390 Sao Paulo SP 05022000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1925;DROGA RAIA;Avenida POMPEIA 918 Sao Paulo SP 05022000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

@@ -369,6 +369,20 @@ check("CEP da capital: vence a coluna (texto era bairro)",
 check("abreviação não conta como divergência",
       len(L) > 2 and L[2] == "Avenida MANOEL GOULART 2400 Presidente Prudente SP 19060000 Brazil", L[2:3])
 
+print("\n=== T9i3 faixa de capital desmente a coluna fora de SP ===")
+p = entrada("capital.csv", 'endereco,city,uf,cep\n'
+    '"R. NOVA REPUBLICA  25 - CENTRO  ANANINDEUA - PA  67013-120  BRASIL",Belém,PA,67013-120\n'
+    '"PASSAGEM X  10 - MARCO  BELÉM - PA  66040-040  BRASIL",Belém,PA,66040-040\n'
+    '"R. Y  5 - CENTRO  CAUCAIA - CE  61600-000  BRASIL",Fortaleza,CE,61600-000\n')
+rc, out = run([p, "-o", f"{TMP}/t9i3", "--nome", "cp"])
+L = linhas(f"{TMP}/t9i3/cp.txt") if rc == 0 else []
+check("CEP 67013 é Ananindeua, não Belém",
+      any("ANANINDEUA PA 67013120" in x for x in L), L or out[-300:])
+check("CEP 66040 confirma Belém",
+      any("Belem PA 66040040" in x for x in L), L)
+check("CEP 61600 é Caucaia, não Fortaleza",
+      any("CAUCAIA CE 61600000" in x for x in L), L)
+
 print("\n=== T9i2 coluna com cidade de outro estado, e ruído do extrator ===")
 p = entrada("cidade2.csv", 'endereco,city,uf,cep\n'
     '"R. Américo Meinicke, 52 - Cordeiros, Itajaí - SC, 88311-250",São Paulo,SC,88311-250\n'
