@@ -81,7 +81,7 @@ Marca o que a DSP historicamente rejeita, com percentuais medidos no retorno rea
 | Coluna vs texto | O **CEP arbitra** por faixa de capital: `INTERLAGOS - SP` com CEP da capital é bairro (vence a coluna), `OSASCO - SP` com CEP 06020 é município (vence o texto), `ANANINDEUA` com CEP 67xxx desmente a coluna que diz Belém. Abreviação (`PRES. PRUDENTE`) não conta como divergência |
 | Loja em shopping | Remove `LOJA 3004`, `PISO 2`, `SALA 15` — o geofence é por raio na rua. Nunca remove quando faz parte do nome (`Barão da Torre 623`) |
 | Coluna alternativa | Se a coluna principal não traz logradouro, usa outra coluna de endereço, e o número de uma coluna `Nº` |
-| Coluna vazia | Uma coluna vazia não toma o papel de uma preenchida (`name` vazio não bloqueia `Nome Fantasia`) |
+| Coluna repetida | Entre colunas do mesmo papel vence a mais preenchida — cobre `name` vazio bloqueando `Nome Fantasia` e cabeçalho com `cep`/`city` duplicados |
 | Ponto de OOH | `RUA BARÃO DA TORRE, E/F Nº 623, ESQUINA COM ...` → `RUA BARAO DA TORRE 623`; corta a referência visual |
 | Nome do estabelecimento | Usa o segmento só-número como âncora: o logradouro é o segmento anterior a ele, mesmo com typo no tipo (`Avendia Abílio`). Nunca corta se isso apagaria a rua (`Boulevard Vinte e Oito de Setembro, 271`) |
 | Número com letra | `40A`, `1029D` são número de porta |
@@ -124,7 +124,7 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 python3 testes.py
 ```
 
-67 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
+70 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
 recusa de lista só com coordenadas, remoção do bairro nas três formas em que a
 cidade é identificável, proteção contra apagar a cidade quando não é, número da
 porta, expansão de abreviação, encoding, sem cabeçalho, categoria isenta,

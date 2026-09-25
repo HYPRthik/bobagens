@@ -134,6 +134,7 @@ CAPITAIS = {
     "belem":      ((66000, 66999),),
     "fortaleza":  ((60000, 60999),),
     "cuiaba":     ((78000, 78109),),
+    "belo horizonte": ((30000, 31999),),
 }
 
 
@@ -264,19 +265,29 @@ def parece_cabecalho(row):
     return True
 
 
+def preenchimento(i, linhas):
+    """Quantas linhas da amostra tem valor nesta coluna."""
+    return sum(1 for l in linhas[:400] if len(l) > i and str(l[i]).strip())
+
+
 def coluna_vazia(i, linhas):
-    """True se a coluna nao tem nenhum valor nas linhas de amostra."""
-    return not any(str(l[i]).strip() for l in linhas[:200] if len(l) > i)
+    return preenchimento(i, linhas) == 0
 
 
-def cede_para_preenchida(i, norm, linhas, pistas):
-    """True se a coluna i esta vazia e existe outra, preenchida, que serve para o
-    mesmo papel. Sem isso um "name" vazio toma o papel e bloqueia "Nome Fantasia",
-    que e quem tem os dados."""
-    if not coluna_vazia(i, linhas):
-        return False
-    return any(j != i and norm[j] and not coluna_vazia(j, linhas)
-               and any(p in norm[j] for p in pistas)
+def cede_para_preenchida(i, norm, linhas, pistas, exatas=()):
+    """True se existe outra coluna, com MAIS dados, servindo para o mesmo papel.
+
+    Cobre dois casos reais: um "name" vazio que bloquearia "Nome Fantasia", e
+    cabecalho com coluna repetida — esta base de GLP traz 'cep' e 'city' duas
+    vezes, e a segunda ocorrencia e a mais completa.
+    """
+    meu = preenchimento(i, linhas)
+    # pista curta ("n", "no") so vale em casamento exato: "n" aparece dentro de
+    # "endereco" e faria a coluna de numero ceder o papel para ela
+    def serve(j):
+        return any(p in norm[j] for p in pistas) or norm[j] in exatas
+
+    return any(j != i and norm[j] and serve(j) and preenchimento(j, linhas) > meu
                for j in range(len(norm)))
 
 
@@ -294,7 +305,8 @@ def mapear(header, linhas):
             if h in todas or any(re.fullmatch(rf"{re.escape(p)}s?", h) for p in todas):
                 # uma coluna vazia nao pode tomar o papel de uma preenchida:
                 # "name" vazio bloquearia "Nome Fantasia", que tem os dados
-                if cede_para_preenchida(i, norm, linhas, todas):
+                if cede_para_preenchida(i, norm, linhas, pistas,
+                                        PISTAS_EXATAS.get(papel, ())):
                     continue
                 cols[papel] = i
                 usados.add(i)
@@ -306,8 +318,8 @@ def mapear(header, linhas):
             if i in usados or not h:
                 continue
             if any(p in h for p in pistas):
-                if cede_para_preenchida(i, norm, linhas,
-                                        pistas + PISTAS_EXATAS.get(papel, [])):
+                if cede_para_preenchida(i, norm, linhas, pistas,
+                                        PISTAS_EXATAS.get(papel, ())):
                     continue
                 cols[papel] = i
                 usados.add(i)

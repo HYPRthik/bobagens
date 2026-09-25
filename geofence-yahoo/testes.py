@@ -383,6 +383,17 @@ check("CEP 66040 confirma Belém",
 check("CEP 61600 é Caucaia, não Fortaleza",
       any("CAUCAIA CE 61600000" in x for x in L), L)
 
+print("\n=== T9i4 Belo Horizonte x região metropolitana ===")
+p = entrada("bh.csv", 'endereco,city,uf,cep\n'
+    '"Rua X, 10, Centro, Santa Luzia - MG, 33125-010",Belo Horizonte,MG,33125-010\n'
+    '"Rua Y, 20, Centro, Belo Horizonte - MG, 30692-600",Belo Horizonte,MG,30692-600\n')
+rc, out = run([p, "-o", f"{TMP}/t9i4", "--nome", "bh"])
+L = linhas(f"{TMP}/t9i4/bh.txt") if rc == 0 else []
+check("CEP 33125 é Santa Luzia, não BH",
+      any("Santa Luzia MG 33125010" in x for x in L), L or out[-300:])
+check("CEP 30692 confirma Belo Horizonte",
+      any("Belo Horizonte MG 30692600" in x for x in L), L)
+
 print("\n=== T9i2 coluna com cidade de outro estado, e ruído do extrator ===")
 p = entrada("cidade2.csv", 'endereco,city,uf,cep\n'
     '"R. Américo Meinicke, 52 - Cordeiros, Itajaí - SC, 88311-250",São Paulo,SC,88311-250\n'
@@ -396,6 +407,15 @@ check("fragmento 'S/N QD 68 LT 9' não vira cidade",
       any("Cuiaba MT" in x for x in L), L)
 check("'FORTALEZA - STATE OF CEARÁ' não conta como divergência",
       "cidade divergente" not in out, out[-400:])
+
+print("\n=== T9j cabeçalho com coluna repetida: vence a mais preenchida ===")
+p = entrada("dupcol.csv", "endereco,cep,city,cep,city\n"
+    '"Rua A, 10, Centro, Santos - SP",,Santos,11010-000,Santos\n'
+    '"Rua B, 20, Centro, Santos - SP",,Santos,11010-001,Santos\n')
+rc, out = run([p, "-o", f"{TMP}/t9j", "--nome", "dc"])
+L = linhas(f"{TMP}/t9j/dc.txt") if rc == 0 else []
+check("usa o 'cep' preenchido, não o vazio",
+      L[:1] == ["Rua A 10 Santos SP 11010000 Brazil"], L[:1] or out[-300:])
 
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []

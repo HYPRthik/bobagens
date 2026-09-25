@@ -1089,7 +1089,7 @@ MEDIO;1885;CAMODAMATHA;Rua PARAIBA 206 Claudio MG 35530000 Brazil;CEP generico d
 MEDIO;1890;CASA DO TETEU;Rua JOAQUIM GONCALVES DA SILVA 360 Camaqua RS 96180000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1892;P D BORTOLINI & ARAÚJO EXIBIÇÃO CINEMATOGRÁFICA;Rua NOSSA SRA DO ROSARIO 450 Serra Negra SP 13930000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1893;SCOTT BAR DU CINEMA COMÉRCIO;Rua CEL QUINTINO VARGAS 15 Pirapora MG 39270000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
-MEDIO;1905;STUDIO HD BH COMERCIO E SERVIÇOS LTDA;Rua DA PAISAGEM 240 Belo Horizonte MG 34000000 Brazil;"CEP generico de cidade, nao de rua (2,4x mais falha); cidade divergente: coluna diz 'Belo Horizonte' e o endereco diz 'NOVA LIMA'; mantida a da coluna"
+MEDIO;1905;STUDIO HD BH COMERCIO E SERVIÇOS LTDA;Rua DA PAISAGEM 240 NOVA LIMA MG 34000000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1907;MEREGA;Avenida PARANA 347 Laranjal PR 85275000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1909;BARCCO - Base de Arraial do Cabo Cultura, Cinema & Organização;Avenida Gov Leonel de Moura Brizola 50 Arraial do Cabo RJ 28930000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;1911;CINE JANUÁRIA;Rua MANOEL CAETANO 109 Januaria MG 39480000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
