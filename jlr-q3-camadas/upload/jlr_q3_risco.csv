@@ -1,0 +1,99 @@
+﻿severidade;linha;nome;endereco_dsp;risco
+ALTO;2;Condomínio Fazenda Boa Vista;Rodovia Castelo Branco Porto Feliz SP 18540000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3;Fazenda da Grama;Rodovia Miguel Melhado Campos Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;4;Condomínio Iporanga;Rua Jeriva Guaruja SP 11448406 Brazil;sem numero de porta
+ALTO;5;Condomínio Iporanga – Campos do Jordão;Rua Brasil Atibaia SP 12950300 Brazil;sem numero de porta
+ALTO;7;Fazenda SerrAzul II – entrada social;Estrada da Mina Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;8;Fazenda SerrAzul – Santa Maria;Estrada Municipal IVA 136 Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;9;Quinta da Baroneza;Rodovia Alkindar Monteiro Junqueira Braganca Paulista SP 12918001 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;10;Condomínio Fazenda Dona Carolina;Rodovia Alkindar Monteiro Junqueira Itatiba SP 13252670 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;12;Condomínio Fazenda Vila Real de Itu;Rodovia Marechal Rondon Itu SP 13312901 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;13;Terras de São José – Golf Club;Alameda Sao Francisco Golfe Itu SP 13306443 Brazil;sem numero de porta
+ALTO;14;Condomínio Lago Azul – Blue Lake Golf Club;Rodovia SP 270 Aracoiaba da Serra SP 18190000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;24;Condomínio Chácara Gramado;Alameda das Tipuanas Campinas SP 13101631 Brazil;sem numero de porta
+ALTO;26;Alphaville Ribeirão Preto III;Rua Ruth Barbosa Martins Ribeirao Preto SP 14039100 Brazil;sem numero de porta
+ALTO;28;Reserva do Paratehy;Avenida Paratehy Sao Jose dos Campos SP 12244893 Brazil;sem numero de porta
+ALTO;29;Condomínio Laranjeiras;Condominio Laranjeiras Paraty Mirim Paraty RJ 23970000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;30;Condomínio Portobello (Porto Belo);Condominio Porto Belo Marina Mangaratiba RJ 23860000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;31;Condomínio Porto Frade;Rodovia Procurador Haroldo Fernandes Duarte Angra dos Reis RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;37;Alphaville Graciosa – Residencial Pinheiros;Estrada da Graciosa 3700 Pinhais PR 83327210 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;38;Associação Residencial Alphaville Graciosa;Estrada da Graciosa 3642 Pinhais PR 83327000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;42;Jardins de Monet Residence;Estrada Romeirinha 2413 Maringa PR 87078650 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;46;Costão Golf Club;Estrada Dario Manoel Cardoso 2399 Florianopolis SC 88058400 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;47;Viva Residence Cacupé;Estrada Haroldo Soares Glavan 1760 Florianopolis SC 88050005 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;48;Villa Marinero;Estrada Haroldo Soares Glavan 4690 Florianopolis SC 88050205 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;49;Condomínio Madre Bertha;Estrada Haroldo Soares Glavan 4940 Florianopolis SC 88050005 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;52;Alphaville Porto Alegre;Estrada das Tres Meninas 1400 Porto Alegre RS 91787400 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;53;Alphaville Porto Alegre – Residencial Toscana;Estrada das Tres Meninas 1501 Porto Alegre RS 91787400 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;54;Alphaville Porto Alegre – Residencial Lombardia;Estrada das Tres Meninas 2001 Porto Alegre RS 91787400 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;56;Atlântida Ilhas Park;Rua Trinta e Nove Xangri la RS 95588000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;57;Velas da Marina;Rua Lagomar Capao da Canoa RS 95555000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;58;Condomínio Aspen Mountain;Estrada RS 235 Gramado RS 95670000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;60;Condomínio Montalcino Riserva;Estrada Ver Ary Antonio Bergozza 2059 Caxias do Sul RS 95044020 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;95;CI&T – Prédio Prisma;Rua Dr Ricardo Benetton Martins Campinas SP 13086902 Brazil;sem numero de porta
+ALTO;97;Samsung R&D Institute Brazil;Avenida Cambacicas Campinas SP 13097104 Brazil;sem numero de porta
+ALTO;99;IBM Brasil – Hortolândia;Rodovia SP 101 Hortolandia SP 13186900 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;100;Parque Tecnológico São José dos Campos;Estrada Dr Altino Bondesan 500 Sao Jose dos Campos SP 12247016 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;109;ACATE – Centro de Inovação (SC-401);Rodovia SC 401 4120 Florianopolis SC 88032005 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;111;RD Station (Resultados Digitais);Rodovia Virgilio Varzea 587 Florianopolis SC 88032000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;142;São Paulo Expo;Rodovia dos Imigrantes Sao Paulo SP 04329900 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;143;Pavilhão da Bienal – Fundação Bienal;Avenida Pedro Alvares Cabral Sao Paulo SP 04094000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;159;Marina da Glória;Avenida Infante Dom Henrique Rio de Janeiro RJ 20021140 Brazil;sem numero de porta
+ALTO;177;Equestrian Manège Alphaville;Estrada Lula Chaves 443 Santana de Parnaiba SP 06532020 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;178;Centro Hípico Aldeia da Serra;Estrada do Veterinario Santana de Parnaiba SP 06519040 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;179;Sociedade Hípica de Campinas;Rua Buriti Campinas SP 13092566 Brazil;sem numero de porta
+ALTO;182;Condomínio Fazenda Boa Vista;Rodovia Castelo Branco Porto Feliz SP 18540000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;183;Haras Tropa do Vale Vermelho;Bairro Xapadao Porto Feliz SP 18540000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;184;Haras Cruz;Estrada sem denominacao Porto Feliz SP 18540000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;185;Clube Hípico – Quinta da Baroneza;Alameda dos Jacarandas Braganca Paulista SP Brazil;sem numero de porta
+ALTO;190;Tao Equestre;Estrada Municipal do Jaguari Sao Jose dos Campos SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;191;Manège Santa Clara;Estrada do Ipatinga 458 Sorocaba SP 18053400 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;192;Hípica Veneto;Estrada Rubens Matiello 500 Sorocaba SP 18052445 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;193;Centro Hípico Lapenda;Rodovia Emerenciano Prestes de Barros 291 Sorocaba SP 18072859 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;195;Centro Hípico de Itu;Estrada do Varejao Itu SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;196;Equestrian Center Model;Estrada Municipal do Canguiri Itu SP 13301730 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;201;Escola Centauro de Equitação;Avenida Rachel de Queiroz Rio de Janeiro RJ 22793100 Brazil;sem numero de porta
+ALTO;202;Murillo Seabra Hipismo;Estrada Bougainville 442 Rio de Janeiro RJ 22753210 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;203;Haras Arion Itaipava;Estrada Ministro Salgado Filho 5230 Petropolis RJ 25745690 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;204;CT Instinto Equestre;Estrada Uniao e Industria 26 Petropolis RJ 25770000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;207;Sociedade Hípica Paranaense;BR 116 Taruma Curitiba PR 82590100 Brazil;sem numero de porta
+ALTO;209;Haras Santarém;Estrada Ver Domingos Benvenuto Moletta Sao Jose dos Pinhais PR Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;210;Haras Springfield;Area rural Tijucas do Sul PR 83190000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;211;Haras VJC;Estrada Municipal Frei Eurico Melo Tijucas do Sul PR 83190000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;212;Haras FB;Estrada de Bateias PR 090 Campo Largo PR 83604360 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;216;Sociedade Hípica Catarinense;Rodovia SC 401 4677 Florianopolis SC 88030000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;217;ARK Hipismo;Estrada Bento Manoel Ferreira 1070 Florianopolis SC 88052300 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;219;Hípica Leme;Estrada do Oeste 2000 Joinville SC 89239600 Brazil;endereco de rodovia (57-67% falharam)
+ALTO;222;Haras Tafner & Tafner;Rodovia SC 108 Blumenau SC Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;226;Parque de Exposições Assis Brasil;BR 116 Novo Esteio Esteio RS 93270710 Brazil;sem numero de porta
+ALTO;228;Associação Brasileira de Criadores de Cavalos Crioulos (ABCCC);Avenida Fernando Osorio 1754 A Tres Vendas Pelotas RS 96055030 Brazil;sem numero de porta
+ALTO;229;Hípica da Serra;Travessao Leopoldina Ana Rech Caxias do Sul RS 95059010 Brazil;sem numero de porta
+ALTO;230;Haras Old Friends;BR 153 Jose Otavio Bage RS Brazil;sem numero de porta
+ALTO;231;Haras Doce Vale;BR 153 Rio Negro Bage RS 96445000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;232;Haras Di Cellius;Estrada Passo do Perez Bage RS 96400000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+MEDIO;6;Iporanga Campos – acesso Av. Pedro Paulo;Avenida Pedro Paulo 7400 Campos do Jordao SP 12460000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;20;Condomínio Jardim Pernambuco II;Avenida Marjory da Silva Prado 2605 Guaruja SP 11444000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;21;Aldeia da Baleia;Avenida Hipocampus 369 Sao Sebastiao SP 11600000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;59;Alphaville Gramado;Rua Teobaldo Prinstrop 788 Gramado RS 95670000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;67;TikTok Brasil (ByteDance);Rua Leopoldo Couto de Magalhaes Junior 700 Sao Paulo SP 04542000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;73;Nubank – sede;Rua Capote Valente 39 Sao Paulo SP 05409000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;84;Alexia Ventures;Rua Fradique Coutinho 30 Sao Paulo SP 05416000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;89;Patria Investimentos;Avenida Cidade Jardim 803 Sao Paulo SP 01453000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;92;inovabra habitat;Rua da Consolacao 2302 Sao Paulo SP 01301000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;107;Sapiens Parque;Avenida Luiz Boiteux Piazza 1302 Florianopolis SC 88056000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;108;Softplan – sede;Avenida Luiz Boiteux Piazza 1302 Florianopolis SC 88056000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;117;Portobello Shop – Flagship Gabriel;Alameda Gabriel Monteiro da Silva 1193 Sao Paulo SP 01442000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;124;Positano Atelier Design;Alameda Gabriel Monteiro da Silva 398 Sao Paulo SP 01442000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;125;Casa Brasil Decortiles;Avenida Brasil 526 Sao Paulo SP 01430000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;129;Ornare – São Paulo;Alameda Gabriel Monteiro da Silva 1101 Sao Paulo SP 01441000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;132;Fortes D'Aloia & Gabriel – Barra Funda;Rua James Holland 71 Sao Paulo SP 01138000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;134;Mendes Wood DM;Rua Barra Funda 216 Sao Paulo SP 01152000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;141;Galeria Leme;Avenida Valdemar Ferreira 130 Sao Paulo SP 05501000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;144;Portobello Shop Campinas;Avenida Cel Silva Telles 995 Campinas SP 13024000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;162;Portobello Shop Londrina;Avenida Maringa 2350 Londrina PR 86060000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;175;Jockey Club de São Paulo;Avenida Lineu de Paula Machado 1263 Sao Paulo SP 05601000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;188;Hípica Univap – Desenvolvimento a Galope;Avenida Shishima Hifumi 2911 Sao Jose dos Campos SP 12244000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;208;Jockey Club do Paraná;Avenida Victor Ferreira do Amaral 2299 Curitiba PR 82800000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;214;Parque de Exposições Governador Ney Braga;Avenida Tiradentes 6275 Londrina PR 86072000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;215;Parque Internacional de Exposições Francisco Feio Ribeiro;Avenida Colombo 2186 Maringa PR 87045000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
+MEDIO;223;Haras Camboriú – Cavalo Árabe;Rua Osvaldo Minella 2000 Camboriu SC 88340000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

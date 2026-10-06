@@ -557,7 +557,7 @@ Rua do Oratorio 1312 Sao Paulo SP 03116000 Brazil
 Avenida Tucuruvi 403 Sao Paulo SP 02305001 Brazil
 Rua Tuiuti 1839 Sao Paulo SP 03307005 Brazil
 Avenida Angelica 1397 Sao Paulo SP 01227100 Brazil
-Rua Maraechal Av Mal Fiuza de Castro Jardim Pinheiros Sao Paulo SP 05596000 Brazil
+Rua Maraechal Av Mal Fiuza de Castro Sao Paulo SP 05596000 Brazil
 Rua Vergueiro 4999 Sao Paulo SP 04101300 Brazil
 Rua Carneiro da Cunha 337 Sao Paulo SP 04144000 Brazil
 Rua Harmonia 373 Sao Paulo SP 05435000 Brazil
@@ -567,7 +567,7 @@ Avenida Santa Monica 550 Sao Paulo SP 05171000 Brazil
 Rua das Palmeiras 303 Sao Paulo SP 01226011 Brazil
 Rua Pamplona 1792 Sao Paulo SP 01405002 Brazil
 Rua da Mooca 2526 Sao Paulo SP 03104002 Brazil
-Avenida Raposo Tavares Carrefour Carrefour Raposo SP 270 Jardim Cambara Sao Paulo SP 05576200 Brazil
+Avenida Raposo Tavares Carrefour Carrefour Raposo SP 270 Sao Paulo SP 05576200 Brazil
 Avenida Dr Antonio Maria Laet 566 Sao Paulo SP 02240000 Brazil
 Rua Silva Bueno 2533 Sao Paulo SP 04208062 Brazil
 Avenida Leao Machado 100 Sao Paulo SP 05340002 Brazil
@@ -921,7 +921,7 @@ Rua EDUARDO ALVES 48 Sao Paulo SP 08410120 Brazil
 Estrada DO JAGUARE 1776 Sao Paulo SP 05525080 Brazil
 PRACA DA SE 415 Sao Paulo SP 01001000 Brazil
 Rua Pamplona 1130 Sao Paulo SP 01405001 Brazil
-Rua Sinfonia Italiana Grajau Sao Paulo SP 04844610 Brazil
+Rua Sinfonia Italiana Sao Paulo SP 04844610 Brazil
 Avenida MAZZEI 210 Sao Paulo SP 02310000 Brazil
 Avenida CONSELHEIRO RODRIGUES ALVES 484 Sao Paulo SP 04014001 Brazil
 Estrada DE ITAPECERICA 6391 Sao Paulo SP 05858005 Brazil
@@ -1087,7 +1087,7 @@ Avenida DR GUILHERME DUMONT VILARES 323 Sao Paulo SP 05640000 Brazil
 Avenida das Garoupas 131 Sao Paulo SP 04473100 Brazil
 Rua Augusta 2699 Sao Paulo SP 01413100 Brazil
 Avenida Angelica 2220 Sao Paulo SP 01228200 Brazil
-Avenida Francisco Matarazzo Agua Branca Sao Paulo SP 05003100 Brazil
+Avenida Francisco Matarazzo Sao Paulo SP 05003100 Brazil
 Avenida Padre Antonio Jose dos Santos 1083 Sao Paulo SP 04563013 Brazil
 Avenida ASSEMBLEIA 290 DIADEMA SP 09913130 Brazil
 Rua AMERICO GOMES DA COSTA 142 Sao Paulo SP 08010120 Brazil
@@ -1472,7 +1472,7 @@ RUA BORBA GATO 59 Sao Paulo SP Brazil
 AVENIDA INTERLAGOS 2255 Sao Paulo SP Brazil
 AVENIDA RAIMUNDO PEREIRA DE MAGALHAES 1465 Sao Paulo SP Brazil
 ESTRADA DO CAMPO LIMPO 459 Sao Paulo SP Brazil
-Avenida FRANCISCO MATARAZZO S No AGUA BRANCA Sao Paulo SP Brazil
+Avenida FRANCISCO MATARAZZO AGUA BRANCA Sao Paulo SP Brazil
 Avenida DAS NACOES UNIDAS 4777 Sao Paulo SP Brazil
 AVENIDA NERO MACEDO 12000 Sao Paulo SP Brazil
 Avenida PAULISTA 1230 Sao Paulo SP Brazil

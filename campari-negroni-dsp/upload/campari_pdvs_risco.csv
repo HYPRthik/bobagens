@@ -1,32 +1,32 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
 ALTO;2;MUSEU LOJAS COMERCIO DE ALIMENTOS LTDA;Via Doutor Luiz Carlos Bianchi Ribeirao Preto SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;4;VALLE FOODS COMERCIO DE PRODUTOS ALIMENTICIOS LTDA;Avenida Baden Powell Parque Prado Campinas SP 13040093 Brazil;sem numero de porta
+ALTO;4;VALLE FOODS COMERCIO DE PRODUTOS ALIMENTICIOS LTDA;Avenida Baden Powell Campinas SP 13040093 Brazil;sem numero de porta
 ALTO;7;BARRACAO SUPERMERCADO LTDA;Avenida Jose Henrique Ferraz 11 35 Jardim Solange Bauru SP 17054115 Brazil;sem numero de porta
-ALTO;10;LEVE FACIL ATACADO DE ALIMENTOS E BEBIDAS LTDA;Rua Doutor David Pedro Cassinelli Jardim Sao Paulo Sao Carlos SP 13570470 Brazil;sem numero de porta
-ALTO;13;EMPORIO E ADEGA SAO CAETANO LTDA;Avenida Goias Santa Paula Sao Caetano do Sul SP 09521310 Brazil;sem numero de porta
+ALTO;10;LEVE FACIL ATACADO DE ALIMENTOS E BEBIDAS LTDA;Rua Doutor David Pedro Cassinelli Sao Carlos SP 13570470 Brazil;sem numero de porta
+ALTO;13;EMPORIO E ADEGA SAO CAETANO LTDA;Avenida Goias Sao Caetano do Sul SP 09521310 Brazil;sem numero de porta
 ALTO;15;SUPERMERCADO IQUEGAMI LTDA;Avenida Aurora Forti Neves Olimpia SP 15405002 Brazil;sem numero de porta
 ALTO;16;REINALDO CHICAROLLI MARTINS SUPERMERCADOS LTDA;Rua Santa Quiteria Sao Roque SP 18132000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;20;GOOD BOM SUPERMERCADOS LTDA;Avenida Reboucas Centro Sumare SP 13170023 Brazil;sem numero de porta
-ALTO;21;SUPERMERCADO IQUEGAMI LTDA;Rua Doutor Brandao Veras Jardim Talarico Bebedouro SP 14700730 Brazil;sem numero de porta
+ALTO;20;GOOD BOM SUPERMERCADOS LTDA;Avenida Reboucas Sumare SP 13170023 Brazil;sem numero de porta
+ALTO;21;SUPERMERCADO IQUEGAMI LTDA;Rua Doutor Brandao Veras Bebedouro SP 14700730 Brazil;sem numero de porta
 ALTO;22;GOOD BOM SUPERMERCADOS LTDA;Estrada Sumare 160 Sumare SP Brazil;endereco de rodovia (57-67% falharam)
 ALTO;27;IRMAOS MUFFATO & CIA LTDA;Vila Mano Ourinhos SP Brazil;sem numero de porta
-ALTO;29;SUPERMERCADOS CAVICCHIOLLI LTDA;Rua Tamoio Vila Santa Catarina Americana SP 13465100 Brazil;sem numero de porta
+ALTO;29;SUPERMERCADOS CAVICCHIOLLI LTDA;Rua Tamoio Americana SP 13465100 Brazil;sem numero de porta
 ALTO;30;LUIZ TONIN ATACADISTA E SUPERMERCADOS S. A.;Avenida Presidente Castelo Branco Subsetor Leste 6 Ribeirao Preto SP 14095000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;34;SUPERMERCADO ONO COMPACTO LTDA;Rodovia Arao Sahm Portao Atibaia SP 12948110 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;38;DISTRIBUIDORA PONTO DA BEBIDA LTDA;Rua Antonia Ferreira do Nascimento Quinta das Paineiras Sao Jose do Rio Preto SP 15080470 Brazil;sem numero de porta
+ALTO;34;SUPERMERCADO ONO COMPACTO LTDA;Rodovia Arao Sahm Atibaia SP 12948110 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;38;DISTRIBUIDORA PONTO DA BEBIDA LTDA;Rua Antonia Ferreira do Nascimento Sao Jose do Rio Preto SP 15080470 Brazil;sem numero de porta
 ALTO;42;SAVEGNAGO-SUPERMERCADOS LTDA;SAVEGNAGO SUPERMERCADOS LTDA Barretos SP 14780070 Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
-ALTO;46;SUPERMERCADO DELTA MAX LTDA;Avenida Dois Corregos Morumbi Piracicaba SP 13420722 Brazil;sem numero de porta
+ALTO;46;SUPERMERCADO DELTA MAX LTDA;Avenida Dois Corregos Piracicaba SP 13420722 Brazil;sem numero de porta
 ALTO;49;SUPERMERCADOS CAVICCHIOLLI LTDA;Avenida Ampelio Gazzeta Nova Odessa SP 13460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;50;SUPERMERCADO PIERIM LTDA;Avenida Jose Gatto Tambau SP 13710000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;54;COMPANHIA SULAMERICANA DE DISTRIBUICAO;Rua Walter Antonio Fontana Jardim Morumbi Assis SP 19815340 Brazil;sem numero de porta
+ALTO;54;COMPANHIA SULAMERICANA DE DISTRIBUICAO;Rua Walter Antonio Fontana Assis SP 19815340 Brazil;sem numero de porta
 ALTO;55;SUPERMERCADOS JAU SERVE LTDA;SUPERMERCADOS JAU SERVE LTDA Ibitinga SP 14940124 Brazil;sem logradouro na origem: identificado so pelo nome do POI, que a DSP so aceita em Airports, Arena/Stadiums e Universities/Colleges
 ALTO;58;NOGUEIRA SILVA SUPERMERCADO LTDA;Rodovia Mauricio Goulart Bady Bassitt SP 15115000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;62;GOOD BOM SUPERMERCADOS LTDA;Avenida Emilio Bosco Matao Sumare SP 13180325 Brazil;sem numero de porta
+ALTO;62;GOOD BOM SUPERMERCADOS LTDA;Avenida Emilio Bosco Sumare SP 13180325 Brazil;sem numero de porta
 ALTO;63;KALIMERA COMERCIO DE HORTIFRUTI LTDA;Avenida Presidente Vargas Indaiatuba SP 13339125 Brazil;sem numero de porta
-ALTO;65;ARMAZEM BARRETOS COMERCIO DE BEBIDAS E CONEXOS LTDA;Avenida Professor Roberto Frade Monte Ortega Barretos SP 14783218 Brazil;sem numero de porta
-ALTO;66;LOPES SUPERMERCADOS LTDA;Avenida Anisio Haddad Vivendas Sao Jose do Rio Preto SP 15091380 Brazil;sem numero de porta
+ALTO;65;ARMAZEM BARRETOS COMERCIO DE BEBIDAS E CONEXOS LTDA;Avenida Professor Roberto Frade Monte Barretos SP 14783218 Brazil;sem numero de porta
+ALTO;66;LOPES SUPERMERCADOS LTDA;Avenida Anisio Haddad Sao Jose do Rio Preto SP 15091380 Brazil;sem numero de porta
 ALTO;67;ELAINE APARECIDA RODRIGUES FERREIRA LTDA;Avenida Antonio Floriano Leme Rifaina SP 14490000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;68;BW COMERCIO DE ALIMENTOS LTDA;Rua Presidente Vargas Caetetuba Atibaia SP 12951000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;68;BW COMERCIO DE ALIMENTOS LTDA;Rua Presidente Vargas Atibaia SP 12951000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 MEDIO;3;F E SILVA LEITE DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA;Avenida Professor Flavio Pires de Camargo 863 Atibaia SP 12951000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;6;ELAINE APARECIDA RODRIGUES FERREIRA LTDA;Rua Luciana 291 Rifaina SP 14490000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;9;GIGANTAO SUPERMERCADOS LTDA;Rua Duque de Caxias 1031 Macatuba SP 17290000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

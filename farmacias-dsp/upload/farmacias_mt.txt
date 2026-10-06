@@ -39,7 +39,7 @@ Avenida MAL DEODORO 98 Cuiaba MT 78005505 Brazil
 Avenida HISTORIADOR RUBENS DE MENDONCA 881 Cuiaba MT 78050700 Brazil
 RUA DAS DALLAS RUA L UM 352 Cuiaba MT 78043152 Brazil
 Avenida ERICO GONCALVES PREZA FILHO 551 Cuiaba MT 78060755 Brazil
-Avenida ISAAC POVOAS GOIABEIRAS Cuiaba MT 78032015 Brazil
+Avenida ISAAC POVOAS Cuiaba MT 78032015 Brazil
 Rua POXOREO 570 Cuiaba MT 78048600 Brazil
 Avenida HISTORIADOR RUBENS DE MENDONCA 1603 Cuiaba MT 78050000 Brazil
 Rua TEN ALCIDES DUARTE DE SOUZA 461 Cuiaba MT 78043300 Brazil
@@ -100,7 +100,7 @@ Avenida GENEROSO PONCE 14 Cuiaba MT 78005320 Brazil
 Avenida ISAAC POVOAS GOIABEIRAS Cuiaba MT Brazil
 Avenida Historiador Rubens de Mendonca 1575 Cuiaba MT 78050000 Brazil
 RUA GENERAL RABELLO 500 Cuiaba MT 78043256 Brazil
-Avenida Thomes de Arruda Fortes Morada do Ouro Cuiaba MT 78053505 Brazil
+Avenida Thomes de Arruda Fortes Cuiaba MT 78053505 Brazil
 Avenida AGRICOLA PAES DE BARROS 901 Cuiaba MT 78030210 Brazil
 Avenida Mal Deodoro 1199 Cuiaba MT 78005100 Brazil
 Avenida S4 Cuiaba MT 78088200 Brazil
@@ -115,7 +115,7 @@ Avenida das Palmeiras 6 Cuiaba MT 78075240 Brazil
 Avenida miguel sutil 9300 Cuiaba MT 78040365 Brazil
 RUA E QD 1 Cuiaba MT 78050255 Brazil
 Avenida Aclimacao 4 Cuiaba MT 78050040 Brazil
-Avenida ERICO GONCALVES PREZA FILHO Alphaville Cuiaba MT 78061302 Brazil
+Avenida ERICO GONCALVES PREZA FILHO Cuiaba MT 78061302 Brazil
 Rua BEM TE VI 16 Cuiaba MT 78070230 Brazil
 AVENIDA DAS TORRES Cuiaba MT 78005970 Brazil
 Avenida pernambuco nuc hab cpa ii 14 Cuiaba MT 78055428 Brazil

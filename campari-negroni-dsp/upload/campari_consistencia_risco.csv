@@ -1,9 +1,9 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
-ALTO;60;TOMAHAWK;Praca OSMAR SERPA DE CARVALHO NILOPOLIS NILOPOLIS RJ 26510340 Brazil;sem numero de porta
+ALTO;60;TOMAHAWK;Praca OSMAR SERPA DE CARVALHO NILOPOLIS RJ 26510340 Brazil;sem numero de porta
 ALTO;67;BISTRO DO MATO;Estrada do Mato Alto 1716 RIO DE JANEIRO RJ 23036150 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;83;Mi Casa 328;Estrada do Pau Ferro 328 RIO DE JANEIRO RJ 22743051 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;99;THE GARDEN GASTROBAR;Avenida BRAZ DE PINA n2153 VISTA ALEGRE Rio de Janeiro RJ 21235604 Brazil;sem numero de porta
-ALTO;121;Taj Curitiba;RUA BISPO DOM JOSE BATEL CURITIBA PR 80440080 Brazil;sem numero de porta
+ALTO;99;THE GARDEN GASTROBAR;Avenida BRAZ DE PINA n2153 Rio de Janeiro RJ 21235604 Brazil;sem numero de porta
+ALTO;121;Taj Curitiba;RUA BISPO DOM JOSE CURITIBA PR 80440080 Brazil;sem numero de porta
 ALTO;130;ARMANDO PASTA BAR;Rodovia Dr Antonio Luiz Moura Gonzaga 4530 Florianopolis SC 88048301 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;135;FISH AND CO;Rodovia Jose Carlos Daux 6997 Florianopolis SC 88050000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;140;PORTOFINO;Rodovia Gilson da Costa Xavier 51 Florianopolis SC 88051000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"

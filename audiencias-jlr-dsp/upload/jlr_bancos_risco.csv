@@ -1,147 +1,147 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
 ALTO;8;;Cronix Security Anhangabau Jundiai SP 13208703 Brazil;sem numero de porta
 ALTO;18;;Dr Sergio Keinert Praca Sao Paulo da Cruz Juveve Curitiba PR 80030480 Brazil;sem numero de porta
-ALTO;20;;Avenida Iguacu Agua Verde Curitiba PR 80240031 Brazil;sem numero de porta
-ALTO;21;;Avenida Rodrigo Fernando Grillo Jardim dos Manacas Araraquara SP 14801534 Brazil;sem numero de porta
-ALTO;26;;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01452001 Brazil;sem numero de porta
+ALTO;20;;Avenida Iguacu Curitiba PR 80240031 Brazil;sem numero de porta
+ALTO;21;;Avenida Rodrigo Fernando Grillo Araraquara SP 14801534 Brazil;sem numero de porta
+ALTO;26;;Avenida Brigadeiro Faria Lima Sao Paulo SP 01452001 Brazil;sem numero de porta
 ALTO;52;;Avenida Sete de Setembro Reboucas 80230 010 Curitiba PR 80230010 Brazil;sem numero de porta
-ALTO;54;;Rua Jose Fernandes Maldonado Bairro Alto Curitiba PR 82840020 Brazil;sem numero de porta
+ALTO;54;;Rua Jose Fernandes Maldonado Curitiba PR 82840020 Brazil;sem numero de porta
 ALTO;62;;Rodovia Professor Alfredo Rolim de Moura 1001 Mogi das Cruzes SP 08880000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;70;;Rua Raimundo Correa Vila Marina Dias Sorocaba SP 18035265 Brazil;sem numero de porta
-ALTO;71;;Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil;sem numero de porta
-ALTO;96;;Avenida Sete de Setembro Centro Passo Fundo RS 99010121 Brazil;sem numero de porta
-ALTO;110;;Rua Gra Nicco Mossungue Curitiba PR 81200200 Brazil;sem numero de porta
-ALTO;111;;Avenida Brigadeiro Faria Lima Itaim Bibi Sao Paulo SP 04538133 Brazil;sem numero de porta
+ALTO;70;;Rua Raimundo Correa Sorocaba SP 18035265 Brazil;sem numero de porta
+ALTO;71;;Rua Nestor Guimaraes Ponta Grossa PR 84040130 Brazil;sem numero de porta
+ALTO;96;;Avenida Sete de Setembro Passo Fundo RS 99010121 Brazil;sem numero de porta
+ALTO;110;;Rua Gra Nicco Curitiba PR 81200200 Brazil;sem numero de porta
+ALTO;111;;Avenida Brigadeiro Faria Lima Sao Paulo SP 04538133 Brazil;sem numero de porta
 ALTO;127;;Dr Diego Chemello Centro Santa Maria RS Brazil;sem numero de porta
-ALTO;138;;Rua Sete de Setembro Centro Blumenau SC 89010203 Brazil;sem numero de porta
-ALTO;150;;Avenida Anchieta Jardim Nova America Sao Jose dos Campos SP 12242280 Brazil;sem numero de porta
-ALTO;151;;Avenida Cassiano Ricardo Parque Residencial Aquarius Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
-ALTO;162;;Alameda Terracota Ceramica Sao Caetano do Sul SP 09531190 Brazil;sem numero de porta
+ALTO;138;;Rua Sete de Setembro Blumenau SC 89010203 Brazil;sem numero de porta
+ALTO;150;;Avenida Anchieta Sao Jose dos Campos SP 12242280 Brazil;sem numero de porta
+ALTO;151;;Avenida Cassiano Ricardo Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
+ALTO;162;;Alameda Terracota Sao Caetano do Sul SP 09531190 Brazil;sem numero de porta
 ALTO;174;;Rua Marechal Floriano Tres de Maio RS 98910000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;180;;Phix It Santo Amaro Sao Paulo SP 04719002 Brazil;sem numero de porta
-ALTO;184;;Rua Lourenco Marques Itaim Bibi Sao Paulo SP 04547100 Brazil;sem numero de porta
-ALTO;186;;Rua Barao do Triunfo Campo Belo Sao Paulo SP 04620001 Brazil;sem numero de porta
+ALTO;184;;Rua Lourenco Marques Sao Paulo SP 04547100 Brazil;sem numero de porta
+ALTO;186;;Rua Barao do Triunfo Sao Paulo SP 04620001 Brazil;sem numero de porta
 ALTO;187;;Banco Western Union do Brasil Pinheiros Sao Paulo SP 05477000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;190;;Rua Alfredo Chaves Exposicao Caxias do Sul RS 95020460 Brazil;sem numero de porta
+ALTO;190;;Rua Alfredo Chaves Caxias do Sul RS 95020460 Brazil;sem numero de porta
 ALTO;195;;Abin RS Petropolis Porto Alegre RS Brazil;sem numero de porta
 ALTO;196;;Abf Advogados Associados Boa Vista Porto Alegre RS 90470130 Brazil;sem numero de porta
-ALTO;219;;Rua Doutor Jose Bonifacio Malburg Centro Itajai SC 88301350 Brazil;sem numero de porta
-ALTO;226;;Praca Prefeito Dogelo Goss Centro Concordia SC 89700000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;234;;Rua Antonio Carlos Berta Vila Ipiranga Porto Alegre RS 91340020 Brazil;sem numero de porta
-ALTO;243;;Avenida Mauro Ramos Agronomica Florianopolis SC Brazil;sem numero de porta
+ALTO;219;;Rua Doutor Jose Bonifacio Malburg Itajai SC 88301350 Brazil;sem numero de porta
+ALTO;226;;Praca Prefeito Dogelo Goss Concordia SC 89700000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;234;;Rua Antonio Carlos Berta Porto Alegre RS 91340020 Brazil;sem numero de porta
+ALTO;243;;Avenida Mauro Ramos Florianopolis SC Brazil;sem numero de porta
 ALTO;252;;Zoo Trindade Centro Florianopolis SC 88015200 Brazil;sem numero de porta
 ALTO;253;;Rodovia Jose Carlos Daux 4100 Florianopolis SC 88032005 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;255;;Rua Esteves Junior Centro Florianopolis SC 88015130 Brazil;sem numero de porta
+ALTO;255;;Rua Esteves Junior Florianopolis SC 88015130 Brazil;sem numero de porta
 ALTO;262;;Rodovia Osvaldo Reis 600 Itajai SC 88306000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;263;;Praia Brava Itajai SC 88306002 Brazil;sem numero de porta
 ALTO;266;;Rodovia Jose Carlos Daux 10416 Florianopolis SC 88050001 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;279;;Tonia s House Centro Itajai SC 88301350 Brazil;sem numero de porta
-ALTO;284;;Rua Doutor Jose Bonifacio Malburg Centro Itajai SC 88301350 Brazil;sem numero de porta
+ALTO;284;;Rua Doutor Jose Bonifacio Malburg Itajai SC 88301350 Brazil;sem numero de porta
 ALTO;292;;Rua Jorge Lacerda Rio Fortuna SC 88760000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;300;;Avenida Doutor Victor do Amaral Centro Araucaria PR 83702040 Brazil;sem numero de porta
-ALTO;303;;Alameda Doutor Octavio Pinheiro Brisolla Vila Cidade Universitaria Bauru SP 17012424 Brazil;sem numero de porta
+ALTO;300;;Avenida Doutor Victor do Amaral Araucaria PR 83702040 Brazil;sem numero de porta
+ALTO;303;;Alameda Doutor Octavio Pinheiro Brisolla Bauru SP 17012424 Brazil;sem numero de porta
 ALTO;304;;Avenida Getulio Vargas 21 51 Vila Aviacao Bauru SP 17017383 Brazil;sem numero de porta
 ALTO;309;;Ibbca 2008 Corretora de Seguros Centro Florianopolis SC 88015200 Brazil;sem numero de porta
-ALTO;319;;Rua Padre Nobrega Oficinas Ponta Grossa PR 84040090 Brazil;sem numero de porta
-ALTO;329;;Rua Dom Jose Vila Real Balneario Camboriu SC 88337130 Brazil;sem numero de porta
+ALTO;319;;Rua Padre Nobrega Ponta Grossa PR 84040090 Brazil;sem numero de porta
+ALTO;329;;Rua Dom Jose Balneario Camboriu SC 88337130 Brazil;sem numero de porta
 ALTO;338;;Rua Adolfo Serra Subsetor Sul 4 Ribeirao Preto SP 14020605 Brazil;sem numero de porta
-ALTO;346;;Rua Alferes Angelo Sampaio Merces Curitiba PR 80730460 Brazil;sem numero de porta
+ALTO;346;;Rua Alferes Angelo Sampaio Curitiba PR 80730460 Brazil;sem numero de porta
 ALTO;356;;Gsw Interior Paulista Subsetor Sul 5 Ribeirao Preto SP Brazil;sem numero de porta
 ALTO;360;;Rua Carlos de Gaitani L 13 Ribeirao Preto SP 14098340 Brazil;sem numero de porta
 ALTO;367;;Sognare Consorcios Hs Consorcios Matao SP 15990130 Brazil;sem numero de porta
-ALTO;381;;Avenida dos Municipios Tabajaras Uberlandia MG 38400254 Brazil;sem numero de porta
+ALTO;381;;Avenida dos Municipios Uberlandia MG 38400254 Brazil;sem numero de porta
 ALTO;382;;Familia Luccine Vigilato Pereira Uberlandia MG 38408447 Brazil;sem numero de porta
-ALTO;383;;Avenida Anisio Haddad Vivendas Sao Jose do Rio Preto SP 15093000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;383;;Avenida Anisio Haddad Sao Jose do Rio Preto SP 15093000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;391;;Jardim Lima Franca SP 14403117 Brazil;sem numero de porta
 ALTO;405;;FAST SHOP Gavea Uberlandia MG 38411106 Brazil;sem numero de porta
-ALTO;406;;Rua Niteroi Tibery Uberlandia MG 38405178 Brazil;sem numero de porta
+ALTO;406;;Rua Niteroi Uberlandia MG 38405178 Brazil;sem numero de porta
 ALTO;419;;Rua Nove Qd 8 141 Parque dos Buritis II Rio Verde GO 75907300 Brazil;sem numero de porta
 ALTO;428;;Estrada Municipal Bela Vista 2500 Santana de Parnaiba SP 06539010 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;429;;Avenida Yojiro Takaoka Alphaville Santana de Parnaiba SP 06541038 Brazil;sem numero de porta
-ALTO;430;;Rua Tenente Avelar Pires Azevedo Centro Osasco SP 06016060 Brazil;sem numero de porta
-ALTO;433;;Avenida Deputado Jamel Cecilio Jardim Goias Goiania GO 74810100 Brazil;sem numero de porta
+ALTO;429;;Avenida Yojiro Takaoka Santana de Parnaiba SP 06541038 Brazil;sem numero de porta
+ALTO;430;;Rua Tenente Avelar Pires Azevedo Osasco SP 06016060 Brazil;sem numero de porta
+ALTO;433;;Avenida Deputado Jamel Cecilio Goiania GO 74810100 Brazil;sem numero de porta
 ALTO;435;;Rua Quatorze 16 13 Jardim Goias Goiania GO 74810180 Brazil;sem numero de porta
 ALTO;439;;Ceasa Pouso Alegre MG 37550000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;440;;Rodovia Fernao Dias Extrema MG 37640000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;448;;Park Station Estacione Barra Funda Sao Paulo SP 01139000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;449;;Viela Ouro Picanco Guarulhos SP 07081290 Brazil;sem numero de porta
+ALTO;449;;Viela Ouro Guarulhos SP 07081290 Brazil;sem numero de porta
 ALTO;454;;Estrada Uniao e Industria 10395 Petropolis RJ 25750226 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;458;;Rua Ataliba de Barros Sao Mateus Juiz de Fora MG 36025275 Brazil;sem numero de porta
-ALTO;469;;Rua Garca Barra da Tijuca Rio de Janeiro RJ 23064250 Brazil;sem numero de porta
+ALTO;458;;Rua Ataliba de Barros Juiz de Fora MG 36025275 Brazil;sem numero de porta
+ALTO;469;;Rua Garca Rio de Janeiro RJ 23064250 Brazil;sem numero de porta
 ALTO;486;;Emporio Brew Nova Friburgo RJ 28623020 Brazil;sem numero de porta
 ALTO;490;;Banca Alpha Graciosa Alphaville Barueri SP 06473000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;493;;Avenida Franklin Roosevelt Centro Rio de Janeiro RJ 20021120 Brazil;sem numero de porta
+ALTO;493;;Avenida Franklin Roosevelt Rio de Janeiro RJ 20021120 Brazil;sem numero de porta
 ALTO;501;;Downtown Leste Barra da Tijuca Rio de Janeiro RJ Brazil;sem numero de porta
 ALTO;509;;Agencia Corpo Barra da Tijuca Rio de Janeiro RJ 22775057 Brazil;sem numero de porta
 ALTO;510;;Essendi Clinica Barra da Tijuca Rio de Janeiro RJ 22640100 Brazil;sem numero de porta
-ALTO;511;;Avenida Nilo Pecanha Centro Rio de Janeiro RJ 20020100 Brazil;sem numero de porta
-ALTO;514;;Rua Quinze de Novembro Centro Niteroi RJ 24020125 Brazil;sem numero de porta
-ALTO;519;;Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640102 Brazil;sem numero de porta
-ALTO;520;;Rua do Passeio Centro Rio de Janeiro RJ 20021290 Brazil;sem numero de porta
+ALTO;511;;Avenida Nilo Pecanha Rio de Janeiro RJ 20020100 Brazil;sem numero de porta
+ALTO;514;;Rua Quinze de Novembro Niteroi RJ 24020125 Brazil;sem numero de porta
+ALTO;519;;Avenida das Americas Rio de Janeiro RJ 22640102 Brazil;sem numero de porta
+ALTO;520;;Rua do Passeio Rio de Janeiro RJ 20021290 Brazil;sem numero de porta
 ALTO;564;;Rua da Paisagem Nova Lima MG 34006059 Brazil;sem numero de porta
 ALTO;576;;Qe 7 Guara DF 71020115 Brazil;logradouro sem nome
 ALTO;578;;Rua C 237 540 13 Jardim America Goiania GO 74290140 Brazil;sem numero de porta
 ALTO;579;;Dermatologia Orion Oeste Goiania GO 74150030 Brazil;sem numero de porta
-ALTO;580;;Rua C 38 Jardim America Goiania GO 74265280 Brazil;sem numero de porta
+ALTO;580;;Rua C 38 Goiania GO 74265280 Brazil;sem numero de porta
 ALTO;581;;Rua Maria Alice 63 10 Jardim Atlantico Goiania GO 74345290 Brazil;sem numero de porta
 ALTO;585;;ATM Asa Norte Brasilia DF 70716900 Brazil;sem numero de porta
-ALTO;587;;Rua Lazer Urias Magalhaes Goiania GO 74013035 Brazil;sem numero de porta
-ALTO;588;;Avenida T 15 Bueno Goiania GO 74230010 Brazil;sem numero de porta
+ALTO;587;;Rua Lazer Goiania GO 74013035 Brazil;sem numero de porta
+ALTO;588;;Avenida T 15 Goiania GO 74230010 Brazil;sem numero de porta
 ALTO;589;;Via Hi 4 Lago Sul DF 71615110 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;592;;Sescoop Ocb Asa Sul Brasilia DF 70070936 Brazil;sem numero de porta
-ALTO;593;;SQN 111 Asa Norte Brasilia DF 70754020 Brazil;sem numero de porta
-ALTO;594;;SQN 210 Bloco D Asa Norte Brasilia DF 70862050 Brazil;sem numero de porta
+ALTO;593;;SQN 111 Brasilia DF 70754020 Brazil;logradouro sem nome
+ALTO;594;;SQN 210 Brasilia DF 70862050 Brazil;logradouro sem nome
 ALTO;597;;Avenida das Araucarias Aguas Claras DF 71927000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;598;;Mrv Engenharia Asa Sul Brasilia DF 70306000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;599;;Sbn Bloco B Asa Norte Brasilia DF 70040020 Brazil;sem numero de porta
 ALTO;601;;Rodovia GO 010 Goiania GO Brazil;endereco de rodovia (57-67% falharam)
-ALTO;602;;Rua Cinquenta e Seis Jardim Goias Goiania GO 74810240 Brazil;sem numero de porta
+ALTO;602;;Rua Cinquenta e Seis Goiania GO 74810240 Brazil;sem numero de porta
 ALTO;603;;Sia Guara DF 71215000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;604;;Windsor Brasilia Hotel Shn Asa Norte Brasilia DF 70701030 Brazil;sem numero de porta
 ALTO;606;;Rua C 267 614 17 Nova Suica Goiania GO 74280290 Brazil;sem numero de porta
-ALTO;611;;CLN 202 Bloco C Bloco C Asa Norte Brasilia DF 70832535 Brazil;sem numero de porta
+ALTO;611;;CLN 202 Bloco C Brasilia DF 70832535 Brazil;sem numero de porta
 ALTO;612;;Avenida T 63 2 8 Jardim Europa Goiania GO 74335030 Brazil;sem numero de porta
 ALTO;613;;Rua C 139 567 13 Jardim America Goiania GO 74268165 Brazil;sem numero de porta
 ALTO;615;;Rua Quatro D 128 17 Setor Garavelo Aparecida de Goiania GO 74930090 Brazil;sem numero de porta
 ALTO;619;;Elia Spa Aguas Claras DF 71931720 Brazil;sem numero de porta
-ALTO;622;;Avenida Milao Celina Park Goiania GO 74373270 Brazil;sem numero de porta
-ALTO;623;;Avenida C Cento e Setenta e Um Jardim America Goiania GO 74275010 Brazil;sem numero de porta
+ALTO;622;;Avenida Milao Goiania GO 74373270 Brazil;sem numero de porta
+ALTO;623;;Avenida C Cento e Setenta e Um Goiania GO 74275010 Brazil;sem numero de porta
 ALTO;631;;Imobiliaria Wolf Sorocaba SP 18085850 Brazil;sem numero de porta
 ALTO;659;;Polo Wear Primavera Guarapuava PR 85050030 Brazil;sem numero de porta
-ALTO;699;;Estrada do Tindiba Taquara Rio de Janeiro RJ 22730262 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;699;;Estrada do Tindiba Rio de Janeiro RJ 22730262 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;700;;Estrada Sao Tarcisio 144 Rio de Janeiro RJ 23530827 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;701;;Rua Rosalina Bravo Barra da Tijuca Rio de Janeiro RJ 22631260 Brazil;sem numero de porta
-ALTO;711;;Rua Goncalves Dias Santo Agostinho Belo Horizonte MG 30140094 Brazil;sem numero de porta
-ALTO;728;;Rua Carlos Trein Filho Bela Vista Porto Alegre RS 90450120 Brazil;sem numero de porta
+ALTO;701;;Rua Rosalina Bravo Rio de Janeiro RJ 22631260 Brazil;sem numero de porta
+ALTO;711;;Rua Goncalves Dias Belo Horizonte MG 30140094 Brazil;sem numero de porta
+ALTO;728;;Rua Carlos Trein Filho Porto Alegre RS 90450120 Brazil;sem numero de porta
 ALTO;736;;Shn Bloco B Asa Norte Brasilia DF 70704020 Brazil;sem numero de porta
 ALTO;741;;Rua Rio Branco 23 34 Vila Nova Santa Clara Bauru SP 17014037 Brazil;sem numero de porta
 ALTO;744;;Catedral de Nossa Senhora das Dores Praca Doutor Luciano Esteves Centro Limeira SP 13480211 Brazil;sem numero de porta
-ALTO;748;;Rua Redentora Imperial Sao Jose do Rio Preto SP 15015780 Brazil;sem numero de porta
+ALTO;748;;Rua Redentora Sao Jose do Rio Preto SP 15015780 Brazil;sem numero de porta
 ALTO;750;;Avenida Republica do Libano 1A 15 Aeroporto Goiania GO 74070045 Brazil;sem numero de porta
 ALTO;752;;Srtvs 12 Asa Sul Brasilia DF 70340901 Brazil;sem numero de porta
 ALTO;757;;Avenida Presidente Kennedy Indaiatuba SP 13334170 Brazil;sem numero de porta
-ALTO;773;;Rua Sao Bento Centro Sorocaba SP 18010030 Brazil;sem numero de porta
+ALTO;773;;Rua Sao Bento Sorocaba SP 18010030 Brazil;sem numero de porta
 ALTO;774;;Rua Rio Branco 24 65 Vila Samaritana Bauru SP 17016190 Brazil;sem numero de porta
-ALTO;785;;Rua Treze de Maio Bela Vista Sao Paulo SP 04849529 Brazil;sem numero de porta
-ALTO;787;;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05423150 Brazil;sem numero de porta
-ALTO;792;;Rua Roma Lapa Sao Paulo SP 05050090 Brazil;sem numero de porta
+ALTO;785;;Rua Treze de Maio Sao Paulo SP 04849529 Brazil;sem numero de porta
+ALTO;787;;Avenida Brigadeiro Faria Lima Sao Paulo SP 05423150 Brazil;sem numero de porta
+ALTO;792;;Rua Roma Sao Paulo SP 05050090 Brazil;sem numero de porta
 ALTO;802;;Cafe da Sinagoga Pinheiros Sao Paulo SP 01455000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;815;;Rua Candelaria Centro Rio de Janeiro RJ 20091020 Brazil;sem numero de porta
+ALTO;815;;Rua Candelaria Rio de Janeiro RJ 20091020 Brazil;sem numero de porta
 ALTO;820;;Netatur Praca Estado da Palestina Oeste Goiania GO 74115071 Brazil;sem numero de porta
 ALTO;835;;Rua Rio Branco 24 25 Vila Samaritana Bauru SP 17016190 Brazil;sem numero de porta
-ALTO;836;;Avenida Brasil Manoel Honorio Juiz de Fora MG 36035030 Brazil;sem numero de porta
-ALTO;848;;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01452001 Brazil;sem numero de porta
-ALTO;851;;Rua Tupi Centro Historico Londrina PR 86020350 Brazil;sem numero de porta
+ALTO;836;;Avenida Brasil Juiz de Fora MG 36035030 Brazil;sem numero de porta
+ALTO;848;;Avenida Brigadeiro Faria Lima Sao Paulo SP 01452001 Brazil;sem numero de porta
+ALTO;851;;Rua Tupi Londrina PR 86020350 Brazil;sem numero de porta
 ALTO;866;;Rua XV de Novembro Telemaco Borba PR 84265400 Brazil;sem numero de porta
-ALTO;883;;Rua Doutor Joao Colin Centro Joinville SC 89201299 Brazil;sem numero de porta
-ALTO;889;;Rua Treze de Maio Bela Vista Sao Paulo SP 04849529 Brazil;sem numero de porta
+ALTO;883;;Rua Doutor Joao Colin Joinville SC 89201299 Brazil;sem numero de porta
+ALTO;889;;Rua Treze de Maio Sao Paulo SP 04849529 Brazil;sem numero de porta
 ALTO;898;;Rua Gustavo Maciel 25 85 Vila Samaritana Bauru SP 17012110 Brazil;sem numero de porta
 ALTO;899;;Rua Virgilio Malta 22 16 Jardim Estoril Bauru SP 17016080 Brazil;sem numero de porta
 ALTO;912;;Rua Fulvio Salvador Pagani Campinas SP 13080657 Brazil;sem numero de porta
 ALTO;914;;Ruff Distribuidora de Combustiveis Loteamento Residencial Vila Bella Campinas SP 13087725 Brazil;sem numero de porta
-ALTO;919;;Rua Doutor Cesar Paranhos de Godoy Jardim Chapadao Campinas SP 13070075 Brazil;sem numero de porta
+ALTO;919;;Rua Doutor Cesar Paranhos de Godoy Campinas SP 13070075 Brazil;sem numero de porta
 ALTO;925;;Praca Capital Campinas SP Brazil;sem numero de porta
-ALTO;934;;Avenida Cassiano Ricardo Jardim Cassiano Ricardo Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
+ALTO;934;;Avenida Cassiano Ricardo Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
 ALTO;940;;Jardim Paulista Sao Paulo SP 01419001 Brazil;sem numero de porta
 MEDIO;4;;Rua da Independencia 165 Sao Paulo SP 01524000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;23;;Rua Joaquim Floriano 72 Sao Paulo SP 04534000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

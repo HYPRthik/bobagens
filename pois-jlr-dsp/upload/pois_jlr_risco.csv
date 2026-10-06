@@ -1,87 +1,87 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
-ALTO;13;Concessionárias;Avenida Ministro Ivan Lins Barra da Tijuca Rio de Janeiro RJ 22620160 Brazil;sem numero de porta
+ALTO;13;Concessionárias;Avenida Ministro Ivan Lins Rio de Janeiro RJ 22620160 Brazil;sem numero de porta
 ALTO;32;Concessionárias;Setor de Habitacoes Individuais Sul Lago Sul DF 71608900 Brazil;sem numero de porta
-ALTO;34;Concessionárias;Avenida Tiradentes Ciclo II Londrina PR 86072000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;39;Concessionárias;Terminal Asa Sul Asa Sul Brasilia DF 70610200 Brazil;sem numero de porta
-ALTO;40;Concessionárias;Avenida Prefeito Luiz Latorre Chacara Urbana Jundiai SP 13209430 Brazil;sem numero de porta
+ALTO;34;Concessionárias;Avenida Tiradentes Londrina PR 86072000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;39;Concessionárias;Terminal Asa Sul Brasilia DF 70610200 Brazil;sem numero de porta
+ALTO;40;Concessionárias;Avenida Prefeito Luiz Latorre Jundiai SP 13209430 Brazil;sem numero de porta
 ALTO;55;Concessionárias;In Pilates Barigui Santo Inacio Curitiba PR 82305100 Brazil;sem numero de porta
 ALTO;62;Concessionárias;BR 153 Autodromo Goiania GO Brazil;sem numero de porta
-ALTO;70;Concessionárias;Avenida Jose Correia Machado Jardim Parque Morada do Sol Montes Claros MG 39400116 Brazil;sem numero de porta
-ALTO;75;Concessionárias;Rua Adao Dionisio Neugebauer Bortowiski Centro Eldorado do Sul RS 92990000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;70;Concessionárias;Avenida Jose Correia Machado Montes Claros MG 39400116 Brazil;sem numero de porta
+ALTO;75;Concessionárias;Rua Adao Dionisio Neugebauer Bortowiski Eldorado do Sul RS 92990000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;76;Concessionárias;BR 470 Salto do Norte Blumenau SC Brazil;sem numero de porta
-ALTO;85;Concessionárias;Rua Carolina Florence Jardim Nossa Senhora Auxiliadora Campinas SP 13073225 Brazil;sem numero de porta
+ALTO;85;Concessionárias;Rua Carolina Florence Campinas SP 13073225 Brazil;sem numero de porta
 ALTO;97;Concessionárias;Rua Eugenio Rocha Filho Subsetor Sul 3 Ribeirao Preto SP 14020640 Brazil;sem numero de porta
-ALTO;110;Concessionárias;Rodovia Governador Leonel de Moura Brizola Imigrante Lajeado RS Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;110;Concessionárias;Rodovia Governador Leonel de Moura Brizola Lajeado RS Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;115;Concessionárias;Gdm Seeds Passo Fundo RS 99052840 Brazil;sem numero de porta
 ALTO;116;Concessionárias;BR 470 Navegantes Rio do Sul SC 89160000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;118;Concessionárias;Jardim das Americas Guarapuava PR 85030230 Brazil;sem numero de porta
-ALTO;121;Concessionárias;Viaduto Fernando Osorio Tres Vendas Pelotas RS 96070005 Brazil;sem numero de porta
+ALTO;121;Concessionárias;Viaduto Fernando Osorio Pelotas RS 96070005 Brazil;sem numero de porta
 ALTO;123;Concessionárias;Saccaro Bal Camboriu Dos Estados Balneario Camboriu SC Brazil;sem numero de porta
 ALTO;125;Concessionárias;PR 323 Cruzeiro do Oeste PR 87400000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;127;Concessionárias;Avenida Doutor Afonso Vergueiro Sorocaba SP 18040000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;130;Concessionárias;Via Anchieta Santos SP 11095000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;134;Concessionárias;Rodovia BR 101 Canhanduba Itajai SC 88307710 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;136;Concessionárias;Rodovia da Maca Rio das Pedras Videira SC 89560000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;134;Concessionárias;Rodovia BR 101 Itajai SC 88307710 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;136;Concessionárias;Rodovia da Maca Videira SC 89560000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;137;Concessionárias;Ponto De Carregamento Para Veiculos Eletricos BR 153 Panama GO 75580000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;138;Concessionárias;Faixa de Dominio da Rodovia 279 Chapeco SC Brazil;endereco de rodovia (57-67% falharam)
-ALTO;139;Concessionárias;Estrada da Saudade Sao Miguel Curitiba PR Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;139;Concessionárias;Estrada da Saudade Curitiba PR Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;140;Concessionárias;Via Expressa Paul Fritz Kuehnrich 955 Blumenau SC 89052381 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;148;Concessionárias;BR 153 Itumbiara GO Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;149;Concessionárias;Vila Esperanca Tubarao SC Brazil;sem numero de porta
-ALTO;153;Concessionárias;Rodovia Raposo Tavares Chacaras Bom Retiro Ourinhos SP 19915022 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;160;Concessionárias;Avenida Jurua Alphaville Barueri SP 06455010 Brazil;sem numero de porta
+ALTO;153;Concessionárias;Rodovia Raposo Tavares Ourinhos SP 19915022 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;160;Concessionárias;Avenida Jurua Barueri SP 06455010 Brazil;sem numero de porta
 ALTO;163;Concessionárias;Via Anhanguera Limeira SP 13486850 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;168;Concessionárias;Avenida Presidente Castelo Branco Subsetor Leste 6 Ribeirao Preto SP 14095000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;169;Concessionárias;Rodovia Doutor Manoel Hyppolito Rego 1224 Sao Sebastiao SP 11608269 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;171;Concessionárias;Rua Francisco Glicerio Gramacho Duque de Caxias RJ 25055410 Brazil;sem numero de porta
+ALTO;171;Concessionárias;Rua Francisco Glicerio Duque de Caxias RJ 25055410 Brazil;sem numero de porta
 ALTO;172;Concessionárias;Rio Boat Club Gloria Rio de Janeiro RJ 22210030 Brazil;sem numero de porta
 ALTO;177;Concessionárias;Zletric BR 050 Minas Gerais Uberlandia MG Brazil;sem numero de porta
 ALTO;178;Concessionárias;Exotico Prime Motel L 13 Ribeirao Preto SP Brazil;sem numero de porta
 ALTO;179;Concessionárias;Rodovia BR 365 349 Patos de Minas MG 38706328 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;180;Concessionárias;Avenida dos Vinhedos Morada da Colina Uberlandia MG 38411159 Brazil;sem numero de porta
-ALTO;181;Concessionárias;Rodovia Washington Luis Portal das Laranjeiras Araraquara SP 14808080 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;182;Concessionárias;Avenida Presidente Juscelino K de Oliveira Moyses Miguel Haddad Sao Jose do Rio Preto SP 15091450 Brazil;sem numero de porta
+ALTO;180;Concessionárias;Avenida dos Vinhedos Uberlandia MG 38411159 Brazil;sem numero de porta
+ALTO;181;Concessionárias;Rodovia Washington Luis Araraquara SP 14808080 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;182;Concessionárias;Avenida Presidente Juscelino K de Oliveira Sao Jose do Rio Preto SP 15091450 Brazil;sem numero de porta
 ALTO;183;Concessionárias;Rodovia Transbrasiliana Sao Jose do Rio Preto SP 15053750 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;185;Concessionárias;Jardim Belo Horizonte Aparecida de Goiania GO Brazil;sem numero de porta
-ALTO;186;Concessionárias;Alameda das Sibipirunas Ceasa Goiania GO 74681215 Brazil;sem numero de porta
-ALTO;187;Concessionárias;Rodovia Marechal Rondon Alvorada Aracatuba SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;186;Concessionárias;Alameda das Sibipirunas Goiania GO 74681215 Brazil;sem numero de porta
+ALTO;187;Concessionárias;Rodovia Marechal Rondon Aracatuba SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;189;Concessionárias;Rodovia Raposo Tavares Regente Feijo SP 19570000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;190;Concessionárias;Rodovia Celso Garcia Cid Cambe PR Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;191;Concessionárias;Anel Viario Aldo Casali Campo Mourao PR Brazil;sem numero de porta
 ALTO;192;Concessionárias;PR 323 Umuarama PR 87507000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;193;Concessionárias;Avenida Doutor Ezuel Portes Presidente Cascavel PR 62850000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;194;Concessionárias;Avenida Doutor Ezuel Portes Cascavel Velho Cascavel PR 85810000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;193;Concessionárias;Avenida Doutor Ezuel Portes Cascavel PR 62850000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;194;Concessionárias;Avenida Doutor Ezuel Portes Cascavel PR 85810000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;197;Concessionárias;Dicave VOLVO Santa Catarina Canhanduba Itajai SC Brazil;sem numero de porta
-ALTO;199;Concessionárias;Rodovia Tertuliano Brito Xavier Jurere Leste Florianopolis SC 88054601 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;199;Concessionárias;Rodovia Tertuliano Brito Xavier Florianopolis SC 88054601 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;200;Concessionárias;Vila Real Balneario Camboriu SC 88337080 Brazil;sem numero de porta
 ALTO;201;Concessionárias;Rodovia Tertuliano Brito Xavier 3000 Florianopolis SC 88054601 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;202;Concessionárias;Sia SIA DF 71200025 Brazil;"sem numero de porta; logradouro sem nome"
-ALTO;210;Concessionárias;Estrada Francisco da Cruz Nunes Cafuba Niteroi RJ 24350310 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;210;Concessionárias;Estrada Francisco da Cruz Nunes Niteroi RJ 24350310 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;212;Concessionárias;Top Cell Da Praia dos Amores Balneario Camboriu SC 88331440 Brazil;sem numero de porta
 ALTO;216;Concessionárias;Estrada da Aldeinha 120 Barueri SP 06465100 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;219;Concessionárias;Casco Branco Pinheiros Sao Paulo SP Brazil;sem numero de porta
-ALTO;229;Concessionárias;Rua Principado de Monaco Consolacao Sao Paulo SP 01247040 Brazil;sem numero de porta
-ALTO;230;Concessionárias;Travessa Maria Domingas das Neves Cangaiba Sao Paulo SP 03717010 Brazil;sem numero de porta
-ALTO;236;Concessionárias;Rua Aspasia Itaim Bibi Sao Paulo SP 01451011 Brazil;sem numero de porta
-ALTO;238;Concessionárias;Rua Dona Alzira Sarandi Porto Alegre RS 91060410 Brazil;sem numero de porta
+ALTO;229;Concessionárias;Rua Principado de Monaco Sao Paulo SP 01247040 Brazil;sem numero de porta
+ALTO;230;Concessionárias;Travessa Maria Domingas das Neves Sao Paulo SP 03717010 Brazil;sem numero de porta
+ALTO;236;Concessionárias;Rua Aspasia Sao Paulo SP 01451011 Brazil;sem numero de porta
+ALTO;238;Concessionárias;Rua Dona Alzira Porto Alegre RS 91060410 Brazil;sem numero de porta
 ALTO;243;Concessionárias;Rua 7 Tuiuti SP 12930000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;244;Concessionárias;Avenida das Maritacas Lindoia Londrina PR 86031070 Brazil;sem numero de porta
-ALTO;245;Concessionárias;Avenida Deputado Jamel Cecilio Sul Goiania GO 74085580 Brazil;sem numero de porta
+ALTO;244;Concessionárias;Avenida das Maritacas Londrina PR 86031070 Brazil;sem numero de porta
+ALTO;245;Concessionárias;Avenida Deputado Jamel Cecilio Goiania GO 74085580 Brazil;sem numero de porta
 ALTO;249;Resorts;Estrada Ernesto Diedericksen Campos do Jordao SP 12460000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;250;Resorts;Rua Harry Bertell Jardim Martinelli Itatiaia RJ 27580000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;250;Resorts;Rua Harry Bertell Itatiaia RJ 27580000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;253;Resorts;Alameda das Siriemas Porto Feliz SP 18540000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;254;Resorts;Boa Vista Surf Lodge Porto Feliz SP 18540000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;255;Resorts;Residencial Fazenda da Grama Rodovia Miguel Melhado Campos Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;255;Resorts;Residencial Fazenda da Grama Itupeva SP 13295000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;256;Marinas;Rodovia Jorge Fortulino Balneario Rincao SC 88828000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;258;Marinas;Avenida Beira Mar Pereque Mirim Ubatuba SP 11680000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;258;Marinas;Avenida Beira Mar Ubatuba SP 11680000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;261;Marinas;Rua Lateral BR 101 243 Biguacu SC 88160000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;266;Marinas;Rodovia Ariovaldo de Almeida Viana Guaruja SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;267;Marinas;Avenida Celso Romano de Oliveira Porto Rico PR 87950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;268;Marinas;Rua Brasil Centro Campo Mourao PR Brazil;sem numero de porta
+ALTO;268;Marinas;Rua Brasil Campo Mourao PR Brazil;sem numero de porta
 ALTO;278;Marinas;Magazine Luiza Cassia MG 37980000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;282;Marinas;PR 412 Pontal do Parana PR 83255000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;289;Marinas;Rodovia Tertuliano Brito Xavier 1800 Florianopolis SC 88054601 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;290;Marinas;Avenida Rio Branco Indaia Caraguatatuba SP 11665600 Brazil;sem numero de porta
+ALTO;290;Marinas;Avenida Rio Branco Caraguatatuba SP 11665600 Brazil;sem numero de porta
 ALTO;291;Marinas;Estrada Cubatao Grande 2101 Joinville SC 89226833 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;292;Marinas;Rodovia Ariovaldo de Almeida Viana Guaruja SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;298;Marinas;Rodovia Arlindo Bettio Rosana SP 19273000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -95,216 +95,216 @@ ALTO;324;Marinas;Avenida Beira Rio Itumbiara GO 75524272 Brazil;sem numero de po
 ALTO;331;Marinas;Gipsy Garden Golfe Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;333;Marinas;Avenida Celso Romano de Oliveira Porto Rico PR 87950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;345;Marinas;PR 412 Pontal do Parana PR 83255000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;347;Marinas;Rua Rio Claro Porto Sao Jose Sao Pedro do Parana PR 87957000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;347;Marinas;Rua Rio Claro Sao Pedro do Parana PR 87957000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;352;Marinas;Estrada Vereador Benedito Adelino 21 Angra dos Reis RJ 23909400 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;357;Marinas;PR 412 Pontal do Parana PR 83255000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;360;Marinas;Rua do Barrigudinho Bracui Angra dos Reis RJ 23943120 Brazil;sem numero de porta
+ALTO;360;Marinas;Rua do Barrigudinho Angra dos Reis RJ 23943120 Brazil;sem numero de porta
 ALTO;364;Marinas;Chacara do Tie Joanopolis SP 12980000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;365;Marinas;Rodovia Jose Henrique Rupp Sao Jorge d Oeste PR 85575000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;366;Marinas;Rodovia Ariovaldo de Almeida Viana Guaruja SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;378;Marinas;Avenida Pedro Ometto Barra Bonita SP 17340001 Brazil;sem numero de porta
-ALTO;379;Marinas;Avenida Rio Branco Indaia Caraguatatuba SP 11665600 Brazil;sem numero de porta
-ALTO;381;Marinas;Avenida Vicente de Carvalho Centro Bertioga SP 11250045 Brazil;sem numero de porta
+ALTO;379;Marinas;Avenida Rio Branco Caraguatatuba SP 11665600 Brazil;sem numero de porta
+ALTO;381;Marinas;Avenida Vicente de Carvalho Bertioga SP 11250045 Brazil;sem numero de porta
 ALTO;383;Marinas;PR 412 Pontal do Parana PR 83255000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;384;Marinas;Rua Alegrete Imbe RS 95625000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;392;Marinas;PR 412 Pontal do Parana PR 83255000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;398;Marinas;Estrada Henrique Rosa 445 Sao Bernardo do Campo SP 09831500 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;405;Marinas;Estrada Timbe 10283 Joinville SC 89226500 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;409;Marinas;Rodovia Baldicero Filomeno 12520 Florianopolis SC 88064002 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;417;Marinas;Avenida Beira Rio Porto Maringa Marilena PR 87960000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;417;Marinas;Avenida Beira Rio Marilena PR 87960000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;418;Marinas;Avenida Marcolino Antonio Rosa Icem SP 15460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;424;Marinas;Gipsy Garden Golfe Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;428;Marinas;Rua Francisco de Barros Ibiuna SP 18150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;429;Marinas;Rua Rio Claro Porto Sao Jose Sao Pedro do Parana PR 87957000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;436;Marinas;Avenida Jose da Silva Pacheco Itapema do Norte Itapoa SC 89249000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;437;Marinas;Avenida Jose da Silva Pacheco Itapema do Norte Itapoa SC 89249000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;429;Marinas;Rua Rio Claro Sao Pedro do Parana PR 87957000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;436;Marinas;Avenida Jose da Silva Pacheco Itapoa SC 89249000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;437;Marinas;Avenida Jose da Silva Pacheco Itapoa SC 89249000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;438;Marinas;Magazine Luiza Cassia MG 37980000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;439;Marinas;Estrada Timbe Jardim Paraiso Joinville SC 89226500 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;439;Marinas;Estrada Timbe Joinville SC 89226500 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;443;Marinas;Avenida Coronel Cirilo Lopes de Moraes Caldas Novas GO 75690000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;446;Marinas;Yucatan BR Akita Inu Brasil Igarata SP 12350000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;452;Marinas;Rodovia Rio Santos Maranduba Ubatuba SP 11680000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;453;Marinas;Avenida das Canoas Mato Grande Canoas RS 92323270 Brazil;sem numero de porta
-ALTO;462;Marinas;Rua Laurindo Januario da Silveira Canto da Lagoa Florianopolis SC 88062201 Brazil;sem numero de porta
+ALTO;452;Marinas;Rodovia Rio Santos Ubatuba SP 11680000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;453;Marinas;Avenida das Canoas Canoas RS 92323270 Brazil;sem numero de porta
+ALTO;462;Marinas;Rua Laurindo Januario da Silveira Florianopolis SC 88062201 Brazil;sem numero de porta
 ALTO;465;Marinas;Via Gastronomica 65 Balneario Camboriu SC 88337070 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;466;Marinas;Drogariasaope Abadiania GO 72940000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;468;Marinas;Rua Joaquim Lopes Porto Rico PR 87950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;469;Marinas;Estrada da Barra da Tijuca 347 Rio de Janeiro RJ 22611201 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;470;Marinas;Rua Japao Parque Bitaru Sao Vicente SP 11330210 Brazil;sem numero de porta
+ALTO;470;Marinas;Rua Japao Sao Vicente SP 11330210 Brazil;sem numero de porta
 ALTO;471;Golf Clubs;Estrada Uniao e Acucar Areal RJ 25845000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;474;Golf Clubs;Estrada S S das Aguas Claras Sao Sebastiao das Aguas Claras Nova Lima MG 34000000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;475;Golf Clubs;Avenida Presidente Roosevelt Golfe Teresopolis RJ Brazil;sem numero de porta
-ALTO;477;Golf Clubs;Avenida Juca Batista Belem Novo Porto Alegre RS 91781001 Brazil;sem numero de porta
+ALTO;474;Golf Clubs;Estrada S S das Aguas Claras Nova Lima MG 34000000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;475;Golf Clubs;Avenida Presidente Roosevelt Teresopolis RJ Brazil;sem numero de porta
+ALTO;477;Golf Clubs;Avenida Juca Batista Porto Alegre RS 91781001 Brazil;sem numero de porta
 ALTO;479;Golf Clubs;Alameda dos Pinus Porto Feliz SP 18548100 Brazil;sem numero de porta
 ALTO;484;Golf Clubs;VRS 829 Caxias do Sul RS Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;486;Golf Clubs;Avenida Benjamin Constant Torres RS 95560000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;491;Golf Clubs;Rodovia Raposo Tavares Aracoiaba da Serra SP 18190000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;492;Golf Clubs;Shell ERL S Zona Civico Administrativa Brasilia DF Brazil;sem numero de porta
-ALTO;493;Golf Clubs;Rua Amazonas Braz I Avare SP 18701180 Brazil;sem numero de porta
+ALTO;493;Golf Clubs;Rua Amazonas Avare SP 18701180 Brazil;sem numero de porta
 ALTO;494;Golf Clubs;Avenida Heraclito Fontoura Sobral Pinto Ribeirao Preto SP 14022020 Brazil;sem numero de porta
 ALTO;500;Golf Clubs;Rua Mauro Lopes Aruja SP 07434300 Brazil;sem numero de porta
 ALTO;502;Golf Clubs;Praca Kunito Miyasaka Bastos SP 17690000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;503;Golf Clubs;Bar da Cocheira Cambe PR Brazil;sem numero de porta
 ALTO;505;Golf Clubs;Estrada da Gavea 800 Rio de Janeiro RJ 22610002 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;507;Golf Clubs;Avenida Julio de Vasconcelos Nova Veneza Sumare SP 13174405 Brazil;sem numero de porta
-ALTO;508;Golf Clubs;Rua Sao Jose Golfe Condominio Terras de Sao Jose Itu SP Brazil;sem numero de porta
-ALTO;509;Golf Clubs;Rua 3 Campinho Braganca Paulista SP 12918001 Brazil;sem numero de porta
+ALTO;507;Golf Clubs;Avenida Julio de Vasconcelos Sumare SP 13174405 Brazil;sem numero de porta
+ALTO;508;Golf Clubs;Rua Sao Jose Golfe Itu SP Brazil;sem numero de porta
+ALTO;509;Golf Clubs;Rua 3 Braganca Paulista SP 12918001 Brazil;logradouro sem nome
 ALTO;510;Golf Clubs;Estrada Iva 351 Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;511;Golf Clubs;Estrada Fazenda Velha 3365 Aruja SP 07400000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;512;Golf Clubs;Rua Galenbeck Sao Bernardo do Campo SP Brazil;sem numero de porta
 ALTO;514;Golf Clubs;Estrada do Matao I Vargem Grande Paulista SP 06730000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;515;Golf Clubs;Estrada da Barra da Tijuca Itanhanga Rio de Janeiro RJ 22611201 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;515;Golf Clubs;Estrada da Barra da Tijuca Rio de Janeiro RJ 22611201 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;524;Bancos;Cronix Security Anhangabau Jundiai SP 13208703 Brazil;sem numero de porta
 ALTO;534;Bancos;Dr Sergio Keinert Praca Sao Paulo da Cruz Juveve Curitiba PR 80030480 Brazil;sem numero de porta
-ALTO;536;Bancos;Avenida Iguacu Agua Verde Curitiba PR 80240031 Brazil;sem numero de porta
-ALTO;537;Bancos;Avenida Rodrigo Fernando Grillo Jardim dos Manacas Araraquara SP 14801534 Brazil;sem numero de porta
-ALTO;542;Bancos;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01452001 Brazil;sem numero de porta
+ALTO;536;Bancos;Avenida Iguacu Curitiba PR 80240031 Brazil;sem numero de porta
+ALTO;537;Bancos;Avenida Rodrigo Fernando Grillo Araraquara SP 14801534 Brazil;sem numero de porta
+ALTO;542;Bancos;Avenida Brigadeiro Faria Lima Sao Paulo SP 01452001 Brazil;sem numero de porta
 ALTO;561;Bancos;Cronix Security Anhangabau Jundiai SP 13208703 Brazil;sem numero de porta
 ALTO;569;Bancos;Avenida Sete de Setembro Reboucas 80230 010 Curitiba PR 80230010 Brazil;sem numero de porta
-ALTO;571;Bancos;Rua Jose Fernandes Maldonado Bairro Alto Curitiba PR 82840020 Brazil;sem numero de porta
+ALTO;571;Bancos;Rua Jose Fernandes Maldonado Curitiba PR 82840020 Brazil;sem numero de porta
 ALTO;579;Bancos;Rodovia Professor Alfredo Rolim de Moura 1001 Mogi das Cruzes SP 08880000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;587;Bancos;Rua Raimundo Correa Vila Marina Dias Sorocaba SP 18035265 Brazil;sem numero de porta
-ALTO;588;Bancos;Rua Nestor Guimaraes Estrela Ponta Grossa PR 84040130 Brazil;sem numero de porta
-ALTO;613;Bancos;Avenida Sete de Setembro Centro Passo Fundo RS 99010121 Brazil;sem numero de porta
-ALTO;627;Bancos;Rua Gra Nicco Mossungue Curitiba PR 81200200 Brazil;sem numero de porta
-ALTO;628;Bancos;Avenida Brigadeiro Faria Lima Itaim Bibi Sao Paulo SP 04538133 Brazil;sem numero de porta
+ALTO;587;Bancos;Rua Raimundo Correa Sorocaba SP 18035265 Brazil;sem numero de porta
+ALTO;588;Bancos;Rua Nestor Guimaraes Ponta Grossa PR 84040130 Brazil;sem numero de porta
+ALTO;613;Bancos;Avenida Sete de Setembro Passo Fundo RS 99010121 Brazil;sem numero de porta
+ALTO;627;Bancos;Rua Gra Nicco Curitiba PR 81200200 Brazil;sem numero de porta
+ALTO;628;Bancos;Avenida Brigadeiro Faria Lima Sao Paulo SP 04538133 Brazil;sem numero de porta
 ALTO;644;Bancos;Dr Diego Chemello Centro Santa Maria RS Brazil;sem numero de porta
-ALTO;655;Bancos;Rua Sete de Setembro Centro Blumenau SC 89010203 Brazil;sem numero de porta
-ALTO;667;Bancos;Avenida Anchieta Jardim Nova America Sao Jose dos Campos SP 12242280 Brazil;sem numero de porta
-ALTO;668;Bancos;Avenida Cassiano Ricardo Parque Residencial Aquarius Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
-ALTO;679;Bancos;Alameda Terracota Ceramica Sao Caetano do Sul SP 09531190 Brazil;sem numero de porta
+ALTO;655;Bancos;Rua Sete de Setembro Blumenau SC 89010203 Brazil;sem numero de porta
+ALTO;667;Bancos;Avenida Anchieta Sao Jose dos Campos SP 12242280 Brazil;sem numero de porta
+ALTO;668;Bancos;Avenida Cassiano Ricardo Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
+ALTO;679;Bancos;Alameda Terracota Sao Caetano do Sul SP 09531190 Brazil;sem numero de porta
 ALTO;691;Bancos;Rua Marechal Floriano Tres de Maio RS 98910000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;697;Bancos;Phix It Santo Amaro Sao Paulo SP 04719002 Brazil;sem numero de porta
-ALTO;701;Bancos;Rua Lourenco Marques Itaim Bibi Sao Paulo SP 04547100 Brazil;sem numero de porta
-ALTO;703;Bancos;Rua Barao do Triunfo Campo Belo Sao Paulo SP 04620001 Brazil;sem numero de porta
+ALTO;701;Bancos;Rua Lourenco Marques Sao Paulo SP 04547100 Brazil;sem numero de porta
+ALTO;703;Bancos;Rua Barao do Triunfo Sao Paulo SP 04620001 Brazil;sem numero de porta
 ALTO;704;Bancos;Banco Western Union do Brasil Pinheiros Sao Paulo SP 05477000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;707;Bancos;Rua Alfredo Chaves Exposicao Caxias do Sul RS 95020460 Brazil;sem numero de porta
+ALTO;707;Bancos;Rua Alfredo Chaves Caxias do Sul RS 95020460 Brazil;sem numero de porta
 ALTO;712;Bancos;Abin RS Petropolis Porto Alegre RS Brazil;sem numero de porta
 ALTO;713;Bancos;Abf Advogados Associados Boa Vista Porto Alegre RS 90470130 Brazil;sem numero de porta
-ALTO;736;Bancos;Rua Doutor Jose Bonifacio Malburg Centro Itajai SC 88301350 Brazil;sem numero de porta
-ALTO;743;Bancos;Praca Prefeito Dogelo Goss Centro Concordia SC 89700000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;751;Bancos;Rua Antonio Carlos Berta Vila Ipiranga Porto Alegre RS 91340020 Brazil;sem numero de porta
-ALTO;760;Bancos;Avenida Mauro Ramos Agronomica Florianopolis SC Brazil;sem numero de porta
+ALTO;736;Bancos;Rua Doutor Jose Bonifacio Malburg Itajai SC 88301350 Brazil;sem numero de porta
+ALTO;743;Bancos;Praca Prefeito Dogelo Goss Concordia SC 89700000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;751;Bancos;Rua Antonio Carlos Berta Porto Alegre RS 91340020 Brazil;sem numero de porta
+ALTO;760;Bancos;Avenida Mauro Ramos Florianopolis SC Brazil;sem numero de porta
 ALTO;769;Bancos;Zoo Trindade Centro Florianopolis SC 88015200 Brazil;sem numero de porta
 ALTO;770;Bancos;Rodovia Jose Carlos Daux 4100 Florianopolis SC 88032005 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;772;Bancos;Rua Esteves Junior Centro Florianopolis SC 88015130 Brazil;sem numero de porta
+ALTO;772;Bancos;Rua Esteves Junior Florianopolis SC 88015130 Brazil;sem numero de porta
 ALTO;779;Bancos;Rodovia Osvaldo Reis 600 Itajai SC 88306000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;780;Bancos;Praia Brava Itajai SC 88306002 Brazil;sem numero de porta
 ALTO;783;Bancos;Rodovia Jose Carlos Daux 10416 Florianopolis SC 88050001 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;796;Bancos;Tonia s House Centro Itajai SC 88301350 Brazil;sem numero de porta
-ALTO;801;Bancos;Rua Doutor Jose Bonifacio Malburg Centro Itajai SC 88301350 Brazil;sem numero de porta
+ALTO;801;Bancos;Rua Doutor Jose Bonifacio Malburg Itajai SC 88301350 Brazil;sem numero de porta
 ALTO;809;Bancos;Rua Jorge Lacerda Rio Fortuna SC 88760000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;817;Bancos;Avenida Doutor Victor do Amaral Centro Araucaria PR 83702040 Brazil;sem numero de porta
-ALTO;820;Bancos;Alameda Doutor Octavio Pinheiro Brisolla Vila Cidade Universitaria Bauru SP 17012424 Brazil;sem numero de porta
+ALTO;817;Bancos;Avenida Doutor Victor do Amaral Araucaria PR 83702040 Brazil;sem numero de porta
+ALTO;820;Bancos;Alameda Doutor Octavio Pinheiro Brisolla Bauru SP 17012424 Brazil;sem numero de porta
 ALTO;821;Bancos;Avenida Getulio Vargas 21 51 Vila Aviacao Bauru SP 17017383 Brazil;sem numero de porta
 ALTO;826;Bancos;Ibbca 2008 Corretora de Seguros Centro Florianopolis SC 88015200 Brazil;sem numero de porta
-ALTO;836;Bancos;Rua Padre Nobrega Oficinas Ponta Grossa PR 84040090 Brazil;sem numero de porta
-ALTO;846;Bancos;Rua Dom Jose Vila Real Balneario Camboriu SC 88337130 Brazil;sem numero de porta
+ALTO;836;Bancos;Rua Padre Nobrega Ponta Grossa PR 84040090 Brazil;sem numero de porta
+ALTO;846;Bancos;Rua Dom Jose Balneario Camboriu SC 88337130 Brazil;sem numero de porta
 ALTO;855;Bancos;Rua Adolfo Serra Subsetor Sul 4 Ribeirao Preto SP 14020605 Brazil;sem numero de porta
-ALTO;863;Bancos;Rua Alferes Angelo Sampaio Merces Curitiba PR 80730460 Brazil;sem numero de porta
+ALTO;863;Bancos;Rua Alferes Angelo Sampaio Curitiba PR 80730460 Brazil;sem numero de porta
 ALTO;873;Bancos;Gsw Interior Paulista Subsetor Sul 5 Ribeirao Preto SP Brazil;sem numero de porta
 ALTO;877;Bancos;Rua Carlos de Gaitani L 13 Ribeirao Preto SP 14098340 Brazil;sem numero de porta
 ALTO;884;Bancos;Sognare Consorcios Hs Consorcios Matao SP 15990130 Brazil;sem numero de porta
-ALTO;898;Bancos;Avenida dos Municipios Tabajaras Uberlandia MG 38400254 Brazil;sem numero de porta
+ALTO;898;Bancos;Avenida dos Municipios Uberlandia MG 38400254 Brazil;sem numero de porta
 ALTO;899;Bancos;Familia Luccine Vigilato Pereira Uberlandia MG 38408447 Brazil;sem numero de porta
-ALTO;900;Bancos;Avenida Anisio Haddad Vivendas Sao Jose do Rio Preto SP 15093000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;900;Bancos;Avenida Anisio Haddad Sao Jose do Rio Preto SP 15093000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;908;Bancos;Jardim Lima Franca SP 14403117 Brazil;sem numero de porta
 ALTO;922;Bancos;FAST SHOP Gavea Uberlandia MG 38411106 Brazil;sem numero de porta
-ALTO;923;Bancos;Rua Niteroi Tibery Uberlandia MG 38405178 Brazil;sem numero de porta
+ALTO;923;Bancos;Rua Niteroi Uberlandia MG 38405178 Brazil;sem numero de porta
 ALTO;936;Bancos;Rua Nove Qd 8 141 Parque dos Buritis II Rio Verde GO 75907300 Brazil;sem numero de porta
 ALTO;945;Bancos;Estrada Municipal Bela Vista 2500 Santana de Parnaiba SP 06539010 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;946;Bancos;Avenida Yojiro Takaoka Alphaville Santana de Parnaiba SP 06541038 Brazil;sem numero de porta
-ALTO;947;Bancos;Rua Tenente Avelar Pires Azevedo Centro Osasco SP 06016060 Brazil;sem numero de porta
-ALTO;950;Bancos;Avenida Deputado Jamel Cecilio Jardim Goias Goiania GO 74810100 Brazil;sem numero de porta
+ALTO;946;Bancos;Avenida Yojiro Takaoka Santana de Parnaiba SP 06541038 Brazil;sem numero de porta
+ALTO;947;Bancos;Rua Tenente Avelar Pires Azevedo Osasco SP 06016060 Brazil;sem numero de porta
+ALTO;950;Bancos;Avenida Deputado Jamel Cecilio Goiania GO 74810100 Brazil;sem numero de porta
 ALTO;952;Bancos;Rua Quatorze 16 13 Jardim Goias Goiania GO 74810180 Brazil;sem numero de porta
 ALTO;956;Bancos;Ceasa Pouso Alegre MG 37550000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;957;Bancos;Rodovia Fernao Dias Extrema MG 37640000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;965;Bancos;Park Station Estacione Barra Funda Sao Paulo SP 01139000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;966;Bancos;Viela Ouro Picanco Guarulhos SP 07081290 Brazil;sem numero de porta
+ALTO;966;Bancos;Viela Ouro Guarulhos SP 07081290 Brazil;sem numero de porta
 ALTO;971;Bancos;Estrada Uniao e Industria 10395 Petropolis RJ 25750226 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;975;Bancos;Rua Ataliba de Barros Sao Mateus Juiz de Fora MG 36025275 Brazil;sem numero de porta
-ALTO;981;Bancos;Rua Ataliba de Barros Sao Mateus Juiz de Fora MG 36025275 Brazil;sem numero de porta
-ALTO;987;Bancos;Rua Garca Barra da Tijuca Rio de Janeiro RJ 23064250 Brazil;sem numero de porta
+ALTO;975;Bancos;Rua Ataliba de Barros Juiz de Fora MG 36025275 Brazil;sem numero de porta
+ALTO;981;Bancos;Rua Ataliba de Barros Juiz de Fora MG 36025275 Brazil;sem numero de porta
+ALTO;987;Bancos;Rua Garca Rio de Janeiro RJ 23064250 Brazil;sem numero de porta
 ALTO;1004;Bancos;Emporio Brew Nova Friburgo RJ 28623020 Brazil;sem numero de porta
 ALTO;1009;Bancos;Banca Alpha Graciosa Alphaville Barueri SP 06473000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1012;Bancos;Avenida Franklin Roosevelt Centro Rio de Janeiro RJ 20021120 Brazil;sem numero de porta
+ALTO;1012;Bancos;Avenida Franklin Roosevelt Rio de Janeiro RJ 20021120 Brazil;sem numero de porta
 ALTO;1020;Bancos;Downtown Leste Barra da Tijuca Rio de Janeiro RJ Brazil;sem numero de porta
 ALTO;1028;Bancos;Agencia Corpo Barra da Tijuca Rio de Janeiro RJ 22775057 Brazil;sem numero de porta
 ALTO;1029;Bancos;Essendi Clinica Barra da Tijuca Rio de Janeiro RJ 22640100 Brazil;sem numero de porta
-ALTO;1030;Bancos;Avenida Nilo Pecanha Centro Rio de Janeiro RJ 20020100 Brazil;sem numero de porta
-ALTO;1033;Bancos;Rua Quinze de Novembro Centro Niteroi RJ 24020125 Brazil;sem numero de porta
-ALTO;1038;Bancos;Avenida das Americas Barra da Tijuca Rio de Janeiro RJ 22640102 Brazil;sem numero de porta
-ALTO;1039;Bancos;Rua do Passeio Centro Rio de Janeiro RJ 20021290 Brazil;sem numero de porta
+ALTO;1030;Bancos;Avenida Nilo Pecanha Rio de Janeiro RJ 20020100 Brazil;sem numero de porta
+ALTO;1033;Bancos;Rua Quinze de Novembro Niteroi RJ 24020125 Brazil;sem numero de porta
+ALTO;1038;Bancos;Avenida das Americas Rio de Janeiro RJ 22640102 Brazil;sem numero de porta
+ALTO;1039;Bancos;Rua do Passeio Rio de Janeiro RJ 20021290 Brazil;sem numero de porta
 ALTO;1083;Bancos;Rua da Paisagem Nova Lima MG 34006059 Brazil;sem numero de porta
 ALTO;1096;Bancos;Qe 7 Guara DF 71020115 Brazil;logradouro sem nome
 ALTO;1098;Bancos;Rua C 237 540 13 Jardim America Goiania GO 74290140 Brazil;sem numero de porta
 ALTO;1099;Bancos;Dermatologia Orion Oeste Goiania GO 74150030 Brazil;sem numero de porta
-ALTO;1100;Bancos;Rua C 38 Jardim America Goiania GO 74265280 Brazil;sem numero de porta
+ALTO;1100;Bancos;Rua C 38 Goiania GO 74265280 Brazil;sem numero de porta
 ALTO;1101;Bancos;Rua Maria Alice 63 10 Jardim Atlantico Goiania GO 74345290 Brazil;sem numero de porta
 ALTO;1106;Bancos;ATM Asa Norte Brasilia DF 70716900 Brazil;sem numero de porta
-ALTO;1108;Bancos;Rua Lazer Urias Magalhaes Goiania GO 74013035 Brazil;sem numero de porta
-ALTO;1109;Bancos;Avenida T 15 Bueno Goiania GO 74230010 Brazil;sem numero de porta
+ALTO;1108;Bancos;Rua Lazer Goiania GO 74013035 Brazil;sem numero de porta
+ALTO;1109;Bancos;Avenida T 15 Goiania GO 74230010 Brazil;sem numero de porta
 ALTO;1110;Bancos;Via Hi 4 Lago Sul DF 71615110 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1113;Bancos;Sescoop Ocb Asa Sul Brasilia DF 70070936 Brazil;sem numero de porta
-ALTO;1114;Bancos;SQN 111 Asa Norte Brasilia DF 70754020 Brazil;sem numero de porta
-ALTO;1115;Bancos;SQN 210 Bloco D Asa Norte Brasilia DF 70862050 Brazil;sem numero de porta
+ALTO;1114;Bancos;SQN 111 Brasilia DF 70754020 Brazil;logradouro sem nome
+ALTO;1115;Bancos;SQN 210 Brasilia DF 70862050 Brazil;logradouro sem nome
 ALTO;1118;Bancos;Avenida das Araucarias Aguas Claras DF 71927000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1119;Bancos;Mrv Engenharia Asa Sul Brasilia DF 70306000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1120;Bancos;Sbn Bloco B Asa Norte Brasilia DF 70040020 Brazil;sem numero de porta
 ALTO;1122;Bancos;Rodovia GO 010 Goiania GO Brazil;endereco de rodovia (57-67% falharam)
-ALTO;1123;Bancos;Rua Cinquenta e Seis Jardim Goias Goiania GO 74810240 Brazil;sem numero de porta
+ALTO;1123;Bancos;Rua Cinquenta e Seis Goiania GO 74810240 Brazil;sem numero de porta
 ALTO;1124;Bancos;Sia Guara DF 71215000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1125;Bancos;Windsor Brasilia Hotel Shn Asa Norte Brasilia DF 70701030 Brazil;sem numero de porta
 ALTO;1127;Bancos;Rua C 267 614 17 Nova Suica Goiania GO 74280290 Brazil;sem numero de porta
-ALTO;1132;Bancos;CLN 202 Bloco C Bloco C Asa Norte Brasilia DF 70832535 Brazil;sem numero de porta
+ALTO;1132;Bancos;CLN 202 Bloco C Brasilia DF 70832535 Brazil;sem numero de porta
 ALTO;1133;Bancos;Avenida T 63 2 8 Jardim Europa Goiania GO 74335030 Brazil;sem numero de porta
 ALTO;1134;Bancos;Rua C 139 567 13 Jardim America Goiania GO 74268165 Brazil;sem numero de porta
 ALTO;1136;Bancos;Rua Quatro D 128 17 Setor Garavelo Aparecida de Goiania GO 74930090 Brazil;sem numero de porta
 ALTO;1140;Bancos;Elia Spa Aguas Claras DF 71931720 Brazil;sem numero de porta
-ALTO;1143;Bancos;Avenida Milao Celina Park Goiania GO 74373270 Brazil;sem numero de porta
-ALTO;1144;Bancos;Avenida C Cento e Setenta e Um Jardim America Goiania GO 74275010 Brazil;sem numero de porta
+ALTO;1143;Bancos;Avenida Milao Goiania GO 74373270 Brazil;sem numero de porta
+ALTO;1144;Bancos;Avenida C Cento e Setenta e Um Goiania GO 74275010 Brazil;sem numero de porta
 ALTO;1153;Bancos;Imobiliaria Wolf Sorocaba SP 18085850 Brazil;sem numero de porta
 ALTO;1181;Bancos;Polo Wear Primavera Guarapuava PR 85050030 Brazil;sem numero de porta
-ALTO;1215;Bancos;Avenida Cassiano Ricardo Parque Residencial Aquarius Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
-ALTO;1222;Bancos;Estrada do Tindiba Taquara Rio de Janeiro RJ 22730262 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1215;Bancos;Avenida Cassiano Ricardo Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
+ALTO;1222;Bancos;Estrada do Tindiba Rio de Janeiro RJ 22730262 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;1224;Bancos;Estrada Sao Tarcisio 144 Rio de Janeiro RJ 23530827 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;1225;Bancos;Rua Rosalina Bravo Barra da Tijuca Rio de Janeiro RJ 22631260 Brazil;sem numero de porta
+ALTO;1225;Bancos;Rua Rosalina Bravo Rio de Janeiro RJ 22631260 Brazil;sem numero de porta
 ALTO;1230;Bancos;Agencia Corpo Barra da Tijuca Rio de Janeiro RJ 22775057 Brazil;sem numero de porta
-ALTO;1236;Bancos;Rua Goncalves Dias Santo Agostinho Belo Horizonte MG 30140094 Brazil;sem numero de porta
-ALTO;1253;Bancos;Rua Carlos Trein Filho Bela Vista Porto Alegre RS 90450120 Brazil;sem numero de porta
+ALTO;1236;Bancos;Rua Goncalves Dias Belo Horizonte MG 30140094 Brazil;sem numero de porta
+ALTO;1253;Bancos;Rua Carlos Trein Filho Porto Alegre RS 90450120 Brazil;sem numero de porta
 ALTO;1261;Bancos;Shn Bloco B Asa Norte Brasilia DF 70704020 Brazil;sem numero de porta
 ALTO;1266;Bancos;Rua Rio Branco 23 34 Vila Nova Santa Clara Bauru SP 17014037 Brazil;sem numero de porta
 ALTO;1269;Bancos;Catedral de Nossa Senhora das Dores Praca Doutor Luciano Esteves Centro Limeira SP 13480211 Brazil;sem numero de porta
-ALTO;1273;Bancos;Rua Redentora Imperial Sao Jose do Rio Preto SP 15015780 Brazil;sem numero de porta
+ALTO;1273;Bancos;Rua Redentora Sao Jose do Rio Preto SP 15015780 Brazil;sem numero de porta
 ALTO;1275;Bancos;Avenida Republica do Libano 1A 15 Aeroporto Goiania GO 74070045 Brazil;sem numero de porta
 ALTO;1277;Bancos;Srtvs 12 Asa Sul Brasilia DF 70340901 Brazil;sem numero de porta
 ALTO;1282;Bancos;Avenida Presidente Kennedy Indaiatuba SP 13334170 Brazil;sem numero de porta
-ALTO;1298;Bancos;Rua Sao Bento Centro Sorocaba SP 18010030 Brazil;sem numero de porta
+ALTO;1298;Bancos;Rua Sao Bento Sorocaba SP 18010030 Brazil;sem numero de porta
 ALTO;1299;Bancos;Rua Rio Branco 24 65 Vila Samaritana Bauru SP 17016190 Brazil;sem numero de porta
-ALTO;1310;Bancos;Rua Treze de Maio Bela Vista Sao Paulo SP 04849529 Brazil;sem numero de porta
-ALTO;1312;Bancos;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05423150 Brazil;sem numero de porta
-ALTO;1317;Bancos;Rua Roma Lapa Sao Paulo SP 05050090 Brazil;sem numero de porta
+ALTO;1310;Bancos;Rua Treze de Maio Sao Paulo SP 04849529 Brazil;sem numero de porta
+ALTO;1312;Bancos;Avenida Brigadeiro Faria Lima Sao Paulo SP 05423150 Brazil;sem numero de porta
+ALTO;1317;Bancos;Rua Roma Sao Paulo SP 05050090 Brazil;sem numero de porta
 ALTO;1327;Bancos;Cafe da Sinagoga Pinheiros Sao Paulo SP 01455000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1341;Bancos;Rua Candelaria Centro Rio de Janeiro RJ 20091020 Brazil;sem numero de porta
+ALTO;1341;Bancos;Rua Candelaria Rio de Janeiro RJ 20091020 Brazil;sem numero de porta
 ALTO;1346;Bancos;Netatur Praca Estado da Palestina Oeste Goiania GO 74115071 Brazil;sem numero de porta
 ALTO;1361;Bancos;Rua Rio Branco 24 25 Vila Samaritana Bauru SP 17016190 Brazil;sem numero de porta
-ALTO;1362;Bancos;Avenida Brasil Manoel Honorio Juiz de Fora MG 36035030 Brazil;sem numero de porta
-ALTO;1374;Bancos;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01452001 Brazil;sem numero de porta
-ALTO;1377;Bancos;Rua Tupi Centro Historico Londrina PR 86020350 Brazil;sem numero de porta
+ALTO;1362;Bancos;Avenida Brasil Juiz de Fora MG 36035030 Brazil;sem numero de porta
+ALTO;1374;Bancos;Avenida Brigadeiro Faria Lima Sao Paulo SP 01452001 Brazil;sem numero de porta
+ALTO;1377;Bancos;Rua Tupi Londrina PR 86020350 Brazil;sem numero de porta
 ALTO;1392;Bancos;Rua XV de Novembro Telemaco Borba PR 84265400 Brazil;sem numero de porta
-ALTO;1409;Bancos;Rua Doutor Joao Colin Centro Joinville SC 89201299 Brazil;sem numero de porta
-ALTO;1415;Bancos;Rua Treze de Maio Bela Vista Sao Paulo SP 04849529 Brazil;sem numero de porta
+ALTO;1409;Bancos;Rua Doutor Joao Colin Joinville SC 89201299 Brazil;sem numero de porta
+ALTO;1415;Bancos;Rua Treze de Maio Sao Paulo SP 04849529 Brazil;sem numero de porta
 ALTO;1424;Bancos;Rua Gustavo Maciel 25 85 Vila Samaritana Bauru SP 17012110 Brazil;sem numero de porta
 ALTO;1425;Bancos;Rua Virgilio Malta 22 16 Jardim Estoril Bauru SP 17016080 Brazil;sem numero de porta
 ALTO;1439;Bancos;Rua Fulvio Salvador Pagani Campinas SP 13080657 Brazil;sem numero de porta
 ALTO;1441;Bancos;Ruff Distribuidora de Combustiveis Loteamento Residencial Vila Bella Campinas SP 13087725 Brazil;sem numero de porta
-ALTO;1446;Bancos;Rua Doutor Cesar Paranhos de Godoy Jardim Chapadao Campinas SP 13070075 Brazil;sem numero de porta
+ALTO;1446;Bancos;Rua Doutor Cesar Paranhos de Godoy Campinas SP 13070075 Brazil;sem numero de porta
 ALTO;1453;Bancos;Praca Capital Campinas SP Brazil;sem numero de porta
-ALTO;1462;Bancos;Avenida Cassiano Ricardo Jardim Cassiano Ricardo Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
+ALTO;1462;Bancos;Avenida Cassiano Ricardo Sao Jose dos Campos SP 12240540 Brazil;sem numero de porta
 ALTO;1468;Bancos;Jardim Paulista Sao Paulo SP 01419001 Brazil;sem numero de porta
 ALTO;1472;Clubes;Avenida Coronel Diogenes de Castro Ribeiro Jaragua GO 76330000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1474;Clubes;Rua Iguacu Coronel Vivida PR 85550000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1477;Clubes;Rua Nove Cezarina GO 76195000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1482;Clubes;Parque Rua Pastor Joao Marcondes Jandaia do Sul PR 86900000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1482;Clubes;Parque Jandaia do Sul PR 86900000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1483;Clubes;ERS 734 Rio Grande RS 96216400 Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;1485;Clubes;Rodovia Raposo Tavares Aracoiaba da Serra SP 18190000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1486;Clubes;SUBWAY Erw S Bloco M Asa Sul Brasilia DF Brazil;sem numero de porta
@@ -315,8 +315,8 @@ ALTO;1497;Clubes;Rua Noventa Alexania GO 72930000 Brazil;"sem numero de porta; C
 ALTO;1503;Clubes;Rua Estevam Domingos Pederassi Porto Real RJ 27570000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1506;Clubes;PR 498 Japura PR 87225000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1507;Clubes;Santa Cruz Country Club Country Santa Cruz do Sul RS 96820790 Brazil;sem numero de porta
-ALTO;1510;Clubes;Via Expressa de Contagem Jardim das Alterosas Primeira Secao Betim MG Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;1515;Clubes;Rodovia Amador Bueno da Veiga Socorro Pindamonhangaba SP 12424590 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1510;Clubes;Via Expressa de Contagem Betim MG Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1515;Clubes;Rodovia Amador Bueno da Veiga Pindamonhangaba SP 12424590 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;1516;Clubes;Pousada Brilho do Sol Serra Negra SP 13930000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1517;Clubes;Estrada Bougainville 442 Rio de Janeiro RJ 22753210 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1518;Clubes;Avenida Heraclito Fontoura Sobral Pinto Ribeirao Preto SP 14022020 Brazil;sem numero de porta
@@ -328,11 +328,11 @@ ALTO;1533;Clubes;Estrada da Ilha 4830 Joinville SC 89239250 Brazil;endereco de r
 ALTO;1535;Clubes;Estrada Marechal Marciano Avila 24 Porto Alegre RS 91787340 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1537;Clubes;Rua Joaquim C de Rezende Guaxupe MG 37800000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1540;Clubes;Rua Francisco C Sobrinho Vianopolis GO 75265000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1542;Clubes;Estrada S S das Aguas Claras Sao Sebastiao das Aguas Claras Nova Lima MG 34000000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1542;Clubes;Estrada S S das Aguas Claras Nova Lima MG 34000000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1543;Clubes;LMG 882 202 Silvianopolis MG 37560000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1546;Clubes;Pastelaria Machado Praca Antonio Ferreira Leme Sao Miguel Arcanjo SP 18230000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1548;Clubes;Rodovia dos Inconfidentes Novo Itabirito Itabirito MG 35450000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1551;Clubes;Rua Amazonas Braz I Avare SP 18701180 Brazil;sem numero de porta
+ALTO;1548;Clubes;Rodovia dos Inconfidentes Itabirito MG 35450000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1551;Clubes;Rua Amazonas Avare SP 18701180 Brazil;sem numero de porta
 ALTO;1553;Clubes;Rodovia Marechal Rondon Lins SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;1561;Clubes;Casa da Juh e do Andrew Centro Sao Jose dos Pinhais PR 83005160 Brazil;sem numero de porta
 ALTO;1567;Clubes;Estrada Rural Cafelandia PR 85415000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -346,373 +346,373 @@ ALTO;1592;Clubes;Rua Salvira Marques Carlopolis PR 86420000 Brazil;"sem numero d
 ALTO;1593;Clubes;Jardim das Acacias Aparecida de Goiania GO 74987300 Brazil;sem numero de porta
 ALTO;1594;Clubes;Rodovia Santos Dumont Itaobim MG 39625000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1595;Clubes;Estrada Iva 351 Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1598;Clubes;Avenida Munhoz da Rocha Cabral Curitiba PR 80035000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1598;Clubes;Avenida Munhoz da Rocha Curitiba PR 80035000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1601;Clubes;Rua Aureliano Coutinho Petropolis RJ 25625000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1602;Clubes;Acesso ao Cajuba Country Clube Vigilato Pereira Uberlandia MG 38408616 Brazil;sem numero de porta
+ALTO;1602;Clubes;Acesso ao Cajuba Country Clube Uberlandia MG 38408616 Brazil;sem numero de porta
 ALTO;1610;Clubes;Rua Vicente Machado Sertaneja PR 86340000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1616;Shoppings;Vila Ipiranga Porto Alegre RS 91340001 Brazil;sem numero de porta
 ALTO;1617;Shoppings;LE LIS BLANC Sanvitto Caxias do Sul RS 95112360 Brazil;sem numero de porta
-ALTO;1620;Shoppings;Avenida Marginal Pinheiros Morumbi Sao Paulo SP 05676030 Brazil;sem numero de porta
-ALTO;1627;Shoppings;Rua Barao de Sao Francisco Andarai Rio de Janeiro RJ 20560032 Brazil;sem numero de porta
+ALTO;1620;Shoppings;Avenida Marginal Pinheiros Sao Paulo SP 05676030 Brazil;sem numero de porta
+ALTO;1627;Shoppings;Rua Barao de Sao Francisco Rio de Janeiro RJ 20560032 Brazil;sem numero de porta
 ALTO;1630;Shoppings;Parque Faber Castell I Sao Carlos SP Brazil;sem numero de porta
 ALTO;1632;Shoppings;Avenida Pres Juscelino Kubitschek Oliveira Sao Jose do Rio Preto SP 15091450 Brazil;sem numero de porta
-ALTO;1634;Shoppings;Avenida Joao Naves de Avila Tibery Uberlandia MG 38405142 Brazil;sem numero de porta
-ALTO;1654;Restaurantes;Rua Augusta Jardim Paulista Sao Paulo SP 01412000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1657;Restaurantes;Rua Joaquim Antunes Pinheiros Sao Paulo SP 05415001 Brazil;sem numero de porta
-ALTO;1669;Restaurantes;Rua Joaquim Antunes Pinheiros Sao Paulo SP 05415001 Brazil;sem numero de porta
-ALTO;1678;Restaurantes;Avenida Sao Luis Republica Sao Paulo SP 01046000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1679;Restaurantes;Rua Oscar Freire Jardim Paulista Sao Paulo SP 01426003 Brazil;sem numero de porta
-ALTO;1683;Restaurantes;Rua Luis Coelho Consolacao Sao Paulo SP 01309000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1708;Restaurantes;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05426100 Brazil;sem numero de porta
-ALTO;1715;Restaurantes;Rua General Severiano Botafogo Rio de Janeiro RJ 22290040 Brazil;sem numero de porta
-ALTO;1717;Restaurantes;Rua Figueiredo de Magalhaes Copacabana Rio de Janeiro RJ 22031011 Brazil;sem numero de porta
+ALTO;1634;Shoppings;Avenida Joao Naves de Avila Uberlandia MG 38405142 Brazil;sem numero de porta
+ALTO;1654;Restaurantes;Rua Augusta Sao Paulo SP 01412000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1657;Restaurantes;Rua Joaquim Antunes Sao Paulo SP 05415001 Brazil;sem numero de porta
+ALTO;1669;Restaurantes;Rua Joaquim Antunes Sao Paulo SP 05415001 Brazil;sem numero de porta
+ALTO;1678;Restaurantes;Avenida Sao Luis Sao Paulo SP 01046000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1679;Restaurantes;Rua Oscar Freire Sao Paulo SP 01426003 Brazil;sem numero de porta
+ALTO;1683;Restaurantes;Rua Luis Coelho Sao Paulo SP 01309000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1708;Restaurantes;Avenida Brigadeiro Faria Lima Sao Paulo SP 05426100 Brazil;sem numero de porta
+ALTO;1715;Restaurantes;Rua General Severiano Rio de Janeiro RJ 22290040 Brazil;sem numero de porta
+ALTO;1717;Restaurantes;Rua Figueiredo de Magalhaes Rio de Janeiro RJ 22031011 Brazil;sem numero de porta
 ALTO;1746;Restaurantes;Spp Asa Norte Brasilia DF 70150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1763;Restaurantes;Estrada da Barra da Tijuca 1636 Rio de Janeiro RJ 22641010 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;1770;Restaurantes;Avenida Afonso Pena Savassi Belo Horizonte MG 30130012 Brazil;sem numero de porta
-ALTO;1773;Restaurantes;SQS 315 Bloco B Asa Sul Brasilia DF 70384020 Brazil;sem numero de porta
+ALTO;1770;Restaurantes;Avenida Afonso Pena Belo Horizonte MG 30130012 Brazil;sem numero de porta
+ALTO;1773;Restaurantes;SQS 315 Brasilia DF 70384020 Brazil;logradouro sem nome
 ALTO;1780;Restaurantes;Shell Bairro da Ponte Itatiba SP Brazil;sem numero de porta
 ALTO;1781;Restaurantes;Rodovia Raposo Tavares Mairinque SP 18120000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1783;Restaurantes;Rodovia Dom Pedro I Mato Dentro Atibaia SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;1784;Restaurantes;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22620172 Brazil;sem numero de porta
-ALTO;1789;Restaurantes;Rua da Ferradura Ferradura Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1783;Restaurantes;Rodovia Dom Pedro I Atibaia SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1784;Restaurantes;Avenida Lucio Costa Rio de Janeiro RJ 22620172 Brazil;sem numero de porta
+ALTO;1789;Restaurantes;Rua da Ferradura Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1792;Restaurantes;Ciclovia da Niemeyer Leblon Rio de Janeiro RJ Brazil;sem numero de porta
-ALTO;1793;Restaurantes;Rua Cais Pharoux Centro Rio de Janeiro RJ 20010070 Brazil;sem numero de porta
+ALTO;1793;Restaurantes;Rua Cais Pharoux Rio de Janeiro RJ 20010070 Brazil;sem numero de porta
 ALTO;1794;Restaurantes;Rodovia Jornalista Manoel de Menezes 773 Florianopolis SC 88061700 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1797;Restaurantes;Edificio Rivergardens Batel Curitiba PR 80420090 Brazil;sem numero de porta
 ALTO;1798;Restaurantes;Setor de Mansoes do Lago Lago Norte DF 71540121 Brazil;sem numero de porta
 ALTO;1800;Restaurantes;Estrada do Vinho Sao Roque SP 18145002 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;1802;Restaurantes;Estrada General Eurico Gaspar Dutra Jurujuba Niteroi RJ 24370375 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;1805;Restaurantes;Estrada da Canoa Sao Conrado Rio de Janeiro RJ 22610210 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1802;Restaurantes;Estrada General Eurico Gaspar Dutra Niteroi RJ 24370375 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1805;Restaurantes;Estrada da Canoa Rio de Janeiro RJ 22610210 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;1808;Restaurantes;Monumento a Tiradentes BR 356 Centro Ouro Preto MG 35400000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1809;Restaurantes;Rua Principal Santa Maria Madalena RJ 28770000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1811;Restaurantes;Via N1 Oeste Asa Norte Brasilia DF 70705130 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;1812;Restaurantes;Largo da Pedreira Chacara Fatima Paraty RJ 23970000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1811;Restaurantes;Via N1 Oeste Brasilia DF 70705130 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1812;Restaurantes;Largo da Pedreira Paraty RJ 23970000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1813;Restaurantes;BR 381 Sao Goncalo do Rio Abaixo MG 35935000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1828;Restaurantes;Rua Augusta Republica Sao Paulo SP 01034000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1829;Restaurantes;Rua Augusta Republica Sao Paulo SP 01034000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1831;Restaurantes;Rua Augusta Republica Sao Paulo SP 01034000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1838;Restaurantes;Rua Coronel Xavier de Toledo Republica Sao Paulo SP 01048000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1846;Restaurantes;Avenida Marginal Pinheiros Morumbi Sao Paulo SP 05676030 Brazil;sem numero de porta
-ALTO;1851;Restaurantes;Rua Medeiros de Albuquerque Pinheiros Sao Paulo SP 05436060 Brazil;sem numero de porta
-ALTO;1871;Joalherias;Avenida Deputado Jamel Cecilio Jardim Goias Goiania GO 74810100 Brazil;sem numero de porta
-ALTO;1875;Joalherias;Avenida Marginal Pinheiros Morumbi Sao Paulo SP 05502001 Brazil;sem numero de porta
-ALTO;1876;Joalherias;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01456060 Brazil;sem numero de porta
-ALTO;1877;Joalherias;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05426100 Brazil;sem numero de porta
-ALTO;1881;Joalherias;Avenida Perimetral Norte Jardim Balneario Meia Ponte Goiania GO 74573260 Brazil;sem numero de porta
+ALTO;1828;Restaurantes;Rua Augusta Sao Paulo SP 01034000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1829;Restaurantes;Rua Augusta Sao Paulo SP 01034000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1831;Restaurantes;Rua Augusta Sao Paulo SP 01034000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1838;Restaurantes;Rua Coronel Xavier de Toledo Sao Paulo SP 01048000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1846;Restaurantes;Avenida Marginal Pinheiros Sao Paulo SP 05676030 Brazil;sem numero de porta
+ALTO;1851;Restaurantes;Rua Medeiros de Albuquerque Sao Paulo SP 05436060 Brazil;sem numero de porta
+ALTO;1871;Joalherias;Avenida Deputado Jamel Cecilio Goiania GO 74810100 Brazil;sem numero de porta
+ALTO;1875;Joalherias;Avenida Marginal Pinheiros Sao Paulo SP 05502001 Brazil;sem numero de porta
+ALTO;1876;Joalherias;Avenida Brigadeiro Faria Lima Sao Paulo SP 01456060 Brazil;sem numero de porta
+ALTO;1877;Joalherias;Avenida Brigadeiro Faria Lima Sao Paulo SP 05426100 Brazil;sem numero de porta
+ALTO;1881;Joalherias;Avenida Perimetral Norte Goiania GO 74573260 Brazil;sem numero de porta
 ALTO;1882;Joalherias;New Time Santo Amaro Sao Paulo SP 04710190 Brazil;sem numero de porta
-ALTO;1887;Joalherias;Avenida Independencia Sao Mateus Juiz de Fora MG 36025320 Brazil;sem numero de porta
+ALTO;1887;Joalherias;Avenida Independencia Juiz de Fora MG 36025320 Brazil;sem numero de porta
 ALTO;1888;Joalherias;Stein Associados Centro Joinville SC 89201420 Brazil;sem numero de porta
-ALTO;1891;Joalherias;Avenida Pompeia Barra Funda Sao Paulo SP 05022000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1891;Joalherias;Avenida Pompeia Sao Paulo SP 05022000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1895;Joalherias;JOHN JOHN Mooca Sao Paulo SP 03109000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1896;Joalherias;Rua Tenente Antonio Joao Zona Industrial Norte Joinville SC 89219720 Brazil;sem numero de porta
+ALTO;1896;Joalherias;Rua Tenente Antonio Joao Joinville SC 89219720 Brazil;sem numero de porta
 ALTO;1897;Joalherias;Rodovia Presidente Castelo Branco Sao Roque SP 18132851 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;1898;Joalherias;Rua North Shopping Barretos Pereira Barretos SP 14784190 Brazil;sem numero de porta
-ALTO;1900;Joalherias;Rua Henrique Savi Jardim Infante Dom Henrique Bauru SP 17012205 Brazil;sem numero de porta
-ALTO;1903;Joalherias;Rua Frei Rolim Cursino Sao Paulo SP 04151100 Brazil;sem numero de porta
+ALTO;1898;Joalherias;Rua North Shopping Barretos Barretos SP 14784190 Brazil;sem numero de porta
+ALTO;1900;Joalherias;Rua Henrique Savi Bauru SP 17012205 Brazil;sem numero de porta
+ALTO;1903;Joalherias;Rua Frei Rolim Sao Paulo SP 04151100 Brazil;sem numero de porta
 ALTO;1905;Joalherias;Rodovia Governador Mario Covas Porto Belo SC 85874000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1909;Joalherias;Rua Fonseca Bangu Rio de Janeiro RJ 21820005 Brazil;sem numero de porta
-ALTO;1910;Joalherias;Avenida Dom Helder Camara Cachambi Rio de Janeiro RJ 20771004 Brazil;sem numero de porta
-ALTO;1911;Joalherias;Avenida T 10 Bueno Goiania GO 74223060 Brazil;sem numero de porta
-ALTO;1912;Joalherias;Avenida Regente Feijo Vila Formosa Sao Paulo SP 03342000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1913;Joalherias;Rua Professor Antonio Maria Teixeira Leblon Rio de Janeiro RJ 22430050 Brazil;sem numero de porta
-ALTO;1917;Joalherias;Rodovia Marechal Rondon Vila Cardia Bauru SP 17030005 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1909;Joalherias;Rua Fonseca Rio de Janeiro RJ 21820005 Brazil;sem numero de porta
+ALTO;1910;Joalherias;Avenida Dom Helder Camara Rio de Janeiro RJ 20771004 Brazil;sem numero de porta
+ALTO;1911;Joalherias;Avenida T 10 Goiania GO 74223060 Brazil;sem numero de porta
+ALTO;1912;Joalherias;Avenida Regente Feijo Sao Paulo SP 03342000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1913;Joalherias;Rua Professor Antonio Maria Teixeira Rio de Janeiro RJ 22430050 Brazil;sem numero de porta
+ALTO;1917;Joalherias;Rodovia Marechal Rondon Bauru SP 17030005 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;1918;Joalherias;Rodovia do Cafe Governador Ney Braga Campo Largo PR Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;1919;Joalherias;Alameda 1 Ribeirao Preto SP Brazil;logradouro sem nome
 ALTO;1921;Joalherias;BRT Transoeste Vargem Grande Rio de Janeiro RJ 22640100 Brazil;sem numero de porta
-ALTO;1923;Joalherias;Praca Oswaldo Cruz Centro Curitiba PR 80250230 Brazil;sem numero de porta
-ALTO;1924;Joalherias;Rua Roma Jardim Excelsior Cabo Frio RJ Brazil;sem numero de porta
-ALTO;1925;Joalherias;Avenida Alberto Benassi Jardim dos Manacas Araraquara SP 14804300 Brazil;sem numero de porta
-ALTO;1926;Joalherias;Avenida Transguarulhense Picanco Guarulhos SP 07082055 Brazil;sem numero de porta
-ALTO;1927;Joalherias;Estrada do Engenho d Agua Anil Rio de Janeiro RJ 22765240 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;1929;Joalherias;SQS 108 Asa Sul Brasilia DF 70347040 Brazil;sem numero de porta
+ALTO;1923;Joalherias;Praca Oswaldo Cruz Curitiba PR 80250230 Brazil;sem numero de porta
+ALTO;1924;Joalherias;Rua Roma Cabo Frio RJ Brazil;sem numero de porta
+ALTO;1925;Joalherias;Avenida Alberto Benassi Araraquara SP 14804300 Brazil;sem numero de porta
+ALTO;1926;Joalherias;Avenida Transguarulhense Guarulhos SP 07082055 Brazil;sem numero de porta
+ALTO;1927;Joalherias;Estrada do Engenho d Agua Rio de Janeiro RJ 22765240 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1929;Joalherias;SQS 108 Brasilia DF 70347040 Brazil;logradouro sem nome
 ALTO;1930;Joalherias;Avenida Gov Andre Franco Montoro Taboao da Serra SP 06757000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1933;Joalherias;Shell ERL S Zona Civico Administrativa Brasilia DF Brazil;sem numero de porta
-ALTO;1934;Joalherias;Rua Domingos Agostim Tatuape Sao Paulo SP 03306010 Brazil;sem numero de porta
-ALTO;1935;Joalherias;SGAS 905 BLOCO A Asa Sul Brasilia DF 70390050 Brazil;sem numero de porta
-ALTO;1938;Joalherias;Rua Engenheiro Camilo Olivetti Itapegica Guarulhos SP 07042040 Brazil;sem numero de porta
-ALTO;1939;Joalherias;Avenida Farroupilha Marechal Rondon Canoas RS Brazil;sem numero de porta
+ALTO;1934;Joalherias;Rua Domingos Agostim Sao Paulo SP 03306010 Brazil;sem numero de porta
+ALTO;1935;Joalherias;SGAS 905 Brasilia DF 70390050 Brazil;logradouro sem nome
+ALTO;1938;Joalherias;Rua Engenheiro Camilo Olivetti Guarulhos SP 07042040 Brazil;sem numero de porta
+ALTO;1939;Joalherias;Avenida Farroupilha Canoas RS Brazil;sem numero de porta
 ALTO;1942;Joalherias;Emporio Body Store Tambore Barueri SP 06455000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1943;Joalherias;Rua Carlos Gomes Centro Limeira SP 13480013 Brazil;sem numero de porta
-ALTO;1944;Joalherias;Avenida General David Sarnoff Cidade Industrial Contagem MG 32210110 Brazil;sem numero de porta
-ALTO;1945;Joalherias;Avenida Charles Schnneider Barranco Taubate SP 12040001 Brazil;sem numero de porta
-ALTO;1948;Joalherias;Avenida das Cataratas Vila Yolanda Foz do Iguacu PR 85853000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1943;Joalherias;Rua Carlos Gomes Limeira SP 13480013 Brazil;sem numero de porta
+ALTO;1944;Joalherias;Avenida General David Sarnoff Contagem MG 32210110 Brazil;sem numero de porta
+ALTO;1945;Joalherias;Avenida Charles Schnneider Taubate SP 12040001 Brazil;sem numero de porta
+ALTO;1948;Joalherias;Avenida das Cataratas Foz do Iguacu PR 85853000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1949;Joalherias;Emporio dos Controles Pirituba Sao Paulo SP 05145000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1951;Joalherias;Estrada de Sao Bento 3304 Itaquaquecetuba SP 08598100 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;1952;Joalherias;Avenida Maria Campos Industrial Autonomistas Osasco SP Brazil;sem numero de porta
-ALTO;1956;Joalherias;Avenida Fernando Machado Lider Chapeco SC Brazil;sem numero de porta
-ALTO;1957;Joalherias;Avenida Olegario Maciel Santo Agostinho Belo Horizonte MG 30140085 Brazil;sem numero de porta
-ALTO;1959;Joalherias;Rua Pacifico Mascarenhas Santa Efigenia Belo Horizonte MG 30260010 Brazil;sem numero de porta
-ALTO;1961;Joalherias;Rua Paulo de Faria Tucuruvi Sao Paulo SP 02267000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1962;Joalherias;Avenida Praia de Belas Praia de Belas Porto Alegre RS 90110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1952;Joalherias;Avenida Maria Campos Osasco SP Brazil;sem numero de porta
+ALTO;1956;Joalherias;Avenida Fernando Machado Chapeco SC Brazil;sem numero de porta
+ALTO;1957;Joalherias;Avenida Olegario Maciel Belo Horizonte MG 30140085 Brazil;sem numero de porta
+ALTO;1959;Joalherias;Rua Pacifico Mascarenhas Belo Horizonte MG 30260010 Brazil;sem numero de porta
+ALTO;1961;Joalherias;Rua Paulo de Faria Sao Paulo SP 02267000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1962;Joalherias;Avenida Praia de Belas Porto Alegre RS 90110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1963;Joalherias;Fascar Subsetor Sul 5 Ribeirao Preto SP Brazil;sem numero de porta
-ALTO;1965;Joalherias;Rua Lauro Muller Botafogo Rio de Janeiro RJ 22290160 Brazil;sem numero de porta
-ALTO;1967;Joalherias;Avenida Joao Naves de Avila Tibery Uberlandia MG 38405140 Brazil;sem numero de porta
+ALTO;1965;Joalherias;Rua Lauro Muller Rio de Janeiro RJ 22290160 Brazil;sem numero de porta
+ALTO;1967;Joalherias;Avenida Joao Naves de Avila Uberlandia MG 38405140 Brazil;sem numero de porta
 ALTO;1969;Joalherias;Vila Ipiranga Porto Alegre RS 91340001 Brazil;sem numero de porta
-ALTO;1970;Joalherias;Avenida Rotary Ferrazopolis Sao Bernardo do Campo SP 09721000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1970;Joalherias;Avenida Rotary Sao Bernardo do Campo SP 09721000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1971;Joalherias;MG 424 Confins MG 33500000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1972;Joalherias;Rua Maria Soares Sendas Centro Sao Joao de Meriti RJ 25581350 Brazil;sem numero de porta
-ALTO;1973;Joalherias;Rua Domingos de Morais Vila Mariana Sao Paulo SP 04036100 Brazil;sem numero de porta
+ALTO;1972;Joalherias;Rua Maria Soares Sendas Sao Joao de Meriti RJ 25581350 Brazil;sem numero de porta
+ALTO;1973;Joalherias;Rua Domingos de Morais Sao Paulo SP 04036100 Brazil;sem numero de porta
 ALTO;1974;Joalherias;EPIA Setores Complementares Asa Sul Brasilia DF Brazil;sem numero de porta
-ALTO;1975;Joalherias;Rua Professor Alfredo Gomes Botafogo Rio de Janeiro RJ 22251080 Brazil;sem numero de porta
-ALTO;1977;Joalherias;Rua Sebastiao Fabiano Dias Belvedere Belo Horizonte MG 30320690 Brazil;sem numero de porta
+ALTO;1975;Joalherias;Rua Professor Alfredo Gomes Rio de Janeiro RJ 22251080 Brazil;sem numero de porta
+ALTO;1977;Joalherias;Rua Sebastiao Fabiano Dias Belo Horizonte MG 30320690 Brazil;sem numero de porta
 ALTO;1979;Joalherias;MG 424 Confins MG 33500000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1983;Joalherias;Avenida Severino Ballesteros Rodrigues Cabral Contagem MG 32146003 Brazil;sem numero de porta
-ALTO;1987;Joalherias;Rua Orlando Odilio Koerich Distrito Industrial Sao Jose SC 86905000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1988;Joalherias;Avenida Jorge Elias de Lucca Nossa Senhora da Salete Criciuma SC 88813390 Brazil;sem numero de porta
-ALTO;1989;Joalherias;Via de Fato Rua Guaiao Aparecida Santos SP 11035260 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;1990;Joalherias;Avenida Presidente Kennedy Portao Curitiba PR 80610010 Brazil;sem numero de porta
+ALTO;1983;Joalherias;Avenida Severino Ballesteros Rodrigues Contagem MG 32146003 Brazil;sem numero de porta
+ALTO;1987;Joalherias;Rua Orlando Odilio Koerich Sao Jose SC 86905000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1988;Joalherias;Avenida Jorge Elias de Lucca Criciuma SC 88813390 Brazil;sem numero de porta
+ALTO;1989;Joalherias;Via de Fato Santos SP 11035260 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;1990;Joalherias;Avenida Presidente Kennedy Curitiba PR 80610010 Brazil;sem numero de porta
 ALTO;1991;Joalherias;Siberian Sanvitto Caxias do Sul RS 95112360 Brazil;sem numero de porta
-ALTO;1993;Joalherias;Avenida Santa Barbara Vila Mollon IV Santa Barbara d Oeste SP 13456625 Brazil;sem numero de porta
+ALTO;1993;Joalherias;Avenida Santa Barbara Santa Barbara d Oeste SP 13456625 Brazil;sem numero de porta
 ALTO;1994;Joalherias;Estrada do Campo Limpo 414 Sao Paulo SP 05777000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1997;Joalherias;Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil;sem numero de porta
 ALTO;1999;Joalherias;Grafica 2ml Uberlandia Shopping Gavea Uberlandia MG 38411106 Brazil;sem numero de porta
-ALTO;2000;Joalherias;Rua Pedro Lessa Santa Monica Florianopolis SC 88035020 Brazil;sem numero de porta
+ALTO;2000;Joalherias;Rua Pedro Lessa Florianopolis SC 88035020 Brazil;sem numero de porta
 ALTO;2002;Joalherias;Rodovia Akzo Nobei Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2003;Joalherias;Rodovia Helio Smidt Varzea do Palacio Guarulhos SP 07190100 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2004;Joalherias;Avenida Deputado Jamel Cecilio Jardim Goias Goiania GO 74810100 Brazil;sem numero de porta
-ALTO;2006;Joalherias;Avenida Ayrton Senna da Silva Sitio do Campo Praia Grande SP 11726000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2008;Joalherias;Passeio dos Flamboyants Parque Faber Castell I Sao Carlos SP 13561352 Brazil;sem numero de porta
-ALTO;2010;Joalherias;Rua Coronel Xavier de Toledo Republica Sao Paulo SP 01048000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2011;Joalherias;Rodovia dos Metalurgicos Sideropolis Volta Redonda RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2003;Joalherias;Rodovia Helio Smidt Guarulhos SP 07190100 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2004;Joalherias;Avenida Deputado Jamel Cecilio Goiania GO 74810100 Brazil;sem numero de porta
+ALTO;2006;Joalherias;Avenida Ayrton Senna da Silva Praia Grande SP 11726000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2008;Joalherias;Passeio dos Flamboyants Sao Carlos SP 13561352 Brazil;sem numero de porta
+ALTO;2010;Joalherias;Rua Coronel Xavier de Toledo Sao Paulo SP 01048000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2011;Joalherias;Rodovia dos Metalurgicos Volta Redonda RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2012;Joalherias;BR 470 Fortaleza Blumenau SC Brazil;sem numero de porta
-ALTO;2016;Joalherias;Avenida Del Rey Caicaras Belo Horizonte MG 30775240 Brazil;sem numero de porta
-ALTO;2017;Joalherias;Rua Olimpiadas Itaim Bibi Sao Paulo SP 04547004 Brazil;sem numero de porta
+ALTO;2016;Joalherias;Avenida Del Rey Belo Horizonte MG 30775240 Brazil;sem numero de porta
+ALTO;2017;Joalherias;Rua Olimpiadas Sao Paulo SP 04547004 Brazil;sem numero de porta
 ALTO;2018;Joalherias;Vila Cloris Belo Horizonte MG 31610070 Brazil;sem numero de porta
-ALTO;2021;Joalherias;Rua Visconde de Piraja Ipanema Rio de Janeiro RJ 22410003 Brazil;sem numero de porta
-ALTO;2023;Joalherias;Avenida Moaci Moema Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2030;Joalherias;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01456060 Brazil;sem numero de porta
-ALTO;2032;Joalherias;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01456060 Brazil;sem numero de porta
-ALTO;2035;Joalherias;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01456060 Brazil;sem numero de porta
-ALTO;2044;Joalherias;Avenida Moaci Moema Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2021;Joalherias;Rua Visconde de Piraja Rio de Janeiro RJ 22410003 Brazil;sem numero de porta
+ALTO;2023;Joalherias;Avenida Moaci Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2030;Joalherias;Avenida Brigadeiro Faria Lima Sao Paulo SP 01456060 Brazil;sem numero de porta
+ALTO;2032;Joalherias;Avenida Brigadeiro Faria Lima Sao Paulo SP 01456060 Brazil;sem numero de porta
+ALTO;2035;Joalherias;Avenida Brigadeiro Faria Lima Sao Paulo SP 01456060 Brazil;sem numero de porta
+ALTO;2044;Joalherias;Avenida Moaci Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2045;Joalherias;Estrada Nova Lima 3049 Belo Horizonte MG 30320760 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;2046;Joalherias;Rua Engenheiro Camilo Olivetti Itapegica Guarulhos SP 07042040 Brazil;sem numero de porta
-ALTO;2047;Joalherias;Rua Prof Pedro V Parigot de Souza Mossungue Curitiba PR 81200100 Brazil;sem numero de porta
-ALTO;2049;Joalherias;Avenida Ferreira Viana Areal Pelotas RS 96085000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2050;Joalherias;Avenida Deputado Jacob Salvador Sveibel Butanta Sao Paulo SP 05512390 Brazil;sem numero de porta
+ALTO;2046;Joalherias;Rua Engenheiro Camilo Olivetti Guarulhos SP 07042040 Brazil;sem numero de porta
+ALTO;2047;Joalherias;Rua Prof Pedro V Parigot de Souza Curitiba PR 81200100 Brazil;sem numero de porta
+ALTO;2049;Joalherias;Avenida Ferreira Viana Pelotas RS 96085000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2050;Joalherias;Avenida Deputado Jacob Salvador Sveibel Sao Paulo SP 05512390 Brazil;sem numero de porta
 ALTO;2052;Joalherias;Puket Aguas Claras DF 71931720 Brazil;"sem numero de porta; logradouro sem nome"
-ALTO;2053;Joalherias;Avenida Aldino Pinotti Centro Sao Bernardo do Campo SP 09750730 Brazil;sem numero de porta
-ALTO;2056;Joalherias;Praca Oswaldo Cruz Centro Curitiba PR 80250230 Brazil;sem numero de porta
+ALTO;2053;Joalherias;Avenida Aldino Pinotti Sao Bernardo do Campo SP 09750730 Brazil;sem numero de porta
+ALTO;2056;Joalherias;Praca Oswaldo Cruz Curitiba PR 80250230 Brazil;sem numero de porta
 ALTO;2057;Joalherias;Rodovia Dom Gabriel Paulino Bueno Couto 422 Itu SP 13304350 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;2059;Joalherias;Avenida Perimetral Norte Jardim Balneario Meia Ponte Goiania GO 74573260 Brazil;sem numero de porta
-ALTO;2061;Joalherias;Avenida Giovanni Gronchi Vila Andrade Sao Paulo SP 05724003 Brazil;sem numero de porta
-ALTO;2062;Joalherias;Avenida Transguarulhense Picanco Guarulhos SP 07082055 Brazil;sem numero de porta
+ALTO;2059;Joalherias;Avenida Perimetral Norte Goiania GO 74573260 Brazil;sem numero de porta
+ALTO;2061;Joalherias;Avenida Giovanni Gronchi Sao Paulo SP 05724003 Brazil;sem numero de porta
+ALTO;2062;Joalherias;Avenida Transguarulhense Guarulhos SP 07082055 Brazil;sem numero de porta
 ALTO;2063;Joalherias;Applebee s Marechal Rondon Canoas RS Brazil;sem numero de porta
-ALTO;2065;Joalherias;Rua Frei Rolim Cursino Sao Paulo SP 04151100 Brazil;sem numero de porta
+ALTO;2065;Joalherias;Rua Frei Rolim Sao Paulo SP 04151100 Brazil;sem numero de porta
 ALTO;2067;Joalherias;Rua Interna Mogi Guacu SP Brazil;sem numero de porta
-ALTO;2068;Joalherias;Avenida Transguarulhense Picanco Guarulhos SP 07082055 Brazil;sem numero de porta
-ALTO;2070;Joalherias;Avenida Santa Barbara Vila Mollon IV Santa Barbara d Oeste SP 13456625 Brazil;sem numero de porta
-ALTO;2073;Joalherias;Estrada da Represa Campo Grande Rio de Janeiro RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2077;Joalherias;Rua Tenente Antonio Joao Zona Industrial Norte Joinville SC 89219720 Brazil;sem numero de porta
-ALTO;2078;Joalherias;Avenida Piracema Tambore Barueri SP 06460030 Brazil;sem numero de porta
+ALTO;2068;Joalherias;Avenida Transguarulhense Guarulhos SP 07082055 Brazil;sem numero de porta
+ALTO;2070;Joalherias;Avenida Santa Barbara Santa Barbara d Oeste SP 13456625 Brazil;sem numero de porta
+ALTO;2073;Joalherias;Estrada da Represa Rio de Janeiro RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2077;Joalherias;Rua Tenente Antonio Joao Joinville SC 89219720 Brazil;sem numero de porta
+ALTO;2078;Joalherias;Avenida Piracema Barueri SP 06460030 Brazil;sem numero de porta
 ALTO;2081;Joalherias;Vila Formosa Sao Paulo SP 03342000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2083;Joalherias;Vila Cloris Belo Horizonte MG 31610070 Brazil;sem numero de porta
 ALTO;2084;Joalherias;SUBWAY Tibery Uberlandia MG 38405142 Brazil;sem numero de porta
 ALTO;2085;Joalherias;Shell ERL S Zona Civico Administrativa Brasilia DF Brazil;sem numero de porta
 ALTO;2087;Joalherias;Estrada do Monteiro 1200 Rio de Janeiro RJ 23045830 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;2088;Joalherias;Rua Henrique Savi Jardim Infante Dom Henrique Bauru SP 17012205 Brazil;sem numero de porta
+ALTO;2088;Joalherias;Rua Henrique Savi Bauru SP 17012205 Brazil;sem numero de porta
 ALTO;2091;Joalherias;Avenida Aprigio Bezerra da Silva Taboao da Serra SP 06763040 Brazil;sem numero de porta
-ALTO;2093;Joalherias;Rua Pacifico Mascarenhas Santa Efigenia Belo Horizonte MG 30260010 Brazil;sem numero de porta
+ALTO;2093;Joalherias;Rua Pacifico Mascarenhas Belo Horizonte MG 30260010 Brazil;sem numero de porta
 ALTO;2094;Joalherias;Polo Uk Santa Luiza Varginha MG Brazil;sem numero de porta
-ALTO;2095;Joalherias;Avenida Marginal Pinheiros Morumbi Sao Paulo SP 05502001 Brazil;sem numero de porta
-ALTO;2096;Joalherias;Rua Domingos de Morais Vila Mariana Sao Paulo SP 04036100 Brazil;sem numero de porta
-ALTO;2098;Joalherias;Avenida T 15 Jardim America Goiania GO 74230010 Brazil;sem numero de porta
+ALTO;2095;Joalherias;Avenida Marginal Pinheiros Sao Paulo SP 05502001 Brazil;sem numero de porta
+ALTO;2096;Joalherias;Rua Domingos de Morais Sao Paulo SP 04036100 Brazil;sem numero de porta
+ALTO;2098;Joalherias;Avenida T 15 Goiania GO 74230010 Brazil;sem numero de porta
 ALTO;2103;Joalherias;Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil;sem numero de porta
-ALTO;2107;Joalherias;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01456060 Brazil;sem numero de porta
-ALTO;2112;Joalherias;Avenida Toledo Centro Cascavel PR 85810230 Brazil;sem numero de porta
+ALTO;2107;Joalherias;Avenida Brigadeiro Faria Lima Sao Paulo SP 01456060 Brazil;sem numero de porta
+ALTO;2112;Joalherias;Avenida Toledo Cascavel PR 85810230 Brazil;sem numero de porta
 ALTO;2115;Joalherias;Fascar Subsetor Sul 5 Ribeirao Preto SP Brazil;sem numero de porta
-ALTO;2116;Joalherias;Estrada do Engenho d Agua Anil Rio de Janeiro RJ 22765240 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2116;Joalherias;Estrada do Engenho d Agua Rio de Janeiro RJ 22765240 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2117;Joalherias;Rua Gustavo Maciel 5 2 Centro Bauru SP 17010040 Brazil;sem numero de porta
-ALTO;2119;Joalherias;Rua Augusta Consolacao Sao Paulo SP 01304001 Brazil;sem numero de porta
+ALTO;2119;Joalherias;Rua Augusta Sao Paulo SP 01304001 Brazil;sem numero de porta
 ALTO;2120;Joalherias;Rua Gustavo Maciel 5 2 Centro Bauru SP 17010040 Brazil;sem numero de porta
-ALTO;2121;Joalherias;Avenida Doutor Afonso Vergueiro Centro Sorocaba SP 18035370 Brazil;sem numero de porta
+ALTO;2121;Joalherias;Avenida Doutor Afonso Vergueiro Sorocaba SP 18035370 Brazil;sem numero de porta
 ALTO;2122;Joalherias;Estrada do Campo Limpo 414 Sao Paulo SP 05777000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2124;Joalherias;Estrada Cama Patente 1000 Sao Bernardo do Campo SP 09842100 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;2126;Joalherias;BR 282 Rocado Sao Jose SC 86905000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2127;Joalherias;Avenida Charles Schnneider Barranco Taubate SP 12040000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2127;Joalherias;Avenida Charles Schnneider Taubate SP 12040000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2129;Joalherias;Olha O Churros Cidade Satelite Iris Campinas SP Brazil;sem numero de porta
-ALTO;2131;Joalherias;Avenida T 10 Bueno Goiania GO 74223060 Brazil;sem numero de porta
+ALTO;2131;Joalherias;Avenida T 10 Goiania GO 74223060 Brazil;sem numero de porta
 ALTO;2132;Joalherias;Rodovia do Cafe Governador Ney Braga Balsa Nova PR 83650000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2133;Joalherias;Avenida Independencia Sao Mateus Juiz de Fora MG 36025320 Brazil;sem numero de porta
-ALTO;2136;Joalherias;Avenida Ramiro Colleoni Vila Gilda Santo Andre SP 09040160 Brazil;sem numero de porta
-ALTO;2138;Joalherias;Avenida Toledo Centro Cascavel PR 85810230 Brazil;sem numero de porta
-ALTO;2140;Joalherias;Avenida Joao Naves de Avila Tibery Uberlandia MG 38405140 Brazil;sem numero de porta
-ALTO;2141;Joalherias;Avenida Alberto Benassi Jardim dos Manacas Araraquara SP 14804300 Brazil;sem numero de porta
-ALTO;2142;Joalherias;Avenida Antonio de Souza Noschese Jaguare Sao Paulo SP 05328000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2144;Joalherias;Avenida General David Sarnoff Cidade Industrial Contagem MG 32210110 Brazil;sem numero de porta
+ALTO;2133;Joalherias;Avenida Independencia Juiz de Fora MG 36025320 Brazil;sem numero de porta
+ALTO;2136;Joalherias;Avenida Ramiro Colleoni Santo Andre SP 09040160 Brazil;sem numero de porta
+ALTO;2138;Joalherias;Avenida Toledo Cascavel PR 85810230 Brazil;sem numero de porta
+ALTO;2140;Joalherias;Avenida Joao Naves de Avila Uberlandia MG 38405140 Brazil;sem numero de porta
+ALTO;2141;Joalherias;Avenida Alberto Benassi Araraquara SP 14804300 Brazil;sem numero de porta
+ALTO;2142;Joalherias;Avenida Antonio de Souza Noschese Sao Paulo SP 05328000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2144;Joalherias;Avenida General David Sarnoff Contagem MG 32210110 Brazil;sem numero de porta
 ALTO;2146;Joalherias;SAMSUNG Avenida Severino Ballesteros Rodrigues Brazil;"sem numero de porta; logradouro sem nome"
-ALTO;2152;Joalherias;Rodovia Raposo Tavares Centro Cotia SP 06708000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2154;Joalherias;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 01456060 Brazil;sem numero de porta
+ALTO;2152;Joalherias;Rodovia Raposo Tavares Cotia SP 06708000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2154;Joalherias;Avenida Brigadeiro Faria Lima Sao Paulo SP 01456060 Brazil;sem numero de porta
 ALTO;2156;Joalherias;Avenida Quinze de Novembro Alexania GO 72930000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2159;Joalherias;Rua Domingos Agostim Tatuape Sao Paulo SP 03306010 Brazil;sem numero de porta
+ALTO;2159;Joalherias;Rua Domingos Agostim Sao Paulo SP 03306010 Brazil;sem numero de porta
 ALTO;2160;Joalherias;BURGER KING Lovat Umuarama PR 87520000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2162;Joalherias;Avenida Joao Paulo I Embu das Artes SP 06817000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2164;Joalherias;BR 287 2885 Urlandia Santa Maria RS 97070800 Brazil;sem numero de porta
-ALTO;2166;Joalherias;Avenida Aldino Pinotti Centro Sao Bernardo do Campo SP 09750730 Brazil;sem numero de porta
-ALTO;2167;Joalherias;Praca Oswaldo Cruz Centro Curitiba PR 80250230 Brazil;sem numero de porta
+ALTO;2166;Joalherias;Avenida Aldino Pinotti Sao Bernardo do Campo SP 09750730 Brazil;sem numero de porta
+ALTO;2167;Joalherias;Praca Oswaldo Cruz Curitiba PR 80250230 Brazil;sem numero de porta
 ALTO;2169;Joalherias;Grafica 2ml Uberlandia Shopping Gavea Uberlandia MG 38411106 Brazil;sem numero de porta
 ALTO;2170;Joalherias;Shell ERL S Zona Civico Administrativa Brasilia DF Brazil;sem numero de porta
-ALTO;2171;Joalherias;Avenida das Cataratas Vila Yolanda Foz do Iguacu PR 85853000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2173;Joalherias;Rua Bocaiuva Centro Florianopolis SC 88015530 Brazil;sem numero de porta
-ALTO;2174;Joalherias;Rodovia Fernao Dias Santo Antonio Betim MG Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2171;Joalherias;Avenida das Cataratas Foz do Iguacu PR 85853000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2173;Joalherias;Rua Bocaiuva Florianopolis SC 88015530 Brazil;sem numero de porta
+ALTO;2174;Joalherias;Rodovia Fernao Dias Betim MG Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2175;Joalherias;Lopes Cafe Primavera Guarapuava PR 85050030 Brazil;sem numero de porta
 ALTO;2178;Joalherias;New Time Santo Amaro Sao Paulo SP 04710190 Brazil;sem numero de porta
-ALTO;2180;Joalherias;Avenida Santa Catarina Dos Estados Balneario Camboriu SC 88339005 Brazil;sem numero de porta
-ALTO;2181;Joalherias;Rua Pedro Lessa Santa Monica Florianopolis SC 88035020 Brazil;sem numero de porta
-ALTO;2186;Joalherias;Avenida Engenheiro Caetano Alvares Mandaqui Sao Paulo SP 02413100 Brazil;sem numero de porta
-ALTO;2187;Joalherias;Avenida Santa Catarina Dos Estados Balneario Camboriu SC 88339005 Brazil;sem numero de porta
-ALTO;2191;Joalherias;Avenida Deputado Jamel Cecilio Jardim Goias Goiania GO 74810100 Brazil;sem numero de porta
-ALTO;2194;Joalherias;Avenida Fernando Machado Lider Chapeco SC Brazil;sem numero de porta
-ALTO;2195;Joalherias;Rodovia Presidente Dutra Itapegica Guarulhos SP 07025000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2180;Joalherias;Avenida Santa Catarina Balneario Camboriu SC 88339005 Brazil;sem numero de porta
+ALTO;2181;Joalherias;Rua Pedro Lessa Florianopolis SC 88035020 Brazil;sem numero de porta
+ALTO;2186;Joalherias;Avenida Engenheiro Caetano Alvares Sao Paulo SP 02413100 Brazil;sem numero de porta
+ALTO;2187;Joalherias;Avenida Santa Catarina Balneario Camboriu SC 88339005 Brazil;sem numero de porta
+ALTO;2191;Joalherias;Avenida Deputado Jamel Cecilio Goiania GO 74810100 Brazil;sem numero de porta
+ALTO;2194;Joalherias;Avenida Fernando Machado Chapeco SC Brazil;sem numero de porta
+ALTO;2195;Joalherias;Rodovia Presidente Dutra Guarulhos SP 07025000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2196;Joalherias;Avenida Gov Mario Covas Junior Maua SP 09390040 Brazil;sem numero de porta
-ALTO;2198;Joalherias;Rua Rosario Jardim Oriente Sao Jose dos Campos SP 12235420 Brazil;sem numero de porta
+ALTO;2198;Joalherias;Rua Rosario Sao Jose dos Campos SP 12235420 Brazil;sem numero de porta
 ALTO;2199;Joalherias;Jardim Madalena Campinas SP 13091605 Brazil;sem numero de porta
-ALTO;2200;Joalherias;Avenida Fernando Machado Lider Chapeco SC Brazil;sem numero de porta
-ALTO;2202;Joalherias;Avenida Deputado Jacob Salvador Sveibel Butanta Sao Paulo SP 05512390 Brazil;sem numero de porta
-ALTO;2205;Joalherias;Avenida Praia de Belas Praia de Belas Porto Alegre RS 90110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2200;Joalherias;Avenida Fernando Machado Chapeco SC Brazil;sem numero de porta
+ALTO;2202;Joalherias;Avenida Deputado Jacob Salvador Sveibel Sao Paulo SP 05512390 Brazil;sem numero de porta
+ALTO;2205;Joalherias;Avenida Praia de Belas Porto Alegre RS 90110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2210;Joalherias;Vila Cloris Belo Horizonte MG 31610070 Brazil;sem numero de porta
-ALTO;2211;Joalherias;Estrada do Engenho d Agua Anil Rio de Janeiro RJ 22765240 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2212;Joalherias;Rua Goncalves Crespo Tatuape Sao Paulo SP 03066030 Brazil;sem numero de porta
+ALTO;2211;Joalherias;Estrada do Engenho d Agua Rio de Janeiro RJ 22765240 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2212;Joalherias;Rua Goncalves Crespo Sao Paulo SP 03066030 Brazil;sem numero de porta
 ALTO;2217;Joalherias;Tyrol Sitio do Campo Praia Grande SP 11726000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2218;Joalherias;Rua Capitao Pacheco e Chaves Mooca Sao Paulo SP 03126001 Brazil;sem numero de porta
+ALTO;2218;Joalherias;Rua Capitao Pacheco e Chaves Sao Paulo SP 03126001 Brazil;sem numero de porta
 ALTO;2219;Joalherias;Vila Santa Maria Passo Fundo RS 83649600 Brazil;sem numero de porta
 ALTO;2220;Joalherias;Nova Iguacu Food Luz Nova Iguacu RJ Brazil;sem numero de porta
 ALTO;2222;Joalherias;Siberian Sanvitto Caxias do Sul RS 95112360 Brazil;sem numero de porta
-ALTO;2223;Joalherias;Praia de Botafogo Botafogo Rio de Janeiro RJ 22250040 Brazil;sem numero de porta
-ALTO;2228;Joalherias;Avenida Praia de Belas Praia de Belas Porto Alegre RS 90110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2229;Joalherias;Rua Domingos de Morais Vila Mariana Sao Paulo SP 04036100 Brazil;sem numero de porta
-ALTO;2233;Joalherias;Rua Pedro Lessa Santa Monica Florianopolis SC 88035020 Brazil;sem numero de porta
-ALTO;2234;Joalherias;Estrada da Represa Campo Grande Rio de Janeiro RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2223;Joalherias;Praia de Botafogo Rio de Janeiro RJ 22250040 Brazil;sem numero de porta
+ALTO;2228;Joalherias;Avenida Praia de Belas Porto Alegre RS 90110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2229;Joalherias;Rua Domingos de Morais Sao Paulo SP 04036100 Brazil;sem numero de porta
+ALTO;2233;Joalherias;Rua Pedro Lessa Florianopolis SC 88035020 Brazil;sem numero de porta
+ALTO;2234;Joalherias;Estrada da Represa Rio de Janeiro RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2236;Joalherias;RSC 453 Sanvitto Caxias do Sul RS 95112360 Brazil;sem numero de porta
 ALTO;2240;Joalherias;Fascar Subsetor Sul 5 Ribeirao Preto SP Brazil;sem numero de porta
 ALTO;2241;Joalherias;Vila Santa Maria Passo Fundo RS 83649600 Brazil;sem numero de porta
 ALTO;2243;Joalherias;Rodovia Presidente Castelo Branco Sao Roque SP 18132851 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2246;Joalherias;Avenida Del Rey Caicaras Belo Horizonte MG 30775240 Brazil;sem numero de porta
+ALTO;2246;Joalherias;Avenida Del Rey Belo Horizonte MG 30775240 Brazil;sem numero de porta
 ALTO;2247;Joalherias;Vila Ipiranga Porto Alegre RS 91340001 Brazil;sem numero de porta
-ALTO;2248;Joalherias;Rua Vergueiro Steidel Aparecida Santos SP 11040271 Brazil;sem numero de porta
+ALTO;2248;Joalherias;Rua Vergueiro Steidel Santos SP 11040271 Brazil;sem numero de porta
 ALTO;2250;Joalherias;Avenida Presidente Kennedy Subsetor Leste 6 Ribeirao Preto SP 14096350 Brazil;sem numero de porta
-ALTO;2252;Joalherias;Rua Sebastiao Fabiano Dias Belvedere Belo Horizonte MG 30320690 Brazil;sem numero de porta
+ALTO;2252;Joalherias;Rua Sebastiao Fabiano Dias Belo Horizonte MG 30320690 Brazil;sem numero de porta
 ALTO;2253;Joalherias;EPIA Setores Complementares Asa Sul Brasilia DF Brazil;sem numero de porta
 ALTO;2255;Joalherias;BR 287 2885 Urlandia Santa Maria RS 97070800 Brazil;sem numero de porta
-ALTO;2256;Joalherias;Rua Jorge Marcolino de Rezende Pacaembu Londrina PR 86079230 Brazil;sem numero de porta
+ALTO;2256;Joalherias;Rua Jorge Marcolino de Rezende Londrina PR 86079230 Brazil;sem numero de porta
 ALTO;2257;Joalherias;Rodovia Governador Mario Covas Tijucas SC 88200000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2260;Joalherias;Estrada de Sao Bento 3304 Itaquaquecetuba SP 08598100 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;2261;Joalherias;SUBWAY Usiminas Ipatinga MG 35160290 Brazil;sem numero de porta
-ALTO;2262;Joalherias;Rua Tenente Antonio Joao Zona Industrial Norte Joinville SC 89219720 Brazil;sem numero de porta
+ALTO;2262;Joalherias;Rua Tenente Antonio Joao Joinville SC 89219720 Brazil;sem numero de porta
 ALTO;2266;Joalherias;Tyrol Sitio do Campo Praia Grande SP 11726000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2267;Joalherias;Avenida Iguatemi Vila Brandina Campinas SP 13092500 Brazil;sem numero de porta
+ALTO;2267;Joalherias;Avenida Iguatemi Campinas SP 13092500 Brazil;sem numero de porta
 ALTO;2268;Joalherias;Polo Uk Santa Luiza Varginha MG Brazil;sem numero de porta
 ALTO;2270;Joalherias;Botequim Guanabara Monte Verde Florianopolis SC Brazil;sem numero de porta
 ALTO;2274;Joalherias;5 a Sec Industrial Autonomistas Osasco SP Brazil;sem numero de porta
 ALTO;2277;Joalherias;Jardim Madalena Campinas SP 13091605 Brazil;sem numero de porta
-ALTO;2279;Joalherias;Rodovia Helio Smidt Varzea do Palacio Guarulhos SP 07190100 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2281;Joalherias;Avenida Maria Campos Industrial Autonomistas Osasco SP Brazil;sem numero de porta
-ALTO;2284;Joalherias;Avenida Moaci Moema Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2279;Joalherias;Rodovia Helio Smidt Guarulhos SP 07190100 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2281;Joalherias;Avenida Maria Campos Osasco SP Brazil;sem numero de porta
+ALTO;2284;Joalherias;Avenida Moaci Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2285;Joalherias;ERS 734 Rio Grande RS 96216400 Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;2289;Joalherias;Rodovia Akzo Nobei Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2290;Joalherias;Cacau Noir Ceramica Sao Caetano do Sul SP Brazil;sem numero de porta
 ALTO;2291;Joalherias;Distrito Industrial Sao Jose SC 88104810 Brazil;sem numero de porta
-ALTO;2293;Joalherias;SQS 108 Asa Sul Brasilia DF 70347040 Brazil;sem numero de porta
-ALTO;2298;Joalherias;Avenida Deputado Jamel Cecilio Jardim Goias Goiania GO 74810100 Brazil;sem numero de porta
-ALTO;2299;Joalherias;Rua Prefeito Antonio Curvelo Benjamim Visconde de Araujo Macae RJ 27971210 Brazil;sem numero de porta
-ALTO;2304;Joalherias;Rua Olavo Barreto Viana Moinhos de Vento Porto Alegre RS 90570070 Brazil;sem numero de porta
+ALTO;2293;Joalherias;SQS 108 Brasilia DF 70347040 Brazil;logradouro sem nome
+ALTO;2298;Joalherias;Avenida Deputado Jamel Cecilio Goiania GO 74810100 Brazil;sem numero de porta
+ALTO;2299;Joalherias;Rua Prefeito Antonio Curvelo Benjamim Macae RJ 27971210 Brazil;sem numero de porta
+ALTO;2304;Joalherias;Rua Olavo Barreto Viana Porto Alegre RS 90570070 Brazil;sem numero de porta
 ALTO;2307;Joalherias;BR 470 Fortaleza Blumenau SC Brazil;sem numero de porta
-ALTO;2309;Joalherias;Rua Padre Anchieta Centro Sao Vicente SP 11310040 Brazil;sem numero de porta
-ALTO;2313;Joalherias;Rodovia Helio Smidt Varzea do Palacio Guarulhos SP 07190100 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2309;Joalherias;Rua Padre Anchieta Sao Vicente SP 11310040 Brazil;sem numero de porta
+ALTO;2313;Joalherias;Rodovia Helio Smidt Guarulhos SP 07190100 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2314;Joalherias;Rodovia Dom Gabriel Paulino Bueno Couto 422 Itu SP 13304350 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;2316;Joalherias;Avenida Farroupilha Marechal Rondon Canoas RS Brazil;sem numero de porta
-ALTO;2317;Joalherias;Rua Carlos Gomes Centro Limeira SP 13480013 Brazil;sem numero de porta
-ALTO;2318;Joalherias;SQS 108 Asa Sul Brasilia DF 70347040 Brazil;sem numero de porta
-ALTO;2319;Joalherias;Avenida das Nacoes Unidas Itaim Bibi Sao Paulo SP 04795100 Brazil;sem numero de porta
-ALTO;2320;Joalherias;Rua Pacifico Mascarenhas Santa Efigenia Belo Horizonte MG 30260010 Brazil;sem numero de porta
-ALTO;2321;Joalherias;Avenida Piracema Tambore Barueri SP 06460030 Brazil;sem numero de porta
-ALTO;2323;Joalherias;Rua Olimpiadas Itaim Bibi Sao Paulo SP 04547004 Brazil;sem numero de porta
+ALTO;2316;Joalherias;Avenida Farroupilha Canoas RS Brazil;sem numero de porta
+ALTO;2317;Joalherias;Rua Carlos Gomes Limeira SP 13480013 Brazil;sem numero de porta
+ALTO;2318;Joalherias;SQS 108 Brasilia DF 70347040 Brazil;logradouro sem nome
+ALTO;2319;Joalherias;Avenida das Nacoes Unidas Sao Paulo SP 04795100 Brazil;sem numero de porta
+ALTO;2320;Joalherias;Rua Pacifico Mascarenhas Belo Horizonte MG 30260010 Brazil;sem numero de porta
+ALTO;2321;Joalherias;Avenida Piracema Barueri SP 06460030 Brazil;sem numero de porta
+ALTO;2323;Joalherias;Rua Olimpiadas Sao Paulo SP 04547004 Brazil;sem numero de porta
 ALTO;2325;Joalherias;Alameda 1 Ribeirao Preto SP Brazil;logradouro sem nome
-ALTO;2331;Joalherias;Avenida Olegario Maciel Santo Agostinho Belo Horizonte MG 30140085 Brazil;sem numero de porta
-ALTO;2332;Joalherias;Avenida Jorge Elias de Lucca Nossa Senhora da Salete Criciuma SC 88813390 Brazil;sem numero de porta
-ALTO;2334;Joalherias;Rua Fonseca Bangu Rio de Janeiro RJ 21820005 Brazil;sem numero de porta
-ALTO;2337;Joalherias;Avenida Moaci Moema Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2331;Joalherias;Avenida Olegario Maciel Belo Horizonte MG 30140085 Brazil;sem numero de porta
+ALTO;2332;Joalherias;Avenida Jorge Elias de Lucca Criciuma SC 88813390 Brazil;sem numero de porta
+ALTO;2334;Joalherias;Rua Fonseca Rio de Janeiro RJ 21820005 Brazil;sem numero de porta
+ALTO;2337;Joalherias;Avenida Moaci Sao Paulo SP 04083000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2339;Joalherias;Viena Delicatessen Santo Amaro Sao Paulo SP 04710190 Brazil;sem numero de porta
-ALTO;2340;Joalherias;Avenida Maestro Paulo e Silva Jardim Carioca Rio de Janeiro RJ 21920445 Brazil;sem numero de porta
-ALTO;2342;Joalherias;Rua Manuel da Nobrega Centro Diadema SP 09910720 Brazil;sem numero de porta
-ALTO;2347;Joalherias;Avenida Rotary Ferrazopolis Sao Bernardo do Campo SP 09721000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2348;Joalherias;Scs Bloco B Asa Sul Brasilia DF 70332900 Brazil;sem numero de porta
+ALTO;2340;Joalherias;Avenida Maestro Paulo e Silva Rio de Janeiro RJ 21920445 Brazil;sem numero de porta
+ALTO;2342;Joalherias;Rua Manuel da Nobrega Diadema SP 09910720 Brazil;sem numero de porta
+ALTO;2347;Joalherias;Avenida Rotary Sao Bernardo do Campo SP 09721000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2348;Joalherias;Scs Bloco B Brasilia DF 70332900 Brazil;sem numero de porta
 ALTO;2349;Joalherias;Multi Money Praca Souza Aranha Barra Funda Sao Paulo SP 05003130 Brazil;sem numero de porta
-ALTO;2350;Joalherias;Passeio dos Flamboyants Parque Faber Castell I Sao Carlos SP 13561352 Brazil;sem numero de porta
-ALTO;2351;Joalherias;Avenida Perimetral Norte Jardim Balneario Meia Ponte Goiania GO 74573260 Brazil;sem numero de porta
-ALTO;2354;Joalherias;Avenida Antonio de Souza Noschese Jaguare Sao Paulo SP 05328000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2350;Joalherias;Passeio dos Flamboyants Sao Carlos SP 13561352 Brazil;sem numero de porta
+ALTO;2351;Joalherias;Avenida Perimetral Norte Goiania GO 74573260 Brazil;sem numero de porta
+ALTO;2354;Joalherias;Avenida Antonio de Souza Noschese Sao Paulo SP 05328000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2357;Joalherias;Fazenda Militar Barueri SP 06440180 Brazil;sem numero de porta
 ALTO;2358;Joalherias;Alameda 1 Ribeirao Preto SP Brazil;logradouro sem nome
-ALTO;2359;Joalherias;Rua Nova Vista Campo Grande Sao Paulo SP 04455240 Brazil;sem numero de porta
+ALTO;2359;Joalherias;Rua Nova Vista Sao Paulo SP 04455240 Brazil;sem numero de porta
 ALTO;2361;Joalherias;Paris Boulevard Fraternidade Londrina PR 86027750 Brazil;sem numero de porta
-ALTO;2365;Joalherias;Avenida Anisio Haddad Sao Manoel Sao Jose do Rio Preto SP 15093000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2365;Joalherias;Avenida Anisio Haddad Sao Jose do Rio Preto SP 15093000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2368;Joalherias;Avenida Gov Andre Franco Montoro Taboao da Serra SP 06757000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2369;Joalherias;Estrada do Campo Limpo 414 Sao Paulo SP 05777000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2374;Joalherias;SGAS 905 BLOCO A Asa Sul Brasilia DF 70390050 Brazil;sem numero de porta
-ALTO;2376;Joalherias;Passeio dos Flamboyants Parque Faber Castell I Sao Carlos SP 13561352 Brazil;sem numero de porta
-ALTO;2379;Joalherias;Avenida Brasil Mariano Procopio Juiz de Fora MG 36080060 Brazil;sem numero de porta
+ALTO;2374;Joalherias;SGAS 905 Brasilia DF 70390050 Brazil;logradouro sem nome
+ALTO;2376;Joalherias;Passeio dos Flamboyants Sao Carlos SP 13561352 Brazil;sem numero de porta
+ALTO;2379;Joalherias;Avenida Brasil Juiz de Fora MG 36080060 Brazil;sem numero de porta
 ALTO;2380;Joalherias;Banco do Brasil Barranco Taubate SP 12040000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2381;Joalherias;Avenida Otto Baumgart Vila Guilherme Sao Paulo SP Brazil;sem numero de porta
-ALTO;2382;Joalherias;Rua Guaiao Aparecida Santos SP 11035260 Brazil;sem numero de porta
+ALTO;2381;Joalherias;Avenida Otto Baumgart Sao Paulo SP Brazil;sem numero de porta
+ALTO;2382;Joalherias;Rua Guaiao Santos SP 11035260 Brazil;sem numero de porta
 ALTO;2386;Joalherias;Vila Nambi Jundiai SP 13202460 Brazil;sem numero de porta
-ALTO;2387;Joalherias;Scs Bloco B Asa Sul Brasilia DF 70332900 Brazil;sem numero de porta
+ALTO;2387;Joalherias;Scs Bloco B Brasilia DF 70332900 Brazil;sem numero de porta
 ALTO;2390;Joalherias;Rodovia Presidente Castelo Branco Sao Roque SP 18132851 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2392;Joalherias;Avenida Santa Barbara Vila Mollon IV Santa Barbara d Oeste SP 13456625 Brazil;sem numero de porta
-ALTO;2393;Joalherias;Via W Cinco Norte Asa Norte Brasilia DF Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2392;Joalherias;Avenida Santa Barbara Santa Barbara d Oeste SP 13456625 Brazil;sem numero de porta
+ALTO;2393;Joalherias;Via W Cinco Norte Brasilia DF Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2394;Joalherias;Rodovia dos Metalurgicos 1189 Volta Redonda RJ 27253005 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;2395;Joalherias;Avenida Costa e Silva Jardim Polo Centro Foz do Iguacu PR 85863000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2396;Joalherias;Avenida Independencia Sao Mateus Juiz de Fora MG 36025320 Brazil;sem numero de porta
+ALTO;2395;Joalherias;Avenida Costa e Silva Foz do Iguacu PR 85863000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2396;Joalherias;Avenida Independencia Juiz de Fora MG 36025320 Brazil;sem numero de porta
 ALTO;2397;Joalherias;Parque dos Rodoviarios Campos dos Goytacazes RJ Brazil;sem numero de porta
-ALTO;2400;Joalherias;Rua Dianopolis Mooca Sao Paulo SP 03126007 Brazil;sem numero de porta
+ALTO;2400;Joalherias;Rua Dianopolis Sao Paulo SP 03126007 Brazil;sem numero de porta
 ALTO;2401;Joalherias;Vila Formosa Sao Paulo SP 03342000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2402;Joalherias;Rodovia Raposo Tavares Centro Cotia SP 06708000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2403;Joalherias;Avenida Presidente Kennedy Portao Curitiba PR 80610010 Brazil;sem numero de porta
+ALTO;2402;Joalherias;Rodovia Raposo Tavares Cotia SP 06708000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2403;Joalherias;Avenida Presidente Kennedy Curitiba PR 80610010 Brazil;sem numero de porta
 ALTO;2405;Joalherias;SGAN 916 Bloco F Asa Norte Brasilia DF 70770100 Brazil;sem numero de porta
 ALTO;2406;Joalherias;EPIA Setores Complementares Asa Sul Brasilia DF Brazil;sem numero de porta
-ALTO;2407;Joalherias;Avenida Doutora Ruth Cardoso Alto de Pinheiros Sao Paulo SP 05477000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2409;Joalherias;Alameda Rio Negro Alphaville Barueri SP Brazil;sem numero de porta
+ALTO;2407;Joalherias;Avenida Doutora Ruth Cardoso Sao Paulo SP 05477000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2409;Joalherias;Alameda Rio Negro Barueri SP Brazil;sem numero de porta
 ALTO;2413;Joalherias;Uberlandia Shopping Norte Gavea Uberlandia MG Brazil;sem numero de porta
-ALTO;2414;Joalherias;Avenida Rotary Ferrazopolis Sao Bernardo do Campo SP 09790000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2414;Joalherias;Avenida Rotary Sao Bernardo do Campo SP 09790000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2415;Joalherias;Bb Basico Areal Pelotas RS 96085000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2418;Joalherias;Shell ERL S Zona Civico Administrativa Brasilia DF Brazil;sem numero de porta
-ALTO;2423;Decor;Rua Doutor Antonio Carlos Assumpcao Pinheiros Sao Paulo SP 01441020 Brazil;sem numero de porta
-ALTO;2426;Decor;Avenida das Nacoes Unidas Itaim Bibi Sao Paulo SP 04578000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2430;Decor;Alameda Gabriel Monteiro da Silva Jardim Paulista Sao Paulo SP 01441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2423;Decor;Rua Doutor Antonio Carlos Assumpcao Sao Paulo SP 01441020 Brazil;sem numero de porta
+ALTO;2426;Decor;Avenida das Nacoes Unidas Sao Paulo SP 04578000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2430;Decor;Alameda Gabriel Monteiro da Silva Sao Paulo SP 01441000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2431;Decor;Rodovia Raposo Tavares 27500 Cotia SP 06708000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2435;Helipontos;Jardim America Rio do Sul SC 89160000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2436;Helipontos;Rua Afonso Pena Timbo SC 89120000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2440;Helipontos;Avenida Governador Irineu Bornhausen Agronomica Florianopolis SC 88015710 Brazil;sem numero de porta
+ALTO;2440;Helipontos;Avenida Governador Irineu Bornhausen Florianopolis SC 88015710 Brazil;sem numero de porta
 ALTO;2441;Helipontos;BR 101 Ararangua SC 88900000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2446;Helipontos;Rua Bertolino Joao de Melo Santo Amaro da Imperatriz SC 88140000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2449;Helipontos;Tattoo Show Studio Tatuagens e Piercing Nossa Senhora da Saude Caxias do Sul RS Brazil;sem numero de porta
-ALTO;2450;Helipontos;Avenida Monsenhor Frederico Trombock Industrial Sao Ludgero SC 88730000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2450;Helipontos;Avenida Monsenhor Frederico Trombock Sao Ludgero SC 88730000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2452;Helipontos;Corpo de Bombeiros Militar Navegantes Sao Domingos Navegantes SC 88370513 Brazil;sem numero de porta
 ALTO;2455;Helipontos;Zuanazzi e Lorenzini Advogados Associados Centro Historico Porto Alegre RS Brazil;sem numero de porta
-ALTO;2456;Helipontos;Parque Marinha do Brasil Praia de Belas Porto Alegre RS 90110240 Brazil;sem numero de porta
+ALTO;2456;Helipontos;Parque Marinha do Brasil Porto Alegre RS 90110240 Brazil;sem numero de porta
 ALTO;2459;Helipontos;Rodovia Governador Mario Covas Barra Velha SC 88390000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2461;Helipontos;Rua Ottokar Doerffel Anita Garibaldi Joinville SC 89203001 Brazil;sem numero de porta
-ALTO;2462;Helipontos;Estrada da Riviera Ferraria Campo Largo PR Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2461;Helipontos;Rua Ottokar Doerffel Joinville SC 89203001 Brazil;sem numero de porta
+ALTO;2462;Helipontos;Estrada da Riviera Campo Largo PR Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2464;Helipontos;Rua Belo Horizonte Pinhalzinho SC 89870000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2465;Helipontos;Avenida Parana Centro Fazenda Rio Grande PR 83829010 Brazil;sem numero de porta
+ALTO;2465;Helipontos;Avenida Parana Fazenda Rio Grande PR 83829010 Brazil;sem numero de porta
 ALTO;2467;Helipontos;Rua Viveiros de Castro 386 536 Uvaranas Ponta Grossa PR 84025090 Brazil;sem numero de porta
 ALTO;2470;Helipontos;Rua B Sao Jorge d Oeste PR 85575000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2471;Helipontos;Rep Shoppings Itaim Bibi Sao Paulo SP Brazil;sem numero de porta
 ALTO;2472;Helipontos;Abraphe Santana Sao Paulo SP Brazil;sem numero de porta
 ALTO;2480;Helipontos;Sala Quito Santo Amaro Sao Paulo SP 04795100 Brazil;sem numero de porta
 ALTO;2481;Helipontos;Projeto Viol Itaim Bibi Sao Paulo SP 04543011 Brazil;sem numero de porta
-ALTO;2483;Helipontos;Avenida Jacinto Julio Cidade Dutra Sao Paulo SP 04815160 Brazil;sem numero de porta
-ALTO;2485;Helipontos;Rua Engenheiro Francisco Pitta Brito Santo Amaro Sao Paulo SP 04753080 Brazil;sem numero de porta
-ALTO;2486;Helipontos;Rua Ramon Penharrubia Vila Mariana Sao Paulo SP 01323140 Brazil;sem numero de porta
+ALTO;2483;Helipontos;Avenida Jacinto Julio Sao Paulo SP 04815160 Brazil;sem numero de porta
+ALTO;2485;Helipontos;Rua Engenheiro Francisco Pitta Brito Sao Paulo SP 04753080 Brazil;sem numero de porta
+ALTO;2486;Helipontos;Rua Ramon Penharrubia Sao Paulo SP 01323140 Brazil;sem numero de porta
 ALTO;2489;Helipontos;Thinksuccess 7th Edition Itaim Bibi Sao Paulo SP 04707000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2498;Helipontos;RBS the Royal Bank of Scotland Itaim Bibi Sao Paulo SP 01451011 Brazil;sem numero de porta
-ALTO;2501;Helipontos;Avenida Independencia Novo Esteio Esteio RS 93270010 Brazil;sem numero de porta
+ALTO;2501;Helipontos;Avenida Independencia Esteio RS 93270010 Brazil;sem numero de porta
 ALTO;2503;Helipontos;Estrada Sao Jose Encantado RS 95960000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2504;Helipontos;Rua Quintana Itaim Bibi Sao Paulo SP 04569011 Brazil;sem numero de porta
+ALTO;2504;Helipontos;Rua Quintana Sao Paulo SP 04569011 Brazil;sem numero de porta
 ALTO;2505;Helipontos;Estrada Jangadinha Porto Uniao SC 89400000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2506;Helipontos;Hipica Centaurus Tatui SP Brazil;sem numero de porta
-ALTO;2508;Helipontos;Avenida Cezira Giovanoni Moretti Santa Rosa Piracicaba SP 13414157 Brazil;sem numero de porta
-ALTO;2509;Helipontos;Via Anhanguera Bairro Pires Limeira SP 13486199 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2508;Helipontos;Avenida Cezira Giovanoni Moretti Piracicaba SP 13414157 Brazil;sem numero de porta
+ALTO;2509;Helipontos;Via Anhanguera Limeira SP 13486199 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2510;Helipontos;Avenida Ireno da Silva Venancio Votorantim SP 18111100 Brazil;sem numero de porta
-ALTO;2512;Helipontos;Alameda Carla Condominio Terras de Sao Jose Itu SP 13306424 Brazil;sem numero de porta
+ALTO;2512;Helipontos;Alameda Carla Itu SP 13306424 Brazil;sem numero de porta
 ALTO;2513;Helipontos;Estrada Itu 157 1522 Itu SP Brazil;endereco de rodovia (57-67% falharam)
 ALTO;2517;Helipontos;Jardim America Rio do Sul SC 89160000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2522;Helipontos;Magri Mangabeiras Belo Horizonte MG 30210110 Brazil;sem numero de porta
@@ -721,7 +721,7 @@ ALTO;2524;Helipontos;Rua Jose Monti Sobrinho Pedralva MG 37520000 Brazil;"sem nu
 ALTO;2525;Helipontos;Centro de Treinamento do Oitavo Batalhao de Bombeiros Militar de Minas Gerais Uberaba MG 38064300 Brazil;sem numero de porta
 ALTO;2527;Helipontos;Sequoia Wellness Pousada do Quilombo Sao Bento do Sapucai SP 12490000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2528;Helipontos;Red Eventos Jaguariuna SP 13820000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2529;Helipontos;Via Unimed Jardim Belvedere Volta Redonda RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2529;Helipontos;Via Unimed Volta Redonda RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2533;Helipontos;Grupo Ambipar Nova Odessa Nova Odessa SP 13460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2537;Helipontos;Area 38 Oficina de Tb s Congonhas MG 36415000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2539;Helipontos;Escritorio Central Mina de Brucutu Vale Sao Goncalo do Rio Abaixo MG 35935000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -729,32 +729,32 @@ ALTO;2542;Helipontos;62 Itaipava Petropolis RJ Brazil;sem numero de porta
 ALTO;2544;Helipontos;Heliponto da Lagoa Rodrigo de Freitas SDRJ Lagoa Rio de Janeiro RJ 22470002 Brazil;sem numero de porta
 ALTO;2547;Helipontos;Estrada da Restinga 366 Sao Joao da Barra RJ 28200000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2553;Helipontos;Morro do Presepio Aparecida SP 12570000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2559;Helipontos;Rua Goncalves Dias Barro Preto Belo Horizonte MG 30140093 Brazil;sem numero de porta
-ALTO;2560;Helipontos;Rua dos Moreiras Jardim Vitoria Belo Horizonte MG 31998257 Brazil;sem numero de porta
-ALTO;2561;Helipontos;Avenida do Contorno da Fiat Dist Industrial Paulo Camilo Sul Betim MG 32530490 Brazil;sem numero de porta
-ALTO;2562;Helipontos;Rua Professor Eduardo Monteiro Morumbi Sao Paulo SP 05614120 Brazil;sem numero de porta
-ALTO;2563;Helipontos;Rodovia Coronel PM Nelson Tranchesi Rodovia Coronel Pm Nelson Tranchesi Itapevi SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2559;Helipontos;Rua Goncalves Dias Belo Horizonte MG 30140093 Brazil;sem numero de porta
+ALTO;2560;Helipontos;Rua dos Moreiras Belo Horizonte MG 31998257 Brazil;sem numero de porta
+ALTO;2561;Helipontos;Avenida do Contorno da Fiat Betim MG 32530490 Brazil;sem numero de porta
+ALTO;2562;Helipontos;Rua Professor Eduardo Monteiro Sao Paulo SP 05614120 Brazil;sem numero de porta
+ALTO;2563;Helipontos;Rodovia Coronel PM Nelson Tranchesi Itapevi SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2566;Helipontos;Rua Fidencio Ramos 195 Brazil;sem numero de porta
-ALTO;2567;Helipontos;Avenida Engenheiro Luis Carlos Berrini Itaim Bibi Sao Paulo SP 04571000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2568;Helipontos;Rua Dois Cidade de Deus Osasco SP Brazil;sem numero de porta
+ALTO;2567;Helipontos;Avenida Engenheiro Luis Carlos Berrini Sao Paulo SP 04571000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2568;Helipontos;Rua Dois Osasco SP Brazil;sem numero de porta
 ALTO;2576;Helipontos;Clinica Paulista Terapeutica Cardio Vascular Bela Vista Sao Paulo SP 01323050 Brazil;sem numero de porta
-ALTO;2577;Helipontos;Rua Frei Caneca Centro Rio de Janeiro RJ 20211005 Brazil;sem numero de porta
-ALTO;2579;Helipontos;Rua I Brava Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2577;Helipontos;Rua Frei Caneca Rio de Janeiro RJ 20211005 Brazil;sem numero de porta
+ALTO;2579;Helipontos;Rua I Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2584;Helipontos;Cia Athletica le Parc Barra da Tijuca Rio de Janeiro RJ 22640102 Brazil;sem numero de porta
-ALTO;2585;Helipontos;Rua Savero Jose Bruno Moqueta Nova Iguacu RJ 26285021 Brazil;sem numero de porta
-ALTO;2586;Helipontos;Rua Jucana Botafogo Rio de Janeiro RJ 22251000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2587;Helipontos;Rua Alvaro Alvim Centro Rio de Janeiro RJ 20031010 Brazil;sem numero de porta
-ALTO;2588;Helipontos;Rua General Fonseca Ramos Vila Militar Rio de Janeiro RJ 21615110 Brazil;sem numero de porta
-ALTO;2589;Helipontos;Beco da Musica Centro Rio de Janeiro RJ 20021315 Brazil;sem numero de porta
+ALTO;2585;Helipontos;Rua Savero Jose Bruno Nova Iguacu RJ 26285021 Brazil;sem numero de porta
+ALTO;2586;Helipontos;Rua Jucana Rio de Janeiro RJ 22251000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2587;Helipontos;Rua Alvaro Alvim Rio de Janeiro RJ 20031010 Brazil;sem numero de porta
+ALTO;2588;Helipontos;Rua General Fonseca Ramos Rio de Janeiro RJ 21615110 Brazil;sem numero de porta
+ALTO;2589;Helipontos;Beco da Musica Rio de Janeiro RJ 20021315 Brazil;sem numero de porta
 ALTO;2590;Helipontos;Banana Air Taxi Aereo Barra da Tijuca Rio de Janeiro RJ Brazil;sem numero de porta
-ALTO;2594;Helipontos;Rua Santa Helena Nossa Senhora de Fatima Pirapora MG 39270000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2595;Helipontos;Avenida Professor Vicente Guimaraes Morada do Sol Montes Claros MG 39401781 Brazil;sem numero de porta
+ALTO;2594;Helipontos;Rua Santa Helena Pirapora MG 39270000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2595;Helipontos;Avenida Professor Vicente Guimaraes Montes Claros MG 39401781 Brazil;sem numero de porta
 ALTO;2596;Helipontos;MG 060 Pequi MG 35667000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2597;Helipontos;Maturidade Jardim Botanico DF Brazil;"sem numero de porta; logradouro sem nome"
-ALTO;2598;Helipontos;Via W4 Sul Asa Sul Brasilia DF Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2598;Helipontos;Via W4 Sul Brasilia DF Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2599;Helipontos;Sgo 3 Setores Complementares Asa Norte Brasilia DF 70610640 Brazil;sem numero de porta
 ALTO;2600;Helipontos;Marcial Depine e Braga Advogados Associados Asa Sul Brasilia DF 70322915 Brazil;sem numero de porta
-ALTO;2601;Helipontos;Estrada Hoteis de Turismo Vila Planalto Brasilia DF 70150000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2601;Helipontos;Estrada Hoteis de Turismo Brasilia DF 70150000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2602;Helipontos;Autodromo Internacional Nelson Piquet SRPN Autodromo Int Nelson Piquet Asa Norte Brasilia DF 70070710 Brazil;sem numero de porta
 ALTO;2603;Helipontos;Banco do Brasil Monte Castelo Resende RJ Brazil;sem numero de porta
 ALTO;2607;Helipontos;BR 251 Cristalina GO 73850000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -763,38 +763,38 @@ ALTO;2609;Helipontos;Setor C Norte Taguatinga DF 72115650 Brazil;sem numero de p
 ALTO;2610;Helipontos;Parquinho Infantil Aguas Claras DF 71904540 Brazil;sem numero de porta
 ALTO;2613;Helipontos;BR 251 Brazlandia DF Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;2614;Helipontos;Avenida Central Leste Gama DF Brazil;sem numero de porta
-ALTO;2615;Helipontos;Alameda das Paineiras Jardim Goias Goiania GO 74810102 Brazil;sem numero de porta
+ALTO;2615;Helipontos;Alameda das Paineiras Goiania GO 74810102 Brazil;sem numero de porta
 ALTO;2616;Helipontos;Regus Praca XV Centro Rio de Janeiro RJ 20010010 Brazil;sem numero de porta
 ALTO;2618;Helipontos;Praia do Iguacu T02 Vila do Abraao Angra dos Reis RJ Brazil;sem numero de porta
 ALTO;2619;Helipontos;Vila do Abraao Angra dos Reis RJ Brazil;sem numero de porta
 ALTO;2620;Helipontos;Avenida Gen Euclides de O Figueiredo Itaguai RJ 23826600 Brazil;sem numero de porta
 ALTO;2621;Helipontos;Mistura Classica Verolme Angra dos Reis RJ Brazil;sem numero de porta
-ALTO;2622;Helipontos;Rua Gleba D Portogalo Angra dos Reis RJ 23917010 Brazil;sem numero de porta
+ALTO;2622;Helipontos;Rua Gleba D Angra dos Reis RJ 23917010 Brazil;sem numero de porta
 ALTO;2623;Helipontos;Sorvete Italia Urca Rio de Janeiro RJ Brazil;sem numero de porta
 ALTO;2625;Helipontos;Rodovia Governador Mario Covas Mangaratiba RJ 23860000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2626;Helipontos;BR Marinas Verolme Angra dos Reis RJ Brazil;sem numero de porta
-ALTO;2627;Helipontos;Estrada Municipal Praia da Chacara Angra dos Reis RJ 23906175 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2629;Helipontos;Rua Niteroi Tibery Uberlandia MG 38405178 Brazil;sem numero de porta
+ALTO;2627;Helipontos;Estrada Municipal Angra dos Reis RJ 23906175 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2629;Helipontos;Rua Niteroi Uberlandia MG 38405178 Brazil;sem numero de porta
 ALTO;2631;Helipontos;Alameda Antonio Elias de Deus Aparecida de Goiania GO 74988820 Brazil;sem numero de porta
 ALTO;2633;Helipontos;Jardim Goias Goiania GO 74810030 Brazil;sem numero de porta
-ALTO;2634;Helipontos;Rua E M Um Vila Sul Aparecida de Goiania GO Brazil;sem numero de porta
-ALTO;2635;Helipontos;Avenida Portugal Marista Goiania GO 74150030 Brazil;sem numero de porta
+ALTO;2634;Helipontos;Rua E M Um Aparecida de Goiania GO Brazil;sem numero de porta
+ALTO;2635;Helipontos;Avenida Portugal Goiania GO 74150030 Brazil;sem numero de porta
 ALTO;2636;Helipontos;Espaco Agir Academia Crer Crimeia Leste Goiania GO Brazil;sem numero de porta
 ALTO;2637;Helipontos;Rua Nove 36 1 Vila Regina Goiania GO 74463550 Brazil;sem numero de porta
 ALTO;2638;Helipontos;Alameda das Sibipirunas 27 6 Ceasa Goiania GO 74680510 Brazil;sem numero de porta
 ALTO;2639;Helipontos;Rua Mil Cento e Quarenta e Dois 257 12 Marista Goiania GO 74180190 Brazil;sem numero de porta
 ALTO;2641;Helipontos;BR 060 Indiara GO 75955000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2642;Helipontos;Avenida Gov Ludovico de Almeida Santo Hilario Goiania GO Brazil;sem numero de porta
+ALTO;2642;Helipontos;Avenida Gov Ludovico de Almeida Goiania GO Brazil;sem numero de porta
 ALTO;2643;Helipontos;Conjunto Residencial Santa Fe Aparecida de Goiania GO 74350785 Brazil;sem numero de porta
-ALTO;2644;Helipontos;Avenida Nacional Polo Empresarial Goias Aparecida de Goiania GO 74983180 Brazil;sem numero de porta
+ALTO;2644;Helipontos;Avenida Nacional Aparecida de Goiania GO 74983180 Brazil;sem numero de porta
 ALTO;2645;Helipontos;Palacio Pedro Ludovico Teixeira Praca Dr Pedro Ludovico Teixeira Central Goiania GO 74083010 Brazil;sem numero de porta
 ALTO;2647;Helipontos;Usina Colombo Santa Albertina SP Santa Albertina SP 15750000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2649;Helipontos;GO 010 Leopoldo de Bulhoes GO 75190000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2651;Helipontos;Avenida Tocantins Jardim Rio Grande Aparecida de Goiania GO 74982540 Brazil;sem numero de porta
-ALTO;2652;Helipontos;Avenida Deputado Jamel Cecilio Autodromo Goiania GO 74820050 Brazil;sem numero de porta
+ALTO;2651;Helipontos;Avenida Tocantins Aparecida de Goiania GO 74982540 Brazil;sem numero de porta
+ALTO;2652;Helipontos;Avenida Deputado Jamel Cecilio Goiania GO 74820050 Brazil;sem numero de porta
 ALTO;2653;Helipontos;Jardim Goias Goiania GO Brazil;sem numero de porta
 ALTO;2655;Helipontos;Sitio Primavera Goianira GO 75370000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2663;Helipontos;Rodovia Rio Santos Piraquara Angra dos Reis RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2663;Helipontos;Rodovia Rio Santos Angra dos Reis RJ Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2664;Helipontos;108C Jardim Primavera Duque de Caxias RJ Brazil;sem numero de porta
 ALTO;2666;Helipontos;Observatorio Nuclear Usina Nuclear Angra dos Reis RJ Brazil;sem numero de porta
 ALTO;2668;Helipontos;Luts Chales Goncalves MG 37680000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -802,12 +802,12 @@ ALTO;2669;Helipontos;Clube dos Loucos Filial Paraty Paraty Mirim Paraty RJ 23970
 ALTO;2670;Helipontos;Vinicola Santa Maria Sao Bento do Sapucai SP 12490000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2672;Helipontos;Floresta da Tijuca Estrada Mirante Dona Marta Brazil;sem numero de porta
 ALTO;2675;Helipontos;Vinicola Jabuticabal Hidrolandia GO 75340000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2676;Helipontos;Avenida Marechal Floriano Peixoto Reboucas Curitiba PR 80230110 Brazil;sem numero de porta
-ALTO;2677;Helipontos;Avenida Jardim Botanico Jardim Botanico Curitiba PR 81560000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2679;Helipontos;Rodovia Regis Bittencourt Xaxim Curitiba PR 81460090 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2680;Helipontos;Rua Joao Sigismundo Wysocri Orleans Curitiba PR 82310435 Brazil;sem numero de porta
-ALTO;2681;Helipontos;Rodovia Regis Bittencourt Jardim Botanico Curitiba PR 81460090 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;2682;Helipontos;Rua Deputado Mario de Barros Centro Civico Curitiba PR 80530280 Brazil;sem numero de porta
+ALTO;2676;Helipontos;Avenida Marechal Floriano Peixoto Curitiba PR 80230110 Brazil;sem numero de porta
+ALTO;2677;Helipontos;Avenida Jardim Botanico Curitiba PR 81560000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2679;Helipontos;Rodovia Regis Bittencourt Curitiba PR 81460090 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2680;Helipontos;Rua Joao Sigismundo Wysocri Curitiba PR 82310435 Brazil;sem numero de porta
+ALTO;2681;Helipontos;Rodovia Regis Bittencourt Curitiba PR 81460090 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;2682;Helipontos;Rua Deputado Mario de Barros Curitiba PR 80530280 Brazil;sem numero de porta
 ALTO;2683;Helipontos;Rodovia Br476 Pista Lateral Bairro Alto BR 476 Bairro Alto Curitiba PR 82840120 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;2684;Helipontos;PR 090 Bateias Campo Largo PR Brazil;sem numero de porta
 ALTO;2685;Helipontos;Esquenta Corridas Santo Inacio Curitiba PR Brazil;sem numero de porta

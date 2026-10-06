@@ -112,6 +112,9 @@ def normalizar_numero(s):
     t = str(s)
     # ".0" de inteiro lido como float pelo Excel: "Numero" 1842.0 -> 1842.
     # Sem isso o ponto vira espaco e o numero se parte ("1842 0").
+    # virgula decimal entre digitos ("km 83,5"): se virar separador de segmento,
+    # o "5" sozinho passa por numero de porta e leva o logradouro junto
+    t = re.sub(r"(?<=\d),(?=\d)", ".", t)
     t = re.sub(r"(?<=\d)\.0+\b", "", t)
     t = re.sub(r"(?<=\d)\.(?=\d{3}(?!\d))", "", t)
     t = re.sub(r"\bn\s*[\u00ba\u00b0]\s*\.?\s*(?=\d)", "", t, flags=re.I)
@@ -265,6 +268,31 @@ def parece_cabecalho(row):
     return True
 
 
+def coluna_e_indice(i, linhas):
+    """True se a coluna e um contador de linha, nao numero de porta.
+
+    Uma coluna chamada "Nº" pode ser so a numeracao da planilha. O sinal e o
+    conjunto de valores cobrir 1..N de forma densa, com N da ordem do numero de
+    linhas — numero de porta real nao forma sequencia assim.
+    """
+    vals = []
+    for l in linhas[:400]:
+        if len(l) <= i:
+            continue
+        t = str(l[i]).strip()
+        if not t:
+            continue
+        if not re.fullmatch(r"\d{1,6}", t):
+            return False            # tem valor que nao e inteiro puro
+        vals.append(int(t))
+    if len(vals) < 10:
+        return False                # poucos valores: nao da para afirmar
+    alto = max(vals)
+    distintos = set(vals)
+    return (min(vals) == 1 and alto <= len(vals) * 1.3
+            and len(distintos) >= 0.8 * alto)
+
+
 def preenchimento(i, linhas):
     """Quantas linhas da amostra tem valor nesta coluna."""
     return sum(1 for l in linhas[:400] if len(l) > i and str(l[i]).strip())
@@ -308,6 +336,8 @@ def mapear(header, linhas):
                 if cede_para_preenchida(i, norm, linhas, pistas,
                                         PISTAS_EXATAS.get(papel, ())):
                     continue
+                if papel == "numero" and coluna_e_indice(i, linhas):
+                    continue        # e a numeracao da planilha, nao a porta
                 cols[papel] = i
                 usados.add(i)
                 break
@@ -321,6 +351,8 @@ def mapear(header, linhas):
                 if cede_para_preenchida(i, norm, linhas, pistas,
                                         PISTAS_EXATAS.get(papel, ())):
                     continue
+                if papel == "numero" and coluna_e_indice(i, linhas):
+                    continue        # e a numeracao da planilha, nao a porta
                 cols[papel] = i
                 usados.add(i)
                 break
@@ -494,8 +526,7 @@ INICIO_LOGRADOURO = re.compile(
 SIGLAS_UF = set(UFBOX)
 RUIDO = [
  r"\bkm\.?\s*\d+[\d,.]*\b",       # Km 56, KM 04 — nao e numero de porta
- r"\bs\s*/?\s*n\b",                # S N, S/N (sem numero)
- r"\bsn\b",
+ r"\bs\s*/?\s*n[\u00ba\u00b0o]?(?![a-z0-9])",   # S N, S/N, s/nº (sem numero)
  # localizacao DENTRO do imovel: para um geofence por raio o que importa e o
  # endereco na rua, nao a loja no shopping
  r"(?<!\bda )(?<!\bde )(?<!\bdo )(?<!\bDa )(?<!\bDe )(?<!\bDo )"
@@ -755,6 +786,16 @@ def main():
             # bairro colide com nome de cidade ("Botafogo Macae", "Sao Conrado
             # 20 Sao Conrado"), ancorando o geocodificador no lugar errado.
             rua_num, bairro_fora = partir_numero(limpar_ruido(expandir_tipo(miolo)))
+            # sem numero de porta, partir_numero nao tem onde cortar e o bairro
+            # fica preso. No formato com virgulas a estrutura resolve: o
+            # logradouro e o 1o segmento, o resto e numero e bairro.
+            # "R. Jeriva, s/no - Iporanga" -> "R. Jeriva"
+            if not bairro_fora and len(segs_end) >= 2 and not origem_alt:
+                cand = limpar_ruido(expandir_tipo(segs_end[0])).strip(" ,-")
+                resto = limpar_ruido(" ".join(segs_end[1:])).strip(" ,-")
+                if cand and resto and not re.search(r"\d", resto) \
+                        and INICIO_LOGRADOURO.match(sem_acento(cand).strip()):
+                    rua_num, bairro_fora = cand, resto
             if (a.manter_bairro or not cidade) and bairro_fora:
                 # sem cidade identificada, o que parece bairro pode conter a propria
                 # cidade — descartar apagaria ela. Mantem tudo e avisa no risco.

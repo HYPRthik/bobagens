@@ -21,7 +21,7 @@ Avenida Rio Branco 26 Rio de Janeiro RJ 20090001 Brazil
 Rua Visconde de Piraja 220 Rio de Janeiro RJ 22410000 Brazil
 Rua Frei Leandro 15 Rio de Janeiro RJ 22470210 Brazil
 Rua Visconde de Piraja 381 Rio de Janeiro RJ 22410003 Brazil
-Avenida Vieira Souto Ipanema Rio de Janeiro RJ 22420008 Brazil
+Avenida Vieira Souto Rio de Janeiro RJ 22420008 Brazil
 Rua Maria Quiteria 450 Rio de Janeiro RJ 21850080 Brazil
 Avenida Ataulfo de Paiva 623 Rio de Janeiro RJ 22440033 Brazil
 Avenida Rio Branco 115 Rio de Janeiro RJ 20040004 Brazil
@@ -34,10 +34,10 @@ Avenida Presidente Wilson 1509 Rio de Janeiro RJ 20030021 Brazil
 Praca Demetrio Ribeiro 15 Rio de Janeiro RJ 22011020 Brazil
 Avenida Vieira Souto 530 Rio de Janeiro RJ 22420008 Brazil
 Avenida Vieira Souto 318 Rio de Janeiro RJ 22420002 Brazil
-Brs 1 228 Rio de Janeiro RJ 22250145 Brazil
-Avenida Augusto Severo Gloria Rio de Janeiro RJ 20021040 Brazil
+Praia de Botafogo 228 Rio de Janeiro RJ 22250145 Brazil
+Avenida Augusto Severo Rio de Janeiro RJ 20021040 Brazil
 Rua Barata Ribeiro 354 E 354 Rio de Janeiro RJ 22040001 Brazil
-Rua Fonte da Saudade Lagoa Rio de Janeiro RJ 22471210 Brazil
+Rua Fonte da Saudade Rio de Janeiro RJ 22471210 Brazil
 Rua Mario Ribeiro 152 Rio de Janeiro RJ 22441060 Brazil
 Avenida Ataulfo de Paiva 763 Rio de Janeiro RJ 22440033 Brazil
 Avenida Atlantica 956 Rio de Janeiro RJ 22010000 Brazil
@@ -52,7 +52,7 @@ Rua General Roca 661 Rio de Janeiro RJ 20521070 Brazil
 Rua Visconde de Piraja 414 Rio de Janeiro RJ 22410003 Brazil
 Avenida Niemeyer 15 Rio de Janeiro RJ 22450220 Brazil
 Rua Gilberto Cardoso 266 Rio de Janeiro RJ 22430070 Brazil
-Rua Juquia L O AO N Leblon Rio de Janeiro RJ 22441080 Brazil
+Rua Juquia Rio de Janeiro RJ 22441080 Brazil
 Avenida Princesa Isabel 245 Rio de Janeiro RJ 22011011 Brazil
 Rua Marechal Mascarenhas de Morais 236 Rio de Janeiro RJ 22030040 Brazil
 Rua Barata Ribeiro 636 Rio de Janeiro RJ 22051001 Brazil
@@ -64,31 +64,31 @@ Rua Muniz Barreto 701 Rio de Janeiro RJ 22251090 Brazil
 Rua Sao Clemente 67 Rio de Janeiro RJ 22260001 Brazil
 Rua Marques de Abrantes 91 Rio de Janeiro RJ 22230061 Brazil
 Rua Pinheiro Guimaraes 8a Rio de Janeiro RJ 22281080 Brazil
-Rua Governador Irineu Bornhausen Flamengo Rio de Janeiro RJ Brazil
+Rua Governador Irineu Bornhausen Rio de Janeiro RJ Brazil
 Rua Voluntarios da Patria 450 Rio de Janeiro RJ 22271042 Brazil
 Rua General Roca 815 Rio de Janeiro RJ 20521070 Brazil
 Rua Voluntarios da Patria 20 Rio de Janeiro RJ 22270000 Brazil
-Rua Araujo Porto Alegre Centro Rio de Janeiro RJ 20030015 Brazil
+Rua Araujo Porto Alegre Rio de Janeiro RJ 20030015 Brazil
 Rua Uruguaiana 55 Rio de Janeiro RJ 20050094 Brazil
 Avenida Calogeras 164 Rio de Janeiro RJ 20030070 Brazil
 Avenida Rio Branco 18 Rio de Janeiro RJ 20090000 Brazil
 Avenida Republica do Paraguai 520D Rio de Janeiro RJ 20031180 Brazil
-Avenida Presidente Antonio Carlos Centro Rio de Janeiro RJ 20020010 Brazil
+Avenida Presidente Antonio Carlos Rio de Janeiro RJ 20020010 Brazil
 Avenida Vieira Souto 130 Rio de Janeiro RJ 22420002 Brazil
 Avenida Epitacio Pessoa 732 Rio de Janeiro RJ 22410090 Brazil
-Avenida Oswaldo Cruz Botafogo Rio de Janeiro RJ 22250040 Brazil
+Avenida Oswaldo Cruz Rio de Janeiro RJ 22250040 Brazil
 Avenida Epitacio Pessoa 1460 Rio de Janeiro RJ 22410090 Brazil
 Avenida Epitacio Pessoa 1024 Rio de Janeiro RJ 22410090 Brazil
 Rua Aristides Espinola 1175 Rio de Janeiro RJ 22440050 Brazil
 Avenida Presidente Vargas 1343 Rio de Janeiro RJ 20071004 Brazil
 Rua Miguel Couto 463 Rio de Janeiro RJ 20070030 Brazil
-Avenida Beira Mar Gloria Rio de Janeiro RJ 20021060 Brazil
+Avenida Beira Mar Rio de Janeiro RJ 20021060 Brazil
 Rua Professor Alvaro Rodrigues 1128 Rio de Janeiro RJ 22280040 Brazil
 Rua Visconde de Piraja 452 Rio de Janeiro RJ 22410002 Brazil
 Rua Santana 66 Rio de Janeiro RJ 21831453 Brazil
-Avenida das Nacoes Unidas Botafogo Rio de Janeiro RJ 22250150 Brazil
+Avenida das Nacoes Unidas Rio de Janeiro RJ 22250150 Brazil
 Rua Sao Francisco Xavier 537 Rio de Janeiro RJ 20550011 Brazil
-Avenida Presidente Vargas Centro Rio de Janeiro RJ 20071002 Brazil
+Avenida Presidente Vargas Rio de Janeiro RJ 20071002 Brazil
 Rua Visconde de Piraja 207 Rio de Janeiro RJ 22410001 Brazil
 Rua Anibal de Mendonca 124 Rio de Janeiro RJ 22410050 Brazil
 Rua Visconde de Piraja 206 Rio de Janeiro RJ 22410002 Brazil
@@ -96,4 +96,4 @@ Avenida Nossa Senhora de Copacabana 1063 Rio de Janeiro RJ 22060001 Brazil
 Avenida Nossa Senhora de Copacabana 1138 Rio de Janeiro RJ 22060002 Brazil
 Avenida Nossa Senhora de Copacabana 1213 Rio de Janeiro RJ 22070011 Brazil
 Avenida Rainha Elisabeth 186 Rio de Janeiro RJ 22081032 Brazil
-Avenida Visconde de Albuquerque Gavea Rio de Janeiro RJ 22450002 Brazil
+Avenida Visconde de Albuquerque Rio de Janeiro RJ 22450002 Brazil

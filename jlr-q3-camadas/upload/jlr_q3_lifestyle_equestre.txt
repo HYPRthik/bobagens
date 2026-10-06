@@ -1,0 +1,62 @@
+Rua Quintana 206 Sao Paulo SP 04569010 Brazil
+Rua Porto Martins 342 Sao Paulo SP 04570140 Brazil
+Rua Visconde de Taunay 508 Sao Paulo SP 04726010 Brazil
+Avenida Lineu de Paula Machado 1263 Sao Paulo SP 05601000 Brazil
+Rua Dr Jose Augusto de Queiroz 93 Sao Paulo SP 05670090 Brazil
+Estrada Lula Chaves 443 Santana de Parnaiba SP 06532020 Brazil
+Estrada do Veterinario Santana de Parnaiba SP 06519040 Brazil
+Rua Buriti Campinas SP 13092566 Brazil
+Rua Maria Mercedes Etter von Zuben 2319 Campinas SP 13044503 Brazil
+Avenida Hurlinghan 394 Indaiatuba SP 13330970 Brazil
+Rodovia Castelo Branco Porto Feliz SP 18540000 Brazil
+Bairro Xapadao Porto Feliz SP 18540000 Brazil
+Estrada sem denominacao Porto Feliz SP 18540000 Brazil
+Alameda dos Jacarandas Braganca Paulista SP Brazil
+Rua Pedro Barbieri 9003 Ribeirao Preto SP 14093210 Brazil
+Avenida Tashin Asad Raschid Shahrouri 531 Jundiai SP 13212370 Brazil
+Avenida Shishima Hifumi 2911 Sao Jose dos Campos SP 12244000 Brazil
+Rua Henrique Mudat 213 Sao Jose dos Campos SP 12242490 Brazil
+Estrada Municipal do Jaguari Sao Jose dos Campos SP Brazil
+Estrada do Ipatinga 458 Sorocaba SP 18053400 Brazil
+Estrada Rubens Matiello 500 Sorocaba SP 18052445 Brazil
+Rodovia Emerenciano Prestes de Barros 291 Sorocaba SP 18072859 Brazil
+Rua Torquato Dias 1681 Santos SP 11080550 Brazil
+Estrada do Varejao Itu SP Brazil
+Estrada Municipal do Canguiri Itu SP 13301730 Brazil
+Avenida Lineu de Paula Machado 2448 Rio de Janeiro RJ 22470040 Brazil
+Rua Jardim Botanico 421 Rio de Janeiro RJ 22470050 Brazil
+Praca Santos Dumont 31 Rio de Janeiro RJ 22470060 Brazil
+Avenida Pref Dulcidio Cardoso 406 Rio de Janeiro RJ 22640085 Brazil
+Avenida Rachel de Queiroz Rio de Janeiro RJ 22793100 Brazil
+Estrada Bougainville 442 Rio de Janeiro RJ 22753210 Brazil
+Estrada Ministro Salgado Filho 5230 Petropolis RJ 25745690 Brazil
+Estrada Uniao e Industria 26 Petropolis RJ 25770000 Brazil
+Rua Sao Sebastiao 1001 Niteroi RJ 24344030 Brazil
+Rua Sao Sebastiao 1941 Niteroi RJ 24344103 Brazil
+BR 116 Taruma Curitiba PR 82590100 Brazil
+Avenida Victor Ferreira do Amaral 2299 Curitiba PR 82800000 Brazil
+Estrada Ver Domingos Benvenuto Moletta Sao Jose dos Pinhais PR Brazil
+Area rural Tijucas do Sul PR 83190000 Brazil
+Estrada Municipal Frei Eurico Melo Tijucas do Sul PR 83190000 Brazil
+Estrada de Bateias PR 090 Campo Largo PR 83604360 Brazil
+Avenida Harry Prochet 662 Maringa PR 87070120 Brazil
+Avenida Tiradentes 6275 Londrina PR 86072000 Brazil
+Avenida Colombo 2186 Maringa PR 87045000 Brazil
+Rodovia SC 401 4677 Florianopolis SC 88030000 Brazil
+Estrada Bento Manoel Ferreira 1070 Florianopolis SC 88052300 Brazil
+Rua Padre Rohr 1080 Florianopolis SC 88050510 Brazil
+Estrada do Oeste 2000 Joinville SC 89239600 Brazil
+Rua Dorothovio do Nascimento 1103 Joinville SC 89223600 Brazil
+Rua Affonso Nicoluzzi 99 Jaragua do Sul SC 89254601 Brazil
+Rodovia SC 108 Blumenau SC Brazil
+Rua Osvaldo Minella 2000 Camboriu SC 88340000 Brazil
+Avenida Nossa Senhora de Guadalupe 249 Porto Alegre RS 91770001 Brazil
+Avenida Diario de Noticias 750 Porto Alegre RS 90810080 Brazil
+BR 116 Novo Esteio Esteio RS 93270710 Brazil
+Avenida Zeferino Costa 140 Pelotas RS 96070480 Brazil
+Avenida Fernando Osorio 1754 A Tres Vendas Pelotas RS 96055030 Brazil
+Travessao Leopoldina Ana Rech Caxias do Sul RS 95059010 Brazil
+BR 153 Jose Otavio Bage RS Brazil
+BR 153 Rio Negro Bage RS 96445000 Brazil
+Estrada Passo do Perez Bage RS 96400000 Brazil
+Rua Bispo Atalicio Pitan 1202 Bage RS 96410400 Brazil

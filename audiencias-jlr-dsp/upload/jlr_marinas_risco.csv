@@ -1,14 +1,14 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
 ALTO;2;;Rodovia Jorge Fortulino Balneario Rincao SC 88828000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;4;;Avenida Beira Mar Pereque Mirim Ubatuba SP 11680000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;4;;Avenida Beira Mar Ubatuba SP 11680000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;7;;Rua Lateral BR 101 243 Biguacu SC 88160000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;12;;Rodovia Ariovaldo de Almeida Viana Guaruja SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;13;;Avenida Celso Romano de Oliveira Porto Rico PR 87950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;14;;Rua Brasil Centro Campo Mourao PR Brazil;sem numero de porta
+ALTO;14;;Rua Brasil Campo Mourao PR Brazil;sem numero de porta
 ALTO;24;;Magazine Luiza Cassia MG 37980000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;28;;PR 412 Pontal do Parana PR 83255000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;35;;Rodovia Tertuliano Brito Xavier 1800 Florianopolis SC 88054601 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;36;;Avenida Rio Branco Indaia Caraguatatuba SP 11665600 Brazil;sem numero de porta
+ALTO;36;;Avenida Rio Branco Caraguatatuba SP 11665600 Brazil;sem numero de porta
 ALTO;37;;Estrada Cubatao Grande 2101 Joinville SC 89226833 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;43;;Rodovia Arlindo Bettio Rosana SP 19273000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;51;;Estrada Cubatao Grande 2315 Joinville SC 89226833 Brazil;endereco de rodovia (57-67% falharam)
@@ -19,32 +19,32 @@ ALTO;60;;Rua Joaquim Lopes Porto Rico PR 87950000 Brazil;"sem numero de porta; C
 ALTO;61;;Estrada da Cumbica 422 Sao Paulo SP 04947000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;66;;Avenida Beira Rio Itumbiara GO 75524272 Brazil;sem numero de porta
 ALTO;72;;Gipsy Garden Golfe Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;85;;Rua Rio Claro Porto Sao Jose Sao Pedro do Parana PR 87957000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;85;;Rua Rio Claro Sao Pedro do Parana PR 87957000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;90;;Estrada Vereador Benedito Adelino 21 Angra dos Reis RJ 23909400 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;96;;Rua do Barrigudinho Bracui Angra dos Reis RJ 23943120 Brazil;sem numero de porta
+ALTO;96;;Rua do Barrigudinho Angra dos Reis RJ 23943120 Brazil;sem numero de porta
 ALTO;100;;Chacara do Tie Joanopolis SP 12980000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;101;;Rodovia Jose Henrique Rupp Sao Jorge d Oeste PR 85575000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;113;;Avenida Pedro Ometto Barra Bonita SP 17340001 Brazil;sem numero de porta
-ALTO;115;;Avenida Vicente de Carvalho Centro Bertioga SP 11250045 Brazil;sem numero de porta
+ALTO;115;;Avenida Vicente de Carvalho Bertioga SP 11250045 Brazil;sem numero de porta
 ALTO;117;;Rua Alegrete Imbe RS 95625000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;127;;Estrada Henrique Rosa 445 Sao Bernardo do Campo SP 09831500 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;132;;Estrada Timbe 10283 Joinville SC 89226500 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;136;;Rodovia Baldicero Filomeno 12520 Florianopolis SC 88064002 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;143;;Avenida Beira Rio Porto Maringa Marilena PR 87960000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;143;;Avenida Beira Rio Marilena PR 87960000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;144;;Avenida Marcolino Antonio Rosa Icem SP 15460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;153;;Rua Francisco de Barros Ibiuna SP 18150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;160;;Avenida Jose da Silva Pacheco Itapema do Norte Itapoa SC 89249000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;161;;Estrada Timbe Jardim Paraiso Joinville SC 89226500 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;160;;Avenida Jose da Silva Pacheco Itapoa SC 89249000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;161;;Estrada Timbe Joinville SC 89226500 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;164;;Avenida Coronel Cirilo Lopes de Moraes Caldas Novas GO 75690000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;167;;Yucatan BR Akita Inu Brasil Igarata SP 12350000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;172;;Rodovia Rio Santos Maranduba Ubatuba SP 11680000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;173;;Avenida das Canoas Mato Grande Canoas RS 92323270 Brazil;sem numero de porta
-ALTO;180;;Rua Laurindo Januario da Silveira Canto da Lagoa Florianopolis SC 88062201 Brazil;sem numero de porta
+ALTO;172;;Rodovia Rio Santos Ubatuba SP 11680000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;173;;Avenida das Canoas Canoas RS 92323270 Brazil;sem numero de porta
+ALTO;180;;Rua Laurindo Januario da Silveira Florianopolis SC 88062201 Brazil;sem numero de porta
 ALTO;183;;Via Gastronomica 65 Balneario Camboriu SC 88337070 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;184;;Drogariasaope Abadiania GO 72940000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;186;;Rua Joaquim Lopes Porto Rico PR 87950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;187;;Estrada da Barra da Tijuca 347 Rio de Janeiro RJ 22611201 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;188;;Rua Japao Parque Bitaru Sao Vicente SP 11330210 Brazil;sem numero de porta
+ALTO;188;;Rua Japao Sao Vicente SP 11330210 Brazil;sem numero de porta
 MEDIO;3;;Rua Doutor Avelino Queiroz 191 Capitolio MG 37930000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;5;;Avenida Sao Joao 298 Penha SC 88385000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;6;;Rua Sao Paulo 780 Itanhaem SP 11740000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

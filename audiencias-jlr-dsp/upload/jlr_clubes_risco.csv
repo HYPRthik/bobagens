@@ -2,7 +2,7 @@
 ALTO;2;;Avenida Coronel Diogenes de Castro Ribeiro Jaragua GO 76330000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;4;;Rua Iguacu Coronel Vivida PR 85550000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;7;;Rua Nove Cezarina GO 76195000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;12;;Parque Rua Pastor Joao Marcondes Jandaia do Sul PR 86900000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;12;;Parque Jandaia do Sul PR 86900000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;13;;ERS 734 Rio Grande RS 96216400 Brazil;"sem numero de porta; logradouro sem nome"
 ALTO;15;;Rodovia Raposo Tavares Aracoiaba da Serra SP 18190000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;16;;SUBWAY Erw S Bloco M Asa Sul Brasilia DF Brazil;sem numero de porta
@@ -13,8 +13,8 @@ ALTO;27;;Rua Noventa Alexania GO 72930000 Brazil;"sem numero de porta; CEP gener
 ALTO;33;;Rua Estevam Domingos Pederassi Porto Real RJ 27570000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;36;;PR 498 Japura PR 87225000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;37;;Santa Cruz Country Club Country Santa Cruz do Sul RS 96820790 Brazil;sem numero de porta
-ALTO;40;;Via Expressa de Contagem Jardim das Alterosas Primeira Secao Betim MG Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;45;;Rodovia Amador Bueno da Veiga Socorro Pindamonhangaba SP 12424590 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;40;;Via Expressa de Contagem Betim MG Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;45;;Rodovia Amador Bueno da Veiga Pindamonhangaba SP 12424590 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;46;;Pousada Brilho do Sol Serra Negra SP 13930000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;47;;Estrada Bougainville 442 Rio de Janeiro RJ 22753210 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;48;;Avenida Heraclito Fontoura Sobral Pinto Ribeirao Preto SP 14022020 Brazil;sem numero de porta
@@ -26,11 +26,11 @@ ALTO;63;;Estrada da Ilha 4830 Joinville SC 89239250 Brazil;endereco de rodovia (
 ALTO;65;;Estrada Marechal Marciano Avila 24 Porto Alegre RS 91787340 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;67;;Rua Joaquim C de Rezende Guaxupe MG 37800000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;70;;Rua Francisco C Sobrinho Vianopolis GO 75265000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;72;;Estrada S S das Aguas Claras Sao Sebastiao das Aguas Claras Nova Lima MG 34000000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;72;;Estrada S S das Aguas Claras Nova Lima MG 34000000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;73;;LMG 882 202 Silvianopolis MG 37560000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;76;;Pastelaria Machado Praca Antonio Ferreira Leme Sao Miguel Arcanjo SP 18230000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;78;;Rodovia dos Inconfidentes Novo Itabirito Itabirito MG 35450000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;81;;Rua Amazonas Braz I Avare SP 18701180 Brazil;sem numero de porta
+ALTO;78;;Rodovia dos Inconfidentes Itabirito MG 35450000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;81;;Rua Amazonas Avare SP 18701180 Brazil;sem numero de porta
 ALTO;83;;Rodovia Marechal Rondon Lins SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;91;;Casa da Juh e do Andrew Centro Sao Jose dos Pinhais PR 83005160 Brazil;sem numero de porta
 ALTO;97;;Estrada Rural Cafelandia PR 85415000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -44,9 +44,9 @@ ALTO;121;;Rua Salvira Marques Carlopolis PR 86420000 Brazil;"sem numero de porta
 ALTO;122;;Jardim das Acacias Aparecida de Goiania GO 74987300 Brazil;sem numero de porta
 ALTO;123;;Rodovia Santos Dumont Itaobim MG 39625000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;124;;Estrada Iva 351 Itupeva SP 13295000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;127;;Avenida Munhoz da Rocha Cabral Curitiba PR 80035000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;127;;Avenida Munhoz da Rocha Curitiba PR 80035000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;130;;Rua Aureliano Coutinho Petropolis RJ 25625000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;131;;Acesso ao Cajuba Country Clube Vigilato Pereira Uberlandia MG 38408616 Brazil;sem numero de porta
+ALTO;131;;Acesso ao Cajuba Country Clube Uberlandia MG 38408616 Brazil;sem numero de porta
 ALTO;139;;Rua Vicente Machado Sertaneja PR 86340000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 MEDIO;6;;Avenida Rio Branco 2182 Dom Pedrito RS 96450000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;14;;Rua Angelo Sordi 456 Santa Rosa de Viterbo SP 14270000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

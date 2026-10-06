@@ -1,25 +1,25 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
 ALTO;3;Disk Gás Central II;Rodovia AC 405 Cruzeiro do Sul AC 69980000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;12;Goianinho Disk-Gás;Avenida Ceara Ceramica Rio Branco AC 69905670 Brazil;sem numero de porta
-ALTO;28;HM Gás;Rodovia Doutor Geraldo Cavalcante Cajueiro Canafistula Arapiraca AL 57302045 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;35;PLANALTO GAS;Rua Olivia Brito de Almeida Santa Esmeralda Arapiraca AL 57308000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;40;ZE VENTURA GÁS E ÁGUA;Rua Coronel Vicente Ramos Cacimbas Arapiraca AL 57304502 Brazil;sem numero de porta
+ALTO;12;Goianinho Disk-Gás;Avenida Ceara Rio Branco AC 69905670 Brazil;sem numero de porta
+ALTO;28;HM Gás;Rodovia Doutor Geraldo Cavalcante Cajueiro Arapiraca AL 57302045 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;35;PLANALTO GAS;Rua Olivia Brito de Almeida Arapiraca AL 57308000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;40;ZE VENTURA GÁS E ÁGUA;Rua Coronel Vicente Ramos Arapiraca AL 57304502 Brazil;sem numero de porta
 ALTO;41;Thamires Gás;AL 220 Craibas AL 57320000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;42;Distribuidora Santos Gás E Água;Estrada para Arapiraca Igaci AL 57620000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;62;Disque Gás;Avenida Leste Oeste Jacintinho Maceio AL 57037635 Brazil;sem numero de porta
+ALTO;62;Disque Gás;Avenida Leste Oeste Maceio AL 57037635 Brazil;sem numero de porta
 ALTO;84;Grupo Jr Gas;Rua Sao Lourenco Sao Sebastiao AL 57275000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;105;DISTRIBUIDORA DE GAS;Rua Sao Damiao Taruma Manaus AM 69093812 Brazil;sem numero de porta
-ALTO;127;MISTER GÁS;Rua Candido Mendes Compensa Manaus AM 69030320 Brazil;sem numero de porta
-ALTO;130;REVENDA FOGÁS - COMERCIAL TEIXEIRA;Rua Jose Paranagua Centro Manaus AM 69020031 Brazil;sem numero de porta
+ALTO;105;DISTRIBUIDORA DE GAS;Rua Sao Damiao Manaus AM 69093812 Brazil;sem numero de porta
+ALTO;127;MISTER GÁS;Rua Candido Mendes Manaus AM 69030320 Brazil;sem numero de porta
+ALTO;130;REVENDA FOGÁS - COMERCIAL TEIXEIRA;Rua Jose Paranagua Manaus AM 69020031 Brazil;sem numero de porta
 ALTO;151;GÁS EXPRESSO - MIRACEMA;Via Coletora B 9 Macapa AP 68908085 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;191;Ultragaz Nivon Gás Alagoinhas;Rua Genesio Almeida Nascimento Alagoinhas BA 48030610 Brazil;sem numero de porta
-ALTO;212;Nosso Gás Barreiras - Gás e Água;Avenida Antonio Carlos Magalhaes Jardim Ouro Branco Barreiras BA 47802147 Brazil;sem numero de porta
-ALTO;218;SOBERANO GÁS - ULTRAGAZ;Rua das Camelias Jardim Vitoria Barreiras BA 47803694 Brazil;sem numero de porta
+ALTO;212;Nosso Gás Barreiras - Gás e Água;Avenida Antonio Carlos Magalhaes Barreiras BA 47802147 Brazil;sem numero de porta
+ALTO;218;SOBERANO GÁS - ULTRAGAZ;Rua das Camelias Barreiras BA 47803694 Brazil;sem numero de porta
 ALTO;224;Ultragaz Santo Antonio Gás e Água Juri;BR 135 473 Recanto dos Passaros Barreiras BA 47805290 Brazil;sem numero de porta
 ALTO;238;Disk Gás Camaçari;Via Piacaveira 109 Camacari BA 42800073 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;240;Gás Arembepe;Estrada do Coco Arembepe Camacari BA 42829894 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;242;Gás em Camaçari - Brasilgas;Rua Antonio Felix Martins Parque Verde I Camacari BA 42810195 Brazil;sem numero de porta
-ALTO;246;Ligue Gás Distribuidora LTDA;Estrada do Coco Coqueiros de Arembepe Camacari BA 42823604 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;240;Gás Arembepe;Estrada do Coco Camacari BA 42829894 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;242;Gás em Camaçari - Brasilgas;Rua Antonio Felix Martins Camacari BA 42810195 Brazil;sem numero de porta
+ALTO;246;Ligue Gás Distribuidora LTDA;Estrada do Coco Camacari BA 42823604 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;257;Ultragaz (Brasilgás);Rua Bom Jesus Camacari BA 42820000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;285;Diego Gás Ilhéus;BA 262 15 Ilheus BA 45658340 Brazil;logradouro sem nome
 ALTO;287;Gás Gr distribuidora de gás;Rua da Amizade Ilheus BA 45657358 Brazil;sem numero de porta
@@ -37,58 +37,58 @@ ALTO;331;Zé do Gás;Rua Santo Andre Itabuna BA 45605210 Brazil;sem numero de po
 ALTO;340;Giro Gás;Avenida Alves Pereira Jequie BA 45200060 Brazil;sem numero de porta
 ALTO;349;Novo gás - Revenda de Gás,;Rua B Jequie BA 45201545 Brazil;sem numero de porta
 ALTO;352;SUPERGASBRAS - JEQUIÉ;Supergasbras Jequie BA Brazil;"sem numero de porta; logradouro sem nome"
-ALTO;358;ARMAZEM DAS AGUAS E DO GAS;Travessa D Lomanto Junior Juazeiro BA 48904355 Brazil;sem numero de porta
-ALTO;364;Gugu distribuidora de bebida & gás;Rua Zero Lomanto Junior Juazeiro BA 48905666 Brazil;sem numero de porta
+ALTO;358;ARMAZEM DAS AGUAS E DO GAS;Travessa D Juazeiro BA 48904355 Brazil;sem numero de porta
+ALTO;364;Gugu distribuidora de bebida & gás;Rua Zero Juazeiro BA 48905666 Brazil;sem numero de porta
 ALTO;381;Nacional Gás Butano Distribuidora;Avenida Engenheiro Manoel Borges Juazeiro BA 48908000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;401;Disk Gas e Água Mineral Jockey Club ULTRAGAZ;Rua Cely Martins Soares Jockei Club Lauro de Freitas BA 42702120 Brazil;sem numero de porta
-ALTO;403;Exporgás - Distribuidora de gás;Avenida Sao Cristovao Jardim das Margaridas Lauro de Freitas BA 42739005 Brazil;sem numero de porta
-ALTO;417;Revenda Brasilgás;Estrada Areia Branca Cachoeirinha Jambeiro Lauro de Freitas BA 42700000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;401;Disk Gas e Água Mineral Jockey Club ULTRAGAZ;Rua Cely Martins Soares Lauro de Freitas BA 42702120 Brazil;sem numero de porta
+ALTO;403;Exporgás - Distribuidora de gás;Avenida Sao Cristovao Lauro de Freitas BA 42739005 Brazil;sem numero de porta
+ALTO;417;Revenda Brasilgás;Estrada Areia Branca Cachoeirinha Lauro de Freitas BA 42700000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;434;Napolis Gás;BR 367 Quinta do Descobrimento Porto Seguro BA 45810000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;446;Aleixo Gas - Revenda Supergasbras;Estrada da Rainha 55 Salvador BA 40300176 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;447;Atacadão Do Gás;Estrada do Curralinho 80 Salvador BA 41770115 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;459;Disk Gás;Rua Serra da Mantiqueira Nova Esperanca Salvador BA 41400500 Brazil;sem numero de porta
+ALTO;459;Disk Gás;Rua Serra da Mantiqueira Salvador BA 41400500 Brazil;sem numero de porta
 ALTO;472;Nacional Gás;Rua Manoel Vieira Leite Salvador BA 41130760 Brazil;sem numero de porta
-ALTO;515;Central do Gás;Rua D Felicia Vitoria da Conquista BA 45055155 Brazil;sem numero de porta
+ALTO;515;Central do Gás;Rua D Vitoria da Conquista BA 45055155 Brazil;sem numero de porta
 ALTO;519;Conquista Gás;Escola Municipal Professora Fidelcina Carvalho Santos Espirito Santo Vitoria da Conquista BA 45037390 Brazil;sem numero de porta
-ALTO;520;Disk Agua e Gas;Avenida Centenario Centro Vitoria da Conquista BA 45015650 Brazil;sem numero de porta
-ALTO;535;CENTRAL DO GÁS Caucaia – Revenda Autorizada;Rua Sao Miguel Parque Soledade Caucaia CE 61603005 Brazil;sem numero de porta
-ALTO;576;LIQUIGÁS - DISK GÁS;Vila Jardim Nazare Jose Bonifacio Fortaleza CE 60055210 Brazil;sem numero de porta
-ALTO;582;Nacional Gás Butano Distribuidora - Filial Fortaleza;Avenida Leite Barbosa Cais do Porto Fortaleza CE 60000001 Brazil;sem numero de porta
-ALTO;592;Sol Gás - Revenda Liquigás;Vila Jardim Nazare Jose Bonifacio Fortaleza CE 60055210 Brazil;sem numero de porta
-ALTO;594;SUPERGASBRAS;Avenida D Prefeito Jose Walter Fortaleza CE 60751500 Brazil;sem numero de porta
+ALTO;520;Disk Agua e Gas;Avenida Centenario Vitoria da Conquista BA 45015650 Brazil;sem numero de porta
+ALTO;535;CENTRAL DO GÁS Caucaia – Revenda Autorizada;Rua Sao Miguel Caucaia CE 61603005 Brazil;sem numero de porta
+ALTO;576;LIQUIGÁS - DISK GÁS;Vila Jardim Nazare Fortaleza CE 60055210 Brazil;sem numero de porta
+ALTO;582;Nacional Gás Butano Distribuidora - Filial Fortaleza;Avenida Leite Barbosa Fortaleza CE 60000001 Brazil;sem numero de porta
+ALTO;592;Sol Gás - Revenda Liquigás;Vila Jardim Nazare Fortaleza CE 60055210 Brazil;sem numero de porta
+ALTO;594;SUPERGASBRAS;Avenida D Fortaleza CE 60751500 Brazil;sem numero de porta
 ALTO;599;NACIONAL GÁS IPU;Rua Padre Macario Ipu CE 62250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;613;Flávio Gás;Avenida Leao Sampaio Prefeito Carlos Alberto da Cruz Juazeiro do Norte CE 63041080 Brazil;sem numero de porta
+ALTO;613;Flávio Gás;Avenida Leao Sampaio Juazeiro do Norte CE 63041080 Brazil;sem numero de porta
 ALTO;640;Comercial Gás Triunfo - Revenda Liquigás;Rodovia Raimundo Pessoa de Araujo 1285 Maracanau CE 61914035 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;657;DISK GÁS & ÁGUA NOVA CAIÇARA;Rua das Andorinhas Junco Sobral CE 62031330 Brazil;sem numero de porta
+ALTO;657;DISK GÁS & ÁGUA NOVA CAIÇARA;Rua das Andorinhas Sobral CE 62031330 Brazil;sem numero de porta
 ALTO;665;Sobral Gás;Rua Vereador Joao Passos Dias Sobral CE 62053777 Brazil;sem numero de porta
 ALTO;668;Belo Gás;Juizado Especial Criminal e Juizado de Violencia Domestica e Familiar Contra a Mulher do Guara Guara DF 71070637 Brazil;sem numero de porta
-ALTO;670;disk gas na asa norte e asa sul;SQN 104 Bloco K Asa Norte Brasilia DF 70733110 Brazil;sem numero de porta
-ALTO;672;Disk gás Asa norte;SQN 411 Asa Norte Brasilia DF 70859000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;670;disk gas na asa norte e asa sul;SQN 104 Brasilia DF 70733110 Brazil;logradouro sem nome
+ALTO;672;Disk gás Asa norte;SQN 411 Brasilia DF 70859000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;673;Distribuidora de Gás Brasília;Grupo Escoteiro do Mar Almirante Adalberto Nunes 8df EQS 114 115 Bloco B Asa Sul Brasilia DF 72000000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;674;Gas 24 horas;DF 290 Santa Maria DF 72501505 Brazil;"sem numero de porta; logradouro sem nome"
-ALTO;676;GÁS ASA SUL E NORTE;SQS 407 Bloco A Asa Sul Brasilia DF 70254050 Brazil;sem numero de porta
-ALTO;678;Gás barato Asa Norte;SQN 402 Asa Norte Brasilia DF 70834000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;679;Gás e água mineral;SQS 404 Asa Sul Brasilia DF 70238000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;676;GÁS ASA SUL E NORTE;SQS 407 Brasilia DF 70254050 Brazil;logradouro sem nome
+ALTO;678;Gás barato Asa Norte;SQN 402 Brasilia DF 70834000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;679;Gás e água mineral;SQS 404 Brasilia DF 70238000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;680;Gás Forte;Via W2 Sul 9 Brasilia DF 70330522 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;681;Gás Sempre;Via W4 Sul Asa Sul Brasilia DF 70305000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;683;Natural Gás;Via W Tres Sul Asa Sul Brasilia DF 70740610 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;681;Gás Sempre;Via W4 Sul Brasilia DF 70305000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;683;Natural Gás;Via W Tres Sul Brasilia DF 70740610 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;686;Ultragaz Disk Gás Bom Gás;Via Nm Tres Ceilandia DF 72242051 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;687;Zé Gás Água;Via W Tres Sul Asa Sul Brasilia DF 70307902 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;691;Ditinho Gás;Rua Jose Turini Recanto Cachoeiro de Itapemirim ES 29303014 Brazil;sem numero de porta
-ALTO;703;RedeGás;Rua Azil Pinheiro Sao Luiz Gonzaga Cachoeiro de Itapemirim ES 29306884 Brazil;sem numero de porta
+ALTO;687;Zé Gás Água;Via W Tres Sul Brasilia DF 70307902 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;691;Ditinho Gás;Rua Jose Turini Cachoeiro de Itapemirim ES 29303014 Brazil;sem numero de porta
+ALTO;703;RedeGás;Rua Azil Pinheiro Cachoeiro de Itapemirim ES 29306884 Brazil;sem numero de porta
 ALTO;714;Consigaz Distribuidora de Gás;Rodovia Gov Mario Covas Cariacica ES 29156571 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;741;STOP GÁS;Rua Quarenta e Quatro Nova Rosa da Penha Cariacica ES 29157415 Brazil;sem numero de porta
+ALTO;741;STOP GÁS;Rua Quarenta e Quatro Cariacica ES 29157415 Brazil;sem numero de porta
 ALTO;744;Tonhão gas;Estrada Municipal de Cacaroca 1011 Cariacica ES 29141752 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;745;Unigás - Disk Gás - Revenda de Gás;Rua Florentino Avidos Cariacica Sede Cariacica ES 29156113 Brazil;sem numero de porta
-ALTO;773;Barbosa Gás;Rua V Vista da Serra II Serra ES 29176790 Brazil;sem numero de porta
-ALTO;792;Nacional Gás;Rua Geraldo Del Puppo Civit II Serra ES 29168074 Brazil;sem numero de porta
-ALTO;805;Supergasbras Energia Ltda;Avenida Copacabana Civit II Serra ES 29166820 Brazil;sem numero de porta
-ALTO;818;Disk Valmir Gás e Água Mineral;Rua Xavantes Praia da Costa Vila Velha ES 29101780 Brazil;sem numero de porta
-ALTO;843;Alô Gás;Rua 9 Boa Vista Anapolis GO 75075360 Brazil;sem numero de porta
-ALTO;846;Casagás - Disk Gás em Anápolis - Gás para empilhadeira;Rua Senador Socrates Diniz Q D Jardim Goncalves Anapolis GO 75123342 Brazil;sem numero de porta
+ALTO;773;Barbosa Gás;Rua V Serra ES 29176790 Brazil;sem numero de porta
+ALTO;792;Nacional Gás;Rua Geraldo Del Puppo Serra ES 29168074 Brazil;sem numero de porta
+ALTO;805;Supergasbras Energia Ltda;Avenida Copacabana Serra ES 29166820 Brazil;sem numero de porta
+ALTO;818;Disk Valmir Gás e Água Mineral;Rua Xavantes Vila Velha ES 29101780 Brazil;sem numero de porta
+ALTO;843;Alô Gás;Rua 9 Anapolis GO 75075360 Brazil;logradouro sem nome
+ALTO;846;Casagás - Disk Gás em Anápolis - Gás para empilhadeira;Rua Senador Socrates Diniz Q D Anapolis GO 75123342 Brazil;sem numero de porta
 ALTO;853;Disk Gás Anápolis;Jardim Vera Cruz Anapolis GO 75103580 Brazil;sem numero de porta
-ALTO;865;Jaiara Gás Anápolis Disk Gás 24 Horas;Rua Jk Nove Nova Vila Jaiara Anapolis GO 75053080 Brazil;sem numero de porta
-ALTO;866;JL Gás Anapolis;Rua Constelacao Lot Residencial Ana Carolina Anapolis GO 75053800 Brazil;sem numero de porta
+ALTO;865;Jaiara Gás Anápolis Disk Gás 24 Horas;Rua Jk Nove Anapolis GO 75053080 Brazil;sem numero de porta
+ALTO;866;JL Gás Anapolis;Rua Constelacao Anapolis GO 75053800 Brazil;sem numero de porta
 ALTO;874;Ad Gás;Rua Santo Antonio 95 2 Setor Serra Dourada Aparecida de Goiania GO 74973550 Brazil;sem numero de porta
 ALTO;875;AD GÁS COMÉRCIO E SERVIÇO;Avenida Doutor Ignacio Xavier da Silva 14 29 Expansul Aparecida de Goiania GO 74986310 Brazil;sem numero de porta
 ALTO;876;América Gás Aparecida;Rua H 016 42 10 Conjunto Residencial Santa Fe Aparecida de Goiania GO 74935190 Brazil;sem numero de porta
@@ -96,16 +96,16 @@ ALTO;877;Araxam Gás - Revenda Liquigás;Rua H 112 270 17 Cidade Vera Cruz Apare
 ALTO;878;Clube do Gás;Rua Gavioes 18 9 Jardim das Acacias Aparecida de Goiania GO 74987210 Brazil;sem numero de porta
 ALTO;879;Consigaz Borges Gás;Rua Hugo Flores 8 31 Jardim das Acacias Aparecida de Goiania GO 74987230 Brazil;sem numero de porta
 ALTO;880;Depósito de Gás;Avenida Duarte Sabino 111 1 Rosa dos Ventos Aparecida de Goiania GO 74989170 Brazil;sem numero de porta
-ALTO;881;Depósito de Gás Aparecida de Goiânia;Rua Louvre Residencial Village Garavelo Aparecida de Goiania GO 74968492 Brazil;sem numero de porta
+ALTO;881;Depósito de Gás Aparecida de Goiânia;Rua Louvre Aparecida de Goiania GO 74968492 Brazil;sem numero de porta
 ALTO;883;Disk Gás JK - Jardim Tiradentes;Rua Dezenove 8 14 Jardim Tiradentes Aparecida de Goiania GO 74961160 Brazil;sem numero de porta
-ALTO;885;Dw Gás;Rua Buriti Setor Serra Dourada Aparecida de Goiania GO 74973140 Brazil;sem numero de porta
+ALTO;885;Dw Gás;Rua Buriti Aparecida de Goiania GO 74973140 Brazil;sem numero de porta
 ALTO;886;ELOHI Gás - Revenda Liquigás;Rua Lucena 31 4 Jardim Cristal Aparecida de Goiania GO 74982200 Brazil;sem numero de porta
 ALTO;887;Empório do gás;Avenida Odorico Nery 58 1 Vila Maria Aparecida de Goiania GO 74919374 Brazil;sem numero de porta
-ALTO;888;FAST GÁS;Rua do Sabia Jardim Riviera Aparecida de Goiania GO 74970630 Brazil;sem numero de porta
+ALTO;888;FAST GÁS;Rua do Sabia Aparecida de Goiania GO 74970630 Brazil;sem numero de porta
 ALTO;889;Gás Cidade Livre - Aparecida de Goiânia;Rua dos Sonhos 82 13 Cidade Livre Aparecida de Goiania GO 74970040 Brazil;sem numero de porta
 ALTO;890;Gás Dois Irmãos;Rua Antonio Lourenco 19 1 Vila Souza Aparecida de Goiania GO 74987730 Brazil;sem numero de porta
 ALTO;891;Gás em Aparecida de Goiânia - Buriti Sereno;Rua Rita Ludolf 275 19 Jardim Buriti Sereno Aparecida de Goiania GO 74943010 Brazil;sem numero de porta
-ALTO;892;Gás Nobre - Gás de Cozinha - Distribuidora de Gás e Água Mineral - Entrega de Gás e Água Mineral;Avenida Anapolis Vila Brasilia Aparecida de Goiania GO 74911360 Brazil;sem numero de porta
+ALTO;892;Gás Nobre - Gás de Cozinha - Distribuidora de Gás e Água Mineral - Entrega de Gás e Água Mineral;Avenida Anapolis Aparecida de Goiania GO 74911360 Brazil;sem numero de porta
 ALTO;893;Hiper Gás;Rua Jussara 36 27 Vila Brasilia Aparecida de Goiania GO 74905500 Brazil;sem numero de porta
 ALTO;894;Hiper Gás e Água Mineral;Rua Corindom 89 36 Setor Pontal Sul Aparecida de Goiania GO 74955170 Brazil;sem numero de porta
 ALTO;895;Império Gás Água e Cia - 24 hr;Avenida W Cinco 73 11 Setor Santa Luzia Aparecida de Goiania GO 74922685 Brazil;sem numero de porta
@@ -116,7 +116,7 @@ ALTO;899;MM Gás e Água Mineral;Rua Saint Tropez 69 15 Residencial Village Gara
 ALTO;901;PARQUE GÁS - DISTRIBUIDORA DE GÁS;Rua Wilton Pinheiro 12 34 Parque Trindade Aparecida de Goiania GO 74921239 Brazil;sem numero de porta
 ALTO;902;Paulinho Gás de cozinha e Água mineral | Aparecida de Goiânia;Rua dos Coqueiros 25 51 Retiro do Bosque Aparecida de Goiania GO 74990665 Brazil;sem numero de porta
 ALTO;903;Rapidim Gás;Rua Argentina 20 9 Jardim Belo Horizonte Aparecida de Goiania GO 74976080 Brazil;sem numero de porta
-ALTO;904;SAMUGÁS;Rua Santo Antonio Vila Souza Aparecida de Goiania GO 74987793 Brazil;sem numero de porta
+ALTO;904;SAMUGÁS;Rua Santo Antonio Aparecida de Goiania GO 74987793 Brazil;sem numero de porta
 ALTO;905;Stylos Gás;Rua Luiz Antonio Garavelo 16 5 Residencial Village Garavelo Aparecida de Goiania GO 74968540 Brazil;sem numero de porta
 ALTO;906;Talera gás;Avenida Brasilia 39 4 Vila Brasilia Aparecida de Goiania GO 74905190 Brazil;sem numero de porta
 ALTO;907;Tem Gás e Água;Rua Doutor Adail Viana Santana 47 16 Setor Serra Dourada Aparecida de Goiania GO 74973230 Brazil;sem numero de porta
@@ -142,42 +142,42 @@ ALTO;934;Distribuidora de Gás e Água Mineral Eldorado;Rua C 159 247 14 Jardim 
 ALTO;935;Esquina Gás;Rua Seis 8 17 Marechal Rondon Goiania GO 74553100 Brazil;sem numero de porta
 ALTO;937;GasLar | Depósito de Gás de Cozinha | Goiânia;Rua Mil e Vinte e Um 56 1 Pedro Ludovico Goiania GO 74820280 Brazil;sem numero de porta
 ALTO;940;Golden Gás Comercial;Rua Angelo Amorim 102 10 Finsocial Goiania GO 74475049 Brazil;sem numero de porta
-ALTO;941;Gordinho Gás e Água;Avenida Bela Vista Parque das Laranjeiras Goiania GO 74863050 Brazil;sem numero de porta
+ALTO;941;Gordinho Gás e Água;Avenida Bela Vista Goiania GO 74863050 Brazil;sem numero de porta
 ALTO;942;Gás Alves Ultragaz P5 - P13 - P20 - P45;Avenida Lucio Rebelo 14 17 Finsocial Goiania GO 74594110 Brazil;sem numero de porta
-ALTO;945;GÁS DA 85;Avenida 85 Sul Goiania GO 74080010 Brazil;sem numero de porta
+ALTO;945;GÁS DA 85;Avenida 85 Goiania GO 74080010 Brazil;logradouro sem nome
 ALTO;946;GÁS DE COZINHA PROXIMO - ADEGÁS;Avenida Ef 9 2 13 Parque Santa Rita Goiania GO 74392095 Brazil;sem numero de porta
 ALTO;948;GÁS E ÁGUA MINERAL;Rua C 161 295 15 Jardim America Goiania GO 74275060 Brazil;sem numero de porta
 ALTO;949;Gás e água Tavares;Rua Divisa 254 1 Finsocial Goiania GO 74475810 Brazil;sem numero de porta
 ALTO;953;GÁS PANTALEAO;Avenida Veneza 80 4 Jardim Europa Goiania GO 74325100 Brazil;sem numero de porta
-ALTO;954;Gás Resende;Avenida Veneza Novo Horizonte Goiania GO 74363800 Brazil;sem numero de porta
+ALTO;954;Gás Resende;Avenida Veneza Goiania GO 74363800 Brazil;sem numero de porta
 ALTO;956;Gás Tropical - Distribuidora de Gás P-13 / P-20 / P-45;Rua Duzentos e Setenta e Seis 26 24 Coimbra Goiania GO 74533110 Brazil;sem numero de porta
 ALTO;958;Imperial Gás;Rua C 149 381 1 Jardim America Goiania GO 74275080 Brazil;sem numero de porta
-ALTO;959;Jr Gás - Revenda Liquigás;Rua Pasteur Jardim Europa Goiania GO 74885100 Brazil;sem numero de porta
+ALTO;959;Jr Gás - Revenda Liquigás;Rua Pasteur Goiania GO 74885100 Brazil;sem numero de porta
 ALTO;960;Kim Gás;Rua Duzentos e Trinta e Nove 89 14 Leste Universitario Goiania GO 74605120 Brazil;sem numero de porta
 ALTO;963;Maracanã Gás | Gás de Cozinha | Gás Perto de Mim | Gás | Gas Goiania;Estrada Sao de Joao 212 Goiania GO 74482130 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;968;Novo Mundo Gás;Avenida Canaa 159 19 Jardim Novo Mundo Goiania GO 74705170 Brazil;sem numero de porta
 ALTO;969;Prata Gas;Avenida C 208 217 17 Jardim America Goiania GO 74255140 Brazil;sem numero de porta
-ALTO;970;Quero Gás;Rua Coronel Felismino Viana Marechal Rondon Goiania GO 74563560 Brazil;sem numero de porta
+ALTO;970;Quero Gás;Rua Coronel Felismino Viana Goiania GO 74563560 Brazil;sem numero de porta
 ALTO;971;Quero Gás – Entrega Rápida de Gás de Cozinha em Goiânia;Rua Joao Neves da Cunha 13 11 Jardim Balneario Meia Ponte Goiania GO 74593280 Brazil;sem numero de porta
 ALTO;972;Rei Do Gas;Avenida New York 98 7 Jardim Novo Mundo Goiania GO 74710010 Brazil;sem numero de porta
-ALTO;973;Santa Isabel Gás Água Mineral - Revenda Liquigás;Avenida Lauricio Pedro Rasmussen Avenida Lauricio Pedro Rasmussem Bairro Feliz Goiania GO 74633420 Brazil;sem numero de porta
+ALTO;973;Santa Isabel Gás Água Mineral - Revenda Liquigás;Avenida Lauricio Pedro Rasmussen Goiania GO 74633420 Brazil;sem numero de porta
 ALTO;978;ZOOM GÁS - Revenda de Gás nas Regiões Sul e Central de Goiânia;Rua C 25 40 19 Jardim America Goiania GO 74265150 Brazil;sem numero de porta
-ALTO;983;Caraíbas gás e bebidas;Rua Quarenta e Tres Residencial Alto das Caraibas Luziania GO 72813180 Brazil;sem numero de porta
-ALTO;984;Casa do Gás - Água Mineral e Gás;Avenida Alfredo Nasser Parque Estrela Dalva I Luziania GO 72833377 Brazil;sem numero de porta
-ALTO;985;Coutinho Gás e Água;Rua Perimetral Vila Guara Luziania GO 72834247 Brazil;sem numero de porta
-ALTO;987;Depòsito de gás;Rua Jose Bonifacio Parque Estrela Dalva I Luziania GO 72800000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;997;Grupo Campeão Gás - Luziânia;Avenida Doutor Neilor Rolim Parque Alvorada I Luziania GO 72815450 Brazil;sem numero de porta
-ALTO;1008;JB Gás e Água Mineral;Avenida Alfredo Nasser Pista Lateral Parque Estrela Dalva II Luziania GO 72800000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1010;Leila Gás;Avenida Dez Parque Estrela Dalva VII Luziania GO 72810100 Brazil;sem numero de porta
-ALTO;1012;NATURAL GÁS - Gás e Água em Luziânia;Rua Vinte e Sete Parque Jk Luziania GO 72833000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;983;Caraíbas gás e bebidas;Rua Quarenta e Tres Luziania GO 72813180 Brazil;sem numero de porta
+ALTO;984;Casa do Gás - Água Mineral e Gás;Avenida Alfredo Nasser Luziania GO 72833377 Brazil;sem numero de porta
+ALTO;985;Coutinho Gás e Água;Rua Perimetral Luziania GO 72834247 Brazil;sem numero de porta
+ALTO;987;Depòsito de gás;Rua Jose Bonifacio Luziania GO 72800000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;997;Grupo Campeão Gás - Luziânia;Avenida Doutor Neilor Rolim Luziania GO 72815450 Brazil;sem numero de porta
+ALTO;1008;JB Gás e Água Mineral;Avenida Alfredo Nasser Pista Lateral Luziania GO 72800000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1010;Leila Gás;Avenida Dez Luziania GO 72810100 Brazil;sem numero de porta
+ALTO;1012;NATURAL GÁS - Gás e Água em Luziânia;Rua Vinte e Sete Luziania GO 72833000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1021;Rogério Gás E Agua;Rua Vinte e Sete Novo Gama GO 72860432 Brazil;sem numero de porta
 ALTO;1022;Saga Gás e Água;Avenida Rui Barbosa Palmeiras de Goias GO 76190000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1023;Piauí Gás e Água;Rua Treze B Planaltina GO 73754206 Brazil;sem numero de porta
-ALTO;1024;Amigão gás;Rua L Cinco Vila Borges Prol A Rio Verde GO 75902886 Brazil;sem numero de porta
-ALTO;1053;Amaral Gás;Rua Presidente Getulio Vargas Vila Santa Rosa Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1054;Atacadão do Gás e Água Mineral;Avenida Presidente Alves de Castro Vila Bom Sucesso Senador Canedo GO 75261477 Brazil;sem numero de porta
+ALTO;1024;Amigão gás;Rua L Cinco Rio Verde GO 75902886 Brazil;sem numero de porta
+ALTO;1053;Amaral Gás;Rua Presidente Getulio Vargas Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1054;Atacadão do Gás e Água Mineral;Avenida Presidente Alves de Castro Senador Canedo GO 75261477 Brazil;sem numero de porta
 ALTO;1055;CAMPEÃO GÁS;Rua Jm Quatro 1 23 Jardim das Oliveiras Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1056;Carlinhos Gás;Rua Ver Jose Eduardo Rua Vereador Jose Eduardo Jardim Todos os Santos Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1056;Carlinhos Gás;Rua Ver Jose Eduardo Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1057;Central Gás;Rua Quinze 17 8 Conjunto Uirapuru Senador Canedo GO 75261193 Brazil;sem numero de porta
 ALTO;1058;City Gás;Rua Dez 1 22 Conjunto Uirapuru Senador Canedo GO 75261211 Brazil;sem numero de porta
 ALTO;1061;Depósito de gás;Rua Firmino Rodrigues do Nascimento 3F 26 Jardim Todos os Santos Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -185,12 +185,12 @@ ALTO;1062;Depósito de gás Águia Dourada;Avenida Doutor Jose Carneiro 31 30 Re
 ALTO;1063;DISTRIBUIDORA DE GAS E BEBIDAS RAFAEL;Rua Milton Costa 1X 4 Jardim Todos os Santos Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1064;Duarte Gás;Rua Belgica 41 10 Bairro Alvorada Senador Canedo GO 75259870 Brazil;sem numero de porta
 ALTO;1065;Eduardo Gás;Rua F Onze 16 22 Senador Canedo GO 75263758 Brazil;sem numero de porta
-ALTO;1066;GASBALL;Avenida Progresso Residencial Jardim Canedo Senador Canedo GO 13147076 Brazil;sem numero de porta
+ALTO;1066;GASBALL;Avenida Progresso Senador Canedo GO 13147076 Brazil;sem numero de porta
 ALTO;1067;GASMIX GÁS E ÁGUA;Rua Rp Nove 15 22 Senador Canedo GO 75260240 Brazil;sem numero de porta
 ALTO;1068;Gás Pelezinho;Rua Ney Fernandes 33 13 Bairro Alvorada Senador Canedo GO 75259776 Brazil;sem numero de porta
 ALTO;1069;Gás | Dona Patroa Gás;Rua Co Nove 15 19 Senador Canedo GO 75255168 Brazil;sem numero de porta
 ALTO;1070;Job Gás - Senador Canedo;Rua Castro Alves 80 9 Residencial Pedro Miranda Senador Canedo GO 75262307 Brazil;sem numero de porta
-ALTO;1071;JOÃO DO GÁS;Rua Benjamin Santos Jardim Todos os Santos Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1071;JOÃO DO GÁS;Rua Benjamin Santos Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1072;Juninho Gás;Rua Milton Costa 5 10 Jardim Todos os Santos Senador Canedo GO 75261349 Brazil;sem numero de porta
 ALTO;1073;Liberato Gas;Rua Rp Nove Senador Canedo GO 75260234 Brazil;sem numero de porta
 ALTO;1074;LUIZÃO DO GÁS;Avenida Doutor Jose Carneiro 22 33 Residencial Jardim Canedo Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -198,7 +198,7 @@ ALTO;1075;Magrão Gás;Avenida do Comercio 47 11 Morada do Morro Senador Canedo 
 ALTO;1076;Manga Gás - Revenda de Gás em Senador Canedo;Rua Sete de Setembro 9 1A Vila Santa Rosa Senador Canedo GO 75252525 Brazil;sem numero de porta
 ALTO;1078;Nacional Gás - Filial Senador Canedo;Rodovia GO 536 Senador Canedo GO 75250000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1079;Neguinho Gás e Água;Rua Noruega 42 9 Bairro Alvorada Senador Canedo GO 75259879 Brazil;sem numero de porta
-ALTO;1080;NEOGÁS Gás de Cozinha e Água Mineral;Rua Chavantina Vila Santa Rosa Terceira Etapa Senador Canedo GO 75251403 Brazil;sem numero de porta
+ALTO;1080;NEOGÁS Gás de Cozinha e Água Mineral;Rua Chavantina Senador Canedo GO 75251403 Brazil;sem numero de porta
 ALTO;1081;NEOGÁS Loja II Bairro Alvorada_ Gás e Água Mineral;Rua Ney Fernandes 32 24 Bairro Alvorada Senador Canedo GO 75259776 Brazil;sem numero de porta
 ALTO;1082;Nicolas gás;Rua Sf Dois 10 21 Vila Bom Sucesso Senador Canedo GO 75261604 Brazil;sem numero de porta
 ALTO;1083;Opção Gás Água& Bebidas;Avenida Simeao Fortes Senador Canedo GO 75250000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -265,23 +265,23 @@ ALTO;1319;Mass Gás;Alameda Paco Lumiar Sao Jose de Ribamar MA 65110000 Brazil;"
 ALTO;1321;Nacional Gás;Rua Marcelo Quinta Sao Jose de Ribamar MA 65110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1325;RAVY GÁS E ÁGUA BEBIDAS EM GERAL;Estrada Boa Viagem Sao Jose de Ribamar MA 65115366 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;1326;Resende Gás | Gás de cozinha | Entrega rápida e instalação de gás;Via de Acesso Quatro Mil Sao Jose de Ribamar MA 65110000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1331;América Gás;Rua Vinte e Nove Jardim America Central Sao Luis MA 65058323 Brazil;sem numero de porta
-ALTO;1338;DISKGÁS SLZ;Avenida Lourenco Vieira da Silva Cidade Operaria Sao Luis MA 65110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;1331;América Gás;Rua Vinte e Nove Sao Luis MA 65058323 Brazil;sem numero de porta
+ALTO;1338;DISKGÁS SLZ;Avenida Lourenco Vieira da Silva Sao Luis MA 65110000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1341;Gasmar;Farahsaad Arquitetura e Interiores Renascenca Sao Luis MA 65075060 Brazil;sem numero de porta
 ALTO;1352;Nacional Gás Butano Dist. Ltda;Avenida dos Portugueses Sao Luis MA 65085582 Brazil;sem numero de porta
-ALTO;1353;NACIONAL GÁS Cidade Operária;Rua Dez Cidade Operaria Sao Luis MA 65058024 Brazil;sem numero de porta
+ALTO;1353;NACIONAL GÁS Cidade Operária;Rua Dez Sao Luis MA 65058024 Brazil;sem numero de porta
 ALTO;1354;Novo gás;Rua Duzentos e Tres SE 3 Cidade Operaria Sao Luis MA 65058156 Brazil;sem numero de porta
-ALTO;1366;𝗖𝗔𝗦𝗔 𝗗𝗢 𝗚Á𝗦 SÃO LUÍS - Revenda Autorizada Nacional Gás - Atacadista e Varejista no Maranhão;Rua Nossa Senhora da Conceicao Vila Embratel Sao Luis MA 65081401 Brazil;sem numero de porta
-ALTO;1367;Aliança Gás - Nacional Gás;Avenida Presidente Medici Cajueiro Timon MA 65630785 Brazil;sem numero de porta
+ALTO;1366;𝗖𝗔𝗦𝗔 𝗗𝗢 𝗚Á𝗦 SÃO LUÍS - Revenda Autorizada Nacional Gás - Atacadista e Varejista no Maranhão;Rua Nossa Senhora da Conceicao Sao Luis MA 65081401 Brazil;sem numero de porta
+ALTO;1367;Aliança Gás - Nacional Gás;Avenida Presidente Medici Timon MA 65630785 Brazil;sem numero de porta
 ALTO;1387;MINASGÁS;BR 259 1277 Aimores MG 35200000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1400;ATENDE GÁS;Rua dos Carteiros Brasilia Araguari MG 38441328 Brazil;sem numero de porta
-ALTO;1402;GÁS RESENDE;Avenida dos Eletricistas Fatima Araguari MG 38441176 Brazil;sem numero de porta
-ALTO;1404;ULTRAGAZ;Rua Nephitalli Vieira Centro Araguari MG 38442028 Brazil;sem numero de porta
+ALTO;1400;ATENDE GÁS;Rua dos Carteiros Araguari MG 38441328 Brazil;sem numero de porta
+ALTO;1402;GÁS RESENDE;Avenida dos Eletricistas Araguari MG 38441176 Brazil;sem numero de porta
+ALTO;1404;ULTRAGAZ;Rua Nephitalli Vieira Araguari MG 38442028 Brazil;sem numero de porta
 ALTO;1423;MAX GÁS EM BAMBUÍ;Rua Indalecio Alvarez Gonzales Bambui MG 38900000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1424;GÁS SANTANA;Rua Artur Bernardes Barbacena MG Brazil;sem numero de porta
 ALTO;1429;VIP GÁS E ÁGUA;Rua Artur Bernardes Barbacena MG Brazil;sem numero de porta
 ALTO;1476;COPAGAZ;ESTRADA DO PETROVALE Betim MG 32400000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha); cidade divergente: coluna diz 'Betim' e o endereco diz 'Ibirité'; mantida a da coluna"
-ALTO;1491;NACIONAL GÁS;Rua Pedestre Jardim Teresopolis Betim MG 32605326 Brazil;sem numero de porta
+ALTO;1491;NACIONAL GÁS;Rua Pedestre Betim MG 32605326 Brazil;sem numero de porta
 ALTO;1510;EDINHO GÁS;AVENIDA CORACAO DE JESUS Brasilia de Minas MG 39330000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1512;GERALDINHO GÁS;RUA MACHADO DE ASSIS BRUMADINHO Brumadinho MG 35460000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1526;ULTRAGAZ;Rua Joao Moreira Salles Cambui MG 37600000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -290,8 +290,8 @@ ALTO;1618;Rapidinho Gás e Água | Gas Contagem | Gas Eldorado | Gas de Cozinha;
 ALTO;1636;XAMA GÁS;Avenida Doutor Jose de Magalhaes Pinto Coronel Fabriciano MG 35171017 Brazil;sem numero de porta
 ALTO;1754;R&S GÁS E ÁGUA MINERAL;BR 120 Guanhaes MG 39740000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1800;GASPAR GÁS;Rua Trinta e Sete Ibia MG 38950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;1815;Barão Gás Ipatinga | Gás e Água mineral;Rua Cravina Rua Orquidea Bom Jardim Ipatinga MG 35162290 Brazil;sem numero de porta
-ALTO;1864;GÁS VIEIRA;Avenida Padre Lourenco da Costa Morro Grande Itajuba MG 37502710 Brazil;sem numero de porta
+ALTO;1815;Barão Gás Ipatinga | Gás e Água mineral;Rua Cravina Ipatinga MG 35162290 Brazil;sem numero de porta
+ALTO;1864;GÁS VIEIRA;Avenida Padre Lourenco da Costa Itajuba MG 37502710 Brazil;sem numero de porta
 ALTO;1892;ITU GÁS;Rua da Dona Fiuca Iturama MG 38280000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1953;GÁS LAGOENSE;Rua Expedicionario Luciano de Castro Lagoa da Prata MG 35590000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1961;MAURINHO GÁS;Rua Custodio Moreira Lavras MG 37200268 Brazil;sem numero de porta
@@ -301,27 +301,27 @@ ALTO;1984;VIP GÁS;Rodovia Mtz 010 Matozinhos MG 35720000 Brazil;"endereco de ro
 ALTO;1985;MONTE GÁS & ÁGUA;Estrada Para Garcia 191 Monte Alegre de Minas MG 38475000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1988;DISK GÁS COSTA SUL - LIQUIGÁS;Alameda dos Angicos Monte Carmelo MG 38500000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1994;DISTRIBUIDORA DE GÁS MONTE SIÃO;Sitio dos Lunardi Monte Siao MG 37580000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2008;Disk Água e Gás Montes Claros;Avenida Geraldo Athayde Sao Joao Montes Claros MG 39400292 Brazil;sem numero de porta
+ALTO;2008;Disk Água e Gás Montes Claros;Avenida Geraldo Athayde Montes Claros MG 39400292 Brazil;sem numero de porta
 ALTO;2035;Noel Gás;Estrada Para Toledo 1570 Montes Claros MG 39404046 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;2047;SHALOM GÁS MONTES CLAROS;Avenida Coronel Luiz Maia Lourdes Montes Claros MG 39400381 Brazil;sem numero de porta
+ALTO;2047;SHALOM GÁS MONTES CLAROS;Avenida Coronel Luiz Maia Montes Claros MG 39400381 Brazil;sem numero de porta
 ALTO;2055;IMPÉRIO DO GÁS DE MURIAÉ;Rua Vivalde de Souza Muriae MG 36887228 Brazil;sem numero de porta
-ALTO;2092;A TEMGAS TRANSPORTE E COMÉRCIO DE GÁS;Rua Fatima Porto Boa Vista Patos de Minas MG 38700004 Brazil;sem numero de porta
-ALTO;2095;Alípio Gás;Rua Duque de Caxias Varzea Patos de Minas MG 38700186 Brazil;sem numero de porta
+ALTO;2092;A TEMGAS TRANSPORTE E COMÉRCIO DE GÁS;Rua Fatima Porto Patos de Minas MG 38700004 Brazil;sem numero de porta
+ALTO;2095;Alípio Gás;Rua Duque de Caxias Patos de Minas MG 38700186 Brazil;sem numero de porta
 ALTO;2123;GÁS AJATO;Avenida Um Pedra Azul MG 39970000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2132;CENTRAL GÁS;Estrada Para Velho da Taipa 182 Pitangui MG 35650000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2156;GÁS 24 HORAS;Rua Seis Pouso Alegre MG 37550000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2165;Minas Água e Gás - Gás Pouso Alegre - Disk Água Pouso Alegre - Bebidas;Rua Coronel Brito Filho Pouso Alegre MG 37554246 Brazil;sem numero de porta
 ALTO;2177;Consigaz | Gás de Cozinha | Disk Gás | A chama que faz sua vida melhor;Avenida Alcoa Pocos de Caldas MG 37706450 Brazil;sem numero de porta
 ALTO;2194;ALMEIDA GÁS;Avenida Getulio Vargas Raul Soares MG 35350000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2196;CASA DE RAÇÕES E DEPOSITO DE GÁS ADONAI;Rua Ari Teixeira da Costa Sao Geraldo Ribeirao das Neves MG 33805020 Brazil;sem numero de porta
+ALTO;2196;CASA DE RAÇÕES E DEPOSITO DE GÁS ADONAI;Rua Ari Teixeira da Costa Ribeirao das Neves MG 33805020 Brazil;sem numero de porta
 ALTO;2199;DANIEL GÁS;Avenida DIONIZIO GOMES VENEZA Ribeirao das Neves MG 33821108 Brazil;sem numero de porta
-ALTO;2223;TELEGÁS AVENIDA;Avenida Denise Cristina da Rocha Viena Ribeirao das Neves MG 33900000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2224;Telegás e Água os Grillos | Revenda de Gás no Bairro Veneza Rib. Das Neves;Avenida A Veneza Ribeirao das Neves MG 33821235 Brazil;sem numero de porta
-ALTO;2226;TITAN GÁS - DISTRIBUIDORA DE GÁS GLP;Rua Suacui Jardim de Ala Ribeirao das Neves MG 33943620 Brazil;sem numero de porta
+ALTO;2223;TELEGÁS AVENIDA;Avenida Denise Cristina da Rocha Ribeirao das Neves MG 33900000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2224;Telegás e Água os Grillos | Revenda de Gás no Bairro Veneza Rib. Das Neves;Avenida A Ribeirao das Neves MG 33821235 Brazil;sem numero de porta
+ALTO;2226;TITAN GÁS - DISTRIBUIDORA DE GÁS GLP;Rua Suacui Ribeirao das Neves MG 33943620 Brazil;sem numero de porta
 ALTO;2235;MARILENE;MG 262 Carvalho de Brito Sabara MG 34585570 Brazil;sem numero de porta
 ALTO;2237;FELINO GÁS - UNIDADE 2;Rua Italo Cerchi Sacramento MG 38190000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2255;DEPÓSITO DE GÁS NOVA ALIANÇA;Rua Adolfo Barbosa Santa Luzia MG 33040130 Brazil;sem numero de porta
-ALTO;2269;Santa Luzia Gás;Avenida Coletora Dois Sao Benedito Santa Luzia MG 33170800 Brazil;sem numero de porta
+ALTO;2269;Santa Luzia Gás;Avenida Coletora Dois Santa Luzia MG 33170800 Brazil;sem numero de porta
 ALTO;2286;DEPÓSITO DE GÁS E ÁGUA MIRANDA;Rua Ivai Santa Rita do Sapucai MG 37540000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2316;JM GÁS SETE LAGOAS;Rua Alonso Marques Ferreira Sete Lagoas MG 35701129 Brazil;sem numero de porta
 ALTO;2328;SUPERGASBRÁS;Rua Alonso Marques Ferreira Sete Lagoas MG 35701129 Brazil;sem numero de porta
@@ -333,25 +333,25 @@ ALTO;2383;GÁS MG REVENDEDORA DE GÁS COMBUSTÍVEL;BR 381 Lagoa de Pau Timoteo M
 ALTO;2392;JUNINHO GÁS E ÁGUA EM TRÊS CORAÇÕES;Rua Alzira Feliciana Siqueira Tres Coracoes MG 37417464 Brazil;sem numero de porta
 ALTO;2401;DISTRIBUIDORA DE GÁS;Avenida Capitao Manoel Prata Uberaba MG 38022120 Brazil;sem numero de porta
 ALTO;2412;FERA GÁS - PACAEMBU;Avenida Ramid Mauad Uberaba MG 38051570 Brazil;sem numero de porta
-ALTO;2468;Park Gás de Cozinha e Água - SuperGasbras;Avenida Sul Americana Shopping Park Uberlandia MG 38425426 Brazil;sem numero de porta
-ALTO;2469;Plantão Gás de Cozinha e Água;Rua Abelardo P dos Santos Laranjeiras Uberlandia MG 38410222 Brazil;sem numero de porta
+ALTO;2468;Park Gás de Cozinha e Água - SuperGasbras;Avenida Sul Americana Uberlandia MG 38425426 Brazil;sem numero de porta
+ALTO;2469;Plantão Gás de Cozinha e Água;Rua Abelardo P dos Santos Uberlandia MG 38410222 Brazil;sem numero de porta
 ALTO;2476;GÁS E ÁGUA PALMEIRA;Rua Francisco Teixeira de Abreu Uba MG 36500000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2477;LÍDER GÁS UBÁ;Avenida Senador Levindo Coelho Uba MG 36500000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2503;Lignina Gás (GÁS DO POVO);Rua Santo Frogeri Sion Varginha MG 37048060 Brazil;sem numero de porta
-ALTO;2511;SUPER GÁS VARGINHA;Rua Santo Frogeri Sion Varginha MG 37045168 Brazil;sem numero de porta
+ALTO;2503;Lignina Gás (GÁS DO POVO);Rua Santo Frogeri Varginha MG 37048060 Brazil;sem numero de porta
+ALTO;2511;SUPER GÁS VARGINHA;Rua Santo Frogeri Varginha MG 37045168 Brazil;sem numero de porta
 ALTO;2544;Ligeirinho Gás e Água;Rua P Dezessete Chapadao do Sul MS 79560000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2550;Gás Pantanal Entrega;Rua Alvicio Martins Viana 2525 0 Izidoro Pedroso Dourados MS 79840290 Brazil;sem numero de porta
-ALTO;2571;Individualize - Gestão de Consumo de Água e Gás;Avenida Republica do Libano Despraiado Cuiaba MT 78048196 Brazil;sem numero de porta
-ALTO;2582;MTGÁS;Rua Engenheiro Edgar Prado Arze Centro Politico Administrativo Cuiaba MT 78049910 Brazil;sem numero de porta
-ALTO;2594;MR distribuidora de GÁS: gás;Avenida do Estado Jardim Celeste Caceres MT 78210615 Brazil;sem numero de porta
+ALTO;2571;Individualize - Gestão de Consumo de Água e Gás;Avenida Republica do Libano Cuiaba MT 78048196 Brazil;sem numero de porta
+ALTO;2582;MTGÁS;Rua Engenheiro Edgar Prado Arze Cuiaba MT 78049910 Brazil;sem numero de porta
+ALTO;2594;MR distribuidora de GÁS: gás;Avenida do Estado Caceres MT 78210615 Brazil;sem numero de porta
 ALTO;2641;Sasc Gás Distribuidora de Gás GLP e Água Mineral;Estrada Alzira 79 Sinop MT 78557840 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;2646;PIRAPÓ DISTRIBUIDORA - Água mineral, Gás Cozinha, Empilhadeira e Industrial;Rua Rui Barbosa Jardim das Acacias Sorriso MT 78890179 Brazil;sem numero de porta
+ALTO;2646;PIRAPÓ DISTRIBUIDORA - Água mineral, Gás Cozinha, Empilhadeira e Industrial;Rua Rui Barbosa Sorriso MT 78890179 Brazil;sem numero de porta
 ALTO;2648;MT Gás Tangará;Estrada Municipal Cinco 1591 Tangara da Serra MT 78300000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2656;Loja Fogás Autosserviço - Auto Posto Varzea Grande;Rua Maracaju Centro Norte Varzea Grande MT 78110600 Brazil;sem numero de porta
-ALTO;2661;R Gas e Agua Distribuidora;Rua Dner Mapim Varzea Grande MT 78155300 Brazil;sem numero de porta
-ALTO;2664;Rodogás Distribuidora Gás e Água Ltda;Rua Ulisses Pompeu de Campos Centro Norte Varzea Grande MT 78140410 Brazil;sem numero de porta
-ALTO;2667;Top Gás Matriz;Avenida Filinto Muller Paiaguas Varzea Grande MT 78135785 Brazil;sem numero de porta
-ALTO;2676;Dohara Gás Abatetuba;Rua Ubiratan Dias Santa Rosa Abaetetuba PA 68440000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2656;Loja Fogás Autosserviço - Auto Posto Varzea Grande;Rua Maracaju Varzea Grande MT 78110600 Brazil;sem numero de porta
+ALTO;2661;R Gas e Agua Distribuidora;Rua Dner Varzea Grande MT 78155300 Brazil;sem numero de porta
+ALTO;2664;Rodogás Distribuidora Gás e Água Ltda;Rua Ulisses Pompeu de Campos Varzea Grande MT 78140410 Brazil;sem numero de porta
+ALTO;2667;Top Gás Matriz;Avenida Filinto Muller Varzea Grande MT 78135785 Brazil;sem numero de porta
+ALTO;2676;Dohara Gás Abatetuba;Rua Ubiratan Dias Abaetetuba PA 68440000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2678;Lulugas;Rodovia Dr Joao Miranda 1656 Abaetetuba PA 68440000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2684;Bénção Gás;Estrada do Guajara 1928 Ananindeua PA 67125000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2696;Expresso Gás Ananindeua;Rodovia Mario Covas 6000 Ananindeua PA 67115000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -388,38 +388,38 @@ ALTO;2887;PBS GÁS;Rua Dezesseis Parauapebas PA 68515000 Brazil;"sem numero de p
 ALTO;2894;Serve Mais Gás | Paraupebas;Rua Treze Parauapebas PA 68515000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2895;Tocantins Gás;Rua 15 Parauapebas PA 68515000 Brazil;"logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;2898;VOVO GAS;Rua Aroeira Parauapebas PA 68515000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;2906;Centro de Distribuição Fogás - Santarém;Rua do Sale Sale Santarem PA 68040400 Brazil;sem numero de porta
-ALTO;2940;Revenda de Gás Santarém, Mega Gás - Jaderlandia;Avenida Dom Frederico Costa Jaderlandia Santarem PA 68045060 Brazil;sem numero de porta
-ALTO;2948;TodoGás - Anísio Cháves;Avenida Doutor Anysio Chaves Jardim Santarem Santarem PA 68030535 Brazil;sem numero de porta
-ALTO;2955;Portal Gás e Água;Quadra Oito Portal do Poco Cabedelo PB 58106063 Brazil;sem numero de porta
-ALTO;2991;Programa Compre Seu Gás;Rua Peregrino de Carvalho Centro de Campina Grande Campina Grande PB 58400143 Brazil;sem numero de porta
-ALTO;3018;Gás no Centro;Rua Professora Alice Azevedo Trincheiras Joao Pessoa PB 58011040 Brazil;sem numero de porta
-ALTO;3019;i-gás;Avenida Presidente Epitacio Pessoa Estados Joao Pessoa PB 58030906 Brazil;sem numero de porta
-ALTO;3020;Isaquiel Gás;Avenida Ministro Jose Americo de Almeida Miramar Joao Pessoa PB 58040300 Brazil;sem numero de porta
-ALTO;3032;Paulo Gás;Avenida Ministro Jose Americo de Almeida Torre Joao Pessoa PB 58884000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3035;Rei do Gás;Rua Ivan de Oliveira Brito Gramame Joao Pessoa PB 58068347 Brazil;sem numero de porta
-ALTO;3040;STANDARD - Individualização de Água/Gás João Pessoa;Avenida Governador Flavio Ribeiro Coutinho Manaira Joao Pessoa PB 58037000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3054;Flávio gás;Rua Cerca do Aeroporto Jardim Aeroporto Bayeux PB 58300000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3057;João do gás de 6h as 22h horas pediu chamou chegou;Rua Nilton Veloso Tibiri Santa Rita PB 58302510 Brazil;sem numero de porta
-ALTO;3066;SM Gás;Rua Dep Flaviano R Coutinho Filho Alto das Populares Santa Rita PB 58300970 Brazil;sem numero de porta
-ALTO;3070;VBCGAS Comercio e Transporte de GLP;Avenida Guarabira Tibiri Santa Rita PB 58302155 Brazil;sem numero de porta
-ALTO;3072;Wm gás e água;Rua Joao Luiz Batista Nascimento Varzea Nova Santa Rita PB 58300000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;2906;Centro de Distribuição Fogás - Santarém;Rua do Sale Santarem PA 68040400 Brazil;sem numero de porta
+ALTO;2940;Revenda de Gás Santarém, Mega Gás - Jaderlandia;Avenida Dom Frederico Costa Santarem PA 68045060 Brazil;sem numero de porta
+ALTO;2948;TodoGás - Anísio Cháves;Avenida Doutor Anysio Chaves Santarem PA 68030535 Brazil;sem numero de porta
+ALTO;2955;Portal Gás e Água;Quadra Oito Cabedelo PB 58106063 Brazil;sem numero de porta
+ALTO;2991;Programa Compre Seu Gás;Rua Peregrino de Carvalho Campina Grande PB 58400143 Brazil;sem numero de porta
+ALTO;3018;Gás no Centro;Rua Professora Alice Azevedo Joao Pessoa PB 58011040 Brazil;sem numero de porta
+ALTO;3019;i-gás;Avenida Presidente Epitacio Pessoa Joao Pessoa PB 58030906 Brazil;sem numero de porta
+ALTO;3020;Isaquiel Gás;Avenida Ministro Jose Americo de Almeida Joao Pessoa PB 58040300 Brazil;sem numero de porta
+ALTO;3032;Paulo Gás;Avenida Ministro Jose Americo de Almeida Joao Pessoa PB 58884000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3035;Rei do Gás;Rua Ivan de Oliveira Brito Joao Pessoa PB 58068347 Brazil;sem numero de porta
+ALTO;3040;STANDARD - Individualização de Água/Gás João Pessoa;Avenida Governador Flavio Ribeiro Coutinho Joao Pessoa PB 58037000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3054;Flávio gás;Rua Cerca do Aeroporto Bayeux PB 58300000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3057;João do gás de 6h as 22h horas pediu chamou chegou;Rua Nilton Veloso Santa Rita PB 58302510 Brazil;sem numero de porta
+ALTO;3066;SM Gás;Rua Dep Flaviano R Coutinho Filho Santa Rita PB 58300970 Brazil;sem numero de porta
+ALTO;3070;VBCGAS Comercio e Transporte de GLP;Avenida Guarabira Santa Rita PB 58302155 Brazil;sem numero de porta
+ALTO;3072;Wm gás e água;Rua Joao Luiz Batista Nascimento Santa Rita PB 58300000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3074;Revenda Ultragaz;Travessa Leonico Costa Solanea PB 58225000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3078;ULTRAGAZ;Travessa Luis Morais Macaparana PE 55865000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3080;Campo Alegre Gás;Avenida Pernambuco Cidade Universitaria Petrolina PE 56332710 Brazil;sem numero de porta
+ALTO;3080;Campo Alegre Gás;Avenida Pernambuco Petrolina PE 56332710 Brazil;sem numero de porta
 ALTO;3090;Copagaz - Duque Comércio de Gás e Oxigênio Ltda;Avenida Joao Gomes de Lucena Serra Talhada PE 56909000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3091;Nacional Gás Butano Distribuidora LTDA;Avenida Deputado Pinheiro Machado Dirceu Arcoverde Parnaiba PI 64208345 Brazil;sem numero de porta
-ALTO;3093;Gás Teresina;Avenida Chanceler Edson Queiroz Itarare Teresina PI 64077750 Brazil;sem numero de porta
-ALTO;3095;Liquigás - Comercial de gás;Avenida Noe Mendes Itarare Teresina PI 64078205 Brazil;sem numero de porta
+ALTO;3091;Nacional Gás Butano Distribuidora LTDA;Avenida Deputado Pinheiro Machado Parnaiba PI 64208345 Brazil;sem numero de porta
+ALTO;3093;Gás Teresina;Avenida Chanceler Edson Queiroz Teresina PI 64077750 Brazil;sem numero de porta
+ALTO;3095;Liquigás - Comercial de gás;Avenida Noe Mendes Teresina PI 64078205 Brazil;sem numero de porta
 ALTO;3115;ULTRAGAZ;Estrada Vitoria 220 Ubirata PR 85440000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3117;Deposito De Gas;Estrada dos Bandeirantes 2678 Rio de Janeiro RJ 22775110 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;3118;Distribuidora de Gás Campinho;Estrada do Campinho 2596 Rio de Janeiro RJ 23070220 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;3120;FL Gás;Rua Valzinho Teixeira Campo Grande Rio de Janeiro RJ 23047160 Brazil;sem numero de porta
-ALTO;3139;Liquigás - C.O;Rua Sampaio Correia Nossa Senhora da Apresentacao Natal RN 59114268 Brazil;sem numero de porta
-ALTO;3153;AmazonGás - Porto Velho;Rua Rui Barbosa Panair Porto Velho RO 76801350 Brazil;sem numero de porta
-ALTO;3167;Centro de Distribuição Fogás - Boa Vista;Travessa Rio Mucajai Governador Aquilino Mota Duarte Boa Vista RR 69315305 Brazil;sem numero de porta
-ALTO;3168;Disk gás Duda;Avenida Brigadeiro Sao Bento Boa Vista RR 69315666 Brazil;sem numero de porta
-ALTO;3177;RR GAS;Avenida Nazare Filgueiras Pintolandia Boa Vista RR 69314550 Brazil;sem numero de porta
+ALTO;3120;FL Gás;Rua Valzinho Teixeira Rio de Janeiro RJ 23047160 Brazil;sem numero de porta
+ALTO;3139;Liquigás - C.O;Rua Sampaio Correia Natal RN 59114268 Brazil;sem numero de porta
+ALTO;3153;AmazonGás - Porto Velho;Rua Rui Barbosa Porto Velho RO 76801350 Brazil;sem numero de porta
+ALTO;3167;Centro de Distribuição Fogás - Boa Vista;Travessa Rio Mucajai Boa Vista RR 69315305 Brazil;sem numero de porta
+ALTO;3168;Disk gás Duda;Avenida Brigadeiro Boa Vista RR 69315666 Brazil;sem numero de porta
+ALTO;3177;RR GAS;Avenida Nazare Filgueiras Boa Vista RR 69314550 Brazil;sem numero de porta
 ALTO;3191;NACIONAL GÁS;Estrada Linha Umbu a Forqueta Baixa 682 Arroio do Meio RS 95940000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3196;ARALDI COMÉRCIO DE GÁS;Estrada LINHA PALMEIRO Bento Goncalves RS 95714991 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;3198;JP CONSIGAZ;ERS 431 Bento Goncalves RS 95713000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -429,36 +429,36 @@ ALTO;3255;LITORAL NORTE GÁS - REVENDA LIQUIGÁS;Rua Nove Capao da Canoa RS 9555
 ALTO;3272;GÁS DA BR;BR 116 Planalto Caxias do Sul RS 95080050 Brazil;sem numero de porta
 ALTO;3293;NACIONAL GÁS;Rua R Bertozzi Encantado RS 95960000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3313;TEUTÔNIA DISTRIBUIDORA DE GÁS LTDA.;Rodovia Rota do Sol Estrela RS 95880000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3316;HENRIGÁS COMÉRCIO DE GÁS LTDA;Rodovia Rota do Sol Centenario Farroupilha RS 95180000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3316;HENRIGÁS COMÉRCIO DE GÁS LTDA;Rodovia Rota do Sol Farroupilha RS 95180000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3319;VALGÁS FLORES DA CUNHA;Estrada para Antonio Prado 186 Flores da Cunha RS 95270000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3322;GÁS CHAMA DA AMIZADE;LINHA TRESSI INTERIOR Frederico Westphalen RS 98400000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3324;CENTRAL GÁS;Avenida Primeiro de Maio Varzea Grande 1o de Maio Gramado RS 95670000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3352;LS GÁS E CONVENIÊNCIA - REVENDA ULTRAGAZ EM IMBÉ;Rodovia RS 786 105 Imbe RS 95625000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3353;MIRAGEM GÁS;Avenida Brasil Presidente Imbe RS 95625000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3361;LAJEADO GÁS;Avenida Benjamin Constant Moinhos d Agua Lajeado RS 84198700 Brazil;sem numero de porta
-ALTO;3362;SEU GÁS;Rua Pedro Theobaldo Breidenbach Conventos Lajeado RS 95906380 Brazil;sem numero de porta
-ALTO;3373;JORGE DUGÁZ;Rua Tres Marias Bavaria Nova Petropolis RS 95150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3375;LIQUIGÁS DA FAZENDA;Rua Rosalina Haas Lamberty Vila Germanica Nova Petropolis RS 95150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3353;MIRAGEM GÁS;Avenida Brasil Imbe RS 95625000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3361;LAJEADO GÁS;Avenida Benjamin Constant Lajeado RS 84198700 Brazil;sem numero de porta
+ALTO;3362;SEU GÁS;Rua Pedro Theobaldo Breidenbach Lajeado RS 95906380 Brazil;sem numero de porta
+ALTO;3373;JORGE DUGÁZ;Rua Tres Marias Nova Petropolis RS 95150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3375;LIQUIGÁS DA FAZENDA;Rua Rosalina Haas Lamberty Nova Petropolis RS 95150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3382;GÁS DO WILLIAM;Estrada Vereador Oscar Horm 1491 Novo Hamburgo RS 93544000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3385;GÁS OSÓRIO;ERS 030 Laranjeiras Osorio RS 95520000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3412;Gás Santa Rita;Estrada da Serraria 1844 Porto Alegre RS 91770010 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;3416;Binho Du Gas;Avenida A Rio Grande RS 96216000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3418;Com Todo Gás - Supergasbras - Revenda de gas e agua.;Rua Dom Bosco Rio Grande RS 96211694 Brazil;sem numero de porta
 ALTO;3427;Sul Gás e Água;Avenida Presidente Vargas Rio Grande RS 96202100 Brazil;sem numero de porta
-ALTO;3433;GÁS DO ZÉ;Rua do Faxinal Jardim Boa Vista Rio Pardo RS 96640000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3433;GÁS DO ZÉ;Rua do Faxinal Rio Pardo RS 96640000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3453;CHICO TIMM GÁS;ERS 307 Auxiliadora Santa Rosa RS 98796610 Brazil;sem numero de porta
-ALTO;3471;DM GÁS;Rua G Lomba da Palmeira Sapucaia do Sul RS 93225400 Brazil;sem numero de porta
+ALTO;3471;DM GÁS;Rua G Sapucaia do Sul RS 93225400 Brazil;sem numero de porta
 ALTO;3501;ZANCHI GÁS & ÁGUA;Meta Agricola Sao Luiz Gonzaga RS 97800000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3512;SUPERGASBRAS TAQUARA (ZANGALLIGAZ);Rodovia Teixeirinha Morro da Cruz Taquara RS 95600000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3512;SUPERGASBRAS TAQUARA (ZANGALLIGAZ);Rodovia Teixeirinha Taquara RS 95600000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3523;SUL GÁS;Estrada do Jacare 155 Torres RS 95560000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3526;CHAMAGAS TRIUNFO;RSC 470 Triunfo RS 95840000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3531;LIQUIGÁS / EXTRAGÁS TRÊS DE MAIO;ERS 342 Tres de Maio RS 98910000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3536;COMÉRCIO DE GÁS E ÁGUA HG LTDA - FILIAL;Rua Dom Pedro II Vacaria RS 95200000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3549;GÁS DO ALEMÃO-CENTRO DE VIAMÃO;Rua CEL MARIO ANTUNES DA VEIGA Viamao RS 97440030 Brazil;sem numero de porta
-ALTO;3550;LIQUIGÁS LIPIGÁS;Avenida Senador Salgado Filho Esmeralda Viamao RS 94400000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;3552;ZONATTO GÁS;Rua Condor Santa Cecilia Viamao RS 94495245 Brazil;sem numero de porta
+ALTO;3550;LIQUIGÁS LIPIGÁS;Avenida Senador Salgado Filho Viamao RS 94400000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;3552;ZONATTO GÁS;Rua Condor Viamao RS 94495245 Brazil;sem numero de porta
 ALTO;3557;BaseGás Concórdia - SuperGasBras;Contorno Viario Norte Concordia SC 89715899 Brazil;sem numero de porta
-ALTO;3572;Distribuidora de gás;Rua Hildete Falcao Baptista Atalaia Aracaju SE 49037830 Brazil;sem numero de porta
+ALTO;3572;Distribuidora de gás;Rua Hildete Falcao Baptista Aracaju SE 49037830 Brazil;sem numero de porta
 ALTO;3575;MELHOR GÁS - Entrega de Gás em Aracaju;Rodovia dos Naufragos 6799 Aracaju SE 49000013 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;3581;Olino Gás;Rodovia Joao Bebe Agua 836 Sao Cristovao SE 49100000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;3584;CLÁSSICO GÁS   GRILL | ULTRAGAZ/ CHURRASQUEIRAS BAURU;Avenida Nossa Senhora de Fatima 14 8 Parque Jardim Europa Bauru SP 17017337 Brazil;sem numero de porta

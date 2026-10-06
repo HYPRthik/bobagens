@@ -1,5 +1,5 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
-ALTO;16;DROGASIL;Avenida AUGUSTO MONTENEGRO COQUEIRO Belem PA 66823010 Brazil;sem numero de porta
+ALTO;16;DROGASIL;Avenida AUGUSTO MONTENEGRO Belem PA 66823010 Brazil;sem numero de porta
 ALTO;27;DROGASIL;Estrada BARAO DE AQUIRAZ 1062 Fortaleza CE 60871684 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;28;FARMACIA DO GERALDO;Estrada DO SABAO 905 Sao Paulo SP 02806000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;34;FARMACIA ULTRABRAGA;Rua ITAPAIUNA VILA ANDRADE Sao Paulo SP Brazil;sem numero de porta
@@ -12,7 +12,7 @@ ALTO;79;LEDAFARMA | FARMÁCIA ONLINE EM SÃO PAULO - SP;Estrada DAS TAIPAS 2569 
 ALTO;98;DROGASIL;BR 316 100 CASTANHEIRA Belem PA 66645000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;110;DROGA MAIS VIDA;Avenida ARCHIMEDES PEREIRA LIMA SANTA CRUZ Cuiaba MT 78075000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;121;DROGASIL;Rodovia REGIS BITTENCOURT 2643 TABOAO DA SERRA SP 06768200 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;127;DROGARIA ULTRA POPULAR;Avenida NOSSA SRA DA CONCEICAO SAO JOAO DO OUTEIRO OUTEIRO Belem PA Brazil;sem numero de porta
+ALTO;127;DROGARIA ULTRA POPULAR;Avenida NOSSA SRA DA CONCEICAO SAO JOAO DO OUTEIRO Belem PA Brazil;sem numero de porta
 ALTO;133;LOJA DA GRANADO;Rua MANGUALDE JARDIM SAO LUIZ Sao Paulo SP 05851260 Brazil;sem numero de porta
 ALTO;139;TOTALFARMA DROGARIA;Rua DR JOSE AUGUSTO DE SOUZA E SILVA JARDIM PARQUE MORUMBI Sao Paulo SP 05712040 Brazil;sem numero de porta
 ALTO;140;DROGARIA SÃO PAULO;Estrada DE ITAPECERICA 3840 Sao Paulo SP 05835004 Brazil;endereco de rodovia (57-67% falharam)
@@ -32,7 +32,7 @@ ALTO;311;DROGASIL;Estrada DE ITAPECERICA 2801 Sao Paulo SP 05835005 Brazil;ender
 ALTO;312;DROGASIL;Estrada DE ITAPECERICA 498 Sao Paulo SP 05835000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;320;DROGARIA SAO PAULO;AVENIDA MARECHALAMEDA TITO 933SAO MIGUEL PAULISTA Sao Paulo SP 08010090 Brazil;sem numero de porta
 ALTO;326;DROGARIA SÃO PAULO;Estrada DO LAGEADO VELHO 767 Sao Paulo SP 08451055 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;366;DROGASIL;Avenida ISAAC POVOAS GOIABEIRAS Cuiaba MT 78032015 Brazil;sem numero de porta
+ALTO;366;DROGASIL;Avenida ISAAC POVOAS Cuiaba MT 78032015 Brazil;sem numero de porta
 ALTO;395;DROGASIL;Estrada DO CAMPO LIMPO 459 Sao Paulo SP 05777001 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;397;ULTRAFARMA 24 HORAS;Estrada DO CAMPO LIMPO 4277 Sao Paulo SP Brazil;endereco de rodovia (57-67% falharam)
 ALTO;415;ULTRAFARMA - LAGEADO;Estrada DO LAGEADO VELHO 434 Sao Paulo SP 08451000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -44,10 +44,10 @@ ALTO;445;DROGARIA SAÚDE;PARQUE CUIABA Cuiaba MT 78095372 Brazil;sem numero de p
 ALTO;447;FARMÁCIA PAGUE MENOS;Avenida CARMINDO DE CAMPOS JARDIM PETROPOLIS Cuiaba MT 78070000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;501;DROGASIL;Estrada DO CAMPO LIMPO 5083 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;524;DROGASIL;Estrada DO LAGEADO VELHO 760 Sao Paulo SP 08451056 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;538;DROGASIL;Avenida CEL JOSE PHILOMENO GOMES ENG L CAVALCANTE Fortaleza CE 60813820 Brazil;sem numero de porta
+ALTO;538;DROGASIL;Avenida CEL JOSE PHILOMENO GOMES Fortaleza CE 60813820 Brazil;sem numero de porta
 ALTO;562;ULTRAFARMA HELIÓPOLIS;Estrada DAS LAGRIMAS 1930 Sao Paulo SP 04232000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;580;DROGASIL;Estrada DO CAMPO LIMPO 4135 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;628;EXTRAFARMA;AVENIDA MAESTRO LISBOA JOSE DE ALENCAR Fortaleza CE 60830115 Brazil;sem numero de porta
+ALTO;628;EXTRAFARMA;AVENIDA MAESTRO LISBOA Fortaleza CE 60830115 Brazil;sem numero de porta
 ALTO;629;DROGARIA SÃO PAULO;Rodovia RAPOSO TAVARES 8450 Sao Paulo SP 05576200 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;632;FARMACIA BARATÃO DO BAIRRO;Avenida VAL PARAISO CONJ PALMEIRAS Fortaleza CE 60870025 Brazil;sem numero de porta
 ALTO;651;DROGASIL;Avenida COMENDADOR SANT ANNA 34 51 CAPAO REDONDO Sao Paulo SP 05866000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -58,15 +58,15 @@ ALTO;714;DROGASIL;ESTRADA DO M BOI MIRIM 1044 Sao Paulo SP 04905001 Brazil;ender
 ALTO;716;DROGARIA FARMAMERICA REDE HIPER POPULAR;Avenida DR MEIRELLES 602 650 TIJUCAL Cuiaba MT 78088010 Brazil;sem numero de porta
 ALTO;717;DROGARIA SÃO PAULO;Estrada DO CAMPO LIMPO 4059 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;734;DROGARIA NOVA ESPERANÇA;Avenida CABO ADAO PEREIRA 82 88 VILA PIRITUBA Sao Paulo SP 02936010 Brazil;sem numero de porta
-ALTO;780;Drogasil;Rua Maraechal Av Mal Fiuza de Castro Jardim Pinheiros Sao Paulo SP 05596000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;790;Drogasil;Avenida Raposo Tavares Carrefour Carrefour Raposo SP 270 Jardim Cambara Sao Paulo SP 05576200 Brazil;sem numero de porta
+ALTO;780;Drogasil;Rua Maraechal Av Mal Fiuza de Castro Sao Paulo SP 05596000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;790;Drogasil;Avenida Raposo Tavares Carrefour Carrefour Raposo SP 270 Sao Paulo SP 05576200 Brazil;sem numero de porta
 ALTO;805;DROGARIAS ULTRA POPULAR;Avenida FRANCISCO SA 4428 4430 ALVARO WEYNE Fortaleza CE 60335198 Brazil;sem numero de porta
 ALTO;832;ULTRAFARMA POPULAR - JARDIM SÃO LUÍS;JARDIM SAO LUIS Sao Paulo SP 05805000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;838;FARMÁCIA PAGUE MENOS;Estrada DO CAMPO LIMPO 4460 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;846;DROGARIA SÃO PAULO;Avenida RIO DAS PEDRAS VILA ANTONIETA Sao Paulo SP 03453100 Brazil;sem numero de porta
-ALTO;852;FARMÁCIA PAGUE MENOS;Avenida AUGUSTO MONTENEGRO PARQUE VERDE Belem PA 66635110 Brazil;sem numero de porta
+ALTO;852;FARMÁCIA PAGUE MENOS;Avenida AUGUSTO MONTENEGRO Belem PA 66635110 Brazil;sem numero de porta
 ALTO;855;ULTRAFARMA POPULAR - UNIDADE CAMPO LIMPO;Estrada DO CAMPO LIMPO 4329 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;878;EXTRAFARMA;RODOVIA BR 316 CASTANHEIRA SHOPPING SHOPPING CASTANHEIRA CASTANHEIRA Belem PA 66630505 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;878;EXTRAFARMA;RODOVIA BR 316 CASTANHEIRA SHOPPING Belem PA 66630505 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;879;ESPAÇO SIDNEY OLIVEIRA  ULTRAFARMA SAÚDE;RUA DR ISAIAS SALOMAO VILA DA SAUDE Sao Paulo SP 04055050 Brazil;sem numero de porta
 ALTO;881;ULTRAFARMA POPULAR;Estrada DE ITAPECERICA 1723 Sao Paulo SP 05835005 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;889;DROGARIA SÃO PAULO SHOPPING TABOÃO;Rodovia REGIS BITTENCOURT 2643 TABOAO DA SERRA SP 06768200 Brazil;endereco de rodovia (57-67% falharam)
@@ -87,14 +87,14 @@ ALTO;1029;YA FARMA DROGARIA;Estrada TEN JOSE MARIA DA CUNHA 1297 TABOAO DA SERRA
 ALTO;1040;Drogasil;Estrada Itaquera Guaianazes 2150 Sao Paulo SP 08420000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1049;DROGARIAS CAMPEÃ;Estrada DO CAMPO LIMPO 3891 Sao Paulo SP 05787000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1079;DROGASIL;Estrada DE ITAPECERICA 6822 Sao Paulo SP 05858002 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;1084;Drogasil;Avenida Thomes de Arruda Fortes Morada do Ouro Cuiaba MT 78053505 Brazil;sem numero de porta
+ALTO;1084;Drogasil;Avenida Thomes de Arruda Fortes Cuiaba MT 78053505 Brazil;sem numero de porta
 ALTO;1120;FARMARHAL;Estrada DO ITAIM 2210 GUARULHOS SP 07262160 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1127;Drogaria São Paulo;Rodovia Regis Bittencourt 5 Taboao da Serra SP 06768200 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1128;LUCAS SILVA MAMEDE ROSÁRIO FARMÁCIA;Estrada TEN JOSE MARIA DA CUNHA 878 TABOAO DA SERRA SP 06783230 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1130;DROGASIL;VILA MARGARIDA Sao Paulo SP 03376090 Brazil;sem numero de porta
 ALTO;1134;GOTA PROST;BELA VISTA Sao Paulo SP 01325050 Brazil;sem numero de porta
 ALTO;1139;DROGARIA FATIMA;Estrada BENEDITO CESARIO DE OLIVEIRA 554 TABOAO DA SERRA SP 06767280 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;1161;Drogasil;Avenida Gov Parsifal Barroso Presidente Kennedy Fortaleza CE 60357250 Brazil;sem numero de porta
+ALTO;1161;Drogasil;Avenida Gov Parsifal Barroso Fortaleza CE 60357250 Brazil;sem numero de porta
 ALTO;1166;PENSE FARMA;ESTRADA DO M BOI MIRIM 954 Sao Paulo SP 04905000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1190;CONVIVA;FARIAS BRITO Fortaleza CE 60325105 Brazil;sem numero de porta
 ALTO;1208;LARISSA SOUSA;Rua PROF RAIMUNDA ADELIA ANTONIO BEZERRA Fortaleza CE 60350330 Brazil;sem numero de porta
@@ -106,7 +106,7 @@ ALTO;1251;COMERCIAL DROGARIA KOHATSU;Estrada DE ITAPECERICA 6800 Sao Paulo SP 05
 ALTO;1255;Z8GAMES;BOSQUE DA SAUDE Sao Paulo SP 04137110 Brazil;sem numero de porta
 ALTO;1275;D'AVÓ FARMA;Estrada KIZAEMON TAKEUTI 1300 TABOAO DA SERRA SP 06775001 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1281;PENSE FARMA;Estrada DO JAGUARE 1776 Sao Paulo SP 05525080 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;1285;Drogasil;Rua Sinfonia Italiana Grajau Sao Paulo SP 04844610 Brazil;sem numero de porta
+ALTO;1285;Drogasil;Rua Sinfonia Italiana Sao Paulo SP 04844610 Brazil;sem numero de porta
 ALTO;1288;DROGARIA VALO;Estrada DE ITAPECERICA 6391 Sao Paulo SP 05858005 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1294;Drogasil;Estrada Kizaemon Takeuti 1349 Taboao da Serra SP 06775001 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1320;Farmacia;Bras Sao Paulo SP 03050020 Brazil;"sem numero de porta; logradouro sem nome"
@@ -130,8 +130,8 @@ ALTO;1448;DROGARIA DROGA LUCY;ESTRADA DO M BOI MIRIM 1044 Sao Paulo SP 04905000 
 ALTO;1453;FARMA + LOPES;CONJUNTO CEARA II Fortaleza CE 60533611 Brazil;sem numero de porta
 ALTO;1466;ULTRAFARMA;JARDIM ANGELA Sao Paulo SP 04941175 Brazil;sem numero de porta
 ALTO;1480;DRUGSTORE SAO PAULO;Avenida ROLAND GARROS 1401 1411 1401 1411 VILA MEDEIROS Sao Paulo SP 02235001 Brazil;sem numero de porta
-ALTO;1496;Drogaria São Paulo;Avenida ERICO GONCALVES PREZA FILHO Alphaville Cuiaba MT 78061302 Brazil;sem numero de porta
-ALTO;1498;Drogaria São Paulo;Avenida Francisco Matarazzo Agua Branca Sao Paulo SP 05003100 Brazil;sem numero de porta
+ALTO;1496;Drogaria São Paulo;Avenida ERICO GONCALVES PREZA FILHO Cuiaba MT 78061302 Brazil;sem numero de porta
+ALTO;1498;Drogaria São Paulo;Avenida Francisco Matarazzo Sao Paulo SP 05003100 Brazil;sem numero de porta
 ALTO;1504;DROGARIA MONTEIRO QUEIROZ;ESTRADA DO M BOI MIRIM 8700 Sao Paulo SP 04948030 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1511;Carrefour Drugstore Itaquera;Estrada do Pessego 1200 Sao Paulo SP 08260000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;1513;Drogaria São Paulo;Rodovia Regis Bittencourt 239 Taboao da Serra SP 06768000 Brazil;"endereco de rodovia (57-67% falharam); CEP generico de cidade, nao de rua (2,4x mais falha)"
@@ -180,7 +180,7 @@ ALTO;1953;DROGASMIL;RODOVIA DOS TRABALHADORES PARQUE VERDE Belem PA Brazil;"ende
 ALTO;1966;DROGASIL;RODOVIA RAPOSO TAVARES JD BOA VISTA Sao Paulo SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;1974;DROGARIA SÃO PAULO;RODOVIA REGIS BITTENCOURT 2643 Sao Paulo SP Brazil;endereco de rodovia (57-67% falharam)
 ALTO;1989;DROGARIA SÃO PAULO;ESTRADA DO CAMPO LIMPO 459 Sao Paulo SP Brazil;endereco de rodovia (57-67% falharam)
-ALTO;1993;DROGARIA SÃO PAULO;Avenida FRANCISCO MATARAZZO S No AGUA BRANCA Sao Paulo SP Brazil;sem numero de porta
+ALTO;1993;DROGARIA SÃO PAULO;Avenida FRANCISCO MATARAZZO AGUA BRANCA Sao Paulo SP Brazil;sem numero de porta
 ALTO;2004;DROGASIL;ESTRADA DO CAMPO LIMPO 459 Sao Paulo SP Brazil;endereco de rodovia (57-67% falharam)
 MEDIO;5;DROGARIA TOTAL - SÃO JOSÉ;Rua SAO PAULO 488 Sao Paulo SP 16210000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;13;DROGARIAS MAXI POPULAR;Rua ENG RICARDO FRANCO 220 Cuiaba MT 78005000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

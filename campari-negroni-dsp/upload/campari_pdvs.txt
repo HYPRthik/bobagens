@@ -1,23 +1,23 @@
 Via Doutor Luiz Carlos Bianchi Ribeirao Preto SP Brazil
 Avenida Professor Flavio Pires de Camargo 863 Atibaia SP 12951000 Brazil
-Avenida Baden Powell Parque Prado Campinas SP 13040093 Brazil
+Avenida Baden Powell Campinas SP 13040093 Brazil
 Avenida Reynaldo de Porcari 370 Jundiai SP 13212258 Brazil
 Rua Luciana 291 Rifaina SP 14490000 Brazil
 Avenida Jose Henrique Ferraz 11 35 Jardim Solange Bauru SP 17054115 Brazil
 Rua Riachuelo 1280 Piracicaba SP 13419311 Brazil
 Rua Duque de Caxias 1031 Macatuba SP 17290000 Brazil
-Rua Doutor David Pedro Cassinelli Jardim Sao Paulo Sao Carlos SP 13570470 Brazil
+Rua Doutor David Pedro Cassinelli Sao Carlos SP 13570470 Brazil
 Rua Maria Spagnol Gabaldo 1700 Ribeirao Preto SP 14022100 Brazil
 Avenida Sao Francisco 1187 Bebedouro SP 14703050 Brazil
-Avenida Goias Santa Paula Sao Caetano do Sul SP 09521310 Brazil
+Avenida Goias Sao Caetano do Sul SP 09521310 Brazil
 Avenida Jurua 387 Barueri SP 06455010 Brazil
 Avenida Aurora Forti Neves Olimpia SP 15405002 Brazil
 Rua Santa Quiteria Sao Roque SP 18132000 Brazil
 Rua Angelo Nicolau 158 Jardinopolis SP 14680000 Brazil
 Rua Jose de Anchieta 895 Marilia SP 17504085 Brazil
 Avenida Luiz Saldanha Rodrigues 99 Ourinhos SP 19908095 Brazil
-Avenida Reboucas Centro Sumare SP 13170023 Brazil
-Rua Doutor Brandao Veras Jardim Talarico Bebedouro SP 14700730 Brazil
+Avenida Reboucas Sumare SP 13170023 Brazil
+Rua Doutor Brandao Veras Bebedouro SP 14700730 Brazil
 Estrada Sumare 160 Sumare SP Brazil
 Rua Domingos Chicaroni 310 Franca SP 14403870 Brazil
 Rua Professora Leonor Ramos 475 Sao Jose do Rio Preto SP 15061712 Brazil
@@ -25,16 +25,16 @@ Rua Alexandria Mathias de Oliveira 118 Itupeva SP 13295000 Brazil
 Rua do Retiro 2479 Jundiai SP 13209355 Brazil
 Vila Mano Ourinhos SP Brazil
 Rua Antonio Alves Nunes 650 Macatuba SP 17290000 Brazil
-Rua Tamoio Vila Santa Catarina Americana SP 13465100 Brazil
+Rua Tamoio Americana SP 13465100 Brazil
 Avenida Presidente Castelo Branco Subsetor Leste 6 Ribeirao Preto SP 14095000 Brazil
 Rua Angelo Varandas 404 Paulinia SP 13140802 Brazil
 Rua Floriano Peixoto 1006 Franca SP 14400760 Brazil
 Rua Visconde de Ouro Preto 326 Rifaina SP 14490000 Brazil
-Rodovia Arao Sahm Portao Atibaia SP 12948110 Brazil
+Rodovia Arao Sahm Atibaia SP 12948110 Brazil
 Avenida das Posses 187 Paranapanema SP 18725000 Brazil
 Avenida Parada Pinto 2262 Sao Paulo SP 02611003 Brazil
 Avenida Caramuru 1618 Ribeirao Preto SP 14025080 Brazil
-Rua Antonia Ferreira do Nascimento Quinta das Paineiras Sao Jose do Rio Preto SP 15080470 Brazil
+Rua Antonia Ferreira do Nascimento Sao Jose do Rio Preto SP 15080470 Brazil
 Rua Dona Alexandrina 2423 Sao Carlos SP 13560290 Brazil
 Avenida Santana 3085 Atibaia SP 12946001 Brazil
 Alameda Guaruja 369 Bebedouro SP 14708068 Brazil
@@ -42,7 +42,7 @@ SAVEGNAGO SUPERMERCADOS LTDA Barretos SP 14780070 Brazil
 Avenida Luis Stamatis 431 Sao Paulo SP 02260000 Brazil
 Avenida Caramuru 1899 Ribeirao Preto SP 14025303 Brazil
 Avenida Nossa Senhora da Paz 1001 Sao Jose do Rio Preto SP 15055500 Brazil
-Avenida Dois Corregos Morumbi Piracicaba SP 13420722 Brazil
+Avenida Dois Corregos Piracicaba SP 13420722 Brazil
 Rua Joao Modesto 338 Tambau SP 13710000 Brazil
 Rua Ignacio Miguel Estefano 740 Guaruja SP 11440160 Brazil
 Avenida Ampelio Gazzeta Nova Odessa SP 13460000 Brazil
@@ -50,7 +50,7 @@ Avenida Jose Gatto Tambau SP 13710000 Brazil
 Avenida Pref Jose Maria de Araujo Junior 935 Santa Barbara d Oeste SP Brazil
 Rua Voluntarios da Patria 3422 Sao Paulo SP 02402300 Brazil
 Rua Thales dos Santos Freire 438 Sao Bernardo do Campo SP 09751020 Brazil
-Rua Walter Antonio Fontana Jardim Morumbi Assis SP 19815340 Brazil
+Rua Walter Antonio Fontana Assis SP 19815340 Brazil
 SUPERMERCADOS JAU SERVE LTDA Ibitinga SP 14940124 Brazil
 Avenida Harry Giannecchini 350 Olimpia SP 15400403 Brazil
 Avenida Alberto Breg 1051 Olimpia SP 15400000 Brazil
@@ -58,13 +58,13 @@ Rodovia Mauricio Goulart Bady Bassitt SP 15115000 Brazil
 Rua Manoel Bento da Cruz 614 Aracatuba SP 16050500 Brazil
 Avenida da Saudade 195 Atibaia SP 12940560 Brazil
 Rua das Nogueiras 260 Americana SP 13468200 Brazil
-Avenida Emilio Bosco Matao Sumare SP 13180325 Brazil
+Avenida Emilio Bosco Sumare SP 13180325 Brazil
 Avenida Presidente Vargas Indaiatuba SP 13339125 Brazil
 Avenida Sao Vicente 6993 Franca SP 14412348 Brazil
-Avenida Professor Roberto Frade Monte Ortega Barretos SP 14783218 Brazil
-Avenida Anisio Haddad Vivendas Sao Jose do Rio Preto SP 15091380 Brazil
+Avenida Professor Roberto Frade Monte Barretos SP 14783218 Brazil
+Avenida Anisio Haddad Sao Jose do Rio Preto SP 15091380 Brazil
 Avenida Antonio Floriano Leme Rifaina SP 14490000 Brazil
-Rua Presidente Vargas Caetetuba Atibaia SP 12951000 Brazil
+Rua Presidente Vargas Atibaia SP 12951000 Brazil
 Rua Osorio Germano e Silva 669 Piracicaba SP 13425142 Brazil
 Avenida Vinte e Dois de Maio 726 Igarapava SP 14540000 Brazil
 Rua Alianca Liberal 315 Sao Paulo SP 05088000 Brazil

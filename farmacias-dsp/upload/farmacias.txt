@@ -12,7 +12,7 @@ Avenida DESEMBARGADOR MOREIRA 605 Fortaleza CE 60170055 Brazil
 Rua ENG RICARDO FRANCO 220 Cuiaba MT 78005000 Brazil
 Rua ATILIO PIOLI 97 Sao Paulo SP 04165050 Brazil
 Rua COMENDADOR MIGUEL CALFAT 137 Sao Paulo SP 04537081 Brazil
-Avenida AUGUSTO MONTENEGRO COQUEIRO Belem PA 66823010 Brazil
+Avenida AUGUSTO MONTENEGRO Belem PA 66823010 Brazil
 RUA DONA VERIDIANA 87 Sao Paulo SP 01238010 Brazil
 Avenida DOS BANDEIRANTES 3245 Sao Paulo SP 04071010 Brazil
 Rua MANOEL BARATA 433 Belem PA 66810100 Brazil
@@ -123,7 +123,7 @@ RUA MAGNO RODRIGUES 914 Cuiaba MT 78098192 Brazil
 Rua JOSE NUNES DOS SANTOS 365 Sao Paulo SP 08080600 Brazil
 Avenida DALVA 280 Belem PA 66615270 Brazil
 Avenida INDIANOPOLIS 3175 Sao Paulo SP 04063006 Brazil
-Avenida NOSSA SRA DA CONCEICAO SAO JOAO DO OUTEIRO OUTEIRO Belem PA Brazil
+Avenida NOSSA SRA DA CONCEICAO SAO JOAO DO OUTEIRO Belem PA Brazil
 Rua OLIVEIRA ALVES 338 Sao Paulo SP 04210060 Brazil
 Rua BETEL 1900A Fortaleza CE 60714612 Brazil
 RUA NUBIA BARROCAS 1300 Fortaleza CE 60821770 Brazil
@@ -362,7 +362,7 @@ Avenida SENADOR VIRGILIO TAVORA 1550 Fortaleza CE 60170078 Brazil
 Rua JOSE HIPOLITO 157 Fortaleza CE 60871170 Brazil
 Avenida ERICO GONCALVES PREZA FILHO 551 Cuiaba MT 78060755 Brazil
 Avenida CANGAIBA 2720 Sao Paulo SP 03712008 Brazil
-Avenida ISAAC POVOAS GOIABEIRAS Cuiaba MT 78032015 Brazil
+Avenida ISAAC POVOAS Cuiaba MT 78032015 Brazil
 Avenida JOSE GALANTE 600 Sao Paulo SP 05642001 Brazil
 Rua N SRA DA LAPA 171 Sao Paulo SP 05072000 Brazil
 Rua MUCUNA 83 Fortaleza CE 60730122 Brazil
@@ -533,7 +533,7 @@ Avenida RUI BARBOSA 783 Fortaleza CE 60115220 Brazil
 Avenida Patente 826 Sao Paulo SP 04243000 Brazil
 Avenida WASHINGTON SOARES 85 Fortaleza CE 60811900 Brazil
 Travessa MAURITI 3095 Belem PA 66093681 Brazil
-Avenida CEL JOSE PHILOMENO GOMES ENG L CAVALCANTE Fortaleza CE 60813820 Brazil
+Avenida CEL JOSE PHILOMENO GOMES Fortaleza CE 60813820 Brazil
 Avenida CANGAIBA 2316 Sao Paulo SP 03634000 Brazil
 Avenida NOSSA SRA DO SABARA 2226 Sao Paulo SP 04686002 Brazil
 Avenida BEZERRA DE MENEZES 2204 Fortaleza CE 60325005 Brazil
@@ -622,7 +622,7 @@ Avenida PROF FRANCISCO MORATO 2830 Sao Paulo SP 05512300 Brazil
 Avenida WASHINGTON LUIS 1749 Sao Paulo SP 04662002 Brazil
 Avenida DESEMBARGADOR MOREIRA 1741 Fortaleza CE 60170001 Brazil
 Rua MACIEL MONTEIRO 357 Sao Paulo SP 03566000 Brazil
-AVENIDA MAESTRO LISBOA JOSE DE ALENCAR Fortaleza CE 60830115 Brazil
+AVENIDA MAESTRO LISBOA Fortaleza CE 60830115 Brazil
 Rodovia RAPOSO TAVARES 8450 Sao Paulo SP 05576200 Brazil
 Avenida FREI CIRILO 4290 Fortaleza CE 60840285 Brazil
 Avenida CEL SEZEFREDO FAGUNDES 1100 Sao Paulo SP 02306001 Brazil
@@ -773,7 +773,7 @@ Rua do Oratorio 1312 Sao Paulo SP 03116000 Brazil
 Avenida Tucuruvi 403 Sao Paulo SP 02305001 Brazil
 Rua Tuiuti 1839 Sao Paulo SP 03307005 Brazil
 Avenida Angelica 1397 Sao Paulo SP 01227100 Brazil
-Rua Maraechal Av Mal Fiuza de Castro Jardim Pinheiros Sao Paulo SP 05596000 Brazil
+Rua Maraechal Av Mal Fiuza de Castro Sao Paulo SP 05596000 Brazil
 Rua Vergueiro 4999 Sao Paulo SP 04101300 Brazil
 Rua Carneiro da Cunha 337 Sao Paulo SP 04144000 Brazil
 Rua Harmonia 373 Sao Paulo SP 05435000 Brazil
@@ -783,7 +783,7 @@ Avenida Santa Monica 550 Sao Paulo SP 05171000 Brazil
 Rua das Palmeiras 303 Sao Paulo SP 01226011 Brazil
 Rua Pamplona 1792 Sao Paulo SP 01405002 Brazil
 Rua da Mooca 2526 Sao Paulo SP 03104002 Brazil
-Avenida Raposo Tavares Carrefour Carrefour Raposo SP 270 Jardim Cambara Sao Paulo SP 05576200 Brazil
+Avenida Raposo Tavares Carrefour Carrefour Raposo SP 270 Sao Paulo SP 05576200 Brazil
 Avenida Dr Antonio Maria Laet 566 Sao Paulo SP 02240000 Brazil
 Rua Silva Bueno 2533 Sao Paulo SP 04208062 Brazil
 Avenida Leao Machado 100 Sao Paulo SP 05340002 Brazil
@@ -845,7 +845,7 @@ Avenida MORUMBI 3600 Sao Paulo SP 05606300 Brazil
 Avenida DUQUE DE CAXIAS 672 Belem PA 66093026 Brazil
 Travessa PADRE EUTIQUIO 1087 Belem PA 66023710 Brazil
 Avenida AGENOR COUTO DE MAGALHAES 25 Sao Paulo SP 05174000 Brazil
-Avenida AUGUSTO MONTENEGRO PARQUE VERDE Belem PA 66635110 Brazil
+Avenida AUGUSTO MONTENEGRO Belem PA 66635110 Brazil
 Avenida PRESIDENTE COSTA E SILVA 2721 Fortaleza CE 60761191 Brazil
 Avenida CASTELO DE CASTRO 674 Fortaleza CE 60866681 Brazil
 Estrada DO CAMPO LIMPO 4329 Sao Paulo SP 05787000 Brazil
@@ -871,7 +871,7 @@ Rua OSCAR CINTRA GORDINHO 24 Sao Paulo SP 01512010 Brazil
 Avenida JOSE BASTOS 4160 Fortaleza CE 60431086 Brazil
 Rua DOZE DE OUTUBRO 387 Sao Paulo SP 05073001 Brazil
 PRACA DA SE 152 Sao Paulo SP 01001001 Brazil
-RODOVIA BR 316 CASTANHEIRA SHOPPING SHOPPING CASTANHEIRA CASTANHEIRA Belem PA 66630505 Brazil
+RODOVIA BR 316 CASTANHEIRA SHOPPING Belem PA 66630505 Brazil
 RUA DR ISAIAS SALOMAO VILA DA SAUDE Sao Paulo SP 04055050 Brazil
 Rua DO HORTO 235 Sao Paulo SP 02377000 Brazil
 Estrada DE ITAPECERICA 1723 Sao Paulo SP 05835005 Brazil
@@ -1075,7 +1075,7 @@ Rua DO ESTILO BARROCO 332 Sao Paulo SP 04709010 Brazil
 Avenida Prefeito Fabio Prado 2201 Sao Paulo SP 04116000 Brazil
 Avenida MASCOTE 1021 Sao Paulo SP 04363001 Brazil
 Rua SAO JOAO CLIMACO 656 Sao Paulo SP 04255000 Brazil
-Avenida Thomes de Arruda Fortes Morada do Ouro Cuiaba MT 78053505 Brazil
+Avenida Thomes de Arruda Fortes Cuiaba MT 78053505 Brazil
 Avenida Ragueb Chohfi 3226 Sao Paulo SP 08341410 Brazil
 Avenida GENERALISSIMO DEODORO 1585 Belem PA 66035090 Brazil
 Avenida Moreira Guimaraes 979 Sao Paulo SP 04074020 Brazil
@@ -1151,7 +1151,7 @@ Avenida AGRICOLA PAES DE BARROS 901 Cuiaba MT 78030210 Brazil
 Avenida A 800 Fortaleza CE 60531510 Brazil
 Rua DAS ROSAS 665 Sao Paulo SP 04048001 Brazil
 Rua Antonio Paganini 361 Sao Paulo SP 03732140 Brazil
-Avenida Gov Parsifal Barroso Presidente Kennedy Fortaleza CE 60357250 Brazil
+Avenida Gov Parsifal Barroso Fortaleza CE 60357250 Brazil
 Avenida dos Latinos 470 Sao Paulo SP 03572000 Brazil
 RUA HADDOCK LOBO 60 Sao Paulo SP 01414000 Brazil
 RUA HADDOCK LOBO 1250 Sao Paulo SP 01414002 Brazil
@@ -1275,7 +1275,7 @@ Estrada DO JAGUARE 1776 Sao Paulo SP 05525080 Brazil
 RUA OSVALDO CRUZ 05 Cuiaba MT 78065125 Brazil
 PRACA DA SE 415 Sao Paulo SP 01001000 Brazil
 Rua Pamplona 1130 Sao Paulo SP 01405001 Brazil
-Rua Sinfonia Italiana Grajau Sao Paulo SP 04844610 Brazil
+Rua Sinfonia Italiana Sao Paulo SP 04844610 Brazil
 Avenida MAZZEI 210 Sao Paulo SP 02310000 Brazil
 Avenida CONSELHEIRO RODRIGUES ALVES 484 Sao Paulo SP 04014001 Brazil
 Estrada DE ITAPECERICA 6391 Sao Paulo SP 05858005 Brazil
@@ -1479,9 +1479,9 @@ Rua APENINOS 339 Sao Paulo SP 01533000 Brazil
 Avenida DR GUILHERME DUMONT VILARES 323 Sao Paulo SP 05640000 Brazil
 Avenida das Garoupas 131 Sao Paulo SP 04473100 Brazil
 Rua Augusta 2699 Sao Paulo SP 01413100 Brazil
-Avenida ERICO GONCALVES PREZA FILHO Alphaville Cuiaba MT 78061302 Brazil
+Avenida ERICO GONCALVES PREZA FILHO Cuiaba MT 78061302 Brazil
 Avenida Angelica 2220 Sao Paulo SP 01228200 Brazil
-Avenida Francisco Matarazzo Agua Branca Sao Paulo SP 05003100 Brazil
+Avenida Francisco Matarazzo Sao Paulo SP 05003100 Brazil
 Avenida Padre Antonio Jose dos Santos 1083 Sao Paulo SP 04563013 Brazil
 Avenida ASSEMBLEIA 290 DIADEMA SP 09913130 Brazil
 Rua AMERICO GOMES DA COSTA 142 Sao Paulo SP 08010120 Brazil
@@ -1945,7 +1945,7 @@ AVENIDA INTERLAGOS 2255 Sao Paulo SP Brazil
 AVENIDA RAIMUNDO PEREIRA DE MAGALHAES 1465 Sao Paulo SP Brazil
 ESTRADA DO CAMPO LIMPO 459 Sao Paulo SP Brazil
 RUA DESEMBARGADOR LAURO NOGUEIRA 1500 Fortaleza CE Brazil
-Avenida FRANCISCO MATARAZZO S No AGUA BRANCA Sao Paulo SP Brazil
+Avenida FRANCISCO MATARAZZO AGUA BRANCA Sao Paulo SP Brazil
 Avenida DAS NACOES UNIDAS 4777 Sao Paulo SP Brazil
 AVENIDA NERO MACEDO 12000 Sao Paulo SP Brazil
 Avenida PAULISTA 1230 Sao Paulo SP Brazil

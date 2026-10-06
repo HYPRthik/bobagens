@@ -86,6 +86,8 @@ Marca o que a DSP historicamente rejeita, com percentuais medidos no retorno rea
 | Nome do estabelecimento | Usa o segmento só-número como âncora: o logradouro é o segmento anterior a ele, mesmo com typo no tipo (`Avendia Abílio`). Nunca corta se isso apagaria a rua (`Boulevard Vinte e Oito de Setembro, 271`) |
 | Número com letra | `40A`, `1029D` são número de porta |
 | Número com ponto de milhar | `Alameda Franca, 1.151` → `1151`, não `1 151` |
+| Coluna `Nº` que é índice | Detecta quando a coluna de número é a numeração da planilha (1..N densa) e a ignora |
+| Vírgula decimal | `km 83,5` não vira segmento solto `5` que levaria o logradouro junto |
 | Inteiro lido como float | `Numero` = `1842.0` do Excel → `1842`, não `1842 0` |
 | `nº 2153` | Vira `2153`; exige o `º`/`°`, porque um `n` solto pode ser nome de rua |
 | Abreviações | `Av` → `Avenida`, `Rod` → `Rodovia` |
@@ -124,7 +126,7 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 python3 testes.py
 ```
 
-70 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
+76 checagens: paridade com o retorno real da DSP, preservação dos aprovados,
 recusa de lista só com coordenadas, remoção do bairro nas três formas em que a
 cidade é identificável, proteção contra apagar a cidade quando não é, número da
 porta, expansão de abreviação, encoding, sem cabeçalho, categoria isenta,

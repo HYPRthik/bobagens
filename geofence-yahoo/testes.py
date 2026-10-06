@@ -408,6 +408,39 @@ check("fragmento 'S/N QD 68 LT 9' não vira cidade",
 check("'FORTALEZA - STATE OF CEARÁ' não conta como divergência",
       "cidade divergente" not in out, out[-400:])
 
+print("\n=== T9m vírgula decimal em km e 's/nº' ===")
+p = entrada("km.csv", "endereco,cidade,uf,cep\n"
+    '"Rod. Miguel Melhado Campos, km 83,5, s/nº, Itupeva - SP, 13295-000",Itupeva,SP,13295-000\n'
+    '"R. Jerivá, s/nº - Iporanga, Guarujá - SP, 11448-406",Guarujá,SP,11448-406\n')
+rc, out = run([p, "-o", f"{TMP}/t9m", "--nome", "km"])
+L = linhas(f"{TMP}/t9m/km.txt") if rc == 0 else []
+check("'km 83,5' não destrói o logradouro",
+      L[:1] == ["Rodovia Miguel Melhado Campos Itupeva SP 13295000 Brazil"], L[:1] or out[-300:])
+check("'s/nº' é removido, não vira 's no'",
+      len(L) > 1 and L[1] == "Rua Jeriva Guaruja SP 11448406 Brazil", L[1:2])
+
+print("\n=== T9k coluna 'Nº' que é numeração da planilha, não porta ===")
+linhas_csv = "endereco,Nº,Cidade,UF,CEP\n" + "".join(
+    f'"Rodovia Teste {n}, Porto Feliz - SP, 18540-000",{n},Porto Feliz,SP,18540-000\n'
+    for n in range(1, 16))
+p = entrada("indice.csv", linhas_csv)
+rc, out = run([p, "-o", f"{TMP}/t9k", "--nome", "ix"])
+L = linhas(f"{TMP}/t9k/ix.txt") if rc == 0 else []
+check("contador não vira número de porta",
+      L[:1] == ["Rodovia Teste 1 Porto Feliz SP 18540000 Brazil"], L[:1] or out[-300:])
+check("nenhuma linha ganhou número extra",
+      all(not re.search(r"Teste \d+ \d+ ", x) for x in L), [x for x in L if re.search(r"Teste \d+ \d+ ", x)][:2])
+
+print("\n=== T9l coluna de número REAL continua sendo usada ===")
+p = entrada("numreal.csv", "endereco,Numero,cidade,uf,cep\n"
+    "Avenida Paulista,1842,São Paulo,SP,01311-300\n"
+    "Rua dos Pinheiros,870,São Paulo,SP,05422-001\n"
+    "Avenida Brasil,22155,Rio de Janeiro,RJ,21515-001\n")
+rc, out = run([p, "-o", f"{TMP}/t9l", "--nome", "nr"])
+L = linhas(f"{TMP}/t9l/nr.txt") if rc == 0 else []
+check("número real de porta é mantido",
+      L[:1] == ["Avenida Paulista 1842 Sao Paulo SP 01311300 Brazil"], L[:1] or out[-300:])
+
 print("\n=== T9j cabeçalho com coluna repetida: vence a mais preenchida ===")
 p = entrada("dupcol.csv", "endereco,cep,city,cep,city\n"
     '"Rua A, 10, Centro, Santos - SP",,Santos,11010-000,Santos\n'

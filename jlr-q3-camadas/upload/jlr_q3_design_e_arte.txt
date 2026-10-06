@@ -1,0 +1,54 @@
+Alameda Gabriel Monteiro da Silva 1193 Sao Paulo SP 01442000 Brazil
+Avenida Pedroso de Morais 1495 Sao Paulo SP 05419001 Brazil
+Avenida das Nacoes Unidas 12555 Sao Paulo SP 04578903 Brazil
+Avenida Paes de Barros 2569 Sao Paulo SP 03149100 Brazil
+Avenida Brasil 1589 Sao Paulo SP 01430001 Brazil
+Avenida Paulista 2073 Sao Paulo SP 01311300 Brazil
+Alameda Gabriel Monteiro da Silva 398 Sao Paulo SP 01442000 Brazil
+Avenida Brasil 526 Sao Paulo SP 01430000 Brazil
+Rua Henri Dunant 711 Sao Paulo SP 04709110 Brazil
+Alameda Gabriel Monteiro da Silva 1441 Sao Paulo SP 01441001 Brazil
+Rua Fidalga 407 Sao Paulo SP 05432070 Brazil
+Alameda Gabriel Monteiro da Silva 1101 Sao Paulo SP 01441000 Brazil
+Rua Ferreira de Araujo 625 Sao Paulo SP 05428001 Brazil
+Rua Padre Joao Manuel 755 Sao Paulo SP 01411001 Brazil
+Rua James Holland 71 Sao Paulo SP 01138000 Brazil
+Rua Barao de Capanema 343 Sao Paulo SP 01411010 Brazil
+Rua Barra Funda 216 Sao Paulo SP 01152000 Brazil
+Avenida Europa 655 Sao Paulo SP 01449001 Brazil
+Rua Fradique Coutinho 1430 Sao Paulo SP 05416001 Brazil
+Rua Fradique Coutinho 1360 Sao Paulo SP 05416001 Brazil
+Rua Minas Gerais 350 Sao Paulo SP 01244010 Brazil
+Avenida Nove de Julho 5162 Sao Paulo SP 01406200 Brazil
+Avenida Paulista 2644 Sao Paulo SP 01310300 Brazil
+Avenida Valdemar Ferreira 130 Sao Paulo SP 05501000 Brazil
+Rodovia dos Imigrantes Sao Paulo SP 04329900 Brazil
+Avenida Pedro Alvares Cabral Sao Paulo SP 04094000 Brazil
+Avenida Cel Silva Telles 995 Campinas SP 13024000 Brazil
+Avenida Itatiaia 1175 Ribeirao Preto SP 14025070 Brazil
+Avenida Barao do Rio Branco 1088 Sao Jose dos Campos SP 12242800 Brazil
+Rua Marques de Sao Vicente 16 Santos SP 11075690 Brazil
+Avenida Antonio Carlos Comitre 1335 Sorocaba SP 18047620 Brazil
+Avenida 9 de Julho 530 Jundiai SP 13209010 Brazil
+Avenida Ayrton Senna 2150 Rio de Janeiro RJ 22775002 Brazil
+Rua Joana Angelica 177 Rio de Janeiro RJ 22420030 Brazil
+Rua Prof Alvaro Rodrigues 424 Rio de Janeiro RJ 22280040 Brazil
+Avenida Pres Roosevelt 144 Niteroi RJ 24360066 Brazil
+Avenida das Americas 3500 Rio de Janeiro RJ 22640102 Brazil
+Rua Goncalves Ledo 17 Rio de Janeiro RJ 20060020 Brazil
+Rua Redentor 241 Rio de Janeiro RJ 22421030 Brazil
+Rua das Acacias 104 Rio de Janeiro RJ 22451060 Brazil
+Rua Jose Roberto Macedo Soares 30 Rio de Janeiro RJ 22470100 Brazil
+Avenida Infante Dom Henrique Rio de Janeiro RJ 20021140 Brazil
+Alameda Dr Carlos de Carvalho 1731 Curitiba PR 80730200 Brazil
+Avenida N Sra da Luz 1725 Curitiba PR 82520060 Brazil
+Avenida Maringa 2350 Londrina PR 86060000 Brazil
+Avenida Pres Juscelino K de Oliveira 1255 Maringa PR 87010440 Brazil
+Alameda Dr Carlos de Carvalho 555 Curitiba PR 80430180 Brazil
+Alameda Dr Carlos de Carvalho 2173A Curitiba PR 80730200 Brazil
+Avenida Me Benvenuta 690 Florianopolis SC 88035001 Brazil
+Rua Blumenau 1200 Joinville SC 89204310 Brazil
+Rua Joao Pessoa 1377 Blumenau SC 89036002 Brazil
+Avenida Dr Nilo Pecanha 2338 Porto Alegre RS 91330002 Brazil
+Rua Guerino Sanvitto 853 Caxias do Sul RS 95012340 Brazil
+Rua Visconde do Rio Branco 365 Porto Alegre RS 90220231 Brazil

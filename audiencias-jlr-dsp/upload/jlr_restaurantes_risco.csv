@@ -1,38 +1,38 @@
 ﻿severidade;linha;nome;endereco_dsp;risco
-ALTO;18;;Rua Augusta Jardim Paulista Sao Paulo SP 01412000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;20;;Rua Joaquim Antunes Pinheiros Sao Paulo SP 05415001 Brazil;sem numero de porta
-ALTO;34;;Avenida Sao Luis Republica Sao Paulo SP 01046000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;35;;Rua Oscar Freire Jardim Paulista Sao Paulo SP 01426003 Brazil;sem numero de porta
-ALTO;39;;Rua Luis Coelho Consolacao Sao Paulo SP 01309000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;62;;Avenida Brigadeiro Faria Lima Pinheiros Sao Paulo SP 05426100 Brazil;sem numero de porta
-ALTO;67;;Rua General Severiano Botafogo Rio de Janeiro RJ 22290040 Brazil;sem numero de porta
-ALTO;69;;Rua Figueiredo de Magalhaes Copacabana Rio de Janeiro RJ 22031011 Brazil;sem numero de porta
+ALTO;18;;Rua Augusta Sao Paulo SP 01412000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;20;;Rua Joaquim Antunes Sao Paulo SP 05415001 Brazil;sem numero de porta
+ALTO;34;;Avenida Sao Luis Sao Paulo SP 01046000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;35;;Rua Oscar Freire Sao Paulo SP 01426003 Brazil;sem numero de porta
+ALTO;39;;Rua Luis Coelho Sao Paulo SP 01309000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;62;;Avenida Brigadeiro Faria Lima Sao Paulo SP 05426100 Brazil;sem numero de porta
+ALTO;67;;Rua General Severiano Rio de Janeiro RJ 22290040 Brazil;sem numero de porta
+ALTO;69;;Rua Figueiredo de Magalhaes Rio de Janeiro RJ 22031011 Brazil;sem numero de porta
 ALTO;88;;Spp Asa Norte Brasilia DF 70150000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;105;;Estrada da Barra da Tijuca 1636 Rio de Janeiro RJ 22641010 Brazil;endereco de rodovia (57-67% falharam)
-ALTO;112;;Avenida Afonso Pena Savassi Belo Horizonte MG 30130012 Brazil;sem numero de porta
-ALTO;115;;SQS 315 Bloco B Asa Sul Brasilia DF 70384020 Brazil;sem numero de porta
+ALTO;112;;Avenida Afonso Pena Belo Horizonte MG 30130012 Brazil;sem numero de porta
+ALTO;115;;SQS 315 Brasilia DF 70384020 Brazil;logradouro sem nome
 ALTO;122;;Shell Bairro da Ponte Itatiba SP Brazil;sem numero de porta
 ALTO;123;;Rodovia Raposo Tavares Mairinque SP 18120000 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;125;;Rodovia Dom Pedro I Mato Dentro Atibaia SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;126;;Avenida Lucio Costa Barra da Tijuca Rio de Janeiro RJ 22620172 Brazil;sem numero de porta
-ALTO;131;;Rua da Ferradura Ferradura Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;125;;Rodovia Dom Pedro I Atibaia SP Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;126;;Avenida Lucio Costa Rio de Janeiro RJ 22620172 Brazil;sem numero de porta
+ALTO;131;;Rua da Ferradura Armacao dos Buzios RJ 28950000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;133;;Ciclovia da Niemeyer Leblon Rio de Janeiro RJ Brazil;sem numero de porta
-ALTO;134;;Rua Cais Pharoux Centro Rio de Janeiro RJ 20010070 Brazil;sem numero de porta
+ALTO;134;;Rua Cais Pharoux Rio de Janeiro RJ 20010070 Brazil;sem numero de porta
 ALTO;135;;Rodovia Jornalista Manoel de Menezes 773 Florianopolis SC 88061700 Brazil;endereco de rodovia (57-67% falharam)
 ALTO;138;;Edificio Rivergardens Batel Curitiba PR 80420090 Brazil;sem numero de porta
 ALTO;139;;Setor de Mansoes do Lago Lago Norte DF 71540121 Brazil;sem numero de porta
 ALTO;140;;Estrada do Vinho Sao Roque SP 18145002 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;142;;Estrada General Eurico Gaspar Dutra Jurujuba Niteroi RJ 24370375 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;145;;Estrada da Canoa Sao Conrado Rio de Janeiro RJ 22610210 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;142;;Estrada General Eurico Gaspar Dutra Niteroi RJ 24370375 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;145;;Estrada da Canoa Rio de Janeiro RJ 22610210 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
 ALTO;148;;Monumento a Tiradentes BR 356 Centro Ouro Preto MG 35400000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;149;;Rua Principal Santa Maria Madalena RJ 28770000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;151;;Via N1 Oeste Asa Norte Brasilia DF 70705130 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
-ALTO;152;;Largo da Pedreira Chacara Fatima Paraty RJ 23970000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;151;;Via N1 Oeste Brasilia DF 70705130 Brazil;"endereco de rodovia (57-67% falharam); sem numero de porta"
+ALTO;152;;Largo da Pedreira Paraty RJ 23970000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
 ALTO;153;;BR 381 Sao Goncalo do Rio Abaixo MG 35935000 Brazil;"sem numero de porta; logradouro sem nome; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;164;;Rua Augusta Republica Sao Paulo SP 01034000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;171;;Rua Coronel Xavier de Toledo Republica Sao Paulo SP 01048000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
-ALTO;179;;Avenida Marginal Pinheiros Morumbi Sao Paulo SP 05676030 Brazil;sem numero de porta
-ALTO;184;;Rua Medeiros de Albuquerque Pinheiros Sao Paulo SP 05436060 Brazil;sem numero de porta
+ALTO;164;;Rua Augusta Sao Paulo SP 01034000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;171;;Rua Coronel Xavier de Toledo Sao Paulo SP 01048000 Brazil;"sem numero de porta; CEP generico de cidade, nao de rua (2,4x mais falha)"
+ALTO;179;;Avenida Marginal Pinheiros Sao Paulo SP 05676030 Brazil;sem numero de porta
+ALTO;184;;Rua Medeiros de Albuquerque Sao Paulo SP 05436060 Brazil;sem numero de porta
 MEDIO;3;;Rua Joaquim Antunes 210 Sao Paulo SP 05415000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;27;;Rua dos Pinheiros 262 Sao Paulo SP 05422000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)
 MEDIO;41;;Rua Joaquim Antunes 116 Sao Paulo SP 05415000 Brazil;CEP generico de cidade, nao de rua (2,4x mais falha)

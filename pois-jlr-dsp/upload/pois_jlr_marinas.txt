@@ -1,6 +1,6 @@
 Rodovia Jorge Fortulino Balneario Rincao SC 88828000 Brazil
 Rua Doutor Avelino Queiroz 191 Capitolio MG 37930000 Brazil
-Avenida Beira Mar Pereque Mirim Ubatuba SP 11680000 Brazil
+Avenida Beira Mar Ubatuba SP 11680000 Brazil
 Avenida Sao Joao 298 Penha SC 88385000 Brazil
 Rua Sao Paulo 780 Itanhaem SP 11740000 Brazil
 Rua Lateral BR 101 243 Biguacu SC 88160000 Brazil
@@ -10,7 +10,7 @@ Rua Osorio Fernandes de Macedo 62 Balneario Camboriu SC 88332075 Brazil
 Rua Minas Gerais 474 Sertaneja PR 86340000 Brazil
 Rodovia Ariovaldo de Almeida Viana Guaruja SP Brazil
 Avenida Celso Romano de Oliveira Porto Rico PR 87950000 Brazil
-Rua Brasil Centro Campo Mourao PR Brazil
+Rua Brasil Campo Mourao PR Brazil
 Avenida Manoel Silva 51 Caraguatatuba SP 11667752 Brazil
 Rua Jorge Salvador Chere 197 Guaruja SP 11420700 Brazil
 Avenida Agenor Nogueira 1115 Presidente Epitacio SP 19470000 Brazil
@@ -32,7 +32,7 @@ Rua Otavio Carlos 105A Bom Sucesso MG 37220000 Brazil
 Rua Nossa Senhora da Boa Viagem 1424 Porto Alegre RS 90090140 Brazil
 Rua Hespanhol 522 Passo de Torres SC 88980000 Brazil
 Rodovia Tertuliano Brito Xavier 1800 Florianopolis SC 88054601 Brazil
-Avenida Rio Branco Indaia Caraguatatuba SP 11665600 Brazil
+Avenida Rio Branco Caraguatatuba SP 11665600 Brazil
 Estrada Cubatao Grande 2101 Joinville SC 89226833 Brazil
 Praca Florida 333 Guaiba RS 92728335 Brazil
 Avenida Nuta James 65 Rio de Janeiro RJ 22640030 Brazil
@@ -81,7 +81,7 @@ Avenida Governador Celso Ramos 2825 Porto Belo SC 88210000 Brazil
 Rua Urcezino Ferreira 706 Itanhaem SP 11740000 Brazil
 Rua Wilson Rodrigues de Oliveira 522 Ribeirao Claro PR 86410000 Brazil
 Avenida Dois 18 Itirapina SP 13530000 Brazil
-Rua Rio Claro Porto Sao Jose Sao Pedro do Parana PR 87957000 Brazil
+Rua Rio Claro Sao Pedro do Parana PR 87957000 Brazil
 Rua Fortunato Campante 1806 Pauliceia SP 17990000 Brazil
 Rua Joao Manoel de Oliveira 250 Caraguatatuba SP 11679350 Brazil
 Rua Benedito Marcos de Souza 134 Caraguatatuba SP 11669450 Brazil
@@ -92,7 +92,7 @@ Rua Vereador Luiz Benedito 120 Santa Isabel SP 07500000 Brazil
 Avenida Iguacu 833 Sao Miguel do Iguacu PR 85877000 Brazil
 Rua Nunes Viveiros 121 Bertioga SP 11250045 Brazil
 Rua Marte 473 Capitolio MG 37930000 Brazil
-Rua do Barrigudinho Bracui Angra dos Reis RJ 23943120 Brazil
+Rua do Barrigudinho Angra dos Reis RJ 23943120 Brazil
 Rua Tubarao 308 Balneario Picarras SC 88380000 Brazil
 Rua Joao Lourenco 250 Sao Paulo SP 04508030 Brazil
 Chacara do Tie Joanopolis SP 12980000 Brazil
@@ -110,7 +110,7 @@ Rua Vinte e Quatro de Julho 867 Buriti Alegre GO 75660000 Brazil
 Avenida Jose Herculano 7311 Caraguatatuba SP 11667000 Brazil
 Avenida Pedro Ometto Barra Bonita SP 17340001 Brazil
 Rua Santo Amaro 1717 Camboriu SC 88340680 Brazil
-Avenida Vicente de Carvalho Centro Bertioga SP 11250045 Brazil
+Avenida Vicente de Carvalho Bertioga SP 11250045 Brazil
 Rua Benjamin Constant 763 Paranagua PR 83203190 Brazil
 Rua Alegrete Imbe RS 95625000 Brazil
 Rua Coronel Luiz da Silva Batista 880 Ribeirao Preto SP 14020570 Brazil
@@ -138,7 +138,7 @@ Rua Jose Mantuani 514 Marilena PR 87960000 Brazil
 Rua Antonio Olaia 180 Guape MG 37177000 Brazil
 Avenida Marginal 2380 Itirapina SP 13530000 Brazil
 Rua Jose Benardino Rodrigues 450 Guape MG 37177000 Brazil
-Avenida Beira Rio Porto Maringa Marilena PR 87960000 Brazil
+Avenida Beira Rio Marilena PR 87960000 Brazil
 Avenida Marcolino Antonio Rosa Icem SP 15460000 Brazil
 Rua Domingos Peneda 1047 Paranagua PR 83209340 Brazil
 Rua Timbiras 51 Paranagua PR 83221390 Brazil
@@ -152,8 +152,8 @@ Rua Guarani 171 Fama MG 37144000 Brazil
 Rua Quinze de Novembro 70 Mangaratiba RJ 23860000 Brazil
 Rua Luiz Figueiredo 25 Joanopolis SP 12980000 Brazil
 Avenida Parana 93 Sao Pedro do Parana PR 87955000 Brazil
-Avenida Jose da Silva Pacheco Itapema do Norte Itapoa SC 89249000 Brazil
-Estrada Timbe Jardim Paraiso Joinville SC 89226500 Brazil
+Avenida Jose da Silva Pacheco Itapoa SC 89249000 Brazil
+Estrada Timbe Joinville SC 89226500 Brazil
 Rua Vidal Flavio Dias 1351 Gaspar SC 89117455 Brazil
 Rua dos Pescadores 1550 Porto Alegre RS 90090180 Brazil
 Avenida Coronel Cirilo Lopes de Moraes Caldas Novas GO 75690000 Brazil
@@ -164,18 +164,18 @@ Rua Hirayuki Enomoto 1736 Pereira Barreto SP 15371212 Brazil
 Avenida Sambaqui 294 Balneario Picarras SC 88380000 Brazil
 Avenida Joao Carraro 80 Porto Rico PR 87950000 Brazil
 Rua Capitao Salinas 65 Sao Sebastiao SP 11629215 Brazil
-Rodovia Rio Santos Maranduba Ubatuba SP 11680000 Brazil
-Avenida das Canoas Mato Grande Canoas RS 92323270 Brazil
+Rodovia Rio Santos Ubatuba SP 11680000 Brazil
+Avenida das Canoas Canoas RS 92323270 Brazil
 Avenida Almirante Tamandare 525 Ilhabela SP 11630000 Brazil
 Avenida Rui Barbosa 366 Itanhaem SP 11740000 Brazil
 Rua Joaquim Cristovao 200 Panorama SP 17980000 Brazil
 Rua Amor Perfeito 162 Barra Velha SC 88390000 Brazil
 Alameda do Cafe 11 Pontal do Parana PR 83255000 Brazil
 Rua Borba Gato 201 Praia Grande SP 11702460 Brazil
-Rua Laurindo Januario da Silveira Canto da Lagoa Florianopolis SC 88062201 Brazil
+Rua Laurindo Januario da Silveira Florianopolis SC 88062201 Brazil
 Rua Camilo de Oliveira 60 Balneario Barra do Sul SC 89247000 Brazil
 Via Gastronomica 65 Balneario Camboriu SC 88337070 Brazil
 Drogariasaope Abadiania GO 72940000 Brazil
 Rua Cento e Dezoito 142 Itapema SC 88220000 Brazil
 Estrada da Barra da Tijuca 347 Rio de Janeiro RJ 22611201 Brazil
-Rua Japao Parque Bitaru Sao Vicente SP 11330210 Brazil
+Rua Japao Sao Vicente SP 11330210 Brazil
