@@ -5,6 +5,27 @@ arquivos de retorno da própria DSP. Todo número aqui é medido, não estimado.
 
 ---
 
+> ## ⚠️ Leia isto antes de implementar o passo 3.5
+>
+> Em várias partes deste documento aparece o número de porta **`100`**. Ele é
+> **inventado**. Não é o número da loja, não foi extraído de lugar nenhum e não
+> tem relação com o endereço real do POI.
+>
+> Ele existe por um motivo só: a DSP **rejeita rua sem número de porta** (1
+> aprovação em 1.026 linhas testadas). Quando a base não traz o número, escrever
+> `100` faz o geocodificador ancorar em *algum ponto da rua certa, dentro do CEP
+> certo* — erro mediano de **170 m** em relação à loja — em vez de rejeitar a
+> linha inteira.
+>
+> **É um último recurso, não o caminho principal.** Se vocês conseguem o número
+> real (via CNPJ na Receita ou geocodificação reversa da coordenada), usem o
+> real: vale **80% contra 73%**, sem dado sintético e sem o erro de posição.
+>
+> Se implementarem o `100`, implementem junto: flag opt-in, coluna no relatório
+> marcando a linha como sintética, e visibilidade para quem sobe a campanha.
+
+---
+
 ## 1. O problema, em uma frase
 
 O campo de geofencing da DSP **não é uma planilha de colunas**. Ele recebe uma
@@ -113,7 +134,18 @@ só **0,2%** vieram sem logradouro.
 Fontes: ViaCEP, BrasilAPI, OpenCEP. **Cacheie o resultado** — CEP não muda e a
 mesma base é reprocessada várias vezes.
 
-### 3.5 Quando falta o número de porta: injetar `100`
+### 3.5 Quando falta o número de porta: injetar `100` (último recurso)
+
+**O `100` não é o número da loja — é um número arbitrário.** A base não traz o
+número de porta desses POIs e não há de onde extraí-lo; o que se sabe é a rua
+(vinda do CEP) e o CEP. Exemplo real, aprovado pela DSP:
+
+```
+base  : loja "Macedo E Souza Comercio Varejista De Glp", CEP 06310320
+          -> Rua Miguel Barbar, Carapicuíba/SP     (número: ausente)
+sobe  : Rua Miguel Barbar 100 Carapicuiba SP 06310320 Brazil
+ancora: no nº 100 dessa rua — a loja pode estar no 847
+```
 
 Este é o passo que mais move a taxa, e o resultado é contraintuitivo:
 
@@ -131,19 +163,43 @@ num limite de trecho que o geocodificador não resolve. E o valor importa — `1
 rende menos da metade de `100`.
 
 **O que isso custa.** O ponto não cai na porta da loja. Medindo a distância
-entre a coordenada do CEP e a coordenada real da loja nas 433 linhas aprovadas
-com número inventado:
+entre a coordenada do CEP e a coordenada real da loja nas linhas aprovadas
+com número inventado (426 após excluir 7 lojas de coordenada comprovadamente errada):
 
 | | |
 |---|---:|
-| mediana | **180 m** |
-| ≤ 300 m | 67% |
-| ≤ 1 km | 92% |
+| mediana | **170 m** |
+| média | 500 m |
 
-Para geofence por raio, o ponto cai no trecho certo da rua. **Mas é dado
-inventado** — deixe isso explícito: flag opt-in, coluna no relatório marcando
-quais linhas receberam número sintético, e a decisão de usar ou não fica com
-quem sobe a campanha.
+### O raio do geofence decide se isso serve
+
+O `100` cumpre a **função sintática** do número de porta — faz a DSP aceitar a
+linha. Não cumpre a **função de localização**: o ponto cai na rua certa, dentro
+do CEP certo, mas não na porta da loja.
+
+Logo, se o ponto sintético cobre ou não a loja depende do raio da campanha.
+Medido nas 426 linhas aprovadas com número inventado (426 após excluir 7 lojas de coordenada comprovadamente errada):
+
+| Raio do geofence | Loja dentro do próprio geofence |
+|---:|---:|
+| 100 m | **37%** |
+| 200 m | 55% |
+| 300 m | 68% |
+| 500 m | **83%** |
+| 1.000 m | 94% |
+
+**Abaixo de 300 m de raio, o número inventado não substitui o real** — mais de
+um terço das lojas fica fora da própria cerca. De 500 m para cima ele se
+comporta perto do número verdadeiro.
+
+> Ressalva de método: a distância medida é entre a coordenada do CEP e a
+> coordenada da loja. Ela é um *proxy* de onde o geocodificador ancora o
+> "número 100", não a medida direta. Serve para dimensionar a ordem de
+> grandeza, não para auditar linha a linha.
+
+**E é dado inventado** — deixe explícito: flag opt-in, coluna no relatório
+marcando quais linhas receberam número sintético, e a decisão de usar ou não
+fica com quem sobe a campanha.
 
 ### 3.6 Deduplicar pela linha final
 
@@ -224,7 +280,7 @@ Três coisas foram limitadas pelo ambiente onde isto rodou, não pelo método:
    e o cadastro da Receita traz logradouro e número exatos. Eu não consegui
    acesso de rede a nenhuma fonte de CNPJ. **A plataforma de vocês consegue** —
    e o número real vale **80% contra 73%**, sem nenhum dado inventado e sem os
-   180 m de erro mediano.
+   erro de posição mediano de 170 m.
 
 2. **Exportar `formatted_address` com número na origem.** Nessa base, **919 das
    1.606 linhas tinham `Precisão da coordenada = "numero"`** — o sistema que
@@ -283,7 +339,8 @@ para cada POI:
     4. extrair o número de porta (cuidado: sigla de rodovia, índice, milhar)
     5. se não há número:
          a) buscar o número real (CNPJ / reverso da coordenada)
-         b) se não houver, injetar 100  [opt-in, marcar como sintético]
+         b) se não houver, injetar 100  [ÚLTIMO RECURSO: número arbitrário,
+              não é o da loja. opt-in + marcar a linha como sintética]
     6. montar: <logradouro> <número> <cidade> <UF> <CEP> Brazil
     7. ascii_puro()  — NFKD primeiro, depois remover tudo fora de [A-Za-z0-9 ]
     8. deduplicar pela linha final
