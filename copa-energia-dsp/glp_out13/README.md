@@ -216,6 +216,56 @@ Se preferir não subir número inventado, as células N3 (rua + bairro) e F1 nã
 têm nenhum, e as 233 aprovadas continuam intactas: dá para subir só essas 606
 linhas. **Mas as 751 restantes valem 0,1% do jeito que estão.**
 
+## O retorno do v3 — qual estratégia funciona
+
+**684 de 1.381 = 49,5%.** As células responderam tudo:
+
+| Célula | Formato | Enviadas | OK | Taxa |
+|---|---|---:|---:|---:|
+| — | já aprovadas, byte a byte | 233 | 233 | **100%** |
+| N1 | `rua 100 cidade UF CEP` | 250 | 183 | **73,2%** |
+| N4 | `rua 100 bairro cidade UF CEP` | 249 | 176 | 70,7% |
+| N2 | `rua 1 cidade UF CEP` | 250 | 74 | 29,6% |
+| F1 | número real da faixa + bairro | 120 | 15 | 12,5% |
+| N3 | `rua bairro cidade UF CEP` (sem número) | 250 | 3 | 1,2% |
+| — | nome do POI | 24 | 0 | 0% |
+
+1. **O número inventado `100` bate o número real** da faixa do complemento
+   (73% contra os 61% do v2). Um número baixo existe em quase toda rua; o
+   início da faixa cai num limite de trecho que o geocodificador não resolve.
+2. **O valor importa muito:** `100` dá 73%, `1` dá 30%.
+3. **O bairro atrapalha de leve** (73,2 contra 70,7) e não salva nada sozinho
+   (1,2%) — coerente com a regra de descartá-lo.
+
+### O que o número inventado custa
+
+Distância entre a coordenada do CEP e a da loja, nas 433 linhas aprovadas com
+número inventado: **mediana 180 m · 67% abaixo de 300 m · 92% abaixo de 1 km**.
+A cauda longa (p99 em centenas de km) são as 43 lojas cuja *coordenada* está
+errada, não o endereço — isso já estava medido no v2. Para um geofence por raio,
+o ponto cai no trecho certo da rua.
+
+## v4: a forma vencedora aplicada a tudo
+
+`upload/copa_glp_v4.txt` — 1.381 linhas:
+
+| Linhas | O quê |
+|---:|---|
+| 684 | já aprovadas, byte a byte |
+| 605 | `rua 100 cidade UF CEP` — tudo que falhou e ainda não tinha tentado o 100 |
+| 68 | falharam **com** 100: 17 cada tentando 50, 200, 500 e 1000 |
+| 24 | nome do POI (CEP sem registro) — sem saída |
+
+Projeção: 684 + ~73% de 605 ≈ **1.120 de 1.381, perto de 81%**.
+
+As 24 linhas sem registro de CEP e as que falharem com todos os números são o
+piso desta base: sem o logradouro de origem, não há mais o que extrair.
+
+### Isso virou parte do template
+
+`geofence.py --numero-padrao 100` faz isso em qualquer base, rotulando cada
+linha com `(numero de porta INVENTADO)` na conferência. É opt-in de propósito.
+
 ## A pista que continua valendo
 
 **919 das 1.606 linhas têm `Precisão da coordenada = "numero"`.** O sistema que

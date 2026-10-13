@@ -696,6 +696,11 @@ def main():
                          "que voltou 'successful' e reenviado com a string EXATA que "
                          "funcionou, sem reescrever; a forma essencial so e aplicada ao "
                          "que falhou. Evita regredir o que ja estava bom.")
+    ap.add_argument("--numero-padrao", default=None, metavar="N",
+                    help="rua sem numero de porta recebe o numero N (sugestao: 100). "
+                         "INVENTA dado: o ponto cai na rua certa, nao na porta da loja. "
+                         "Medido na base GLP: 1 de 1.026 sem numero contra 183 de 250 com "
+                         "'100' — e '1' so da 30%%, entao o valor importa.")
     ap.add_argument("--cep-logradouro", nargs="?", const="cache_cep", default=None,
                     metavar="CACHE",
                     help="quando a linha nao tem logradouro mas tem CEP, busca a rua "
@@ -768,7 +773,7 @@ def main():
 
     saidas, descartes, confer, grupos = [], [], [], {}
     for n, row in enumerate(corpo, start=2):
-        origem_alt = origem_num = False
+        origem_alt = origem_num = origem_numero_padrao = False
         nome = campo(row, "nome")
         categoria = campo(row, "categoria")
         isenta = sem_acento(categoria).lower().strip() in CATEGORIAS_SEM_ENDERECO
@@ -903,6 +908,12 @@ def main():
                 continue
             ult = rua_num.split()[-1] if rua_num.split() else ""
             numero = ult if re.fullmatch(r"\d{1,6}[A-Za-z]?", ult) else ""
+            # Rua sem numero de porta nao e aceita: 1 de 1.026 na base GLP. Com um
+            # numero baixo inventado, 183 de 250. Opt-in, porque inventa dado.
+            if not numero and a.numero_padrao and rua_num:
+                numero = str(a.numero_padrao).strip()
+                rua_num = f"{rua_num} {numero}"
+                origem_numero_padrao = True
             sev, risco = classificar_risco(rua_num, numero, cep or "")
             if aviso_cidade:
                 risco.append(aviso_cidade)
@@ -920,6 +931,8 @@ def main():
                 origem += " (numero de coluna propria)"
             if origem_cep:
                 origem = "logradouro buscado pelo CEP"
+            if origem_numero_padrao:
+                origem += " (numero de porta INVENTADO)"
         if len(linha) < 8:
             descartes.append((n, nome or f"linha {n}", "endereco curto demais", bruto or "(vazio)"))
             continue

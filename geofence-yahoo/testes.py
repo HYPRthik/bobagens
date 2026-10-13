@@ -471,6 +471,26 @@ check("CEP sem registro não inventa rua",
 check("bairro do dataset não entra na linha",
       not any("Anhanguera" in x for x in L), [x for x in L if "Anhanguera" in x])
 
+print("\n=== T12 --numero-padrao só entra onde falta número, e é rotulado ===")
+p = entrada("numpad.csv", "endereco,cidade,uf,cep\n"
+    "Rua Sem Numero,São Paulo,SP,01310-200\n"
+    "Avenida Paulista 1842,São Paulo,SP,01311-300\n")
+rc, out = run([p, "-o", f"{TMP}/t12", "--nome", "np", "--numero-padrao", "100"])
+L = linhas(f"{TMP}/t12/np.txt") if rc == 0 else []
+check("rua sem número recebe o padrão",
+      L[:1] == ["Rua Sem Numero 100 Sao Paulo SP 01310200 Brazil"], L[:1] or out[-300:])
+check("rua que já tem número não é tocada",
+      len(L) > 1 and L[1] == "Avenida Paulista 1842 Sao Paulo SP 01311300 Brazil", L[1:2] or out[-300:])
+conf = list(csv.DictReader(io.StringIO(open(f"{TMP}/t12/np_conferencia.csv",
+                                            encoding="utf-8-sig").read()), delimiter=";"))
+check("o número inventado é declarado na conferência",
+      "INVENTADO" in conf[0]["origem"] and "INVENTADO" not in conf[1]["origem"],
+      [c["origem"] for c in conf])
+rc, out = run([p, "-o", f"{TMP}/t12b", "--nome", "np2"])
+L2 = linhas(f"{TMP}/t12b/np2.txt") if rc == 0 else []
+check("sem a flag, nada é inventado",
+      L2[:1] == ["Rua Sem Numero Sao Paulo SP 01310200 Brazil"], L2[:1] or out[-300:])
+
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []
 for q in glob.glob(f"{TMP}/**/*.txt", recursive=True) + glob.glob(f"{TMP}/**/*.csv", recursive=True):

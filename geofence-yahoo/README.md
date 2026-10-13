@@ -81,6 +81,40 @@ diferem por abreviação (e o dataset traz a forma expandida, que é melhor para
 o geocodificador) e 3 conflitos reais. O dataset inclusive conserta casos em
 que a base de origem tinha o bairro colado na rua.
 
+## `--numero-padrao`: rua sem número não é aceita
+
+Três uploads da base GLP mediram isso em escala, e o resultado é forte o
+bastante para mudar como se monta qualquer base sem número de porta:
+
+| O que a linha tinha | Enviadas | OK | Taxa |
+|---|---:|---:|---:|
+| `rua 100 cidade UF CEP` — número **inventado** | 250 | 183 | **73%** |
+| `rua 100 bairro cidade UF CEP` | 249 | 176 | 71% |
+| `rua <número real da faixa do CEP> cidade UF CEP` | 308 | 188 | 61% |
+| `rua 1 cidade UF CEP` | 250 | 74 | 30% |
+| `rua bairro cidade UF CEP` — sem número | 250 | 3 | 1,2% |
+| `rua cidade UF CEP` — sem número | 1.026 | 1 | **0,1%** |
+
+Três coisas que isso ensina:
+
+1. **Sem número de porta a linha não vale nada** — 1 em 1.026.
+2. **O número inventado `100` bate o número real** tirado da faixa do CEP
+   (73% contra 61%). Um número baixo existe em quase toda rua; o início da
+   faixa cai num limite de trecho que o geocodificador não resolve.
+3. **O valor importa muito**: `100` dá 73%, `1` dá 30%. E o bairro atrapalha
+   de leve (73,2% contra 70,7%), coerente com a regra de descartá-lo.
+
+```
+python3 geofence.py base.csv --cep-logradouro --numero-padrao 100
+```
+
+**O que isso custa.** O número não é o da loja. Medindo a distância entre a
+coordenada do CEP e a coordenada real da loja nas 433 linhas aprovadas com
+número inventado: **mediana 180 m, 92% abaixo de 1 km**. Para um geofence por
+raio o ponto cai no trecho certo da rua. Por isso a flag é opt-in e cada linha
+sai marcada com `(numero de porta INVENTADO)` na conferência — quem decide se
+isso serve para a campanha é quem sobe o arquivo.
+
 ## Relatório de risco
 
 Marca o que a DSP historicamente rejeita, com percentuais medidos no retorno real:
@@ -161,6 +195,7 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 | `--pais` | `Brazil` | País no fim do endereço. Vazio para omitir |
 | `--aprovados` | — | Retorno da DSP de um upload anterior |
 | `--nome-sem-endereco` | — | Último recurso: sem logradouro, monta `<nome> <cidade> <UF>`. Marca tudo ALTO — a DSP só aceita nome em Airports, Arena/Stadiums e Universities/Colleges |
+| `--numero-padrao` | — | Rua sem número de porta recebe esse número (sugestão: `100`). **Inventa dado** — o ponto cai na rua certa, não na porta da loja. Vem rotulado na conferência |
 | `--cep-logradouro` | — | Base sem logradouro: busca a rua pelo CEP e usa ela. Guarda em `cache_cep/` (ou no diretório que você passar) para não repetir a rede |
 | `--manter-bairro` | — | Não descarta o bairro |
 | `--separar-por` | — | Gera um arquivo por valor da coluna (ex: `POI`, `Estado`) — cada line item recebe uma lista |
