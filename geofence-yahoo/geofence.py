@@ -39,6 +39,7 @@ import argparse
 import collections
 import csv
 import io
+import json
 import os
 import re
 import sys
@@ -595,6 +596,69 @@ def limpar_ponto_ooh(txt):
     return re.sub(r"\s+", " ", f"{rua} {numero}").strip()
 
 
+CEP_ESPELHO = ("https://raw.githubusercontent.com/gpfconfea/"
+               "banco-ceps/main/cep/%s.json")
+
+
+class LogradouroPorCep:
+    """Preenche o logradouro de uma base que so tem CEP.
+
+    Serve para a base que chega sem `formatted_address`: o retorno da DSP para a
+    base GLP mediu 95% de aprovacao com rua+numero contra 0,4% so com o nome do
+    POI, entao sem logradouro nao ha formato que salve.
+
+    As APIs de CEP (ViaCEP, BrasilAPI, OpenCEP) estao bloqueadas pela politica
+    de rede, mas o espelho dos mesmos dados no raw do GitHub nao esta. Cada CEP
+    e um JSON com logradouro, bairro, localidade, uf e coordenada. Fica tudo em
+    cache no disco: a segunda rodada da mesma base nao vai a rede.
+
+    O dataset nao traz numero de porta, mas o campo `complemento` costuma trazer
+    a faixa do trecho ("de 2373 a 2819 - lado impar"); dali sai um numero real
+    daquele trecho de rua, que e a granularidade de um geofence por raio.
+    """
+
+    def __init__(self, cache, baixar=True):
+        self.cache = cache
+        self.baixar = baixar
+        self.n = {"cache": 0, "rede": 0, "sem": 0}
+        os.makedirs(cache, exist_ok=True)
+
+    def __call__(self, cep):
+        d = re.sub(r"\D", "", cep or "")
+        if len(d) != 8:
+            return None
+        alvo = os.path.join(self.cache, d + ".json")
+        if os.path.exists(alvo):
+            self.n["cache"] += 1
+        elif os.path.exists(alvo + ".sem") or not self.baixar:
+            self.n["sem"] += 1
+            return None
+        else:
+            try:
+                import urllib.request
+                with urllib.request.urlopen(CEP_ESPELHO % d, timeout=30) as r:
+                    b = r.read()
+                json.loads(b.decode("utf-8"))      # so grava se for JSON valido
+                open(alvo, "wb").write(b)
+                self.n["rede"] += 1
+            except Exception:
+                open(alvo + ".sem", "w").close()
+                self.n["sem"] += 1
+                return None
+        try:
+            j = json.load(open(alvo, encoding="utf-8"))
+        except Exception:
+            return None
+        if not isinstance(j, dict) or not (j.get("logradouro") or "").strip():
+            return None
+        c = j.get("complemento") or ""
+        m = (re.search(r"\bde\s+(\d{1,6})", c) or re.search(r"\bat[eé]\s+(\d{1,6})", c)
+             or (re.search(r"(\d{1,6})", c) if re.search(r"\d", c) else None))
+        return {"logradouro": j["logradouro"].strip(), "numero": m.group(1) if m else "",
+                "cidade": (j.get("localidade") or "").strip(),
+                "uf": (j.get("uf") or "").strip().upper()}
+
+
 def classificar_risco(logradouro, numero, cep):
     """Marca o que a DSP historicamente rejeita. ALTO vale conferencia manual;
     MEDIO e sinal fraco, so pesa junto com outro. Percentuais medidos nos 202
@@ -632,12 +696,19 @@ def main():
                          "que voltou 'successful' e reenviado com a string EXATA que "
                          "funcionou, sem reescrever; a forma essencial so e aplicada ao "
                          "que falhou. Evita regredir o que ja estava bom.")
+    ap.add_argument("--cep-logradouro", nargs="?", const="cache_cep", default=None,
+                    metavar="CACHE",
+                    help="quando a linha nao tem logradouro mas tem CEP, busca a rua "
+                         "pelo CEP no espelho aberto dos Correios e usa ela. "
+                         "Guarda em CACHE (padrao cache_cep/) para nao repetir a rede.")
     ap.add_argument("--split", type=int, default=LIMITE_DSP, help=f"maximo de enderecos por arquivo (padrao {LIMITE_DSP})")
     ap.add_argument("--separar-por", default=None, metavar="COLUNA",
                     help="gera um arquivo por valor desta coluna (ex: POI, Estado). "
                          "Cada line item da DSP recebe uma lista, entao normalmente "
                          "se quer um arquivo por audiencia.")
     a = ap.parse_args()
+
+    por_cep = LogradouroPorCep(a.cep_logradouro) if a.cep_logradouro else None
 
     aprovados = set()
     if a.aprovados:
@@ -738,6 +809,17 @@ def main():
         if campo(row, "bairro") and sem_acento(campo(row, "bairro")).lower() not in sem_acento(miolo).lower():
             miolo = f"{miolo} {campo(row, 'bairro')}".strip()
 
+        # Sem logradouro na linha, o CEP e a unica ancora que resolve. A DSP
+        # recusa 99,6% das linhas sem rua, entao vale buscar a rua pelo CEP.
+        origem_cep = False
+        if por_cep and cep and not INICIO_LOGRADOURO.match(sem_acento(miolo).strip()):
+            r_cep = por_cep(cep)
+            if r_cep:
+                miolo = " ".join(x for x in (r_cep["logradouro"], r_cep["numero"]) if x)
+                cidade = cidade or r_cep["cidade"] or None
+                uf = uf or (r_cep["uf"] if r_cep["uf"] in UFBOX else None)
+                origem_cep = True
+
         if uf is None and cep and len(cep) >= 5:
             uf = uf_do_cep(int(cep[:5]))
 
@@ -836,6 +918,8 @@ def main():
                 origem += " (logradouro de coluna alternativa)"
             if origem_num:
                 origem += " (numero de coluna propria)"
+            if origem_cep:
+                origem = "logradouro buscado pelo CEP"
         if len(linha) < 8:
             descartes.append((n, nome or f"linha {n}", "endereco curto demais", bruto or "(vazio)"))
             continue
@@ -959,6 +1043,11 @@ def main():
     print(f"registros     : {len(corpo)}")
     print(f"enderecos     : {len(unicos)}  (duplicatas removidas: {dup})")
     print(f"descartados   : {len(descartes)}")
+    if por_cep:
+        n_cep = sum(1 for c in confer if c["origem"] == "logradouro buscado pelo CEP")
+        print(f"logradouro/CEP: {n_cep} linhas ganharam rua pelo CEP "
+              f"({por_cep.n['rede']} da rede, {por_cep.n['cache']} do cache, "
+              f"{por_cep.n['sem']} sem registro)")
     if descartes:
         for m, c in collections.Counter(d[2] for d in descartes).most_common():
             print(f"                {c:5d}  {m}")

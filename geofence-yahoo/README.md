@@ -43,6 +43,44 @@ reescritos na forma essencial          : 40
 Sem isso, reescrever os 162 que já passavam seria arriscar uma regressão para
 tentar consertar 40.
 
+## `--cep-logradouro`: base que só tem CEP
+
+Muita base chega sem `formatted_address` — só nome, cidade, UF, CEP e
+coordenada. O retorno da DSP para a base GLP mediu o que isso custa:
+
+| O que a linha tinha | Aprovadas |
+|---|---:|
+| rua + número + cidade + UF + CEP | **37 de 39 — 95%** |
+| rua sem número | 1 de 5 — 20% (amostra contaminada, veja abaixo) |
+| só o nome do POI + cidade + UF + CEP | **6 de 1.534 — 0,4%** |
+
+Sem logradouro não há formato que salve. Então a flag busca a rua pelo CEP:
+
+```
+python3 geofence.py base_sem_endereco.csv --cep-logradouro
+```
+
+As APIs de CEP (ViaCEP, BrasilAPI, OpenCEP) estão bloqueadas pela política de
+rede daqui, mas o espelho dos mesmos dados no raw do GitHub
+([`gpfconfea/banco-ceps`](https://github.com/gpfconfea/banco-ceps), dados do
+OpenCEP com coordenada) não está. Cada CEP é um JSON com logradouro, bairro,
+localidade, UF e coordenada, e fica em cache no disco — a segunda rodada da
+mesma base não vai à rede.
+
+Cobertura medida na base GLP: **1.352 de 1.358 CEPs (99,6%)**, e desses só
+0,2% sem logradouro.
+
+O dataset não traz número de porta, mas o campo `complemento` costuma trazer a
+faixa do trecho (`de 2373 a 2819 - lado ímpar`). Dali sai um número real
+daquele trecho de rua — mesma lógica já usada e declarada nos pontos de OOH: o
+geofence é um raio sobre o trecho, não sobre a porta.
+
+Conferência cruzada em 49 CEPs que aparecem no dataset **e** numa base já
+processada aqui: 32 logradouros idênticos, 3 contidos um no outro, 11 que só
+diferem por abreviação (e o dataset traz a forma expandida, que é melhor para
+o geocodificador) e 3 conflitos reais. O dataset inclusive conserta casos em
+que a base de origem tinha o bairro colado na rua.
+
 ## Relatório de risco
 
 Marca o que a DSP historicamente rejeita, com percentuais medidos no retorno real:
@@ -123,6 +161,7 @@ upload — em vez de entregar um arquivo vazio que a DSP rejeitaria.
 | `--pais` | `Brazil` | País no fim do endereço. Vazio para omitir |
 | `--aprovados` | — | Retorno da DSP de um upload anterior |
 | `--nome-sem-endereco` | — | Último recurso: sem logradouro, monta `<nome> <cidade> <UF>`. Marca tudo ALTO — a DSP só aceita nome em Airports, Arena/Stadiums e Universities/Colleges |
+| `--cep-logradouro` | — | Base sem logradouro: busca a rua pelo CEP e usa ela. Guarda em `cache_cep/` (ou no diretório que você passar) para não repetir a rede |
 | `--manter-bairro` | — | Não descarta o bairro |
 | `--separar-por` | — | Gera um arquivo por valor da coluna (ex: `POI`, `Estado`) — cada line item recebe uma lista |
 | `--split` | `10000` | Máximo de endereços por arquivo |

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Suite de testes do geofence.py. Rode: python3 testes.py"""
-import csv, io, os, pathlib, subprocess, sys, glob, re, shutil
+import csv, io, json, os, pathlib, subprocess, sys, glob, re, shutil
 
 G = str(pathlib.Path(__file__).parent / "geofence.py")
 NISSAN = str(pathlib.Path(__file__).parent.parent / "nissan-dsp-geofencing" / "origem_nissan.csv")
@@ -449,6 +449,27 @@ rc, out = run([p, "-o", f"{TMP}/t9j", "--nome", "dc"])
 L = linhas(f"{TMP}/t9j/dc.txt") if rc == 0 else []
 check("usa o 'cep' preenchido, não o vazio",
       L[:1] == ["Rua A 10 Santos SP 11010000 Brazil"], L[:1] or out[-300:])
+
+print("\n=== T11 --cep-logradouro preenche a rua de uma base que só tem CEP ===")
+# cache semeado a mao: o teste nao vai a rede, so exercita a leitura e o uso.
+cache = f"{TMP}/t11cache"
+os.makedirs(cache, exist_ok=True)
+open(f"{cache}/14066446.json", "w", encoding="utf-8").write(json.dumps(
+    {"cep": "14066446", "logradouro": "Rua Salvador Scaglioni", "complemento": "de 101 a 999",
+     "bairro": "Jardim Anhangüera", "localidade": "Ribeirão Preto", "uf": "SP"}))
+open(f"{cache}/99999999.json.sem", "w").close()          # CEP sem registro
+p = entrada("socep.csv", "name,city,uf,cep\n"
+    "Fran Gas,Ribeirão Preto,SP,14066-446\n"
+    "Gas Fantasma,Cidade X,SP,99999-999\n")
+rc, out = run([p, "-o", f"{TMP}/t11", "--nome", "sc", "--cep-logradouro", cache,
+               "--nome-sem-endereco"])
+L = linhas(f"{TMP}/t11/sc.txt") if rc == 0 else []
+check("rua e número da faixa vieram do CEP",
+      L[:1] == ["Rua Salvador Scaglioni 101 Ribeirao Preto SP 14066446 Brazil"], L[:1] or out[-300:])
+check("CEP sem registro não inventa rua",
+      len(L) > 1 and L[1].startswith("Gas Fantasma"), L[1:2] or out[-300:])
+check("bairro do dataset não entra na linha",
+      not any("Anhanguera" in x for x in L), [x for x in L if "Anhanguera" in x])
 
 print("\n=== T10 nenhum caractere proibido em nenhuma saída de upload ===")
 ruins = []
