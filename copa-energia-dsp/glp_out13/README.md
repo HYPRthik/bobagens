@@ -149,6 +149,73 @@ Piso realista: ~300 pontos (só as com número). Teto: ~1.350.
 quando a linha não tem logradouro mas tem CEP, busca a rua e usa. O cache fica
 em disco, então rodar duas vezes não repete a rede.
 
+## O retorno do v2 — o número de porta, medido em mil linhas
+
+**233 aprovadas**, contra 44 do upload anterior. E a separação responde a
+pergunta que estava em aberto desde o começo:
+
+| Origem da linha | Enviadas | OK | Taxa |
+|---|---:|---:|---:|
+| já aprovada antes (mantida byte a byte) | 44 | 44 | **100%** |
+| logradouro do CEP **+ número** | 308 | 188 | **61%** |
+| logradouro do CEP, **sem número** | 1.026 | 1 | **0,1%** |
+| nome do POI (CEP sem registro) | 24 | 0 | 0% |
+
+**Rua sem número de porta não vale nada** — 1 em 1.026. A trava dos aprovados
+funcionou: as 44 voltaram 44.
+
+Os 61% das linhas com número não são limitação do meu dado: separando as 188
+aprovações das 123 falhas por tipo de via, cidade, tamanho do nome da rua e CEP
+genérico, **nenhuma variável separa os dois grupos**. É alcance do
+geocodificador da DSP.
+
+## Por que não dá para achar o número de porta nesta base
+
+- **CNPJ:** a base tem o CNPJ das 1.606 lojas, e o cadastro da Receita traz
+  logradouro e número exatos. Testei minhareceita, cnpj.ws, ReceitaWS,
+  BrasilAPI e CNPJá — **todas bloqueadas** pela política de rede.
+- **CEP vizinho:** 949 das 1.026 linhas sem número têm CEP *sem* complemento, o
+  que significa que a rua inteira cabe num CEP só. Testei 40 casos buscando os
+  CEPs numericamente vizinhos: **0 de 40** eram a mesma rua. Não há de quem
+  emprestar a faixa.
+- **OpenStreetMap / Nominatim / Overpass:** bloqueados.
+
+## v3: as estratégias que faltavam testar
+
+Como essas 1.025 linhas hoje valem 0,1%, **qualquer coisa que se tente nelas é
+ganho**. O v3 divide as que falharam em células e o próprio retorno mede qual
+funciona — sem gastar um teste à parte, porque toda linha continua sendo uma
+loja real da audiência.
+
+`upload/copa_glp_v3.txt` — 1.381 linhas:
+
+| Célula | Formato | Linhas |
+|---|---|---:|
+| — | já aprovadas pela DSP, byte a byte | 233 |
+| N1 | `rua 100 cidade UF CEP` | 251 |
+| N2 | `rua 1 cidade UF CEP` | 250 |
+| N3 | `rua bairro cidade UF CEP` | 250 |
+| N4 | `rua 100 bairro cidade UF CEP` | 250 |
+| F1 | as 123 que tinham número e falharam, agora com bairro | 123 |
+| — | nome do POI (CEP sem registro) | 24 |
+
+### O número inventado — o que isso significa
+
+Em N1, N2 e N4 o número de porta é **inventado**: 751 linhas. A loja está
+naquela rua e o CEP cobre a rua inteira, então o ponto cai dentro do trecho
+certo — mas não é o número da loja. A conferência marca cada uma em
+`numero_inventado`.
+
+O erro que isso introduz é limitado pelo tamanho do CEP, e o CEP é apertado:
+**93% dos CEPs desta base ficam a menos de 2 km da coordenada da loja**. Para
+um geofence por raio, o ponto cai no trecho certo da rua. É a mesma lógica já
+usada e declarada nos pontos de OOH, levada um passo adiante — e por isso está
+rotulada, não embutida em silêncio.
+
+Se preferir não subir número inventado, as células N3 (rua + bairro) e F1 não
+têm nenhum, e as 233 aprovadas continuam intactas: dá para subir só essas 606
+linhas. **Mas as 751 restantes valem 0,1% do jeito que estão.**
+
 ## A pista que continua valendo
 
 **919 das 1.606 linhas têm `Precisão da coordenada = "numero"`.** O sistema que

@@ -50,11 +50,11 @@ coordenada. O retorno da DSP para a base GLP mediu o que isso custa:
 
 | O que a linha tinha | Aprovadas |
 |---|---:|
-| rua + número + cidade + UF + CEP | **37 de 39 — 95%** |
-| rua sem número | 1 de 5 — 20% (amostra contaminada, veja abaixo) |
+| rua + número + cidade + UF + CEP | **37 de 39 — 95%**, e 188 de 308 — 61% no upload seguinte |
+| rua sem número | **1 de 1.026 — 0,1%** |
 | só o nome do POI + cidade + UF + CEP | **6 de 1.534 — 0,4%** |
 
-Sem logradouro não há formato que salve. Então a flag busca a rua pelo CEP:
+Sem logradouro não há formato que salve — e **sem número de porta também não**: numa amostra de 1.026 linhas com rua correta e sem número, passou 1. Então a flag busca a rua pelo CEP:
 
 ```
 python3 geofence.py base_sem_endereco.csv --cep-logradouro
