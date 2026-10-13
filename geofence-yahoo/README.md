@@ -63,9 +63,16 @@ Marca o que a DSP historicamente rejeita, com percentuais medidos no retorno rea
 - Máximo **10.000 endereços** por line item e por arquivo. Acima disso a saída se
   divide em `_parte1`, `_parte2`, ...
 - **Caracteres especiais podem dar erro** (`é`, `à`, `ç`, `#`, `-`). A saída é
-  ASCII puro: só letras, dígitos e espaço.
+  ASCII puro: só letras, dígitos e espaço. Medido na base GLP: as mesmas 59
+  linhas com `14066-446` deram **100% "Incomplete address"**, e com `14066446`
+  deram "Cannot match" — ou seja, o hífen faz a DSP **nem parsear** a linha.
 - Só **Airports, Arena / Stadiums e Universities / Colleges** podem ser enviados
-  pelo nome do POI. Qualquer outra categoria exige endereço completo.
+  pelo nome do POI. Qualquer outra categoria exige endereço completo. Quando não
+  há logradouro, ainda assim **vale mandar o nome na frente**: na mesma base,
+  com nome 58 de 60 chegaram em "Cannot match" (a DSP leu a linha) contra
+  metade em "Incomplete address" sem nome. Não substitui a rua — 1,7% contra
+  0% — mas é melhor que o vazio. Medição em
+  `copa-energia-dsp/glp_out13/README.md`.
 
 ## O que ele resolve sozinho
 
