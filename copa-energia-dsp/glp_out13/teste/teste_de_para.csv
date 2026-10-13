@@ -1,0 +1,241 @@
+﻿variante;linha_dsp;cnpj;nome_loja;cidade;uf;cep
+A_cidade_uf_cep;Ribeirao Preto SP 14066446 Brazil;11.433.325/0001-84;Fran-Gas;Ribeirão Preto;SP;14066446
+A_cidade_uf_cep;Guarulhos SP 07179350 Brazil;13.532.686/0001-03;Laras Jk;Guarulhos;SP;07179350
+A_cidade_uf_cep;Diadema SP 09940200 Brazil;55.304.065/0001-12;Ultramax Comercio Varejista De Gas;Diadema;SP;09940200
+A_cidade_uf_cep;Porto Alegre RS 90880460 Brazil;55.296.931/0001-70;Azenha Gas;Porto Alegre;RS;90880460
+A_cidade_uf_cep;Brusque SC 88355350 Brazil;48.228.469/0002-90;M.e Comercio De Gas E Agua E Conveniencia - Ltda;Brusque;SC;88355350
+A_cidade_uf_cep;Chapeco SC 89801346 Brazil;08.404.664/0001-28;Conda Gas;Chapecó;SC;89801346
+A_cidade_uf_cep;Campinas SP 13054101 Brazil;52.563.563/0001-91;St Jacauna Comercio De Glp Ltda;Campinas;SP;13054101
+A_cidade_uf_cep;Rio Grande RS 96203200 Brazil;10.376.024/0001-01;Renan De Lima Senna;Rio Grande;RS;96203200
+A_cidade_uf_cep;Porto Alegre RS 90660340 Brazil;53.883.916/0001-01;Ligue - Gas Do Partenon;Porto Alegre;RS;90660340
+A_cidade_uf_cep;Guarulhos SP 07112020 Brazil;06.340.638/0001-58;Villa's Comercio De Gas;Guarulhos;SP;07112020
+A_cidade_uf_cep;Guarulhos SP 07085460 Brazil;09.526.599/0001-76;Crystal Gas;Guarulhos;SP;07085460
+A_cidade_uf_cep;Campinas SP 13060858 Brazil;52.134.511/0001-08;St Juscelino Comercio De Glp Ltda;Campinas;SP;13060858
+A_cidade_uf_cep;Presidente Prudente SP 19020530 Brazil;61.021.938/0001-82;Mgb Comercio De Gas E Agua Ltda;Presidente Prudente;SP;19020530
+A_cidade_uf_cep;Campinas SP 13059301 Brazil;08.408.906/0001-51;Sul America Gas;Campinas;SP;13059301
+A_cidade_uf_cep;Campinas SP 13101150 Brazil;06.048.790/0008-38;Universitario Distribuidora De Gas Ltda;Campinas;SP;13101150
+A_cidade_uf_cep;Palhoca SC 88134454 Brazil;03.769.418/0001-56;S & F Multivarejo Comercio De Gas Ltda;Palhoça;SC;88134454
+A_cidade_uf_cep;Porto Alegre RS 91787889 Brazil;39.520.958/0001-49;Royal Gas;Porto Alegre;RS;91787889
+A_cidade_uf_cep;Palhoca SC 88136300 Brazil;09.174.686/0007-05;Chama Gas Distribuidora Ltda.;Palhoça;SC;88136300
+A_cidade_uf_cep;Porto Alegre RS 91740800 Brazil;63.223.984/0001-90;Energia Gas;Porto Alegre;RS;91740800
+A_cidade_uf_cep;Campinas SP 13057500 Brazil;13.754.596/0001-67;Sebastiao Sousa Lopes Distribuidora De Gas;Campinas;SP;13057500
+A_cidade_uf_cep;Guarulhos SP 07242190 Brazil;01.468.256/0001-90;Internunes;Guarulhos;SP;07242190
+A_cidade_uf_cep;Rio Grande RS 96212660 Brazil;28.989.114/0001-25;Alex Sandro Das Neves Serra;Rio Grande;RS;96212660
+A_cidade_uf_cep;Florianopolis SC 88058400 Brazil;06.006.453/0001-01;Rapidinho Gas & Agua;Florianópolis;SC;88058400
+A_cidade_uf_cep;Porto Alegre RS 91540220 Brazil;48.485.884/0001-48;Atacadao Do Gas Ltda;Porto Alegre;RS;91540220
+A_cidade_uf_cep;Sao Caetano do Sul SP 09561200 Brazil;00.167.086/0001-41;S. Caetano;São Caetano do Sul;SP;09561200
+A_cidade_uf_cep;Aracaju SE 49072630 Brazil;12.735.067/0001-53;Disk Gas Da Sandra;Aracaju;SE;49072630
+A_cidade_uf_cep;Campinas SP 13058378 Brazil;04.393.055/0001-60;Hipergas;Campinas;SP;13058378
+A_cidade_uf_cep;Itajai SC 88310320 Brazil;79.674.446/0002-32;Canisio & Filhos;Itajaí;SC;88310320
+A_cidade_uf_cep;Franca SP 14406340 Brazil;11.583.182/0001-97;Luciano Cardozo Distribuidora De Gas Ltda;Franca;SP;14406340
+A_cidade_uf_cep;Franca SP 14402303 Brazil;30.808.179/0001-79;Luizao Do Gas;Franca;SP;14402303
+A_cidade_uf_cep;Ribeirao Preto SP 14060540 Brazil;29.796.189/0001-52;Marcio Gas;Ribeirão Preto;SP;14060540
+A_cidade_uf_cep;Presidente Prudente SP 19023340 Brazil;06.208.596/0001-04;Deposito Ferrerinha - Gas - Agua - Racao;Presidente Prudente;SP;19023340
+A_cidade_uf_cep;Palhoca SC 88130005 Brazil;78.813.680/0004-00;Sul Gas Ltda;Palhoça;SC;88130005
+A_cidade_uf_cep;Barueri SP 06449300 Brazil;11.342.217/0001-04;Jose Rogerio Galvao Gas;Barueri;SP;06449300
+A_cidade_uf_cep;Itajai SC 88312160 Brazil;21.400.059/0001-47;Toque Gas E Agua;Itajaí;SC;88312160
+A_cidade_uf_cep;Jacarei SP 12316090 Brazil;10.490.081/0001-09;Marcelo Marques Dos Santos Gas;Jacareí;SP;12316090
+A_cidade_uf_cep;Rio Grande RS 96215270 Brazil;34.166.719/0001-19;Ricardo Ceiglinsky;Rio Grande;RS;96215270
+A_cidade_uf_cep;Ribeirao Preto SP 14030250 Brazil;64.754.518/0001-01;Capetti Gas;Ribeirão Preto;SP;14030250
+A_cidade_uf_cep;Guarulhos SP 07262160 Brazil;42.000.223/0001-07;Itaim Gas;Guarulhos;SP;07262160
+A_cidade_uf_cep;Diadema SP 09972260 Brazil;43.401.930/0001-60;Multigas;Diadema;SP;09972260
+A_cidade_uf_cep;Aracaju SE 49055620 Brazil;28.941.526/0001-95;Central Gas;Aracaju;SE;49055620
+A_cidade_uf_cep;Campinas SP 13091140 Brazil;54.130.549/0001-20;Alo Gas Flamboyant;Campinas;SP;13091140
+A_cidade_uf_cep;Franco da Rocha SP 07809040 Brazil;22.607.110/0001-59;Bella Agua;Franco da Rocha;SP;07809040
+A_cidade_uf_cep;Rio Grande RS 96212710 Brazil;28.976.172/0001-14;Mano Gas;Rio Grande;RS;96212710
+A_cidade_uf_cep;Guarulhos SP 07175090 Brazil;51.669.594/0001-69;Leo Do Gas;Guarulhos;SP;07175090
+A_cidade_uf_cep;Palhoca SC 88130005 Brazil;16.520.350/0001-19;Jg Gas Ltda;Palhoça;SC;88130005
+A_cidade_uf_cep;Ferraz de Vasconcelos SP 08534120 Brazil;52.891.912/0001-02;Santo Antonio Gas;Ferraz de Vasconcelos;SP;08534120
+A_cidade_uf_cep;Aracaju SE 49087100 Brazil;05.499.091/0001-75;Supergas Do Nordeste;Aracaju;SE;49087100
+A_cidade_uf_cep;Porto Alegre RS 91787660 Brazil;20.426.873/0001-78;Maicon Ferreira Machado;Porto Alegre;RS;91787660
+A_cidade_uf_cep;Ribeirao Preto SP 14070310 Brazil;47.219.012/0001-75;Araujo Gas Ltda;Ribeirão Preto;SP;14070310
+A_cidade_uf_cep;Rio Grande RS 96207660 Brazil;94.852.753/0001-79;Karpinski Ltda;Rio Grande;RS;96207660
+A_cidade_uf_cep;Porto Alegre RS 90660080 Brazil;50.979.477/0001-39;Vip Distribuidora 24 Horas Ltda;Porto Alegre;RS;90660080
+A_cidade_uf_cep;Chapeco SC 89812475 Brazil;11.592.192/0001-99;Vs Comercio De Gas Ltda;Chapecó;SC;89812475
+A_cidade_uf_cep;Carapicuiba SP 06365693 Brazil;55.792.693/0001-94;Mazzaropi Distribuidora De Gas E Agua;Carapicuíba;SP;06365693
+A_cidade_uf_cep;Aracaju SE 49065640 Brazil;30.746.720/0001-61;Max Comercio De Gas;Aracaju;SE;49065640
+A_cidade_uf_cep;Palhoca SC 88135700 Brazil;42.133.807/0001-42;Leinad Comercio De Gas E Agua;Palhoça;SC;88135700
+A_cidade_uf_cep;Barueri SP 06436160 Brazil;48.578.043/0001-85;Jp Gas E Agua;Barueri;SP;06436160
+A_cidade_uf_cep;Porto Alegre RS 90660001 Brazil;63.588.851/0001-17;Bapa Comercio De Gas Ltda;Porto Alegre;RS;90660001
+A_cidade_uf_cep;Botucatu SP 18600040 Brazil;06.124.988/0007-72;Ultraexpress;Botucatu;SP;18600040
+A_cidade_uf_cep;Limeira SP 13483225 Brazil;29.925.067/0001-19;Rita Do Carmo Oliveira Bicas;Limeira;SP;13483225
+B_cep_cidade_uf;14066446 Ribeirao Preto SP Brazil;11.433.325/0001-84;Fran-Gas;Ribeirão Preto;SP;14066446
+B_cep_cidade_uf;07179350 Guarulhos SP Brazil;13.532.686/0001-03;Laras Jk;Guarulhos;SP;07179350
+B_cep_cidade_uf;09940200 Diadema SP Brazil;55.304.065/0001-12;Ultramax Comercio Varejista De Gas;Diadema;SP;09940200
+B_cep_cidade_uf;90880460 Porto Alegre RS Brazil;55.296.931/0001-70;Azenha Gas;Porto Alegre;RS;90880460
+B_cep_cidade_uf;88355350 Brusque SC Brazil;48.228.469/0002-90;M.e Comercio De Gas E Agua E Conveniencia - Ltda;Brusque;SC;88355350
+B_cep_cidade_uf;89801346 Chapeco SC Brazil;08.404.664/0001-28;Conda Gas;Chapecó;SC;89801346
+B_cep_cidade_uf;13054101 Campinas SP Brazil;52.563.563/0001-91;St Jacauna Comercio De Glp Ltda;Campinas;SP;13054101
+B_cep_cidade_uf;96203200 Rio Grande RS Brazil;10.376.024/0001-01;Renan De Lima Senna;Rio Grande;RS;96203200
+B_cep_cidade_uf;90660340 Porto Alegre RS Brazil;53.883.916/0001-01;Ligue - Gas Do Partenon;Porto Alegre;RS;90660340
+B_cep_cidade_uf;07112020 Guarulhos SP Brazil;06.340.638/0001-58;Villa's Comercio De Gas;Guarulhos;SP;07112020
+B_cep_cidade_uf;07085460 Guarulhos SP Brazil;09.526.599/0001-76;Crystal Gas;Guarulhos;SP;07085460
+B_cep_cidade_uf;13060858 Campinas SP Brazil;52.134.511/0001-08;St Juscelino Comercio De Glp Ltda;Campinas;SP;13060858
+B_cep_cidade_uf;19020530 Presidente Prudente SP Brazil;61.021.938/0001-82;Mgb Comercio De Gas E Agua Ltda;Presidente Prudente;SP;19020530
+B_cep_cidade_uf;13059301 Campinas SP Brazil;08.408.906/0001-51;Sul America Gas;Campinas;SP;13059301
+B_cep_cidade_uf;13101150 Campinas SP Brazil;06.048.790/0008-38;Universitario Distribuidora De Gas Ltda;Campinas;SP;13101150
+B_cep_cidade_uf;88134454 Palhoca SC Brazil;03.769.418/0001-56;S & F Multivarejo Comercio De Gas Ltda;Palhoça;SC;88134454
+B_cep_cidade_uf;91787889 Porto Alegre RS Brazil;39.520.958/0001-49;Royal Gas;Porto Alegre;RS;91787889
+B_cep_cidade_uf;88136300 Palhoca SC Brazil;09.174.686/0007-05;Chama Gas Distribuidora Ltda.;Palhoça;SC;88136300
+B_cep_cidade_uf;91740800 Porto Alegre RS Brazil;63.223.984/0001-90;Energia Gas;Porto Alegre;RS;91740800
+B_cep_cidade_uf;13057500 Campinas SP Brazil;13.754.596/0001-67;Sebastiao Sousa Lopes Distribuidora De Gas;Campinas;SP;13057500
+B_cep_cidade_uf;07242190 Guarulhos SP Brazil;01.468.256/0001-90;Internunes;Guarulhos;SP;07242190
+B_cep_cidade_uf;96212660 Rio Grande RS Brazil;28.989.114/0001-25;Alex Sandro Das Neves Serra;Rio Grande;RS;96212660
+B_cep_cidade_uf;88058400 Florianopolis SC Brazil;06.006.453/0001-01;Rapidinho Gas & Agua;Florianópolis;SC;88058400
+B_cep_cidade_uf;91540220 Porto Alegre RS Brazil;48.485.884/0001-48;Atacadao Do Gas Ltda;Porto Alegre;RS;91540220
+B_cep_cidade_uf;09561200 Sao Caetano do Sul SP Brazil;00.167.086/0001-41;S. Caetano;São Caetano do Sul;SP;09561200
+B_cep_cidade_uf;49072630 Aracaju SE Brazil;12.735.067/0001-53;Disk Gas Da Sandra;Aracaju;SE;49072630
+B_cep_cidade_uf;13058378 Campinas SP Brazil;04.393.055/0001-60;Hipergas;Campinas;SP;13058378
+B_cep_cidade_uf;88310320 Itajai SC Brazil;79.674.446/0002-32;Canisio & Filhos;Itajaí;SC;88310320
+B_cep_cidade_uf;14406340 Franca SP Brazil;11.583.182/0001-97;Luciano Cardozo Distribuidora De Gas Ltda;Franca;SP;14406340
+B_cep_cidade_uf;14402303 Franca SP Brazil;30.808.179/0001-79;Luizao Do Gas;Franca;SP;14402303
+B_cep_cidade_uf;14060540 Ribeirao Preto SP Brazil;29.796.189/0001-52;Marcio Gas;Ribeirão Preto;SP;14060540
+B_cep_cidade_uf;19023340 Presidente Prudente SP Brazil;06.208.596/0001-04;Deposito Ferrerinha - Gas - Agua - Racao;Presidente Prudente;SP;19023340
+B_cep_cidade_uf;88130005 Palhoca SC Brazil;78.813.680/0004-00;Sul Gas Ltda;Palhoça;SC;88130005
+B_cep_cidade_uf;06449300 Barueri SP Brazil;11.342.217/0001-04;Jose Rogerio Galvao Gas;Barueri;SP;06449300
+B_cep_cidade_uf;88312160 Itajai SC Brazil;21.400.059/0001-47;Toque Gas E Agua;Itajaí;SC;88312160
+B_cep_cidade_uf;12316090 Jacarei SP Brazil;10.490.081/0001-09;Marcelo Marques Dos Santos Gas;Jacareí;SP;12316090
+B_cep_cidade_uf;96215270 Rio Grande RS Brazil;34.166.719/0001-19;Ricardo Ceiglinsky;Rio Grande;RS;96215270
+B_cep_cidade_uf;14030250 Ribeirao Preto SP Brazil;64.754.518/0001-01;Capetti Gas;Ribeirão Preto;SP;14030250
+B_cep_cidade_uf;07262160 Guarulhos SP Brazil;42.000.223/0001-07;Itaim Gas;Guarulhos;SP;07262160
+B_cep_cidade_uf;09972260 Diadema SP Brazil;43.401.930/0001-60;Multigas;Diadema;SP;09972260
+B_cep_cidade_uf;49055620 Aracaju SE Brazil;28.941.526/0001-95;Central Gas;Aracaju;SE;49055620
+B_cep_cidade_uf;13091140 Campinas SP Brazil;54.130.549/0001-20;Alo Gas Flamboyant;Campinas;SP;13091140
+B_cep_cidade_uf;07809040 Franco da Rocha SP Brazil;22.607.110/0001-59;Bella Agua;Franco da Rocha;SP;07809040
+B_cep_cidade_uf;96212710 Rio Grande RS Brazil;28.976.172/0001-14;Mano Gas;Rio Grande;RS;96212710
+B_cep_cidade_uf;07175090 Guarulhos SP Brazil;51.669.594/0001-69;Leo Do Gas;Guarulhos;SP;07175090
+B_cep_cidade_uf;88130005 Palhoca SC Brazil;16.520.350/0001-19;Jg Gas Ltda;Palhoça;SC;88130005
+B_cep_cidade_uf;08534120 Ferraz de Vasconcelos SP Brazil;52.891.912/0001-02;Santo Antonio Gas;Ferraz de Vasconcelos;SP;08534120
+B_cep_cidade_uf;49087100 Aracaju SE Brazil;05.499.091/0001-75;Supergas Do Nordeste;Aracaju;SE;49087100
+B_cep_cidade_uf;91787660 Porto Alegre RS Brazil;20.426.873/0001-78;Maicon Ferreira Machado;Porto Alegre;RS;91787660
+B_cep_cidade_uf;14070310 Ribeirao Preto SP Brazil;47.219.012/0001-75;Araujo Gas Ltda;Ribeirão Preto;SP;14070310
+B_cep_cidade_uf;96207660 Rio Grande RS Brazil;94.852.753/0001-79;Karpinski Ltda;Rio Grande;RS;96207660
+B_cep_cidade_uf;90660080 Porto Alegre RS Brazil;50.979.477/0001-39;Vip Distribuidora 24 Horas Ltda;Porto Alegre;RS;90660080
+B_cep_cidade_uf;89812475 Chapeco SC Brazil;11.592.192/0001-99;Vs Comercio De Gas Ltda;Chapecó;SC;89812475
+B_cep_cidade_uf;06365693 Carapicuiba SP Brazil;55.792.693/0001-94;Mazzaropi Distribuidora De Gas E Agua;Carapicuíba;SP;06365693
+B_cep_cidade_uf;49065640 Aracaju SE Brazil;30.746.720/0001-61;Max Comercio De Gas;Aracaju;SE;49065640
+B_cep_cidade_uf;88135700 Palhoca SC Brazil;42.133.807/0001-42;Leinad Comercio De Gas E Agua;Palhoça;SC;88135700
+B_cep_cidade_uf;06436160 Barueri SP Brazil;48.578.043/0001-85;Jp Gas E Agua;Barueri;SP;06436160
+B_cep_cidade_uf;90660001 Porto Alegre RS Brazil;63.588.851/0001-17;Bapa Comercio De Gas Ltda;Porto Alegre;RS;90660001
+B_cep_cidade_uf;18600040 Botucatu SP Brazil;06.124.988/0007-72;Ultraexpress;Botucatu;SP;18600040
+B_cep_cidade_uf;13483225 Limeira SP Brazil;29.925.067/0001-19;Rita Do Carmo Oliveira Bicas;Limeira;SP;13483225
+C_nome_cidade_cep;Fran Gas Ribeirao Preto SP 14066446 Brazil;11.433.325/0001-84;Fran-Gas;Ribeirão Preto;SP;14066446
+C_nome_cidade_cep;Laras Jk Guarulhos SP 07179350 Brazil;13.532.686/0001-03;Laras Jk;Guarulhos;SP;07179350
+C_nome_cidade_cep;Ultramax Comercio Varejista De Gas Diadema SP 09940200 Brazil;55.304.065/0001-12;Ultramax Comercio Varejista De Gas;Diadema;SP;09940200
+C_nome_cidade_cep;Azenha Gas Porto Alegre RS 90880460 Brazil;55.296.931/0001-70;Azenha Gas;Porto Alegre;RS;90880460
+C_nome_cidade_cep;M e Comercio De Gas E Agua E Conveniencia Ltda Brusque SC 88355350 Brazil;48.228.469/0002-90;M.e Comercio De Gas E Agua E Conveniencia - Ltda;Brusque;SC;88355350
+C_nome_cidade_cep;Conda Gas Chapeco SC 89801346 Brazil;08.404.664/0001-28;Conda Gas;Chapecó;SC;89801346
+C_nome_cidade_cep;St Jacauna Comercio De Glp Ltda Campinas SP 13054101 Brazil;52.563.563/0001-91;St Jacauna Comercio De Glp Ltda;Campinas;SP;13054101
+C_nome_cidade_cep;Renan De Lima Senna Rio Grande RS 96203200 Brazil;10.376.024/0001-01;Renan De Lima Senna;Rio Grande;RS;96203200
+C_nome_cidade_cep;Ligue Gas Do Partenon Porto Alegre RS 90660340 Brazil;53.883.916/0001-01;Ligue - Gas Do Partenon;Porto Alegre;RS;90660340
+C_nome_cidade_cep;Villa s Comercio De Gas Guarulhos SP 07112020 Brazil;06.340.638/0001-58;Villa's Comercio De Gas;Guarulhos;SP;07112020
+C_nome_cidade_cep;Crystal Gas Guarulhos SP 07085460 Brazil;09.526.599/0001-76;Crystal Gas;Guarulhos;SP;07085460
+C_nome_cidade_cep;St Juscelino Comercio De Glp Ltda Campinas SP 13060858 Brazil;52.134.511/0001-08;St Juscelino Comercio De Glp Ltda;Campinas;SP;13060858
+C_nome_cidade_cep;Mgb Comercio De Gas E Agua Ltda Presidente Prudente SP 19020530 Brazil;61.021.938/0001-82;Mgb Comercio De Gas E Agua Ltda;Presidente Prudente;SP;19020530
+C_nome_cidade_cep;Sul America Gas Campinas SP 13059301 Brazil;08.408.906/0001-51;Sul America Gas;Campinas;SP;13059301
+C_nome_cidade_cep;Universitario Distribuidora De Gas Ltda Campinas SP 13101150 Brazil;06.048.790/0008-38;Universitario Distribuidora De Gas Ltda;Campinas;SP;13101150
+C_nome_cidade_cep;S F Multivarejo Comercio De Gas Ltda Palhoca SC 88134454 Brazil;03.769.418/0001-56;S & F Multivarejo Comercio De Gas Ltda;Palhoça;SC;88134454
+C_nome_cidade_cep;Royal Gas Porto Alegre RS 91787889 Brazil;39.520.958/0001-49;Royal Gas;Porto Alegre;RS;91787889
+C_nome_cidade_cep;Chama Gas Distribuidora Ltda Palhoca SC 88136300 Brazil;09.174.686/0007-05;Chama Gas Distribuidora Ltda.;Palhoça;SC;88136300
+C_nome_cidade_cep;Energia Gas Porto Alegre RS 91740800 Brazil;63.223.984/0001-90;Energia Gas;Porto Alegre;RS;91740800
+C_nome_cidade_cep;Sebastiao Sousa Lopes Distribuidora De Gas Campinas SP 13057500 Brazil;13.754.596/0001-67;Sebastiao Sousa Lopes Distribuidora De Gas;Campinas;SP;13057500
+C_nome_cidade_cep;Internunes Guarulhos SP 07242190 Brazil;01.468.256/0001-90;Internunes;Guarulhos;SP;07242190
+C_nome_cidade_cep;Alex Sandro Das Neves Serra Rio Grande RS 96212660 Brazil;28.989.114/0001-25;Alex Sandro Das Neves Serra;Rio Grande;RS;96212660
+C_nome_cidade_cep;Rapidinho Gas Agua Florianopolis SC 88058400 Brazil;06.006.453/0001-01;Rapidinho Gas & Agua;Florianópolis;SC;88058400
+C_nome_cidade_cep;Atacadao Do Gas Ltda Porto Alegre RS 91540220 Brazil;48.485.884/0001-48;Atacadao Do Gas Ltda;Porto Alegre;RS;91540220
+C_nome_cidade_cep;S Caetano Sao Caetano do Sul SP 09561200 Brazil;00.167.086/0001-41;S. Caetano;São Caetano do Sul;SP;09561200
+C_nome_cidade_cep;Disk Gas Da Sandra Aracaju SE 49072630 Brazil;12.735.067/0001-53;Disk Gas Da Sandra;Aracaju;SE;49072630
+C_nome_cidade_cep;Hipergas Campinas SP 13058378 Brazil;04.393.055/0001-60;Hipergas;Campinas;SP;13058378
+C_nome_cidade_cep;Canisio Filhos Itajai SC 88310320 Brazil;79.674.446/0002-32;Canisio & Filhos;Itajaí;SC;88310320
+C_nome_cidade_cep;Luciano Cardozo Distribuidora De Gas Ltda Franca SP 14406340 Brazil;11.583.182/0001-97;Luciano Cardozo Distribuidora De Gas Ltda;Franca;SP;14406340
+C_nome_cidade_cep;Luizao Do Gas Franca SP 14402303 Brazil;30.808.179/0001-79;Luizao Do Gas;Franca;SP;14402303
+C_nome_cidade_cep;Marcio Gas Ribeirao Preto SP 14060540 Brazil;29.796.189/0001-52;Marcio Gas;Ribeirão Preto;SP;14060540
+C_nome_cidade_cep;Deposito Ferrerinha Gas Agua Racao Presidente Prudente SP 19023340 Brazil;06.208.596/0001-04;Deposito Ferrerinha - Gas - Agua - Racao;Presidente Prudente;SP;19023340
+C_nome_cidade_cep;Sul Gas Ltda Palhoca SC 88130005 Brazil;78.813.680/0004-00;Sul Gas Ltda;Palhoça;SC;88130005
+C_nome_cidade_cep;Jose Rogerio Galvao Gas Barueri SP 06449300 Brazil;11.342.217/0001-04;Jose Rogerio Galvao Gas;Barueri;SP;06449300
+C_nome_cidade_cep;Toque Gas E Agua Itajai SC 88312160 Brazil;21.400.059/0001-47;Toque Gas E Agua;Itajaí;SC;88312160
+C_nome_cidade_cep;Marcelo Marques Dos Santos Gas Jacarei SP 12316090 Brazil;10.490.081/0001-09;Marcelo Marques Dos Santos Gas;Jacareí;SP;12316090
+C_nome_cidade_cep;Ricardo Ceiglinsky Rio Grande RS 96215270 Brazil;34.166.719/0001-19;Ricardo Ceiglinsky;Rio Grande;RS;96215270
+C_nome_cidade_cep;Capetti Gas Ribeirao Preto SP 14030250 Brazil;64.754.518/0001-01;Capetti Gas;Ribeirão Preto;SP;14030250
+C_nome_cidade_cep;Itaim Gas Guarulhos SP 07262160 Brazil;42.000.223/0001-07;Itaim Gas;Guarulhos;SP;07262160
+C_nome_cidade_cep;Multigas Diadema SP 09972260 Brazil;43.401.930/0001-60;Multigas;Diadema;SP;09972260
+C_nome_cidade_cep;Central Gas Aracaju SE 49055620 Brazil;28.941.526/0001-95;Central Gas;Aracaju;SE;49055620
+C_nome_cidade_cep;Alo Gas Flamboyant Campinas SP 13091140 Brazil;54.130.549/0001-20;Alo Gas Flamboyant;Campinas;SP;13091140
+C_nome_cidade_cep;Bella Agua Franco da Rocha SP 07809040 Brazil;22.607.110/0001-59;Bella Agua;Franco da Rocha;SP;07809040
+C_nome_cidade_cep;Mano Gas Rio Grande RS 96212710 Brazil;28.976.172/0001-14;Mano Gas;Rio Grande;RS;96212710
+C_nome_cidade_cep;Leo Do Gas Guarulhos SP 07175090 Brazil;51.669.594/0001-69;Leo Do Gas;Guarulhos;SP;07175090
+C_nome_cidade_cep;Jg Gas Ltda Palhoca SC 88130005 Brazil;16.520.350/0001-19;Jg Gas Ltda;Palhoça;SC;88130005
+C_nome_cidade_cep;Santo Antonio Gas Ferraz de Vasconcelos SP 08534120 Brazil;52.891.912/0001-02;Santo Antonio Gas;Ferraz de Vasconcelos;SP;08534120
+C_nome_cidade_cep;Supergas Do Nordeste Aracaju SE 49087100 Brazil;05.499.091/0001-75;Supergas Do Nordeste;Aracaju;SE;49087100
+C_nome_cidade_cep;Maicon Ferreira Machado Porto Alegre RS 91787660 Brazil;20.426.873/0001-78;Maicon Ferreira Machado;Porto Alegre;RS;91787660
+C_nome_cidade_cep;Araujo Gas Ltda Ribeirao Preto SP 14070310 Brazil;47.219.012/0001-75;Araujo Gas Ltda;Ribeirão Preto;SP;14070310
+C_nome_cidade_cep;Karpinski Ltda Rio Grande RS 96207660 Brazil;94.852.753/0001-79;Karpinski Ltda;Rio Grande;RS;96207660
+C_nome_cidade_cep;Vip Distribuidora 24 Horas Ltda Porto Alegre RS 90660080 Brazil;50.979.477/0001-39;Vip Distribuidora 24 Horas Ltda;Porto Alegre;RS;90660080
+C_nome_cidade_cep;Vs Comercio De Gas Ltda Chapeco SC 89812475 Brazil;11.592.192/0001-99;Vs Comercio De Gas Ltda;Chapecó;SC;89812475
+C_nome_cidade_cep;Mazzaropi Distribuidora De Gas E Agua Carapicuiba SP 06365693 Brazil;55.792.693/0001-94;Mazzaropi Distribuidora De Gas E Agua;Carapicuíba;SP;06365693
+C_nome_cidade_cep;Max Comercio De Gas Aracaju SE 49065640 Brazil;30.746.720/0001-61;Max Comercio De Gas;Aracaju;SE;49065640
+C_nome_cidade_cep;Leinad Comercio De Gas E Agua Palhoca SC 88135700 Brazil;42.133.807/0001-42;Leinad Comercio De Gas E Agua;Palhoça;SC;88135700
+C_nome_cidade_cep;Jp Gas E Agua Barueri SP 06436160 Brazil;48.578.043/0001-85;Jp Gas E Agua;Barueri;SP;06436160
+C_nome_cidade_cep;Bapa Comercio De Gas Ltda Porto Alegre RS 90660001 Brazil;63.588.851/0001-17;Bapa Comercio De Gas Ltda;Porto Alegre;RS;90660001
+C_nome_cidade_cep;Ultraexpress Botucatu SP 18600040 Brazil;06.124.988/0007-72;Ultraexpress;Botucatu;SP;18600040
+C_nome_cidade_cep;Rita Do Carmo Oliveira Bicas Limeira SP 13483225 Brazil;29.925.067/0001-19;Rita Do Carmo Oliveira Bicas;Limeira;SP;13483225
+D_cep_com_hifen;Ribeirao Preto SP 14066-446 Brazil;11.433.325/0001-84;Fran-Gas;Ribeirão Preto;SP;14066446
+D_cep_com_hifen;Guarulhos SP 07179-350 Brazil;13.532.686/0001-03;Laras Jk;Guarulhos;SP;07179350
+D_cep_com_hifen;Diadema SP 09940-200 Brazil;55.304.065/0001-12;Ultramax Comercio Varejista De Gas;Diadema;SP;09940200
+D_cep_com_hifen;Porto Alegre RS 90880-460 Brazil;55.296.931/0001-70;Azenha Gas;Porto Alegre;RS;90880460
+D_cep_com_hifen;Brusque SC 88355-350 Brazil;48.228.469/0002-90;M.e Comercio De Gas E Agua E Conveniencia - Ltda;Brusque;SC;88355350
+D_cep_com_hifen;Chapeco SC 89801-346 Brazil;08.404.664/0001-28;Conda Gas;Chapecó;SC;89801346
+D_cep_com_hifen;Campinas SP 13054-101 Brazil;52.563.563/0001-91;St Jacauna Comercio De Glp Ltda;Campinas;SP;13054101
+D_cep_com_hifen;Rio Grande RS 96203-200 Brazil;10.376.024/0001-01;Renan De Lima Senna;Rio Grande;RS;96203200
+D_cep_com_hifen;Porto Alegre RS 90660-340 Brazil;53.883.916/0001-01;Ligue - Gas Do Partenon;Porto Alegre;RS;90660340
+D_cep_com_hifen;Guarulhos SP 07112-020 Brazil;06.340.638/0001-58;Villa's Comercio De Gas;Guarulhos;SP;07112020
+D_cep_com_hifen;Guarulhos SP 07085-460 Brazil;09.526.599/0001-76;Crystal Gas;Guarulhos;SP;07085460
+D_cep_com_hifen;Campinas SP 13060-858 Brazil;52.134.511/0001-08;St Juscelino Comercio De Glp Ltda;Campinas;SP;13060858
+D_cep_com_hifen;Presidente Prudente SP 19020-530 Brazil;61.021.938/0001-82;Mgb Comercio De Gas E Agua Ltda;Presidente Prudente;SP;19020530
+D_cep_com_hifen;Campinas SP 13059-301 Brazil;08.408.906/0001-51;Sul America Gas;Campinas;SP;13059301
+D_cep_com_hifen;Campinas SP 13101-150 Brazil;06.048.790/0008-38;Universitario Distribuidora De Gas Ltda;Campinas;SP;13101150
+D_cep_com_hifen;Palhoca SC 88134-454 Brazil;03.769.418/0001-56;S & F Multivarejo Comercio De Gas Ltda;Palhoça;SC;88134454
+D_cep_com_hifen;Porto Alegre RS 91787-889 Brazil;39.520.958/0001-49;Royal Gas;Porto Alegre;RS;91787889
+D_cep_com_hifen;Palhoca SC 88136-300 Brazil;09.174.686/0007-05;Chama Gas Distribuidora Ltda.;Palhoça;SC;88136300
+D_cep_com_hifen;Porto Alegre RS 91740-800 Brazil;63.223.984/0001-90;Energia Gas;Porto Alegre;RS;91740800
+D_cep_com_hifen;Campinas SP 13057-500 Brazil;13.754.596/0001-67;Sebastiao Sousa Lopes Distribuidora De Gas;Campinas;SP;13057500
+D_cep_com_hifen;Guarulhos SP 07242-190 Brazil;01.468.256/0001-90;Internunes;Guarulhos;SP;07242190
+D_cep_com_hifen;Rio Grande RS 96212-660 Brazil;28.989.114/0001-25;Alex Sandro Das Neves Serra;Rio Grande;RS;96212660
+D_cep_com_hifen;Florianopolis SC 88058-400 Brazil;06.006.453/0001-01;Rapidinho Gas & Agua;Florianópolis;SC;88058400
+D_cep_com_hifen;Porto Alegre RS 91540-220 Brazil;48.485.884/0001-48;Atacadao Do Gas Ltda;Porto Alegre;RS;91540220
+D_cep_com_hifen;Sao Caetano do Sul SP 09561-200 Brazil;00.167.086/0001-41;S. Caetano;São Caetano do Sul;SP;09561200
+D_cep_com_hifen;Aracaju SE 49072-630 Brazil;12.735.067/0001-53;Disk Gas Da Sandra;Aracaju;SE;49072630
+D_cep_com_hifen;Campinas SP 13058-378 Brazil;04.393.055/0001-60;Hipergas;Campinas;SP;13058378
+D_cep_com_hifen;Itajai SC 88310-320 Brazil;79.674.446/0002-32;Canisio & Filhos;Itajaí;SC;88310320
+D_cep_com_hifen;Franca SP 14406-340 Brazil;11.583.182/0001-97;Luciano Cardozo Distribuidora De Gas Ltda;Franca;SP;14406340
+D_cep_com_hifen;Franca SP 14402-303 Brazil;30.808.179/0001-79;Luizao Do Gas;Franca;SP;14402303
+D_cep_com_hifen;Ribeirao Preto SP 14060-540 Brazil;29.796.189/0001-52;Marcio Gas;Ribeirão Preto;SP;14060540
+D_cep_com_hifen;Presidente Prudente SP 19023-340 Brazil;06.208.596/0001-04;Deposito Ferrerinha - Gas - Agua - Racao;Presidente Prudente;SP;19023340
+D_cep_com_hifen;Palhoca SC 88130-005 Brazil;78.813.680/0004-00;Sul Gas Ltda;Palhoça;SC;88130005
+D_cep_com_hifen;Barueri SP 06449-300 Brazil;11.342.217/0001-04;Jose Rogerio Galvao Gas;Barueri;SP;06449300
+D_cep_com_hifen;Itajai SC 88312-160 Brazil;21.400.059/0001-47;Toque Gas E Agua;Itajaí;SC;88312160
+D_cep_com_hifen;Jacarei SP 12316-090 Brazil;10.490.081/0001-09;Marcelo Marques Dos Santos Gas;Jacareí;SP;12316090
+D_cep_com_hifen;Rio Grande RS 96215-270 Brazil;34.166.719/0001-19;Ricardo Ceiglinsky;Rio Grande;RS;96215270
+D_cep_com_hifen;Ribeirao Preto SP 14030-250 Brazil;64.754.518/0001-01;Capetti Gas;Ribeirão Preto;SP;14030250
+D_cep_com_hifen;Guarulhos SP 07262-160 Brazil;42.000.223/0001-07;Itaim Gas;Guarulhos;SP;07262160
+D_cep_com_hifen;Diadema SP 09972-260 Brazil;43.401.930/0001-60;Multigas;Diadema;SP;09972260
+D_cep_com_hifen;Aracaju SE 49055-620 Brazil;28.941.526/0001-95;Central Gas;Aracaju;SE;49055620
+D_cep_com_hifen;Campinas SP 13091-140 Brazil;54.130.549/0001-20;Alo Gas Flamboyant;Campinas;SP;13091140
+D_cep_com_hifen;Franco da Rocha SP 07809-040 Brazil;22.607.110/0001-59;Bella Agua;Franco da Rocha;SP;07809040
+D_cep_com_hifen;Rio Grande RS 96212-710 Brazil;28.976.172/0001-14;Mano Gas;Rio Grande;RS;96212710
+D_cep_com_hifen;Guarulhos SP 07175-090 Brazil;51.669.594/0001-69;Leo Do Gas;Guarulhos;SP;07175090
+D_cep_com_hifen;Palhoca SC 88130-005 Brazil;16.520.350/0001-19;Jg Gas Ltda;Palhoça;SC;88130005
+D_cep_com_hifen;Ferraz de Vasconcelos SP 08534-120 Brazil;52.891.912/0001-02;Santo Antonio Gas;Ferraz de Vasconcelos;SP;08534120
+D_cep_com_hifen;Aracaju SE 49087-100 Brazil;05.499.091/0001-75;Supergas Do Nordeste;Aracaju;SE;49087100
+D_cep_com_hifen;Porto Alegre RS 91787-660 Brazil;20.426.873/0001-78;Maicon Ferreira Machado;Porto Alegre;RS;91787660
+D_cep_com_hifen;Ribeirao Preto SP 14070-310 Brazil;47.219.012/0001-75;Araujo Gas Ltda;Ribeirão Preto;SP;14070310
+D_cep_com_hifen;Rio Grande RS 96207-660 Brazil;94.852.753/0001-79;Karpinski Ltda;Rio Grande;RS;96207660
+D_cep_com_hifen;Porto Alegre RS 90660-080 Brazil;50.979.477/0001-39;Vip Distribuidora 24 Horas Ltda;Porto Alegre;RS;90660080
+D_cep_com_hifen;Chapeco SC 89812-475 Brazil;11.592.192/0001-99;Vs Comercio De Gas Ltda;Chapecó;SC;89812475
+D_cep_com_hifen;Carapicuiba SP 06365-693 Brazil;55.792.693/0001-94;Mazzaropi Distribuidora De Gas E Agua;Carapicuíba;SP;06365693
+D_cep_com_hifen;Aracaju SE 49065-640 Brazil;30.746.720/0001-61;Max Comercio De Gas;Aracaju;SE;49065640
+D_cep_com_hifen;Palhoca SC 88135-700 Brazil;42.133.807/0001-42;Leinad Comercio De Gas E Agua;Palhoça;SC;88135700
+D_cep_com_hifen;Barueri SP 06436-160 Brazil;48.578.043/0001-85;Jp Gas E Agua;Barueri;SP;06436160
+D_cep_com_hifen;Porto Alegre RS 90660-001 Brazil;63.588.851/0001-17;Bapa Comercio De Gas Ltda;Porto Alegre;RS;90660001
+D_cep_com_hifen;Botucatu SP 18600-040 Brazil;06.124.988/0007-72;Ultraexpress;Botucatu;SP;18600040
+D_cep_com_hifen;Limeira SP 13483-225 Brazil;29.925.067/0001-19;Rita Do Carmo Oliveira Bicas;Limeira;SP;13483225
